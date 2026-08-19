@@ -5,7 +5,7 @@
 import { FormEvent, useState } from "react";
 import { Link, useLocation } from "wouter";
 import { ChevronDown, Menu, Search, ShoppingBag, X } from "lucide-react";
-import { categories } from "@/data/catalog";
+import { categories, products } from "@/data/catalog";
 import { useCart } from "@/contexts/CartContext";
 
 const utilityLinks = [
@@ -57,7 +57,7 @@ export default function SiteHeader() {
         </form>
 
         <div className="header-actions">
-          <Link href="/shop" className="quick-order"><span>Quick order</span><b>Browse 120 lines</b></Link>
+          <Link href="/shop" className="quick-order"><span>Quick order</span><b>Browse {products.length} lines</b></Link>
           <Link href="/cart" className="basket-button" aria-label={`View cart with ${itemCount} items`}>
             <ShoppingBag size={21} /><span><em>{itemCount} items</em><b>{new Intl.NumberFormat("en-GB", { style: "currency", currency: "GBP" }).format(subtotal)}</b></span>
           </Link>

@@ -35,6 +35,11 @@ export const categories: Category[] = [
   { name: "Pets", slug: "pets", summary: "Small pet-care solutions and practical accessories.", accent: "Pet section" },
   { name: "Seasonal", slug: "seasonal", summary: "Flexible lines for seasonal stories and gifting moments.", accent: "Seasonal edit" },
   { name: "Gifts & Gadgets", slug: "gifts-gadgets", summary: "Compact giftable items with point-of-sale potential.", accent: "Impulse friendly" },
+  { name: "Baby & Family", slug: "baby-family", summary: "Practical family essentials selected for everyday use.", accent: "Family lines" },
+  { name: "Electrical Accessories", slug: "electrical-accessories", summary: "Compact power, cable and desk accessories with clear utility.", accent: "Powered basics" },
+  { name: "Household & Cleaning", slug: "household-cleaning", summary: "Useful cleaning and household organisation lines for regular purchase.", accent: "Home upkeep" },
+  { name: "Medical & First Aid", slug: "medical-first-aid", summary: "Simple, non-prescription everyday care and preparation essentials.", accent: "Care ready" },
+  { name: "Party & Events", slug: "party-events", summary: "Easy-to-merchandise celebration and gathering supplies.", accent: "Event edit" },
 ];
 
 const productImages = [
@@ -69,11 +74,29 @@ const productTemplates = [
   ["Mini LED Clip Light", "seasonal", 3.95, "Pack of 6", "A compact ambient accent suitable for seasonal display stories."],
   ["Cable Tidy Kit", "gifts-gadgets", 2.75, "Pack of 10", "Small practical cable organisers with a clear everyday use case."],
   ["Desktop Focus Timer", "gifts-gadgets", 5.5, "Pack of 4", "A compact desk companion for workspaces, study corners and gifting."],
+  ["Easy Grip Snack Pot", "baby-family", 3.45, "Pack of 6", "A compact lidded snack pot designed for simple family routines."],
+  ["Soft Touch Bib Clip", "baby-family", 2.35, "Pack of 10", "A lightweight everyday accessory with an easy, practical purpose."],
+  ["Braided Charge Lead", "electrical-accessories", 3.95, "Pack of 6", "A compact charging and cable-management line for daily desk use."],
+  ["Multi-Port Desk Hub", "electrical-accessories", 7.25, "Pack of 4", "A tidy multi-port accessory chosen for home-office and travel displays."],
+  ["Refillable Spray Bottle", "household-cleaning", 2.65, "Pack of 8", "A simple reusable household bottle with clear practical utility."],
+  ["Scrub Pad Bundle", "household-cleaning", 2.95, "Pack of 12", "Textured cleaning pads suited to kitchen and home-upkeep displays."],
+  ["Compact Care Pouch", "medical-first-aid", 4.15, "Pack of 4", "A small organiser pouch intended for non-prescription everyday essentials."],
+  ["Travel Plaster Tin", "medical-first-aid", 3.35, "Pack of 6", "A compact tin-format line selected for practical travel preparation."],
+  ["Table Confetti Pack", "party-events", 2.45, "Pack of 10", "A lightweight event detail for accessible celebration displays."],
+  ["Reusable Party Cup Set", "party-events", 3.85, "Pack of 6", "A useful, easy-to-store set suited to casual events and gatherings."],
+  ["Fold Flat Storage Box", "home-utility", 3.85, "Pack of 4", "A collapsible storage line with clear home-organisation value."],
+  ["Measuring Tape Keyring", "diy-hardware", 2.55, "Pack of 12", "A small practical hardware accessory with an obvious use case."],
+  ["Weekly Desk Pad", "stationery", 3.25, "Pack of 8", "A clear weekly planning pad that keeps its purpose visible at a glance."],
+  ["Insulated Lunch Pouch", "personal-care", 4.95, "Pack of 4", "A compact daily-use pouch selected for practical routine and travel use."],
+  ["Clip Seal Bag Set", "kitchen-dining", 2.95, "Pack of 10", "Reusable sealing clips for straightforward kitchen organisation."],
+  ["Pocket Treat Scoop", "pets", 2.55, "Pack of 8", "A small serving accessory designed for everyday pet-care routines."],
 ] as const;
 
 const categoryCode = (slug: string) => slug.split("-").map((part) => part[0]).join("").toUpperCase();
 
-export const products: Product[] = Array.from({ length: 120 }, (_, index) => {
+const seriesNames = ["", "Core", "Compact", "Everyday", "Utility", "Stockroom", "Trade", "Shelf"];
+
+export const products: Product[] = Array.from({ length: 240 }, (_, index) => {
   const template = productTemplates[index % productTemplates.length];
   const run = Math.floor(index / productTemplates.length) + 1;
   const [name, category, basePrice, pack, description] = template;
@@ -82,7 +105,7 @@ export const products: Product[] = Array.from({ length: 120 }, (_, index) => {
   return {
     id: index + 1,
     slug,
-    name: run === 1 ? name : `${name} — Series ${run}`,
+    name: run === 1 ? name : `${seriesNames[run] || "Trade"} ${name}`,
     category,
     price,
     previousPrice: index % 9 === 0 ? Number((price + 1.2).toFixed(2)) : undefined,
