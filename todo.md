@@ -22,5 +22,5 @@
 
 - [x] Add Vercel routing and build configuration for the static single-page application.
 - [x] Document the two public Supabase environment variables required by Vercel.
-- [ ] Push the deployment-ready project to a private GitHub repository.
-- [ ] Verify the production build and provide the exact Vercel import steps.
+- [x] Push the deployment-ready project to a private GitHub repository.
+- [x] Verify the production build and provide the exact Vercel import steps.
