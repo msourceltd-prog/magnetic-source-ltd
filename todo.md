@@ -48,5 +48,5 @@
 
 - [x] Inspect Vite configuration and determine the required Cloudflare static-site settings.
 - [x] Add the required plugin-array compatibility fix and Cloudflare build configuration.
-- [ ] Run a production build and push the deployment fix to GitHub.
-- [ ] Provide the one-step Cloudflare redeploy instruction.
+- [x] Run a production build and push the deployment fix to GitHub.
+- [x] Provide the one-step Cloudflare redeploy instruction.
