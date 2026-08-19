@@ -31,10 +31,10 @@ export default function ProductDetail() {
         <p className="eyebrow">{product.category.replaceAll("-", " ")}</p>
         <h1>{product.name}</h1>
         <p className="detail-price">{formatGBP(product.price)} <small>per unit · {product.pack}</small></p>
-        <p className="detail-description">{product.description} Each sample line is shown with the decision-ready information a retail buyer needs before creating a basket.</p>
-        <dl className="detail-specs"><div><dt>SKU</dt><dd>{product.sku}</dd></div><div><dt>Availability</dt><dd><Check size={14} /> {product.availability}</dd></div><div><dt>Pack format</dt><dd>{product.pack}</dd></div><div><dt>Dispatch</dt><dd>Demo delivery estimate shown at checkout</dd></div></dl>
+        <p className="detail-description">{product.description} Each product includes the key information a retail buyer needs before adding it to a basket.</p>
+        <dl className="detail-specs"><div><dt>SKU</dt><dd>{product.sku}</dd></div><div><dt>Availability</dt><dd><Check size={14} /> {product.availability}</dd></div><div><dt>Pack format</dt><dd>{product.pack}</dd></div><div><dt>Dispatch</dt><dd>Trade delivery details confirmed after enquiry</dd></div></dl>
         <div className="detail-add-row"><div className="quantity-control"><button type="button" aria-label="Decrease quantity" disabled={quantity === 1} onClick={() => setQuantity((value) => Math.max(1, value - 1))}><Minus size={15} /></button><span aria-live="polite">{quantity}</span><button type="button" aria-label="Increase quantity" onClick={() => setQuantity((value) => value + 1)}><Plus size={15} /></button></div><button type="button" className="detail-add" onClick={() => addItem(product, quantity)}><ShoppingBag size={18} /> Add {quantity > 1 ? `${quantity} units` : "to basket"}</button></div>
-        <div className="detail-notes"><span><PackageCheck size={18} /> Pack and SKU information shown before checkout.</span><span><Truck size={18} /> No payment will be requested in this approval demo.</span></div>
+        <div className="detail-notes"><span><PackageCheck size={18} /> Pack and SKU information shown before checkout.</span><span><Truck size={18} /> Trade enquiries are submitted without payment collection.</span></div>
       </div>
     </section>
     <section className="related-lines section-space"><div className="trade-shell section-heading"><div><p className="eyebrow">Keep browsing</p><h2>Related working lines.</h2></div><Link href={`/shop?category=${product.category}`} className="text-link">All in this department <ArrowRight size={16} /></Link></div><div className="trade-shell product-grid">{related.map((item) => <ProductCard product={item} key={item.id} />)}</div></section>

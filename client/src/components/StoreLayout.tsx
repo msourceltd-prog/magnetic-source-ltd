@@ -13,11 +13,11 @@ export default function StoreLayout({ children }: { children: ReactNode }) {
   const [location] = useLocation();
   const path = location.split("?")[0] || "/";
   const meta = {
-    "/": { title:"Magnetic Source Ltd | UK Trade Supply", description:"Magnetic Source Ltd is a curated UK trade source for practical, dependable retail stock. Explore our original approval-demo catalogue." },
+    "/": { title:"Magnetic Source Ltd | UK Trade Supply", description:"Magnetic Source Ltd is a curated UK trade source for practical, dependable retail stock. Explore the wholesale catalogue." },
     "/shop": { title:"Shop the Trade Edit | Magnetic Source Ltd", description:"Browse a curated UK trade edit of practical, compact retail lines with GBP pricing, SKU, pack format and availability." },
     "/about": { title:"About Magnetic Source Ltd | UK Trade Supply", description:"Learn how Magnetic Source Ltd is designed to make practical retail sourcing clearer for smaller retailers and marketplace sellers." },
     "/contact": { title:"Contact Magnetic Source Ltd | Trade Desk", description:"Contact the Magnetic Source trade desk about the planned range, brand approval process and future trade-account journey." },
-    "/delivery-returns": { title:"Delivery & Returns | Magnetic Source Ltd", description:"Review the intended delivery and returns information architecture for the Magnetic Source approval-demo storefront." },
+    "/delivery-returns": { title:"Delivery & Returns | Magnetic Source Ltd", description:"Review delivery and returns information for the Magnetic Source wholesale catalogue." },
     "/privacy": { title:"Privacy | Magnetic Source Ltd", description:"Read the Magnetic Source working privacy notice covering browser storage, enquiries and launch data handling." },
     "/terms": { title:"Terms | Magnetic Source Ltd", description:"Review the working website and catalogue terms for Magnetic Source Ltd." },
     "/cart": { title:"Basket | Magnetic Source Ltd", description:"Review your selected Magnetic Source catalogue lines before continuing." },

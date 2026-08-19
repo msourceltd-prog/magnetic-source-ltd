@@ -55,3 +55,20 @@
 
 - [x] Remove visible “sample catalogue lines” count wording from public storefront pages.
 - [x] Verify the revised copy and push it to GitHub for Cloudflare redeployment.
+
+## Backend Status Check
+
+- [x] Inspect the Supabase client, local environment, and Cloudflare public-variable requirements.
+- [x] Verify public categories/products and the demo-order data path using the configured Supabase project.
+- [ ] Confirm the protected admin path and report any remaining live-deployment steps.
+
+## Supplier-Ready Catalogue Quality
+
+- [x] Inspect all existing categories, live product records, category pages, filtering, search, and product-detail routing.
+- [x] Audit every existing product against its assigned category, description, image, SKU, pack format, and availability.
+- [x] Define natural product coverage targets for the current category structure without adding unrelated or misleading products.
+- [x] Correct inaccurate category mappings and replace non-specific product records with realistic generic UK trade catalogue content.
+- [x] Add only category-appropriate products and matching professional images where category coverage is genuinely weak.
+- [x] Test every category page, several product details per category, search, filtering, and cross-category exclusion.
+- [x] Preserve the existing storefront design, Supabase schema, admin protection, and Cloudflare configuration.
+- [x] Produce the requested final category/product quality report and synchronize approved changes to GitHub.

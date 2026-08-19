@@ -37,7 +37,7 @@ export default function SiteHeader() {
   return <>
     <div className="utility-strip">
       <div className="trade-shell utility-inner">
-        <p>Independent UK trade supply · Approval demo</p>
+        <p>Independent UK trade supply · Practical wholesale catalogue</p>
         <nav aria-label="Utility navigation" className="utility-nav">
           {utilityLinks.map(([label, href]) => <Link key={label} href={href}>{label}</Link>)}
         </nav>
