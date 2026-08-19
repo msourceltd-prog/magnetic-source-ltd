@@ -109,3 +109,17 @@
 - [x] Refine the placeholder to be quieter on product cards while retaining an explicit supplier-image status on product details and admin.
 - [x] Verify the refined catalogue rendering and document the controlled supplier-photo upload process.
 - [x] Push the visual correction to GitHub for Cloudflare deployment.
+
+## Verified Supplier Catalogue Import
+
+- [x] Receive an approved supplier catalogue, current price list, API, or permitted product-link source.
+- [x] Verify product names, brands, images, pack formats, GBP price basis, availability, EANs, and image-use rights from the approved source.
+- [x] Map only verified records to the existing category structure and label price/VAT basis exactly as supplied.
+- [x] Import approved data into Supabase, validate the live website, and synchronize the verified catalogue to GitHub.
+
+## Gem Imports Personal Care Import
+
+- [x] Capture verified Gem Imports Personal Care names, product codes, pack details, GBP prices, and availability indicators from the owner-provided source.
+- [x] Keep supplier images as placeholders until explicit reuse permission or owned supplier assets are provided.
+- [x] Map source records to Personal Care only, preserve original source values, and label the price basis accurately.
+- [x] Import validated records into Supabase, verify Personal Care search/detail pages, and synchronize the approved update to GitHub.

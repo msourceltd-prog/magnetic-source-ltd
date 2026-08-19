@@ -25,7 +25,7 @@ export default function ProductDetail() {
   return <StoreLayout><SEOHead title={`${product.name} | Magnetic Source Ltd`} description={`${product.description} ${product.pack}, SKU ${product.sku}, priced in GBP.`} path={`/product/${product.slug}`} image={product.image} schema={productSchema} />
     <div className="trade-shell product-breadcrumb"><Link href="/shop"><ArrowLeft size={14} /> Shop the edit</Link><span>/</span><span>{product.name}</span></div>
     <section className="trade-shell product-detail">
-      <div className="product-detail-image"><img src={product.image} alt={product.image === SUPPLIER_IMAGE_PLACEHOLDER ? `Supplier image pending for ${product.name}` : `Product image for ${product.name}`} fetchPriority="high" decoding="async" />{product.image === SUPPLIER_IMAGE_PLACEHOLDER && <span className="detail-image-pending">Approved supplier photo pending</span>}<span className="image-corner large" /></div>
+      <div className="product-detail-image">{product.image === SUPPLIER_IMAGE_PLACEHOLDER ? <div className="product-detail-placeholder" role="img" aria-label={`Approved supplier image pending for ${product.name}`}><span className="detail-placeholder-mark" aria-hidden="true" /></div> : <img src={product.image} alt={`Product image for ${product.name}`} fetchPriority="high" decoding="async" />}<span className="detail-image-pending">Approved supplier photo pending</span><span className="image-corner large" /></div>
       <div className="product-detail-copy">
         <div className="detail-kicker"><span>{product.tags[0]}</span><span className="stock-limited">{product.availability}</span></div>
         <p className="eyebrow">{product.category.replaceAll("-", " ")}</p>

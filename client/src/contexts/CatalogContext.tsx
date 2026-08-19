@@ -48,7 +48,7 @@ export function CatalogProvider({ children }: PropsWithChildren) {
         tags: product.tags?.length ? product.tags : ["Catalogue line"],
         image: product.image || fallbackProducts[0].image,
         availability: "Availability to confirm" as const,
-        priceBasis: "Indicative price · ex VAT" as const,
+        priceBasis: product.sku.startsWith("GEM-") ? "Supplier unit price · ex VAT" as const : "Indicative price · ex VAT" as const,
         brand: null,
       }));
       setCatalog({ categories: orderedCategories, products: liveProducts, loading: false, usingSupabase: true });

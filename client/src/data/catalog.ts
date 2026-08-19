@@ -1,7 +1,7 @@
 /**
- * Trade Ledger, Recut: original sample-catalogue data for the Magnetic Source
- * approval demo. Products are intentionally generic and contain no copied
- * supplier catalogue data, imagery, or naming.
+ * Trade Ledger, Recut: fallback catalogue data for the Magnetic Source
+ * wholesale interface. Personal Care records may use owner-approved supplier
+ * data; supplier imagery remains controlled separately.
  */
 export type Category = {
   name: string;
@@ -23,11 +23,12 @@ export type Product = {
   image: string;
   tags: string[];
   featured: boolean;
-  priceBasis: "Indicative price · ex VAT";
+  priceBasis: "Indicative price · ex VAT" | "Supplier unit price · ex VAT";
   brand: null;
 };
 
 import qualitySpecs from "./catalogue-quality-specs.json";
+import gemPersonalCareSpecs from "./gem-personal-care-specs.json";
 
 export const categories: Category[] = [
   { name: "Home & Utility", slug: "home-utility", summary: "Useful home lines with dependable everyday appeal.", accent: "Warm goods" },
@@ -63,23 +64,37 @@ const categoryImages: Record<string, string> = {
 
 export const SUPPLIER_IMAGE_PLACEHOLDER = "/product-image-pending.svg";
 
+type CatalogueSpec = {
+  name: string;
+  category: string;
+  price: number;
+  pack: string;
+  description: string;
+  sku?: string;
+  priceBasis?: Product["priceBasis"];
+};
+
+const catalogueSpecs: CatalogueSpec[] = [
+  ...(qualitySpecs as CatalogueSpec[]).filter((spec) => spec.category !== "personal-care"),
+  ...(gemPersonalCareSpecs as CatalogueSpec[]),
+];
 const categoryCode = (slug: string) => slug.split("-").map((part) => part[0]).join("").toUpperCase();
 const slugify = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
 
-export const products: Product[] = qualitySpecs.map((spec, index) => ({
+export const products: Product[] = catalogueSpecs.map((spec, index) => ({
   id: index + 1,
   slug: `${slugify(spec.name)}-${index + 1}`,
   name: spec.name,
   category: spec.category,
   price: spec.price,
-  sku: `MS-${categoryCode(spec.category)}-${String(2001 + index).padStart(4, "0")}`,
+  sku: spec.sku || `MS-${categoryCode(spec.category)}-${String(2001 + index).padStart(4, "0")}`,
   availability: "Availability to confirm",
   pack: spec.pack,
   description: spec.description,
   image: SUPPLIER_IMAGE_PLACEHOLDER,
   tags: ["Catalogue line"],
   featured: false,
-  priceBasis: "Indicative price · ex VAT",
+  priceBasis: spec.priceBasis || "Indicative price · ex VAT",
   brand: null,
 }));
 
