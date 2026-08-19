@@ -14,11 +14,11 @@ export default function ProductCard({ product, compact = false }: { product: Pro
       <div className="product-image-wrap"><img src={product.image} alt={product.image === SUPPLIER_IMAGE_PLACEHOLDER ? `Supplier image pending for ${product.name}` : `Product display for ${product.name}`} loading="lazy" decoding="async" /><span className="product-image-label">{product.image === SUPPLIER_IMAGE_PLACEHOLDER ? "Supplier photo pending" : "Product evidence"}</span><span className="image-corner" /></div>
     </Link>
     <div className="product-card-body">
-      <div className="product-card-topline"><span>{product.tags[0]}</span><span className={product.availability === "In stock" ? "stock-good" : "stock-limited"}>{product.availability}</span></div>
+      <div className="product-card-topline"><span>{product.tags[0]}</span><span className="stock-limited">{product.availability}</span></div>
       <Link href={`/product/${product.slug}`} className="product-name-link"><h3>{product.name}</h3><ArrowUpRight size={16} /></Link>
       <div className="product-ledger"><span>{product.pack}</span><span>{product.sku}</span></div>
       <div className="product-card-bottom">
-        <div><strong>{formatGBP(product.price)}</strong>{product.previousPrice && <del>{formatGBP(product.previousPrice)}</del>}<small>per unit</small></div>
+        <div><strong>{formatGBP(product.price)}</strong><small>{product.priceBasis}<br />{product.pack}</small></div>
         <button type="button" onClick={() => addItem(product)} aria-label={`Add ${product.name} to cart`}><ShoppingBag size={18} /><span>Add</span></button>
       </div>
     </div>

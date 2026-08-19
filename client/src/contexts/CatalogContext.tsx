@@ -14,7 +14,7 @@ type CatalogContextValue = {
 };
 
 type RemoteCategory = { id: number; name: string; slug: string; summary: string | null };
-type RemoteProduct = Omit<Product, "price" | "id"> & { id: number | string; price: number | string; tags: string[] | null };
+type RemoteProduct = Omit<Product, "price" | "id" | "availability" | "priceBasis" | "brand"> & { id: number | string; price: number | string; tags: string[] | null; availability: string | null };
 
 const fallbackCatalog: CatalogContextValue = { categories: fallbackCategories, products: fallbackProducts, loading: false, usingSupabase: false };
 const CatalogContext = createContext<CatalogContextValue>(fallbackCatalog);
@@ -45,8 +45,11 @@ export function CatalogProvider({ children }: PropsWithChildren) {
         ...product,
         id: Number(product.id),
         price: Number(product.price),
-        tags: product.tags?.length ? product.tags : ["Trade edit"],
+        tags: product.tags?.length ? product.tags : ["Catalogue line"],
         image: product.image || fallbackProducts[0].image,
+        availability: "Availability to confirm" as const,
+        priceBasis: "Indicative price · ex VAT" as const,
+        brand: null,
       }));
       setCatalog({ categories: orderedCategories, products: liveProducts, loading: false, usingSupabase: true });
     };

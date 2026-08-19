@@ -16,14 +16,15 @@ export type Product = {
   name: string;
   category: string;
   price: number;
-  previousPrice?: number;
   sku: string;
-  availability: "In stock" | "Limited stock";
+  availability: "Availability to confirm";
   pack: string;
   description: string;
   image: string;
   tags: string[];
   featured: boolean;
+  priceBasis: "Indicative price · ex VAT";
+  brand: null;
 };
 
 import qualitySpecs from "./catalogue-quality-specs.json";
@@ -71,14 +72,15 @@ export const products: Product[] = qualitySpecs.map((spec, index) => ({
   name: spec.name,
   category: spec.category,
   price: spec.price,
-  previousPrice: index % 17 === 0 ? Number((spec.price + 1.2).toFixed(2)) : undefined,
   sku: `MS-${categoryCode(spec.category)}-${String(2001 + index).padStart(4, "0")}`,
-  availability: index % 13 === 0 ? "Limited stock" : "In stock",
+  availability: "Availability to confirm",
   pack: spec.pack,
   description: spec.description,
   image: SUPPLIER_IMAGE_PLACEHOLDER,
-  tags: index < 18 ? ["Featured", "Marketplace-ready"] : ["Trade edit"],
-  featured: index < 18,
+  tags: ["Catalogue line"],
+  featured: false,
+  priceBasis: "Indicative price · ex VAT",
+  brand: null,
 }));
 
 export const formatGBP = (value: number) => new Intl.NumberFormat("en-GB", {

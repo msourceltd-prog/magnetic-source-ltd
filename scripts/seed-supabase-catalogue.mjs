@@ -46,12 +46,12 @@ const products = qualitySpecs.map((spec, index) => ({
   category: spec.category,
   price: spec.price,
   sku: `MS-${categoryCode(spec.category)}-${String(2001 + index).padStart(4, "0")}`,
-  availability: index % 13 === 0 ? "Limited stock" : "In stock",
+  availability: "Availability to confirm",
   pack: spec.pack,
   description: spec.description,
   image: supplierImagePlaceholder,
-  tags: index < 18 ? ["Featured", "Marketplace-ready"] : ["Trade edit"],
-  featured: index < 18,
+  tags: ["Catalogue line"],
+  featured: false,
 }));
 
 const categoryValues = categories.map(([name, slug, summary]) => `(${quote(name)}, ${quote(slug)}, ${quote(summary)})`).join(",\n");

@@ -85,3 +85,14 @@
 - [x] Replace all current repeated and mismatched product-image URLs with a neutral supplier-photo placeholder.
 - [x] Preserve product category, name, price, SKU, pack format, description, design, Supabase structure, and Cloudflare configuration.
 - [x] Verify placeholder rendering, push the update to GitHub, and prepare the `/admin` upload path for real supplier images.
+
+## Approval-Ready Wholesale Catalogue Upgrade
+
+- [x] Complete the supplied requirement audit, including the remaining instruction pages and current live data/database fields.
+- [x] Research multiple legitimate UK public wholesale sources for category conventions, pack formats, and indicative market pricing without copying protected content.
+- [x] Define canonical categories, reasonable subcategories, verified-field rules, and an unambiguous ex-VAT pricing model.
+- [x] Add only approved transparent product fields; do not invent brands, EANs, supplier relationships, stock quantities, prior prices, or manufacturer claims.
+- [x] Improve product cards and details with clear price basis, VAT status, availability, brand/identifier blank states, and supplier-photo status.
+- [x] Improve search, filters, sort controls, and load-more or pagination behavior using strict category relevance.
+- [x] Keep the approved neutral supplier-photo placeholders until legitimate supplier image assets are provided.
+- [x] Validate all categories, representative search terms, product details, and live Supabase records before GitHub synchronization.

@@ -10,7 +10,7 @@ import { useCatalog } from "@/contexts/CatalogContext";
 
 export default function Home() {
   const { categories, products } = useCatalog();
-  const featured = products.filter((product) => product.featured).slice(0, 8);
+  const featured = products.slice(0, 8);
   return <StoreLayout>
     <section className="hero-section">
       <div className="hero-image"><img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=2000&q=82" alt="Stacked trade cartons in a warehouse" fetchPriority="high" decoding="async" /></div>
@@ -52,8 +52,8 @@ export default function Home() {
 
     <section className="trade-shell sourcing-band section-space">
       <div className="sourcing-image"><img src="https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&w=1200&q=80" alt="Parcels and shipping supplies prepared for dispatch" loading="lazy" decoding="async" /></div>
-      <div className="sourcing-copy"><p className="eyebrow">Built for the practical part</p><h2>Clear lines. Quietly ready to move.</h2><p>Product cards carry the information a reseller needs before adding to a basket: trade price, pack format, SKU, availability and a plain-language product description.</p><Link href="/about" className="button-secondary">How Magnetic Source works <ArrowRight size={17} /></Link></div>
-      <div className="sourcing-points"><div><Search size={22} /><b>Search the detail</b><p>Find an item by product name, SKU or pack type.</p></div><div><Box size={22} /><b>Build a basket</b><p>Adjust quantities before continuing to a no-payment demo checkout.</p></div><div><Truck size={22} /><b>Plan delivery</b><p>Review delivery and returns information in plain English.</p></div></div>
+      <div className="sourcing-copy"><p className="eyebrow">Built for the practical part</p><h2>Clear lines. Quietly ready to move.</h2><p>Product cards show transparent indicative ex-VAT pricing, pack format, an internal reference, availability confirmation status and a plain-language product description.</p><Link href="/about" className="button-secondary">How Magnetic Source works <ArrowRight size={17} /></Link></div>
+      <div className="sourcing-points"><div><Search size={22} /><b>Search the detail</b><p>Find an item by product name, internal reference or pack type.</p></div><div><Box size={22} /><b>Build a basket</b><p>Adjust quantities before continuing to a no-payment trade enquiry.</p></div><div><Truck size={22} /><b>Plan delivery</b><p>Review delivery and returns information in plain English.</p></div></div>
     </section>
 
     <section className="statement-band"><div className="trade-shell"><PackageCheck size={32} /><p>Curated for the retailer who wants stock to feel <em>considered</em>, not complicated.</p><Link href="/contact">Open a trade conversation <ArrowRight size={17} /></Link></div></section>

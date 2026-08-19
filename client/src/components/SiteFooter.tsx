@@ -6,7 +6,7 @@ import { ArrowUpRight, Mail, MapPin, Phone } from "lucide-react";
 import { Link } from "wouter";
 
 const footerGroups = [
-  { title: "Browse", links: [["Shop the edit", "/shop"], ["New in", "/shop?sort=new"], ["Marketplace ready", "/shop?tag=marketplace"], ["Trade essentials", "/shop?category=diy-hardware"]] },
+  { title: "Browse", links: [["Wholesale catalogue", "/shop"], ["Latest records", "/shop?sort=new"], ["Catalogue lines", "/shop"], ["Trade essentials", "/shop?category=diy-hardware"]] },
   { title: "Support", links: [["Delivery & returns", "/delivery-returns"], ["Contact", "/contact"], ["Privacy", "/privacy"], ["Terms", "/terms"]] },
 ];
 

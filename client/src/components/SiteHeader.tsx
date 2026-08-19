@@ -17,8 +17,8 @@ const utilityLinks = [
 
 const mainLinks = [
   ["Shop the edit", "/shop"],
-  ["New in", "/shop?sort=new"],
-  ["Marketplace ready", "/shop?tag=marketplace"],
+  ["Latest records", "/shop?sort=new"],
+  ["Catalogue lines", "/shop"],
   ["Trade essentials", "/shop?category=diy-hardware"],
 ] as const;
 
@@ -53,7 +53,7 @@ export default function SiteHeader() {
 
         <form className="search-field" role="search" onSubmit={submitSearch}>
           <label className="sr-only" htmlFor="site-search">Search catalogue</label>
-          <input id="site-search" value={search} onChange={(event) => setSearch(event.target.value)} placeholder="Search product, SKU or pack type" />
+          <input id="site-search" value={search} onChange={(event) => setSearch(event.target.value)} placeholder="Search product, reference or pack type" />
           <button type="submit" aria-label="Search catalogue"><Search size={20} strokeWidth={2.2} /></button>
         </form>
 

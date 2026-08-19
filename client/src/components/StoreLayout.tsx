@@ -14,7 +14,7 @@ export default function StoreLayout({ children }: { children: ReactNode }) {
   const path = location.split("?")[0] || "/";
   const meta = {
     "/": { title:"Magnetic Source Ltd | UK Trade Supply", description:"Magnetic Source Ltd is a curated UK trade source for practical, dependable retail stock. Explore the wholesale catalogue." },
-    "/shop": { title:"Shop the Trade Edit | Magnetic Source Ltd", description:"Browse a curated UK trade edit of practical, compact retail lines with GBP pricing, SKU, pack format and availability." },
+    "/shop": { title:"Shop the Trade Edit | Magnetic Source Ltd", description:"Browse practical UK trade lines with indicative ex-VAT GBP prices, internal references and pack formats." },
     "/about": { title:"About Magnetic Source Ltd | UK Trade Supply", description:"Learn how Magnetic Source Ltd is designed to make practical retail sourcing clearer for smaller retailers and marketplace sellers." },
     "/contact": { title:"Contact Magnetic Source Ltd | Trade Desk", description:"Contact the Magnetic Source trade desk about the planned range, brand approval process and future trade-account journey." },
     "/delivery-returns": { title:"Delivery & Returns | Magnetic Source Ltd", description:"Review delivery and returns information for the Magnetic Source wholesale catalogue." },
