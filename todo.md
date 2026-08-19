@@ -99,6 +99,6 @@
 
 ## GitHub and Cloudflare Release Check
 
-- [ ] Confirm the public GitHub repository points to the latest approval-ready catalogue commit.
-- [ ] Confirm the Cloudflare static-site configuration remains present in the synced repository.
-- [ ] Provide the owner-led Cloudflare retry-deployment step and the essential post-deployment checks.
+- [x] Confirm the public GitHub repository points to the latest approval-ready catalogue commit.
+- [x] Confirm the Cloudflare static-site configuration remains present in the synced repository.
+- [x] Provide the owner-led Cloudflare retry-deployment step and the essential post-deployment checks.
