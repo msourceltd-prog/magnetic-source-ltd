@@ -42,4 +42,11 @@
 - [x] Apply practical pre-launch hardening for media loading, metadata, accessibility, validation, and consent.
 - [x] Test responsive layouts, route behavior, customer flows, and production build output.
 - [x] Create a clear completed-versus-owner-action launch checklist for Vercel, custom domain, analytics, Search Console, and the first admin login.
-- [ ] Push launch-readiness changes to the public GitHub repository.
+- [x] Push launch-readiness changes to the public GitHub repository.
+
+## Cloudflare Deployment Fix
+
+- [x] Inspect Vite configuration and determine the required Cloudflare static-site settings.
+- [x] Add the required plugin-array compatibility fix and Cloudflare build configuration.
+- [ ] Run a production build and push the deployment fix to GitHub.
+- [ ] Provide the one-step Cloudflare redeploy instruction.

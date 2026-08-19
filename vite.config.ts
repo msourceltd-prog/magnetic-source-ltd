@@ -203,10 +203,10 @@ function vitePluginStorageProxy(): Plugin {
   };
 }
 
-const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector(), vitePluginStorageProxy()];
-
 export default defineConfig({
-  plugins,
+  // Keep this inline array explicit: Cloudflare's Vite setup reads this field
+  // when it configures the connected GitHub project for Workers deployment.
+  plugins: [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector(), vitePluginStorageProxy()],
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
