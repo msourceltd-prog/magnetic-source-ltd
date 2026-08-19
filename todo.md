@@ -102,3 +102,10 @@
 - [x] Confirm the public GitHub repository points to the latest approval-ready catalogue commit.
 - [x] Confirm the Cloudflare static-site configuration remains present in the synced repository.
 - [x] Provide the owner-led Cloudflare retry-deployment step and the essential post-deployment checks.
+
+## Supplier Photo Placeholder Presentation
+
+- [x] Audit the repeated placeholder treatment across cards, product details, basket, checkout, and admin.
+- [x] Refine the placeholder to be quieter on product cards while retaining an explicit supplier-image status on product details and admin.
+- [x] Verify the refined catalogue rendering and document the controlled supplier-photo upload process.
+- [x] Push the visual correction to GitHub for Cloudflare deployment.
