@@ -6,11 +6,11 @@ import { ArrowRight, Box, ChevronRight, PackageCheck, Search, Truck } from "luci
 import { Link } from "wouter";
 import StoreLayout from "@/components/StoreLayout";
 import ProductCard from "@/components/ProductCard";
-import { categories, products } from "@/data/catalog";
-
-const featured = products.filter((product) => product.featured).slice(0, 8);
+import { useCatalog } from "@/contexts/CatalogContext";
 
 export default function Home() {
+  const { categories, products } = useCatalog();
+  const featured = products.filter((product) => product.featured).slice(0, 8);
   return <StoreLayout>
     <section className="hero-section">
       <div className="hero-image"><img src="/manus-storage/magnetic-source-hero_df95ca9d.jpg" alt="Unbranded trade goods arranged on a warehouse packing desk" /></div>

@@ -7,11 +7,12 @@ import { ChevronDown, Filter, Search, SlidersHorizontal, X } from "lucide-react"
 import { Link, useLocation, useSearch } from "wouter";
 import ProductCard from "@/components/ProductCard";
 import StoreLayout from "@/components/StoreLayout";
-import { categories, categoryBySlug, products } from "@/data/catalog";
+import { useCatalog } from "@/contexts/CatalogContext";
 
 const getQuery = (search: string, key: string) => new URLSearchParams(search.startsWith("?") ? search : `?${search}`).get(key) || "";
 
 export default function Shop() {
+  const { categories, products } = useCatalog();
   const [location, navigate] = useLocation();
   const searchString = useSearch();
   const initialCategory = getQuery(searchString, "category");
@@ -21,7 +22,7 @@ export default function Shop() {
   const [stockOnly, setStockOnly] = useState(false);
   const [sort, setSort] = useState(getQuery(searchString, "sort") || "featured");
   const [filtersOpen, setFiltersOpen] = useState(false);
-  const activeCategoryInfo = categoryBySlug(activeCategory);
+  const activeCategoryInfo = categories.find((category) => category.slug === activeCategory);
 
   useEffect(() => {
     setActiveCategory(getQuery(searchString, "category"));

@@ -5,8 +5,8 @@
 import { FormEvent, useState } from "react";
 import { Link, useLocation } from "wouter";
 import { ChevronDown, Menu, Search, ShoppingBag, X } from "lucide-react";
-import { categories, products } from "@/data/catalog";
 import { useCart } from "@/contexts/CartContext";
+import { useCatalog } from "@/contexts/CatalogContext";
 
 const utilityLinks = [
   ["Contact", "/contact"],
@@ -23,6 +23,7 @@ const mainLinks = [
 ] as const;
 
 export default function SiteHeader() {
+  const { categories, products } = useCatalog();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [search, setSearch] = useState("");
   const [, navigate] = useLocation();

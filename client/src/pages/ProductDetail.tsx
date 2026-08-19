@@ -8,12 +8,14 @@ import { Link, useRoute } from "wouter";
 import ProductCard from "@/components/ProductCard";
 import SEOHead from "@/components/SEOHead";
 import StoreLayout from "@/components/StoreLayout";
-import { formatGBP, productBySlug, products } from "@/data/catalog";
+import { formatGBP } from "@/data/catalog";
 import { useCart } from "@/contexts/CartContext";
+import { useCatalog } from "@/contexts/CatalogContext";
 
 export default function ProductDetail() {
   const [, params] = useRoute("/product/:slug");
-  const product = productBySlug(params?.slug || "");
+  const { products } = useCatalog();
+  const product = products.find((candidate) => candidate.slug === (params?.slug || ""));
   const { addItem } = useCart();
   const [quantity, setQuantity] = useState(1);
   if (!product) return <StoreLayout><section className="product-not-found trade-shell"><h1>That line is no longer in this edit.</h1><Link href="/shop" className="button-primary">Return to catalogue <ArrowRight size={17} /></Link></section></StoreLayout>;

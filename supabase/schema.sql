@@ -1,27 +1,5 @@
-# Magnetic Source Ltd — Supabase Free Setup
-
-This project is a **Vite static frontend**. It supports a free Supabase project through the public browser values `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY`. Do **not** put `SUPABASE_SERVICE_ROLE_KEY` or any other privileged secret in frontend settings.
-
-## Current live state
-
-The connected Supabase project now contains **13 categories** and **240 original Magnetic Source catalogue products**. The public storefront reads these records when the two public environment values above are present. The static catalogue remains only as a safe fallback if those values are unavailable.
-
-## 1. Add frontend environment values
-
-In the deployment environment (or a local `.env` file that is never committed), add the following values from your Supabase project's API settings.
-
-```dotenv
-VITE_SUPABASE_URL=https://YOUR_PROJECT_REF.supabase.co
-VITE_SUPABASE_ANON_KEY=YOUR_PUBLIC_ANON_KEY
-```
-
-Restart the frontend after changing values. The `/admin` route will then offer Supabase Auth sign-in rather than the connection checklist.
-
-## 2. Create the simple schema and policies
-
-Run the following in the Supabase SQL editor. This creates only the requested core entities: categories, products, demo orders, demo order items, profiles, and one public-read product-image bucket.
-
-```sql
+-- Magnetic Source Ltd: minimal free-tier-conscious commerce schema.
+-- This script creates catalogue, demo-order, profile, and empty image-storage support.
 create extension if not exists pgcrypto;
 
 create table if not exists public.profiles (
@@ -102,6 +80,16 @@ alter table public.products enable row level security;
 alter table public.demo_orders enable row level security;
 alter table public.demo_order_items enable row level security;
 
+drop policy if exists "Public can read categories" on public.categories;
+drop policy if exists "Public can read products" on public.products;
+drop policy if exists "Admin manages categories" on public.categories;
+drop policy if exists "Admin manages products" on public.products;
+drop policy if exists "Admin reads profiles" on public.profiles;
+drop policy if exists "Visitors can create demo orders" on public.demo_orders;
+drop policy if exists "Admin manages demo orders" on public.demo_orders;
+drop policy if exists "Visitors can add demo order items" on public.demo_order_items;
+drop policy if exists "Admin manages demo order items" on public.demo_order_items;
+
 create policy "Public can read categories" on public.categories for select using (true);
 create policy "Public can read products" on public.products for select using (true);
 create policy "Admin manages categories" on public.categories for all using (public.is_admin()) with check (public.is_admin());
@@ -109,35 +97,19 @@ create policy "Admin manages products" on public.products for all using (public.
 create policy "Admin reads profiles" on public.profiles for select using (public.is_admin() or id = auth.uid());
 create policy "Visitors can create demo orders" on public.demo_orders for insert with check (true);
 create policy "Admin manages demo orders" on public.demo_orders for all using (public.is_admin()) with check (public.is_admin());
-create policy "Visitors can add own demo order items" on public.demo_order_items for insert with check (true);
+create policy "Visitors can add demo order items" on public.demo_order_items for insert with check (true);
 create policy "Admin manages demo order items" on public.demo_order_items for all using (public.is_admin()) with check (public.is_admin());
 
 insert into storage.buckets (id, name, public)
 values ('product-images', 'product-images', true)
 on conflict (id) do nothing;
 
+drop policy if exists "Public can read product images" on storage.objects;
+drop policy if exists "Admin uploads product images" on storage.objects;
+drop policy if exists "Admin updates product images" on storage.objects;
+drop policy if exists "Admin removes product images" on storage.objects;
+
 create policy "Public can read product images" on storage.objects for select using (bucket_id = 'product-images');
 create policy "Admin uploads product images" on storage.objects for insert with check (bucket_id = 'product-images' and public.is_admin());
 create policy "Admin updates product images" on storage.objects for update using (bucket_id = 'product-images' and public.is_admin());
 create policy "Admin removes product images" on storage.objects for delete using (bucket_id = 'product-images' and public.is_admin());
-```
-
-## 3. Create the first administrator
-
-Create a real account in **Supabase Auth → Users**. Then, using that account's actual UUID, run:
-
-```sql
-update public.profiles
-set role = 'admin'
-where id = 'PASTE_THE_AUTH_USER_UUID_HERE';
-```
-
-The role lives in the database and is checked by row-level security, rather than being inferred by the browser interface.
-
-## 4. Manage the live catalogue
-
-After you create the first administrator, add approved categories and products in `/admin`. New products, edits, availability changes, categories, and product-image references will be stored in Supabase and reflected in the storefront. Do not mix unapproved supplier data into the catalogue.
-
-## Launch boundary
-
-This site includes a **demo checkout only**. The provided schema records no-payment order demonstrations after configuration. Do not enable payment capture, live fulfilment, or public trade-account registration until the operating terms, privacy documentation, supplier approval, and required review workflows are complete.
