@@ -17,3 +17,10 @@
 > The authenticated SQL editor is open, but its automated editor submission did not register the pasted query. The reviewed schema is ready in `supabase/schema.sql` for manual execution in the already-open editor.
 
 > The dashboard editor still reports an empty-query error even for `select 1;`. A Supabase Personal Access Token or direct database password is now required for an automated, supported migration route.
+
+## GitHub and Vercel Deployment
+
+- [x] Add Vercel routing and build configuration for the static single-page application.
+- [x] Document the two public Supabase environment variables required by Vercel.
+- [ ] Push the deployment-ready project to a private GitHub repository.
+- [ ] Verify the production build and provide the exact Vercel import steps.
