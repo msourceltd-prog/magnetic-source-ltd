@@ -5,13 +5,13 @@
 import { ArrowUpRight, ShoppingBag } from "lucide-react";
 import { Link } from "wouter";
 import { useCart } from "@/contexts/CartContext";
-import { type Product, formatGBP } from "@/data/catalog";
+import { type Product, formatGBP, SUPPLIER_IMAGE_PLACEHOLDER } from "@/data/catalog";
 
 export default function ProductCard({ product, compact = false }: { product: Product; compact?: boolean }) {
   const { addItem } = useCart();
   return <article className={`product-card ${compact ? "product-card-compact" : ""}`}>
     <Link href={`/product/${product.slug}`} className="product-image-link" aria-label={`View ${product.name}`}>
-      <div className="product-image-wrap"><img src={product.image} alt={`Product display for ${product.name}`} loading="lazy" decoding="async" /><span className="product-image-label">Product evidence</span><span className="image-corner" /></div>
+      <div className="product-image-wrap"><img src={product.image} alt={product.image === SUPPLIER_IMAGE_PLACEHOLDER ? `Supplier image pending for ${product.name}` : `Product display for ${product.name}`} loading="lazy" decoding="async" /><span className="product-image-label">{product.image === SUPPLIER_IMAGE_PLACEHOLDER ? "Supplier photo pending" : "Product evidence"}</span><span className="image-corner" /></div>
     </Link>
     <div className="product-card-body">
       <div className="product-card-topline"><span>{product.tags[0]}</span><span className={product.availability === "In stock" ? "stock-good" : "stock-limited"}>{product.availability}</span></div>

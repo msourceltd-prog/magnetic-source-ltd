@@ -60,6 +60,8 @@ const categoryImages: Record<string, string> = {
   stationery: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1000&q=80",
 };
 
+export const SUPPLIER_IMAGE_PLACEHOLDER = "/product-image-pending.svg";
+
 const categoryCode = (slug: string) => slug.split("-").map((part) => part[0]).join("").toUpperCase();
 const slugify = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
 
@@ -74,7 +76,7 @@ export const products: Product[] = qualitySpecs.map((spec, index) => ({
   availability: index % 13 === 0 ? "Limited stock" : "In stock",
   pack: spec.pack,
   description: spec.description,
-  image: categoryImages[spec.category],
+  image: SUPPLIER_IMAGE_PLACEHOLDER,
   tags: index < 18 ? ["Featured", "Marketplace-ready"] : ["Trade edit"],
   featured: index < 18,
 }));

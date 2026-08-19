@@ -72,3 +72,16 @@
 - [x] Test every category page, several product details per category, search, filtering, and cross-category exclusion.
 - [x] Preserve the existing storefront design, Supabase schema, admin protection, and Cloudflare configuration.
 - [x] Produce the requested final category/product quality report and synchronize approved changes to GitHub.
+
+## Product Image Correction
+
+- [x] Audit every current product-image assignment for duplicate use and product/category mismatch.
+- [x] Replace repeated generic category photos with a neutral supplier-photo placeholder until approved visuals are available.
+- [x] Update both static fallback and live Supabase image fields without changing categories, product details, design, or deployment setup.
+- [x] Verify placeholder rendering on category cards and product-detail pages, then synchronize the fix to GitHub.
+
+## Neutral Image Placeholder
+
+- [x] Replace all current repeated and mismatched product-image URLs with a neutral supplier-photo placeholder.
+- [x] Preserve product category, name, price, SKU, pack format, description, design, Supabase structure, and Cloudflare configuration.
+- [x] Verify placeholder rendering, push the update to GitHub, and prepare the `/admin` upload path for real supplier images.

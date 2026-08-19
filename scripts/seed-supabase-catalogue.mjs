@@ -35,6 +35,7 @@ const categoryImages = {
   seasonal: "https://images.unsplash.com/photo-1453306458620-5bbef13a5bca?auto=format&fit=crop&w=1000&q=80",
   stationery: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1000&q=80",
 };
+const supplierImagePlaceholder = "/product-image-pending.svg";
 const qualitySpecs = JSON.parse(fs.readFileSync(new URL("../client/src/data/catalogue-quality-specs.json", import.meta.url), "utf8"));
 const categoryCode = (slug) => slug.split("-").map((part) => part[0]).join("").toUpperCase();
 const slugify = (value) => value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
@@ -48,7 +49,7 @@ const products = qualitySpecs.map((spec, index) => ({
   availability: index % 13 === 0 ? "Limited stock" : "In stock",
   pack: spec.pack,
   description: spec.description,
-  image: categoryImages[spec.category],
+  image: supplierImagePlaceholder,
   tags: index < 18 ? ["Featured", "Marketplace-ready"] : ["Trade edit"],
   featured: index < 18,
 }));
