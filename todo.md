@@ -29,4 +29,4 @@
 
 - [x] Confirm the repository remote and clean working-tree baseline.
 - [x] Add a safe one-command script for committing and pushing project changes.
-- [ ] Test the script’s help and no-change behavior, then document the command.
+- [x] Test the script’s no-change behavior and document the command.
