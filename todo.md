@@ -30,3 +30,8 @@
 - [x] Confirm the repository remote and clean working-tree baseline.
 - [x] Add a safe one-command script for committing and pushing project changes.
 - [x] Test the script’s no-change behavior and document the command.
+
+## Repository Visibility
+
+- [x] Obtain explicit confirmation before making the private repository public.
+- [x] Change GitHub repository visibility and verify it remains ready for Vercel import.
