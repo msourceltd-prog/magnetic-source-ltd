@@ -24,3 +24,9 @@
 - [x] Document the two public Supabase environment variables required by Vercel.
 - [x] Push the deployment-ready project to a private GitHub repository.
 - [x] Verify the production build and provide the exact Vercel import steps.
+
+## GitHub Update Script
+
+- [x] Confirm the repository remote and clean working-tree baseline.
+- [x] Add a safe one-command script for committing and pushing project changes.
+- [ ] Test the script’s help and no-change behavior, then document the command.
