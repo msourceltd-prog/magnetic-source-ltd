@@ -96,3 +96,9 @@
 - [x] Improve search, filters, sort controls, and load-more or pagination behavior using strict category relevance.
 - [x] Keep the approved neutral supplier-photo placeholders until legitimate supplier image assets are provided.
 - [x] Validate all categories, representative search terms, product details, and live Supabase records before GitHub synchronization.
+
+## GitHub and Cloudflare Release Check
+
+- [ ] Confirm the public GitHub repository points to the latest approval-ready catalogue commit.
+- [ ] Confirm the Cloudflare static-site configuration remains present in the synced repository.
+- [ ] Provide the owner-led Cloudflare retry-deployment step and the essential post-deployment checks.
