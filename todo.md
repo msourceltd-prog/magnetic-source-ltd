@@ -50,3 +50,8 @@
 - [x] Add the required plugin-array compatibility fix and Cloudflare build configuration.
 - [x] Run a production build and push the deployment fix to GitHub.
 - [x] Provide the one-step Cloudflare redeploy instruction.
+
+## Catalogue Count Copy
+
+- [x] Remove visible “sample catalogue lines” count wording from public storefront pages.
+- [x] Verify the revised copy and push it to GitHub for Cloudflare redeployment.

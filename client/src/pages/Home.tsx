@@ -25,7 +25,7 @@ export default function Home() {
           <h1>Stock your<br /><em>next best-seller.</em></h1>
           <p className="hero-description">A practical source for compact, useful lines that earn their place on the shelf, in the parcel and on the marketplace listing.</p>
           <div className="hero-actions"><Link href="/shop" className="button-primary">Shop the edit <ArrowRight size={18} /></Link><Link href="/shop?tag=marketplace" className="text-link">For marketplace sellers <ArrowRight size={16} /></Link></div>
-          <div className="hero-metrics"><span><b>{products.length}</b> sample lines</span><span><b>{categories.length}</b> departments</span><span><b>GBP</b> pricing shown</span></div>
+          <div className="hero-metrics"><span><b>Trade</b> ready stock</span><span><b>{categories.length}</b> departments</span><span><b>GBP</b> pricing shown</span></div>
         </div>
       </div>
       <div className="hero-footnote"><div className="trade-shell"><span>Approval demo catalogue</span><span>Original content · No live payment</span></div></div>
