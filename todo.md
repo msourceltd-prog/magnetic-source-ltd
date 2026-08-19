@@ -35,3 +35,11 @@
 
 - [x] Obtain explicit confirmation before making the private repository public.
 - [x] Change GitHub repository visibility and verify it remains ready for Vercel import.
+
+## Website Launch Checklist
+
+- [x] Audit supplied launch items against current content, SEO, images, forms, privacy, and Vercel deployment needs.
+- [x] Apply practical pre-launch hardening for media loading, metadata, accessibility, validation, and consent.
+- [x] Test responsive layouts, route behavior, customer flows, and production build output.
+- [x] Create a clear completed-versus-owner-action launch checklist for Vercel, custom domain, analytics, Search Console, and the first admin login.
+- [ ] Push launch-readiness changes to the public GitHub repository.

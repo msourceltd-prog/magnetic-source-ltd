@@ -13,7 +13,7 @@ function setMeta(selector: string, attribute: "name" | "property", key: string, 
   element.content = value;
 }
 
-export default function SEOHead({ title, description, path = "/", image = "/manus-storage/magnetic-source-hero_df95ca9d.jpg", noIndex = false, schema }: SEOHeadProps) {
+export default function SEOHead({ title, description, path = "/", image = "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1800&q=85", noIndex = false, schema }: SEOHeadProps) {
   useEffect(() => {
     const base = (import.meta.env.VITE_SITE_URL as string | undefined)?.replace(/\/$/, "") || window.location.origin;
     const canonical = `${base}${path === "/" ? "/" : path}`;
@@ -26,6 +26,7 @@ export default function SEOHead({ title, description, path = "/", image = "/manu
     setMeta('meta[property="og:type"]', "property", "og:type", path.startsWith("/product/") ? "product" : "website");
     setMeta('meta[property="og:url"]', "property", "og:url", canonical);
     setMeta('meta[property="og:image"]', "property", "og:image", fullImage);
+    setMeta('meta[property="og:locale"]', "property", "og:locale", "en_GB");
     setMeta('meta[name="twitter:card"]', "name", "twitter:card", "summary_large_image");
     setMeta('meta[name="twitter:title"]', "name", "twitter:title", title);
     setMeta('meta[name="twitter:description"]', "name", "twitter:description", description);

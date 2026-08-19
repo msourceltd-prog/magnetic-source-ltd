@@ -25,7 +25,7 @@ export default function ProductDetail() {
   return <StoreLayout><SEOHead title={`${product.name} | Magnetic Source Ltd`} description={`${product.description} ${product.pack}, SKU ${product.sku}, priced in GBP.`} path={`/product/${product.slug}`} image={product.image} schema={productSchema} />
     <div className="trade-shell product-breadcrumb"><Link href="/shop"><ArrowLeft size={14} /> Shop the edit</Link><span>/</span><span>{product.name}</span></div>
     <section className="trade-shell product-detail">
-      <div className="product-detail-image"><img src={product.image} alt={`Sample catalogue image for ${product.name}`} /><span className="image-corner large" /></div>
+      <div className="product-detail-image"><img src={product.image} alt={`Product image for ${product.name}`} fetchPriority="high" decoding="async" /><span className="image-corner large" /></div>
       <div className="product-detail-copy">
         <div className="detail-kicker"><span>{product.tags[0]}</span><span className={product.availability === "In stock" ? "stock-good" : "stock-limited"}>{product.availability}</span></div>
         <p className="eyebrow">{product.category.replaceAll("-", " ")}</p>

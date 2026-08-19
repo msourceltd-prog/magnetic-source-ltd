@@ -47,7 +47,7 @@ export default function SiteHeader() {
     <header className="site-header">
       <div className="trade-shell header-grid">
         <Link href="/" className="brand-lockup" aria-label="Magnetic Source home">
-          <img src="/manus-storage/magnetic-source-mark_88a383c3.png" alt="" className="brand-mark" />
+          <img src="/favicon.svg" alt="" className="brand-mark" width={64} height={64} decoding="async" />
           <span className="brand-type"><b>MAGNETIC</b><span>SOURCE LTD</span></span>
         </Link>
 

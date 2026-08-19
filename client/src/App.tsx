@@ -20,6 +20,7 @@ import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import "./styles/trade-refinements.css";
+import "./styles/launch-readiness.css";
 
 function Router() {
   return <Switch>

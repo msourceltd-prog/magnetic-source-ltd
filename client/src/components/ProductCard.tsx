@@ -11,7 +11,7 @@ export default function ProductCard({ product, compact = false }: { product: Pro
   const { addItem } = useCart();
   return <article className={`product-card ${compact ? "product-card-compact" : ""}`}>
     <Link href={`/product/${product.slug}`} className="product-image-link" aria-label={`View ${product.name}`}>
-      <div className="product-image-wrap"><img src={product.image} alt={`Sample product display for ${product.name}`} loading="lazy" /><span className="product-image-label">Product evidence</span><span className="image-corner" /></div>
+      <div className="product-image-wrap"><img src={product.image} alt={`Product display for ${product.name}`} loading="lazy" decoding="async" /><span className="product-image-label">Product evidence</span><span className="image-corner" /></div>
     </Link>
     <div className="product-card-body">
       <div className="product-card-topline"><span>{product.tags[0]}</span><span className={product.availability === "In stock" ? "stock-good" : "stock-limited"}>{product.availability}</span></div>

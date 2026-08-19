@@ -13,7 +13,7 @@ export default function Home() {
   const featured = products.filter((product) => product.featured).slice(0, 8);
   return <StoreLayout>
     <section className="hero-section">
-      <div className="hero-image"><img src="/manus-storage/magnetic-source-hero_df95ca9d.jpg" alt="Unbranded trade goods arranged on a warehouse packing desk" /></div>
+      <div className="hero-image"><img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=2000&q=82" alt="Stacked trade cartons in a warehouse" fetchPriority="high" decoding="async" /></div>
       <div className="trade-shell hero-layout">
         <aside className="hero-rail" aria-label="Department shortcuts">
           <span className="eyebrow">Browse the source</span>
@@ -37,8 +37,8 @@ export default function Home() {
     </section>
 
     <section className="trade-shell department-grid">
-      <Link href="/shop?category=home-utility" className="department-feature feature-home"><img src="/manus-storage/magnetic-source-category-home_6023ee88.jpg" alt="Unbranded home and utility goods arranged in a premium still life" /><div><span className="eyebrow">01 / Home & utility</span><h3>Everyday usefulness, neatly packaged.</h3><span className="department-cta">Explore lines <ArrowRight size={16} /></span></div></Link>
-      <Link href="/shop?category=diy-hardware" className="department-feature feature-diy"><img src="/manus-storage/magnetic-source-category-diy_926d2099.jpg" alt="Unbranded small DIY goods arranged on a workshop surface" /><div><span className="eyebrow">02 / DIY & hardware</span><h3>Small fixes,<br />strong shelf logic.</h3><span className="department-cta">Explore lines <ArrowRight size={16} /></span></div></Link>
+      <Link href="/shop?category=home-utility" className="department-feature feature-home"><img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1100&q=78" alt="Organised home storage products" loading="lazy" decoding="async" /><div><span className="eyebrow">01 / Home & utility</span><h3>Everyday usefulness, neatly packaged.</h3><span className="department-cta">Explore lines <ArrowRight size={16} /></span></div></Link>
+      <Link href="/shop?category=diy-hardware" className="department-feature feature-diy"><img src="https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1100&q=78" alt="Workshop supplies on a work surface" loading="lazy" decoding="async" /><div><span className="eyebrow">02 / DIY & hardware</span><h3>Small fixes,<br />strong shelf logic.</h3><span className="department-cta">Explore lines <ArrowRight size={16} /></span></div></Link>
       <div className="department-list-card">
         <p className="eyebrow">More departments</p>
         {categories.slice(2).map((category) => <Link key={category.slug} href={`/shop?category=${category.slug}`}><span>{category.name}</span><ArrowRight size={16} /></Link>)}
@@ -51,7 +51,7 @@ export default function Home() {
     </section>
 
     <section className="trade-shell sourcing-band section-space">
-      <div className="sourcing-image"><img src="/manus-storage/magnetic-source-detail-editorial_180a1451.jpg" alt="Unbranded dispatch goods arranged on a warm packing bench" /></div>
+      <div className="sourcing-image"><img src="https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&w=1200&q=80" alt="Parcels and shipping supplies prepared for dispatch" loading="lazy" decoding="async" /></div>
       <div className="sourcing-copy"><p className="eyebrow">Built for the practical part</p><h2>Clear lines. Quietly ready to move.</h2><p>Product cards carry the information a reseller needs before adding to a basket: trade price, pack format, SKU, availability and a plain-language product description.</p><Link href="/about" className="button-secondary">How Magnetic Source works <ArrowRight size={17} /></Link></div>
       <div className="sourcing-points"><div><Search size={22} /><b>Search the detail</b><p>Find an item by product name, SKU or pack type.</p></div><div><Box size={22} /><b>Build a basket</b><p>Adjust quantities before continuing to a no-payment demo checkout.</p></div><div><Truck size={22} /><b>Plan delivery</b><p>Review delivery and returns information in plain English.</p></div></div>
     </section>

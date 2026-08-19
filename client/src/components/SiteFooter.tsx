@@ -16,7 +16,7 @@ export default function SiteFooter() {
       <section className="footer-statement">
         <span className="eyebrow light">Magnetic Source Ltd</span>
         <h2>Useful stock,<br />clearly sourced.</h2>
-        <p>Original sample catalogue and checkout experience prepared for brand approval. No payment is collected in this demo.</p>
+        <p>Practical catalogue lines, clear product information and a no-payment trade enquiry journey.</p>
         <Link href="/contact" className="footer-contact-link">Speak to the trade desk <ArrowUpRight size={17} /></Link>
       </section>
       {footerGroups.map((group) => <section className="footer-links" key={group.title}>
@@ -28,7 +28,7 @@ export default function SiteFooter() {
         <p><Mail size={15} /> trade@magneticsource.co.uk</p>
         <p><Phone size={15} /> 020 3988 2160</p>
         <p><MapPin size={15} /> United Kingdom</p>
-        <span className="footer-demo-note">Contact details shown for interface demonstration only.</span>
+        <span className="footer-demo-note">For catalogue and trade-account enquiries.</span>
       </section>
     </div>
     <div className="trade-shell footer-bottom">
