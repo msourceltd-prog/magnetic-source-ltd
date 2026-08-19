@@ -1,0 +1,13 @@
+/**
+ * Trade Ledger, Recut: an intentionally local contact demonstration whose
+ * copy makes clear that no enquiry is sent until a live service is connected.
+ */
+import { FormEvent, useState } from "react";
+import { ArrowRight, CheckCircle2, Mail, MapPin, Phone } from "lucide-react";
+import StoreLayout from "@/components/StoreLayout";
+
+export default function Contact() {
+  const [sent, setSent] = useState(false);
+  const submit = (event: FormEvent<HTMLFormElement>) => { event.preventDefault(); setSent(true); };
+  return <StoreLayout><section className="contact-hero"><div className="trade-shell"><div><p className="eyebrow">Contact the trade desk</p><h1>Let’s make the source useful.</h1><p>Ask about the planned range, brand-approval process or future trade-account journey. This form is intentionally local for demonstration.</p></div><aside><Mail size={22} /><span>trade@magneticsource.co.uk</span><Phone size={22} /><span>020 3988 2160</span><MapPin size={22} /><span>United Kingdom</span></aside></div></section><section className="trade-shell contact-layout section-space"><div className="contact-intro"><p className="eyebrow">A clear next step</p><h2>Start with the detail that matters.</h2><p>A production contact form can be connected to an approved customer management or support workflow once the business address, inbox and privacy documentation are finalised.</p><div className="contact-note"><CheckCircle2 size={19} /> Your typed content remains in this browser for this demo.</div></div><form className="contact-form" onSubmit={submit}>{sent ? <div className="contact-success"><CheckCircle2 size={32} /><h2>Demo enquiry confirmed.</h2><p>No message has been sent. This visible success state is ready to connect to an approved backend workflow.</p><button type="button" className="button-secondary" onClick={() => setSent(false)}>Send another demo enquiry</button></div> : <><div className="form-grid"><label>Full name<input required name="name" autoComplete="name" /></label><label>Email address<input required name="email" type="email" autoComplete="email" /></label><label>Company (optional)<input name="company" autoComplete="organization" /></label><label>Topic<select name="topic" defaultValue="range"><option value="range">Product range</option><option value="brand">Brand approval</option><option value="trade">Trade account</option><option value="other">Something else</option></select></label><label className="span-2">Your message<textarea required name="message" rows={5} /></label></div><button type="submit" className="button-primary">Confirm demo enquiry <ArrowRight size={17} /></button></>}</form></section></StoreLayout>;
+}

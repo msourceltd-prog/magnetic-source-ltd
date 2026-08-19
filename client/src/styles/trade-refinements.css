@@ -1,0 +1,57 @@
+/*
+ * Trade Ledger, Recut — refinement pass following visual review.
+ * This layer strengthens catalogue pacing, product evidence and repeatable
+ * ledger construction without changing the established paper/ink/cobalt system.
+ */
+
+.product-image-wrap { background:#d8d6d0; }
+.product-image-wrap::after { position:absolute; inset:0; content:""; pointer-events:none; background:linear-gradient(180deg,rgba(26,30,34,.18),transparent 26%,rgba(26,30,34,.12)); mix-blend-mode:multiply; }
+.product-image-wrap img { filter:saturate(.72) contrast(.94) sepia(.06); transition:transform .4s cubic-bezier(.23,1,.32,1),filter .4s ease-out; }
+.product-card:hover .product-image-wrap img { filter:saturate(.86) contrast(1); }
+.product-image-label { position:absolute; z-index:2; top:10px; left:10px; padding:4px 5px; color:#fff; background:rgba(26,30,34,.86); font:500 7px var(--mono); letter-spacing:.09em; text-transform:uppercase; }
+.product-ledger { display:grid; grid-template-columns:1fr 1fr; gap:0; margin:11px 0 18px; border-top:1px solid var(--line); border-bottom:1px solid var(--line); color:var(--soft-ink); font:500 8px/1.45 var(--mono); letter-spacing:.01em; text-transform:uppercase; }
+.product-ledger span { min-width:0; padding:7px 4px 7px 0; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; }
+.product-ledger span + span { padding-right:0; padding-left:6px; border-left:1px solid var(--line); color:var(--cobalt); }
+
+.catalogue-meta { margin-bottom:13px; }
+.catalogue-meta strong { color:var(--cobalt); }
+.catalogue-intro-strip { display:flex; align-items:center; justify-content:space-between; gap:25px; margin-bottom:27px; padding:13px 14px; border-top:1px solid var(--ink); border-bottom:1px solid var(--line); background:#eef2f7; }
+.catalogue-intro-strip .eyebrow { flex:0 0 auto; }
+.catalogue-intro-strip p { max-width:490px; margin:0; color:var(--soft-ink); font-size:11px; line-height:1.5; }
+.catalogue-interrupt { position:relative; grid-column:1 / -1; display:flex; align-items:end; justify-content:space-between; min-height:268px; margin:15px 0; padding:34px; overflow:hidden; color:#fff; background:var(--cobalt); clip-path:polygon(0 0,100% 0,100% calc(100% - 28px),calc(100% - 28px) 100%,0 100%); }
+.catalogue-interrupt::after { position:absolute; top:-85px; right:-40px; width:310px; height:310px; border:1px solid rgba(255,255,255,.25); border-radius:50%; content:""; box-shadow:0 0 0 38px rgba(255,255,255,.07),0 0 0 76px rgba(255,255,255,.04); }
+.catalogue-interrupt > div { position:relative; z-index:1; max-width:490px; }
+.catalogue-interrupt .eyebrow { color:#d6e3f5; }
+.catalogue-interrupt h2 { margin:9px 0 12px; font:400 44px/.95 var(--serif); letter-spacing:-.045em; }
+.catalogue-interrupt p { max-width:460px; margin:0; color:#e0eaf8; font-size:13px; line-height:1.65; }
+.catalogue-interrupt-link { display:inline-flex; align-items:center; gap:8px; margin-top:19px; padding-bottom:4px; border-bottom:1px solid #fff; font-size:10px; font-weight:800; letter-spacing:.05em; text-transform:uppercase; }
+.catalogue-interrupt-index { position:relative; z-index:1; color:#c5d7ef; font:500 11px var(--mono); letter-spacing:.08em; }
+.catalogue-limit { display:flex; align-items:start; gap:19px; margin-top:28px; padding:19px; border-top:1px solid var(--ink); border-bottom:1px solid var(--line); }
+.catalogue-limit .eyebrow { flex:0 0 142px; padding-top:3px; }
+.catalogue-limit p { max-width:650px; margin:0; color:var(--soft-ink); font-size:12px; line-height:1.6; }
+
+.cart-empty { position:relative; overflow:hidden; }
+.cart-empty::before { position:absolute; top:14px; left:17px; content:"LEDGER / EMPTY 00"; color:var(--cobalt); font:500 8px var(--mono); letter-spacing:.1em; }
+.product-detail-image { height:580px; min-height:0; }
+.admin-header { position:relative; overflow:hidden; }
+.admin-header::after { position:absolute; right:10%; bottom:-55px; width:190px; height:190px; border:1px solid rgba(142,180,224,.42); content:""; transform:rotate(45deg); box-shadow:0 0 0 27px rgba(142,180,224,.07); }
+.admin-header > div { position:relative; z-index:1; }
+.admin-content { position:relative; padding-top:10px; }
+.admin-content::before { position:absolute; top:0; right:0; left:0; height:3px; content:""; background:repeating-linear-gradient(90deg,var(--cobalt) 0 7px,transparent 7px 12px); }
+.admin-product-form,.admin-category-form,.admin-list { clip-path:polygon(0 0,100% 0,100% calc(100% - 16px),calc(100% - 16px) 100%,0 100%); }
+.admin-list-heading { background:#f0eee8; }
+.admin-product-row img { filter:saturate(.72); }
+
+@media (max-width:760px) {
+  .product-detail-image { height:365px; min-height:0; }
+  .product-image-label { top:7px; left:7px; font-size:6px; }
+  .product-ledger { margin:9px 0 12px; font-size:7px; }
+  .catalogue-intro-strip { display:block; padding:11px; }
+  .catalogue-intro-strip p { margin-top:7px; font-size:10px; }
+  .catalogue-interrupt { min-height:245px; margin:7px 0; padding:25px 20px; }
+  .catalogue-interrupt h2 { font-size:35px; }
+  .catalogue-interrupt p { max-width:315px; font-size:11px; }
+  .catalogue-interrupt-index { display:none; }
+  .catalogue-limit { display:block; padding:16px; }
+  .catalogue-limit .eyebrow { margin-bottom:8px; }
+}
