@@ -1,0 +1,18 @@
+const url = process.env.SUPABASE_URL;
+const accessToken = process.env.SUPABASE_ACCESS_TOKEN;
+if (!url || !accessToken) throw new Error("SUPABASE_URL or SUPABASE_ACCESS_TOKEN is unavailable");
+const ref = new URL(url).hostname.split(".")[0];
+const query = `begin;
+insert into storage.buckets (id, name, public) values ('product-images', 'product-images', true) on conflict (id) do update set public = true;
+drop policy if exists "Public can read product images" on storage.objects;
+drop policy if exists "Admin uploads product images" on storage.objects;
+drop policy if exists "Admin updates product images" on storage.objects;
+drop policy if exists "Admin removes product images" on storage.objects;
+create policy "Public can read product images" on storage.objects for select using (bucket_id = 'product-images');
+create policy "Admin uploads product images" on storage.objects for insert with check (bucket_id = 'product-images' and public.is_admin());
+create policy "Admin updates product images" on storage.objects for update using (bucket_id = 'product-images' and public.is_admin());
+create policy "Admin removes product images" on storage.objects for delete using (bucket_id = 'product-images' and public.is_admin());
+commit;`;
+const response = await fetch(`https://api.supabase.com/v1/projects/${ref}/database/query`, { method: "POST", headers: { Authorization: `Bearer ${accessToken}`, "Content-Type": "application/json" }, body: JSON.stringify({ query }) });
+if (!response.ok) throw new Error(`Product image bucket repair failed (${response.status}): ${await response.text()}`);
+console.log("Ensured product-images bucket and admin-only storage policies.");

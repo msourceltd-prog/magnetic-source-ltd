@@ -1,0 +1,10 @@
+const url = process.env.SUPABASE_URL;
+const accessToken = process.env.SUPABASE_ACCESS_TOKEN;
+if (!url || !accessToken) throw new Error("SUPABASE_URL or SUPABASE_ACCESS_TOKEN is unavailable");
+const ref = new URL(url).hostname.split(".")[0];
+const query = "select id, name, public from storage.buckets where id = 'product-images';";
+const response = await fetch(`https://api.supabase.com/v1/projects/${ref}/database/query`, { method: "POST", headers: { Authorization: `Bearer ${accessToken}`, "Content-Type": "application/json" }, body: JSON.stringify({ query }) });
+if (!response.ok) throw new Error(`Product image bucket verification failed (${response.status}): ${await response.text()}`);
+const data = await response.json();
+if (!Array.isArray(data) || data.length !== 1 || data[0].id !== "product-images" || data[0].public !== true) throw new Error("product-images bucket is not public and ready");
+console.log(JSON.stringify({ productImagesBucket: data[0], verification: "management-path-success" }, null, 2));

@@ -74,6 +74,34 @@ create table if not exists public.demo_order_items (
   quantity integer not null check (quantity > 0)
 );
 
+create or replace function public.create_demo_order_with_items(
+  p_order_reference text,
+  p_customer_name text,
+  p_customer_email text,
+  p_company text,
+  p_address_line_1 text,
+  p_address_line_2 text,
+  p_city text,
+  p_postcode text,
+  p_subtotal numeric,
+  p_items jsonb
+)
+returns uuid language plpgsql security definer set search_path = public as $$
+declare
+  v_order_id uuid;
+begin
+  insert into public.demo_orders (order_reference, customer_name, customer_email, company, address_line_1, address_line_2, city, postcode, subtotal, status)
+  values (p_order_reference, p_customer_name, p_customer_email, nullif(p_company, ''), p_address_line_1, nullif(p_address_line_2, ''), p_city, p_postcode, p_subtotal, 'Demo order')
+  returning id into v_order_id;
+
+  insert into public.demo_order_items (demo_order_id, product_sku, product_name, unit_price, quantity)
+  select v_order_id, item.product_sku, item.product_name, item.unit_price, item.quantity
+  from jsonb_to_recordset(p_items) as item(product_sku text, product_name text, unit_price numeric, quantity integer);
+
+  return v_order_id;
+end;
+$$;
+
 alter table public.profiles enable row level security;
 alter table public.categories enable row level security;
 alter table public.products enable row level security;
@@ -99,6 +127,8 @@ create policy "Visitors can create demo orders" on public.demo_orders for insert
 create policy "Admin manages demo orders" on public.demo_orders for all using (public.is_admin()) with check (public.is_admin());
 create policy "Visitors can add demo order items" on public.demo_order_items for insert with check (true);
 create policy "Admin manages demo order items" on public.demo_order_items for all using (public.is_admin()) with check (public.is_admin());
+
+grant execute on function public.create_demo_order_with_items(text, text, text, text, text, text, text, text, numeric, jsonb) to anon, authenticated;
 
 insert into storage.buckets (id, name, public)
 values ('product-images', 'product-images', true)

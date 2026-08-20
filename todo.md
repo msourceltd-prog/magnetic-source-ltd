@@ -129,3 +129,10 @@
 - [x] Verify the current GitHub remote and clean working tree include the latest Personal Care release.
 - [x] Confirm the Cloudflare static-site configuration is present and the public Supabase variables are the only required frontend values.
 - [x] Provide the owner-led retry-deployment and post-deployment checks.
+
+## Backend Health Audit
+
+- [x] Verify public Supabase access to categories, all product records, and source-backed Personal Care records.
+- [x] Verify the no-payment enquiry/order persistence path and its failure fallback.
+- [x] Verify admin authentication, role policy, image-placeholder handling, and storage prerequisites.
+- [x] Verify Cloudflare public environment requirements, then fix any safe code or configuration issue found.
