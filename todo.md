@@ -245,3 +245,8 @@
 - [x] Back up the current 40 Charging & Electrical records and prepare a locked transaction that validates all 40 Baby & Kids records before deleting only the target category and products.
 - [x] Obtain final confirmation immediately before running the targeted category replacement.
 - [x] Replace Charging & Electrical with Baby & Kids and validate the live catalogue: 8 categories, 319 products, 40 Baby & Kids records, no duplicate SKU/slug/image values, no stock leaks, and price-on-request display.
+
+## Catalogue Image Consistency Audit
+
+- [x] Inspect all eight departments for oversized, inconsistently positioned, or visually cropped source images.
+- [x] Standardise product-card and detail-image containment so every product is smaller, centred, fully visible, and consistently framed on white; verify every department after the correction.
