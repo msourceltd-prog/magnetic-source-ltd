@@ -123,3 +123,9 @@
 - [x] Keep supplier images as placeholders until explicit reuse permission or owned supplier assets are provided.
 - [x] Map source records to Personal Care only, preserve original source values, and label the price basis accurately.
 - [x] Import validated records into Supabase, verify Personal Care search/detail pages, and synchronize the approved update to GitHub.
+
+## Final GitHub and Cloudflare Check
+
+- [x] Verify the current GitHub remote and clean working tree include the latest Personal Care release.
+- [x] Confirm the Cloudflare static-site configuration is present and the public Supabase variables are the only required frontend values.
+- [x] Provide the owner-led retry-deployment and post-deployment checks.
