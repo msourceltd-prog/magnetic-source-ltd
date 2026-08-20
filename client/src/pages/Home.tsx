@@ -12,7 +12,6 @@ import { useCatalog } from "@/contexts/CatalogContext";
 export default function Home() {
   const { categories, products } = useCatalog();
   const featured = products.slice(0, 8);
-  const leadDepartments = categories.slice(0, 2);
   return <StoreLayout>
     <section className="hero-section">
       <div className="hero-image"><img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=2000&q=82" alt="Stacked trade cartons in a warehouse" fetchPriority="high" decoding="async" /></div>
@@ -30,21 +29,11 @@ export default function Home() {
           <div className="hero-metrics"><span><b>Trade</b> enquiry</span><span><b>{categories.length}</b> departments</span><span><b>Quote</b> on request</span></div>
         </div>
       </div>
-      <div className="hero-footnote"><div className="trade-shell"><span>Approval demo catalogue</span><span>Original content · No live payment</span></div></div>
     </section>
 
     <section className="trade-shell category-intro section-space">
       <div><p className="eyebrow">Choose by need</p><h2>A working edit,<br />not an endless list.</h2></div>
       <p>Start with the departments most useful to smaller retailers, independent sellers and practical everyday displays. Each route holds clear pack, product reference, matching image and plain-language product information.</p>
-    </section>
-
-    <section className="trade-shell department-grid">
-      {leadDepartments[0] && <Link href={`/shop?category=${leadDepartments[0].slug}`} className="department-feature feature-home"><img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1100&q=78" alt="Organised retail product display" loading="lazy" decoding="async" /><div><span className="eyebrow">01 / {leadDepartments[0].name}</span><h3>{leadDepartments[0].summary}</h3><span className="department-cta">Explore lines <ArrowRight size={16} /></span></div></Link>}
-      {leadDepartments[1] && <Link href={`/shop?category=${leadDepartments[1].slug}`} className="department-feature feature-diy"><img src="https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1100&q=78" alt="Retail product selection" loading="lazy" decoding="async" /><div><span className="eyebrow">02 / {leadDepartments[1].name}</span><h3>{leadDepartments[1].summary}</h3><span className="department-cta">Explore lines <ArrowRight size={16} /></span></div></Link>}
-      <div className="department-list-card">
-        <p className="eyebrow">More departments</p>
-        {categories.slice(2).map((category) => <Link key={category.slug} href={`/shop?category=${category.slug}`}><span>{category.name}</span><ArrowRight size={16} /></Link>)}
-      </div>
     </section>
 
     <section className="featured-section section-space">

@@ -5,7 +5,7 @@ const key = process.env.SUPABASE_KEY || process.env.VITE_SUPABASE_ANON_KEY;
 if (!url || !key) throw new Error("SUPABASE_URL and a public read key are required for live validation.");
 
 const expectedCounts = {
-  "charging-electrical": 40,
+  "baby-kids": 40,
   clearance: 39,
   "health-beauty": 40,
   "household-pet": 40,

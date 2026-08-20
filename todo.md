@@ -232,3 +232,16 @@
 ## Homepage Operational Explainer Removal
 
 - [x] Remove the homepage section containing the Dubai image, the “Built for the practical part” and “Clear lines” copy, and the “How Magnetic Source works” call-to-action; verify the surrounding homepage flow remains balanced.
+
+## Homepage Approval and Department Feature Removal
+
+- [x] Remove the black Approval demo catalogue strip and the two-image department feature section with Home & Utility, DIY & Hardware, and Explore lines copy; verify the homepage now transitions cleanly into selected products.
+
+## Baby & Kids Department Replacement
+
+- [ ] Replace only the Charging & Electrical category and its 40 products with 40 approved-source Baby & Kids products after backup and final confirmation.
+- [x] Apply a clean white product-image frame with centred, uncropped products across the complete catalogue and product-detail pages; remove diagonal image-corner decoration and verify the preferred professional presentation on live catalogue examples.
+- [x] Prepare and validate 40 Baby & Kids products from the approved Wholesale Baby source, with unique SKU, slug, exact matching image, factual description, and pack information; do not retain source stock or price values.
+- [x] Back up the current 40 Charging & Electrical records and prepare a locked transaction that validates all 40 Baby & Kids records before deleting only the target category and products.
+- [x] Obtain final confirmation immediately before running the targeted category replacement.
+- [x] Replace Charging & Electrical with Baby & Kids and validate the live catalogue: 8 categories, 319 products, 40 Baby & Kids records, no duplicate SKU/slug/image values, no stock leaks, and price-on-request display.

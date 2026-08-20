@@ -29,7 +29,7 @@
 }
 
 .product-detail-image img {
-  padding: 28px;
+  padding: 42px;
   object-fit: contain;
   background: #fff;
 }
@@ -46,6 +46,6 @@
   }
 
   .product-detail-image img {
-    padding: 18px;
+    padding: 24px;
   }
 }
