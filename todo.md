@@ -183,3 +183,4 @@
 - [x] Back up the current 13-category, 420-product catalogue and prepare a locked replacement transaction that imports and validates all eight new categories and 319 price-free products before deleting old catalogue rows.
 - [x] Obtain final deletion approval immediately before executing the locked price-free replacement transaction.
 - [x] Import and validate the price-free compact catalogue: 8 live categories, 319 live products, 319 matching unique images, hidden numeric values, and no imported public stock terms.
+- [x] Push the approved price-free catalogue checkpoint to the public GitHub `main` branch.
