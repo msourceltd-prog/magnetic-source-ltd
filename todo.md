@@ -136,3 +136,50 @@
 - [x] Verify the no-payment enquiry/order persistence path and its failure fallback.
 - [x] Verify admin authentication, role policy, image-placeholder handling, and storage prerequisites.
 - [x] Verify Cloudflare public environment requirements, then fix any safe code or configuration issue found.
+
+## Harrison’s-Style Wholesale Redesign
+
+- [x] Reconcile the attachment’s replacement-catalogue requirements with the current schema, free-tier constraints, price-source rules, image rights, and destructive-data safeguards.
+- [x] Inspect the provided Harrison’s Direct reference and record only transferable UX, category, navigation, product-card, and mobile patterns.
+- [x] Audit the existing Supabase catalogue, categories, and storage use before any replacement planning.
+- [x] Define an original premium design and a strict category mapping that excludes unrelated reference products.
+- [ ] Obtain authorized product names, public GBP prices, and image rights for every replacement record; do not fabricate login-only prices.
+- [ ] Build the reference-informed category and product-browsing experience without copying branding, code, images, or text.
+- [ ] Export a backup and prepare a reviewed replacement dataset before any old products are deleted.
+- [ ] Obtain a final explicit confirmation immediately before deleting old product records.
+- [ ] Import approved replacements, validate live results, and synchronize the change to GitHub.
+
+## Bulk Wholesale Sweets Source
+
+- [x] Inspect the owner-provided Bulk Wholesale Sweets source, including its public product information, categories, and reuse terms.
+- [x] Record the owner's confirmation that Bulk Wholesale Sweets has granted Magnetic Source permission to use its product images, descriptions, and prices.
+- [x] Prepare 1,707 verified Sweets & Confectionery replacement records from the owner-authorized source, with unique SKU/slug/image values, visible ex-VAT GBP prices, factual descriptions, and no supplier stock quantities; do not treat a sweets-only source as coverage for unrelated departments.
+- [x] Remove public stock-count display from product cards and detail pages while keeping the existing database structure unchanged; verify the dynamic catalogue card field order and production build.
+- [x] Back up the existing 13-category, 420-product catalogue and prepare the guarded 1,707-product Sweets & Confectionery import plan.
+- [ ] Obtain explicit final confirmation immediately before deleting any existing catalogue row.
+
+## Harrison’s Direct Multi-Category Catalogue
+
+- [x] Record the owner's confirmation that Harrison’s Direct authorizes Magnetic Source to use the required product data, images, descriptions, and prices.
+- [x] Set the catalogue limit to 40 verified products in each of eight clean categories, for a compact 320-product free-tier-safe target.
+- [x] Audit the full Harrison’s Direct department hierarchy, public product fields, and access required for visible product prices.
+- [x] Define a clean multi-category import mapping that shows visible GBP prices but never public stock counts such as “5 available”.
+- [x] Retrieve and map the 310-source-category hierarchy to eight verified department roots; Clearance has 39 live valid source products, so it will remain at 39 rather than add a duplicate product.
+- [x] Extract 319 authorized public records: 40 products in each of seven matched departments and all 39 valid Clearance products, with exact primary images, name, SKU, and pack information; exclude every source stock, availability, and price value.
+- [x] Validate the compact catalogue: 319 confirmed unique matching images, complete required product fields, unique SKU and slug values, and no public stock or price data in the import dataset.
+- [x] Refine the premium stock-free multi-category interface: dynamic live departments, no legacy hard-coded department link, and no public stock language.
+- [ ] Resume the compact source extraction only when the public Harrison’s pages are stable, or replace it with an owner-provided authorized product feed.
+- [ ] Keep all public-source product prices unset until an authorized per-pack trade-price source is supplied; do not delete the existing database catalogue before that point.
+- [ ] Obtain the authorized multi-category price feed or authenticated price access required to verify every visible GBP product price.
+- [ ] Prepare and validate Harrison’s Direct replacement records only after the available price source is verified.
+- [ ] Back up the current catalogue and obtain another explicit final confirmation before replacing the old database catalogue rows.
+
+## Price-Free Compact Catalogue
+
+- [x] Record the owner’s instruction to leave prices out completely; no price will be invented or publicly displayed.
+- [x] Confirm the existing product and order data model can represent price-free catalogue entries without affecting users, authentication, orders, or backend architecture; store schema-safe `0.00` internally with a `Price hidden` tag and never display it as a price.
+- [x] Update catalogue, product detail, basket, checkout, structured data, and header presentation to hide price and stock display for the compact replacement dataset; type check and production build pass.
+- [x] Prepare the schema-compatible price-free import files: eight categories and 319 products with matching images, factual descriptions, SKU, pack data, `Price hidden` tags, no public stock terms, and no duplicate SKU, slug, or image values.
+- [x] Back up the current 13-category, 420-product catalogue and prepare a locked replacement transaction that imports and validates all eight new categories and 319 price-free products before deleting old catalogue rows.
+- [x] Obtain final deletion approval immediately before executing the locked price-free replacement transaction.
+- [x] Import and validate the price-free compact catalogue: 8 live categories, 319 live products, 319 matching unique images, hidden numeric values, and no imported public stock terms.

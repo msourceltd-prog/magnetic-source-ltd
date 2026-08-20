@@ -1,12 +1,13 @@
 /**
  * Trade Ledger, Recut: utility-first navigation with Source Cobalt category
- * tape, original Magnetic Source mark, and persistent basket/search access.
+ * tape, dynamic live departments, and persistent basket/search access.
  */
 import { FormEvent, useState } from "react";
 import { Link, useLocation } from "wouter";
 import { ChevronDown, Menu, Search, ShoppingBag, X } from "lucide-react";
 import { useCart } from "@/contexts/CartContext";
 import { useCatalog } from "@/contexts/CatalogContext";
+import { isPriceHidden } from "@/data/catalog";
 
 const utilityLinks = [
   ["Contact", "/contact"],
@@ -16,10 +17,10 @@ const utilityLinks = [
 ] as const;
 
 const mainLinks = [
-  ["Shop the edit", "/shop"],
-  ["Latest records", "/shop?sort=new"],
-  ["Catalogue lines", "/shop"],
-  ["Trade essentials", "/shop?category=diy-hardware"],
+  ["Browse catalogue", "/shop"],
+  ["New lines", "/shop?sort=new"],
+  ["Departments", "/shop"],
+  ["Your basket", "/cart"],
 ] as const;
 
 export default function SiteHeader() {
@@ -27,7 +28,8 @@ export default function SiteHeader() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [search, setSearch] = useState("");
   const [, navigate] = useLocation();
-  const { itemCount, subtotal } = useCart();
+  const { items, itemCount, subtotal } = useCart();
+  const quoteRequired = items.some(isPriceHidden);
 
   const submitSearch = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -58,9 +60,9 @@ export default function SiteHeader() {
         </form>
 
         <div className="header-actions">
-          <Link href="/shop" className="quick-order"><span>Quick order</span><b>Browse stock</b></Link>
+          <Link href="/shop" className="quick-order"><span>Quick order</span><b>Browse catalogue</b></Link>
           <Link href="/cart" className="basket-button" aria-label={`View cart with ${itemCount} items`}>
-            <ShoppingBag size={21} /><span><em>{itemCount} items</em><b>{new Intl.NumberFormat("en-GB", { style: "currency", currency: "GBP" }).format(subtotal)}</b></span>
+            <ShoppingBag size={21} /><span><em>{itemCount} items</em><b>{quoteRequired ? "Quote required" : new Intl.NumberFormat("en-GB", { style: "currency", currency: "GBP" }).format(subtotal)}</b></span>
           </Link>
         </div>
         <button className="mobile-menu-toggle" type="button" onClick={() => setMobileOpen((open) => !open)} aria-expanded={mobileOpen} aria-controls="mobile-navigation">

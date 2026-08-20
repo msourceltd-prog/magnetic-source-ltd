@@ -1,7 +1,7 @@
 /**
  * Trade Ledger, Recut: fallback catalogue data for the Magnetic Source
- * wholesale interface. Personal Care records may use owner-approved supplier
- * data; supplier imagery remains controlled separately.
+ * wholesale interface. The price-free compact catalogue uses an explicit
+ * quote-required display rule while retaining a schema-safe numeric value.
  */
 export type Category = {
   name: string;
@@ -23,7 +23,7 @@ export type Product = {
   image: string;
   tags: string[];
   featured: boolean;
-  priceBasis: "Indicative price · ex VAT" | "Supplier unit price · ex VAT";
+  priceBasis: "Indicative price · ex VAT" | "Supplier unit price · ex VAT" | "Supplier listed price · ex VAT" | "Price on request";
   brand: null;
 };
 
@@ -103,6 +103,8 @@ export const formatGBP = (value: number) => new Intl.NumberFormat("en-GB", {
   currency: "GBP",
   minimumFractionDigits: 2,
 }).format(value);
+
+export const isPriceHidden = (product: Pick<Product, "tags" | "priceBasis">) => product.priceBasis === "Price on request" || product.tags.includes("Price hidden");
 
 export function productBySlug(slug: string) {
   return products.find((product) => product.slug === slug);

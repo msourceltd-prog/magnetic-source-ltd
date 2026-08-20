@@ -74,3 +74,5 @@ The first release will cover only the user’s necessary brand-approval scope: c
 - All reference-derived behaviour remains at the interaction and information-architecture level; all visual assets and written content are original.
 - Generated imagery is used only in visually prominent editorial positions and is never reused across unrelated sections.
 - Product data is clearly presented as sample catalogue content for a brand-approval demo until a connected inventory source is available.
+- The replacement catalogue will use a clean trade-card hierarchy: real product image, category signal, concise name, short factual description, visible ex-VAT GBP price, SKU, and pack quantity. Stock, promotions, brands, and RRP will appear only when owner-approved source data verifies them.
+- The category navigation will remain dense and operational, but its labels, descriptions, and order will be unique to Magnetic Source. No Harrison’s Direct wording, logo, images, or checkout/trade-account behaviour will be reused.

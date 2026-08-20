@@ -1,0 +1,51 @@
+/*
+ * Trade Ledger, Recut — supplier catalogue refinement.
+ * Preserve exact product pack imagery, display compact factual descriptions and
+ * visible ex-VAT price context, and intentionally omit all stock quantities.
+ */
+
+.product-card-topline {
+  justify-content: flex-start;
+}
+
+.product-card-description {
+  display: -webkit-box;
+  min-height: 53px;
+  margin: 9px 0 0;
+  overflow: hidden;
+  color: var(--soft-ink);
+  font-size: 11px;
+  line-height: 1.55;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.product-card-description + .product-ledger {
+  margin-top: 12px;
+}
+
+.product-detail-image {
+  background: #fff;
+}
+
+.product-detail-image img {
+  padding: 28px;
+  object-fit: contain;
+  background: #fff;
+}
+
+.detail-kicker {
+  justify-content: flex-start;
+}
+
+@media (max-width: 760px) {
+  .product-card-description {
+    min-height: 45px;
+    font-size: 10px;
+    line-height: 1.45;
+  }
+
+  .product-detail-image img {
+    padding: 18px;
+  }
+}
