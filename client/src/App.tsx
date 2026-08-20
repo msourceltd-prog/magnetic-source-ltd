@@ -1,6 +1,7 @@
 /**
  * Trade Ledger, Recut: a calm paper-and-ink commerce app, with Source Cobalt
- * leading trade navigation and all public routes nested in the shared shell.
+ * leading trade navigation, hash-safe static deployment routes, and all public
+ * pages nested in the shared shell.
  */
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -16,11 +17,22 @@ import InfoPage from "@/pages/InfoPage";
 import OrderConfirmation from "@/pages/OrderConfirmation";
 import ProductDetail from "@/pages/ProductDetail";
 import Shop from "@/pages/Shop";
-import { Route, Switch } from "wouter";
+import { Route, Router as WouterRouter, Switch } from "wouter";
+import { useHashLocation } from "wouter/use-hash-location";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import "./styles/trade-refinements.css";
 import "./styles/launch-readiness.css";
+
+const useCloudflareHashLocation = Object.assign(
+  (options?: Parameters<typeof useHashLocation>[0]) => useHashLocation(options),
+  {
+    hrefs: (href: string) => {
+      const [path, search] = href.split("?");
+      return `${search ? `?${search}` : ""}#${path}`;
+    },
+  },
+);
 
 function Router() {
   return <Switch>
@@ -42,7 +54,7 @@ function Router() {
 }
 
 function App() {
-  return <ErrorBoundary><ThemeProvider defaultTheme="light"><TooltipProvider><CatalogProvider><CartProvider><Toaster /><Router /></CartProvider></CatalogProvider></TooltipProvider></ThemeProvider></ErrorBoundary>;
+  return <ErrorBoundary><WouterRouter hook={useCloudflareHashLocation}><ThemeProvider defaultTheme="light"><TooltipProvider><CatalogProvider><CartProvider><Toaster /><Router /></CartProvider></CatalogProvider></TooltipProvider></ThemeProvider></WouterRouter></ErrorBoundary>;
 }
 
 export default App;

@@ -184,3 +184,15 @@
 - [x] Obtain final deletion approval immediately before executing the locked price-free replacement transaction.
 - [x] Import and validate the price-free compact catalogue: 8 live categories, 319 live products, 319 matching unique images, hidden numeric values, and no imported public stock terms.
 - [x] Push the approved price-free catalogue checkpoint to the public GitHub `main` branch.
+
+## Cloudflare Manual Static Deployment
+
+- [x] Confirm the current Cloudflare Worker uses the manual static-file uploader rather than a connected GitHub deployment.
+- [x] Prepare and verify the latest Cloudflare static-upload folder and ZIP archive; it contains only the production HTML, CSS, JavaScript, and public static files, with no source, `.env`, or service-role files.
+- [ ] Guide the owner through uploading the correct build folder and verify the resulting live Cloudflare site.
+- [x] Diagnose the initial manual upload: the homepage serves the latest assets, but `/shop` and product URLs return 404 because the static uploader has no SPA fallback.
+- [x] Create a corrected hash-route static package, verify root, shop, category, and product navigation locally, and regenerate the Cloudflare upload ZIP.
+- [ ] Re-upload the corrected static package and verify the live root, shop, category, and product routes.
+- [x] Diagnose the second upload: Cloudflare serves the new root HTML but returns 404 for nested `assets/` files from the folder upload.
+- [x] Prepare and verify a flat static upload package with root-level `app.js` and `app.css` references; it contains no nested assets, source files, environment files, or service credentials.
+- [x] Re-upload the flat package and verify live root assets plus hash-routed shop, Toys & Gifts category, and product-detail pages; all now display the new price-free catalogue without stock counts.
