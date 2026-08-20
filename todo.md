@@ -228,3 +228,7 @@
 ## Header Transition Cleanup
 
 - [x] Remove the dotted white decorative rule below the category tape and verify the clean hero transition.
+
+## Homepage Operational Explainer Removal
+
+- [x] Remove the homepage section containing the Dubai image, the “Built for the practical part” and “Clear lines” copy, and the “How Magnetic Source works” call-to-action; verify the surrounding homepage flow remains balanced.

@@ -3,7 +3,7 @@
  * browsing rhythm, warm paper space, Source Cobalt navigation, dynamic live
  * departments, and a no-price, no-stock quote-required catalogue policy.
  */
-import { ArrowRight, Box, ChevronRight, PackageCheck, Search, Truck } from "lucide-react";
+import { ArrowRight, ChevronRight, PackageCheck } from "lucide-react";
 import { Link } from "wouter";
 import StoreLayout from "@/components/StoreLayout";
 import ProductCard from "@/components/ProductCard";
@@ -50,12 +50,6 @@ export default function Home() {
     <section className="featured-section section-space">
       <div className="trade-shell section-heading"><div><p className="eyebrow">Selected lines</p><h2>Useful from first glance.</h2></div><Link href="/shop" className="text-link">See the full catalogue <ArrowRight size={16} /></Link></div>
       <div className="trade-shell product-grid">{featured.map((product) => <ProductCard product={product} key={product.id} />)}</div>
-    </section>
-
-    <section className="trade-shell sourcing-band section-space">
-      <div className="sourcing-image"><img src="https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&w=1200&q=80" alt="Parcels and shipping supplies prepared for dispatch" loading="lazy" decoding="async" /></div>
-      <div className="sourcing-copy"><p className="eyebrow">Built for the practical part</p><h2>Clear lines. Quietly ready to move.</h2><p>Product cards show the matching image, pack format, product reference and a plain-language description. Trade pricing and delivery are confirmed only after enquiry.</p><Link href="/about" className="button-secondary">How Magnetic Source works <ArrowRight size={17} /></Link></div>
-      <div className="sourcing-points"><div><Search size={22} /><b>Search the detail</b><p>Find an item by product name, internal reference or pack type.</p></div><div><Box size={22} /><b>Build a basket</b><p>Adjust quantities before continuing to a no-payment trade enquiry.</p></div><div><Truck size={22} /><b>Plan delivery</b><p>Review delivery and returns information in plain English.</p></div></div>
     </section>
 
     <section className="statement-band"><div className="trade-shell"><PackageCheck size={32} /><p>Curated for the retailer who wants sourcing to feel <em>considered</em>, not complicated.</p><Link href="/contact">Open a trade conversation <ArrowRight size={17} /></Link></div></section>
