@@ -5,7 +5,7 @@
  */
 import { Fragment, useEffect, useMemo, useState } from "react";
 import { ChevronDown, Filter, Loader2, Search, SlidersHorizontal, X } from "lucide-react";
-import { Link, useLocation, useSearch } from "wouter";
+import { useLocation, useSearch } from "wouter";
 import ProductCard from "@/components/ProductCard";
 import StoreLayout from "@/components/StoreLayout";
 import { useCatalog } from "@/contexts/CatalogContext";
@@ -26,6 +26,9 @@ export default function Shop() {
   const [visibleCount, setVisibleCount] = useState(36);
   const [filtersOpen, setFiltersOpen] = useState(false);
   const activeCategoryInfo = categories.find((category) => category.slug === activeCategory);
+  const seoPath = activeCategory ? `/shop?category=${encodeURIComponent(activeCategory)}` : "/shop";
+  const seoTitle = activeCategoryInfo ? `${activeCategoryInfo.name} Wholesale Products | Magnetic Source` : "Wholesale Products & Trade Catalogue | Magnetic Source";
+  const seoDescription = activeCategoryInfo ? `Magnetic Source offers ${activeCategoryInfo.name} wholesale products for UK trade buyers, with clear product descriptions, pack details and quote enquiries.` : "Browse Magnetic Source wholesale products for UK trade buyers, with practical retail lines, clear pack details, product references and quote enquiries.";
 
   useEffect(() => {
     setActiveCategory(getQuery(searchString, "category"));
@@ -52,8 +55,8 @@ export default function Shop() {
   const reset = () => { setActiveCategory(""); setSearch(""); setPriceRange("all"); setSort("catalogue"); setVisibleCount(36); navigate("/shop"); };
   const editResults = filtered.slice(0, visibleCount);
 
-  return <StoreLayout>
-    <section className="page-banner"><div className="trade-shell"><div><p className="eyebrow">Home / Shop</p><h1>{activeCategoryInfo?.name || "Wholesale catalogue"}</h1><p>{activeCategoryInfo?.summary || "A focused wholesale catalogue of practical lines for independent retail and marketplace sellers."}</p></div></div></section>
+  return <StoreLayout seo={{ title: seoTitle, description: seoDescription, path: seoPath }}>
+    <section className="page-banner"><div className="trade-shell"><div><p className="eyebrow">Home / Shop</p><h1>{activeCategoryInfo ? `${activeCategoryInfo.name} wholesale products` : "Wholesale catalogue for UK trade buyers"}</h1><p>{activeCategoryInfo?.summary || "A focused wholesale catalogue of practical lines for independent retail and marketplace sellers."}</p></div></div></section>
     <div className="trade-shell shop-layout">
       <aside className={`filter-rail ${filtersOpen ? "filter-rail-open" : ""}`}>
         <div className="filter-rail-heading"><span className="eyebrow">Browse categories</span><button type="button" onClick={() => setFiltersOpen(false)} aria-label="Close filters"><X size={19} /></button></div>
@@ -70,7 +73,7 @@ export default function Shop() {
           <label className="sort-control"><SlidersHorizontal size={16} /><span className="sr-only">Sort products</span><select value={sort} onChange={(event) => setSort(event.target.value)}><option value="catalogue">Catalogue order</option><option value="new">Newest records</option><option value="price-low">Price: low to high</option><option value="price-high">Price: high to low</option></select></label>
         </div>
         <div className="catalogue-meta"><span>{loading ? <><b>Loading</b> verified catalogue</> : <><b>Showing {editResults.length}</b> of {filtered.length} products</>}</span><span>{products.every(isPriceHidden) ? "Trade quotes on request" : "GBP prices · ex VAT"}</span></div>
-        {loading ? <div className="empty-state catalogue-loading"><Loader2 size={30} className="animate-spin" /><h2>Loading catalogue lines.</h2><p>Preparing the verified product information for your browse session.</p></div> : filtered.length ? <><div className="catalogue-intro-strip"><span className="eyebrow">Product information</span><p>Every listed line shows its matching image, product reference, pack format and factual description. Trade prices and stock quantities are confirmed only after enquiry.</p></div><div className="product-grid catalogue-grid">{editResults.map((product, index) => <Fragment key={product.id}><ProductCard product={product} />{index === 11 && <aside className="catalogue-interrupt"><div><span className="eyebrow light">Trade collection</span><h2>Clear product facts.<br />Quick wholesale browsing.</h2><p>Search by category, product name, supplier reference or pack format, then add the lines you need to your enquiry.</p><Link href="/shop" className="catalogue-interrupt-link">Browse all products <ChevronDown size={16} /></Link></div><span className="catalogue-interrupt-index">Source</span></aside>}</Fragment>)}</div>{filtered.length > editResults.length && <div className="catalogue-limit"><span className="eyebrow">More to explore</span><p>Continue browsing category-matched product records.</p><button type="button" className="button-secondary" onClick={() => setVisibleCount((count) => count + 36)}>Load more products</button></div>}</> : <div className="empty-state"><Search size={30} /><h2>No matching products found.</h2><p>Try another product term, product reference or category.</p><button type="button" className="button-secondary" onClick={reset}>Reset the catalogue</button></div>}
+        {loading ? <div className="empty-state catalogue-loading"><Loader2 size={30} className="animate-spin" /><h2>Loading catalogue lines.</h2><p>Preparing the verified product information for your browse session.</p></div> : filtered.length ? <><div className="catalogue-intro-strip"><span className="eyebrow">Product information</span><p>Every listed line shows its matching image, product reference, pack format and factual description. Trade prices and stock quantities are confirmed only after enquiry.</p></div><div className="product-grid catalogue-grid">{editResults.map((product, index) => <Fragment key={product.id}><ProductCard product={product} />{index === 11 && <aside className="catalogue-interrupt"><div><span className="eyebrow light">Trade collection</span><h2>Clear product facts.<br />Quick wholesale browsing.</h2><p>Search by category, product name, supplier reference or pack format, then add the lines you need to your enquiry.</p><a href="/shop" className="catalogue-interrupt-link">Browse all products <ChevronDown size={16} /></a></div><span className="catalogue-interrupt-index">Source</span></aside>}</Fragment>)}</div>{filtered.length > editResults.length && <div className="catalogue-limit"><span className="eyebrow">More to explore</span><p>Continue browsing category-matched product records.</p><button type="button" className="button-secondary" onClick={() => setVisibleCount((count) => count + 36)}>Load more products</button></div>}</> : <div className="empty-state"><Search size={30} /><h2>No matching products found.</h2><p>Try another product term, product reference or category.</p><button type="button" className="button-secondary" onClick={reset}>Reset the catalogue</button></div>}
       </section>
     </div>
   </StoreLayout>;

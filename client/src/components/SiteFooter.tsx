@@ -3,11 +3,10 @@
  * page with professional registered-company details and useful support routes.
  */
 import { ArrowUpRight, Mail, MapPin, Phone } from "lucide-react";
-import { Link } from "wouter";
 
 const footerGroups = [
   { title: "Browse", links: [["Wholesale catalogue", "/shop"], ["Latest records", "/shop?sort=new"], ["Catalogue lines", "/shop"], ["Trade essentials", "/shop?category=diy-hardware"]] },
-  { title: "Support", links: [["Delivery & returns", "/delivery-returns"], ["Contact", "/contact"], ["Privacy", "/privacy"], ["Terms", "/terms"]] },
+  { title: "Support", links: [["About Magnetic Source", "/about"], ["Trade account", "/trade-account"], ["Delivery & returns", "/delivery-returns"], ["Contact", "/contact"], ["Privacy", "/privacy"], ["Terms", "/terms"]] },
 ];
 
 export default function SiteFooter() {
@@ -17,11 +16,11 @@ export default function SiteFooter() {
         <span className="eyebrow light">Magnetic Source Ltd</span>
         <h2>Useful stock,<br />clearly sourced.</h2>
         <p>Practical catalogue lines, clear product information and a no-payment trade enquiry journey.</p>
-        <Link href="/contact" className="footer-contact-link">Speak to the trade desk <ArrowUpRight size={17} /></Link>
+        <a href="/contact" className="footer-contact-link">Speak to the trade desk <ArrowUpRight size={17} /></a>
       </section>
       {footerGroups.map((group) => <section className="footer-links" key={group.title}>
         <h3>{group.title}</h3>
-        {group.links.map(([label, href]) => <Link key={label} href={href}>{label}</Link>)}
+        {group.links.map(([label, href]) => <a key={label} href={href}>{label}</a>)}
       </section>)}
       <section className="footer-details">
         <h3>Trade desk</h3>

@@ -267,4 +267,13 @@
 
 - [x] Save the approved Git Worker build command `pnpm build` before the Cloudflare browser session timed out.
 - [x] Configure and verify public Supabase browser fallbacks for repeatable Git builds without any service-role credential or Cloudflare build-variable dependence.
-- [ ] Push the configuration, validate the automatic Git Worker build, and keep the current live site route unchanged until it succeeds.
+- [x] Push the Git build configuration to `main`; the current live site route remains unchanged while the Git Worker has no active route.
+- [ ] Confirm the new automatic Git Worker build status in Cloudflare after the dashboard cookie session is available again.
+
+## Technical SEO Implementation
+
+- [x] Audit every public route, current head metadata, page heading, image alternative text, and normal HTML navigation path.
+- [x] Add root-level `robots.txt` and an XML sitemap for all public canonical URLs on `https://magneticsource.uk/`.
+- [x] Implement unique public-page metadata, canonical links, Open Graph/Twitter Cards, Organization structured data, headings, and descriptive image alternative text.
+- [ ] Build, inspect public metadata and crawlable links, regenerate the Cloudflare upload artifact, and synchronize the validated SEO release to GitHub.
+- [ ] Provide the complete sitemap URL list and concise redeployment status to the owner.

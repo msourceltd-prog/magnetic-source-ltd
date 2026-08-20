@@ -76,3 +76,6 @@ The first release will cover only the user’s necessary brand-approval scope: c
 - Product data is clearly presented as sample catalogue content for a brand-approval demo until a connected inventory source is available.
 - The replacement catalogue will use a clean trade-card hierarchy: real product image, category signal, concise name, short factual description, visible ex-VAT GBP price, SKU, and pack quantity. Stock, promotions, brands, and RRP will appear only when owner-approved source data verifies them.
 - The category navigation will remain dense and operational, but its labels, descriptions, and order will be unique to Magnetic Source. No Harrison’s Direct wording, logo, images, or checkout/trade-account behaviour will be reused.
+- The Magnetic Source mark uses magnetic-field monogram language: offset cobalt bars pull toward a graphite source dot and never read as a generic letter icon.
+- Product evidence appears within the first visible area of every major commercial page through product imagery, SKU/pack facts, catalogue fragments, or trade labels.
+- Signal Ochre (`#C97725`) is reserved for availability, parcel, trade-status, and momentum cues, while Source Cobalt (`#124C9C`) remains the primary navigation and action color.

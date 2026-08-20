@@ -1,6 +1,6 @@
 /**
  * Trade Ledger, Recut: a calm paper-and-ink commerce app, with Source Cobalt
- * leading trade navigation, hash-safe static deployment routes, and all public
+ * leading trade navigation, canonical path-based deployment routes, and all public
  * pages nested in the shared shell.
  */
 import { Toaster } from "@/components/ui/sonner";
@@ -17,22 +17,11 @@ import InfoPage from "@/pages/InfoPage";
 import OrderConfirmation from "@/pages/OrderConfirmation";
 import ProductDetail from "@/pages/ProductDetail";
 import Shop from "@/pages/Shop";
-import { Route, Router as WouterRouter, Switch } from "wouter";
-import { useHashLocation } from "wouter/use-hash-location";
+import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import "./styles/trade-refinements.css";
 import "./styles/launch-readiness.css";
-
-const useCloudflareHashLocation = Object.assign(
-  (options?: Parameters<typeof useHashLocation>[0]) => useHashLocation(options),
-  {
-    hrefs: (href: string) => {
-      const [path, search] = href.split("?");
-      return `${search ? `?${search}` : ""}#${path}`;
-    },
-  },
-);
 
 function Router() {
   return <Switch>
@@ -47,6 +36,7 @@ function Router() {
     <Route path="/delivery-returns" component={InfoPage} />
     <Route path="/privacy" component={InfoPage} />
     <Route path="/terms" component={InfoPage} />
+    <Route path="/trade-account" component={InfoPage} />
     <Route path="/contact" component={Contact} />
     <Route path="/404" component={NotFound} />
     <Route component={NotFound} />
@@ -54,7 +44,7 @@ function Router() {
 }
 
 function App() {
-  return <ErrorBoundary><WouterRouter hook={useCloudflareHashLocation}><ThemeProvider defaultTheme="light"><TooltipProvider><CatalogProvider><CartProvider><Toaster /><Router /></CartProvider></CatalogProvider></TooltipProvider></ThemeProvider></WouterRouter></ErrorBoundary>;
+  return <ErrorBoundary><ThemeProvider defaultTheme="light"><TooltipProvider><CatalogProvider><CartProvider><Toaster /><Router /></CartProvider></CatalogProvider></TooltipProvider></ThemeProvider></ErrorBoundary>;
 }
 
 export default App;

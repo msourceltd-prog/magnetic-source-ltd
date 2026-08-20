@@ -1,8 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /admin
-Disallow: /cart
-Disallow: /checkout
-Disallow: /order-confirmation
 
-Sitemap: https://magneticsource.co.uk/sitemap.xml
+Sitemap: https://magneticsource.uk/sitemap.xml

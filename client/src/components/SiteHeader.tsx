@@ -3,7 +3,7 @@
  * tape, dynamic live departments, and persistent basket/search access.
  */
 import { FormEvent, useState } from "react";
-import { Link, useLocation } from "wouter";
+import { useLocation } from "wouter";
 import { ChevronDown, Menu, Search, ShoppingBag, X } from "lucide-react";
 import { useCart } from "@/contexts/CartContext";
 import { useCatalog } from "@/contexts/CatalogContext";
@@ -13,7 +13,7 @@ const utilityLinks = [
   ["Contact", "/contact"],
   ["About", "/about"],
   ["Delivery & returns", "/delivery-returns"],
-  ["Trade account", "/admin"],
+  ["Trade account", "/trade-account"],
 ] as const;
 
 const mainLinks = [
@@ -41,17 +41,17 @@ export default function SiteHeader() {
       <div className="trade-shell utility-inner">
         <p>Independent UK trade supply · Practical wholesale catalogue</p>
         <nav aria-label="Utility navigation" className="utility-nav">
-          {utilityLinks.map(([label, href]) => <Link key={label} href={href}>{label}</Link>)}
+          {utilityLinks.map(([label, href]) => <a key={label} href={href}>{label}</a>)}
         </nav>
       </div>
     </div>
 
     <header className="site-header">
       <div className="trade-shell header-grid">
-        <Link href="/" className="brand-lockup" aria-label="Magnetic Source home">
-          <img src="/favicon.svg" alt="" className="brand-mark" width={64} height={64} decoding="async" />
+        <a href="/" className="brand-lockup" aria-label="Magnetic Source home">
+          <img src="/manus-storage/magnetic-source-field-monogram_408a230c.png" alt="Magnetic Source Ltd magnetic field logo" className="brand-mark" width={64} height={64} decoding="async" />
           <span className="brand-type"><b>MAGNETIC</b><span>SOURCE LTD</span></span>
-        </Link>
+        </a>
 
         <form className="search-field" role="search" onSubmit={submitSearch}>
           <label className="sr-only" htmlFor="site-search">Search catalogue</label>
@@ -60,21 +60,21 @@ export default function SiteHeader() {
         </form>
 
         <div className="header-actions">
-          <Link href="/shop" className="quick-order"><span>Quick order</span><b>Browse catalogue</b></Link>
-          <Link href="/cart" className="basket-button" aria-label={`View cart with ${itemCount} items`}>
+          <a href="/shop" className="quick-order"><span>Quick order</span><b>Browse catalogue</b></a>
+          <a href="/cart" className="basket-button" aria-label={`View cart with ${itemCount} items`}>
             <ShoppingBag size={21} /><span><em>{itemCount} items</em><b>{quoteRequired ? "Quote required" : new Intl.NumberFormat("en-GB", { style: "currency", currency: "GBP" }).format(subtotal)}</b></span>
-          </Link>
+          </a>
         </div>
         <button className="mobile-menu-toggle" type="button" onClick={() => setMobileOpen((open) => !open)} aria-expanded={mobileOpen} aria-controls="mobile-navigation">
           {mobileOpen ? <X size={25} /> : <Menu size={25} />}<span>Menu</span>
         </button>
       </div>
       <nav className="primary-nav trade-shell" aria-label="Primary navigation">
-        {mainLinks.map(([label, href]) => <Link key={label} href={href}>{label}</Link>)}
+        {mainLinks.map(([label, href]) => <a key={label} href={href}>{label}</a>)}
       </nav>
       <nav className="category-tape" aria-label="Product categories">
         <div className="trade-shell category-tape-inner">
-          {categories.map((category) => <Link key={category.slug} href={`/shop?category=${category.slug}`} className="category-tape-link"><span>{category.name}</span><ChevronDown size={13} /></Link>)}
+          {categories.map((category) => <a key={category.slug} href={`/shop?category=${category.slug}`} className="category-tape-link"><span>{category.name}</span><ChevronDown size={13} /></a>)}
         </div>
       </nav>
     </header>
@@ -86,11 +86,11 @@ export default function SiteHeader() {
         <button type="submit" aria-label="Search catalogue"><Search size={19} /></button>
       </form>
       <div className="mobile-nav-links">
-        {mainLinks.map(([label, href]) => <Link key={label} href={href} onClick={() => setMobileOpen(false)}>{label}</Link>)}
+        {mainLinks.map(([label, href]) => <a key={label} href={href} onClick={() => setMobileOpen(false)}>{label}</a>)}
       </div>
       <p className="mobile-nav-label">Browse by department</p>
       <div className="mobile-category-links">
-        {categories.map((category) => <Link key={category.slug} href={`/shop?category=${category.slug}`} onClick={() => setMobileOpen(false)}>{category.name}<ChevronDown size={15} /></Link>)}
+        {categories.map((category) => <a key={category.slug} href={`/shop?category=${category.slug}`} onClick={() => setMobileOpen(false)}>{category.name}<ChevronDown size={15} /></a>)}
       </div>
     </div>}
   </>;

@@ -2,6 +2,8 @@
  * Trade Ledger, Recut — supplier catalogue refinement.
  * Preserve exact product pack imagery, display compact factual descriptions and
  * visible ex-VAT price context, and intentionally omit all stock quantities.
+ * The review pass reinforces product evidence, ledger-rule hierarchy, and the
+ * cobalt/ochre discipline while retaining calm white product presentation.
  */
 
 .product-card-topline {
@@ -32,10 +34,10 @@
 }
 
 .product-image-wrap img {
-  width: 82% !important;
-  height: 82% !important;
-  max-width: 82% !important;
-  max-height: 82% !important;
+  width: 90% !important;
+  height: 90% !important;
+  max-width: 90% !important;
+  max-height: 90% !important;
   object-fit: contain !important;
   object-position: center !important;
 }
@@ -70,6 +72,116 @@
   justify-content: flex-start;
 }
 
+.product-card-topline span::before,
+.product-ledger::before {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin-right: 7px;
+  border-radius: 50%;
+  background: #c97725;
+  content: "";
+  vertical-align: middle;
+}
+
+.product-ledger {
+  position: relative;
+  gap: 8px;
+  padding: 8px 0 7px;
+  border-top: 1px dotted color-mix(in srgb, var(--ink) 24%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, var(--ink) 12%, transparent);
+}
+
+.product-ledger::before {
+  position: absolute;
+  top: 13px;
+  left: 0;
+  margin: 0;
+}
+
+.product-ledger span:first-of-type {
+  margin-left: 13px;
+}
+
+.brand-mark {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+
+.brand-type {
+  letter-spacing: 0.15em;
+}
+
+.brand-type span {
+  letter-spacing: 0.22em;
+}
+
+.hero-product-proof {
+  display: grid;
+  grid-template-columns: 66px minmax(0, 1fr);
+  gap: 12px;
+  width: min(100%, 360px);
+  margin-top: 25px;
+  padding: 10px;
+  border: 1px solid color-mix(in srgb, #124c9c 28%, transparent);
+  border-left: 4px solid #c97725;
+  background: color-mix(in srgb, #f6f2ea 88%, white);
+  box-shadow: 5px 5px 0 color-mix(in srgb, #1a1e22 12%, transparent);
+}
+
+.hero-product-image {
+  display: grid;
+  place-items: center;
+  min-height: 66px;
+  background: #fff;
+}
+
+.hero-product-image img {
+  width: 88%;
+  height: 88%;
+  object-fit: contain;
+}
+
+.hero-product-proof > div:last-child {
+  display: grid;
+  gap: 3px;
+  align-content: center;
+}
+
+.hero-proof-label,
+.hero-product-proof > div:last-child > span {
+  color: var(--soft-ink);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hero-proof-label {
+  color: #a65e1b !important;
+}
+
+.hero-product-proof strong {
+  color: var(--ink);
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.hero-product-proof a {
+  display: inline-flex;
+  gap: 5px;
+  align-items: center;
+  width: fit-content;
+  margin-top: 2px;
+  color: #124c9c;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
 @media (max-width: 760px) {
   .product-card-description {
     min-height: 45px;
@@ -82,10 +194,10 @@
   }
 
   .product-image-wrap img {
-    width: 86% !important;
-    height: 86% !important;
-    max-width: 86% !important;
-    max-height: 86% !important;
+    width: 92% !important;
+    height: 92% !important;
+    max-width: 92% !important;
+    max-height: 92% !important;
   }
 
   .product-detail-image {
@@ -98,5 +210,9 @@
     max-width: 88%;
     max-height: 88%;
     padding: 0;
+  }
+
+  .hero-product-proof {
+    grid-template-columns: 56px minmax(0, 1fr);
   }
 }
