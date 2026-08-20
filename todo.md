@@ -211,6 +211,8 @@
 - [ ] Re-upload the corrected package and verify the live Admin page reaches login and product-management controls.
 - [x] Confirm the current Cloudflare uploader corrupts linked root-level bundles too: the live `app.js` is not the uploaded production bundle and lacks both required public Supabase values.
 - [ ] Create a self-contained HTML deployment file that inlines the verified production JavaScript and CSS, leaving no linked application bundle for the uploader to omit or replace.
+- [x] Diagnose the latest self-contained-file failure: an original external application script tag remained alongside the inline bundle.
+- [x] Correct the generator to remove every external application CSS and JavaScript asset tag before the final re-upload; verify one inline module bootstrap and no external application asset links.
 
 ## Registered Company Details
 
@@ -222,3 +224,7 @@
 - [x] Replace the heavy black top utility-bar treatment with a professional website-consistent warm-paper treatment, retaining the existing utility links.
 - [x] Verify desktop and mobile presentation and regenerate the self-contained Cloudflare deployment file.
 - [ ] Synchronize the refined utility navigation to GitHub and upload the refreshed deployment file to Cloudflare.
+
+## Header Transition Cleanup
+
+- [x] Remove the dotted white decorative rule below the category tape and verify the clean hero transition.

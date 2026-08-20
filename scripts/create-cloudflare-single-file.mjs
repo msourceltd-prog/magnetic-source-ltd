@@ -13,10 +13,19 @@ if (!cssMatch || !jsMatch) throw new Error("The production index.html does not c
 
 const css = await readFile(path.join(publicDir, cssMatch[1].slice(1)), "utf8");
 const js = await readFile(path.join(publicDir, jsMatch[1].slice(1)), "utf8");
+const encodedModule = Buffer.from(js).toString("base64");
+const moduleBootstrap = `<script type="module">
+const source = atob("${encodedModule}");
+const moduleUrl = URL.createObjectURL(new Blob([source], { type: "text/javascript" }));
+import(moduleUrl);
+</script>`;
+
 const inlineHtml = html
-  .replace(cssMatch[0], `<style>\n${css}\n</style>`)
-  .replace(jsMatch[0], `<script type="module">\n${js}\n</script>`)
-  .replace(/<link[^>]+rel="icon"[^>]*>/g, "");
+  .replace(/<link[^>]+href="\/assets\/[^"?]+\.css"[^>]*>/g, "")
+  .replace(/<script[^>]+src="\/assets\/[^"?]+\.js"[^>]*><\/script>/g, "")
+  .replace(/<link[^>]+rel="icon"[^>]*>/g, "")
+  .replace("</head>", `<style>\n${css}\n</style>\n</head>`)
+  .replace("</body>", `${moduleBootstrap}\n</body>`);
 
 await rm(outputDir, { recursive: true, force: true });
 await mkdir(outputDir, { recursive: true });
