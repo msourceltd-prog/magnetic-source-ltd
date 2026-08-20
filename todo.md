@@ -196,3 +196,23 @@
 - [x] Diagnose the second upload: Cloudflare serves the new root HTML but returns 404 for nested `assets/` files from the folder upload.
 - [x] Prepare and verify a flat static upload package with root-level `app.js` and `app.css` references; it contains no nested assets, source files, environment files, or service credentials.
 - [x] Re-upload the flat package and verify live root assets plus hash-routed shop, Toys & Gifts category, and product-detail pages; all now display the new price-free catalogue without stock counts.
+
+## Cloudflare GitHub Automatic Deployment
+
+- [ ] Inspect the working Cloudflare Worker for available GitHub connection and build configuration options.
+- [ ] Confirm the target public repository, `main` branch, and safe deployment settings before making the connection.
+- [ ] Obtain final owner confirmation before authorizing Cloudflare access to GitHub or modifying the deployment connection.
+- [ ] Validate the resulting automatic deployment path and document the future update flow.
+
+## Cloudflare Admin Configuration Repair
+
+- [x] Diagnose the live Admin page failure: the current static build does not expose its required public Supabase configuration to the Admin route.
+- [x] Build and verify a corrected self-contained static deployment file with the public Supabase URL and anon key embedded, no service-role key, no linked application assets, and a locally verified Admin sign-in route.
+- [ ] Re-upload the corrected package and verify the live Admin page reaches login and product-management controls.
+- [x] Confirm the current Cloudflare uploader corrupts linked root-level bundles too: the live `app.js` is not the uploaded production bundle and lacks both required public Supabase values.
+- [ ] Create a self-contained HTML deployment file that inlines the verified production JavaScript and CSS, leaving no linked application bundle for the uploader to omit or replace.
+
+## Registered Company Details
+
+- [x] Replace all public business detail locations with the owner-provided registered address, company number, VAT number, and `+44 7856 262726` contact number.
+- [x] Regenerate and verify the self-contained Cloudflare upload file after the business-detail update, with all registered details and public Supabase configuration present but no server credential.

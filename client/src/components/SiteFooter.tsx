@@ -1,6 +1,6 @@
 /**
  * Trade Ledger, Recut: an operational, paper-and-ink footer that closes each
- * page with useful support routes rather than generic promotional filler.
+ * page with professional registered-company details and useful support routes.
  */
 import { ArrowUpRight, Mail, MapPin, Phone } from "lucide-react";
 import { Link } from "wouter";
@@ -26,14 +26,15 @@ export default function SiteFooter() {
       <section className="footer-details">
         <h3>Trade desk</h3>
         <p><Mail size={15} /> trade@magneticsource.co.uk</p>
-        <p><Phone size={15} /> 020 3988 2160</p>
-        <p><MapPin size={15} /> United Kingdom</p>
+        <p><Phone size={15} /> <a href="tel:+447856262726">+44 7856 262726</a></p>
+        <p className="footer-address"><MapPin size={15} /> Flat 1, Saviours House, 15 Newport Road, Hayes, England, UB4 8FR</p>
+        <p className="footer-legal">Company No. 15466397 · VAT No. GB469 1754 52</p>
         <span className="footer-demo-note">For catalogue and trade-account enquiries.</span>
       </section>
     </div>
     <div className="trade-shell footer-bottom">
       <span>© {new Date().getFullYear()} Magnetic Source Ltd</span>
-      <span>Made for practical retail.</span>
+      <span>Registered in England and Wales.</span>
       <span>GBP (£) · UK trade supply</span>
     </div>
   </footer>;
