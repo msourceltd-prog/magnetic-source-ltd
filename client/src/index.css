@@ -25,11 +25,11 @@ img { display:block; max-width:100%; }
 .store-app { overflow:hidden; }
 
 /* Header: three operational strata inspired by a wholesale trade desk. */
-.utility-strip { color:#e7edf6; background:var(--ink); font:500 10px/1 var(--mono); letter-spacing:.05em; text-transform:uppercase; }
-.utility-inner { display:flex; min-height:32px; align-items:center; justify-content:space-between; gap:24px; }
-.utility-inner p { margin:0; opacity:.82; }
-.utility-nav { display:flex; gap:17px; }
-.utility-nav a { opacity:.86; transition:opacity .16s ease-out; }.utility-nav a:hover { opacity:1; color:#fff; }
+.utility-strip { position:relative; z-index:2; border-bottom:1px solid #c8d3df; background:linear-gradient(90deg,#f8f4ed 0%,#eef3f8 58%,#f8f4ed 100%); box-shadow:0 5px 14px rgba(24,44,70,.07), inset 0 -1px 0 rgba(255,255,255,.8); color:#2b4058; font:600 9px/1 var(--mono); letter-spacing:.075em; text-transform:uppercase; }
+.utility-inner { display:flex; min-height:38px; align-items:center; justify-content:space-between; gap:24px; }
+.utility-inner p { margin:0; color:#56708a; }
+.utility-nav { display:flex; align-self:stretch; gap:0; }
+.utility-nav a { display:flex; align-items:center; padding:0 11px; border-left:1px solid rgba(57,84,112,.16); color:#294764; text-decoration:none; transition:color .16s ease-out, background-color .16s ease-out, box-shadow .16s ease-out; }.utility-nav a:last-child { border-right:1px solid rgba(57,84,112,.16); }.utility-nav a:hover { background:rgba(255,255,255,.68); box-shadow:inset 0 -2px 0 var(--cobalt); color:var(--cobalt); }
 .site-header { position:relative; z-index:20; background:#fbfaf7; border-bottom:1px solid var(--line); }
 .header-grid { display:grid; grid-template-columns:250px minmax(260px, 1fr) auto; gap:38px; align-items:center; min-height:100px; }
 .brand-lockup { display:inline-flex; align-items:center; gap:10px; width:max-content; }

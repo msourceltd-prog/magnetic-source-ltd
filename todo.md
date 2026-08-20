@@ -216,3 +216,9 @@
 
 - [x] Replace all public business detail locations with the owner-provided registered address, company number, VAT number, and `+44 7856 262726` contact number.
 - [x] Regenerate and verify the self-contained Cloudflare upload file after the business-detail update, with all registered details and public Supabase configuration present but no server credential.
+
+## Utility Navigation Refinement
+
+- [x] Replace the heavy black top utility-bar treatment with a professional website-consistent warm-paper treatment, retaining the existing utility links.
+- [x] Verify desktop and mobile presentation and regenerate the self-contained Cloudflare deployment file.
+- [ ] Synchronize the refined utility navigation to GitHub and upload the refreshed deployment file to Cloudflare.
