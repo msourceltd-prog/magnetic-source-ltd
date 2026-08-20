@@ -250,3 +250,21 @@
 
 - [x] Inspect all eight departments for oversized, inconsistently positioned, or visually cropped source images.
 - [x] Standardise product-card and detail-image containment so every product is smaller, centred, fully visible, and consistently framed on white; verify every department after the correction.
+
+## Custom Domain Connection
+
+- [ ] Inspect the current Cloudflare Worker domain settings for the safe custom-domain connection path.
+- [ ] Identify the required ownership or DNS records for magneticsource.uk.
+- [ ] Obtain final owner confirmation before binding magneticsource.uk or changing DNS, then validate HTTPS routing.
+
+## Cloudflare Git-Connected Deployment
+
+- [x] Inspect the existing Cloudflare account: the live `magnetic-sourceeltd` Worker already references `msourceltd-prog/magnetic-source-ltd`; a separate `magnetic-source-ltd` Pages project has a failed build and no active route, so it must not replace the live Worker.
+- [x] Confirm the Git deployment settings: repository `msourceltd-prog/magnetic-source-ltd`, branch `main`, root `/`, build command `pnpm build`, deploy command `npx wrangler deploy`, plus public Supabase URL and anon-key build variables. The Git Worker currently has no active route, so the existing live site remains protected during testing.
+- [ ] Obtain final owner confirmation before creating a new Git-connected deployment or switching the live domain.
+
+## Git Build Resilience
+
+- [x] Save the approved Git Worker build command `pnpm build` before the Cloudflare browser session timed out.
+- [x] Configure and verify public Supabase browser fallbacks for repeatable Git builds without any service-role credential or Cloudflare build-variable dependence.
+- [ ] Push the configuration, validate the automatic Git Worker build, and keep the current live site route unchanged until it succeeds.
