@@ -65,7 +65,7 @@ export default function SiteHeader() {
       <div className="trade-shell utility-inner">
         <p>Independent UK trade supply · Practical wholesale catalogue</p>
         <nav aria-label="Utility navigation" className="utility-nav">
-          {utilityLinks.map(([label, href]) => <a key={label} href={href} onClick={(event) => followInternal(event, href)}>{label}</a>)}
+          {utilityLinks.map(([label, href]) => <a key={label} className={label === "About" ? "utility-link-about" : undefined} href={href} onClick={(event) => followInternal(event, href)}>{label}</a>)}
         </nav>
       </div>
     </div>
