@@ -58,6 +58,10 @@
 .admin-product-preview .product-card { max-width:360px; margin:auto; background:#fff; }
 .admin-product-preview .product-card button:disabled { cursor:default; opacity:1; }
 .admin-optional { margin-left:5px; color:var(--cobalt); font:600 8px var(--mono); letter-spacing:.08em; text-transform:uppercase; }
+.admin-required { margin-left:5px; color:#a13424; font:600 8px var(--mono); letter-spacing:.08em; text-transform:uppercase; }
+.admin-product-form .admin-category-field { grid-column:1 / -1; min-width:0; }
+.admin-product-form .admin-category-field select { width:100%; min-width:0; }
+.admin-row-category { display:inline-flex !important; width:max-content; max-width:100%; margin-top:5px !important; padding:3px 5px; color:var(--cobalt) !important; border:1px solid rgba(18,76,156,.28); background:#edf3fb; font:600 7px var(--mono) !important; letter-spacing:.06em; line-height:1.2; text-transform:uppercase; }
 .admin-product-form label small { display:block; margin-top:6px; color:var(--soft-ink); font-size:10px; line-height:1.4; }
 
 @media (max-width:760px) {

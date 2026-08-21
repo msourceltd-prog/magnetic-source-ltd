@@ -458,3 +458,9 @@
 - [x] Make Category required in the Admin Add Product form with clear validation before any save can run. The Admin form now uses a required select limited to existing categories and validates it again before any database write.
 - [x] Repair product and category deletion to persist to Supabase with a confirmation dialog, success/error feedback, refreshed state, and no static-source reseeding on refresh or deploy. Deletes now request and verify the returned deleted row before showing success; a zero-row response is a clear error rather than a false success. Product categories with active products are blocked from deletion with an explanatory message. The storefront reads Supabase directly and has no product seed/reseed path.
 - [x] Create, permanently delete, refresh, rebuild, and redeploy a dedicated test product; verify it stays absent and the live total returns to 411. The authenticated test created and permanently deleted one product and one empty category; both stayed absent after a fresh database read and a full rebuild, and the total returned from 412 to 411. Live deployment verification follows the saved checkpoint.
+
+## Admin Category Visibility
+
+- [x] Show the full assigned category on every Admin product row so the completed product classification is visible without opening an edit form. Every row now displays a named category badge between the product name and pack/reference line.
+- [x] Widen the required Category selector and its form grid area so the full category label is visible and easy to select. Category now has a full-width required selector with an explicit required indicator and full category names.
+- [ ] Build and type-check the Admin category-visibility correction. Production build and TypeScript validation pass; live authenticated Admin visual verification and deployment follow the saved checkpoint.
