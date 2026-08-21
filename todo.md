@@ -420,3 +420,8 @@
 
 - [x] Remove the paired source dots at the upper-right of every product card and the blue left-side line inside every product image frame, while preserving contained product images, product information, and all other styling.
 - [x] Build and visually verify the global product-card decoration cleanup. The shared top-right paired-dot pseudo-element and blue left image-frame border are removed from every product card while contained product images and all product content remain unchanged; publication follows the saved checkpoint.
+
+## Product Card Dot Cleanup
+
+- [x] Remove the remaining one category-label dot and two Trade Record dots globally from every product card, without removing the category or Trade Record text.
+- [x] Build and visually verify the global three-dot removal. Category and Trade Record labels remain visible with all three dots removed globally; publication follows the saved checkpoint.
