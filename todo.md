@@ -56,6 +56,10 @@
 
 - [x] Apply only the supplied warm off-white, deep cobalt, charcoal, and restrained gold colour direction across the shared Magnetic Source interface without changing layout or content. The reviewed reference confirms an off-white field, a single saturated cobalt navigation/action band, charcoal fine rules and text, and a small gold accent confined to the brand mark. Its utility/header treatment uses pale grey-off-white panels, charcoal dividers, and cobalt icon circles/buttons—without secondary colours. Production build and desktop/mobile homepage and Shop views were visually checked.
 
+## Single-Surface Homepage Hero
+
+- [x] Remove the warehouse image, gradients, and pseudo-element layers from the homepage hero; use a uniform `#F4F6F8` background and the exact requested eyebrow, headline, italic, and paragraph colours at every viewport width. Production build and TypeScript validation pass; the hero was visually checked at 1920px, 1440px, 1024px, 768px, and 390px with no background seam or tonal shift behind the text.
+
 - [x] Review the supplied reference’s public category structure and identify compatible original product-type additions.
 - [x] Expand the original static approval-demo catalogue without reusing reference names, descriptions, SKUs, pricing, or images.
 - [x] Reuse existing remote sample imagery rather than uploading additional Supabase Storage assets.

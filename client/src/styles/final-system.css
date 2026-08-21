@@ -141,6 +141,46 @@ body,
   background: var(--brand-surface-muted);
 }
 
+/* Homepage hero: intentionally one uninterrupted neutral surface at every width. */
+.hero-section {
+  background: #F4F6F8 !important;
+  background-image: none !important;
+}
+
+.hero-section::before,
+.hero-section::after,
+.hero-image,
+.hero-image::before,
+.hero-image::after {
+  display: none !important;
+  content: none !important;
+  background: none !important;
+  background-image: none !important;
+}
+
+.hero-copy .eyebrow {
+  color: #1B4E9B;
+}
+
+.hero-copy h1 {
+  color: #16202E;
+}
+
+.hero-copy h1 em {
+  color: #1B4E9B;
+}
+
+.hero-description {
+  color: #4A5563;
+}
+
+@media (min-width: 761px) and (max-width: 1100px) {
+  .hero-copy {
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+
 .category-tape {
   border-bottom: 1px dotted color-mix(in srgb, var(--brand-on-primary) 62%, transparent);
   background: var(--brand-primary);

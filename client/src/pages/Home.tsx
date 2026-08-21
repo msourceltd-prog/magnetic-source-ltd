@@ -14,7 +14,6 @@ export default function Home() {
   const featured = products.slice(0, 8);
   return <StoreLayout>
     <section className="hero-section">
-      <div className="hero-image"><picture><source media="(max-width: 760px)" srcSet="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fm=webp&fit=crop&w=900&q=72" /><source media="(max-width: 1200px)" srcSet="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fm=webp&fit=crop&w=1400&q=76" /><img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fm=webp&fit=crop&w=1800&q=78" alt="Magnetic Source wholesale trade cartons stored in a UK warehouse" width="1800" height="1200" fetchPriority="high" decoding="async" /></picture></div>
       <div className="trade-shell hero-layout">
         <aside className="hero-rail" aria-label="Department shortcuts">
           <span className="eyebrow">Browse the source</span>
