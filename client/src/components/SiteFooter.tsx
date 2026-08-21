@@ -24,7 +24,7 @@ export default function SiteFooter() {
       </section>)}
       <section className="footer-details">
         <h3>Trade desk</h3>
-        <p><Mail size={15} /> trade@magneticsource.co.uk</p>
+        <p><Mail size={15} /> <a href="mailto:info@magneticsource.uk">info@magneticsource.uk</a></p>
         <p><Phone size={15} /> <a href="tel:+447856262726">+44 7856 262726</a></p>
         <p className="footer-address"><MapPin size={15} /> Flat 1, Saviours House, 15 Newport Road, Hayes, England, UB4 8FR</p>
         <p className="footer-legal">Company No. 15466397 · VAT No. GB469 1754 52</p>

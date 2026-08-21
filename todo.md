@@ -326,4 +326,10 @@
 - [x] Measure current live delivery timing, JavaScript bundle composition, font/image requests, and Supabase catalogue-loading cost across homepage and shop routes. The remaining bottlenecks are a large initial bundle caused by eagerly importing the legacy fallback catalogue, an oversized 2000px hero image on mobile, and network delay for the live static delivery and public Supabase catalogue request.
 - [x] Implement only safe, high-impact speed improvements while preserving dynamic catalogue loading, crawlable SEO routes, and responsive branding. The public initial JavaScript bundle fell from 844,321 bytes to 742,972 bytes (about 12% smaller before compression) after the legacy fallback catalogue was isolated to the lazy Admin route; mobile now requests a 900px hero source and tablet a 1400px source instead of the 2000px desktop image. The updated home layout verified at 390px and 1280px.
 - [x] Build and verify the optimized store. The SEO audit passes for 327 public pages and 335 sitemap URLs, while the 390px Baby & Kids shop route loads the live 40-product department without falling back to the removed legacy catalogue.
-- [ ] Save, deploy, and report the improvements plus any remaining third-party or free-plan delivery limits.
+- [x] Save, deploy, and report the improvements plus any remaining third-party or free-plan delivery limits. Cloudflare now serves the new bundle with the responsive mobile hero source and without the legacy public fallback catalogue. The remaining variability comes from the visitor’s network, third-party Google Fonts/Unsplash image delivery, and the live public Supabase catalogue request; none requires a paid Supabase plan change.
+
+## Public Contact Email Update
+
+- [x] Audit all public storefront, metadata, structured-data, and static SEO references to the previous contact email. Three public references were identified: the footer, contact page, and homepage Organization schema.
+- [x] Replace the previous public contact email with `info@magneticsource.uk` without altering Admin authentication or Supabase account access.
+- [ ] Build, verify, deploy, and confirm the live contact-email update.
