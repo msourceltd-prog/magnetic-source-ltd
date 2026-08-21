@@ -267,6 +267,60 @@ body,
   color: color-mix(in srgb, var(--brand-on-primary) 78%, var(--brand-muted));
 }
 
+/* Contact uses the same graphite information-page field as About, Delivery, and Trade Account. */
+.contact-hero {
+  color: var(--brand-on-primary);
+  background: var(--brand-text);
+}
+
+.contact-hero .eyebrow {
+  color: color-mix(in srgb, var(--brand-on-primary) 72%, var(--brand-primary));
+}
+
+.contact-hero p:not(.eyebrow) {
+  color: color-mix(in srgb, var(--brand-on-primary) 78%, var(--brand-muted));
+}
+
+.contact-hero aside,
+.contact-hero aside p,
+.contact-hero aside a,
+.contact-hero aside .contact-legal {
+  color: var(--brand-text);
+}
+
+/* The department rail is a deliberate dark trade-panel over the warehouse field. */
+.hero-rail {
+  padding: 42px 24px 30px;
+  border-right: 1px solid color-mix(in srgb, var(--brand-on-primary) 20%, transparent);
+  color: var(--brand-on-primary);
+  background: linear-gradient(180deg, rgb(22 32 46 / 0.94), rgb(22 32 46 / 0.86));
+  box-shadow: 12px 0 28px rgb(22 32 46 / 0.15);
+}
+
+.hero-rail .eyebrow,
+.hero-rail a,
+.hero-rail a b {
+  color: var(--brand-on-primary);
+}
+
+.hero-rail a,
+.hero-rail-all {
+  border-color: color-mix(in srgb, var(--brand-on-primary) 28%, transparent);
+}
+
+.hero-rail a:hover {
+  color: var(--brand-accent);
+}
+
+.hero-rail-all {
+  display: grid;
+  min-height: 61px;
+  place-items: center start;
+  padding: 0 14px;
+  color: var(--brand-on-primary);
+  background: var(--brand-primary);
+}
+
 .info-evidence {
   display: flex;
   flex-wrap: wrap;
