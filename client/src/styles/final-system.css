@@ -95,6 +95,130 @@
   color: var(--brand-accent);
 }
 
+/* Footer closing area: a dark trade-desk signature with the field mark as the anchor. */
+.site-footer {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(128deg, var(--brand-text) 0%, color-mix(in srgb, var(--brand-text) 90%, var(--brand-primary)) 100%);
+}
+
+.site-footer::before,
+.site-footer::after {
+  position: absolute;
+  border: 1px solid color-mix(in srgb, var(--brand-primary) 30%, transparent);
+  border-radius: 50%;
+  content: "";
+  pointer-events: none;
+}
+
+.site-footer::before {
+  width: 360px;
+  height: 360px;
+  right: -168px;
+  top: -185px;
+}
+
+.site-footer::after {
+  width: 235px;
+  height: 235px;
+  right: -106px;
+  top: -122px;
+}
+
+.footer-top {
+  position: relative;
+  z-index: 1;
+  grid-template-columns: minmax(0, 1.35fr) minmax(150px, .58fr) minmax(250px, .95fr);
+  gap: clamp(32px, 5vw, 78px);
+  padding: 70px 0 66px;
+}
+
+.footer-statement {
+  position: relative;
+}
+
+.footer-brand-lockup {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-brand-mark {
+  width: 54px;
+  height: 54px;
+  filter: drop-shadow(0 8px 15px color-mix(in srgb, var(--brand-primary) 28%, transparent));
+}
+
+.footer-brand-lockup .eyebrow {
+  margin: 0;
+  color: color-mix(in srgb, var(--brand-on-primary) 72%, var(--brand-primary));
+  line-height: 1.55;
+}
+
+.footer-statement h2 {
+  max-width: 400px;
+  margin-top: 23px;
+}
+
+.footer-links,
+.footer-details {
+  align-self: center;
+}
+
+.footer-links h3,
+.footer-details h3 {
+  padding-bottom: 10px;
+  border-bottom: 1px dotted color-mix(in srgb, var(--brand-on-primary) 27%, transparent);
+}
+
+.footer-details {
+  padding-left: 25px;
+  border-left: 1px solid color-mix(in srgb, var(--brand-on-primary) 15%, transparent);
+}
+
+@media (max-width: 760px) {
+  .site-footer::before {
+    width: 250px;
+    height: 250px;
+    right: -135px;
+    top: -135px;
+  }
+
+  .site-footer::after {
+    width: 150px;
+    height: 150px;
+    right: -86px;
+    top: -85px;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr;
+    gap: 34px;
+    padding: 53px 0 48px;
+  }
+
+  .footer-brand-mark {
+    width: 48px;
+    height: 48px;
+  }
+
+  .footer-statement h2 {
+    margin-top: 20px;
+  }
+
+  .footer-links,
+  .footer-details {
+    align-self: auto;
+  }
+
+  .footer-details {
+    padding-top: 24px;
+    padding-left: 0;
+    border-top: 1px solid color-mix(in srgb, var(--brand-on-primary) 15%, transparent);
+    border-left: 0;
+  }
+}
+
 @media (max-width: 760px) {
   .info-evidence {
     gap: 7px 12px;

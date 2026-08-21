@@ -9,16 +9,31 @@ const footerGroups = [
   { title: "Support", links: [["About Magnetic Source", "/about"], ["Trade account", "/trade-account"], ["Delivery & returns", "/delivery-returns"], ["Contact", "/contact"], ["Privacy", "/privacy"], ["Terms", "/terms"]] },
 ];
 
+function FooterBrandMark() {
+  return <svg className="footer-brand-mark" viewBox="0 0 64 64" role="img" aria-labelledby="footer-brand-mark-title" focusable="false">
+    <title id="footer-brand-mark-title">Magnetic Source field mark</title>
+    <rect x="2" y="2" width="60" height="60" rx="8" fill="var(--brand-surface)" stroke="var(--brand-primary)" strokeWidth="2" />
+    <path d="M12 18 26 29 21 34 8 23Z" fill="var(--brand-primary)" />
+    <path d="m52 18 4 5-13 11-5-5Z" fill="var(--brand-primary)" />
+    <path d="m12 46-4-5 13-11 5 5Z" fill="var(--brand-primary)" />
+    <path d="m52 46-14-11 5-5 13 11Z" fill="var(--brand-primary)" />
+    <path d="M18 11c5 2 9 5 12 10" fill="none" stroke="var(--brand-text)" strokeLinecap="round" strokeWidth="2.4" />
+    <path d="M46 11c-5 2-9 5-12 10" fill="none" stroke="var(--brand-text)" strokeLinecap="round" strokeWidth="2.4" />
+    <path d="M18 53c5-2 9-5 12-10" fill="none" stroke="var(--brand-text)" strokeLinecap="round" strokeWidth="2.4" />
+    <path d="M46 53c-5-2-9-5-12-10" fill="none" stroke="var(--brand-text)" strokeLinecap="round" strokeWidth="2.4" />
+    <circle cx="32" cy="32" r="5" fill="var(--brand-text)" />
+  </svg>;
+}
+
 export default function SiteFooter() {
   return <footer className="site-footer">
     <div className="trade-shell footer-top">
       <section className="footer-statement">
-        <span className="eyebrow light">Magnetic Source Ltd</span>
+        <div className="footer-brand-lockup"><FooterBrandMark /><span className="eyebrow light">Magnetic<br />Source Ltd</span></div>
         <h2>Useful stock,<br />clearly sourced.</h2>
         <p>Practical catalogue lines, clear product information and a no-payment trade enquiry journey.</p>
         <Link href="/contact" className="footer-contact-link">Speak to the trade desk <ArrowUpRight size={17} /></Link>
       </section>
-      <div className="footer-browse-spacer" aria-hidden="true" />
       {footerGroups.map((group) => <section className="footer-links" key={group.title}>
         <h3>{group.title}</h3>
         {group.links.map(([label, href]) => <Link key={label} href={href}>{label}</Link>)}

@@ -36,6 +36,10 @@
 
 - [x] Remove only the footer text marked in the supplied screenshot and the horizontal divider line below it, while preserving the remaining footer content and responsive layout. Production build and TypeScript validation pass; the cleaned footer was visually checked at 1280px and 390px.
 
+## Premium Footer Closing Area
+
+- [x] Redesign the black footer closing area with a premium Magnetic Source logo treatment, retain all remaining support and trade-desk content, and preserve the existing warehouse-led hero image direction. Production build and TypeScript validation pass; the enhanced footer and warehouse-led home direction were visually checked at 1280px and 390px.
+
 - [x] Review the supplied reference’s public category structure and identify compatible original product-type additions.
 - [x] Expand the original static approval-demo catalogue without reusing reference names, descriptions, SKUs, pricing, or images.
 - [x] Reuse existing remote sample imagery rather than uploading additional Supabase Storage assets.
