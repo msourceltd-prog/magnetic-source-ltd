@@ -4,6 +4,143 @@
  * warm ledger paper, quiet surfaces, ochre evidence, and thin rule hierarchy.
  */
 
+/* Supplied reference palette: warm paper, one cobalt, charcoal, and gold only. */
+:root {
+  --brand-primary: #1555a0;
+  --brand-secondary: #1555a0;
+  --brand-accent: #c78b25;
+  --brand-text: #18222d;
+  --brand-muted: #68717b;
+  --brand-background: #f7f6f1;
+  --brand-surface: #fffefa;
+  --brand-surface-muted: #efeee8;
+  --brand-border: #d9d7d0;
+  --brand-on-primary: #ffffff;
+  --brand-on-dark: #fffefa;
+  --paper: var(--brand-background);
+  --paper-deep: var(--brand-surface-muted);
+  --ink: var(--brand-text);
+  --soft-ink: var(--brand-muted);
+  --cobalt: var(--brand-primary);
+  --cobalt-deep: var(--brand-primary);
+  --ochre: var(--brand-accent);
+  --line: var(--brand-border);
+  --surface: var(--brand-surface);
+}
+
+body,
+.site-header,
+.filter-rail,
+.product-card,
+.cart-summary,
+.checkout-summary,
+.confirmation-card,
+.mobile-nav-panel,
+.contact-hero aside,
+.contact-form,
+.admin-gate-card,
+.admin-login-card,
+.admin-product-form,
+.admin-category-form,
+.admin-list {
+  background-color: var(--brand-surface);
+}
+
+.utility-strip,
+.page-banner,
+.contact-hero,
+.product-breadcrumb,
+.cart-banner {
+  background-color: var(--brand-surface-muted);
+}
+
+.button-primary,
+.category-tape,
+.service-benefit-icon,
+.hero-rail-all,
+.product-card-bottom button,
+.checkout-step-number,
+.admin-tabs button.active b,
+.admin-tabs button b {
+  color: var(--brand-on-primary);
+  background-color: var(--brand-primary);
+}
+
+.button-primary:hover,
+.category-tape-link:hover,
+.product-card-bottom button:hover,
+.hero-rail-all:hover {
+  background-color: var(--brand-text);
+}
+
+.button-secondary,
+.filter-toggle,
+.sort-control select,
+.form-grid input,
+.form-grid select,
+.form-grid textarea,
+.admin-login-card input,
+.admin-category-form input,
+.admin-order-row select {
+  color: var(--brand-text);
+  border-color: var(--brand-text);
+  background-color: var(--brand-surface);
+}
+
+.button-secondary:hover,
+.filter-toggle:hover {
+  color: var(--brand-on-primary);
+  background-color: var(--brand-text);
+}
+
+.site-footer,
+.info-hero,
+.admin-header,
+.checkout-header {
+  background-color: var(--brand-text);
+}
+
+.product-card,
+.product-ledger,
+.product-ledger span + span,
+.filter-rail,
+.contact-hero aside,
+.contact-form,
+.checkout-summary,
+.admin-product-form,
+.admin-category-form,
+.admin-list,
+.info-rail,
+.info-content section + section {
+  border-color: var(--brand-border);
+}
+
+.contact-note,
+.delivery-choice,
+.payment-disabled,
+.admin-seed {
+  color: var(--brand-text);
+  border-color: var(--brand-border);
+  background-color: var(--brand-surface-muted);
+}
+
+.contact-note svg,
+.contact-success svg,
+.payment-disabled svg,
+.confirmation-card > svg,
+.admin-gate-list svg,
+.admin-gate-card > svg,
+.admin-login-card > svg {
+  color: var(--brand-accent);
+}
+
+.admin-error,
+.admin-message {
+  color: var(--brand-text);
+  border-color: var(--brand-border);
+  background: var(--brand-surface-muted);
+}
+
 .category-tape {
   border-bottom: 1px dotted color-mix(in srgb, var(--brand-on-primary) 62%, transparent);
   background: var(--brand-primary);

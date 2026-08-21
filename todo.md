@@ -48,6 +48,14 @@
 
 - [x] Remove only the Shop the edit and For marketplace sellers links, Trade/Departments/Quote metrics, and Catalogue Proof product card from the homepage hero. Retain the warehouse image, headline, introductory copy, and all other homepage structure. Production build and TypeScript validation pass; the simplified hero was visually checked at 1280px and 390px.
 
+## Footer Link and Search Favicon
+
+- [x] Remove only the marked Speak to the trade desk footer link and configure a search-friendly Magnetic Source favicon set, without changing other footer content or page metadata. Production build and TypeScript validation pass; the cleaned footer and rendered 48px Magnetic Source favicon were verified.
+
+## Supplied Palette Alignment
+
+- [x] Apply only the supplied warm off-white, deep cobalt, charcoal, and restrained gold colour direction across the shared Magnetic Source interface without changing layout or content. The reviewed reference confirms an off-white field, a single saturated cobalt navigation/action band, charcoal fine rules and text, and a small gold accent confined to the brand mark. Its utility/header treatment uses pale grey-off-white panels, charcoal dividers, and cobalt icon circles/buttons—without secondary colours. Production build and desktop/mobile homepage and Shop views were visually checked.
+
 - [x] Review the supplied reference’s public category structure and identify compatible original product-type additions.
 - [x] Expand the original static approval-demo catalogue without reusing reference names, descriptions, SKUs, pricing, or images.
 - [x] Reuse existing remote sample imagery rather than uploading additional Supabase Storage assets.

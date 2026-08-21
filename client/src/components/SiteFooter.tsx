@@ -2,7 +2,7 @@
  * Trade Ledger, Recut: an operational, paper-and-ink footer that closes each
  * page with professional registered-company details and useful support routes.
  */
-import { ArrowUpRight, Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin, Phone } from "lucide-react";
 import { Link } from "wouter";
 
 const footerGroups = [
@@ -32,7 +32,6 @@ export default function SiteFooter() {
         <div className="footer-brand-lockup"><FooterBrandMark /><span className="eyebrow light">Magnetic<br />Source Ltd</span></div>
         <h2>Useful stock,<br />clearly sourced.</h2>
         <p>Practical catalogue lines, clear product information and a no-payment trade enquiry journey.</p>
-        <Link href="/contact" className="footer-contact-link">Speak to the trade desk <ArrowUpRight size={17} /></Link>
       </section>
       {footerGroups.map((group) => <section className="footer-links" key={group.title}>
         <h3>{group.title}</h3>
