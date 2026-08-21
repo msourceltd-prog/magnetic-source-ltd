@@ -1,0 +1,226 @@
+{
+  "assessedAt": "2026-08-21T12:33:47.106Z",
+  "liveProductCount": 381,
+  "candidates": {
+    "health-beauty": [
+      {
+        "name": "Hygie Hand Cleanser Mixed Case 35ml 24’s",
+        "sourceSku": "73197O",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/hygie-hand-cleanser-mixed-case-35ml-24s/",
+        "available": true
+      },
+      {
+        "name": "La Vida Caribena Body Mists Mixed Case 35ml 24’s",
+        "sourceSku": "73196L",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/la-vida-caribena-body-mists-mixed-case-35ml-24s/",
+        "available": false
+      },
+      {
+        "name": "Umbro Bodywash Power 400ml",
+        "sourceSku": "73097K",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/umbro-bodywash-power-400ml/",
+        "available": false
+      },
+      {
+        "name": "Umbro Bodywash Ice 400ml",
+        "sourceSku": "73096H",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/umbro-bodywash-ice-400ml/",
+        "available": false
+      },
+      {
+        "name": "Chupa Chups Strawberry Lip Balm",
+        "sourceSku": "73087F",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/chupa-chups-strawberry-lip-balm/",
+        "available": false
+      },
+      {
+        "name": "Chupa Chups Watermelon, Peach & Lemon Lip Balms",
+        "sourceSku": "73086C",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/chupa-chups-watermelon-peach-lemon-lip-balms/",
+        "available": false
+      },
+      {
+        "name": "Amplex Roll On Deodorant Active 50ml",
+        "sourceSku": "73041T",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/amplex-roll-on-deodorant-active-50ml/",
+        "available": false
+      },
+      {
+        "name": "Aussie Shampoo Mega Travel 100ml",
+        "sourceSku": "72983X",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/aussie-shampoo-mega-travel-100ml/",
+        "available": false
+      },
+      {
+        "name": "Aussie Conditioner Mega Travel 100ml",
+        "sourceSku": "72982U",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/aussie-conditioner-mega-travel-100ml/",
+        "available": false
+      },
+      {
+        "name": "Peppa Pig Bath & Shower Bubbles 400ml",
+        "sourceSku": "72913O",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/peppa-pig-bath-shower-bubbles-400ml/",
+        "available": false
+      },
+      {
+        "name": "Spiderman Stitch Bath & Shower Bubbles 400ml",
+        "sourceSku": "72911I",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/spiderman-stitch-bath-shower-bubbles-400ml/",
+        "available": false
+      },
+      {
+        "name": "Denman D90 The Mini Detangler Black",
+        "sourceSku": "72780G",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/denman-d90-the-mini-detangler-black/",
+        "available": false
+      },
+      {
+        "name": "Denman D6 The Shower Brush Black",
+        "sourceSku": "72779C",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/denman-d6-the-shower-brush-black/",
+        "available": false
+      },
+      {
+        "name": "Lip Balm SPF 15 Original 10g",
+        "sourceSku": "72719Y",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/lip-balm-spf-15-original-10g/",
+        "available": false
+      },
+      {
+        "name": "Sure Men Whole Body Stick Ocean Rush 50ml",
+        "sourceSku": "72770B",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/sure-men-whole-body-stick-ocean-rush-50ml/",
+        "available": false
+      },
+      {
+        "name": "Sure Women Whole Body Stick Rio Coconut 50ml",
+        "sourceSku": "72769X",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/sure-women-whole-body-stick-rio-coconut-50ml/",
+        "available": false
+      },
+      {
+        "name": "Sure Men Whole Body Aerosol Ocean Rush 150ml",
+        "sourceSku": "72768U",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/sure-men-whole-body-aerosol-ocean-rush-150ml/",
+        "available": false
+      }
+    ],
+    "baby-kids": [
+      {
+        "name": "Grow with Peppa Baby Lotion 350ml",
+        "sourceSku": "72710X",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/grow-with-peppa-baby-lotion-350ml/",
+        "available": false
+      },
+      {
+        "name": "Grow with Peppa Baby Conditioning Shampoo 350ml",
+        "sourceSku": "72709T",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/grow-with-peppa-baby-conditioning-shampoo-350ml/",
+        "available": false
+      },
+      {
+        "name": "NUK First Choice Day & Night Soother 2 Pack 6-18m Boys",
+        "sourceSku": "72594P",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/first-choice-day-night-soother-2-pack-6-18m-boys/",
+        "available": false
+      },
+      {
+        "name": "NUK First Choice Day & Night Soother 2 Pack 0-6m Boys",
+        "sourceSku": "72592J",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/first-choice-day-night-soother-2-pack-0-6m-boys/",
+        "available": false
+      },
+      {
+        "name": "4My Baby Nappy Bags Fragranced 200’s",
+        "sourceSku": "70523R",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/4my-baby-nappy-bags-fragranced-200s/",
+        "available": false
+      },
+      {
+        "name": "2 Pack Baby Sponges",
+        "sourceSku": "39537E",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/2-pack-baby-sponges/",
+        "available": false
+      },
+      {
+        "name": "Cheeky Panda Bamboo Baby Wipes Pack 60’s",
+        "sourceSku": "69375I",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/cheeky-panda-bamboo-baby-wipes-pack-60s/",
+        "available": false
+      },
+      {
+        "name": "Pampers Baby-Dry Nappy Pants Size 7 15+kg, 33+ lbs, 16’s",
+        "sourceSku": "69108A",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/pampers-baby-dry-nappies-size-7-16ct-carry-pack-16s/",
+        "available": false
+      },
+      {
+        "name": "Cherubs Baby Soothers Card of 25",
+        "sourceSku": "67332T",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/cherubs-baby-soothers-card-of-25/",
+        "available": false
+      },
+      {
+        "name": "Capitol Safety Soothers Blue 2 Pack",
+        "sourceSku": "67226W",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/capitol-safety-soothers-blue-2-pack/",
+        "available": false
+      },
+      {
+        "name": "Johnson’s Baby Cotton Pads 50’s",
+        "sourceSku": "64411S",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/johnsons-baby-cotton-pads-50s/",
+        "available": false
+      },
+      {
+        "name": "Pampers Scented Baby Wipes 52s",
+        "sourceSku": "64372V",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/pampers-scented-baby-wipes-52s/",
+        "available": false
+      },
+      {
+        "name": "Water Filled Cooling Teether 3+ Months Assorted Colours",
+        "sourceSku": "38859A",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/water-filled-cooling-teether-3-months-assorted-colours/",
+        "available": false
+      },
+      {
+        "name": "Johnson’s Baby Lotion 300ml",
+        "sourceSku": "61613O",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/johnson-s-baby-lotion-300ml/",
+        "available": false
+      },
+      {
+        "name": "Johnson’s Baby Bath 300ml",
+        "sourceSku": "61612L",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/johnson-s-baby-bath-300ml/",
+        "available": false
+      },
+      {
+        "name": "WaterWipes Sensitive Baby Wipes 60’s",
+        "sourceSku": "55935G",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/water-wipes-sensitive-baby-wipes-60-s/",
+        "available": false
+      },
+      {
+        "name": "Huggies Little Swimmers Assorted Sizes",
+        "sourceSku": "55913Q",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/huggies-little-swimmers-assorted-sizes/",
+        "available": false
+      },
+      {
+        "name": "Pampers Sensitive Baby Wipes 52’s",
+        "sourceSku": "51000U",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/pampers-sensitive-baby-wipes-52-s/",
+        "available": false
+      },
+      {
+        "name": "Cherubs Baby Feeding Bottle 250ml",
+        "sourceSku": "31960S",
+        "sourceUrl": "https://www.harrisonsdirect.co.uk/product/cherubs-baby-feeding-bottle-250ml/",
+        "available": false
+      }
+    ]
+  }
+}

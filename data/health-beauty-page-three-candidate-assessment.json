@@ -1,0 +1,54 @@
+{
+  "assessedAt": "2026-08-21T12:42:59.116Z",
+  "liveProductCount": 381,
+  "candidates": [
+    {
+      "name": "Brushworks Scalp Massaging Brush",
+      "sourceSku": "72317C",
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/brushworks-scalp-massaging-brush/",
+      "available": true
+    },
+    {
+      "name": "Brushworks Refresh & Reset Face Mist 100ml",
+      "sourceSku": "72315W",
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/brushworks-refresh-reset-face-mist-100ml/",
+      "available": true
+    },
+    {
+      "name": "Brushworks Pink Eyelash Curler",
+      "sourceSku": "72314T",
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/brushworks-pink-eyelash-curler/",
+      "available": true
+    },
+    {
+      "name": "Brushworks Silicone Cleansing Pads 2 Pack",
+      "sourceSku": "72311K",
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/brushworks-silicone-cleansing-pads-2-pack/",
+      "available": true
+    },
+    {
+      "name": "Brushworks Watermelon Dry Shampoo 50ml",
+      "sourceSku": "72272N",
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/brushworks-watermelon-dry-shampoo-50ml/",
+      "available": true
+    },
+    {
+      "name": "Brushworks Micellar Cleansing Water 100ml",
+      "sourceSku": "72271K",
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/brushworks-micellar-cleansing-water-100ml/",
+      "available": true
+    },
+    {
+      "name": "Dove Men Shower Gel Clean Comfort 55ml",
+      "sourceSku": "72250X",
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/dove-men-shower-gel-clean-comfort-55ml/",
+      "available": true
+    },
+    {
+      "name": "Vaseline Intensive Care Lotion Healthy Hands 200ml",
+      "sourceSku": "72240S",
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/vaseline-intensive-care-lotion-healthy-hands-200ml/",
+      "available": true
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+import { readFile } from "node:fs/promises";
+
+const supabaseUrl = process.env.SUPABASE_URL || "https://pylhokxuqqbldnfjwjem.supabase.co";
+const publicKey = process.env.VITE_SUPABASE_ANON_KEY || "sb_publishable_ps9YypvtK5jByJ37N6LZzw_oanbTDgq";
+const expectedCounts = { "baby-kids": 45, clearance: 23, "seasonal-christmas": 37, "stationery-party": 50, "toys-gifts": 52, "health-beauty": 46, "household-pet": 40, "sweets-snacks": 29 };
+const candidates = JSON.parse(await readFile("data/verified-image-quality-removal-candidates.json", "utf8"));
+const audit = JSON.parse(await readFile("data/full-catalogue-image-audit-report.json", "utf8"));
+const sitemap = await readFile("client/public/sitemap.xml", "utf8");
+const notes = await readFile("data/catalogue-image-audit-manual-review.md", "utf8");
+const response = await fetch(`${supabaseUrl}/rest/v1/products?select=slug,name,category,price,sku,image,tags&order=id`, { headers: { apikey: publicKey } });
+if (!response.ok) throw new Error(`Live catalogue request failed: ${response.status} ${await response.text()}`);
+const products = await response.json();
+const counts = Object.fromEntries(Object.keys(expectedCounts).map((category) => [category, products.filter((product) => product.category === category).length]));
+const removedStillLive = candidates.products.filter((candidate) => products.some((product) => product.sku === candidate.sku));
+const removedStillInSitemap = candidates.products.filter((candidate) => sitemap.includes(`/product/${candidate.slug}`));
+const noPriceOrImageViolation = products.filter((product) => Number(product.price) !== 0 || !product.image || !product.tags?.includes("Price hidden"));
+const wrongCounts = Object.entries(expectedCounts).filter(([category, count]) => counts[category] !== count);
+const searchNames = candidates.products.map((candidate) => candidate.name).filter((name) => products.some((product) => product.name === name));
+const valid = products.length === 322 && !wrongCounts.length && !removedStillLive.length && !removedStillInSitemap.length && !noPriceOrImageViolation.length && !searchNames.length && audit.productCount === 322 && audit.flaggedCount === 69 && notes.includes("all 69 second-pass automated residual flags") && (sitemap.match(/<url>/g) || []).length === 338;
+if (!valid) throw new Error(`Release verification failed: ${JSON.stringify({ total: products.length, counts, wrongCounts, removedStillLive: removedStillLive.map((product) => product.sku), removedStillInSitemap: removedStillInSitemap.map((product) => product.sku), noPriceOrImageViolation: noPriceOrImageViolation.map((product) => product.sku), searchNames, auditProductCount: audit.productCount, auditFlaggedCount: audit.flaggedCount, sitemapUrls: (sitemap.match(/<url>/g) || []).length })}`);
+console.log(JSON.stringify({ verified: true, totalProducts: products.length, categoryCounts: counts, removedProductsAbsentFromDataSearchRoutesAndSitemap: candidates.totalCandidates, secondPassManualReview: { catalogueProducts: audit.productCount, residualAutomatedFlagsReviewed: audit.flaggedCount }, sitemapUrls: (sitemap.match(/<url>/g) || []).length }, null, 2));

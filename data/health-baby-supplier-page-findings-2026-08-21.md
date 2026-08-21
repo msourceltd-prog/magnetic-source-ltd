@@ -1,0 +1,9 @@
+# Health & Beauty and Baby supplier findings
+
+The authorized supplier's Health & Beauty page two provides distinct current candidates including Sure Women Whole Body Aerosols, Nivea Protect & Care After Shave Moisturiser, Amplex Ocean Deodorant, Palmolive 2in1 Shampoo, Rennie Chewing Gum, L’Oréal Men Expert deodorants, Baylis & Harding wash products, Wash & Go shampoo, Malibu lotion, Femfresh Wipes, Imperial Leather Bodywash, Got2b Brows & Edges Gel, Jakemans Lozenges, and Original Source Shower Milk.
+
+The authorized supplier's Baby page two provides additional candidates including Pampers Baby-Dry sizes 3–6, Nuby Weaning Spoons, Duralon Baby Bottle, Sudocrem products, Pampers Premium Protection sizes 1–2, Johnson’s Baby Oils, and Duralon Baby Soother. Exact supplier URLs, source product codes, pack quantities, and primary product-image URLs must be collected from each product page before import. Existing and owner-removed products remain excluded by final live-catalogue collision validation.
+
+The authorized source file `baby-kids-price-free-products.json` contains 45 documented Baby & Kids supplier records. The final availability assessment must compare this complete source pool with the 39 currently live Baby & Kids records and must not re-add the owner-removed Tidyz Degradable Nappy Bags product.
+
+The authorized Toys & Gifts page two provides further child-appropriate alternatives, including child scooters, Palm Pals soft toys, Peppa Pig fibre-tip pens, Animigos soft toys, Clickeez, Mini Muddle Puzzle, Fidget Fortune Teller, Hot Shots Can Alley, WWE slap bands, LEGO Creator, and Flip ‘N’ Trix. Final selection must use only products that are new to the live catalogue, suitable for Baby & Kids browsing, and supported by a matching clean complete-product image from the supplier product page.

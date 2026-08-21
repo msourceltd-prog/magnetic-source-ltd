@@ -422,6 +422,111 @@
   content: "";
 }
 
+/* Magnetic Source field-system release pass: the header, cards, and ledger facts
+ * repeat paired source dots, restrained field arcs, and cut corners. Product assets
+ * remain at object-fit: contain with the established full-product no-crop rule. */
+.site-header .brand-lockup {
+  isolation: isolate;
+  padding-right: 24px;
+}
+
+.site-header .brand-lockup::before {
+  position: absolute;
+  z-index: -1;
+  top: -9px;
+  right: -3px;
+  width: 45px;
+  height: 45px;
+  border: 1px solid rgba(18, 76, 156, 0.22);
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  border-radius: 0 100% 0 0;
+  content: "";
+}
+
+.site-header .brand-mark {
+  flex-basis: 70px;
+  width: 70px;
+  height: 70px;
+}
+
+.site-header .brand-type b {
+  font-size: 15px;
+  letter-spacing: 0.22em;
+}
+
+.site-header .brand-type span {
+  letter-spacing: 0.25em;
+}
+
+.product-card-body {
+  position: relative;
+  overflow: hidden;
+}
+
+.product-card-body::after {
+  position: absolute;
+  right: -22px;
+  bottom: -22px;
+  width: 68px;
+  height: 68px;
+  border: 1px solid rgba(18, 76, 156, 0.11);
+  border-radius: 50%;
+  box-shadow: 0 0 0 9px rgba(18, 76, 156, 0.035), 0 0 0 18px rgba(18, 76, 156, 0.02);
+  content: "";
+  pointer-events: none;
+}
+
+.product-card-topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  min-height: 15px;
+  padding-right: 6px;
+}
+
+.product-card-topline small,
+.product-ledger-header {
+  color: #5e6a75;
+  font: 700 7px/1 var(--mono);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.product-card-topline small {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: #124c9c;
+  white-space: nowrap;
+}
+
+.product-card-topline small::before {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #c97725;
+  box-shadow: 6px 0 0 rgba(18, 76, 156, 0.35);
+  content: "";
+}
+
+.product-ledger-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 13px;
+  padding: 0 1px 5px;
+}
+
+.product-ledger-header span:last-child {
+  color: #a65e1b;
+}
+
+.product-card-bottom {
+  position: relative;
+  z-index: 1;
+}
+
 @media (max-width: 760px) {
   .product-card-description {
     min-height: 45px;
@@ -438,9 +543,9 @@
   }
 
   .site-header .brand-mark {
-    flex-basis: 48px;
-    width: 48px;
-    height: 48px;
+    flex-basis: 54px;
+    width: 54px;
+    height: 54px;
   }
 
   .site-header .brand-type {
@@ -449,8 +554,8 @@
   }
 
   .site-header .brand-type b {
-    font-size: 11px;
-    letter-spacing: 0.14em;
+    font-size: 12px;
+    letter-spacing: 0.16em;
   }
 
   .site-header .brand-type span {

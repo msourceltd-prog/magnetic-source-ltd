@@ -1,0 +1,1599 @@
+{
+  "compiledAt": "2026-08-21T13:05:46.766Z",
+  "totalCandidates": 89,
+  "categoryCounts": {
+    "baby-kids": 9,
+    "clearance": 15,
+    "health-beauty": 18,
+    "household-pet": 15,
+    "stationery-party": 4,
+    "sweets-snacks": 26,
+    "toys-gifts": 2
+  },
+  "auditRule": "Manually reviewed and documented full-product image failures only. Every item has an objective audit flag and a documented unsuitable dark, busy, supplier-style, or photographic canvas presentation.",
+  "products": [
+    {
+      "id": 1365,
+      "sku": "100E",
+      "name": "Sudocrem Skin Care Cream 30g White Tube",
+      "slug": "sudocrem-skin-care-cream-30g-white-tube-100e",
+      "category": "baby-kids",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2013/09/100E-Sudocrem-Skin-Care-Cream-30g-White-Tube-.png",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1360,
+      "sku": "1985T",
+      "name": "Johnson’s Baby Oil 100ml",
+      "slug": "johnson-s-baby-oil-100ml-1985t",
+      "category": "baby-kids",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2015/10/Johnsons-Baby-Oil-100ml-1985T.png",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1351,
+      "sku": "31960S",
+      "name": "Cherubs Baby Feeding Bottle 250ml",
+      "slug": "cherubs-baby-feeding-bottle-250ml-31960s",
+      "category": "baby-kids",
+      "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2019/07/31960S_1-300x300.png",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1355,
+      "sku": "36960W",
+      "name": "Duralon Baby Bottle (Designs May Vary)",
+      "slug": "duralon-baby-bottle-designs-may-vary-36960w",
+      "category": "baby-kids",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2018/06/36960W-Duralon-Baby-Bottle_6-1.png",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1353,
+      "sku": "48880W",
+      "name": "Nuby Weaning Spoons 6pk",
+      "slug": "nuby-weaning-spoons-6pk-48880w",
+      "category": "baby-kids",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-48880w_2.png",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1347,
+      "sku": "55935G",
+      "name": "Water Wipes Sensitive Baby Wipes 60’s",
+      "slug": "water-wipes-sensitive-baby-wipes-60-s-55935g",
+      "category": "baby-kids",
+      "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-55935g-300x300.png",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1541,
+      "sku": "67227Z",
+      "name": "Capitol Safety Soothers Pink 2 Pack",
+      "slug": "capitol-safety-soothers-pink-2-pack-67227z",
+      "category": "baby-kids",
+      "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2024/11/Capitol-Safety-Soothers-Pink-2-Pack-67227Z-300x405.png",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1333,
+      "sku": "69375I",
+      "name": "Cheeky Panda Bamboo Baby Wipes Pack 60’s",
+      "slug": "cheeky-panda-bamboo-baby-wipes-pack-60-s-69375i",
+      "category": "baby-kids",
+      "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2025/05/69375I-Cheeky-Panda-Bamboo-Baby-Wipes-Pack-300x300.png",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1359,
+      "sku": "90T",
+      "name": "Johnson’s Baby Oil 200ml",
+      "slug": "johnson-s-baby-oil-200ml-90t",
+      "category": "baby-kids",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2016/04/Johnsons-Baby-Oil-200ml-90T.png",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1460,
+      "sku": "38495S",
+      "name": "Paper Snack & Sandwich Bags 15x25cm 25’s",
+      "slug": "paper-snack-sandwich-bags-15x25cm-25-s-38495s",
+      "category": "clearance",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-38495s.jpg",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1039,
+      "sku": "4342K",
+      "name": "Haribo Sour Skeletons 140g £1.25 PMP – Best Before End 9/26",
+      "slug": "haribo-sour-skeletons-140g-1-25-pmp-best-before-end-9-26-4342k",
+      "category": "clearance",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2022/08/4342K.png",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1419,
+      "sku": "6359W",
+      "name": "Swizzels Drumstick Squashies Original Raspberry & Milk Flavour 60g 69p PMP – Best Before End 10/26",
+      "slug": "swizzels-drumstick-squashies-original-raspberry-milk-flavour-60g-69p-pmp-best-before-end-10-26-6359w",
+      "category": "clearance",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-6359w2.png",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1026,
+      "sku": "65397A",
+      "name": "Just Stationery Split Cork/Dry Wipe Board 450mm x 300mm",
+      "slug": "just-stationery-split-cork-dry-wipe-board-450mm-x-300mm-65397a",
+      "category": "clearance",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2024/08/Just-Stationery-Split-CorkDry-Wipe-Board-450mm-x-300mm-65397A.png",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1025,
+      "sku": "68612B",
+      "name": "Star Wars: Unlimited Twilight of the Republic Booster CDU",
+      "slug": "star-wars-unlimited-twilight-of-the-republic-booster-cdu-68612b",
+      "category": "clearance",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/02/Star-Wars-Unlimited-Twilight-of-the-Republic-Booster-CDU-68612B.png",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1024,
+      "sku": "69828M",
+      "name": "Bubble T Boba Face Mask 3 Piece Gift Set",
+      "slug": "bubble-t-boba-face-mask-3-piece-gift-set-69828m",
+      "category": "clearance",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/07/Bubble-T-Boba-Face-Mask-3-Piece-Gift-Set-69828M.png",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1018,
+      "sku": "69830T",
+      "name": "Bubble T Boba Body Wash 4 Piece Gift Set",
+      "slug": "bubble-t-boba-body-wash-4-piece-gift-set-69830t",
+      "category": "clearance",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/07/Bubble-T-Boba-Body-Wash-4-Piece-Gift-Set-69830T.png",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1020,
+      "sku": "69832Z",
+      "name": "Bubble T Boba Wash & Body 3 Piece Gift Set",
+      "slug": "bubble-t-boba-wash-body-3-piece-gift-set-69832z",
+      "category": "clearance",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/07/Bubble-T-Boba-Wash-Body-3-Piece-Gift-Set-69832Z.png",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1019,
+      "sku": "69834F",
+      "name": "Bubble T Sweetea Donut Bath Fizzer 4 Piece Gift Set",
+      "slug": "bubble-t-sweetea-donut-bath-fizzer-4-piece-gift-set-69834f",
+      "category": "clearance",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/07/Bubble-T-Sweetea-Donut-Bath-Fizzer-4-Piece-Gift-Set-69834F.png",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1022,
+      "sku": "69835I",
+      "name": "Bubble T Sweetea Hand Collection 3 Piece Gift Set",
+      "slug": "bubble-t-sweetea-hand-collection-3-piece-gift-set-69835i",
+      "category": "clearance",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/07/Bubble-T-Sweetea-Hand-Collection-3-Piece-Gift-Set-69835I.png",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1021,
+      "sku": "69836L",
+      "name": "Bubble T Sweetea Bubble Bath Collection 5 Piece Gift Set",
+      "slug": "bubble-t-sweetea-bubble-bath-collection-5-piece-gift-set-69836l",
+      "category": "clearance",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/07/Bubble-T-Sweetea-Bubble-Bath-Collection-5-Piece-Gift-Set-69836L.png",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1023,
+      "sku": "69838R",
+      "name": "Bubble T Rainbow Crackers 3 Piece Gift Set",
+      "slug": "bubble-t-rainbow-crackers-3-piece-gift-set-69838r",
+      "category": "clearance",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/07/69838R-Bubble-T-Rainbow-Crackers-3-Piece-Gift-Set.png",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1014,
+      "sku": "69882Y",
+      "name": "Stitch Pamper Hair Turban",
+      "slug": "stitch-pamper-hair-turban-69882y",
+      "category": "clearance",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/07/Stitch-Pamper-Hair-Turban-69882Y.png",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1016,
+      "sku": "69890X",
+      "name": "Ho Ho Ho Hand & Body Wash Gift Set",
+      "slug": "ho-ho-ho-hand-body-wash-gift-set-69890x",
+      "category": "clearance",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/07/Ho-Ho-Ho-Hand-Body-Wash-Gift-Set-69890X.png",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1015,
+      "sku": "69892D",
+      "name": "Ho Ho Ho Snow Globe Hand Cream Trio Gift Set",
+      "slug": "ho-ho-ho-snow-globe-hand-cream-trio-gift-set-69892d",
+      "category": "clearance",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/07/Ho-Ho-Ho-Snow-Globe-Hand-Cream-Trio-Gift-Set-69892D.png",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1624,
+      "sku": "72332X",
+      "name": "Jakemans Soothing Menthol Lozenges Cherry Menthol 73g",
+      "slug": "jakemans-soothing-menthol-lozenges-cherry-menthol-73g-72332x",
+      "category": "health-beauty",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Jakemans-Soothing-Menthol-Lozenges-Cherry-Menthol-73g-72332X.png",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1618,
+      "sku": "72562U",
+      "name": "Baylis & Harding Vetiver Cedar & Lemongrass Anti-Bacterial Hand Wash 500ml",
+      "slug": "baylis-harding-vetiver-cedar-lemongrass-anti-bacterial-hand-wash-500ml-72562u",
+      "category": "health-beauty",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Baylis-Harding-Vetiver-Cedar-Lemongrass-Anti-Bacterial-Hand-Wash-500ml-72562U.png",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1617,
+      "sku": "72563X",
+      "name": "Baylis & Harding Jojoba Vanilla & Almond Oil Hand Wash 500ml",
+      "slug": "baylis-harding-jojoba-vanilla-almond-oil-hand-wash-500ml-72563x",
+      "category": "health-beauty",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Baylis-Harding-Jojoba-Vanilla-Almond-Oil-Hand-Wash-500ml-72563X.png",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1616,
+      "sku": "72564A",
+      "name": "Baylis & Harding Elements Pink Blossom & Lotus Flower Hand Wash 500ml",
+      "slug": "baylis-harding-elements-pink-blossom-lotus-flower-hand-wash-500ml-72564a",
+      "category": "health-beauty",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Baylis-Harding-Elements-Pink-Blossom-Lotus-Flower-Hand-Wash-500ml-72564A.png",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1278,
+      "sku": "72743V",
+      "name": "Amplex Roll On Deodorant Ocean 50ml",
+      "slug": "amplex-roll-on-deodorant-ocean-50ml-72743v",
+      "category": "health-beauty",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Amplex-Roll-On-Deodorant-Ocean-50ml-72743V.webp",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1276,
+      "sku": "72766O",
+      "name": "Sure Women Whole Body Aerosol Wild Rose 150ml",
+      "slug": "sure-women-whole-body-aerosol-wild-rose-150ml-72766o",
+      "category": "health-beauty",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Sure-Women-Whole-Body-Aerosol-Wild-Rose-150ml-72766O.avif",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1275,
+      "sku": "72767R",
+      "name": "Sure Women Whole Body Aerosol Rio Coconut 150ml",
+      "slug": "sure-women-whole-body-aerosol-rio-coconut-150ml-72767r",
+      "category": "health-beauty",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Sure-Women-Whole-Body-Aerosol-Rio-Coconut-150ml-72767R.avif",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1274,
+      "sku": "72768U",
+      "name": "Sure Men Whole Body Aerosol Ocean Rush 150ml",
+      "slug": "sure-men-whole-body-aerosol-ocean-rush-150ml-72768u",
+      "category": "health-beauty",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Sure-Men-Whole-Body-Aerosol-Ocean-Rush-150ml-72768U.avif",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1272,
+      "sku": "72770B",
+      "name": "Sure Men Whole Body Stick Ocean Rush 50ml",
+      "slug": "sure-men-whole-body-stick-ocean-rush-50ml-72770b",
+      "category": "health-beauty",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Sure-Men-Whole-Body-Stick-Ocean-Rush-50ml-72770B.avif",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1270,
+      "sku": "72779C",
+      "name": "Denman D6 The Shower Brush Black",
+      "slug": "denman-d6-the-shower-brush-black-72779c",
+      "category": "health-beauty",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Denman-D6-The-Shower-Brush-Black-72779C.png",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1269,
+      "sku": "72780G",
+      "name": "Denman D90 The Mini Detangler Black",
+      "slug": "denman-d90-the-mini-detangler-black-72780g",
+      "category": "health-beauty",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Denman-D90-The-Mini-Detangler-Black-72780G.png",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1263,
+      "sku": "73041T",
+      "name": "Amplex Roll On Deodorant Active 50ml",
+      "slug": "amplex-roll-on-deodorant-active-50ml-73041t",
+      "category": "health-beauty",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Amplex-Roll-On-Deodorant-Active-50ml-73041T.webp",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1519,
+      "sku": "HBT-1789X",
+      "name": "Fresh Start Shower Gel Coconut & Lime 400ml",
+      "slug": "health-beauty-fresh-start-shower-gel-coconut-lime-400ml-1789x",
+      "category": "health-beauty",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2016/02/Fresh-Start-Shower-Gel-Coconut-Lime-400ml-1789X.png",
+      "tags": [
+        "Health & Beauty",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1523,
+      "sku": "HBT-560Y",
+      "name": "Wisdom Step By Step Toothbrush 3-5 Years",
+      "slug": "health-beauty-wisdom-step-by-step-toothbrush-3-5-years-560y",
+      "category": "health-beauty",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2013/09/560Y-600x600.png",
+      "tags": [
+        "Health & Beauty",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1529,
+      "sku": "HBT-63817U",
+      "name": "Enliven Nail Polish Remover Acetone Free 250ml",
+      "slug": "health-beauty-enliven-nail-polish-remover-acetone-free-250ml-63817u",
+      "category": "health-beauty",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-63817u.png",
+      "tags": [
+        "Health & Beauty",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1517,
+      "sku": "HBT-66347H",
+      "name": "Cuticura Repair Hand Cream 75ml",
+      "slug": "health-beauty-cuticura-repair-hand-cream-75ml-66347h",
+      "category": "health-beauty",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2024/06/66347H.png",
+      "tags": [
+        "Health & Beauty",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1526,
+      "sku": "HBT-67865L",
+      "name": "LaModa Rainbow Slim Handled Detangler Brush",
+      "slug": "health-beauty-lamoda-rainbow-slim-handled-detangler-brush-67865l",
+      "category": "health-beauty",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/01/LaModa-Rainbow-Slim-Handled-Detangler-Brush-67865L.png",
+      "tags": [
+        "Health & Beauty",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1535,
+      "sku": "HBT-72570T",
+      "name": "L’Oreal Men Expert Antiperspirant Deodorant Carbon Protect Roll On 50ml",
+      "slug": "health-beauty-loreal-men-expert-antiperspirant-deodorant-carbon-protect-roll-on-50ml-72570t",
+      "category": "health-beauty",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/LOreal-Men-Expert-Antiperspirant-Deodorant-Carbon-Protect-Roll-On-50ml-72570T.png",
+      "tags": [
+        "Health & Beauty",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1054,
+      "sku": "39631Q",
+      "name": "Folding Umbrella in CDU Assorted Colours",
+      "slug": "folding-umbrella-in-cdu-assorted-colours-39631q",
+      "category": "household-pet",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Folding-Umbrella-in-CDU-Assorted-Colours-39631Q.png",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1048,
+      "sku": "39636F",
+      "name": "Reading Glasses – Half Frame – Assorted Colours & Strengths",
+      "slug": "reading-glasses-half-frame-assorted-colours-strengths-39636f",
+      "category": "household-pet",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Reading-Glasses-Half-Frame-Assorted-Colours-Strengths-39636F.webp",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1548,
+      "sku": "39640S",
+      "name": "Hilka Junior Children’s Ear Defenders – Blue",
+      "slug": "hilka-junior-children-s-ear-defenders-blue-39640s",
+      "category": "household-pet",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Hilka-Childs-Ear-Defenders-Blue-39640S_1.png",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1547,
+      "sku": "39641V",
+      "name": "Hilka Junior Children’s Ear Defenders – Pink",
+      "slug": "hilka-junior-children-s-ear-defenders-pink-39641v",
+      "category": "household-pet",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Hilka-Childs-Ear-Defenders-Pink-39641V_1.png",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1546,
+      "sku": "39649T",
+      "name": "Adult Hooded Poncho 2 Assorted Colours",
+      "slug": "adult-hooded-poncho-2-assorted-colours-39649t",
+      "category": "household-pet",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Adult-Hooded-Poncho-2-Assorted-Colours-39649T.webp",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1077,
+      "sku": "60342I",
+      "name": "Good Boy Crunchy Chicken & Calcium Bones 350g",
+      "slug": "good-boy-crunchy-chicken-calcium-bones-350g-60342i",
+      "category": "household-pet",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Good-Boy-Crunchy-Chicken-Calcium-Bones-350g-60342I.png",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1076,
+      "sku": "60343L",
+      "name": "Good Boy Chewy Twists With Chicken 320g",
+      "slug": "good-boy-chewy-twists-with-chicken-320g-60343l",
+      "category": "household-pet",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Good-Boy-Chewy-Twists-With-Chicken-320g-60343L-1024x1024.png",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1058,
+      "sku": "72615I",
+      "name": "Good Boy Chewy Braid Beef Large 96g",
+      "slug": "good-boy-chewy-braid-beef-large-96g-72615i",
+      "category": "household-pet",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Chewy-Braid-Beef-Large-96g-72615I.png",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1069,
+      "sku": "72616L",
+      "name": "Good Boy Tough & Tasty Chicken Roll 80g",
+      "slug": "good-boy-tough-tasty-chicken-roll-80g-72616l",
+      "category": "household-pet",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Tough-Tasty-Chicken-Roll-80g-72616L.png",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1068,
+      "sku": "72617O",
+      "name": "Good Boy Chewables Sticks with Chicken & Veg 5 Pack",
+      "slug": "good-boy-chewables-sticks-with-chicken-veg-5-pack-72617o",
+      "category": "household-pet",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Chewables-Sticks-with-Chicken-Veg-5-Pack-72617O-1024x1024.png",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1056,
+      "sku": "72630D",
+      "name": "Good Boy Fresh Breath Rolls Bumper Pack",
+      "slug": "good-boy-fresh-breath-rolls-bumper-pack-72630d",
+      "category": "household-pet",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Fresh-Breath-Rolls-Bumper-Pack-72630D.png",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1059,
+      "sku": "72750R",
+      "name": "Cheeky Panda Sustainable Plastic-Free Bamboo Kitchen Rolls – 2pk",
+      "slug": "cheeky-panda-sustainable-plastic-free-bamboo-kitchen-rolls-2pk-72750r",
+      "category": "household-pet",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Cheeky-Panda-Sustainable-Plastic-Free-Bamboo-Kitchen-Rolls-2pk-72750R-1024x1024.png",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1563,
+      "sku": "HPE-72363P",
+      "name": "Rosewood Cooling Collar – Small",
+      "slug": "household-pet-rosewood-cooling-collar-small-72363p",
+      "category": "household-pet",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Rosewood-Cooling-Collar-–-Small-72363P.png",
+      "tags": [
+        "Household & Pet",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1562,
+      "sku": "HPE-72364S",
+      "name": "Rosewood Cooling Collar – Medium",
+      "slug": "household-pet-rosewood-cooling-collar-medium-72364s",
+      "category": "household-pet",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Rosewood-Cooling-Collar-–-Medium-72364S.png",
+      "tags": [
+        "Household & Pet",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1561,
+      "sku": "HPE-72365V",
+      "name": "Rosewood Cooling Collar – Large",
+      "slug": "household-pet-rosewood-cooling-collar-large-72365v",
+      "category": "household-pet",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Rosewood-Cooling-Collar-–-Large-72365V.png",
+      "tags": [
+        "Household & Pet",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1381,
+      "sku": "STP-39559U",
+      "name": "Cedar & Sage A5 3 Pack Notebooks",
+      "slug": "stationery-party-cedar-sage-a5-3-pack-notebooks-39559u",
+      "category": "stationery-party",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/01/Cedar-Sage-A5-3-Pack-Notebooks-39559U.png",
+      "tags": [
+        "Stationery & Party",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1439,
+      "sku": "STP-39575S",
+      "name": "Liberty Garden A5 Notebooks 3pk",
+      "slug": "stationery-party-liberty-garden-a5-notebooks-3pk-39575s",
+      "category": "stationery-party",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/03/Liberty-Garden-A5-Notebooks-3pk-39575S.png",
+      "tags": [
+        "Stationery & Party",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1438,
+      "sku": "STP-65367L",
+      "name": "Just Stationery Shorthand Notepad 50gsm 50 Sheets 3 Pack",
+      "slug": "stationery-party-just-stationery-shorthand-notepad-50gsm-50-sheets-3-pack-65367l",
+      "category": "stationery-party",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2024/08/Just-Stationery-Shorthand-Notepad-50gsm-50-Sheets-3-Pack-65367L.png",
+      "tags": [
+        "Stationery & Party",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1610,
+      "sku": "STX-22650Z",
+      "name": "2027 Calendar Super Slim Blue & Green Planet",
+      "slug": "stationery-party-2027-calendar-super-slim-blue-green-planet-22650z",
+      "category": "stationery-party",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/07/2027-Calendar-Super-Slim-Blue-Green-Planet-22650Z.png",
+      "tags": [
+        "Stationery & Party",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1088,
+      "sku": "72535O",
+      "name": "Toxic Waste Cherry Popcorn 120g",
+      "slug": "toxic-waste-cherry-popcorn-120g-72535o",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Toxic-Waste-Cherry-Popcorn-120g-72535O.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1087,
+      "sku": "72536R",
+      "name": "Toxic Waste Blue Raspberry Popcorn 120g",
+      "slug": "toxic-waste-blue-raspberry-popcorn-120g-72536r",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Toxic-Waste-Blue-Raspberry-Popcorn-120g-72536R.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1086,
+      "sku": "72537U",
+      "name": "Toxic Waste Apple Popcorn 120g",
+      "slug": "toxic-waste-apple-popcorn-120g-72537u",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Toxic-Waste-Apple-Popcorn-120g-72537U.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1108,
+      "sku": "73027B",
+      "name": "Gummi King Pizza 90g",
+      "slug": "gummi-king-pizza-90g-73027b",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Gummi-King-Pizza-90g-73027B.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1104,
+      "sku": "73033U",
+      "name": "Capri Sun Fruit Mix Soft Chews 147g",
+      "slug": "capri-sun-fruit-mix-soft-chews-147g-73033u",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Capri-Sun-Fruit-Mix-Soft-Chews-147g-73033U.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1103,
+      "sku": "73034X",
+      "name": "Capri Sun Monster Alarm Sour Chews 147g",
+      "slug": "capri-sun-monster-alarm-sour-chews-147g-73034x",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Capri-Sun-Monster-Alarm-Sour-Chews-147g-73034X.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1098,
+      "sku": "73111I",
+      "name": "Snoopy Gummies Bag 100g",
+      "slug": "snoopy-gummies-bag-100g-73111i",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Snoopy-Gummies-Bag-100g-73111I.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1124,
+      "sku": "75994X",
+      "name": "Real Good Food Yoghurt Coated Cranberries Pouch 150g",
+      "slug": "real-good-food-yoghurt-coated-cranberries-pouch-150g-75994x",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Real-Good-Food-Yoghurt-Coated-Cranberries-Pouch-150g-75994X.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1512,
+      "sku": "75995A",
+      "name": "Real Good Food Milk Chocolate Bananas Pouch 150g",
+      "slug": "real-good-food-milk-chocolate-bananas-pouch-150g-75995a",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Real-Good-Food-Milk-Chocolate-Bananas-Pouch-150g-75995A.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1511,
+      "sku": "75996D",
+      "name": "Real Good Food Milk Chocolate Honeycomb Pouch 150g",
+      "slug": "real-good-food-milk-chocolate-honeycomb-pouch-150g-75996d",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Real-Good-Food-Milk-Chocolate-Honeycomb-Pouch-150g-75996D.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1121,
+      "sku": "75997G",
+      "name": "Real Good Food Dark Chocolate Peanuts Pouch 150g",
+      "slug": "real-good-food-dark-chocolate-peanuts-pouch-150g-75997g",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Real-Good-Food-Dark-Chocolate-Peanuts-Pouch-150g-75997G.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1510,
+      "sku": "75998J",
+      "name": "Real Good Food Milk Chocolate Peanuts Pouch 150g",
+      "slug": "real-good-food-milk-chocolate-peanuts-pouch-150g-75998j",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Real-Good-Food-Milk-Chocolate-Peanuts-Pouch-150g-75998J.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1509,
+      "sku": "75999M",
+      "name": "Real Good Food Dark Chocolate Ginger Pouch 150g",
+      "slug": "real-good-food-dark-chocolate-ginger-pouch-150g-75999m",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Real-Good-Food-Dark-Chocolate-Ginger-Pouch-150g-75999M.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1508,
+      "sku": "76000O",
+      "name": "Real Good Food Milk Chocolate Raisins Pouch 150g",
+      "slug": "real-good-food-milk-chocolate-raisins-pouch-150g-76000o",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Real-Good-Food-Milk-Chocolate-Raisins-Pouch-150g-76000O.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1091,
+      "sku": "9592V",
+      "name": "Haribo Bone Shakers 140g £1.25 PMP",
+      "slug": "haribo-bone-shakers-140g-1-25-pmp-9592v",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Haribo-Bone-Shakers-140g-1.25-PMP-9592V.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1090,
+      "sku": "9596H",
+      "name": "Maoam Halloween Mixx 140g £1.25 PMP",
+      "slug": "maoam-halloween-mixx-140g-1-25-pmp-9596h",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Maoam-Halloween-Mix-140g-1.25-PMP-9596H.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1089,
+      "sku": "9838V",
+      "name": "Haribo Sour Bats 140g £1.25 PMP",
+      "slug": "haribo-sour-bats-140g-1-25-pmp-9838v",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Haribo-Sour-Bats-140g-1.25-PMP-9838V.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1567,
+      "sku": "SWE-6388I",
+      "name": "Haribo Bubblegum Bottles Z!ng 140g £1.25 PMP",
+      "slug": "sweets-snacks-haribo-bubblegum-bottles-z-ng-140g-1-25-pmp-6388i",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2023/05/6388I.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1571,
+      "sku": "SWE-72371O",
+      "name": "Candy Kittens Soul Pop 140g Clipstrip",
+      "slug": "sweets-snacks-candy-kittens-soul-pop-140g-clipstrip-72371o",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Candy-Kittens-Soul-Pop-140g-Clipstrip-72371O.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1575,
+      "sku": "SWE-72548C",
+      "name": "Golden Rounds Potato Crisp Biscuit Cheese 80g",
+      "slug": "sweets-snacks-golden-rounds-potato-crisp-biscuit-cheese-80g-72548c",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Golden-Rounds-Potato-Crisp-Biscuit-Cheese-80g-72548C.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1576,
+      "sku": "SWE-72549F",
+      "name": "Golden Rounds Potato Crisp Biscuit Tangy Tomato 80g",
+      "slug": "sweets-snacks-golden-rounds-potato-crisp-biscuit-tangy-tomato-80g-72549f",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Golden-Rounds-Potato-Crisp-Biscuit-Tangy-Tomato-80g-72549F.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1577,
+      "sku": "SWE-72550J",
+      "name": "Golden Rounds Potato Crisp Biscuit Pizza 80g",
+      "slug": "sweets-snacks-golden-rounds-potato-crisp-biscuit-pizza-80g-72550j",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Golden-Rounds-Potato-Crisp-Biscuit-Pizza-80g-72550J.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1578,
+      "sku": "SWE-72551M",
+      "name": "Golden Rounds Potato Crisp Biscuit BBQ 80g",
+      "slug": "sweets-snacks-golden-rounds-potato-crisp-biscuit-bbq-80g-72551m",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Golden-Rounds-Potato-Crisp-Biscuit-BBQ-80g-72551M.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1570,
+      "sku": "SWE-75991O",
+      "name": "Real Good Food Milk Chocolate Brazil Nuts Pouch 120g",
+      "slug": "sweets-snacks-real-good-food-milk-chocolate-brazil-nuts-pouch-120g-75991o",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Real-Good-Food-Milk-Chocolate-Brazils-Pouch-120g-75991O.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1569,
+      "sku": "SWE-7907V",
+      "name": "Maoam Blue Pinballs 140g £1.25 PMP",
+      "slug": "sweets-snacks-maoam-blue-pinballs-140g-1-25-pmp-7907v",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Maoam-Blue-Pinballs-140g-1.25-PMP-7907V.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1568,
+      "sku": "SWE-7909B",
+      "name": "Haribo Rhubarb & Custard Rolls 140g £1.25 PMP",
+      "slug": "sweets-snacks-haribo-rhubarb-custard-rolls-140g-1-25-pmp-7909b",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Haribo-Rhubarb-Custard-Rolls-140g-1.25-PMP-7909B.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1514,
+      "sku": "73103J",
+      "name": "Umbro Socks & Ice Hair&Body Wash 150ml Gift Set",
+      "slug": "umbro-socks-ice-hair-body-wash-150ml-gift-set-73103j",
+      "category": "toys-gifts",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Umbro-Socks-Ice-HairBody-Wash-150ml-Gift-Set-73103J.png",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    },
+    {
+      "id": 1513,
+      "sku": "73104M",
+      "name": "Umbro Body Wash 3D Torso – 4 Assorted 350ml Gift Set",
+      "slug": "umbro-body-wash-3d-torso-4-assorted-350ml-gift-set-73104m",
+      "category": "toys-gifts",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Umbro-Body-Wash-3D-Torso-4-Assorted-350ml-Gift-Set-73104M_1.png",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "auditFlags": [
+        "background_not_consistently_light",
+        "dark_or_busy_edge_background",
+        "possible_edge_crop"
+      ]
+    }
+  ]
+}

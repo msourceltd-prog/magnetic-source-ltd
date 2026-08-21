@@ -1,0 +1,575 @@
+{
+  "preparedAt": "2026-08-21T12:52:56.969Z",
+  "products": [
+    {
+      "slug": "palmolive-shampoo-2in1-350ml-72569p",
+      "name": "Palmolive Shampoo 2in1 350ml",
+      "category": "health-beauty",
+      "price": 0,
+      "sku": "72569P",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "Palmolive Shampoo 2in1 350ml is supplied as pack of 6.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Palmolive-Shampoo-2in1-350ml-PMP-1.25-72569P.jpg",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/palmolive-shampoo-2in1-350ml-pmp-1-25/"
+    },
+    {
+      "slug": "rennie-chewing-gum-750g-10s-72295g",
+      "name": "Rennie Chewing Gum 750g 10’s",
+      "category": "health-beauty",
+      "price": 0,
+      "sku": "72295G",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "Rennie Chewing Gum 750g 10’s is supplied as pack of 6.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Rennie-Chewing-Gum-750g-10s-72295G.jpg",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/rennie-chewing-gum-750g-10s/"
+    },
+    {
+      "slug": "loreal-men-expert-antiperspirant-deodorant-thermic-resist-roll-on-50ml-72571w",
+      "name": "L’Oreal Men Expert Antiperspirant Deodorant Thermic Resist Roll On 50ml",
+      "category": "health-beauty",
+      "price": 0,
+      "sku": "72571W",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "L’Oreal Men Expert Antiperspirant Deodorant Thermic Resist Roll On 50ml is supplied as pack of 6.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/LOreal-Men-Expert-Antiperspirant-Deodorant-Thermic-Resist-Roll-On-50ml-72571W.png",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/loreal-men-expert-antiperspirant-deodorant-thermic-resist-roll-on-50ml/"
+    },
+    {
+      "slug": "baylis-harding-goodness-oud-cedar-amber-body-wash-100ml-72566g",
+      "name": "Baylis & Harding Goodness Oud Cedar & Amber Body Wash 100ml",
+      "category": "health-beauty",
+      "price": 0,
+      "sku": "72566G",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "Baylis & Harding Goodness Oud Cedar & Amber Body Wash 100ml is supplied as pack of 12.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Baylis-Harding-Goodness-Oud-Cedar-Amber-Body-Wash-100ml-72566G_2.jpg",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/baylis-harding-goodness-oud-cedar-amber-body-wash-100ml/"
+    },
+    {
+      "slug": "baylis-harding-elements-pink-blossom-lotus-flower-hand-wash-500ml-72564a",
+      "name": "Baylis & Harding Elements Pink Blossom & Lotus Flower Hand Wash 500ml",
+      "category": "health-beauty",
+      "price": 0,
+      "sku": "72564A",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 3",
+      "description": "Baylis & Harding Elements Pink Blossom & Lotus Flower Hand Wash 500ml is supplied as pack of 3.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Baylis-Harding-Elements-Pink-Blossom-Lotus-Flower-Hand-Wash-500ml-72564A.png",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/baylis-harding-elements-pink-blossom-lotus-flower-hand-wash-500ml/"
+    },
+    {
+      "slug": "baylis-harding-jojoba-vanilla-almond-oil-hand-wash-500ml-72563x",
+      "name": "Baylis & Harding Jojoba Vanilla & Almond Oil Hand Wash 500ml",
+      "category": "health-beauty",
+      "price": 0,
+      "sku": "72563X",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 3",
+      "description": "Baylis & Harding Jojoba Vanilla & Almond Oil Hand Wash 500ml is supplied as pack of 3.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Baylis-Harding-Jojoba-Vanilla-Almond-Oil-Hand-Wash-500ml-72563X.png",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/baylis-harding-jojoba-vanilla-almond-oil-hand-wash-500ml/"
+    },
+    {
+      "slug": "baylis-harding-vetiver-cedar-lemongrass-anti-bacterial-hand-wash-500ml-72562u",
+      "name": "Baylis & Harding Vetiver Cedar & Lemongrass Anti-Bacterial Hand Wash 500ml",
+      "category": "health-beauty",
+      "price": 0,
+      "sku": "72562U",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 3",
+      "description": "Baylis & Harding Vetiver Cedar & Lemongrass Anti-Bacterial Hand Wash 500ml is supplied as pack of 3.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Baylis-Harding-Vetiver-Cedar-Lemongrass-Anti-Bacterial-Hand-Wash-500ml-72562U.png",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/baylis-harding-vetiver-cedar-lemongrass-anti-bacterial-hand-wash-500ml/"
+    },
+    {
+      "slug": "wash-go-2-in-1-shampoo-conditioner-classic-290ml-72241v",
+      "name": "Wash & Go 2 in 1 Shampoo & Conditioner Classic 290ml",
+      "category": "health-beauty",
+      "price": 0,
+      "sku": "72241V",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 9",
+      "description": "Wash & Go 2 in 1 Shampoo & Conditioner Classic 290ml is supplied as pack of 9.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Wash-Go-2-in-1-Shampoo-Conditioner-Classic-290ml-72241V.jpg",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/wash-go-2-in-1-shampoo-conditioner-classic-290ml/"
+    },
+    {
+      "slug": "malibu-3-pack-100ml-lotion-spf-8-spf-20-aftersun-72472v",
+      "name": "Malibu 3 Pack 100ml Lotion SPF 8 SPF 20 Aftersun",
+      "category": "health-beauty",
+      "price": 0,
+      "sku": "72472V",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "Malibu 3 Pack 100ml Lotion SPF 8 SPF 20 Aftersun is supplied as pack of 6.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Malibu-3-Pack-100ml-Lotion-SPF-8-SPF-20-Aftersun-72472V.webp",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/malibu-3-pack-100ml-lotion-spf-8-spf-20-aftersun/"
+    },
+    {
+      "slug": "femfresh-wipes-10s-72306u",
+      "name": "Femfresh Wipes 10’s",
+      "category": "health-beauty",
+      "price": 0,
+      "sku": "72306U",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "Femfresh Wipes 10’s is supplied as pack of 12.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Femfresh-Wipes-10s-72306U.webp",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/femfresh-wipes-10s/"
+    },
+    {
+      "slug": "imperial-leather-bodywash-cotton-vanilla-235ml-72304o",
+      "name": "Imperial Leather Bodywash Cotton & Vanilla 235ml",
+      "category": "health-beauty",
+      "price": 0,
+      "sku": "72304O",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "Imperial Leather Bodywash Cotton & Vanilla 235ml is supplied as pack of 6.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Imperial-Leather-Bodywash-Cotton-Vanilla-235ml-72304O.jpg",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/imperial-leather-bodywash-cotton-vanilla-235ml/"
+    },
+    {
+      "slug": "got2b-glued-4-brows-edges-16ml-2in1-gel-72327h",
+      "name": "Got2b Glued 4 Brows & Edges 16ml 2in1 Gel",
+      "category": "health-beauty",
+      "price": 0,
+      "sku": "72327H",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "Got2b Glued 4 Brows & Edges 16ml 2in1 Gel is supplied as pack of 12.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Got2b-Glued-4-Brows-Edges-16ml-2in1-Gel-72327H.jpg",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/got2b-glued-4-brows-edges-16ml-2in1-gel/"
+    },
+    {
+      "slug": "jakemans-soothing-menthol-lozenges-cherry-menthol-73g-72332x",
+      "name": "Jakemans Soothing Menthol Lozenges Cherry Menthol 73g",
+      "category": "health-beauty",
+      "price": 0,
+      "sku": "72332X",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "Jakemans Soothing Menthol Lozenges Cherry Menthol 73g is supplied as pack of 12.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Jakemans-Soothing-Menthol-Lozenges-Cherry-Menthol-73g-72332X.png",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/jakemans-soothing-menthol-lozenges-cherry-menthol-73g/"
+    },
+    {
+      "slug": "original-source-shower-milk-lime-coconut-250ml-72305r",
+      "name": "Original Source Shower Milk Lime & Coconut 250ml",
+      "category": "health-beauty",
+      "price": 0,
+      "sku": "72305R",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "Original Source Shower Milk Lime & Coconut 250ml is supplied as pack of 6.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Original-Source-Shower-Milk-Lime-Coconut-250ml-72305R.jpg",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/original-source-shower-milk-lime-coconut-250ml/"
+    },
+    {
+      "slug": "brushworks-refresh-reset-face-mist-100ml-72315w",
+      "name": "Brushworks Refresh & Reset Face Mist 100ml",
+      "category": "health-beauty",
+      "price": 0,
+      "sku": "72315W",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "Brushworks Refresh & Reset Face Mist 100ml is supplied as pack of 6.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Brushworks-Refresh-Reset-Face-Mist-100ml-72315W.jpg",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/brushworks-refresh-reset-face-mist-100ml/"
+    },
+    {
+      "slug": "mini-activity-cube-tray-box-70819q",
+      "name": "Mini Activity Cube Tray Box",
+      "category": "baby-kids",
+      "price": 0,
+      "sku": "70819Q",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "Mini Activity Cube Tray Box is supplied as pack of 12.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/12/Mini-Activity-Cube-Tray-Box-70819Q.jpg",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/mini-activity-cube-tray-box/"
+    },
+    {
+      "slug": "fisher-price-10cm-soft-animal-friends-70818n",
+      "name": "Fisher Price 10cm Soft Animal Friends",
+      "category": "baby-kids",
+      "price": 0,
+      "sku": "70818N",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "Fisher Price 10cm Soft Animal Friends is supplied as pack of 24.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/12/Fisher-Price-10cm-Soft-Animal-Friends-70818N.jpg",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/fisher-price-10cm-soft-animal-friends/"
+    },
+    {
+      "slug": "fisher-price-8-inch-animal-plush-cdu-70817k",
+      "name": "Fisher Price 8 Inch Animal Plush CDU",
+      "category": "baby-kids",
+      "price": 0,
+      "sku": "70817K",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 18",
+      "description": "Fisher Price 8 Inch Animal Plush CDU is supplied as pack of 18.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/12/Fisher-Price-8-Animal-Plush-CDU-70817K.jpg",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/fisher-price-8-animal-plush-cdu/"
+    },
+    {
+      "slug": "fisher-price-animal-ball-12-5cm-cdu-70814b",
+      "name": "Fisher Price Animal Ball 12.5cm CDU",
+      "category": "baby-kids",
+      "price": 0,
+      "sku": "70814B",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 18",
+      "description": "Fisher Price Animal Ball 12.5cm CDU is supplied as pack of 18.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/12/Fisher-Price-Animal-Ball-12.5cm-CDU-70814B.jpg",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/fisher-price-animal-ball-12-5cm-cdu/"
+    },
+    {
+      "slug": "infunbebe-mini-vehicles-6-pack-70820u",
+      "name": "Infunbebe Mini Vehicles 6 Pack",
+      "category": "baby-kids",
+      "price": 0,
+      "sku": "70820U",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "Infunbebe Mini Vehicles 6 Pack is supplied as pack of 6.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/12/Mini-Vehicles-6-Pack-70820U.jpg",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/infunbebe-mini-vehicles-6-pack/"
+    },
+    {
+      "slug": "ms-rachel-jumbo-peg-puzzle-70688o",
+      "name": "Ms Rachel Jumbo Peg Puzzle",
+      "category": "baby-kids",
+      "price": 0,
+      "sku": "70688O",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 1",
+      "description": "Ms Rachel Jumbo Peg Puzzle is supplied as pack of 1.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/12/Ms.-Rachel-Jumbo-Peg-Puzzle-70688O.webp",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/ms-rachel-jumbo-peg-puzzle/"
+    },
+    {
+      "slug": "fisher-price-bath-blocks-69356b",
+      "name": "Fisher Price Bath Blocks",
+      "category": "baby-kids",
+      "price": 0,
+      "sku": "69356B",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 1",
+      "description": "Fisher Price Bath Blocks is supplied as pack of 1.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/08/Fisher-Price-Bath-Blocks-69356B.jpg",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/fisher-price-bath-blocks/"
+    },
+    {
+      "slug": "fisher-price-baby-training-ball-69354v",
+      "name": "Fisher Price Baby Training Ball",
+      "category": "baby-kids",
+      "price": 0,
+      "sku": "69354V",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 1",
+      "description": "Fisher Price Baby Training Ball is supplied as pack of 1.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/08/Fisher-Price-Baby-Training-Ball-69354V.jpg",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/fisher-price-baby-training-ball/"
+    },
+    {
+      "slug": "fisher-price-tee-pee-play-tent-69352p",
+      "name": "Fisher Price Tee-Pee Play Tent",
+      "category": "baby-kids",
+      "price": 0,
+      "sku": "69352P",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 1",
+      "description": "Fisher Price Tee-Pee Play Tent is supplied as pack of 1.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/08/Fisher-Price-Tee-Pee-Play-Tent-69352P.jpg",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/fisher-price-tee-pee-play-tent/"
+    },
+    {
+      "slug": "fisher-price-portable-circular-ball-pit-25pc-69350j",
+      "name": "Fisher Price Portable Circular Ball Pit 25pc",
+      "category": "baby-kids",
+      "price": 0,
+      "sku": "69350J",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 1",
+      "description": "Fisher Price Portable Circular Ball Pit 25pc is supplied as pack of 1.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/08/Fisher-Price-Portable-Circular-Ball-Pit-69350J.jpeg",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/fisher-price-portable-circular-ball-pit-25pc/"
+    },
+    {
+      "slug": "play-are-you-a-monkey-like-me-70041b",
+      "name": "Play+ Are You a Monkey Like Me",
+      "category": "baby-kids",
+      "price": 0,
+      "sku": "70041B",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 1",
+      "description": "Play+ Are You a Monkey Like Me is supplied as pack of 1.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/08/Play-Are-you-a-Monkey-like-me-70041B.png",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/play-are-you-a-monkey-like-me/"
+    },
+    {
+      "slug": "play-shhh-whos-there-baby-animals-70039u",
+      "name": "Play+ Shhh Who’s There Baby Animals",
+      "category": "baby-kids",
+      "price": 0,
+      "sku": "70039U",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 1",
+      "description": "Play+ Shhh Who’s There Baby Animals is supplied as pack of 1.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/08/Play-Shhh…Whos-there-Baby-Animals-70039U.png",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/play-shhhwhos-there-baby-animals/"
+    },
+    {
+      "slug": "play-rainmaker-shake-twist-gecko-70044k",
+      "name": "Play+ Rainmaker Shake & Twist Gecko",
+      "category": "baby-kids",
+      "price": 0,
+      "sku": "70044K",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 1",
+      "description": "Play+ Rainmaker Shake & Twist Gecko is supplied as pack of 1.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/08/Play-Rainmaker-Shake-Twist-Gecko-70044K.png",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/play-rainmaker-shake-twist-gecko/"
+    },
+    {
+      "slug": "play-search-and-shine-in-the-jungle-70040y",
+      "name": "Play+ Search and Shine In the Jungle",
+      "category": "baby-kids",
+      "price": 0,
+      "sku": "70040Y",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 1",
+      "description": "Play+ Search and Shine In the Jungle is supplied as pack of 1.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/08/Play-Search-and-Shine-In-the-Jungle-70040Y.png",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/play-search-and-shine-in-the-jungle/"
+    },
+    {
+      "slug": "blueys-telephone-70046q",
+      "name": "Bluey’s Telephone",
+      "category": "baby-kids",
+      "price": 0,
+      "sku": "70046Q",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 1",
+      "description": "Bluey’s Telephone is supplied as pack of 1.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/08/Blueys-Telephone-70046Q.jpg",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/blueys-telephone/"
+    }
+  ]
+}
