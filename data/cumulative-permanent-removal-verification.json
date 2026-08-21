@@ -1,0 +1,19 @@
+{
+  "verifiedAt": "2026-08-21T16:35:07.452Z",
+  "productCount": 321,
+  "registryEntries": 91,
+  "liveRegistryMatches": 0,
+  "realGoodFoodMatches": 0,
+  "part2SitemapRemnants": 0,
+  "sitemapUrlCount": 337,
+  "categoryCounts": {
+    "baby-kids": 45,
+    "clearance": 15,
+    "health-beauty": 60,
+    "household-pet": 40,
+    "seasonal-christmas": 36,
+    "stationery-party": 37,
+    "sweets-snacks": 35,
+    "toys-gifts": 53
+  }
+}
