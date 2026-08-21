@@ -338,4 +338,4 @@
 
 - [x] Audit representative product image scale and framing across Household & Pet, Sweets & Snacks, Toys & Gifts, Stationery & Party, Health & Beauty, Seasonal & Christmas, Clearance, and Baby & Kids. Compact packaging was most noticeably underscaled in Sweets & Snacks, Seasonal & Christmas, and Baby & Kids; all departments required full-packaging protection.
 - [x] Increase genuinely small product packs within their white frames while protecting tall packaging and product edges from cropping. Product-card image frames now use a larger 96% contained fit with reduced white padding, so every product scales up proportionally without clipping its source canvas or packaging.
-- [ ] Build, visually verify mobile and desktop category pages, deploy the image-presentation update, and confirm the live result.
+- [x] Build, visually verify mobile and desktop category pages, deploy the image-presentation update, and confirm the live result. The live Cloudflare stylesheet now contains the 20px desktop padding and 96% contained product-image rules.
