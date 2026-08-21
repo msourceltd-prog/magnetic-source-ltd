@@ -470,3 +470,9 @@
 - [x] Ensure each public category view and its hero/featured product content is derived only from products assigned to the currently selected category. Valid category selection is now required for category filtering, and the stale footer route was updated from an old category slug to Toys & Gifts.
 - [x] Remove the repeated secondary description from product cards and detail pages, retaining only one concise genuine description per product. Product cards now show only the product name with pack/reference facts; the product-detail page retains the single real description where one exists.
 - [x] Build and visually verify representative category pages and product-card presentation. Toys & Gifts and Health & Beauty pages show only their respective category headings and counts, and shared cards no longer render a secondary description below the product name; deployment follows the saved checkpoint.
+
+## Sweets & Snacks Category Correction
+
+- [x] Audit every live Sweets & Snacks and Household & Pet product assignment against product names and descriptions to identify any confirmed cross-category records. Eight confirmed Good Boy/Rosewood pet products were incorrectly assigned to Sweets & Snacks; one Haribo Bubblegum Bottles sweet was correctly retained despite the word “Bottles”. No Sweets & Snacks products were found in Household & Pet.
+- [x] Create a backup and move only confirmed Household & Pet records out of Sweets & Snacks, preserving every other product assignment. A full backup was saved and exactly eight Good Boy/Rosewood pet products moved to Household & Pet; total products remain 411, Household & Pet is now 45, and Sweets & Snacks is now 57.
+- [x] Build and verify both category pages contain appropriate products only. The updated Sweets & Snacks page shows 57 products, Household & Pet shows 45 products, both category headings and active filters match, and the 411-product build succeeds; deployment follows the saved checkpoint.

@@ -1,0 +1,20 @@
+import { writeFile } from "node:fs/promises";
+
+const projectRoot = "/home/ubuntu/magnetic-source-ecommerce-v2";
+const supabaseUrl = process.env.SUPABASE_URL || "https://pylhokxuqqbldnfjwjem.supabase.co";
+const publicKey = process.env.VITE_SUPABASE_ANON_KEY || "sb_publishable_ps9YypvtK5jByJ37N6LZzw_oanbTDgq";
+const reportPath = `${projectRoot}/data/sweets-household-category-audit.json`;
+const response = await fetch(`${supabaseUrl}/rest/v1/products?select=id,sku,name,description,category&category=in.(sweets-snacks,household-pet)&order=category,name`, { headers: { apikey: publicKey } });
+if (!response.ok) throw new Error(`Catalogue read failed: ${response.status} ${await response.text()}`);
+const products = await response.json();
+const sweetsTerms = ["sweet", "sweets", "gummy", "gummies", "haribo", "maoam", "toxic waste", "popcorn", "chocolate", "candy", "kandelicious", "johny bee", "lollipop", "lollies", "chew", "chews", "crisp", "crisps", "biscuit", "cookie", "cookies", "snack", "peanuts", "nuts", "raisins", "honeycomb", "capri sun", "confection", "golden rounds", "jakemans", "lozenges", "swizzels", "drumstick", "cranberries"];
+const householdTerms = ["dog", "cat", "pet", "good boy", "rosewood", "chewable", "chewy", "bones", "collar", "washing up", "kitchen", "frying pan", "tent peg", "backpack", "umbrella", "glasses", "ear defenders", "poncho", "tissue", "bottle", "household", "home", "clean", "sponge", "kitchen roll", "tool", "battery", "storage", "summit", "hilka", "laundry", "ariel", "fabulosa", "compass", "tent light", "fedora", "clogs"];
+const textFor = (product) => `${product.name} ${product.description || ""}`.toLowerCase();
+const hits = (text, terms) => terms.filter((term) => text.includes(term));
+const sweets = products.filter((product) => product.category === "sweets-snacks");
+const household = products.filter((product) => product.category === "household-pet");
+const inSweetsButHousehold = sweets.map((product) => ({ product, hits: hits(textFor(product), householdTerms) })).filter((entry) => entry.hits.length);
+const inHouseholdButSweets = household.map((product) => ({ product, hits: hits(textFor(product), sweetsTerms) })).filter((entry) => entry.hits.length);
+const report = { auditedAt: new Date().toISOString(), totals: { sweetsSnacks: sweets.length, householdPet: household.length, combined: products.length }, inSweetsButHousehold, inHouseholdButSweets };
+await writeFile(reportPath, `${JSON.stringify(report, null, 2)}\n`);
+console.log(JSON.stringify({ ...report, reportPath }, null, 2));

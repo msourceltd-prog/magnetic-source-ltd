@@ -1,0 +1,125 @@
+{
+  "auditedAt": "2026-08-21T15:28:03.285Z",
+  "totals": {
+    "sweetsSnacks": 65,
+    "householdPet": 37,
+    "combined": 102
+  },
+  "inSweetsButHousehold": [
+    {
+      "product": {
+        "id": 1755,
+        "sku": "HPE-72383Z",
+        "name": "Good Boy Busy Bar Large Chew Chicken",
+        "description": "Good Boy Busy Bar Large Chew Chicken is supplied as pack of 12. Supplier reference: 72383Z.",
+        "category": "sweets-snacks"
+      },
+      "hits": [
+        "good boy"
+      ]
+    },
+    {
+      "product": {
+        "id": 1057,
+        "sku": "72619U",
+        "name": "Good Boy Cheese Please – Long Lasting Tasty Chew 60g",
+        "description": "",
+        "category": "sweets-snacks"
+      },
+      "hits": [
+        "good boy"
+      ]
+    },
+    {
+      "product": {
+        "id": 1075,
+        "sku": "72385F",
+        "name": "Good Boy Cheese Please with Chicken – Long Lasting Tasty Chew 60g",
+        "description": "",
+        "category": "sweets-snacks"
+      },
+      "hits": [
+        "good boy"
+      ]
+    },
+    {
+      "product": {
+        "id": 1753,
+        "sku": "72388O",
+        "name": "Good Boy Chewables Medium Bones with Chicken 2 Pack",
+        "description": "",
+        "category": "sweets-snacks"
+      },
+      "hits": [
+        "good boy",
+        "chewable",
+        "bones"
+      ]
+    },
+    {
+      "product": {
+        "id": 1693,
+        "sku": "72617O",
+        "name": "Good Boy Chewables Sticks with Chicken & Veg 5 Pack",
+        "description": "",
+        "category": "sweets-snacks"
+      },
+      "hits": [
+        "good boy",
+        "chewable"
+      ]
+    },
+    {
+      "product": {
+        "id": 1691,
+        "sku": "72615I",
+        "name": "Good Boy Chewy Braid Beef Large 96g",
+        "description": "",
+        "category": "sweets-snacks"
+      },
+      "hits": [
+        "good boy",
+        "chewy"
+      ]
+    },
+    {
+      "product": {
+        "id": 1690,
+        "sku": "60343L",
+        "name": "Good Boy Chewy Twists With Chicken 320g",
+        "description": "",
+        "category": "sweets-snacks"
+      },
+      "hits": [
+        "good boy",
+        "chewy"
+      ]
+    },
+    {
+      "product": {
+        "id": 1720,
+        "sku": "SWE-6388I",
+        "name": "Haribo Bubblegum Bottles Z!ng 140g £1.25 PMP",
+        "description": "Haribo Bubblegum Bottles Z!ng 140g £1.25 PMP is supplied as pack of 12. Supplier reference: 6388I.",
+        "category": "sweets-snacks"
+      },
+      "hits": [
+        "bottle"
+      ]
+    },
+    {
+      "product": {
+        "id": 1556,
+        "sku": "HPE-72404S",
+        "name": "Rosewood Tough Toys Wood Flavour Dog Chew",
+        "description": "Rosewood Tough Toys Wood Flavour Dog Chew is supplied as pack of 3. Supplier reference: 72404S.",
+        "category": "sweets-snacks"
+      },
+      "hits": [
+        "dog",
+        "rosewood"
+      ]
+    }
+  ],
+  "inHouseholdButSweets": []
+}
