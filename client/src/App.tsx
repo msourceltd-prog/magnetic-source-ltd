@@ -7,24 +7,26 @@ import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { CartProvider } from "@/contexts/CartContext";
 import { CatalogProvider } from "@/contexts/CatalogContext";
-import Cart from "@/pages/Cart";
-import Admin from "@/pages/Admin";
-import Checkout from "@/pages/Checkout";
-import Contact from "@/pages/Contact";
-import NotFound from "@/pages/NotFound";
-import Home from "@/pages/Home";
-import InfoPage from "@/pages/InfoPage";
-import OrderConfirmation from "@/pages/OrderConfirmation";
-import ProductDetail from "@/pages/ProductDetail";
-import Shop from "@/pages/Shop";
+import { lazy, Suspense } from "react";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import "./styles/trade-refinements.css";
 import "./styles/launch-readiness.css";
 
+const Cart = lazy(() => import("@/pages/Cart"));
+const Admin = lazy(() => import("@/pages/Admin"));
+const Checkout = lazy(() => import("@/pages/Checkout"));
+const Contact = lazy(() => import("@/pages/Contact"));
+const NotFound = lazy(() => import("@/pages/NotFound"));
+const Home = lazy(() => import("@/pages/Home"));
+const InfoPage = lazy(() => import("@/pages/InfoPage"));
+const OrderConfirmation = lazy(() => import("@/pages/OrderConfirmation"));
+const ProductDetail = lazy(() => import("@/pages/ProductDetail"));
+const Shop = lazy(() => import("@/pages/Shop"));
+
 function Router() {
-  return <Switch>
+  return <Suspense fallback={<main className="route-loading" aria-live="polite"><span>Loading catalogue</span></main>}><Switch>
     <Route path="/" component={Home} />
     <Route path="/shop" component={Shop} />
     <Route path="/product/:slug" component={ProductDetail} />
@@ -40,7 +42,7 @@ function Router() {
     <Route path="/contact" component={Contact} />
     <Route path="/404" component={NotFound} />
     <Route component={NotFound} />
-  </Switch>;
+  </Switch></Suspense>;
 }
 
 function App() {

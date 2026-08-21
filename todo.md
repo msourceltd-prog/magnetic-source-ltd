@@ -275,5 +275,42 @@
 - [x] Audit every public route, current head metadata, page heading, image alternative text, and normal HTML navigation path.
 - [x] Add root-level `robots.txt` and an XML sitemap for all public canonical URLs on `https://magneticsource.uk/`.
 - [x] Implement unique public-page metadata, canonical links, Open Graph/Twitter Cards, Organization structured data, headings, and descriptive image alternative text.
-- [ ] Build, inspect public metadata and crawlable links, regenerate the Cloudflare upload artifact, and synchronize the validated SEO release to GitHub.
-- [ ] Provide the complete sitemap URL list and concise redeployment status to the owner.
+- [x] Build, inspect public metadata and crawlable links, regenerate the Cloudflare upload artifact, and synchronize the validated SEO release to GitHub.
+- [x] Provide the complete sitemap URL list and concise redeployment status to the owner.
+
+## Technical SEO Public Deployment
+
+- [x] Confirm the validated SEO build and GitHub `main` release are ready for deployment.
+- [x] Confirm that the configured Cloudflare Git deployment has built the SEO release without changing protected routes or credentials.
+- [x] Verify the public custom domain serves the new `robots.txt`, `sitemap.xml`, canonical metadata, and normal path-based public routes.
+
+## Live Domain Admin Login
+
+- [x] Open the public `/admin` route on `magneticsource.uk` and audit the browser configuration and sign-in state.
+- [x] Confirm that no frontend correction is required: the existing public Supabase fallback and secure sign-in form are domain-compatible without changing the Admin account, password, roles, or data.
+- [x] Verify the live Admin login route on the custom domain and provide the owner with the exact sign-in URL.
+
+## Admin Password Reset
+
+- [x] Confirm the owner-approved password-reset recipient is `msourceltd@gmail.com`.
+- [x] Send the Supabase Admin password-reset email without reading, changing, or storing a password, account role, or catalogue data.
+- [x] Provide the owner with the secure reset-completion and new-domain Admin sign-in steps.
+
+## Missing Admin Reset Email
+
+- [ ] Inspect the existing Supabase recovery request, redirect configuration, and delivery prerequisites without exposing or changing account credentials.
+- [ ] Apply only the required recovery-path fix or use the verified dashboard recovery alternative after owner confirmation.
+- [ ] Confirm the owner receives a valid recovery route and can sign in to `/admin` with a self-chosen password.
+
+## Admin Recovery Alternative
+
+- [x] Verify the exact existing Supabase Auth Admin identity after the owner confirmed that no recovery email was delivered; the project currently has no Auth users.
+- [x] Obtain approval for the first Supabase Admin user email and temporary password.
+- [ ] Create the first Admin user, assign the required Admin profile role, and confirm live Admin sign-in readiness without changing catalogue data.
+
+## Mobile Performance and Image Stability
+
+- [x] Audit product-card image rendering during department changes, responsive logo sizing, and mobile/desktop performance bottlenecks; the previous black flash came from frames rendering before remote images decoded, and normal header links were forcing avoidable full page loads.
+- [x] Remove the product-image black flash, stabilize image frames, and correct the brand logo display for mobile and desktop.
+- [x] Build and test responsive department transitions and the mobile storefront. Verified the Baby & Kids catalogue at 390px and 1280px: the magnetic-field mark and wordmark remain visible, the product-card viewport starts from stable white frames rather than black, and the production/SEO build checks pass.
+- [ ] Save the validated performance release, push it to GitHub, and verify the live Cloudflare domain update.

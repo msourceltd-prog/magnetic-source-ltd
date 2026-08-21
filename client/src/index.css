@@ -23,6 +23,7 @@ img { display:block; max-width:100%; }
 .eyebrow.light { color:#b7cbeb; }
 .section-space { padding-top:104px; padding-bottom:104px; }
 .store-app { overflow:hidden; }
+.route-loading { display:grid; min-height:100vh; place-items:center; color:var(--cobalt); background:var(--paper); font:600 10px var(--mono); letter-spacing:.12em; text-transform:uppercase; }
 
 /* Header: three operational strata inspired by a wholesale trade desk. */
 .utility-strip { position:relative; z-index:2; border-bottom:1px solid #c8d3df; background:linear-gradient(90deg,#f8f4ed 0%,#eef3f8 58%,#f8f4ed 100%); box-shadow:0 5px 14px rgba(24,44,70,.07), inset 0 -1px 0 rgba(255,255,255,.8); color:#2b4058; font:600 9px/1 var(--mono); letter-spacing:.075em; text-transform:uppercase; }
