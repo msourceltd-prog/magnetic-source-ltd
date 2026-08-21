@@ -20,6 +20,10 @@
 
 - [x] Add a responsive four-point service-benefits strip directly beneath the department navigation: Free delivery on orders over £200 ex VAT, Everyday low pricing, Fast and friendly service, and No minimum order quantity. The verified reference uses a compact white band with cobalt circular icons and a thin cobalt lower rule. Preserve the existing header, navigation, and catalogue behaviour. Production build and TypeScript validation pass; the strip was visually checked at 1280px, 768px, and 390px.
 
+## Primary Navigation Removal
+
+- [x] Remove only the Browse catalogue, New lines, Departments, and Your basket navigation row beneath the logo, preserving the logo, category tape, service-benefits strip, and all other website behavior. Production build and TypeScript validation pass; the revised header was visually checked at 1280px, 768px, and 390px.
+
 - [x] Review the supplied reference’s public category structure and identify compatible original product-type additions.
 - [x] Expand the original static approval-demo catalogue without reusing reference names, descriptions, SKUs, pricing, or images.
 - [x] Reuse existing remote sample imagery rather than uploading additional Supabase Storage assets.

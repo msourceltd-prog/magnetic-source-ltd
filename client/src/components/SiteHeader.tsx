@@ -16,7 +16,7 @@ const utilityLinks = [
   ["Trade account", "/trade-account"],
 ] as const;
 
-const mainLinks = [
+const mobileMenuLinks = [
   ["Browse catalogue", "/shop"],
   ["New lines", "/shop?sort=new"],
   ["Departments", "/shop"],
@@ -100,9 +100,6 @@ export default function SiteHeader() {
           {mobileOpen ? <X size={25} /> : <Menu size={25} />}<span>Menu</span>
         </button>
       </div>
-      <nav className="primary-nav trade-shell" aria-label="Primary navigation">
-        {mainLinks.map(([label, href]) => <a key={label} href={href} onClick={(event) => followInternal(event, href)}>{label}</a>)}
-      </nav>
       <nav className="category-tape" aria-label="Product categories">
         <div className="trade-shell category-tape-inner">
           {categories.map((category) => { const href = `/shop?category=${category.slug}`; return <a key={category.slug} href={href} className="category-tape-link" onClick={(event) => followInternal(event, href)}><span>{category.name}</span><ChevronDown size={13} /></a>; })}
@@ -122,7 +119,7 @@ export default function SiteHeader() {
         <button type="submit" aria-label="Search catalogue"><Search size={19} /></button>
       </form>
       <div className="mobile-nav-links">
-        {mainLinks.map(([label, href]) => <a key={label} href={href} onClick={(event) => followInternal(event, href)}>{label}</a>)}
+        {mobileMenuLinks.map(([label, href]) => <a key={label} href={href} onClick={(event) => followInternal(event, href)}>{label}</a>)}
       </div>
       <p className="mobile-nav-label">Browse by department</p>
       <div className="mobile-category-links">
