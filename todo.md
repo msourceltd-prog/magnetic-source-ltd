@@ -4,6 +4,10 @@
 
 - [x] Remove only the unwanted thin horizontal divider beneath the ABOUT utility-navigation link on desktop and mobile, preserving the ABOUT link, header structure, and all other header styling. Production build and TypeScript validation pass; the utility header was visually checked at 1280px and 390px.
 
+## Catalogue Label Cleanup
+
+- [x] Remove only the visual product-count label and the Trade Quotes on Request label from the shared catalogue layout across desktop, tablet, and mobile views, while retaining search, filters, the Catalogue Order dropdown, all product data, and loading behaviour. Production build and TypeScript validation pass; shared category views were visually checked at 1280px, 768px, and 390px.
+
 - [x] Review the supplied reference’s public category structure and identify compatible original product-type additions.
 - [x] Expand the original static approval-demo catalogue without reusing reference names, descriptions, SKUs, pricing, or images.
 - [x] Reuse existing remote sample imagery rather than uploading additional Supabase Storage assets.
