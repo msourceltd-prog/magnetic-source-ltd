@@ -23,6 +23,23 @@ const mainLinks = [
   ["Your basket", "/cart"],
 ] as const;
 
+function MagneticFieldMark() {
+  return <svg className="brand-mark" viewBox="0 0 64 64" role="img" aria-labelledby="brand-mark-title" focusable="false">
+    <title id="brand-mark-title">Magnetic Source field mark</title>
+    <rect x="2" y="2" width="60" height="60" rx="8" fill="#f8f5ee" stroke="#124c9c" strokeWidth="2" />
+    <path d="M12 18 26 29 21 34 8 23Z" fill="#124c9c" />
+    <path d="m52 18 4 5-13 11-5-5Z" fill="#124c9c" />
+    <path d="m12 46-4-5 13-11 5 5Z" fill="#124c9c" />
+    <path d="m52 46-14-11 5-5 13 11Z" fill="#124c9c" />
+    <path d="M18 11c5 2 9 5 12 10" fill="none" stroke="#1a1e22" strokeLinecap="round" strokeWidth="2.4" />
+    <path d="M46 11c-5 2-9 5-12 10" fill="none" stroke="#1a1e22" strokeLinecap="round" strokeWidth="2.4" />
+    <path d="M18 53c5-2 9-5 12-10" fill="none" stroke="#1a1e22" strokeLinecap="round" strokeWidth="2.4" />
+    <path d="M46 53c-5-2-9-5-12-10" fill="none" stroke="#1a1e22" strokeLinecap="round" strokeWidth="2.4" />
+    <circle cx="32" cy="32" r="5" fill="#1a1e22" />
+    <circle cx="32" cy="32" r="1.6" fill="#c97725" />
+  </svg>;
+}
+
 export default function SiteHeader() {
   const { categories, products } = useCatalog();
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -56,7 +73,7 @@ export default function SiteHeader() {
     <header className="site-header">
       <div className="trade-shell header-grid">
         <a href="/" className="brand-lockup" aria-label="Magnetic Source home" onClick={(event) => followInternal(event, "/")}>
-          <img src="/manus-storage/magnetic-source-field-monogram_408a230c.png" alt="Magnetic Source Ltd magnetic field logo" className="brand-mark" width={64} height={64} loading="eager" fetchPriority="high" decoding="async" />
+          <MagneticFieldMark />
           <span className="brand-type"><b>MAGNETIC</b><span>SOURCE LTD</span></span>
         </a>
 

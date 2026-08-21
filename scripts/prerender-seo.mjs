@@ -50,7 +50,7 @@ const organization = {
   "@type": "Organization",
   name: "Magnetic Source Ltd",
   url: siteUrl,
-  logo: `${siteUrl}/manus-storage/magnetic-source-field-monogram_408a230c.png`,
+  logo: `${siteUrl}/favicon.svg`,
   telephone: "+44 7856 262726",
   vatID: "GB469 1754 52",
   taxID: "15466397",

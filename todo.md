@@ -313,4 +313,10 @@
 - [x] Audit product-card image rendering during department changes, responsive logo sizing, and mobile/desktop performance bottlenecks; the previous black flash came from frames rendering before remote images decoded, and normal header links were forcing avoidable full page loads.
 - [x] Remove the product-image black flash, stabilize image frames, and correct the brand logo display for mobile and desktop.
 - [x] Build and test responsive department transitions and the mobile storefront. Verified the Baby & Kids catalogue at 390px and 1280px: the magnetic-field mark and wordmark remain visible, the product-card viewport starts from stable white frames rather than black, and the production/SEO build checks pass.
-- [ ] Save the validated performance release, push it to GitHub, and verify the live Cloudflare domain update.
+- [x] Save the validated performance release, push it to GitHub, and verify the live Cloudflare domain update. `magneticsource.uk` serves the deployed ProductCard module containing the stable `image-ready` behavior.
+
+## Live Logo Asset Repair
+
+- [x] Verify why the deployed magnetic-field logo path fails in the owner’s browser and preserve the existing responsive layout: Cloudflare returned the SPA HTML document for the old relative manuscript-storage image path instead of an image.
+- [x] Replace the logo with a deployment-safe self-contained SVG header mark and root `favicon.svg`, then rebuild the responsive header and speed improvements. Verified at 390px and 1280px that the field mark and wordmark are fully visible and correctly proportioned.
+- [ ] Confirm the repaired logo, department navigation speed, and product-image stability on the live Cloudflare custom domain.
