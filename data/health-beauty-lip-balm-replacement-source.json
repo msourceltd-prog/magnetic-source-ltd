@@ -1,0 +1,30 @@
+{
+  "source": "Harrison's Direct authorized supplier product pages",
+  "validatedAt": "2026-08-21",
+  "candidates": [
+    {
+      "name": "Face Facts Ceramide Repairing Lip Balm 10ml",
+      "sku": "72107P",
+      "pack": "Pack of 12",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/03/Face-Facts-Ceramide-Repairing-Lip-Balm-10ml-72107P.jpg",
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/face-facts-ceramide-repairing-lip-balm-10ml/",
+      "imageAssessment": "Complete product image is supplied directly by Harrison's Direct; the retail pack is suitable for contained no-crop presentation on a clean white background."
+    },
+    {
+      "name": "Chapstick Original",
+      "sku": "324I",
+      "pack": "Pack of 12",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-324i-1.png",
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/lipbalm-chapstick-original-blister/",
+      "imageAssessment": "Supplier product page provides the direct complete retail-pack image."
+    },
+    {
+      "name": "Bert & Bert Moisturising Mint Lip Balm",
+      "sku": "72118X",
+      "pack": "Pack of 12",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/03/Bert-Bert-Moisturising-Mint-Lip-Balm-72118X.jpg",
+      "sourceUrl": "https://www.harrisonsdirect.co.uk/product/bert-bert-moisturising-mint-lip-balm/",
+      "imageAssessment": "Supplier product page provides a direct complete-package image on a clean white background."
+    }
+  ]
+}
