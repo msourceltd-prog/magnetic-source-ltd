@@ -29,16 +29,16 @@
 .product-image-wrap {
   display: grid;
   place-items: center;
-  padding: 28px;
+  padding: 20px;
   background: #fff;
   isolation: isolate;
 }
 
 .product-image-wrap img {
-  width: 90% !important;
-  height: 90% !important;
-  max-width: 90% !important;
-  max-height: 90% !important;
+  width: 96% !important;
+  height: 96% !important;
+  max-width: 96% !important;
+  max-height: 96% !important;
   object-fit: contain !important;
   object-position: center !important;
   background: #fff;
@@ -238,7 +238,7 @@
   }
 
   .product-image-wrap {
-    padding: 18px;
+    padding: 14px;
   }
 
   .site-header .brand-lockup {
@@ -263,10 +263,10 @@
   }
 
   .product-image-wrap img {
-    width: 92% !important;
-    height: 92% !important;
-    max-width: 92% !important;
-    max-height: 92% !important;
+    width: 96% !important;
+    height: 96% !important;
+    max-width: 96% !important;
+    max-height: 96% !important;
   }
 
   .product-detail-image {

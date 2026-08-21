@@ -332,4 +332,10 @@
 
 - [x] Audit all public storefront, metadata, structured-data, and static SEO references to the previous contact email. Three public references were identified: the footer, contact page, and homepage Organization schema.
 - [x] Replace the previous public contact email with `info@magneticsource.uk` without altering Admin authentication or Supabase account access.
-- [ ] Build, verify, deploy, and confirm the live contact-email update.
+- [x] Build, verify, deploy, and confirm the live contact-email update. The live Cloudflare homepage now loads a layout module containing `info@magneticsource.uk`.
+
+## All-Department Product Image Presentation
+
+- [x] Audit representative product image scale and framing across Household & Pet, Sweets & Snacks, Toys & Gifts, Stationery & Party, Health & Beauty, Seasonal & Christmas, Clearance, and Baby & Kids. Compact packaging was most noticeably underscaled in Sweets & Snacks, Seasonal & Christmas, and Baby & Kids; all departments required full-packaging protection.
+- [x] Increase genuinely small product packs within their white frames while protecting tall packaging and product edges from cropping. Product-card image frames now use a larger 96% contained fit with reduced white padding, so every product scales up proportionally without clipping its source canvas or packaging.
+- [ ] Build, visually verify mobile and desktop category pages, deploy the image-presentation update, and confirm the live result.
