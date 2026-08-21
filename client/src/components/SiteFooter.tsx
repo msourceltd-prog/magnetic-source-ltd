@@ -29,13 +29,7 @@ export default function SiteFooter() {
         <p><Phone size={15} /> <a href="tel:+447856262726">+44 7856 262726</a></p>
         <p className="footer-address"><MapPin size={15} /> Flat 1, Saviours House, 15 Newport Road, Hayes, England, UB4 8FR</p>
         <p className="footer-legal">Company No. 15466397 · VAT No. GB469 1754 52</p>
-        <span className="footer-demo-note">For catalogue and trade-account enquiries.</span>
       </section>
-    </div>
-    <div className="trade-shell footer-bottom">
-      <span>© {new Date().getFullYear()} Magnetic Source Ltd</span>
-      <span>Registered in England and Wales.</span>
-      <span>GBP (£) · UK trade supply</span>
     </div>
   </footer>;
 }
