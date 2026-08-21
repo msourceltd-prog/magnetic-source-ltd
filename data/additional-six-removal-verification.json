@@ -1,0 +1,34 @@
+{
+  "verifiedAt": "2026-08-21T16:45:10.511Z",
+  "productCount": 315,
+  "deletedTargets": [
+    {
+      "sku": "72214P",
+      "name": "Amos Audio Lollipop Cola"
+    },
+    {
+      "sku": "22781V",
+      "name": "Christmas Gift Bag Medium – Whimsical Woodland"
+    },
+    {
+      "sku": "72037A",
+      "name": "EVA Clogs Child Size 4"
+    },
+    {
+      "sku": "HPE-72363P",
+      "name": "Rosewood Cooling Collar – Small"
+    },
+    {
+      "sku": "72537U",
+      "name": "Toxic Waste Apple Popcorn 120g"
+    },
+    {
+      "sku": "9592V",
+      "name": "Haribo Bone Shakers 140g £1.25 PMP"
+    }
+  ],
+  "liveMatches": 0,
+  "missingRegistry": 0,
+  "sitemapMatches": 0,
+  "sitemapCount": 331
+}

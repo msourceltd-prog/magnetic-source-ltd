@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T16:33:15.178Z",
+  "updatedAt": "2026-08-21T16:43:43.508Z",
   "entries": [
     {
       "id": 1109,
@@ -729,6 +729,54 @@
       "deletedAt": "2026-08-21T16:33:15.178Z",
       "reason": "Owner-specified Part 2 removal; record already absent at preflight",
       "status": "already_absent_at_preflight"
+    },
+    {
+      "id": 1125,
+      "sku": "72214P",
+      "name": "Amos Audio Lollipop Cola",
+      "slug": "amos-audio-lollipop-cola-72214p",
+      "deletedAt": "2026-08-21T16:43:43.508Z",
+      "reason": "Owner-specified additional six permanent removal"
+    },
+    {
+      "id": 1310,
+      "sku": "22781V",
+      "name": "Christmas Gift Bag Medium – Whimsical Woodland",
+      "slug": "christmas-gift-bag-medium-whimsical-woodland-22781v",
+      "deletedAt": "2026-08-21T16:43:43.508Z",
+      "reason": "Owner-specified additional six permanent removal"
+    },
+    {
+      "id": 1549,
+      "sku": "72037A",
+      "name": "EVA Clogs Child Size 4",
+      "slug": "eva-clogs-child-size-4-72037a",
+      "deletedAt": "2026-08-21T16:43:43.508Z",
+      "reason": "Owner-specified additional six permanent removal"
+    },
+    {
+      "id": 1696,
+      "sku": "HPE-72363P",
+      "name": "Rosewood Cooling Collar – Small",
+      "slug": "household-pet-rosewood-cooling-collar-small-72363p",
+      "deletedAt": "2026-08-21T16:43:43.508Z",
+      "reason": "Owner-specified additional six permanent removal"
+    },
+    {
+      "id": 1705,
+      "sku": "72537U",
+      "name": "Toxic Waste Apple Popcorn 120g",
+      "slug": "toxic-waste-apple-popcorn-120g-72537u",
+      "deletedAt": "2026-08-21T16:43:43.508Z",
+      "reason": "Owner-specified additional six permanent removal"
+    },
+    {
+      "id": 1717,
+      "sku": "9592V",
+      "name": "Haribo Bone Shakers 140g £1.25 PMP",
+      "slug": "haribo-bone-shakers-140g-1-25-pmp-9592v",
+      "deletedAt": "2026-08-21T16:43:43.508Z",
+      "reason": "Owner-specified additional six permanent removal"
     }
   ]
 }

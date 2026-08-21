@@ -1,8 +1,8 @@
 {
-  "testedAt": "2026-08-21T16:35:02.484Z",
-  "baselineProductCount": 321,
-  "countAfterTestInsert": 322,
-  "finalProductCount": 321,
+  "testedAt": "2026-08-21T16:45:05.303Z",
+  "baselineProductCount": 315,
+  "countAfterTestInsert": 316,
+  "finalProductCount": 315,
   "productCreatedThenDeleted": true,
   "categoryCreatedThenDeleted": true,
   "absentAfterFreshRead": true,

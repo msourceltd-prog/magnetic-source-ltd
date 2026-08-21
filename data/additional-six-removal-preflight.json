@@ -1,0 +1,112 @@
+{
+  "generatedAt": "2026-08-21T16:42:05.905Z",
+  "baselineProductCount": 321,
+  "targets": [
+    {
+      "name": "Amos Audio Lollipop Cola",
+      "sku": "72214P"
+    },
+    {
+      "name": "Christmas Gift Bag Medium – Whimsical Woodland",
+      "sku": null
+    },
+    {
+      "name": "EVA Clogs Child Size 4",
+      "sku": "72037A"
+    },
+    {
+      "name": "Rosewood Cooling Collar – Small",
+      "sku": "HPE-72363P"
+    },
+    {
+      "name": "Toxic Waste Apple Popcorn 120g",
+      "sku": "72537U"
+    },
+    {
+      "name": "Haribo Bone Shakers 140g £1.25 PMP",
+      "sku": "9592V"
+    }
+  ],
+  "resolved": [
+    {
+      "name": "Amos Audio Lollipop Cola",
+      "sku": "72214P",
+      "product": {
+        "id": 1125,
+        "name": "Amos Audio Lollipop Cola",
+        "sku": "72214P",
+        "slug": "amos-audio-lollipop-cola-72214p",
+        "category": "sweets-snacks",
+        "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Amos-Audio-Lollipop-Cola-72214P.png"
+      },
+      "reason": "exact_name_and_sku"
+    },
+    {
+      "name": "Christmas Gift Bag Medium – Whimsical Woodland",
+      "sku": null,
+      "product": {
+        "id": 1310,
+        "name": "Christmas Gift Bag Medium – Whimsical Woodland",
+        "sku": "22781V",
+        "slug": "christmas-gift-bag-medium-whimsical-woodland-22781v",
+        "category": "seasonal-christmas",
+        "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Gift-Bag-Medium-Whimsical-Woodland-22781V.jpg"
+      },
+      "reason": "unique_exact_name"
+    },
+    {
+      "name": "EVA Clogs Child Size 4",
+      "sku": "72037A",
+      "product": {
+        "id": 1549,
+        "name": "EVA Clogs Child Size 4",
+        "sku": "72037A",
+        "slug": "eva-clogs-child-size-4-72037a",
+        "category": "household-pet",
+        "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/EVA-Clogs-Child-Size-4-72037A_2.jpg"
+      },
+      "reason": "exact_name_and_sku"
+    },
+    {
+      "name": "Rosewood Cooling Collar – Small",
+      "sku": "HPE-72363P",
+      "product": {
+        "id": 1696,
+        "name": "Rosewood Cooling Collar – Small",
+        "sku": "HPE-72363P",
+        "slug": "household-pet-rosewood-cooling-collar-small-72363p",
+        "category": "household-pet",
+        "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Rosewood-Cooling-Collar-–-Small-72363P.png"
+      },
+      "reason": "exact_name_and_sku"
+    },
+    {
+      "name": "Toxic Waste Apple Popcorn 120g",
+      "sku": "72537U",
+      "product": {
+        "id": 1705,
+        "name": "Toxic Waste Apple Popcorn 120g",
+        "sku": "72537U",
+        "slug": "toxic-waste-apple-popcorn-120g-72537u",
+        "category": "sweets-snacks",
+        "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Toxic-Waste-Apple-Popcorn-120g-72537U.png"
+      },
+      "reason": "exact_name_and_sku"
+    },
+    {
+      "name": "Haribo Bone Shakers 140g £1.25 PMP",
+      "sku": "9592V",
+      "product": {
+        "id": 1717,
+        "name": "Haribo Bone Shakers 140g £1.25 PMP",
+        "sku": "9592V",
+        "slug": "haribo-bone-shakers-140g-1-25-pmp-9592v",
+        "category": "sweets-snacks",
+        "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Haribo-Bone-Shakers-140g-1.25-PMP-9592V.png"
+      },
+      "reason": "exact_name_and_sku"
+    }
+  ],
+  "missing": [],
+  "ambiguous": []
+}
