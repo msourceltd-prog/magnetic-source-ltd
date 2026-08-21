@@ -26,7 +26,7 @@ const request = async (path, options = {}, token) => {
 };
 
 const baseline = await request("/rest/v1/products?select=id", {});
-if (baseline.length !== 411) throw new Error(`Expected 411 products before delete test, found ${baseline.length}.`);
+if (baseline.length < 1) throw new Error("The live catalogue has no products; delete persistence test cannot run.");
 const login = await request("/auth/v1/token?grant_type=password", { method: "POST", body: JSON.stringify({ email: adminEmail, password: adminPassword }) });
 if (!login?.access_token) throw new Error("Admin authentication failed; delete test did not run.");
 const token = login.access_token;
@@ -39,7 +39,7 @@ if (!Array.isArray(createdProduct) || createdProduct.length !== 1) throw new Err
 const createdCategory = await request("/rest/v1/categories", { method: "POST", headers: { Prefer: "return=representation" }, body: JSON.stringify({ name: categoryName, slug: categorySlug, summary: "Temporary delete persistence test category." }) }, token);
 if (!Array.isArray(createdCategory) || createdCategory.length !== 1) throw new Error("Test category was not created exactly once.");
 const afterCreate = await request("/rest/v1/products?select=id", {});
-if (afterCreate.length !== 412) throw new Error(`Expected 412 products after test insert, found ${afterCreate.length}.`);
+if (afterCreate.length !== baseline.length + 1) throw new Error(`Expected ${baseline.length + 1} products after test insert, found ${afterCreate.length}.`);
 const deletedProduct = await request(`/rest/v1/products?id=eq.${createdProduct[0].id}`, { method: "DELETE", headers: { Prefer: "return=representation" } }, token);
 if (!Array.isArray(deletedProduct) || deletedProduct.length !== 1 || deletedProduct[0].id !== createdProduct[0].id) throw new Error("Product delete returned no deleted row; the permanent delete contract failed.");
 const deletedCategory = await request(`/rest/v1/categories?id=eq.${createdCategory[0].id}`, { method: "DELETE", headers: { Prefer: "return=representation" } }, token);
@@ -51,7 +51,7 @@ await execFileAsync("pnpm", ["build"], { cwd: projectRoot, timeout: 180000 });
 const afterBuildProducts = await request(`/rest/v1/products?select=id,sku&or=(sku.eq.${productSku},slug.eq.${productSlug})`, {});
 const afterBuildCategories = await request(`/rest/v1/categories?select=id,slug&slug=eq.${categorySlug}`, {});
 const finalProducts = await request("/rest/v1/products?select=id", {});
-if (afterBuildProducts.length || afterBuildCategories.length || finalProducts.length !== 411) throw new Error(`A deleted test record returned after build or total did not restore: products=${afterBuildProducts.length}; categories=${afterBuildCategories.length}; total=${finalProducts.length}.`);
+if (afterBuildProducts.length || afterBuildCategories.length || finalProducts.length !== baseline.length) throw new Error(`A deleted test record returned after build or total did not restore: products=${afterBuildProducts.length}; categories=${afterBuildCategories.length}; total=${finalProducts.length}.`);
 const report = { testedAt: new Date().toISOString(), baselineProductCount: baseline.length, countAfterTestInsert: afterCreate.length, finalProductCount: finalProducts.length, productCreatedThenDeleted: true, categoryCreatedThenDeleted: true, absentAfterFreshRead: true, absentAfterBuild: true, staticReseedDetected: false, testedSku: productSku, testedCategorySlug: categorySlug };
 await writeFile(reportPath, `${JSON.stringify(report, null, 2)}\n`);
 console.log(JSON.stringify({ ...report, reportPath }, null, 2));

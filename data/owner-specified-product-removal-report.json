@@ -1,0 +1,151 @@
+{
+  "completedAt": "2026-08-21T15:54:44.369Z",
+  "requestedLines": 20,
+  "uniqueDeletedProducts": 19,
+  "duplicateInstructionLines": [
+    {
+      "line": 20,
+      "duplicateOf": 16,
+      "sku": "STP-39644E"
+    }
+  ],
+  "beforeTotal": 411,
+  "afterTotal": 392,
+  "backupPath": "/home/ubuntu/magnetic-source-catalogue-backups/before-owner-specified-product-removal-2026-08-21.json",
+  "removedOwnedFiles": [],
+  "deleted": [
+    {
+      "id": 1109,
+      "sku": "72810B",
+      "name": "Johny Bee 3D Gummy Surprise 57g",
+      "category": "sweets-snacks",
+      "slug": "johny-bee-3d-gummy-surprise-57g-72810b"
+    },
+    {
+      "id": 1328,
+      "sku": "72592J",
+      "name": "NUK First Choice Day & Night Soother 2 Pack 0-6m Boys",
+      "category": "baby-kids",
+      "slug": "nuk-first-choice-day-night-soother-2-pack-0-6m-boys-72592j"
+    },
+    {
+      "id": 1398,
+      "sku": "STP-39395U",
+      "name": "Gift Bag Medium – Colourful Hearts W180xH230xD100mm",
+      "category": "stationery-party",
+      "slug": "stationery-party-gift-bag-medium-colourful-hearts-w180xh230xd100mm-39395u"
+    },
+    {
+      "id": 1399,
+      "sku": "STP-38999Y",
+      "name": "Gift Bag Large – Cross My Heart W266xH330xD140mm",
+      "category": "stationery-party",
+      "slug": "stationery-party-gift-bag-large-cross-my-heart-w266xh330xd140mm-38999y"
+    },
+    {
+      "id": 1407,
+      "sku": "STP-39582O",
+      "name": "Are We There Yet? – Bumper Activity Set",
+      "category": "stationery-party",
+      "slug": "stationery-party-are-we-there-yet-bumper-activity-set-39582o"
+    },
+    {
+      "id": 1423,
+      "sku": "65243L",
+      "name": "Sharpie Fluo XL Highlighters Assorted 4 Pack",
+      "category": "clearance",
+      "slug": "sharpie-fluo-xl-highlighters-assorted-4-pack-65243l"
+    },
+    {
+      "id": 1452,
+      "sku": "72594P",
+      "name": "NUK First Choice Day & Night Soother 2 Pack 6-18m Boys",
+      "category": "baby-kids",
+      "slug": "nuk-first-choice-day-night-soother-2-pack-6-18m-boys-72594p"
+    },
+    {
+      "id": 1455,
+      "sku": "64356X",
+      "name": "Johnson’s Baby Powder Natural 200g",
+      "category": "baby-kids",
+      "slug": "johnson-s-baby-powder-natural-200g-64356x"
+    },
+    {
+      "id": 1477,
+      "sku": "39648Q",
+      "name": "Summit Metal Tent Pegs 18cm Pack of 20",
+      "category": "household-pet",
+      "slug": "summit-metal-tent-pegs-18cm-pack-of-20-39648q"
+    },
+    {
+      "id": 1480,
+      "sku": "39637I",
+      "name": "Blackmoor 20cm Frying Pan",
+      "category": "household-pet",
+      "slug": "blackmoor-20cm-frying-pan-39637i"
+    },
+    {
+      "id": 1482,
+      "sku": "22790X",
+      "name": "Christmas 4m Roll Wrap Novelty Cute",
+      "category": "seasonal-christmas",
+      "slug": "christmas-4m-roll-wrap-novelty-cute-22790x"
+    },
+    {
+      "id": 1483,
+      "sku": "22789T",
+      "name": "Christmas 4m Roll Wrap Red & White",
+      "category": "seasonal-christmas",
+      "slug": "christmas-4m-roll-wrap-red-white-22789t"
+    },
+    {
+      "id": 1486,
+      "sku": "22773W",
+      "name": "Christmas Gift Bag Medium – Most Wonderful",
+      "category": "seasonal-christmas",
+      "slug": "christmas-gift-bag-medium-most-wonderful-22773w"
+    },
+    {
+      "id": 1487,
+      "sku": "22772T",
+      "name": "Christmas Gift Bag Small – Most Wonderful",
+      "category": "seasonal-christmas",
+      "slug": "christmas-gift-bag-small-most-wonderful-22772t"
+    },
+    {
+      "id": 1490,
+      "sku": "STP-39646K",
+      "name": "Pentel Recycology Rollerball 4 Pack",
+      "category": "stationery-party",
+      "slug": "stationery-party-pentel-recycology-rollerball-4-pack-39646k"
+    },
+    {
+      "id": 1491,
+      "sku": "STP-39644E",
+      "name": "Pentel Gel Grip 2 Pack Gold/Silver",
+      "category": "stationery-party",
+      "slug": "stationery-party-pentel-gel-grip-2-pack-gold-silver-39644e"
+    },
+    {
+      "id": 1492,
+      "sku": "STP-39643B",
+      "name": "Pentel Energel X Retractable Gel Pen 2 Pack Blue",
+      "category": "stationery-party",
+      "slug": "stationery-party-pentel-energel-x-retractable-gel-pen-2-pack-blue-39643b"
+    },
+    {
+      "id": 1493,
+      "sku": "STP-39642Y",
+      "name": "Pentel Energel X Retractable Gel Pen 2 Pack Black",
+      "category": "stationery-party",
+      "slug": "stationery-party-pentel-energel-x-retractable-gel-pen-2-pack-black-39642y"
+    },
+    {
+      "id": 1494,
+      "sku": "STP-39485T",
+      "name": "6 Novelty Eraser Top Pencils",
+      "category": "stationery-party",
+      "slug": "stationery-party-6-novelty-eraser-top-pencils-39485t"
+    }
+  ]
+}

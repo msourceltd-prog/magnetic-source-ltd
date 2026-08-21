@@ -12,6 +12,7 @@ const reportPath = `${projectRoot}/data/image-audit-product-restoration-report.j
 const firstAuditPath = `${projectRoot}/data/verified-image-quality-removal-candidates.json`;
 const strictAuditPath = `${projectRoot}/data/verified-strict-canvas-edge-removals.json`;
 const sourceBackupPath = `${backupsRoot}/before-89-image-quality-removals-2026-08-21.json`;
+const permanentDeletionRegistryPath = `${projectRoot}/data/permanent-deletion-registry.json`;
 
 const explicitlyRemoved = new Set([
   "tidyz degradable nappy bags pocket pack 4 x 25’s",
@@ -44,13 +45,14 @@ const request = async (path, options = {}, token) => {
   return text ? JSON.parse(text) : null;
 };
 
-const [firstAudit, strictAudit, sourceBackup] = await Promise.all([firstAuditPath, strictAuditPath, sourceBackupPath].map(async (path) => JSON.parse(await readFile(path, "utf8"))));
+const [firstAudit, strictAudit, sourceBackup, permanentDeletionRegistry] = await Promise.all([firstAuditPath, strictAuditPath, sourceBackupPath, permanentDeletionRegistryPath].map(async (path) => JSON.parse(await readFile(path, "utf8"))));
 const candidateSkus = [...new Set([...firstAudit.products, ...strictAudit.products].map((product) => product.sku))];
 if (candidateSkus.length !== 156) throw new Error(`Expected 156 unique image-audit restoration candidates, found ${candidateSkus.length}.`);
 const sourceBySku = new Map(sourceBackup.products.map((product) => [product.sku, product]));
 const restoreProducts = candidateSkus.map((sku) => sourceBySku.get(sku)).filter(Boolean);
 if (restoreProducts.length !== 156) throw new Error(`The pre-audit backup is missing ${candidateSkus.length - restoreProducts.length} restoration records.`);
-const protectedMatches = restoreProducts.filter((product) => explicitlyRemoved.has(product.name.toLowerCase()));
+const permanentlyDeletedSkus = new Set((permanentDeletionRegistry.entries || []).map((entry) => entry.sku));
+const protectedMatches = restoreProducts.filter((product) => explicitlyRemoved.has(product.name.toLowerCase()) || permanentlyDeletedSkus.has(product.sku));
 if (protectedMatches.length) throw new Error(`A protected owner-requested deletion was found in the restoration set: ${protectedMatches.map((product) => product.name).join(", ")}`);
 const payload = restoreProducts.map((product) => ({ slug: product.slug, name: product.name, category: product.category, price: product.price, sku: product.sku, availability: product.availability, pack: product.pack, description: /\bis supplied in a pack of\b/i.test(product.description || "") ? "" : (product.description || ""), image: product.image, tags: product.tags, featured: product.featured }));
 

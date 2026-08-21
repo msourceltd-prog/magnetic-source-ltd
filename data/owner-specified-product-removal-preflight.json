@@ -1,0 +1,517 @@
+{
+  "verifiedAt": "2026-08-21T15:52:03.388Z",
+  "liveProductTotal": 411,
+  "requestedLines": 20,
+  "uniqueRequestedProducts": 19,
+  "resolved": [
+    {
+      "line": 1,
+      "sku": "72810B",
+      "name": "Johny Bee 3D Gummy Surprise 57g",
+      "category": "sweets-snacks",
+      "candidates": [
+        {
+          "id": 1109,
+          "sku": "72810B",
+          "name": "Johny Bee 3D Gummy Surprise 57g",
+          "category": "sweets-snacks",
+          "slug": "johny-bee-3d-gummy-surprise-57g-72810b",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/72810B-Johny-Bee-3D-Gummy-Surprise-57g.jpeg"
+        }
+      ],
+      "exact": {
+        "id": 1109,
+        "sku": "72810B",
+        "name": "Johny Bee 3D Gummy Surprise 57g",
+        "category": "sweets-snacks",
+        "slug": "johny-bee-3d-gummy-surprise-57g-72810b",
+        "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/72810B-Johny-Bee-3D-Gummy-Surprise-57g.jpeg"
+      },
+      "resolution": "sku"
+    },
+    {
+      "line": 2,
+      "sku": "72592J",
+      "name": "NUK First Choice Day & Night Soother 2 Pack 0-6m Boys",
+      "category": "baby-kids",
+      "candidates": [
+        {
+          "id": 1328,
+          "sku": "72592J",
+          "name": "NUK First Choice Day & Night Soother 2 Pack 0-6m Boys",
+          "category": "baby-kids",
+          "slug": "nuk-first-choice-day-night-soother-2-pack-0-6m-boys-72592j",
+          "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/First-Choice-Day-Night-Soother-2-Pack-0-6m-Boys-72592J-300x300.jpg"
+        }
+      ],
+      "exact": {
+        "id": 1328,
+        "sku": "72592J",
+        "name": "NUK First Choice Day & Night Soother 2 Pack 0-6m Boys",
+        "category": "baby-kids",
+        "slug": "nuk-first-choice-day-night-soother-2-pack-0-6m-boys-72592j",
+        "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/First-Choice-Day-Night-Soother-2-Pack-0-6m-Boys-72592J-300x300.jpg"
+      },
+      "resolution": "sku"
+    },
+    {
+      "line": 3,
+      "sku": "STP-39395U",
+      "name": "Gift Bag Medium Colourful Hearts W180xH230xD100mm",
+      "category": "stationery-party",
+      "candidates": [
+        {
+          "id": 1398,
+          "sku": "STP-39395U",
+          "name": "Gift Bag Medium – Colourful Hearts W180xH230xD100mm",
+          "category": "stationery-party",
+          "slug": "stationery-party-gift-bag-medium-colourful-hearts-w180xh230xd100mm-39395u",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/03/Gift-Bag-Medium-Colourful-Hearts-39395U.jpg"
+        }
+      ],
+      "exact": {
+        "id": 1398,
+        "sku": "STP-39395U",
+        "name": "Gift Bag Medium – Colourful Hearts W180xH230xD100mm",
+        "category": "stationery-party",
+        "slug": "stationery-party-gift-bag-medium-colourful-hearts-w180xh230xd100mm-39395u",
+        "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/03/Gift-Bag-Medium-Colourful-Hearts-39395U.jpg"
+      },
+      "resolution": "sku"
+    },
+    {
+      "line": 4,
+      "sku": "STP-3899",
+      "name": "Gift Bag Large Cross My Heart W266xH330xD140mm",
+      "category": "stationery-party",
+      "candidates": [
+        {
+          "id": 1399,
+          "sku": "STP-38999Y",
+          "name": "Gift Bag Large – Cross My Heart W266xH330xD140mm",
+          "category": "stationery-party",
+          "slug": "stationery-party-gift-bag-large-cross-my-heart-w266xh330xd140mm-38999y",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2024/02/38999Y.jpg"
+        }
+      ],
+      "exact": {
+        "id": 1399,
+        "sku": "STP-38999Y",
+        "name": "Gift Bag Large – Cross My Heart W266xH330xD140mm",
+        "category": "stationery-party",
+        "slug": "stationery-party-gift-bag-large-cross-my-heart-w266xh330xd140mm-38999y",
+        "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2024/02/38999Y.jpg"
+      },
+      "resolution": "name"
+    },
+    {
+      "line": 5,
+      "sku": "STP-39582O",
+      "name": "Are We There Yet Bumper Activity Set",
+      "category": "stationery-party",
+      "candidates": [
+        {
+          "id": 1407,
+          "sku": "STP-39582O",
+          "name": "Are We There Yet? – Bumper Activity Set",
+          "category": "stationery-party",
+          "slug": "stationery-party-are-we-there-yet-bumper-activity-set-39582o",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/03/Are-We-There-Yet-Bumper-Activity-Set-39582O.png"
+        }
+      ],
+      "exact": {
+        "id": 1407,
+        "sku": "STP-39582O",
+        "name": "Are We There Yet? – Bumper Activity Set",
+        "category": "stationery-party",
+        "slug": "stationery-party-are-we-there-yet-bumper-activity-set-39582o",
+        "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/03/Are-We-There-Yet-Bumper-Activity-Set-39582O.png"
+      },
+      "resolution": "sku"
+    },
+    {
+      "line": 6,
+      "sku": "65243L",
+      "name": "Sharpie Fluo XL Highlighters Assorted 4 Pack",
+      "category": "clearance",
+      "candidates": [
+        {
+          "id": 1423,
+          "sku": "65243L",
+          "name": "Sharpie Fluo XL Highlighters Assorted 4 Pack",
+          "category": "clearance",
+          "slug": "sharpie-fluo-xl-highlighters-assorted-4-pack-65243l",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2024/08/65243L-Sharpie-Fluo-XL-Highlighters-4-Assorted.jpg"
+        }
+      ],
+      "exact": {
+        "id": 1423,
+        "sku": "65243L",
+        "name": "Sharpie Fluo XL Highlighters Assorted 4 Pack",
+        "category": "clearance",
+        "slug": "sharpie-fluo-xl-highlighters-assorted-4-pack-65243l",
+        "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2024/08/65243L-Sharpie-Fluo-XL-Highlighters-4-Assorted.jpg"
+      },
+      "resolution": "sku"
+    },
+    {
+      "line": 7,
+      "sku": "72594P",
+      "name": "NUK First Choice Day & Night Soother 2 Pack 6-18m Boys",
+      "category": "baby-kids",
+      "candidates": [
+        {
+          "id": 1452,
+          "sku": "72594P",
+          "name": "NUK First Choice Day & Night Soother 2 Pack 6-18m Boys",
+          "category": "baby-kids",
+          "slug": "nuk-first-choice-day-night-soother-2-pack-6-18m-boys-72594p",
+          "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/First-Choice-Day-Night-Soother-2-Pack-6-18m-Boys-72594P-300x300.jpg"
+        }
+      ],
+      "exact": {
+        "id": 1452,
+        "sku": "72594P",
+        "name": "NUK First Choice Day & Night Soother 2 Pack 6-18m Boys",
+        "category": "baby-kids",
+        "slug": "nuk-first-choice-day-night-soother-2-pack-6-18m-boys-72594p",
+        "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/First-Choice-Day-Night-Soother-2-Pack-6-18m-Boys-72594P-300x300.jpg"
+      },
+      "resolution": "sku"
+    },
+    {
+      "line": 8,
+      "sku": "64356X",
+      "name": "Johnson’s Baby Powder Natural 200g",
+      "category": "baby-kids",
+      "candidates": [
+        {
+          "id": 1455,
+          "sku": "64356X",
+          "name": "Johnson’s Baby Powder Natural 200g",
+          "category": "baby-kids",
+          "slug": "johnson-s-baby-powder-natural-200g-64356x",
+          "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2023/10/Johnsons-Baby-Powder-Natural-200g-64356X.png"
+        }
+      ],
+      "exact": {
+        "id": 1455,
+        "sku": "64356X",
+        "name": "Johnson’s Baby Powder Natural 200g",
+        "category": "baby-kids",
+        "slug": "johnson-s-baby-powder-natural-200g-64356x",
+        "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2023/10/Johnsons-Baby-Powder-Natural-200g-64356X.png"
+      },
+      "resolution": "sku"
+    },
+    {
+      "line": 9,
+      "sku": "39648Q",
+      "name": "Summit Metal Tent Pegs 18cm Pack of 20",
+      "category": "household-pet",
+      "candidates": [
+        {
+          "id": 1477,
+          "sku": "39648Q",
+          "name": "Summit Metal Tent Pegs 18cm Pack of 20",
+          "category": "household-pet",
+          "slug": "summit-metal-tent-pegs-18cm-pack-of-20-39648q",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Summit-Metal-Tent-Pegs-18cm-Pack-of-20-39648Q.png"
+        }
+      ],
+      "exact": {
+        "id": 1477,
+        "sku": "39648Q",
+        "name": "Summit Metal Tent Pegs 18cm Pack of 20",
+        "category": "household-pet",
+        "slug": "summit-metal-tent-pegs-18cm-pack-of-20-39648q",
+        "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Summit-Metal-Tent-Pegs-18cm-Pack-of-20-39648Q.png"
+      },
+      "resolution": "sku"
+    },
+    {
+      "line": 10,
+      "sku": "39637I",
+      "name": "Blackmoor 20cm Frying Pan",
+      "category": "household-pet",
+      "candidates": [
+        {
+          "id": 1480,
+          "sku": "39637I",
+          "name": "Blackmoor 20cm Frying Pan",
+          "category": "household-pet",
+          "slug": "blackmoor-20cm-frying-pan-39637i",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Blackmoor-20cm-Frying-Pan-39637I.jpg"
+        }
+      ],
+      "exact": {
+        "id": 1480,
+        "sku": "39637I",
+        "name": "Blackmoor 20cm Frying Pan",
+        "category": "household-pet",
+        "slug": "blackmoor-20cm-frying-pan-39637i",
+        "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Blackmoor-20cm-Frying-Pan-39637I.jpg"
+      },
+      "resolution": "sku"
+    },
+    {
+      "line": 11,
+      "sku": "22790X",
+      "name": "Christmas 4m Roll Wrap Novelty Cute",
+      "category": "seasonal-christmas",
+      "candidates": [
+        {
+          "id": 1482,
+          "sku": "22790X",
+          "name": "Christmas 4m Roll Wrap Novelty Cute",
+          "category": "seasonal-christmas",
+          "slug": "christmas-4m-roll-wrap-novelty-cute-22790x",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-4m-Roll-Wrap-Novelty-Cute-22790X.jpg"
+        }
+      ],
+      "exact": {
+        "id": 1482,
+        "sku": "22790X",
+        "name": "Christmas 4m Roll Wrap Novelty Cute",
+        "category": "seasonal-christmas",
+        "slug": "christmas-4m-roll-wrap-novelty-cute-22790x",
+        "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-4m-Roll-Wrap-Novelty-Cute-22790X.jpg"
+      },
+      "resolution": "sku"
+    },
+    {
+      "line": 12,
+      "sku": null,
+      "name": "Christmas Gift Bag Medium Most Wonderful",
+      "category": "seasonal-christmas",
+      "candidates": [
+        {
+          "id": 1486,
+          "sku": "22773W",
+          "name": "Christmas Gift Bag Medium – Most Wonderful",
+          "category": "seasonal-christmas",
+          "slug": "christmas-gift-bag-medium-most-wonderful-22773w",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Gift-Bag-Medium-Most-Wonderful-22773W.jpg"
+        }
+      ],
+      "exact": {
+        "id": 1486,
+        "sku": "22773W",
+        "name": "Christmas Gift Bag Medium – Most Wonderful",
+        "category": "seasonal-christmas",
+        "slug": "christmas-gift-bag-medium-most-wonderful-22773w",
+        "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Gift-Bag-Medium-Most-Wonderful-22773W.jpg"
+      },
+      "resolution": "name"
+    },
+    {
+      "line": 13,
+      "sku": "22772T",
+      "name": "Christmas Gift Bag Small Most Wonderful",
+      "category": "seasonal-christmas",
+      "candidates": [
+        {
+          "id": 1487,
+          "sku": "22772T",
+          "name": "Christmas Gift Bag Small – Most Wonderful",
+          "category": "seasonal-christmas",
+          "slug": "christmas-gift-bag-small-most-wonderful-22772t",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Gift-Bag-Small-Most-Wonderfu-22772T.jpg"
+        }
+      ],
+      "exact": {
+        "id": 1487,
+        "sku": "22772T",
+        "name": "Christmas Gift Bag Small – Most Wonderful",
+        "category": "seasonal-christmas",
+        "slug": "christmas-gift-bag-small-most-wonderful-22772t",
+        "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Gift-Bag-Small-Most-Wonderfu-22772T.jpg"
+      },
+      "resolution": "sku"
+    },
+    {
+      "line": 14,
+      "sku": null,
+      "name": "Christmas 4m Roll Wrap Red & White",
+      "category": "seasonal-christmas",
+      "candidates": [
+        {
+          "id": 1483,
+          "sku": "22789T",
+          "name": "Christmas 4m Roll Wrap Red & White",
+          "category": "seasonal-christmas",
+          "slug": "christmas-4m-roll-wrap-red-white-22789t",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-4m-Roll-Wrap-Red-White-22789T.jpg"
+        }
+      ],
+      "exact": {
+        "id": 1483,
+        "sku": "22789T",
+        "name": "Christmas 4m Roll Wrap Red & White",
+        "category": "seasonal-christmas",
+        "slug": "christmas-4m-roll-wrap-red-white-22789t",
+        "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-4m-Roll-Wrap-Red-White-22789T.jpg"
+      },
+      "resolution": "name"
+    },
+    {
+      "line": 15,
+      "sku": "STP-39646K",
+      "name": "Pentel Recycology Rollerball 4 Pack",
+      "category": "stationery-party",
+      "candidates": [
+        {
+          "id": 1490,
+          "sku": "STP-39646K",
+          "name": "Pentel Recycology Rollerball 4 Pack",
+          "category": "stationery-party",
+          "slug": "stationery-party-pentel-recycology-rollerball-4-pack-39646k",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Pentel-Recycology-Rollerball-4-Pack-39646K.jpg"
+        }
+      ],
+      "exact": {
+        "id": 1490,
+        "sku": "STP-39646K",
+        "name": "Pentel Recycology Rollerball 4 Pack",
+        "category": "stationery-party",
+        "slug": "stationery-party-pentel-recycology-rollerball-4-pack-39646k",
+        "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Pentel-Recycology-Rollerball-4-Pack-39646K.jpg"
+      },
+      "resolution": "sku"
+    },
+    {
+      "line": 16,
+      "sku": "STP-39644E",
+      "name": "Pentel Gel Grip 2 Pack Gold Silver",
+      "category": "stationery-party",
+      "candidates": [
+        {
+          "id": 1491,
+          "sku": "STP-39644E",
+          "name": "Pentel Gel Grip 2 Pack Gold/Silver",
+          "category": "stationery-party",
+          "slug": "stationery-party-pentel-gel-grip-2-pack-gold-silver-39644e",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Pentel-Gel-Grip-2-Pack-Gold-Silver-39644E.jpg"
+        }
+      ],
+      "exact": {
+        "id": 1491,
+        "sku": "STP-39644E",
+        "name": "Pentel Gel Grip 2 Pack Gold/Silver",
+        "category": "stationery-party",
+        "slug": "stationery-party-pentel-gel-grip-2-pack-gold-silver-39644e",
+        "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Pentel-Gel-Grip-2-Pack-Gold-Silver-39644E.jpg"
+      },
+      "resolution": "sku"
+    },
+    {
+      "line": 17,
+      "sku": "STP-39643B",
+      "name": "Pentel Energel X Retractable Gel Pen 2 Pack Blue",
+      "category": "stationery-party",
+      "candidates": [
+        {
+          "id": 1492,
+          "sku": "STP-39643B",
+          "name": "Pentel Energel X Retractable Gel Pen 2 Pack Blue",
+          "category": "stationery-party",
+          "slug": "stationery-party-pentel-energel-x-retractable-gel-pen-2-pack-blue-39643b",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Pentel-Energel-X-Retractable-Gel-Pen-2-Pack-Blue-39643B.jpg"
+        }
+      ],
+      "exact": {
+        "id": 1492,
+        "sku": "STP-39643B",
+        "name": "Pentel Energel X Retractable Gel Pen 2 Pack Blue",
+        "category": "stationery-party",
+        "slug": "stationery-party-pentel-energel-x-retractable-gel-pen-2-pack-blue-39643b",
+        "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Pentel-Energel-X-Retractable-Gel-Pen-2-Pack-Blue-39643B.jpg"
+      },
+      "resolution": "sku"
+    },
+    {
+      "line": 18,
+      "sku": "STP-39642Y",
+      "name": "Pentel Energel X Retractable Gel Pen 2 Pack Black",
+      "category": "stationery-party",
+      "candidates": [
+        {
+          "id": 1493,
+          "sku": "STP-39642Y",
+          "name": "Pentel Energel X Retractable Gel Pen 2 Pack Black",
+          "category": "stationery-party",
+          "slug": "stationery-party-pentel-energel-x-retractable-gel-pen-2-pack-black-39642y",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Pentel-Energel-X-Retractable-Gel-Pen-2-Pack-Black-39642Y.jpg"
+        }
+      ],
+      "exact": {
+        "id": 1493,
+        "sku": "STP-39642Y",
+        "name": "Pentel Energel X Retractable Gel Pen 2 Pack Black",
+        "category": "stationery-party",
+        "slug": "stationery-party-pentel-energel-x-retractable-gel-pen-2-pack-black-39642y",
+        "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Pentel-Energel-X-Retractable-Gel-Pen-2-Pack-Black-39642Y.jpg"
+      },
+      "resolution": "sku"
+    },
+    {
+      "line": 19,
+      "sku": "STP-39485T",
+      "name": "6 Novelty Eraser Top Pencils",
+      "category": "stationery-party",
+      "candidates": [
+        {
+          "id": 1494,
+          "sku": "STP-39485T",
+          "name": "6 Novelty Eraser Top Pencils",
+          "category": "stationery-party",
+          "slug": "stationery-party-6-novelty-eraser-top-pencils-39485t",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/05/6-Novelty-Eraser-Top-Pencils-39485T.jpg"
+        }
+      ],
+      "exact": {
+        "id": 1494,
+        "sku": "STP-39485T",
+        "name": "6 Novelty Eraser Top Pencils",
+        "category": "stationery-party",
+        "slug": "stationery-party-6-novelty-eraser-top-pencils-39485t",
+        "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/05/6-Novelty-Eraser-Top-Pencils-39485T.jpg"
+      },
+      "resolution": "sku"
+    },
+    {
+      "line": 20,
+      "sku": "STP-39644E",
+      "name": "Pentel Gel Grip 2 Pack Gold Silver",
+      "category": "stationery-party",
+      "duplicateOf": 16,
+      "candidates": [
+        {
+          "id": 1491,
+          "sku": "STP-39644E",
+          "name": "Pentel Gel Grip 2 Pack Gold/Silver",
+          "category": "stationery-party",
+          "slug": "stationery-party-pentel-gel-grip-2-pack-gold-silver-39644e",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Pentel-Gel-Grip-2-Pack-Gold-Silver-39644E.jpg"
+        }
+      ],
+      "exact": {
+        "id": 1491,
+        "sku": "STP-39644E",
+        "name": "Pentel Gel Grip 2 Pack Gold/Silver",
+        "category": "stationery-party",
+        "slug": "stationery-party-pentel-gel-grip-2-pack-gold-silver-39644e",
+        "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Pentel-Gel-Grip-2-Pack-Gold-Silver-39644E.jpg"
+      },
+      "resolution": "sku"
+    }
+  ],
+  "unresolved": [],
+  "duplicateLines": [
+    {
+      "line": 20,
+      "duplicateOf": 16,
+      "sku": "STP-39644E"
+    }
+  ]
+}

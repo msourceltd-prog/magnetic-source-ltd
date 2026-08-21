@@ -1,0 +1,19 @@
+{
+  "verifiedAt": "2026-08-21T15:57:34.294Z",
+  "liveProductCount": 392,
+  "deletedProductsPresent": [],
+  "missingRegistryEntries": [],
+  "deletedRoutesInSitemap": [],
+  "testProductPresent": false,
+  "sitemapUrls": 408,
+  "categoryCounts": {
+    "baby-kids": 51,
+    "clearance": 21,
+    "health-beauty": 74,
+    "household-pet": 45,
+    "seasonal-christmas": 36,
+    "stationery-party": 52,
+    "sweets-snacks": 54,
+    "toys-gifts": 59
+  }
+}
