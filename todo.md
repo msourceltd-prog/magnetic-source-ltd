@@ -352,7 +352,7 @@
 - [x] Measure source-canvas dimensions and identify underscaled product packaging across Household & Pet, Sweets & Snacks, Toys & Gifts, Stationery & Party, Health & Beauty, Seasonal & Christmas, Clearance, and Baby & Kids. The audit identified a controlled 40-product set: compact square packs benefit from reduced margins, while narrow portrait packs need taller contained frames to avoid appearing underscaled.
 - [x] Apply category-safe no-crop premium frame rules for compact and portrait product image groups. The catalogue now uses a 15-product portrait frame group and a 31-product compact frame group, both with 100% contained presentation and no source-canvas cropping.
 - [x] Build and verify desktop/mobile category presentation across all eight departments. One audited representative from each department renders with a full, proportionate product presentation at 1280px and 390px; TypeScript and production builds pass.
-- [ ] Save, deploy, and confirm the catalogue-wide image update on the live Cloudflare website.
+- [x] Save, deploy, and confirm the catalogue-wide image update on the live Cloudflare website. The deployed ProductCard module contains both `product-image-wrap-featured-portrait` and `product-image-wrap-featured-compact` groups.
 
 ## Admin Login Recovery
 
@@ -360,3 +360,14 @@
 - [x] Confirm the Supabase Table Editor save control is not functioning in the owner browser session; the attempted role change has not persisted and the profile remains `customer`.
 - [x] Identify and use a safe authorized alternative to persist the approved `admin` profile role without changing catalogue data or weakening database access controls. The owner executed the prepared SQL from their browser and the SQL result returned the profile ID with role `admin`.
 - [x] Confirm the created account authenticates successfully and its own Supabase profile now returns role `admin`; the live `/admin` route is ready for sign-in.
+
+## Admin Password Change
+
+- [x] Confirm the owner-approved replacement password is `Magnetic26!` for `msourceltd@gmail.com`.
+- [x] Apply the approved password change through the authenticated Supabase user-management route without changing the Admin role or catalogue data.
+- [x] Verify the new password authenticates and preserves the Admin role before providing final login details.
+
+## Final Release Synchronization
+
+- [x] Confirm local changes, GitHub `main`, and the latest deployed Cloudflare bundle are aligned. The website release is at `1798925` locally and on GitHub, and Cloudflare serves the matching `ProductCard-DZ0GSNyW.js` catalogue module.
+- [ ] Push any remaining project completion updates to GitHub and verify Cloudflare publication.
