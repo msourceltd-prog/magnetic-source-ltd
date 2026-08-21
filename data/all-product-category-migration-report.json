@@ -1,0 +1,3322 @@
+{
+  "assessedAt": "2026-08-21T14:46:15.718Z",
+  "totalProducts": 411,
+  "categoryCounts": {
+    "baby-kids": 59,
+    "clearance": 0,
+    "health-beauty": 82,
+    "household-pet": 37,
+    "seasonal-christmas": 43,
+    "stationery-party": 70,
+    "sweets-snacks": 65,
+    "toys-gifts": 55
+  },
+  "changedCount": 65,
+  "unchangedCount": 346,
+  "ambiguousCount": 0,
+  "ambiguous": [],
+  "reviewPath": "/home/ubuntu/magnetic-source-ecommerce-v2/uncategorised_review.txt",
+  "assignments": [
+    {
+      "id": 1007,
+      "sku": "70001H",
+      "name": "Baylis & Harding Beauticology Cosmic Fun Pop Beauty Bag Gift Set",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1008,
+      "sku": "69987R",
+      "name": "Baylis & Harding The Fuzzy Duck Winter Wonderland Luxury Bath Bombs Gift Set",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1009,
+      "sku": "69990B",
+      "name": "Baylis & Harding The Fuzzy Duck Winter Wonderland Decorative Crackers Gift Set",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1010,
+      "sku": "69983F",
+      "name": "Baylis & Harding The Fuzzy Duck Cocktails Indulgent Body Care Gift Set",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1011,
+      "sku": "69954T",
+      "name": "Baylis & Harding Limited Edition Body Pamper Gift Set",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1012,
+      "sku": "69999C",
+      "name": "Baylis & Harding Beauticology Cosmic Body Pamper Gift Set",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1013,
+      "sku": "69922Y",
+      "name": "Man’Stuff Ultimate Six Pack Gift Set",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1017,
+      "sku": "69885H",
+      "name": "Stitchmas Bath Fizzer Pack",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1027,
+      "sku": "39175C",
+      "name": "Fleur 3 Pack A4 Notebooks",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1029,
+      "sku": "39170N",
+      "name": "Pokemon 10 Colour Pen",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1030,
+      "sku": "39169J",
+      "name": "Pokemon Pen Set 3’s",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1031,
+      "sku": "22392N",
+      "name": "Squishmallows Pencil Case",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1033,
+      "sku": "64794B",
+      "name": "Somewhere Rainbow Bath Bomb in Gift Box in CDU",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1034,
+      "sku": "64792v",
+      "name": "Chakra Bath Bomb in Gift Box in CDU",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1038,
+      "sku": "61070L",
+      "name": "World’s Smallest Laser Tag",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1040,
+      "sku": "21217E",
+      "name": "Christmas Giant Bike Sack",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1055,
+      "sku": "72736Z",
+      "name": "Fabulosa 3 in 1 Laundry Pods Fresh Breeze 12’s",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1057,
+      "sku": "72619U",
+      "name": "Good Boy Cheese Please – Long Lasting Tasty Chew 60g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1060,
+      "sku": "72568M",
+      "name": "Nylabone Extreme Chew Bacon Flavour Medium",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1061,
+      "sku": "72631G",
+      "name": "Good Boy Soft Fluffy Dog Toy Large",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1062,
+      "sku": "72629Z",
+      "name": "Good Boy Tripe Filled Bone",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1063,
+      "sku": "72628W",
+      "name": "Good Boy Chicken Leg 115mm",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1064,
+      "sku": "72624K",
+      "name": "Good Boy Compostable Poo Bags 60’s Clipstrip",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1065,
+      "sku": "72623H",
+      "name": "Good Boy Duck Stick 15g",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1066,
+      "sku": "72622E",
+      "name": "Good Boy Beef Stick 15g",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1067,
+      "sku": "72621B",
+      "name": "Good Boy Chicken Stick 15g",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1070,
+      "sku": "72567J",
+      "name": "Good Boy Soft Meerkat Dog Toy",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1072,
+      "sku": "72382W",
+      "name": "Good Boy Soft Fluffy Dog Toy Small",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1073,
+      "sku": "72707N",
+      "name": "Fairy Washing Up Liquid Pomegranate 320ml",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1074,
+      "sku": "72706K",
+      "name": "Fairy Washing Up Liquid Apple 320ml",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1075,
+      "sku": "72385F",
+      "name": "Good Boy Cheese Please with Chicken – Long Lasting Tasty Chew 60g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1078,
+      "sku": "72293A",
+      "name": "Bartleby Mens Deluxe Straw Fedora Hat Assorted",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1079,
+      "sku": "72289N",
+      "name": "Bartleby Child’s Dinosaur Hat Assorted",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1080,
+      "sku": "72288K",
+      "name": "Bartleby Girls Unicorn Hat Assorted",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1081,
+      "sku": "72287H",
+      "name": "Bartleby Unisex Bush Hat – Ripstop Assorted",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1082,
+      "sku": "72285B",
+      "name": "Bartleby Childs Two Tone Baseball Cap Assorted",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1083,
+      "sku": "72283V",
+      "name": "Bartleby Adult Two Tone Baseball Cap Assorted",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1084,
+      "sku": "72282S",
+      "name": "Bartleby Adult Breathable Baseball Cap Assorted",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1085,
+      "sku": "72281P",
+      "name": "Bartleby Adult Washed Baseball Cap Pastel Colours Assorted",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1092,
+      "sku": "73030L",
+      "name": "Gummi King Noodles 100g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1101,
+      "sku": "67242U",
+      "name": "Peppa Pig Surprise Cones 25g",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1102,
+      "sku": "67241R",
+      "name": "Paw Patrol Surprise Cones 25g",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1105,
+      "sku": "73031O",
+      "name": "Gummi King of the Taco 100g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1106,
+      "sku": "73029H",
+      "name": "Gummi King Fries 80g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1109,
+      "sku": "72810B",
+      "name": "Johny Bee 3D Gummy Surprise 57g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1110,
+      "sku": "72804I",
+      "name": "Johny Bee Squeezy Pop 34g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1111,
+      "sku": "72802C",
+      "name": "Johny Bee Splash Brush 12g",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1112,
+      "sku": "67263H",
+      "name": "Johny Bee Twisty Treats Spray & Powder 16.5g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1113,
+      "sku": "67258R",
+      "name": "Johny Bee Big Dipper Powder Lollipop & Powder 47g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1114,
+      "sku": "72303L",
+      "name": "Pez – Licensed Dispenser + Sweets Spiderman",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1125,
+      "sku": "72214P",
+      "name": "Amos Audio Lollipop Cola",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1166,
+      "sku": "39638L",
+      "name": "Crayola Pokemon 96 Page Colouring Book",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1168,
+      "sku": "72846I",
+      "name": "Paw Patrol Dino Themed Vehicle Skye",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1169,
+      "sku": "72178B",
+      "name": "Hoodeazzz Adoramals Kiki the Budgie Plush Memory Foam Travel Pillow & Hood",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1170,
+      "sku": "73165T",
+      "name": "Fisher Price Pop-Up Play Tunnel",
+      "previousCategory": "toys-gifts",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1171,
+      "sku": "73164Q",
+      "name": "Zuru X-Shot Excel Hawk Eye With 16 Darts",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1172,
+      "sku": "73163N",
+      "name": "Zuru Xshot Excel Double Fury 4 Blaster Combo Pack",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1173,
+      "sku": "73161H",
+      "name": "Zuru Metal Machines S1 T-Rex Playset",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1174,
+      "sku": "73160E",
+      "name": "Zuru Metal Machines S1 Road Rampage Playset",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1176,
+      "sku": "70692B",
+      "name": "Fisher Price Baby Roll Around 6m+",
+      "previousCategory": "toys-gifts",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1181,
+      "sku": "73187J",
+      "name": "Push and Pop Fidget Game – Assorted Colours",
+      "previousCategory": "toys-gifts",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1182,
+      "sku": "39623R",
+      "name": "Colouring Book – Animals & Oceans",
+      "previousCategory": "toys-gifts",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1185,
+      "sku": "73037G",
+      "name": "Nebulus Scooter Neon Orange With Black Chrome Finish",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1186,
+      "sku": "73036D",
+      "name": "Unicorn Trail Twist Folding Light Up Scooter",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1187,
+      "sku": "73035A",
+      "name": "Dinosaur Trail Twist Folding Light Up Scooter",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1188,
+      "sku": "72380Q",
+      "name": "Palm Pals Colson Hot Dog Approx 5″",
+      "previousCategory": "toys-gifts",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1189,
+      "sku": "72378J",
+      "name": "Palm Pals Tomas BLT Approx 5″",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1190,
+      "sku": "39569Z",
+      "name": "Staedtler Peppa Pig Fibre Tip Pens 6 Assorted Colours",
+      "previousCategory": "toys-gifts",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1192,
+      "sku": "72686U",
+      "name": "Animigos Funky Friends – Burger",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1193,
+      "sku": "72685R",
+      "name": "Animigos Funky Friends – Daisy",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1194,
+      "sku": "72684O",
+      "name": "Animigos Funky Friends – Tulip",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1196,
+      "sku": "72682I",
+      "name": "Animigos Funky Friends – Pizza",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1197,
+      "sku": "72681F",
+      "name": "Animigos Funky Friends – French Fries",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1198,
+      "sku": "72680C",
+      "name": "Animigos Funky Friends – Taco",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1199,
+      "sku": "72679Y",
+      "name": "Animigos Funky Friends – Aubergine",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1200,
+      "sku": "72677S",
+      "name": "Animigos Funky Friends – Succulent",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1201,
+      "sku": "72676P",
+      "name": "Animigos Funky Friends – Avocado",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1202,
+      "sku": "72675M",
+      "name": "Animigos Funky Friends – Bubble Tea",
+      "previousCategory": "toys-gifts",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1204,
+      "sku": "72737C",
+      "name": "Clickeez – 2 Pack Series 3 CDU",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1205,
+      "sku": "72996L",
+      "name": "Mini Muddle Puzzle",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1246,
+      "sku": "73142A",
+      "name": "Palmolive Liquid Hand Soap Rose 300ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1247,
+      "sku": "73141X",
+      "name": "Palmolive Shower Gel Elixir Orchid 250ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1248,
+      "sku": "73140U",
+      "name": "Palmolive Shower Gel Elixir Rose 250ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1252,
+      "sku": "73097K",
+      "name": "Umbro Bodywash Power 400ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1253,
+      "sku": "73096H",
+      "name": "Umbro Bodywash Ice 400ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1262,
+      "sku": "73086C",
+      "name": "Chupa Chups Watermelon, Peach & Lemon Lip Balms",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1264,
+      "sku": "72983X",
+      "name": "Aussie Shampoo Mega Travel 100ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1265,
+      "sku": "72982U",
+      "name": "Aussie Conditioner Mega Travel 100ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1266,
+      "sku": "72913O",
+      "name": "Peppa Pig Bath & Shower Bubbles 400ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1267,
+      "sku": "72911I",
+      "name": "Spiderman Stitch Bath & Shower Bubbles 400ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1268,
+      "sku": "72782M",
+      "name": "Denman D81S Small Style and Shine Brush Original",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1271,
+      "sku": "72719Y",
+      "name": "Lip Balm SPF 15 Original 10g",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1277,
+      "sku": "72754D",
+      "name": "Nivea Shave Mens After Shave Moisturiser Protect & Care 75ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1282,
+      "sku": "72711A",
+      "name": "Grow with Peppa Baby Bath Foam 350ml",
+      "previousCategory": "health-beauty",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1283,
+      "sku": "72710X",
+      "name": "Grow with Peppa Baby Lotion 350ml",
+      "previousCategory": "health-beauty",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1284,
+      "sku": "72709T",
+      "name": "Grow with Peppa Baby Conditioning Shampoo 350ml",
+      "previousCategory": "health-beauty",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1285,
+      "sku": "72708Q",
+      "name": "Grow with Peppa Baby Head to Toe Wash 350ml",
+      "previousCategory": "health-beauty",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1286,
+      "sku": "73202K",
+      "name": "Uno Advent Calendar",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1287,
+      "sku": "22804U",
+      "name": "Christmas Colouring Book",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1288,
+      "sku": "22803R",
+      "name": "Christmas Activity & Sticker Book",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1289,
+      "sku": "22800I",
+      "name": "Christmas Advent Calendar – Cute",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1290,
+      "sku": "22799Y",
+      "name": "Christmas Advent Calendar – Contemporary",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1296,
+      "sku": "22782Y",
+      "name": "Christmas Gift Bag Large – Whimsical Woodland",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1297,
+      "sku": "22812T",
+      "name": "Christmas Cards – 15 Slim Christmas Cracker",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1298,
+      "sku": "22811Q",
+      "name": "Christmas Cards – 15 Slim Nordic Snowglobe",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1299,
+      "sku": "22802O",
+      "name": "Christmas Novelty Earrings",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1301,
+      "sku": "22798V",
+      "name": "Christmas Crackers 8 x 12″ Ho Ho",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1303,
+      "sku": "22794J",
+      "name": "Christmas 20 Gift Tags Novelty Cute",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1305,
+      "sku": "22792D",
+      "name": "Christmas 20 Gift Tags Red & White",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1306,
+      "sku": "22787N",
+      "name": "Christmas Beer Bottle Carrier",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1307,
+      "sku": "22786K",
+      "name": "Christmas Gift Bag Jumbo Drawstring Bag",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1308,
+      "sku": "22785H",
+      "name": "Christmas Gift Bag Square Woven PP Highland Cow",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1310,
+      "sku": "22781V",
+      "name": "Christmas Gift Bag Medium – Whimsical Woodland",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1311,
+      "sku": "22779O",
+      "name": "Christmas Gift Bag Extra Large – Nordic Noel",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1312,
+      "sku": "22778L",
+      "name": "Christmas Gift Bag Large – Nordic Noel",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1313,
+      "sku": "22777I",
+      "name": "Christmas Gift Bag Medium – Nordic Noel",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1314,
+      "sku": "22776F",
+      "name": "Christmas Gift Bag Bottle – Most Wonderful",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1316,
+      "sku": "22774Z",
+      "name": "Christmas Gift Bag Large – Most Wonderful",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1323,
+      "sku": "22795M",
+      "name": "Christmas 20 Gift Tags Nordic Noel",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1325,
+      "sku": "69932D",
+      "name": "Man’Stuff Toiletries Advent Gift Set",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1328,
+      "sku": "72592J",
+      "name": "NUK First Choice Day & Night Soother 2 Pack 0-6m Boys",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1329,
+      "sku": "72591G",
+      "name": "NUK First Choice Day & Night Soother 2 Pack 0-6m Girls",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1331,
+      "sku": "70408S",
+      "name": "Huggies Pure Baby Wipes Plastic Free 48’s",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1334,
+      "sku": "69108A",
+      "name": "Pampers Baby-Dry Nappy Pants Size 7 15+kg, 33+ lbs, 16’s",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1335,
+      "sku": "67332T",
+      "name": "Cherubs Baby Soothers Card of 25",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1337,
+      "sku": "67226W",
+      "name": "Capitol Safety Soothers Blue 2 Pack",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1338,
+      "sku": "67204G",
+      "name": "Metanium Everyday Barrier Ointment 40g",
+      "previousCategory": "baby-kids",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1339,
+      "sku": "64355U",
+      "name": "Johnson’s Baby Powder Natural 100g",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1341,
+      "sku": "64411S",
+      "name": "Johnson’s Baby Cotton Pads 50’s",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1342,
+      "sku": "64372V",
+      "name": "Pampers Scented Baby Wipes 52s",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1343,
+      "sku": "38859A",
+      "name": "Water Filled Cooling Teether 3+ Months Assorted Colours",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1350,
+      "sku": "51000U",
+      "name": "Pampers Sensitive Baby Wipes 52’s",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1356,
+      "sku": "3738H",
+      "name": "Sudocrem Antiseptic Cream 60g Tub",
+      "previousCategory": "baby-kids",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1358,
+      "sku": "2537Q",
+      "name": "Pampers New Baby Premium Protection Nappies Size 2 4-8kg, 9-18lbs 31’s",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1362,
+      "sku": "1243R",
+      "name": "Pampers Baby-Dry Nappies Size 3, 6-10kgs, 13-22lbs 30’s",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1380,
+      "sku": "STP-39602E",
+      "name": "Cedar & Sage 6 Pack A6 Notebooks",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1383,
+      "sku": "STP-39594Z",
+      "name": "Pukka Floral B5 Project Book 3 Assorted Colours",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1384,
+      "sku": "STP-39280W",
+      "name": "Foil Helium Balloon 18″ – Congratulations",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1385,
+      "sku": "STP-39279S",
+      "name": "Foil Helium Balloon 18″ – Baby Shower",
+      "previousCategory": "stationery-party",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1386,
+      "sku": "STP-39278P",
+      "name": "Foil Helium Balloon 18″ – You’re Engaged",
+      "previousCategory": "stationery-party",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1387,
+      "sku": "STP-39277M",
+      "name": "Foil Helium Balloon 18″ – Happy Birthday Roses",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1388,
+      "sku": "STP-39276J",
+      "name": "Foil Helium Balloon 18″ – Happy Birthday",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1389,
+      "sku": "STP-39275G",
+      "name": "Foil Helium Balloon 18″ – Birthday Girl",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1390,
+      "sku": "STP-39274D",
+      "name": "Foil Helium Balloon 18″ – Birthday Boy",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1391,
+      "sku": "STP-21370R",
+      "name": "Mother’s Day Mum Foil Balloon In Pink",
+      "previousCategory": "stationery-party",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1392,
+      "sku": "STP-49719Q",
+      "name": "Capitol 12 Balloons",
+      "previousCategory": "stationery-party",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1395,
+      "sku": "STP-39501X",
+      "name": "Gift Bag Extra Large – Duck Duck Goose",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1396,
+      "sku": "STP-39456H",
+      "name": "Gift Bag Large – Ditzy Floral W260xH320xD120mm",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1398,
+      "sku": "STP-39395U",
+      "name": "Gift Bag Medium – Colourful Hearts W180xH230xD100mm",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1399,
+      "sku": "STP-38999Y",
+      "name": "Gift Bag Large – Cross My Heart W266xH330xD140mm",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1400,
+      "sku": "STP-34943J",
+      "name": "Packed Wrap 2 Sheets & 2 Tags – Designer Male",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1401,
+      "sku": "STP-35020M",
+      "name": "Packed Wrap 2 Sheets & 2 Tags – Traditional Female",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1402,
+      "sku": "STP-38679C",
+      "name": "250 Foam Shapes",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1404,
+      "sku": "STP-31190B",
+      "name": "5 Roller Stampers Double Ended With Fibre Tips",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1407,
+      "sku": "STP-39582O",
+      "name": "Are We There Yet? – Bumper Activity Set",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1408,
+      "sku": "STP-39584U",
+      "name": "Are We There Yet? – Carry & Colour Pack",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1409,
+      "sku": "STP-39224E",
+      "name": "Colouring & Sticker Books",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1418,
+      "sku": "38884A",
+      "name": "Foil Happy Birthday Balloon 16″ – Silver",
+      "previousCategory": "clearance",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1422,
+      "sku": "15846E",
+      "name": "Assorted Party Photo Props With Sticks",
+      "previousCategory": "clearance",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1423,
+      "sku": "65243L",
+      "name": "Sharpie Fluo XL Highlighters Assorted 4 Pack",
+      "previousCategory": "clearance",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1452,
+      "sku": "72594P",
+      "name": "NUK First Choice Day & Night Soother 2 Pack 6-18m Boys",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1453,
+      "sku": "72593M",
+      "name": "NUK First Choice Day & Night Soother 2 Pack 6-18m Girls",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1455,
+      "sku": "64356X",
+      "name": "Johnson’s Baby Powder Natural 200g",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1456,
+      "sku": "61613O",
+      "name": "Johnson’s Baby Lotion 300ml",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1462,
+      "sku": "65510Z",
+      "name": "Easynote Pocket Soft Touch Notebook – Pastel Colours",
+      "previousCategory": "clearance",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1472,
+      "sku": "73087F",
+      "name": "Chupa Chups Strawberry Lip Balm",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1477,
+      "sku": "39648Q",
+      "name": "Summit Metal Tent Pegs 18cm Pack of 20",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1480,
+      "sku": "39637I",
+      "name": "Blackmoor 20cm Frying Pan",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1482,
+      "sku": "22790X",
+      "name": "Christmas 4m Roll Wrap Novelty Cute",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1483,
+      "sku": "22789T",
+      "name": "Christmas 4m Roll Wrap Red & White",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1484,
+      "sku": "22783B",
+      "name": "Christmas Gift Bag Extra Large – Whimsical Woodland",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1485,
+      "sku": "22793G",
+      "name": "Christmas 20 Gift Tags Midnight Blue",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1486,
+      "sku": "22773W",
+      "name": "Christmas Gift Bag Medium – Most Wonderful",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1487,
+      "sku": "22772T",
+      "name": "Christmas Gift Bag Small – Most Wonderful",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1488,
+      "sku": "22770N",
+      "name": "Christmas Cards – Printed Text Square 15pk",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1489,
+      "sku": "22769J",
+      "name": "Christmas Cards – Printed Tree Square 15pk",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1490,
+      "sku": "STP-39646K",
+      "name": "Pentel Recycology Rollerball 4 Pack",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1491,
+      "sku": "STP-39644E",
+      "name": "Pentel Gel Grip 2 Pack Gold/Silver",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1492,
+      "sku": "STP-39643B",
+      "name": "Pentel Energel X Retractable Gel Pen 2 Pack Blue",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1493,
+      "sku": "STP-39642Y",
+      "name": "Pentel Energel X Retractable Gel Pen 2 Pack Black",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1494,
+      "sku": "STP-39485T",
+      "name": "6 Novelty Eraser Top Pencils",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1497,
+      "sku": "STP-5808I",
+      "name": "Gift Bag Extra Large – Holographic Assorted Colours W330 x H450 x D100mm",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1498,
+      "sku": "STP-39451S",
+      "name": "Gift Bag Medium – Ditzy Floral W180xH230xD100mm",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1500,
+      "sku": "STP-34851E",
+      "name": "Children’s Safety Scissors 13cm/5″ Assorted Colours CDU",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1507,
+      "sku": "72402M",
+      "name": "Kandelicious Seaside Fruit Flavour Assorted Lollies 80g CDU",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1516,
+      "sku": "72749N",
+      "name": "Funko Pop! K-Pop Demon Hunters Keychain Assorted CDU",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1518,
+      "sku": "HBT-72104G",
+      "name": "Face Facts Ceramide Moisturising Body Lotion 400ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1520,
+      "sku": "HBT-60914X",
+      "name": "Baylis & Harding Goodness Sleep Bath Soak 500ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1524,
+      "sku": "HBT-63603V",
+      "name": "Dove Women Anti-Perspirant Deodorant Powder 150ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1527,
+      "sku": "HBT-72130J",
+      "name": "Face Facts Friday Social Turbo Plump Biocellulose Masque Face Mask",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1528,
+      "sku": "HBT-72107P",
+      "name": "Face Facts Ceramide Repairing Lip Balm 10ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1530,
+      "sku": "HBT-72309D",
+      "name": "Brushworks Rose Resin Roller & Gua Sha",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1533,
+      "sku": "HBT-551W",
+      "name": "Wilkinson Sword Extra 2 Beauty Ladies Disposable Razor 5’s",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1534,
+      "sku": "HBT-67830H",
+      "name": "FLO Bamboo Extra Long Pads 10's",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1537,
+      "sku": "22775C",
+      "name": "Christmas Gift Bag Extra Large – Most Wonderful",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1538,
+      "sku": "22780S",
+      "name": "Christmas Gift Bag Small – Whimsical Woodland",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1539,
+      "sku": "STP-65474L",
+      "name": "Just Stationery A4 Hardback Notebook Brights Design",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1540,
+      "sku": "65509V",
+      "name": "Easynote Slim Soft Touch Notebook – Pastel Colours",
+      "previousCategory": "clearance",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1542,
+      "sku": "61614R",
+      "name": "Johnson’s Baby Shampoo 300ml",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1544,
+      "sku": "64606K",
+      "name": "M.Y Tennis Set Super Neon",
+      "previousCategory": "clearance",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1545,
+      "sku": "54049H",
+      "name": "Child Face Mask – Princess",
+      "previousCategory": "clearance",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1549,
+      "sku": "72037A",
+      "name": "EVA Clogs Child Size 4",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1550,
+      "sku": "HBT-2349T",
+      "name": "Pretty Cosmetic Pads 80’s",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1551,
+      "sku": "HBT-1095O",
+      "name": "Aloha Sun Lotion SPF 30 Pocket Pack 50ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1552,
+      "sku": "HPE-63752V",
+      "name": "Good Boy Space Lobber Fetch Toy",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1553,
+      "sku": "HPE-72358Z",
+      "name": "Rosewood Collagen Chicken Rolls 70g",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1554,
+      "sku": "HPE-72360G",
+      "name": "Nylabone Extreme Chew Venison Antler Alternative Chew",
+      "previousCategory": "household-pet",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1556,
+      "sku": "HPE-72404S",
+      "name": "Rosewood Tough Toys Wood Flavour Dog Chew",
+      "previousCategory": "household-pet",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1557,
+      "sku": "HPE-39616V",
+      "name": "Milestone Magnifying Compass With Lanyard",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1558,
+      "sku": "HPE-39619E",
+      "name": "Milestone 60LED Ultra Bright Portable Tent Light",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1559,
+      "sku": "HPE-39615S",
+      "name": "Summit Glow In The Dark Rock Pegs With Case 20cm Pack of 20",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1564,
+      "sku": "HPE-72478N",
+      "name": "Ariel Pods 86s Original",
+      "previousCategory": "household-pet",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1566,
+      "sku": "HPE-39621L",
+      "name": "Milestone 100ft Multi-Purpose Rope – 3 Assorted Colours",
+      "previousCategory": "household-pet",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1572,
+      "sku": "SWE-72697C",
+      "name": "Mallow & Marsh Dulce de Leche Coated in Milk Chocolate 100g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1573,
+      "sku": "SWE-72273Q",
+      "name": "Candy Kittens Eton Mess 140g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1574,
+      "sku": "SWE-72477K",
+      "name": "Zuru Gumi Yum Surprise Minions 22g CDU",
+      "previousCategory": "sweets-snacks",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1579,
+      "sku": "SWE-72717S",
+      "name": "Van Holten Sour Sis Pickle in-a Pouch 306g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1582,
+      "sku": "TGY-71038X",
+      "name": "Palm Pals Kai Praying Mantis Approx 5″",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1583,
+      "sku": "TGY-71047Z",
+      "name": "Palm Pals Sid Capybara Approx 5″",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1584,
+      "sku": "TGY-71052P",
+      "name": "Palm Pals Summer Cloud Approx 5″",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1585,
+      "sku": "TGY-71042K",
+      "name": "Palm Pals Pinky Flamingo Approx 5″",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1588,
+      "sku": "TGY-71043N",
+      "name": "Palm Pals Perky Pineapple Approx 5″",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1589,
+      "sku": "TGY-71045T",
+      "name": "Palm Pals Sugary Cinnamon Roll Approx 5″",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1591,
+      "sku": "TGY-70957I",
+      "name": "Little Living Nature Clips Fruit Plush Keyrings",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1595,
+      "sku": "TGY-71041H",
+      "name": "Palm Pals Chutney Cheetah Approx 5″",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1596,
+      "sku": "TGY-71046W",
+      "name": "Palm Pals Mars Rocket Ship Approx 5″",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1597,
+      "sku": "STX-39500U",
+      "name": "Spots Table Cover 120cm x 180cm",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1598,
+      "sku": "STX-39507P",
+      "name": "With Love Card – With Love",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1600,
+      "sku": "STX-39511C",
+      "name": "Birthday Card – Open Square Birthday Cake 160mmx160mm",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1607,
+      "sku": "STX-39486W",
+      "name": "9 Unicorn & Animal Erasers",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1608,
+      "sku": "STX-22643D",
+      "name": "2027 Gift Set Diary Slim Week To View with Pen Tropical",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1609,
+      "sku": "STX-22641X",
+      "name": "2027 Organiser Calendar Family Sea/Flowers",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1611,
+      "sku": "STX-22640U",
+      "name": "2027 Memo Calendar with Shopping Pad & Pen",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1613,
+      "sku": "72295G",
+      "name": "Rennie Chewing Gum 750g 10’s",
+      "previousCategory": "health-beauty",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1615,
+      "sku": "72566G",
+      "name": "Baylis & Harding Goodness Oud Cedar & Amber Body Wash 100ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1619,
+      "sku": "72241V",
+      "name": "Wash & Go 2 in 1 Shampoo & Conditioner Classic 290ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1620,
+      "sku": "72472V",
+      "name": "Malibu 3 Pack 100ml Lotion SPF 8 SPF 20 Aftersun",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1621,
+      "sku": "72306U",
+      "name": "Femfresh Wipes 10’s",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1622,
+      "sku": "72304O",
+      "name": "Imperial Leather Bodywash Cotton & Vanilla 235ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1623,
+      "sku": "72327H",
+      "name": "Got2b Glued 4 Brows & Edges 16ml 2in1 Gel",
+      "previousCategory": "health-beauty",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1625,
+      "sku": "72305R",
+      "name": "Original Source Shower Milk Lime & Coconut 250ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1626,
+      "sku": "72315W",
+      "name": "Brushworks Refresh & Reset Face Mist 100ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1627,
+      "sku": "70819Q",
+      "name": "Mini Activity Cube Tray Box",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1628,
+      "sku": "70818N",
+      "name": "Fisher Price 10cm Soft Animal Friends",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1631,
+      "sku": "70820U",
+      "name": "Infunbebe Mini Vehicles 6 Pack",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1632,
+      "sku": "70688O",
+      "name": "Ms Rachel Jumbo Peg Puzzle",
+      "previousCategory": "baby-kids",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1633,
+      "sku": "69356B",
+      "name": "Fisher Price Bath Blocks",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1634,
+      "sku": "69354V",
+      "name": "Fisher Price Baby Training Ball",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1635,
+      "sku": "69352P",
+      "name": "Fisher Price Tee-Pee Play Tent",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1636,
+      "sku": "69350J",
+      "name": "Fisher Price Portable Circular Ball Pit 25pc",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1637,
+      "sku": "70041B",
+      "name": "Play+ Are You a Monkey Like Me",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1638,
+      "sku": "70039U",
+      "name": "Play+ Shhh Who’s There Baby Animals",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1639,
+      "sku": "70044K",
+      "name": "Play+ Rainmaker Shake & Twist Gecko",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1640,
+      "sku": "70040Y",
+      "name": "Play+ Search and Shine In the Jungle",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1641,
+      "sku": "70046Q",
+      "name": "Bluey’s Telephone",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1642,
+      "sku": "100E",
+      "name": "Sudocrem Skin Care Cream 30g White Tube",
+      "previousCategory": "baby-kids",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1643,
+      "sku": "1985T",
+      "name": "Johnson’s Baby Oil 100ml",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1644,
+      "sku": "31960S",
+      "name": "Cherubs Baby Feeding Bottle 250ml",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1645,
+      "sku": "36960W",
+      "name": "Duralon Baby Bottle (Designs May Vary)",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1646,
+      "sku": "48880W",
+      "name": "Nuby Weaning Spoons 6pk",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1647,
+      "sku": "55935G",
+      "name": "Water Wipes Sensitive Baby Wipes 60’s",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1648,
+      "sku": "67227Z",
+      "name": "Capitol Safety Soothers Pink 2 Pack",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1649,
+      "sku": "69375I",
+      "name": "Cheeky Panda Bamboo Baby Wipes Pack 60’s",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1650,
+      "sku": "90T",
+      "name": "Johnson’s Baby Oil 200ml",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1651,
+      "sku": "38495S",
+      "name": "Paper Snack & Sandwich Bags 15x25cm 25’s",
+      "previousCategory": "clearance",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1652,
+      "sku": "4342K",
+      "name": "Haribo Sour Skeletons 140g £1.25 PMP – Best Before End 9/26",
+      "previousCategory": "clearance",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1653,
+      "sku": "6359W",
+      "name": "Swizzels Drumstick Squashies Original Raspberry & Milk Flavour 60g 69p PMP – Best Before End 10/26",
+      "previousCategory": "clearance",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1654,
+      "sku": "65397A",
+      "name": "Just Stationery Split Cork/Dry Wipe Board 450mm x 300mm",
+      "previousCategory": "clearance",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1655,
+      "sku": "68612B",
+      "name": "Star Wars: Unlimited Twilight of the Republic Booster CDU",
+      "previousCategory": "clearance",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1656,
+      "sku": "69828M",
+      "name": "Bubble T Boba Face Mask 3 Piece Gift Set",
+      "previousCategory": "clearance",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1657,
+      "sku": "69830T",
+      "name": "Bubble T Boba Body Wash 4 Piece Gift Set",
+      "previousCategory": "clearance",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1658,
+      "sku": "69832Z",
+      "name": "Bubble T Boba Wash & Body 3 Piece Gift Set",
+      "previousCategory": "clearance",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1659,
+      "sku": "69834F",
+      "name": "Bubble T Sweetea Donut Bath Fizzer 4 Piece Gift Set",
+      "previousCategory": "clearance",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1660,
+      "sku": "69835I",
+      "name": "Bubble T Sweetea Hand Collection 3 Piece Gift Set",
+      "previousCategory": "clearance",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1661,
+      "sku": "69836L",
+      "name": "Bubble T Sweetea Bubble Bath Collection 5 Piece Gift Set",
+      "previousCategory": "clearance",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1662,
+      "sku": "69838R",
+      "name": "Bubble T Rainbow Crackers 3 Piece Gift Set",
+      "previousCategory": "clearance",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1663,
+      "sku": "69882Y",
+      "name": "Stitch Pamper Hair Turban",
+      "previousCategory": "clearance",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1664,
+      "sku": "69890X",
+      "name": "Ho Ho Ho Hand & Body Wash Gift Set",
+      "previousCategory": "clearance",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1665,
+      "sku": "69892D",
+      "name": "Ho Ho Ho Snow Globe Hand Cream Trio Gift Set",
+      "previousCategory": "clearance",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1666,
+      "sku": "72332X",
+      "name": "Jakemans Soothing Menthol Lozenges Cherry Menthol 73g",
+      "previousCategory": "health-beauty",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1667,
+      "sku": "72562U",
+      "name": "Baylis & Harding Vetiver Cedar & Lemongrass Anti-Bacterial Hand Wash 500ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1668,
+      "sku": "72563X",
+      "name": "Baylis & Harding Jojoba Vanilla & Almond Oil Hand Wash 500ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1669,
+      "sku": "72564A",
+      "name": "Baylis & Harding Elements Pink Blossom & Lotus Flower Hand Wash 500ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1670,
+      "sku": "72743V",
+      "name": "Amplex Roll On Deodorant Ocean 50ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1671,
+      "sku": "72766O",
+      "name": "Sure Women Whole Body Aerosol Wild Rose 150ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1672,
+      "sku": "72767R",
+      "name": "Sure Women Whole Body Aerosol Rio Coconut 150ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1673,
+      "sku": "72768U",
+      "name": "Sure Men Whole Body Aerosol Ocean Rush 150ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1674,
+      "sku": "72770B",
+      "name": "Sure Men Whole Body Stick Ocean Rush 50ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1675,
+      "sku": "72779C",
+      "name": "Denman D6 The Shower Brush Black",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1676,
+      "sku": "72780G",
+      "name": "Denman D90 The Mini Detangler Black",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1677,
+      "sku": "73041T",
+      "name": "Amplex Roll On Deodorant Active 50ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1678,
+      "sku": "HBT-1789X",
+      "name": "Fresh Start Shower Gel Coconut & Lime 400ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1679,
+      "sku": "HBT-560Y",
+      "name": "Wisdom Step By Step Toothbrush 3-5 Years",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1680,
+      "sku": "HBT-63817U",
+      "name": "Enliven Nail Polish Remover Acetone Free 250ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1681,
+      "sku": "HBT-66347H",
+      "name": "Cuticura Repair Hand Cream 75ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1682,
+      "sku": "HBT-67865L",
+      "name": "LaModa Rainbow Slim Handled Detangler Brush",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1683,
+      "sku": "HBT-72570T",
+      "name": "L’Oreal Men Expert Antiperspirant Deodorant Carbon Protect Roll On 50ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1684,
+      "sku": "39631Q",
+      "name": "Folding Umbrella in CDU Assorted Colours",
+      "previousCategory": "household-pet",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1685,
+      "sku": "39636F",
+      "name": "Reading Glasses – Half Frame – Assorted Colours & Strengths",
+      "previousCategory": "household-pet",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1686,
+      "sku": "39640S",
+      "name": "Hilka Junior Children’s Ear Defenders – Blue",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1687,
+      "sku": "39641V",
+      "name": "Hilka Junior Children’s Ear Defenders – Pink",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1688,
+      "sku": "39649T",
+      "name": "Adult Hooded Poncho 2 Assorted Colours",
+      "previousCategory": "household-pet",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1689,
+      "sku": "60342I",
+      "name": "Good Boy Crunchy Chicken & Calcium Bones 350g",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1690,
+      "sku": "60343L",
+      "name": "Good Boy Chewy Twists With Chicken 320g",
+      "previousCategory": "household-pet",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1691,
+      "sku": "72615I",
+      "name": "Good Boy Chewy Braid Beef Large 96g",
+      "previousCategory": "household-pet",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1692,
+      "sku": "72616L",
+      "name": "Good Boy Tough & Tasty Chicken Roll 80g",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1693,
+      "sku": "72617O",
+      "name": "Good Boy Chewables Sticks with Chicken & Veg 5 Pack",
+      "previousCategory": "household-pet",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1694,
+      "sku": "72630D",
+      "name": "Good Boy Fresh Breath Rolls Bumper Pack",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1695,
+      "sku": "72750R",
+      "name": "Cheeky Panda Sustainable Plastic-Free Bamboo Kitchen Rolls – 2pk",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1696,
+      "sku": "HPE-72363P",
+      "name": "Rosewood Cooling Collar – Small",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1697,
+      "sku": "HPE-72364S",
+      "name": "Rosewood Cooling Collar – Medium",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1698,
+      "sku": "HPE-72365V",
+      "name": "Rosewood Cooling Collar – Large",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1699,
+      "sku": "STP-39559U",
+      "name": "Cedar & Sage A5 3 Pack Notebooks",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1700,
+      "sku": "STP-39575S",
+      "name": "Liberty Garden A5 Notebooks 3pk",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1701,
+      "sku": "STP-65367L",
+      "name": "Just Stationery Shorthand Notepad 50gsm 50 Sheets 3 Pack",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1702,
+      "sku": "STX-22650Z",
+      "name": "2027 Calendar Super Slim Blue & Green Planet",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1703,
+      "sku": "72535O",
+      "name": "Toxic Waste Cherry Popcorn 120g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1704,
+      "sku": "72536R",
+      "name": "Toxic Waste Blue Raspberry Popcorn 120g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1705,
+      "sku": "72537U",
+      "name": "Toxic Waste Apple Popcorn 120g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1706,
+      "sku": "73027B",
+      "name": "Gummi King Pizza 90g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1707,
+      "sku": "73033U",
+      "name": "Capri Sun Fruit Mix Soft Chews 147g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1708,
+      "sku": "73034X",
+      "name": "Capri Sun Monster Alarm Sour Chews 147g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1709,
+      "sku": "73111I",
+      "name": "Snoopy Gummies Bag 100g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1710,
+      "sku": "75994X",
+      "name": "Real Good Food Yoghurt Coated Cranberries Pouch 150g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1711,
+      "sku": "75995A",
+      "name": "Real Good Food Milk Chocolate Bananas Pouch 150g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1712,
+      "sku": "75996D",
+      "name": "Real Good Food Milk Chocolate Honeycomb Pouch 150g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1713,
+      "sku": "75997G",
+      "name": "Real Good Food Dark Chocolate Peanuts Pouch 150g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1714,
+      "sku": "75998J",
+      "name": "Real Good Food Milk Chocolate Peanuts Pouch 150g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1715,
+      "sku": "75999M",
+      "name": "Real Good Food Dark Chocolate Ginger Pouch 150g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1716,
+      "sku": "76000O",
+      "name": "Real Good Food Milk Chocolate Raisins Pouch 150g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1717,
+      "sku": "9592V",
+      "name": "Haribo Bone Shakers 140g £1.25 PMP",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1718,
+      "sku": "9596H",
+      "name": "Maoam Halloween Mixx 140g £1.25 PMP",
+      "previousCategory": "sweets-snacks",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1719,
+      "sku": "9838V",
+      "name": "Haribo Sour Bats 140g £1.25 PMP",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1720,
+      "sku": "SWE-6388I",
+      "name": "Haribo Bubblegum Bottles Z!ng 140g £1.25 PMP",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1721,
+      "sku": "SWE-72371O",
+      "name": "Candy Kittens Soul Pop 140g Clipstrip",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1722,
+      "sku": "SWE-72548C",
+      "name": "Golden Rounds Potato Crisp Biscuit Cheese 80g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1723,
+      "sku": "SWE-72549F",
+      "name": "Golden Rounds Potato Crisp Biscuit Tangy Tomato 80g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1724,
+      "sku": "SWE-72550J",
+      "name": "Golden Rounds Potato Crisp Biscuit Pizza 80g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1725,
+      "sku": "SWE-72551M",
+      "name": "Golden Rounds Potato Crisp Biscuit BBQ 80g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1726,
+      "sku": "SWE-75991O",
+      "name": "Real Good Food Milk Chocolate Brazil Nuts Pouch 120g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1727,
+      "sku": "SWE-7907V",
+      "name": "Maoam Blue Pinballs 140g £1.25 PMP",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1728,
+      "sku": "SWE-7909B",
+      "name": "Haribo Rhubarb & Custard Rolls 140g £1.25 PMP",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1729,
+      "sku": "73103J",
+      "name": "Umbro Socks & Ice Hair&Body Wash 150ml Gift Set",
+      "previousCategory": "toys-gifts",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1730,
+      "sku": "73104M",
+      "name": "Umbro Body Wash 3D Torso – 4 Assorted 350ml Gift Set",
+      "previousCategory": "toys-gifts",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1731,
+      "sku": "1232J",
+      "name": "Pampers Baby-Dry Nappies Size 4, 9-14kgs, 20-31lbs, Maxi 25’s",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1732,
+      "sku": "1240I",
+      "name": "Pampers Baby-Dry Nappies Size 5, 11-16kgs, 24-35lbs 23’s",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1733,
+      "sku": "2536N",
+      "name": "Pampers New Baby Premium Protection Nappies Size 1 2-5kg, 4-11lbs 22’s",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1734,
+      "sku": "39537E",
+      "name": "2 Pack Baby Sponges",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1735,
+      "sku": "48758P",
+      "name": "Cottontails for Mums Disposable Breast Pads 40’s",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1736,
+      "sku": "5358N",
+      "name": "Pampers Baby-Dry Nappies Size 6 15+kg, 33+ lbs 19’s",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1737,
+      "sku": "55913Q",
+      "name": "Huggies Little Swimmers Assorted Sizes",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1738,
+      "sku": "607T",
+      "name": "Johnson’s Baby Shampoo 100ml",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1739,
+      "sku": "61612L",
+      "name": "Johnson’s Baby Bath 300ml",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1740,
+      "sku": "70523R",
+      "name": "4My Baby Nappy Bags Fragranced 200’s",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1741,
+      "sku": "70814B",
+      "name": "Fisher Price Animal Ball 12.5cm CDU",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1742,
+      "sku": "70817K",
+      "name": "Fisher Price 8 Inch Animal Plush CDU",
+      "previousCategory": "baby-kids",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1743,
+      "sku": "39630N",
+      "name": "So Useful 3 Ply Pocket Tissues 10’s 6 Pack",
+      "previousCategory": "health-beauty",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1744,
+      "sku": "72569P",
+      "name": "Palmolive Shampoo 2in1 350ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1745,
+      "sku": "72571W",
+      "name": "L’Oreal Men Expert Antiperspirant Deodorant Thermic Resist Roll On 50ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1746,
+      "sku": "72769X",
+      "name": "Sure Women Whole Body Stick Rio Coconut 50ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1747,
+      "sku": "73196L",
+      "name": "La Vida Caribena Body Mists Mixed Case 35ml 24’s",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1748,
+      "sku": "HBT-62816L",
+      "name": "Simple Sensitive Twin Soap 2 x 100g Bars",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1749,
+      "sku": "HBT-68712F",
+      "name": "Pantene Conditioner Repair & Protect 90ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1750,
+      "sku": "HBT-69460S",
+      "name": "Aquafresh Active White Toothpaste 100ml",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1751,
+      "sku": "HBT-72889L",
+      "name": "Nivea Pampervan On-The-Go Gift Set",
+      "previousCategory": "health-beauty",
+      "category": "health-beauty",
+      "reason": "health or beauty wording"
+    },
+    {
+      "id": 1752,
+      "sku": "39529F",
+      "name": "Super Grip Sports Bottle 700ml",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1753,
+      "sku": "72388O",
+      "name": "Good Boy Chewables Medium Bones with Chicken 2 Pack",
+      "previousCategory": "household-pet",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1754,
+      "sku": "HPE-39614P",
+      "name": "Summit 15L Pack Away Backpack Navy",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1755,
+      "sku": "HPE-72383Z",
+      "name": "Good Boy Busy Bar Large Chew Chicken",
+      "previousCategory": "household-pet",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1756,
+      "sku": "HPE-72387L",
+      "name": "Good Boy Threads Bungee Figure 8 Tugger Dog Toy",
+      "previousCategory": "household-pet",
+      "category": "household-pet",
+      "reason": "household/pet wording"
+    },
+    {
+      "id": 1757,
+      "sku": "22768G",
+      "name": "Christmas Cards – Highland Cow 10pk",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1758,
+      "sku": "22771Q",
+      "name": "Christmas Cards – Bumper Box 5 Designs 25pk",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1759,
+      "sku": "22784E",
+      "name": "Christmas Gift Bag Santa & Friends Jumbo Woven",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1760,
+      "sku": "22796P",
+      "name": "Christmas 6 x 6″ Crackers Gold & Silver",
+      "previousCategory": "seasonal-christmas",
+      "category": "seasonal-christmas",
+      "reason": "seasonal wording"
+    },
+    {
+      "id": 1761,
+      "sku": "STP-31754R",
+      "name": "Bic 4 Colours Shine Tubo Pen Tub",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1762,
+      "sku": "STP-34567P",
+      "name": "Banner – Happy Birthday 2.3m x 110mm",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1763,
+      "sku": "STP-36259Q",
+      "name": "Coloured Pencils 10’s Full Length",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1764,
+      "sku": "STP-37404Q",
+      "name": "Duralon Glue Stick",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1765,
+      "sku": "STP-4148U",
+      "name": "Staedtler Stick Pen Blue",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1766,
+      "sku": "STX-39480E",
+      "name": "Baby Girl Card Teddy",
+      "previousCategory": "stationery-party",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1767,
+      "sku": "STX-39481H",
+      "name": "Baby Boy Card Bunting",
+      "previousCategory": "stationery-party",
+      "category": "baby-kids",
+      "reason": "baby/nursery wording"
+    },
+    {
+      "id": 1768,
+      "sku": "STX-39493S",
+      "name": "Birthday Card – Open Square Stars 160mmx160mm",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1769,
+      "sku": "STX-39494V",
+      "name": "Birthday Card – Open Square Cheers 160mmx160mm",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1770,
+      "sku": "STX-39510Z",
+      "name": "Birthday Card – Open Square Bright Flowers 160mmx160mm",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1771,
+      "sku": "STX-39512F",
+      "name": "Birthday Card – Open Square Cocktails 160mmx160mm",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1772,
+      "sku": "STX-39513I",
+      "name": "Birthday Card – Open Square Presents 160mmx160mm",
+      "previousCategory": "stationery-party",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1773,
+      "sku": "72819C",
+      "name": "Mitsuba Korean Crispies 85g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1774,
+      "sku": "72820G",
+      "name": "Mitsuba Katsu Curry Crispies 85g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1775,
+      "sku": "73028E",
+      "name": "Gummi King Jumbo Burger 88g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1776,
+      "sku": "73109B",
+      "name": "Barbie Gummies Bag 100g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1777,
+      "sku": "73110F",
+      "name": "Hot Wheels Gummies Bag 100g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1778,
+      "sku": "73112L",
+      "name": "Tetris Gummies Bag 125g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1779,
+      "sku": "73113O",
+      "name": "Pac-Man Gummies Bag 125g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1780,
+      "sku": "73114R",
+      "name": "Space Invaders Gummies Bag 125g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1781,
+      "sku": "73115U",
+      "name": "Tetris Sour Foam Gums Bag 125g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1782,
+      "sku": "73116X",
+      "name": "Pac-Man Sour Foam Gums Bag 125g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1783,
+      "sku": "SWE-72545T",
+      "name": "Wonder Cookies Original Vanilla 120g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1784,
+      "sku": "SWE-72546W",
+      "name": "Wonder Cookies Chocolate 120g",
+      "previousCategory": "sweets-snacks",
+      "category": "sweets-snacks",
+      "reason": "sweets/snacks wording"
+    },
+    {
+      "id": 1785,
+      "sku": "39632T",
+      "name": "Crayola Clicks Retractable Markers 10 Pack – Classic Colours",
+      "previousCategory": "toys-gifts",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1786,
+      "sku": "39633W",
+      "name": "Crayola Clicks Retractable Markers 10 Pack – Pastel Colours",
+      "previousCategory": "toys-gifts",
+      "category": "stationery-party",
+      "reason": "stationery/party wording"
+    },
+    {
+      "id": 1787,
+      "sku": "72656F",
+      "name": "The Big Squij Pig",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1788,
+      "sku": "72683L",
+      "name": "Animigos Funky Friends – Sunflower",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1789,
+      "sku": "72753A",
+      "name": "Scrunchems Sticky Squishy Highland Cow CDU",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1790,
+      "sku": "72989P",
+      "name": "Monopoly Deal",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1791,
+      "sku": "73159A",
+      "name": "K-Pop Superstars Doll 3 Pack",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1792,
+      "sku": "TGY-70562I",
+      "name": "Fuggler CDU",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1793,
+      "sku": "TGY-71039A",
+      "name": "Palm Pals Hunk Hippo Approx 5″",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1794,
+      "sku": "TGY-71040E",
+      "name": "Palm Pals Leno Lion Approx 5″",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1795,
+      "sku": "TGY-72083N",
+      "name": "Micro Teenies – Care Bears CDU",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1796,
+      "sku": "TGY-72221L",
+      "name": "Cuddly Capybara 15cm CDU",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    },
+    {
+      "id": 1797,
+      "sku": "TGY-72985D",
+      "name": "Hot Shots Can Alley",
+      "previousCategory": "toys-gifts",
+      "category": "toys-gifts",
+      "reason": "toy/gift wording"
+    }
+  ],
+  "migratedAt": "2026-08-21T14:48:26.161Z",
+  "backupPath": "/home/ubuntu/magnetic-source-catalogue-backups/before-all-product-category-migration-2026-08-21.json",
+  "finalCounts": {
+    "baby-kids": 59,
+    "clearance": 0,
+    "health-beauty": 82,
+    "household-pet": 37,
+    "seasonal-christmas": 43,
+    "stationery-party": 70,
+    "sweets-snacks": 65,
+    "toys-gifts": 55
+  },
+  "completed": true
+}

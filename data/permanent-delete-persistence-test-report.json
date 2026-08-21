@@ -1,0 +1,13 @@
+{
+  "testedAt": "2026-08-21T14:51:11.742Z",
+  "baselineProductCount": 411,
+  "countAfterTestInsert": 412,
+  "finalProductCount": 411,
+  "productCreatedThenDeleted": true,
+  "categoryCreatedThenDeleted": true,
+  "absentAfterFreshRead": true,
+  "absentAfterBuild": true,
+  "staticReseedDetected": false,
+  "testedSku": "DELETE-TEST-20260821",
+  "testedCategorySlug": "admin-delete-test-category-20260821"
+}

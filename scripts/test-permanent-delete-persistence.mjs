@@ -1,0 +1,57 @@
+import { execFile } from "node:child_process";
+import { promisify } from "node:util";
+import { writeFile } from "node:fs/promises";
+
+const execFileAsync = promisify(execFile);
+const projectRoot = "/home/ubuntu/magnetic-source-ecommerce-v2";
+const supabaseUrl = process.env.SUPABASE_URL || "https://pylhokxuqqbldnfjwjem.supabase.co";
+const publicKey = process.env.VITE_SUPABASE_ANON_KEY || "sb_publishable_ps9YypvtK5jByJ37N6LZzw_oanbTDgq";
+const adminEmail = process.env.DELETE_TEST_ADMIN_EMAIL || "msourceltd@gmail.com";
+const adminPassword = process.env.DELETE_TEST_ADMIN_PASSWORD;
+const confirmationPhrase = "TEST_PERMANENT_DELETE";
+const nonce = "20260821";
+const productSku = `DELETE-TEST-${nonce}`;
+const productSlug = `admin-delete-test-${nonce}`;
+const categorySlug = `admin-delete-test-category-${nonce}`;
+const categoryName = "Admin Delete Test Category";
+const reportPath = `${projectRoot}/data/permanent-delete-persistence-test-report.json`;
+
+if (process.env.CONFIRM_DELETE_TEST !== confirmationPhrase) throw new Error("Confirmation phrase required. No test record was created.");
+if (!adminPassword) throw new Error("DELETE_TEST_ADMIN_PASSWORD is required for the authenticated persistence test.");
+const request = async (path, options = {}, token) => {
+  const response = await fetch(`${supabaseUrl}${path}`, { ...options, headers: { apikey: publicKey, ...(token ? { Authorization: `Bearer ${token}` } : {}), ...(options.body ? { "Content-Type": "application/json" } : {}), ...(options.headers || {}) } });
+  if (!response.ok) throw new Error(`${options.method || "GET"} ${path} failed: ${response.status} ${await response.text()}`);
+  const text = await response.text();
+  return text ? JSON.parse(text) : null;
+};
+
+const baseline = await request("/rest/v1/products?select=id", {});
+if (baseline.length !== 411) throw new Error(`Expected 411 products before delete test, found ${baseline.length}.`);
+const login = await request("/auth/v1/token?grant_type=password", { method: "POST", body: JSON.stringify({ email: adminEmail, password: adminPassword }) });
+if (!login?.access_token) throw new Error("Admin authentication failed; delete test did not run.");
+const token = login.access_token;
+const existingTestProducts = await request(`/rest/v1/products?select=id&sku=eq.${productSku}`, {}, token);
+for (const product of existingTestProducts) await request(`/rest/v1/products?id=eq.${product.id}`, { method: "DELETE", headers: { Prefer: "return=representation" } }, token);
+const existingTestCategories = await request(`/rest/v1/categories?select=id&slug=eq.${categorySlug}`, {}, token);
+for (const category of existingTestCategories) await request(`/rest/v1/categories?id=eq.${category.id}`, { method: "DELETE", headers: { Prefer: "return=representation" } }, token);
+const createdProduct = await request("/rest/v1/products", { method: "POST", headers: { Prefer: "return=representation" }, body: JSON.stringify({ name: "Admin Delete Persistence Test Product", slug: productSlug, category: "toys-gifts", price: 0, sku: productSku, availability: "Availability to confirm", pack: "Pack of 1", description: "", image: "https://www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-48880w_2.png", tags: ["Catalogue line", "Price hidden"], featured: false }) }, token);
+if (!Array.isArray(createdProduct) || createdProduct.length !== 1) throw new Error("Test product was not created exactly once.");
+const createdCategory = await request("/rest/v1/categories", { method: "POST", headers: { Prefer: "return=representation" }, body: JSON.stringify({ name: categoryName, slug: categorySlug, summary: "Temporary delete persistence test category." }) }, token);
+if (!Array.isArray(createdCategory) || createdCategory.length !== 1) throw new Error("Test category was not created exactly once.");
+const afterCreate = await request("/rest/v1/products?select=id", {});
+if (afterCreate.length !== 412) throw new Error(`Expected 412 products after test insert, found ${afterCreate.length}.`);
+const deletedProduct = await request(`/rest/v1/products?id=eq.${createdProduct[0].id}`, { method: "DELETE", headers: { Prefer: "return=representation" } }, token);
+if (!Array.isArray(deletedProduct) || deletedProduct.length !== 1 || deletedProduct[0].id !== createdProduct[0].id) throw new Error("Product delete returned no deleted row; the permanent delete contract failed.");
+const deletedCategory = await request(`/rest/v1/categories?id=eq.${createdCategory[0].id}`, { method: "DELETE", headers: { Prefer: "return=representation" } }, token);
+if (!Array.isArray(deletedCategory) || deletedCategory.length !== 1 || deletedCategory[0].id !== createdCategory[0].id) throw new Error("Category delete returned no deleted row; the permanent delete contract failed.");
+const afterRefreshProducts = await request(`/rest/v1/products?select=id,sku&or=(sku.eq.${productSku},slug.eq.${productSlug})`, {});
+const afterRefreshCategories = await request(`/rest/v1/categories?select=id,slug&slug=eq.${categorySlug}`, {});
+if (afterRefreshProducts.length || afterRefreshCategories.length) throw new Error("A deleted test record returned after a fresh read; permanent delete failed.");
+await execFileAsync("pnpm", ["build"], { cwd: projectRoot, timeout: 180000 });
+const afterBuildProducts = await request(`/rest/v1/products?select=id,sku&or=(sku.eq.${productSku},slug.eq.${productSlug})`, {});
+const afterBuildCategories = await request(`/rest/v1/categories?select=id,slug&slug=eq.${categorySlug}`, {});
+const finalProducts = await request("/rest/v1/products?select=id", {});
+if (afterBuildProducts.length || afterBuildCategories.length || finalProducts.length !== 411) throw new Error(`A deleted test record returned after build or total did not restore: products=${afterBuildProducts.length}; categories=${afterBuildCategories.length}; total=${finalProducts.length}.`);
+const report = { testedAt: new Date().toISOString(), baselineProductCount: baseline.length, countAfterTestInsert: afterCreate.length, finalProductCount: finalProducts.length, productCreatedThenDeleted: true, categoryCreatedThenDeleted: true, absentAfterFreshRead: true, absentAfterBuild: true, staticReseedDetected: false, testedSku: productSku, testedCategorySlug: categorySlug };
+await writeFile(reportPath, `${JSON.stringify(report, null, 2)}\n`);
+console.log(JSON.stringify({ ...report, reportPath }, null, 2));
