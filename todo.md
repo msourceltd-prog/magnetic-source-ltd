@@ -339,3 +339,17 @@
 - [x] Audit representative product image scale and framing across Household & Pet, Sweets & Snacks, Toys & Gifts, Stationery & Party, Health & Beauty, Seasonal & Christmas, Clearance, and Baby & Kids. Compact packaging was most noticeably underscaled in Sweets & Snacks, Seasonal & Christmas, and Baby & Kids; all departments required full-packaging protection.
 - [x] Increase genuinely small product packs within their white frames while protecting tall packaging and product edges from cropping. Product-card image frames now use a larger 96% contained fit with reduced white padding, so every product scales up proportionally without clipping its source canvas or packaging.
 - [x] Build, visually verify mobile and desktop category pages, deploy the image-presentation update, and confirm the live result. The live Cloudflare stylesheet now contains the 20px desktop padding and 96% contained product-image rules.
+
+## Specified Baby & Kids Product Image Corrections
+
+- [x] Locate and inspect current Baby & Kids image presentation for Johnson’s Baby Shampoo 100ml, Cottontails for Mums Disposable Breast Pads 40’s, Tidyz Degradable Nappy Bags Pocket Pack 4 x 25’s, Johnson’s Baby Shampoo 300ml, Johnson’s Baby Powder Natural 200g, and Capitol Safety Soothers Pink 2 Pack. The Shampoo 300ml, Tidyz Nappy Bags, and Soothers sources are tall portrait canvases; the remaining products use compact or square canvases.
+- [x] Apply product-specific contained framing adjustments so the complete packaging remains visible with a polished premium scale. The six product slugs now receive a larger portrait frame, a 100% `object-fit: contain` image area, and reduced padding; no source canvas is cropped.
+- [x] Build and verify desktop and mobile catalogue cards. All six filtered Baby & Kids cards now render fully at 390px with their complete product package visible, including the two initially delayed Supabase image responses; TypeScript and production build checks pass.
+- [ ] Save, deploy, and confirm the six corrected Baby & Kids images on the live Cloudflare catalogue.
+
+## Admin Login Recovery
+
+- [x] Verify the live `/admin` route and current Supabase Auth user status. The secure sign-in form loads; `msourceltd@gmail.com` is now a confirmed Supabase Auth user but its profile still has the default `customer` role.
+- [x] Confirm the Supabase Table Editor save control is not functioning in the owner browser session; the attempted role change has not persisted and the profile remains `customer`.
+- [x] Identify and use a safe authorized alternative to persist the approved `admin` profile role without changing catalogue data or weakening database access controls. The owner executed the prepared SQL from their browser and the SQL result returned the profile ID with role `admin`.
+- [x] Confirm the created account authenticates successfully and its own Supabase profile now returns role `admin`; the live `/admin` route is ready for sign-in.

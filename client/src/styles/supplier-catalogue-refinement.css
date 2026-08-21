@@ -81,6 +81,26 @@
   transition: opacity 160ms ease-out;
 }
 
+/* The six requested Baby & Kids lines use source canvases that are unusually
+ * tall or compact. Their portrait frame gives each full pack more visual room
+ * while the contained image rule guarantees no bottle, pouch, or label crops. */
+.product-image-wrap.product-image-wrap-featured-baby {
+  min-height: 282px;
+  padding: 10px 14px 8px;
+  background:
+    linear-gradient(90deg, transparent 49.75%, rgba(18, 76, 156, 0.045) 49.75%, rgba(18, 76, 156, 0.045) 50.25%, transparent 50.25%),
+    #fff;
+}
+
+.product-image-wrap.product-image-wrap-featured-baby img {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  object-fit: contain !important;
+  object-position: center !important;
+}
+
 .image-corner {
   display: none;
 }
@@ -267,6 +287,11 @@
     height: 96% !important;
     max-width: 96% !important;
     max-height: 96% !important;
+  }
+
+  .product-image-wrap.product-image-wrap-featured-baby {
+    min-height: 238px;
+    padding: 8px 9px 7px;
   }
 
   .product-detail-image {
