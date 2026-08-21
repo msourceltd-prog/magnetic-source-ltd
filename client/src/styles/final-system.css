@@ -175,8 +175,9 @@ body,
   max-width: 560px;
   margin: 0;
   padding: 48px !important;
-  background: #F4F6F8 !important;
+  background: transparent !important;
   box-shadow: none !important;
+  text-shadow: 0 1px 0 rgb(244 246 248 / 0.92), 0 0 22px rgb(244 246 248 / 0.84);
 }
 
 .hero-copy .eyebrow {

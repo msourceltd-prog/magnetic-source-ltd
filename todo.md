@@ -64,6 +64,10 @@
 
 - [x] Restore the warehouse photo across 100% of the homepage hero using cover/centre positioning; place the hero copy inside a `#F4F6F8` card with 48px padding and a 560px maximum width; remove the full top utility strip text, links, and its background/divider row. Production build and TypeScript validation pass; the revised hero and simplified header were visually checked at 1280px and 390px.
 
+## Image-Backed Hero Copy
+
+- [x] Remove only the solid hero-copy background so the warehouse image is visible directly behind the hero text, while retaining the existing hero copy layout and text styling. Production build and TypeScript validation pass; the image-backed copy was visually checked at 1280px and 390px.
+
 - [x] Review the supplied reference’s public category structure and identify compatible original product-type additions.
 - [x] Expand the original static approval-demo catalogue without reusing reference names, descriptions, SKUs, pricing, or images.
 - [x] Reuse existing remote sample imagery rather than uploading additional Supabase Storage assets.
