@@ -5,7 +5,6 @@
 import { ArrowUpRight, Mail, MapPin, Phone } from "lucide-react";
 
 const footerGroups = [
-  { title: "Browse", links: [["Wholesale catalogue", "/shop"], ["Latest records", "/shop?sort=new"], ["Catalogue lines", "/shop"], ["Toys & Gifts", "/shop?category=toys-gifts"]] },
   { title: "Support", links: [["About Magnetic Source", "/about"], ["Trade account", "/trade-account"], ["Delivery & returns", "/delivery-returns"], ["Contact", "/contact"], ["Privacy", "/privacy"], ["Terms", "/terms"]] },
 ];
 
@@ -18,6 +17,7 @@ export default function SiteFooter() {
         <p>Practical catalogue lines, clear product information and a no-payment trade enquiry journey.</p>
         <a href="/contact" className="footer-contact-link">Speak to the trade desk <ArrowUpRight size={17} /></a>
       </section>
+      <div className="footer-browse-spacer" aria-hidden="true" />
       {footerGroups.map((group) => <section className="footer-links" key={group.title}>
         <h3>{group.title}</h3>
         {group.links.map(([label, href]) => <a key={label} href={href}>{label}</a>)}
