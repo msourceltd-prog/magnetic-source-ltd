@@ -9,6 +9,10 @@ import { useLocation } from "wouter";
 import { useCart } from "@/contexts/CartContext";
 import { type Product, formatGBP, isPriceHidden, SUPPLIER_IMAGE_PLACEHOLDER } from "@/lib/catalogRuntime";
 
+const preloadProductDetail = () => {
+  void import("@/pages/ProductDetail");
+};
+
 const portraitProductFrames = new Set([
   "johnson-s-baby-shampoo-100ml-607t",
   "cottontails-for-mums-disposable-breast-pads-40-s-48758p",
@@ -83,12 +87,12 @@ function ProductCard({ product, compact = false, preview = false, priority = fal
   };
 
   return <article className={`product-card ${compact ? "product-card-compact" : ""}`}>
-    <a href={`/product/${product.slug}`} onClick={followProduct} className="product-image-link" aria-label={`View ${product.name}`}>
+    <a href={`/product/${product.slug}`} onClick={followProduct} onMouseEnter={preloadProductDetail} onFocus={preloadProductDetail} onTouchStart={preloadProductDetail} className="product-image-link" aria-label={`View ${product.name}`}>
       {product.image === SUPPLIER_IMAGE_PLACEHOLDER ? <div className="product-image-wrap product-image-pending" role="img" aria-label={`Supplier image pending for ${product.name}`}><span className="pending-image-mark" aria-hidden="true" /><span className="pending-image-copy">Image pending</span><span className="image-corner" /></div> : <div className={`product-image-wrap ${productFrameClass} ${imageReady ? "image-ready" : "image-loading"}`} aria-busy={!imageReady}><img src={product.image} alt={`Product image of ${product.name}, ${product.pack}, SKU ${product.sku}`} loading={compact || priority ? "eager" : "lazy"} fetchPriority={compact || priority ? "high" : "low"} decoding="async" onLoad={() => setImageReady(true)} onError={() => setImageReady(true)} /><span className="product-image-label">View product</span><span className="image-corner" /></div>}
     </a>
     <div className="product-card-body">
       <div className="product-card-topline"><span>{product.tags[0] || "Catalogue line"}</span></div>
-      <a href={`/product/${product.slug}`} onClick={followProduct} className="product-name-link"><h3>{product.name}</h3><ArrowUpRight size={16} /></a>
+      <a href={`/product/${product.slug}`} onClick={followProduct} onMouseEnter={preloadProductDetail} onFocus={preloadProductDetail} onTouchStart={preloadProductDetail} className="product-name-link"><h3>{product.name}</h3><ArrowUpRight size={16} /></a>
       <div className="product-ledger" aria-label={`Trade facts: ${product.pack}; reference ${product.sku}`}><span><i>Pack</i><b>{product.pack}</b></span><span><i>Ref</i><b>{product.sku}</b></span></div>
       <div className="product-card-bottom">
         <div><strong>{priceHidden ? "Price on request" : formatGBP(product.price)}</strong><small>{priceHidden ? "Trade quote before order" : product.priceBasis}</small></div>
