@@ -12,7 +12,6 @@ import { useCatalog } from "@/contexts/CatalogContext";
 export default function Home() {
   const { categories, products } = useCatalog();
   const featured = products.slice(0, 8);
-  const heroProduct = featured[0];
   return <StoreLayout>
     <section className="hero-section">
       <div className="hero-image"><picture><source media="(max-width: 760px)" srcSet="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fm=webp&fit=crop&w=900&q=72" /><source media="(max-width: 1200px)" srcSet="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fm=webp&fit=crop&w=1400&q=76" /><img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fm=webp&fit=crop&w=1800&q=78" alt="Magnetic Source wholesale trade cartons stored in a UK warehouse" width="1800" height="1200" fetchPriority="high" decoding="async" /></picture></div>
@@ -26,12 +25,6 @@ export default function Home() {
           <p className="eyebrow">UK trade supply · curated for everyday retail</p>
           <h1>UK wholesale catalogue for your<br /><em>next best-seller.</em></h1>
           <p className="hero-description">A practical source for compact, useful lines that earn their place on the shelf, in the parcel and on the marketplace listing.</p>
-          <div className="hero-actions"><Link href="/shop" className="button-primary">Shop the edit <ArrowRight size={18} /></Link><Link href="/shop?tag=marketplace" className="text-link">For marketplace sellers <ArrowRight size={16} /></Link></div>
-          <div className="hero-metrics"><span><b>Trade</b> enquiry</span><span><b>{categories.length}</b> departments</span><span><b>Quote</b> on request</span></div>
-          {heroProduct && <aside className="hero-product-proof" aria-label="Catalogue product proof">
-            <div className="hero-product-image"><img src={heroProduct.image} alt={`Product image of ${heroProduct.name}, ${heroProduct.pack}, SKU ${heroProduct.sku}`} loading="eager" decoding="async" /></div>
-            <div><span className="hero-proof-label">Catalogue proof / 01</span><strong>{heroProduct.name}</strong><span>{heroProduct.pack} · {heroProduct.sku}</span><Link href={`/product/${heroProduct.slug}`}>View product details <ArrowRight size={14} /></Link></div>
-          </aside>}
         </div>
       </div>
     </section>
