@@ -3,8 +3,9 @@
  * exact product image, factual description, SKU and pack; quote-required lines
  * never expose an internal zero value as a public price.
  */
-import { useEffect, useState } from "react";
+import { memo, useEffect, useState, type MouseEvent } from "react";
 import { ArrowUpRight, ShoppingBag } from "lucide-react";
+import { useLocation } from "wouter";
 import { useCart } from "@/contexts/CartContext";
 import { type Product, formatGBP, isPriceHidden, SUPPLIER_IMAGE_PLACEHOLDER } from "@/lib/catalogRuntime";
 
@@ -60,8 +61,9 @@ const compactProductFrames = new Set([
   "nuk-first-choice-day-night-soother-2-pack-0-6m-girls-72591g",
 ]);
 
-export default function ProductCard({ product, compact = false, preview = false }: { product: Product; compact?: boolean; preview?: boolean }) {
+function ProductCard({ product, compact = false, preview = false, priority = false }: { product: Product; compact?: boolean; preview?: boolean; priority?: boolean }) {
   const { addItem } = useCart();
+  const [, navigate] = useLocation();
   const priceHidden = isPriceHidden(product);
   const productFrameClass = portraitProductFrames.has(product.slug)
     ? "product-image-wrap-featured-portrait"
@@ -74,13 +76,19 @@ export default function ProductCard({ product, compact = false, preview = false 
     setImageReady(false);
   }, [product.image]);
 
+  const followProduct = (event: MouseEvent<HTMLAnchorElement>) => {
+    if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    navigate(`/product/${product.slug}`);
+  };
+
   return <article className={`product-card ${compact ? "product-card-compact" : ""}`}>
-    <a href={`/product/${product.slug}`} className="product-image-link" aria-label={`View ${product.name}`}>
-      {product.image === SUPPLIER_IMAGE_PLACEHOLDER ? <div className="product-image-wrap product-image-pending" role="img" aria-label={`Supplier image pending for ${product.name}`}><span className="pending-image-mark" aria-hidden="true" /><span className="pending-image-copy">Image pending</span><span className="image-corner" /></div> : <div className={`product-image-wrap ${productFrameClass} ${imageReady ? "image-ready" : "image-loading"}`} aria-busy={!imageReady}><img src={product.image} alt={`Product image of ${product.name}, ${product.pack}, SKU ${product.sku}`} loading={compact ? "eager" : "lazy"} fetchPriority={compact ? "high" : "low"} decoding="async" onLoad={() => setImageReady(true)} onError={() => setImageReady(true)} /><span className="product-image-label">View product</span><span className="image-corner" /></div>}
+    <a href={`/product/${product.slug}`} onClick={followProduct} className="product-image-link" aria-label={`View ${product.name}`}>
+      {product.image === SUPPLIER_IMAGE_PLACEHOLDER ? <div className="product-image-wrap product-image-pending" role="img" aria-label={`Supplier image pending for ${product.name}`}><span className="pending-image-mark" aria-hidden="true" /><span className="pending-image-copy">Image pending</span><span className="image-corner" /></div> : <div className={`product-image-wrap ${productFrameClass} ${imageReady ? "image-ready" : "image-loading"}`} aria-busy={!imageReady}><img src={product.image} alt={`Product image of ${product.name}, ${product.pack}, SKU ${product.sku}`} loading={compact || priority ? "eager" : "lazy"} fetchPriority={compact || priority ? "high" : "low"} decoding="async" onLoad={() => setImageReady(true)} onError={() => setImageReady(true)} /><span className="product-image-label">View product</span><span className="image-corner" /></div>}
     </a>
     <div className="product-card-body">
       <div className="product-card-topline"><span>{product.tags[0] || "Catalogue line"}</span></div>
-      <a href={`/product/${product.slug}`} className="product-name-link"><h3>{product.name}</h3><ArrowUpRight size={16} /></a>
+      <a href={`/product/${product.slug}`} onClick={followProduct} className="product-name-link"><h3>{product.name}</h3><ArrowUpRight size={16} /></a>
       <div className="product-ledger" aria-label={`Trade facts: ${product.pack}; reference ${product.sku}`}><span><i>Pack</i><b>{product.pack}</b></span><span><i>Ref</i><b>{product.sku}</b></span></div>
       <div className="product-card-bottom">
         <div><strong>{priceHidden ? "Price on request" : formatGBP(product.price)}</strong><small>{priceHidden ? "Trade quote before order" : product.priceBasis}</small></div>
@@ -89,3 +97,5 @@ export default function ProductCard({ product, compact = false, preview = false 
     </div>
   </article>;
 }
+
+export default memo(ProductCard);
