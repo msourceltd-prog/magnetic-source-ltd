@@ -42,7 +42,8 @@ export default function Shop() {
     const searchTerms = normalizeSearch(search).split(" ").filter(Boolean);
     const pool = products.filter((product) => {
       const searchable = normalizeSearch(`${product.name} ${product.sku} ${product.pack} ${product.description} ${product.category} ${product.tags.join(" ")}`);
-      const matchesSearch = !searchTerms.length || searchTerms.every((term) => (aliases[term] || [term]).some((candidate) => searchable.includes(candidate)));
+      const searchableTerms = new Set(searchable.split(" ").filter(Boolean));
+      const matchesSearch = !searchTerms.length || searchTerms.every((term) => (aliases[term] || [term]).some((candidate) => searchableTerms.has(candidate)));
       const hasPublicPrice = !isPriceHidden(product);
       return (!activeCategory || product.category === activeCategory)
         && matchesSearch

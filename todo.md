@@ -390,3 +390,9 @@
 - [x] Import the 20 verified Health & Beauty products through a backup-first authenticated process, expanding Health & Beauty to 60 products and the full public catalogue to 339 products.
 - [x] Update the static SEO audit to derive its expected sitemap count from the current catalogue, then build and visually verify desktop/mobile cards. The audit passes with 355 sitemap URLs and 347 pre-rendered public pages; the desktop and mobile Health & Beauty views both show the expanded 60-product department with complete contained product frames.
 - [ ] Save, deploy, and confirm the expanded Health & Beauty department on Cloudflare.
+
+## Exact Catalogue Product Removals
+
+- [x] Locate and verify exact live records for all 18 explicitly listed product removals across Baby & Kids, Clearance, Seasonal & Christmas, Stationery & Party, Toys & Gifts, and Health & Beauty. Although the request referred to 17 products, the supplied product list contained 18 distinct exact matches.
+- [x] Create a full pre-removal backup and permanently remove only the 18 verified listed product records without altering any category or unlisted product. A backup-versus-live diagnostic confirmed there were no unintended non-target deletions.
+- [x] Verify all 18 products are absent from public catalogue data, category pages, product search, product routes, and the generated sitemap before deployment. The release verifier confirms 321 products, zero full-name search matches, no removed product routes in the sitemap or pre-rendered output, and the expected eight-department count split.
