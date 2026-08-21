@@ -319,4 +319,11 @@
 
 - [x] Verify why the deployed magnetic-field logo path fails in the owner’s browser and preserve the existing responsive layout: Cloudflare returned the SPA HTML document for the old relative manuscript-storage image path instead of an image.
 - [x] Replace the logo with a deployment-safe self-contained SVG header mark and root `favicon.svg`, then rebuild the responsive header and speed improvements. Verified at 390px and 1280px that the field mark and wordmark are fully visible and correctly proportioned.
-- [ ] Confirm the repaired logo, department navigation speed, and product-image stability on the live Cloudflare custom domain.
+- [x] Confirm the repaired logo, department navigation speed, and product-image stability on the live Cloudflare custom domain. The deployed custom domain now returns `/favicon.svg` as `image/svg+xml`; the prior image path no longer appears in generated public HTML, and the public homepage loads successfully.
+
+## Live Performance Audit
+
+- [x] Measure current live delivery timing, JavaScript bundle composition, font/image requests, and Supabase catalogue-loading cost across homepage and shop routes. The remaining bottlenecks are a large initial bundle caused by eagerly importing the legacy fallback catalogue, an oversized 2000px hero image on mobile, and network delay for the live static delivery and public Supabase catalogue request.
+- [x] Implement only safe, high-impact speed improvements while preserving dynamic catalogue loading, crawlable SEO routes, and responsive branding. The public initial JavaScript bundle fell from 844,321 bytes to 742,972 bytes (about 12% smaller before compression) after the legacy fallback catalogue was isolated to the lazy Admin route; mobile now requests a 900px hero source and tablet a 1400px source instead of the 2000px desktop image. The updated home layout verified at 390px and 1280px.
+- [x] Build and verify the optimized store. The SEO audit passes for 327 public pages and 335 sitemap URLs, while the 390px Baby & Kids shop route loads the live 40-product department without falling back to the removed legacy catalogue.
+- [ ] Save, deploy, and report the improvements plus any remaining third-party or free-plan delivery limits.

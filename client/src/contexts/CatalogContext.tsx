@@ -4,7 +4,7 @@
  * quote-required records are explicitly marked instead of exposing zero values.
  */
 import { createContext, type PropsWithChildren, useContext, useEffect, useState } from "react";
-import { categories as fallbackCategories, products as fallbackProducts, type Category, type Product } from "@/data/catalog";
+import { currentCategories, SUPPLIER_IMAGE_PLACEHOLDER, type Category, type Product } from "@/lib/catalogRuntime";
 import { supabase } from "@/lib/supabase";
 
 type CatalogContextValue = {
@@ -17,9 +17,9 @@ type CatalogContextValue = {
 type RemoteCategory = { id: number; name: string; slug: string; summary: string | null };
 type RemoteProduct = Omit<Product, "price" | "id" | "availability" | "priceBasis" | "brand"> & { id: number | string; price: number | string; tags: string[] | null; availability: string | null };
 
-const fallbackCatalog: CatalogContextValue = { categories: fallbackCategories, products: fallbackProducts, loading: false, usingSupabase: false };
+const fallbackCatalog: CatalogContextValue = { categories: currentCategories, products: [], loading: false, usingSupabase: false };
 const CatalogContext = createContext<CatalogContextValue>(fallbackCatalog);
-const preferredCategoryOrder = ["household-pet", "sweets-snacks", "charging-electrical", "toys-gifts", "stationery-party", "health-beauty", "seasonal-christmas", "clearance"];
+const preferredCategoryOrder = ["household-pet", "sweets-snacks", "toys-gifts", "stationery-party", "health-beauty", "seasonal-christmas", "clearance", "baby-kids"];
 
 export function CatalogProvider({ children }: PropsWithChildren) {
   const [catalog, setCatalog] = useState<CatalogContextValue>(() => supabase ? { ...fallbackCatalog, categories: [], products: [], loading: true } : fallbackCatalog);
@@ -47,13 +47,13 @@ export function CatalogProvider({ children }: PropsWithChildren) {
             return (leftOrder === -1 ? 999 : leftOrder) - (rightOrder === -1 ? 999 : rightOrder) || left.name.localeCompare(right.name);
           })
           .map((category) => ({ name: category.name, slug: category.slug, summary: category.summary || "Trade catalogue category.", accent: "Trade edit" }))
-        : fallbackCategories;
+          : currentCategories;
       const liveProducts = (productResult.data as RemoteProduct[]).map((product) => ({
         ...product,
         id: Number(product.id),
         price: Number(product.price),
         tags: product.tags?.length ? product.tags : ["Catalogue line"],
-        image: product.image || fallbackProducts[0].image,
+        image: product.image || SUPPLIER_IMAGE_PLACEHOLDER,
         availability: "Availability to confirm" as const,
         priceBasis: product.tags?.includes("Price hidden")
           ? "Price on request" as const

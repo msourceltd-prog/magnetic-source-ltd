@@ -9,7 +9,7 @@ import { useRoute } from "wouter";
 import ProductCard from "@/components/ProductCard";
 import { MAGNETIC_SOURCE_URL } from "@/components/SEOHead";
 import StoreLayout from "@/components/StoreLayout";
-import { formatGBP, isPriceHidden, SUPPLIER_IMAGE_PLACEHOLDER } from "@/data/catalog";
+import { formatGBP, isPriceHidden, SUPPLIER_IMAGE_PLACEHOLDER } from "@/lib/catalogRuntime";
 import { useCart } from "@/contexts/CartContext";
 import { useCatalog } from "@/contexts/CatalogContext";
 

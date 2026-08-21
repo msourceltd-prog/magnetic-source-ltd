@@ -6,7 +6,7 @@
 import { useEffect, useState } from "react";
 import { ArrowUpRight, ShoppingBag } from "lucide-react";
 import { useCart } from "@/contexts/CartContext";
-import { type Product, formatGBP, isPriceHidden, SUPPLIER_IMAGE_PLACEHOLDER } from "@/data/catalog";
+import { type Product, formatGBP, isPriceHidden, SUPPLIER_IMAGE_PLACEHOLDER } from "@/lib/catalogRuntime";
 
 export default function ProductCard({ product, compact = false }: { product: Product; compact?: boolean }) {
   const { addItem } = useCart();

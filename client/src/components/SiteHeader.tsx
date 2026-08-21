@@ -7,7 +7,7 @@ import { useLocation } from "wouter";
 import { ChevronDown, Menu, Search, ShoppingBag, X } from "lucide-react";
 import { useCart } from "@/contexts/CartContext";
 import { useCatalog } from "@/contexts/CatalogContext";
-import { isPriceHidden } from "@/data/catalog";
+import { isPriceHidden } from "@/lib/catalogRuntime";
 
 const utilityLinks = [
   ["Contact", "/contact"],

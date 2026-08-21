@@ -3,7 +3,7 @@
  * It contains no payment collection and retains only local browser state.
  */
 import { createContext, useContext, useEffect, useMemo, useState } from "react";
-import type { Product } from "@/data/catalog";
+import type { Product } from "@/lib/catalogRuntime";
 
 export type CartItem = Product & { quantity: number };
 

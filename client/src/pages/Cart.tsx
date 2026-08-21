@@ -5,7 +5,7 @@
 import { ArrowRight, Minus, Plus, ShoppingBag, Trash2 } from "lucide-react";
 import { Link } from "wouter";
 import StoreLayout from "@/components/StoreLayout";
-import { formatGBP, isPriceHidden, SUPPLIER_IMAGE_PLACEHOLDER } from "@/data/catalog";
+import { formatGBP, isPriceHidden, SUPPLIER_IMAGE_PLACEHOLDER } from "@/lib/catalogRuntime";
 import { useCart } from "@/contexts/CartContext";
 
 export default function Cart() {

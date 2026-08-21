@@ -9,7 +9,7 @@ import { useLocation, useSearch } from "wouter";
 import ProductCard from "@/components/ProductCard";
 import StoreLayout from "@/components/StoreLayout";
 import { useCatalog } from "@/contexts/CatalogContext";
-import { isPriceHidden } from "@/data/catalog";
+import { isPriceHidden } from "@/lib/catalogRuntime";
 
 const getQuery = (search: string, key: string) => new URLSearchParams(search.startsWith("?") ? search : `?${search}`).get(key) || "";
 

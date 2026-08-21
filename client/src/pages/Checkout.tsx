@@ -6,7 +6,7 @@ import { FormEvent, useState } from "react";
 import { ArrowRight, CheckCircle2, LockKeyhole, Truck } from "lucide-react";
 import { Link, useLocation } from "wouter";
 import StoreLayout from "@/components/StoreLayout";
-import { isPriceHidden, SUPPLIER_IMAGE_PLACEHOLDER } from "@/data/catalog";
+import { isPriceHidden, SUPPLIER_IMAGE_PLACEHOLDER } from "@/lib/catalogRuntime";
 import { useCart } from "@/contexts/CartContext";
 import { saveDemoOrder } from "@/lib/demoOrders";
 

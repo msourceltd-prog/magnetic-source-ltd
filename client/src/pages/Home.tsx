@@ -14,7 +14,7 @@ export default function Home() {
   const heroProduct = featured[0];
   return <StoreLayout>
     <section className="hero-section">
-      <div className="hero-image"><img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=2000&q=82" alt="Magnetic Source wholesale trade cartons stored in a UK warehouse" fetchPriority="high" decoding="async" /></div>
+      <div className="hero-image"><picture><source media="(max-width: 760px)" srcSet="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=900&q=76" /><source media="(max-width: 1200px)" srcSet="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1400&q=80" /><img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=2000&q=82" alt="Magnetic Source wholesale trade cartons stored in a UK warehouse" width="2000" height="1333" fetchPriority="high" decoding="async" /></picture></div>
       <div className="trade-shell hero-layout">
         <aside className="hero-rail" aria-label="Department shortcuts">
           <span className="eyebrow">Browse the source</span>
