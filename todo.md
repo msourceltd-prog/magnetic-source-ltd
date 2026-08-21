@@ -476,3 +476,10 @@
 - [x] Audit every live Sweets & Snacks and Household & Pet product assignment against product names and descriptions to identify any confirmed cross-category records. Eight confirmed Good Boy/Rosewood pet products were incorrectly assigned to Sweets & Snacks; one Haribo Bubblegum Bottles sweet was correctly retained despite the word “Bottles”. No Sweets & Snacks products were found in Household & Pet.
 - [x] Create a backup and move only confirmed Household & Pet records out of Sweets & Snacks, preserving every other product assignment. A full backup was saved and exactly eight Good Boy/Rosewood pet products moved to Household & Pet; total products remain 411, Household & Pet is now 45, and Sweets & Snacks is now 57.
 - [x] Build and verify both category pages contain appropriate products only. The updated Sweets & Snacks page shows 57 products, Household & Pet shows 45 products, both category headings and active filters match, and the 411-product build succeeds; deployment follows the saved checkpoint.
+
+## Restore Pre-Migration Product Categories
+
+- [x] Identify and compare the exact 411-product backup from immediately before the automatic category migration with the current catalogue.
+- [x] Create a new current-catalogue backup and restore only each product’s original category assignment from the pre-migration backup. Exactly 61 changed assignments were restored; all 411 products remain. Current totals are Baby & Kids 54, Clearance 22, Health & Beauty 74, Household & Pet 47, Seasonal & Christmas 40, Stationery & Party 60, Sweets & Snacks 55, and Toys & Gifts 59.
+- [x] Verify that all 411 products remain and that the permanent-delete repair plus required Admin Category field remain unchanged. The post-restore validation confirms 411 matching SKUs; Admin still requires an existing category before saving, verifies returned deleted rows before success feedback, and blocks category deletion when products remain assigned.
+- [ ] Rebuild and verify the category-only restoration. Production build and TypeScript validation pass with all 411 product routes and a 427-URL sitemap; live publication follows the saved checkpoint.
