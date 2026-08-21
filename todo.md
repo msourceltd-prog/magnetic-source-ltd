@@ -16,6 +16,10 @@
 
 - [x] Remove only the blue in-grid Trade Collection promotional banner from the shared catalogue layout across all category and department views, preserving the product grid, products, filters, sorting, search, and loading behaviour. Production build and TypeScript validation pass; the continuous category grid was visually checked at 1280px and 390px.
 
+## Department Navigation Service Strip
+
+- [x] Add a responsive four-point service-benefits strip directly beneath the department navigation: Free delivery on orders over £200 ex VAT, Everyday low pricing, Fast and friendly service, and No minimum order quantity. The verified reference uses a compact white band with cobalt circular icons and a thin cobalt lower rule. Preserve the existing header, navigation, and catalogue behaviour. Production build and TypeScript validation pass; the strip was visually checked at 1280px, 768px, and 390px.
+
 - [x] Review the supplied reference’s public category structure and identify compatible original product-type additions.
 - [x] Expand the original static approval-demo catalogue without reusing reference names, descriptions, SKUs, pricing, or images.
 - [x] Reuse existing remote sample imagery rather than uploading additional Supabase Storage assets.

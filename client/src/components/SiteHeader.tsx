@@ -4,7 +4,7 @@
  */
 import { FormEvent, MouseEvent, useState } from "react";
 import { useLocation } from "wouter";
-import { ChevronDown, Menu, Search, ShoppingBag, X } from "lucide-react";
+import { BadgeCheck, ChevronDown, Headphones, Menu, Search, ShoppingBag, Truck, X } from "lucide-react";
 import { useCart } from "@/contexts/CartContext";
 import { useCatalog } from "@/contexts/CatalogContext";
 import { isPriceHidden } from "@/lib/catalogRuntime";
@@ -21,6 +21,13 @@ const mainLinks = [
   ["New lines", "/shop?sort=new"],
   ["Departments", "/shop"],
   ["Your basket", "/cart"],
+] as const;
+
+const serviceBenefits = [
+  { icon: Truck, label: "Free delivery on orders over £200 ex VAT" },
+  { icon: BadgeCheck, label: "Everyday low pricing" },
+  { icon: Headphones, label: "Fast and friendly service" },
+  { icon: ShoppingBag, label: "No minimum order quantity" },
 ] as const;
 
 function MagneticFieldMark() {
@@ -101,6 +108,11 @@ export default function SiteHeader() {
           {categories.map((category) => { const href = `/shop?category=${category.slug}`; return <a key={category.slug} href={href} className="category-tape-link" onClick={(event) => followInternal(event, href)}><span>{category.name}</span><ChevronDown size={13} /></a>; })}
         </div>
       </nav>
+      <aside className="service-benefits-strip" aria-label="Magnetic Source service benefits">
+        <div className="trade-shell service-benefits-inner">
+          {serviceBenefits.map(({ icon: Icon, label }) => <div className="service-benefit" key={label}><span className="service-benefit-icon"><Icon size={16} strokeWidth={2.4} /></span><span>{label}</span></div>)}
+        </div>
+      </aside>
     </header>
 
     {mobileOpen && <div id="mobile-navigation" className="mobile-nav-panel">
