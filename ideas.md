@@ -79,3 +79,6 @@ The first release will cover only the user’s necessary brand-approval scope: c
 - The Magnetic Source mark uses magnetic-field monogram language: offset cobalt bars pull toward a graphite source dot and never read as a generic letter icon.
 - Product evidence appears within the first visible area of every major commercial page through product imagery, SKU/pack facts, catalogue fragments, or trade labels.
 - Signal Ochre (`#C97725`) is reserved for availability, parcel, trade-status, and momentum cues, while Source Cobalt (`#124C9C`) remains the primary navigation and action color.
+- The operating header gives the magnetic-field monogram, custom-spaced wordmark, and small source-dot marker enough visual weight to identify Magnetic Source before the catalogue grid.
+- Product cards use two-tier ledger facts—**Pack** and **Ref**—with rule-separated rows, mono labels, and a visible trade-status line; these are evidence, not secondary decoration.
+- Cobalt cut corners, paired source dots, and restrained field lines recur in product-image frames, catalogue callouts, and active operational elements, always without cropping the product image.

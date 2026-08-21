@@ -1,0 +1,542 @@
+[
+  {
+    "category": "household-pet",
+    "name": "Good Boy Crunchy Chicken & Calcium Bones 350g",
+    "sku": "60342I",
+    "pack": "Pack of 4",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Good-Boy-Crunchy-Chicken-Calcium-Bones-350g-60342I.png",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/good-boy-crunchy-chicken-calcium-bones-350g/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "household-pet",
+    "name": "Rosewood Collagen Chicken Rolls 70g",
+    "sku": "72358Z",
+    "pack": "Pack of 12",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Rosewood-Collagen-Chicken-Rolls-70g-72358Z.png",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/rosewood-collagen-chicken-rolls-70g/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "household-pet",
+    "name": "Nylabone Extreme Chew Venison Antler Alternative Chew",
+    "sku": "72360G",
+    "pack": "Pack of 1",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Nylabone-Extreme-Chew-Venision-Antler-Alternative-Chew-72360G.jpg",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/nylabone-extreme-chew-venison-antler-alternative-chew/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "household-pet",
+    "name": "Good Boy Threads Bungee Figure 8 Tugger Dog Toy",
+    "sku": "72387L",
+    "pack": "Pack of 3",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Good-Boy-Threads-Bungee-Figure-8-Tugger-Dog-Toy-72387L.png",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/good-boy-threads-bungee-figure-8-tugger-dog-toy/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "household-pet",
+    "name": "Rosewood Tough Toys Wood Flavour Dog Chew",
+    "sku": "72404S",
+    "pack": "Pack of 3",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Rosewood-Tough-Toys-Wood-Flavour-Dog-Chew-72404S.webp",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/rosewood-tough-toys-wood-flavour-dog-chew/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "household-pet",
+    "name": "Milestone Magnifying Compass With Lanyard",
+    "sku": "39616V",
+    "pack": "Pack of 1",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Milestone-Magnifying-Compass-With-Lanyard-39616V.jpg",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/milestone-magnifying-compass-with-lanyard/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "household-pet",
+    "name": "Milestone 60LED Ultra Bright Portable Tent Light",
+    "sku": "39619E",
+    "pack": "Pack of 1",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Milestone-60LED-Ultra-Bright-Portable-Tent-Light-39619E.jpg",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/milestone-60led-ultra-bright-portable-tent-light/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "household-pet",
+    "name": "Summit Glow In The Dark Rock Pegs With Case 20cm Pack of 20",
+    "sku": "39615S",
+    "pack": "Pack of 1",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Summit-Glow-In-The-Dark-Rock-Pegs-With-Case-20cm-Pack-of-20-39615S.jpg",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/summit-glow-in-the-dark-rock-pegs-with-case-20cm-pack-of-20/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "household-pet",
+    "name": "Summit 15L Pack Away Backpack Navy",
+    "sku": "39614P",
+    "pack": "Pack of 6",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Summit-15L-Pack-Away-Backpack-Navy-39614P.jpg",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/summit-15l-pack-away-backpack-navy/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "household-pet",
+    "name": "Rosewood Cooling Collar – Large",
+    "sku": "72365V",
+    "pack": "Pack of 4",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Rosewood-Cooling-Collar-–-Large-72365V.png",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/rosewood-cooling-collar-large/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "household-pet",
+    "name": "Rosewood Cooling Collar – Medium",
+    "sku": "72364S",
+    "pack": "Pack of 4",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Rosewood-Cooling-Collar-–-Medium-72364S.png",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/rosewood-cooling-collar-medium/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "household-pet",
+    "name": "Rosewood Cooling Collar – Small",
+    "sku": "72363P",
+    "pack": "Pack of 4",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Rosewood-Cooling-Collar-–-Small-72363P.png",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/rosewood-cooling-collar-small/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "household-pet",
+    "name": "Ariel Pods 86s Original",
+    "sku": "72478N",
+    "pack": "Pack of 1",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Ariel-Pods-86s-Original-72478N.jpeg",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/ariel-pods-86s-original/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "household-pet",
+    "name": "Good Boy Busy Bar Large Chew Chicken",
+    "sku": "72383Z",
+    "pack": "Pack of 12",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Good-Boy-Busy-Bar-Large-Chew-Chicken-72383Z.png",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/good-boy-busy-bar-large-chew-chicken/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "household-pet",
+    "name": "Milestone 100ft Multi-Purpose Rope – 3 Assorted Colours",
+    "sku": "39621L",
+    "pack": "Pack of 1",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Milestone-100ft-Multi-Purpose-Rope-3-Assorted-Colours-39621L.jpg",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/milestone-100ft-multi-purpose-rope-3-assorted-colours/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "sweets-snacks",
+    "name": "Mitsuba Katsu Curry Crispies 85g",
+    "sku": "72820G",
+    "pack": "Pack of 6",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Mitsuba-Katsu-Curry-Crispies-85g-72820G.png",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/mitsuba-katsu-curry-crispies-85g/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "sweets-snacks",
+    "name": "Mitsuba Korean Crispies 85g",
+    "sku": "72819C",
+    "pack": "Pack of 6",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Mitsuba-Korean-Crispies-85g-72819C.png",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/mitsuba-korean-crispies-85g/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "sweets-snacks",
+    "name": "Real Good Food Milk Chocolate Raisins Pouch 150g",
+    "sku": "76000O",
+    "pack": "Pack of 10",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Real-Good-Food-Milk-Chocolate-Raisins-Pouch-150g-76000O.png",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/real-good-food-milk-chocolate-raisins-pouch-150g/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "sweets-snacks",
+    "name": "Real Good Food Dark Chocolate Ginger Pouch 150g",
+    "sku": "75999M",
+    "pack": "Pack of 10",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Real-Good-Food-Dark-Chocolate-Ginger-Pouch-150g-75999M.png",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/real-good-food-dark-chocolate-ginger-pouch-150g/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "sweets-snacks",
+    "name": "Real Good Food Milk Chocolate Peanuts Pouch 150g",
+    "sku": "75998J",
+    "pack": "Pack of 10",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Real-Good-Food-Milk-Chocolate-Peanuts-Pouch-150g-75998J.png",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/real-good-food-milk-chocolate-peanuts-pouch-150g/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "sweets-snacks",
+    "name": "Real Good Food Dark Chocolate Peanuts Pouch 150g",
+    "sku": "75997G",
+    "pack": "Pack of 10",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Real-Good-Food-Dark-Chocolate-Peanuts-Pouch-150g-75997G.png",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/real-good-food-dark-chocolate-peanuts-pouch-150g/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "sweets-snacks",
+    "name": "Real Good Food Milk Chocolate Honeycomb Pouch 150g",
+    "sku": "75996D",
+    "pack": "Pack of 10",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Real-Good-Food-Milk-Chocolate-Honeycomb-Pouch-150g-75996D.png",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/real-good-food-milk-chocolate-honeycomb-pouch-150g/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "sweets-snacks",
+    "name": "Real Good Food Milk Chocolate Bananas Pouch 150g",
+    "sku": "75995A",
+    "pack": "Pack of 10",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Real-Good-Food-Milk-Chocolate-Bananas-Pouch-150g-75995A.png",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/real-good-food-milk-chocolate-bananas-pouch-150g/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "sweets-snacks",
+    "name": "Golden Rounds Potato Crisp Biscuit Cheese 80g",
+    "sku": "72548C",
+    "pack": "Pack of 24",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Golden-Rounds-Potato-Crisp-Biscuit-Cheese-80g-72548C.png",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/golden-rounds-potato-crisp-biscuit-cheese-80g/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "sweets-snacks",
+    "name": "Golden Rounds Potato Crisp Biscuit Tangy Tomato 80g",
+    "sku": "72549F",
+    "pack": "Pack of 24",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Golden-Rounds-Potato-Crisp-Biscuit-Tangy-Tomato-80g-72549F.png",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/golden-rounds-potato-crisp-biscuit-tangy-tomato-80g/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "sweets-snacks",
+    "name": "Golden Rounds Potato Crisp Biscuit Pizza 80g",
+    "sku": "72550J",
+    "pack": "Pack of 24",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Golden-Rounds-Potato-Crisp-Biscuit-Pizza-80g-72550J.png",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/golden-rounds-potato-crisp-biscuit-pizza-80g/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "sweets-snacks",
+    "name": "Golden Rounds Potato Crisp Biscuit BBQ 80g",
+    "sku": "72551M",
+    "pack": "Pack of 24",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Golden-Rounds-Potato-Crisp-Biscuit-BBQ-80g-72551M.png",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/golden-rounds-potato-crisp-biscuit-bbq-80g/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "sweets-snacks",
+    "name": "Real Good Food Yoghurt Coated Cranberries Pouch 150g",
+    "sku": "75994X",
+    "pack": "Pack of 10",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Real-Good-Food-Yoghurt-Coated-Cranberries-Pouch-150g-75994X.png",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/real-good-food-yoghurt-coated-cranberries-pouch-150g/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "sweets-snacks",
+    "name": "Wonder Cookies Original Vanilla 120g",
+    "sku": "72545T",
+    "pack": "Pack of 20",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Wonder-Cookies-Original-Vanilla-120g-72545T.png",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/wonder-cookies-original-vanilla-120g/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "sweets-snacks",
+    "name": "Wonder Cookies Chocolate 120g",
+    "sku": "72546W",
+    "pack": "Pack of 20",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Wonder-Cookies-Chocolate-120g-72546W.png",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/wonder-cookies-chocolate-120g/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "toys-gifts",
+    "name": "Nebulus Scooter Neon Orange With Black Chrome Finish",
+    "sku": "73037G",
+    "pack": "Pack of 1",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Nebulus-Scooter-Neon-Orange-With-Black-Chrome-Finish-73037G.png",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/nebulus-scooter-neon-orange-with-black-chrome-finish/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "toys-gifts",
+    "name": "Unicorn Trail Twist Folding Light Up Scooter",
+    "sku": "73036D",
+    "pack": "Pack of 1",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Unicorn-Trail-Twist-Folding-Light-Up-Scooter-73036D.png",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/unicorn-trail-twist-folding-light-up-scooter/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "toys-gifts",
+    "name": "Dinosaur Trail Twist Folding Light Up Scooter",
+    "sku": "73035A",
+    "pack": "Pack of 1",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Dinosaur-Trail-Twist-Folding-Light-Up-Scooter-73035A.png",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/dinosaur-trail-twist-folding-light-up-scooter/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "toys-gifts",
+    "name": "Palm Pals Colson Hot Dog Approx 5″",
+    "sku": "72380Q",
+    "pack": "Pack of 6",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Palm-Pals-Colson-Hot-Dog-Approx-5-72380Q.jpg",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/palm-pals-colson-hot-dog-approx-5/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "toys-gifts",
+    "name": "Palm Pals Tomas BLT Approx 5″",
+    "sku": "72378J",
+    "pack": "Pack of 6",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Palm-Pals-Tomas-BLT-Approx-5-72378J.jpg",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/palm-pals-tomas-blt-approx-5/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "toys-gifts",
+    "name": "Animigos Funky Friends – Sunflower",
+    "sku": "72683L",
+    "pack": "Pack of 1",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Animigos-Funky-Friends-Sunflower-72683L.jpeg",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/animigos-funky-friends-sunflower/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "toys-gifts",
+    "name": "Animigos Funky Friends – Pizza",
+    "sku": "72682I",
+    "pack": "Pack of 1",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Animigos-Funky-Friends-Pizza-72682I.webp",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/animigos-funky-friends-pizza/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "toys-gifts",
+    "name": "Animigos Funky Friends – French Fries",
+    "sku": "72681F",
+    "pack": "Pack of 1",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Animigos-Funky-Friends-French-Fries-72681F.webp",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/animigos-funky-friends-french-fries/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "toys-gifts",
+    "name": "Animigos Funky Friends – Aubergine",
+    "sku": "72679Y",
+    "pack": "Pack of 1",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Animigos-Funky-Friends-Aubergine-72679Y.jpg",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/animigos-funky-friends-aubergine/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "toys-gifts",
+    "name": "Animigos Funky Friends – Avocado",
+    "sku": "72676P",
+    "pack": "Pack of 1",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Animigos-Funky-Friends-Avocado-72676P.jpg",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/animigos-funky-friends-avocado/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "toys-gifts",
+    "name": "Funko Pop! K-Pop Demon Hunters Keychain Assorted CDU",
+    "sku": "72749N",
+    "pack": "Pack of 12",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Funko-Pop-K-Pop-Demon-Hunters-Keychain-Assorted-CDU-72749N.png",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/funko-pop-k-pop-demon-hunters-keychain-assorted-cdu/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "toys-gifts",
+    "name": "Clickeez – 2 Pack Series 3 CDU",
+    "sku": "72737C",
+    "pack": "Pack of 12",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Clickeez-2-Pack-Series-3-CDU-72737C.jpg",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/clickeez-2-pack-series-3-cdu/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "toys-gifts",
+    "name": "Hot Shots Can Alley",
+    "sku": "72985D",
+    "pack": "Pack of 12",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Hot-Shots-Can-Alley-72985D.jpg",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/hot-shots-can-alley/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "toys-gifts",
+    "name": "Palm Pals Chutney Cheetah Approx 5″",
+    "sku": "71041H",
+    "pack": "Pack of 6",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/03/Palm-Pals-Chutney-Cheetah-Approx-5-71041H.png",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/palm-pals-chutney-cheetah-approx-5/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "toys-gifts",
+    "name": "Palm Pals Mars Rocket Ship Approx 5″",
+    "sku": "71046W",
+    "pack": "Pack of 6",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/03/Palm-Pals-Mars-Rocket-Ship-Approx-5-71046W.png",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/palm-pals-mars-rocket-ship-approx-5/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "stationery-party",
+    "name": "Spots Table Cover 120cm x 180cm",
+    "sku": "39500U",
+    "pack": "Pack of 12",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/08/Spots-Table-Cover-120cm-x-180cm-39500U.jpg",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/spots-table-cover-120cm-x-180cm/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "stationery-party",
+    "name": "With Love Card – With Love",
+    "sku": "39507P",
+    "pack": "Pack of 12",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/08/With-Love-Card-With-Love-39507P.jpeg",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/with-love-card-with-love/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "stationery-party",
+    "name": "Birthday Card – Open Square Cocktails 160mmx160mm",
+    "sku": "39512F",
+    "pack": "Pack of 6",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/07/Birthday-Card-%E2%80%93-Open-Square-Cocktails-160mmx160mm-39512F.jpg",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/birthday-card-open-square-cocktails-160mmx160mm/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "stationery-party",
+    "name": "Birthday Card – Open Square Birthday Cake 160mmx160mm",
+    "sku": "39511C",
+    "pack": "Pack of 6",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/07/Birthday-Card-%E2%80%93-Open-Square-Birthday-Cake-160mmx160mm-39511C.jpg",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/birthday-card-open-square-birthday-cake-160mmx160mm/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "stationery-party",
+    "name": "Birthday Card – Open Square Bright Flowers 160mmx160mm",
+    "sku": "39510Z",
+    "pack": "Pack of 6",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/07/Birthday-Card-Open-Square-Bright-Flowers-160mmx160mm-39510Z.jpg",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/birthday-card-open-square-bright-flowers-160mmx160mm/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "stationery-party",
+    "name": "Birthday Card – Open Square Presents 160mmx160mm",
+    "sku": "39513I",
+    "pack": "Pack of 6",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/07/Birthday-Card-Open-Square-Presents-160mmx160mm-39513I.jpg",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/birthday-card-open-square-presents-160mmx160mm/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "stationery-party",
+    "name": "Baby Boy Card Bunting",
+    "sku": "39481H",
+    "pack": "Pack of 6",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/06/Baby-Boy-Card-Bunting-39481H.jpg",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/baby-boy-card-bunting/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "stationery-party",
+    "name": "Birthday Card – Open Square Cheers 160mmx160mm",
+    "sku": "39494V",
+    "pack": "Pack of 6",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/05/Birthday-Card-%E2%80%93-Open-Square-Cheers-160mmx160mm-39494V.jpg",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/birthday-card-open-square-cheers-160mmx160mm/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "stationery-party",
+    "name": "Birthday Card – Open Square Stars 160mmx160mm",
+    "sku": "39493S",
+    "pack": "Pack of 6",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/05/Birthday-Card-%E2%80%93-Open-Square-Stars-160mmx160mm-39493S.jpg",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/birthday-card-open-square-stars-160mmx160mm/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "stationery-party",
+    "name": "Baby Girl Card Teddy",
+    "sku": "39480E",
+    "pack": "Pack of 6",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/05/Baby-Girl-Card-Teddy-39480E.jpg",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/baby-girl-card-teddy/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "stationery-party",
+    "name": "9 Unicorn & Animal Erasers",
+    "sku": "39486W",
+    "pack": "Pack of 12",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/05/9-Unicorn-Animal-Erasers-39486W.jpg",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/9-unicorn-animal-erasers/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "stationery-party",
+    "name": "2027 Gift Set Diary Slim Week To View with Pen Tropical",
+    "sku": "22643D",
+    "pack": "Pack of 12",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/07/2027-Gift-Set-Diary-Slim-Week-To-View-with-Pen-Tropical-22643D.jpg",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/2026-gift-set-diary-slim-week-to-view-with-pen-tropical/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "stationery-party",
+    "name": "2027 Organiser Calendar Family Sea/Flowers",
+    "sku": "22641X",
+    "pack": "Pack of 6",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/07/2027-Organiser-Calendar-Family-Sea-Flowers-22641X.jpg",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/2026-organiser-calendar-family-sea-flowers/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "stationery-party",
+    "name": "2027 Calendar Super Slim Blue & Green Planet",
+    "sku": "22650Z",
+    "pack": "Pack of 24",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/07/2027-Calendar-Super-Slim-Blue-Green-Planet-22650Z.png",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/2026-calendar-super-slim-blue-green-planet/",
+    "imagePresentation": "full-product-contain"
+  },
+  {
+    "category": "stationery-party",
+    "name": "2027 Memo Calendar with Shopping Pad & Pen",
+    "sku": "22640U",
+    "pack": "Pack of 12",
+    "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/07/2027-Memo-Calendar-with-Shopping-Pad-Pen-22640U.jpg",
+    "sourceUrl": "https://www.harrisonsdirect.co.uk/product/2026-memo-calendar-with-shopping-pad-pen/",
+    "imagePresentation": "full-product-contain"
+  }
+]

@@ -1,0 +1,208 @@
+{
+  "targetPerCategory": 15,
+  "liveTotal": 306,
+  "assessment": [
+    {
+      "category": "household-pet",
+      "supplierCandidates": 14,
+      "unusedSupplierCandidates": 5,
+      "unused": [
+        {
+          "name": "Ariel Pods 86s Original",
+          "sku": "72478N",
+          "slug": "ariel-pods-86s-original-72478n",
+          "pack": "Pack of 1",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Ariel-Pods-86s-Original-72478N.jpeg",
+          "sourceUrl": "https://www.harrisonsdirect.co.uk/product/ariel-pods-86s-original/"
+        },
+        {
+          "name": "Good Boy Busy Bar Large Chew Chicken",
+          "sku": "72383Z",
+          "slug": "good-boy-busy-bar-large-chew-chicken-72383z",
+          "pack": "Pack of 12",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Good-Boy-Busy-Bar-Large-Chew-Chicken-72383Z.png",
+          "sourceUrl": "https://www.harrisonsdirect.co.uk/product/good-boy-busy-bar-large-chew-chicken/"
+        },
+        {
+          "name": "Milestone 100ft Multi-Purpose Rope – 3 Assorted Colours",
+          "sku": "39621L",
+          "slug": "milestone-100ft-multi-purpose-rope-3-assorted-colours-39621l",
+          "pack": "Pack of 1",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Milestone-100ft-Multi-Purpose-Rope-3-Assorted-Colours-39621L.jpg",
+          "sourceUrl": "https://www.harrisonsdirect.co.uk/product/milestone-100ft-multi-purpose-rope-3-assorted-colours/"
+        },
+        {
+          "name": "Pac A Mac in CDU Pink/Blue",
+          "sku": "39610D",
+          "slug": "pac-a-mac-in-cdu-pink-blue-39610d",
+          "pack": "Pack of 24",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Pac-A-Mac-in-CDU-Pink-Blue-39610D.jpg",
+          "sourceUrl": "https://www.harrisonsdirect.co.uk/product/pac-a-mac-in-cdu-pink-blue/"
+        },
+        {
+          "name": "Pac A Mac in CDU Black/Navy",
+          "sku": "39611G",
+          "slug": "pac-a-mac-in-cdu-black-navy-39611g",
+          "pack": "Pack of 24",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Pac-A-Mac-in-CDU-Black-Navy-39611G.jpg",
+          "sourceUrl": "https://www.harrisonsdirect.co.uk/product/pac-a-mac-in-cdu-black-navy/"
+        }
+      ]
+    },
+    {
+      "category": "sweets-snacks",
+      "supplierCandidates": 0,
+      "unusedSupplierCandidates": 0,
+      "unused": []
+    },
+    {
+      "category": "toys-gifts",
+      "supplierCandidates": 0,
+      "unusedSupplierCandidates": 0,
+      "unused": []
+    },
+    {
+      "category": "stationery-party",
+      "supplierCandidates": 17,
+      "unusedSupplierCandidates": 17,
+      "unused": [
+        {
+          "name": "3m Female Roll Wrap 4 Assorted Designs CDU",
+          "sku": "39608W",
+          "slug": "3m-female-roll-wrap-4-assorted-designs-cdu-39608w",
+          "pack": "Pack of 36",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/3m-Female-Roll-Wrap-4-Assorted-Designs-CDU-39608W.jpg",
+          "sourceUrl": "https://www.harrisonsdirect.co.uk/product/3m-female-roll-wrap-4-assorted-designs-cdu/"
+        },
+        {
+          "name": "Cedar & Sage Shopping List",
+          "sku": "39605N",
+          "slug": "cedar-sage-shopping-list-39605n",
+          "pack": "Pack of 6",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Cedar-Sage-Shopping-List-39605N.jpg",
+          "sourceUrl": "https://www.harrisonsdirect.co.uk/product/cedar-sage-shopping-list/"
+        },
+        {
+          "name": "Cedar & Sage Noteblock",
+          "sku": "39604K",
+          "slug": "cedar-sage-noteblock-39604k",
+          "pack": "Pack of 6",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Cedar-Sage-Noteblock-39604K.jpg",
+          "sourceUrl": "https://www.harrisonsdirect.co.uk/product/cedar-sage-noteblock/"
+        },
+        {
+          "name": "Cedar & Sage Address Book",
+          "sku": "39603H",
+          "slug": "cedar-sage-address-book-39603h",
+          "pack": "Pack of 6",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Cedar-Sage-Address-Book-39603H.jpg",
+          "sourceUrl": "https://www.harrisonsdirect.co.uk/product/cedar-sage-address-book/"
+        },
+        {
+          "name": "Gift Bag Bottle – Highland Cow",
+          "sku": "39601B",
+          "slug": "gift-bag-bottle-highland-cow-39601b",
+          "pack": "Pack of 6",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Gift-Bag-Bottle-%E2%80%93-Highland-Cow-39601B-1.jpg",
+          "sourceUrl": "https://www.harrisonsdirect.co.uk/product/gift-bag-bottle-highland-cow/"
+        },
+        {
+          "name": "Gift Bag Large – Highland Cow",
+          "sku": "39599O",
+          "slug": "gift-bag-large-highland-cow-39599o",
+          "pack": "Pack of 6",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Gift-Bag-Large-%E2%80%93-Highland-Cow-39599O.jpg",
+          "sourceUrl": "https://www.harrisonsdirect.co.uk/product/gift-bag-large-highland-cow/"
+        },
+        {
+          "name": "Pencil Case with Carry Handle 3 Assorted Colours",
+          "sku": "39612J",
+          "slug": "pencil-case-with-carry-handle-3-assorted-colours-39612j",
+          "pack": "Pack of 6",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Pencil-Case-with-Carry-Handle-3-Assorted-Colours-39612J.jpg",
+          "sourceUrl": "https://www.harrisonsdirect.co.uk/product/pencil-case-with-carry-handle-3-assorted-colours/"
+        },
+        {
+          "name": "Gift Bag Large – Retro Floral W266xH330xD140mm",
+          "sku": "39586A",
+          "slug": "gift-bag-large-retro-floral-w266xh330xd140mm-39586a",
+          "pack": "Pack of 6",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/03/Gift-Bag-Large-%E2%80%93-Retro-Floral-W266xH330xD140mm-39586A.png",
+          "sourceUrl": "https://www.harrisonsdirect.co.uk/product/gift-bag-large-retro-floral-w266xh330xd140mm/"
+        },
+        {
+          "name": "Christmas Cards Make Your Own 6’s",
+          "sku": "22608Y",
+          "slug": "christmas-cards-make-your-own-6-s-22608y",
+          "pack": "Pack of 12",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/07/Christmas-Cards-Make-Your-Own-6s-22608Y.jpg",
+          "sourceUrl": "https://www.harrisonsdirect.co.uk/product/christmas-cards-make-your-own-6s/"
+        },
+        {
+          "name": "Christmas Paper Plates Traditional 8 Pack",
+          "sku": "22633Y",
+          "slug": "christmas-paper-plates-traditional-8-pack-22633y",
+          "pack": "Pack of 12",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/07/Christmas-Paper-Plates-Traditional-8-Pack-22633Y.jpg",
+          "sourceUrl": "https://www.harrisonsdirect.co.uk/product/christmas-paper-plates-traditional-8-pack/"
+        },
+        {
+          "name": "Christmas Gift Bag Large – Peppa",
+          "sku": "22576X",
+          "slug": "christmas-gift-bag-large-peppa-22576x",
+          "pack": "Pack of 6",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/07/Christmas-Gift-Bag-Large-Peppa-22576X.jpg",
+          "sourceUrl": "https://www.harrisonsdirect.co.uk/product/christmas-gift-bag-large-peppa/"
+        },
+        {
+          "name": "Christmas Gift Bag Large – Spider-Man",
+          "sku": "22577A",
+          "slug": "christmas-gift-bag-large-spider-man-22577a",
+          "pack": "Pack of 6",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/07/Christmas-Gift-Bag-Large-Spider-Man-22577A.jpg",
+          "sourceUrl": "https://www.harrisonsdirect.co.uk/product/christmas-gift-bag-large-spider-man/"
+        },
+        {
+          "name": "Christmas Cards Tom Smith – Slim Contemporary Boxed 15’s",
+          "sku": "22554H",
+          "slug": "christmas-cards-tom-smith-slim-contemporary-boxed-15-s-22554h",
+          "pack": "Pack of 24",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/07/Christmas-Cards-Tom-Smith-%E2%80%93-Slim-Contemporary-Boxed-15s-22554H-1.png",
+          "sourceUrl": "https://www.harrisonsdirect.co.uk/product/christmas-cards-tom-smith-slim-contemporary-boxed-15s/"
+        },
+        {
+          "name": "Christmas Cards Tom Smith – Slim Kraft Boxed 15’s",
+          "sku": "22553E",
+          "slug": "christmas-cards-tom-smith-slim-kraft-boxed-15-s-22553e",
+          "pack": "Pack of 24",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/07/Christmas-Cards-Tom-Smith-Slim-Kraft-Boxed-15s-22553E.png",
+          "sourceUrl": "https://www.harrisonsdirect.co.uk/product/christmas-cards-tom-smith-slim-kraft-boxed-15s/"
+        },
+        {
+          "name": "The Grinch Paper Cups 8 Pack 2 Assorted",
+          "sku": "22653I",
+          "slug": "the-grinch-paper-cups-8-pack-2-assorted-22653i",
+          "pack": "Pack of 18",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/06/The-Grinch-Paper-Cups-8-Pack-2-Assorted-22653I.jpg",
+          "sourceUrl": "https://www.harrisonsdirect.co.uk/product/the-grinch-paper-cups-8-pack-2-assorted/"
+        },
+        {
+          "name": "The Grinch Paper Napkins 12 Pack 2 Assorted",
+          "sku": "22652F",
+          "slug": "the-grinch-paper-napkins-12-pack-2-assorted-22652f",
+          "pack": "Pack of 24",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/06/The-Grinch-Paper-Napkins-12-Pack-2-Assorted-22652F.jpg",
+          "sourceUrl": "https://www.harrisonsdirect.co.uk/product/the-grinch-paper-napkins-12-pack-2-assorted/"
+        },
+        {
+          "name": "The Grinch Paper Plates 9″ 6 Pack 2 Assorted",
+          "sku": "22651C",
+          "slug": "the-grinch-paper-plates-9-6-pack-2-assorted-22651c",
+          "pack": "Pack of 18",
+          "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/06/The-Grinch-Paper-Plates-9-6-Pack-2-Assorted-22651C.jpg",
+          "sourceUrl": "https://www.harrisonsdirect.co.uk/product/the-grinch-paper-plates-9-6-pack-2-assorted/"
+        }
+      ]
+    }
+  ]
+}

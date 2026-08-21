@@ -1,0 +1,21 @@
+{
+  "verifiedAt": "2026-08-21T12:29:16.921Z",
+  "liveProductCount": 381,
+  "addedProductCount": 60,
+  "categoryCounts": {
+    "household-pet": 55,
+    "sweets-snacks": 55,
+    "toys-gifts": 54,
+    "stationery-party": 54
+  },
+  "sitemapUrls": 397,
+  "expectedSitemapUrls": 397,
+  "styleChecks": {
+    "containedImages": true,
+    "noCropFrameRule": true,
+    "ledgerFacts": true,
+    "sourceMotifs": true
+  },
+  "failedProductChecks": [],
+  "valid": true
+}

@@ -1,0 +1,23 @@
+{
+  "verifiedAt": "2026-08-21T12:23:58.421Z",
+  "backupProductCount": 321,
+  "approvedProductCount": 60,
+  "liveProductCount": 381,
+  "categoryCounts": {
+    "baby-kids": 39,
+    "clearance": 38,
+    "seasonal-christmas": 37,
+    "stationery-party": 54,
+    "toys-gifts": 54,
+    "health-beauty": 49,
+    "household-pet": 55,
+    "sweets-snacks": 55
+  },
+  "categoryCountMismatches": [],
+  "approvedMissing": [],
+  "approvedChanged": [],
+  "baselineMissing": [],
+  "unexpected": [],
+  "priceOrImageViolations": [],
+  "valid": true
+}
