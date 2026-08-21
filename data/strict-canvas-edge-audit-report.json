@@ -1,0 +1,2665 @@
+{
+  "auditedAt": "2026-08-21T13:08:53.376187+00:00",
+  "catalogueProductCount": 322,
+  "cachedImagesRechecked": 69,
+  "flaggedCount": 67,
+  "rule": "Actual product/object must have visible white space on all four image-canvas sides. Any top, bottom, left, or right contact is a manual removal candidate.",
+  "sourceAuditReport": "/home/ubuntu/magnetic-source-ecommerce-v2/data/full-catalogue-image-audit-report.json",
+  "contactSheets": [
+    "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/contact-sheets/baby-kids-1.jpg",
+    "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/contact-sheets/health-beauty-1.jpg",
+    "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/contact-sheets/household-pet-1.jpg",
+    "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/contact-sheets/seasonal-christmas-1.jpg",
+    "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/contact-sheets/stationery-party-1.jpg",
+    "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/contact-sheets/sweets-snacks-1.jpg",
+    "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/contact-sheets/toys-gifts-1.jpg",
+    "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/contact-sheets/toys-gifts-2.jpg"
+  ],
+  "results": [
+    {
+      "sku": "1232J",
+      "name": "Pampers Baby-Dry Nappies Size 4, 9-14kgs, 20-31lbs, Maxi 25\u2019s",
+      "slug": "pampers-baby-dry-nappies-size-4-9-14kgs-20-31lbs-maxi-25-s-1232j",
+      "category": "baby-kids",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2014/04/Pampers-Baby-Dry-Nappies-Size-4-9-14kgs-20-31lbs-Maxi-25s-1232J.jpg",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom"
+      ],
+      "metrics": {
+        "width": 360,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.0972,
+          "bottom": 0.0528,
+          "left": 1.0,
+          "right": 1.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 325,
+          "bottom": 341,
+          "left": 0,
+          "right": 0
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/baby-kids/1232J.png"
+    },
+    {
+      "sku": "1240I",
+      "name": "Pampers Baby-Dry Nappies Size 5, 11-16kgs, 24-35lbs 23\u2019s",
+      "slug": "pampers-baby-dry-nappies-size-5-11-16kgs-24-35lbs-23-s-1240i",
+      "category": "baby-kids",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2014/06/Pampers-Baby-Dry-Nappies-Size-5-11-16kgs-24-35lbs-23s-1240I.jpg",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom"
+      ],
+      "metrics": {
+        "width": 360,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.2528,
+          "bottom": 0.1917,
+          "left": 1.0,
+          "right": 1.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 269,
+          "bottom": 291,
+          "left": 0,
+          "right": 0
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/baby-kids/1240I.png"
+    },
+    {
+      "sku": "1243R",
+      "name": "Pampers Baby-Dry Nappies Size 3, 6-10kgs, 13-22lbs 30\u2019s",
+      "slug": "pampers-baby-dry-nappies-size-3-6-10kgs-13-22lbs-30-s-1243r",
+      "category": "baby-kids",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-1243r_1.png",
+      "status": "keep",
+      "touches": [],
+      "nonwhite_canvas_edges": [],
+      "metrics": {
+        "width": 300,
+        "height": 297,
+        "white_edge_ratios": {
+          "top": 1.0,
+          "bottom": 1.0,
+          "left": 1.0,
+          "right": 1.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        }
+      }
+    },
+    {
+      "sku": "22768G",
+      "name": "Christmas Cards \u2013 Highland Cow 10pk",
+      "slug": "christmas-cards-highland-cow-10pk-22768g",
+      "category": "seasonal-christmas",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Cards-Highland-Cow-10pk-22768G.jpg",
+      "status": "review",
+      "touches": [
+        "bottom",
+        "left"
+      ],
+      "nonwhite_canvas_edges": [
+        "bottom"
+      ],
+      "metrics": {
+        "width": 360,
+        "height": 257,
+        "white_edge_ratios": {
+          "top": 1.0,
+          "bottom": 0.7472,
+          "left": 0.9961,
+          "right": 1.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 0,
+          "bottom": 91,
+          "left": 1,
+          "right": 0
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/seasonal-christmas/22768G.png"
+    },
+    {
+      "sku": "22771Q",
+      "name": "Christmas Cards \u2013 Bumper Box 5 Designs 25pk",
+      "slug": "christmas-cards-bumper-box-5-designs-25pk-22771q",
+      "category": "seasonal-christmas",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Cards-Bumper-Box-5-Designs-25pk-22771Q.jpg",
+      "status": "review",
+      "touches": [
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "right"
+      ],
+      "metrics": {
+        "width": 360,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 1.0,
+          "bottom": 1.0,
+          "left": 1.0,
+          "right": 0.7667
+        },
+        "edge_object_pixel_counts": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 84
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/seasonal-christmas/22771Q.png"
+    },
+    {
+      "sku": "22784E",
+      "name": "Christmas Gift Bag Santa & Friends Jumbo Woven",
+      "slug": "christmas-gift-bag-santa-friends-jumbo-woven-22784e",
+      "category": "seasonal-christmas",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Gift-Bag-Santa-Friends-Jumbo-Woven-22784E.jpg",
+      "status": "review",
+      "touches": [
+        "top"
+      ],
+      "nonwhite_canvas_edges": [],
+      "metrics": {
+        "width": 360,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.9861,
+          "bottom": 1.0,
+          "left": 1.0,
+          "right": 1.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 5,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/seasonal-christmas/22784E.png"
+    },
+    {
+      "sku": "22796P",
+      "name": "Christmas 6 x 6\u2033 Crackers Gold & Silver",
+      "slug": "christmas-6-x-6-crackers-gold-silver-22796p",
+      "category": "seasonal-christmas",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-6-x-6-Crackers-Gold-Silver-22796P_2.jpg",
+      "status": "review",
+      "touches": [
+        "top"
+      ],
+      "nonwhite_canvas_edges": [
+        "top"
+      ],
+      "metrics": {
+        "width": 360,
+        "height": 277,
+        "white_edge_ratios": {
+          "top": 0.8,
+          "bottom": 1.0,
+          "left": 1.0,
+          "right": 1.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 72,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/seasonal-christmas/22796P.png"
+    },
+    {
+      "sku": "2536N",
+      "name": "Pampers New Baby Premium Protection Nappies Size 1 2-5kg, 4-11lbs 22\u2019s",
+      "slug": "pampers-new-baby-premium-protection-nappies-size-1-2-5kg-4-11lbs-22-s-2536n",
+      "category": "baby-kids",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2017/05/Pampers-New-Baby-Premium-Protection-Nappies-Size-1-2-5kg-4-11lbs-22s-2536N.jpg",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom"
+      ],
+      "metrics": {
+        "width": 360,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.1278,
+          "bottom": 0.0778,
+          "left": 1.0,
+          "right": 1.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 314,
+          "bottom": 332,
+          "left": 0,
+          "right": 0
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/baby-kids/2536N.png"
+    },
+    {
+      "sku": "39529F",
+      "name": "Super Grip Sports Bottle 700ml",
+      "slug": "super-grip-sports-bottle-700ml-39529f",
+      "category": "household-pet",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Super-Grip-Sports-Bottle-700ml-39529F.png",
+      "status": "review",
+      "touches": [
+        "left"
+      ],
+      "nonwhite_canvas_edges": [
+        "left"
+      ],
+      "metrics": {
+        "width": 329,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 1.0,
+          "bottom": 1.0,
+          "left": 0.925,
+          "right": 1.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 0,
+          "bottom": 0,
+          "left": 27,
+          "right": 0
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/household-pet/39529F.png"
+    },
+    {
+      "sku": "39537E",
+      "name": "2 Pack Baby Sponges",
+      "slug": "2-pack-baby-sponges-39537e",
+      "category": "baby-kids",
+      "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2025/09/2-Pack-Baby-Sponges-39537E-300x300.png",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 300,
+        "height": 300,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 300,
+          "bottom": 300,
+          "left": 300,
+          "right": 300
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/baby-kids/39537E.png"
+    },
+    {
+      "sku": "39630N",
+      "name": "So Useful 3 Ply Pocket Tissues 10\u2019s 6 Pack",
+      "slug": "so-useful-3-ply-pocket-tissues-10-s-6-pack-39630n",
+      "category": "health-beauty",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/So-Useful-3-Ply-Pocket-Tisssues-10s-6-Pack-39630N.png",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 302,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 302,
+          "bottom": 302,
+          "left": 360,
+          "right": 360
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/health-beauty/39630N.png"
+    },
+    {
+      "sku": "39632T",
+      "name": "Crayola Clicks Retractable Markers 10 Pack \u2013 Classic Colours",
+      "slug": "crayola-clicks-retractable-markers-10-pack-classic-colours-39632t",
+      "category": "toys-gifts",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Crayola-Clicks-Retractable-Markers-10-Pack-\u2013-Classic-Colours-39632T.png",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 261,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 261,
+          "bottom": 261,
+          "left": 360,
+          "right": 360
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/toys-gifts/39632T.png"
+    },
+    {
+      "sku": "39633W",
+      "name": "Crayola Clicks Retractable Markers 10 Pack \u2013 Pastel Colours",
+      "slug": "crayola-clicks-retractable-markers-10-pack-pastel-colours-39633w",
+      "category": "toys-gifts",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Crayola-Clicks-Retractable-Markers-10-Pack-\u2013-Pastel-Colours-39633W-1.png",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 261,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 261,
+          "bottom": 261,
+          "left": 360,
+          "right": 360
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/toys-gifts/39633W.png"
+    },
+    {
+      "sku": "48758P",
+      "name": "Cottontails for Mums Disposable Breast Pads 40\u2019s",
+      "slug": "cottontails-for-mums-disposable-breast-pads-40-s-48758p",
+      "category": "baby-kids",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-48758p.png",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 202,
+        "height": 300,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 202,
+          "bottom": 202,
+          "left": 300,
+          "right": 300
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/baby-kids/48758P.png"
+    },
+    {
+      "sku": "5358N",
+      "name": "Pampers Baby-Dry Nappies Size 6 15+kg, 33+ lbs 19\u2019s",
+      "slug": "pampers-baby-dry-nappies-size-6-15-kg-33-lbs-19-s-5358n",
+      "category": "baby-kids",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2019/03/Pampers-Baby-Dry-Nappies-Size-6-15kg-33-lbs-19s-5358N.jpg",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom"
+      ],
+      "metrics": {
+        "width": 360,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.3139,
+          "bottom": 0.2667,
+          "left": 1.0,
+          "right": 1.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 247,
+          "bottom": 264,
+          "left": 0,
+          "right": 0
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/baby-kids/5358N.png"
+    },
+    {
+      "sku": "54049H",
+      "name": "Child Face Mask \u2013 Princess",
+      "slug": "child-face-mask-princess-54049h",
+      "category": "clearance",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-54049h.png",
+      "status": "keep",
+      "touches": [],
+      "nonwhite_canvas_edges": [],
+      "metrics": {
+        "width": 165,
+        "height": 112,
+        "white_edge_ratios": {
+          "top": 1.0,
+          "bottom": 1.0,
+          "left": 1.0,
+          "right": 1.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        }
+      }
+    },
+    {
+      "sku": "55913Q",
+      "name": "Huggies Little Swimmers Assorted Sizes",
+      "slug": "huggies-little-swimmers-assorted-sizes-55913q",
+      "category": "baby-kids",
+      "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-55913q-300x252.png",
+      "status": "review",
+      "touches": [
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [],
+      "metrics": {
+        "width": 300,
+        "height": 252,
+        "white_edge_ratios": {
+          "top": 1.0,
+          "bottom": 0.9933,
+          "left": 0.9841,
+          "right": 0.9921
+        },
+        "edge_object_pixel_counts": {
+          "top": 0,
+          "bottom": 2,
+          "left": 4,
+          "right": 2
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/baby-kids/55913Q.png"
+    },
+    {
+      "sku": "607T",
+      "name": "Johnson\u2019s Baby Shampoo 100ml",
+      "slug": "johnson-s-baby-shampoo-100ml-607t",
+      "category": "baby-kids",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-607t.jpg",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 177,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.8079,
+          "bottom": 0.4859,
+          "left": 0.7972,
+          "right": 0.8194
+        },
+        "edge_object_pixel_counts": {
+          "top": 34,
+          "bottom": 91,
+          "left": 73,
+          "right": 65
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/baby-kids/607T.png"
+    },
+    {
+      "sku": "61612L",
+      "name": "Johnson\u2019s Baby Bath 300ml",
+      "slug": "johnson-s-baby-bath-300ml-61612l",
+      "category": "baby-kids",
+      "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-61612l-300x300.jpg",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom"
+      ],
+      "metrics": {
+        "width": 300,
+        "height": 300,
+        "white_edge_ratios": {
+          "top": 0.9133,
+          "bottom": 0.7867,
+          "left": 1.0,
+          "right": 1.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 26,
+          "bottom": 64,
+          "left": 0,
+          "right": 0
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/baby-kids/61612L.png"
+    },
+    {
+      "sku": "70523R",
+      "name": "4My Baby Nappy Bags Fragranced 200\u2019s",
+      "slug": "4my-baby-nappy-bags-fragranced-200-s-70523r",
+      "category": "baby-kids",
+      "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2025/11/4My-Baby-Nappy-Bags-Fragranced-200s-70523R-300x185.png",
+      "status": "review",
+      "touches": [
+        "bottom"
+      ],
+      "nonwhite_canvas_edges": [
+        "bottom"
+      ],
+      "metrics": {
+        "width": 300,
+        "height": 185,
+        "white_edge_ratios": {
+          "top": 1.0,
+          "bottom": 0.07,
+          "left": 1.0,
+          "right": 1.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 0,
+          "bottom": 279,
+          "left": 0,
+          "right": 0
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/baby-kids/70523R.png"
+    },
+    {
+      "sku": "70814B",
+      "name": "Fisher Price Animal Ball 12.5cm CDU",
+      "slug": "fisher-price-animal-ball-12-5cm-cdu-70814b",
+      "category": "baby-kids",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/12/Fisher-Price-Animal-Ball-12.5cm-CDU-70814B.jpg",
+      "status": "review",
+      "touches": [
+        "top"
+      ],
+      "nonwhite_canvas_edges": [
+        "top"
+      ],
+      "metrics": {
+        "width": 360,
+        "height": 293,
+        "white_edge_ratios": {
+          "top": 0.975,
+          "bottom": 1.0,
+          "left": 1.0,
+          "right": 1.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 9,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/baby-kids/70814B.png"
+    },
+    {
+      "sku": "70817K",
+      "name": "Fisher Price 8 Inch Animal Plush CDU",
+      "slug": "fisher-price-8-inch-animal-plush-cdu-70817k",
+      "category": "baby-kids",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/12/Fisher-Price-8-Animal-Plush-CDU-70817K.jpg",
+      "status": "review",
+      "touches": [
+        "top"
+      ],
+      "nonwhite_canvas_edges": [],
+      "metrics": {
+        "width": 360,
+        "height": 275,
+        "white_edge_ratios": {
+          "top": 0.9972,
+          "bottom": 1.0,
+          "left": 1.0,
+          "right": 1.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 1,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/baby-kids/70817K.png"
+    },
+    {
+      "sku": "72388O",
+      "name": "Good Boy Chewables Medium Bones with Chicken 2 Pack",
+      "slug": "good-boy-chewables-medium-bones-with-chicken-2-pack-72388o",
+      "category": "household-pet",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Chewables-Medium-Bones-with-Chicken-2-Pack-72388O-1024x1024.png",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 360,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 360,
+          "bottom": 360,
+          "left": 360,
+          "right": 360
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/household-pet/72388O.png"
+    },
+    {
+      "sku": "72569P",
+      "name": "Palmolive Shampoo 2in1 350ml",
+      "slug": "palmolive-shampoo-2in1-350ml-72569p",
+      "category": "health-beauty",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Palmolive-Shampoo-2in1-350ml-PMP-1.25-72569P.jpg",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom"
+      ],
+      "metrics": {
+        "width": 360,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.8694,
+          "bottom": 0.8306,
+          "left": 1.0,
+          "right": 1.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 47,
+          "bottom": 61,
+          "left": 0,
+          "right": 0
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/health-beauty/72569P.png"
+    },
+    {
+      "sku": "72571W",
+      "name": "L\u2019Oreal Men Expert Antiperspirant Deodorant Thermic Resist Roll On 50ml",
+      "slug": "loreal-men-expert-antiperspirant-deodorant-thermic-resist-roll-on-50ml-72571w",
+      "category": "health-beauty",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/LOreal-Men-Expert-Antiperspirant-Deodorant-Thermic-Resist-Roll-On-50ml-72571W.png",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 145,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 145,
+          "bottom": 145,
+          "left": 360,
+          "right": 360
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/health-beauty/72571W.png"
+    },
+    {
+      "sku": "72656F",
+      "name": "The Big Squij Pig",
+      "slug": "the-big-squij-pig-72656f",
+      "category": "toys-gifts",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/The-Big-Squij-Pig-72656F.png",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 356,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 356,
+          "bottom": 356,
+          "left": 360,
+          "right": 360
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/toys-gifts/72656F.png"
+    },
+    {
+      "sku": "72683L",
+      "name": "Animigos Funky Friends \u2013 Sunflower",
+      "slug": "animigos-funky-friends-sunflower-72683l",
+      "category": "toys-gifts",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Animigos-Funky-Friends-Sunflower-72683L.jpeg",
+      "status": "review",
+      "touches": [
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "bottom",
+        "left"
+      ],
+      "metrics": {
+        "width": 156,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 1.0,
+          "bottom": 0.8462,
+          "left": 0.9667,
+          "right": 0.9972
+        },
+        "edge_object_pixel_counts": {
+          "top": 0,
+          "bottom": 24,
+          "left": 12,
+          "right": 1
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/toys-gifts/72683L.png"
+    },
+    {
+      "sku": "72753A",
+      "name": "Scrunchems Sticky Squishy Highland Cow CDU",
+      "slug": "scrunchems-sticky-squishy-highland-cow-cdu-72753a",
+      "category": "toys-gifts",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Scrunchems-Sticky-Squishy-Highland-Cow-CDU-72753A.webp",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 360,
+        "height": 346,
+        "white_edge_ratios": {
+          "top": 0.9,
+          "bottom": 0.0194,
+          "left": 0.7601,
+          "right": 0.7977
+        },
+        "edge_object_pixel_counts": {
+          "top": 36,
+          "bottom": 353,
+          "left": 83,
+          "right": 70
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/toys-gifts/72753A.png"
+    },
+    {
+      "sku": "72769X",
+      "name": "Sure Women Whole Body Stick Rio Coconut 50ml",
+      "slug": "sure-women-whole-body-stick-rio-coconut-50ml-72769x",
+      "category": "health-beauty",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Sure-Women-Whole-Body-Stick-Rio-Coconut-50ml-72769X.avif",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 360,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 360,
+          "bottom": 360,
+          "left": 360,
+          "right": 360
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/health-beauty/72769X.png"
+    },
+    {
+      "sku": "72819C",
+      "name": "Mitsuba Korean Crispies 85g",
+      "slug": "mitsuba-korean-crispies-85g-72819c",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Mitsuba-Korean-Crispies-85g-72819C.png",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 287,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 287,
+          "bottom": 287,
+          "left": 360,
+          "right": 360
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/sweets-snacks/72819C.png"
+    },
+    {
+      "sku": "72820G",
+      "name": "Mitsuba Katsu Curry Crispies 85g",
+      "slug": "mitsuba-katsu-curry-crispies-85g-72820g",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Mitsuba-Katsu-Curry-Crispies-85g-72820G.png",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 286,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 286,
+          "bottom": 286,
+          "left": 360,
+          "right": 360
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/sweets-snacks/72820G.png"
+    },
+    {
+      "sku": "72989P",
+      "name": "Monopoly Deal",
+      "slug": "monopoly-deal-72989p",
+      "category": "toys-gifts",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Monopoly-Deal-72989P.webp",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom"
+      ],
+      "metrics": {
+        "width": 360,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.4472,
+          "bottom": 0.375,
+          "left": 1.0,
+          "right": 1.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 199,
+          "bottom": 225,
+          "left": 0,
+          "right": 0
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/toys-gifts/72989P.png"
+    },
+    {
+      "sku": "73028E",
+      "name": "Gummi King Jumbo Burger 88g",
+      "slug": "gummi-king-jumbo-burger-88g-73028e",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Gummi-King-Jumbo-Burger-88g-73028E.png",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 306,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 306,
+          "bottom": 306,
+          "left": 360,
+          "right": 360
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/sweets-snacks/73028E.png"
+    },
+    {
+      "sku": "73109B",
+      "name": "Barbie Gummies Bag 100g",
+      "slug": "barbie-gummies-bag-100g-73109b",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Barbie-Gummies-Bag-100g-73109B.png",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 262,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 262,
+          "bottom": 262,
+          "left": 360,
+          "right": 360
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/sweets-snacks/73109B.png"
+    },
+    {
+      "sku": "73110F",
+      "name": "Hot Wheels Gummies Bag 100g",
+      "slug": "hot-wheels-gummies-bag-100g-73110f",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Hot-Wheels-Gummies-Bag-100g-73110F.webp",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 301,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 301,
+          "bottom": 301,
+          "left": 360,
+          "right": 360
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/sweets-snacks/73110F.png"
+    },
+    {
+      "sku": "73112L",
+      "name": "Tetris Gummies Bag 125g",
+      "slug": "tetris-gummies-bag-125g-73112l",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Tetris-Gummies-Bag-125g-73112L.png",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 243,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 243,
+          "bottom": 243,
+          "left": 360,
+          "right": 360
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/sweets-snacks/73112L.png"
+    },
+    {
+      "sku": "73113O",
+      "name": "Pac-Man Gummies Bag 125g",
+      "slug": "pac-man-gummies-bag-125g-73113o",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Pac-Man-Gummies-Bag-125g-73113O.png",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 243,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 243,
+          "bottom": 243,
+          "left": 360,
+          "right": 360
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/sweets-snacks/73113O.png"
+    },
+    {
+      "sku": "73114R",
+      "name": "Space Invaders Gummies Bag 125g",
+      "slug": "space-invaders-gummies-bag-125g-73114r",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Space-Invaders-Gummies-Bag-125g-73114R.png",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 243,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 243,
+          "bottom": 243,
+          "left": 360,
+          "right": 360
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/sweets-snacks/73114R.png"
+    },
+    {
+      "sku": "73115U",
+      "name": "Tetris Sour Foam Gums Bag 125g",
+      "slug": "tetris-sour-foam-gums-bag-125g-73115u",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Tetris-Sour-Foam-Gums-Bag-125g-73115U.png",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 243,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 243,
+          "bottom": 243,
+          "left": 360,
+          "right": 360
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/sweets-snacks/73115U.png"
+    },
+    {
+      "sku": "73116X",
+      "name": "Pac-Man Sour Foam Gums Bag 125g",
+      "slug": "pac-man-sour-foam-gums-bag-125g-73116x",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Pac-Man-Sour-Foam-Gums-Bag-125g-73116X.png",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 243,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 243,
+          "bottom": 243,
+          "left": 360,
+          "right": 360
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/sweets-snacks/73116X.png"
+    },
+    {
+      "sku": "73159A",
+      "name": "K-Pop Superstars Doll 3 Pack",
+      "slug": "k-pop-superstars-doll-3-pack-73159a",
+      "category": "toys-gifts",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/K-Pop-Superstars-Doll-3-Pack-73159A.jpg",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom"
+      ],
+      "nonwhite_canvas_edges": [
+        "bottom"
+      ],
+      "metrics": {
+        "width": 285,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.9965,
+          "bottom": 0.1825,
+          "left": 1.0,
+          "right": 1.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 1,
+          "bottom": 233,
+          "left": 0,
+          "right": 0
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/toys-gifts/73159A.png"
+    },
+    {
+      "sku": "73196L",
+      "name": "La Vida Caribena Body Mists Mixed Case 35ml 24\u2019s",
+      "slug": "la-vida-caribena-body-mists-mixed-case-35ml-24-s-73196l",
+      "category": "health-beauty",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/La-Vida-Caribena-Body-Mists-Mixed-Case-35ml-24s-73196L.webp",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 360,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.5833,
+          "right": 0.5833
+        },
+        "edge_object_pixel_counts": {
+          "top": 360,
+          "bottom": 360,
+          "left": 150,
+          "right": 150
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/health-beauty/73196L.png"
+    },
+    {
+      "sku": "HBT-62816L",
+      "name": "Simple Sensitive Twin Soap 2 x 100g Bars",
+      "slug": "health-beauty-simple-sensitive-twin-soap-2-x-100g-bars-62816l",
+      "category": "health-beauty",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-62816l.png",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 294,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 294,
+          "bottom": 294,
+          "left": 360,
+          "right": 360
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/health-beauty/HBT-62816L.png"
+    },
+    {
+      "sku": "HBT-68712F",
+      "name": "Pantene Conditioner Repair & Protect 90ml",
+      "slug": "health-beauty-pantene-conditioner-repair-protect-90ml-68712f",
+      "category": "health-beauty",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/02/Pantene-Conditioner-Repair-Protect-90ml-68712F.jpg",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom"
+      ],
+      "metrics": {
+        "width": 360,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.7528,
+          "bottom": 0.7556,
+          "left": 1.0,
+          "right": 1.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 89,
+          "bottom": 88,
+          "left": 0,
+          "right": 0
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/health-beauty/HBT-68712F.png"
+    },
+    {
+      "sku": "HBT-69460S",
+      "name": "Aquafresh Active White Toothpaste 100ml",
+      "slug": "health-beauty-aquafresh-active-white-toothpaste-100ml-69460s",
+      "category": "health-beauty",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/06/Aquafresh-Active-White-Toothpaste-100ml-69460S-1.png",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 360,
+        "height": 95,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 360,
+          "bottom": 360,
+          "left": 95,
+          "right": 95
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/health-beauty/HBT-69460S.png"
+    },
+    {
+      "sku": "HBT-72889L",
+      "name": "Nivea Pampervan On-The-Go Gift Set",
+      "slug": "health-beauty-nivea-pampervan-on-the-go-gift-set-72889l",
+      "category": "health-beauty",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Nivea-Pampervan-On-The-Go-Gift-Set-72889L.png",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 360,
+        "height": 197,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 360,
+          "bottom": 360,
+          "left": 197,
+          "right": 197
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/health-beauty/HBT-72889L.png"
+    },
+    {
+      "sku": "HPE-39614P",
+      "name": "Summit 15L Pack Away Backpack Navy",
+      "slug": "household-pet-summit-15l-pack-away-backpack-navy-39614p",
+      "category": "household-pet",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Summit-15L-Pack-Away-Backpack-Navy-39614P.jpg",
+      "status": "review",
+      "touches": [
+        "right"
+      ],
+      "nonwhite_canvas_edges": [],
+      "metrics": {
+        "width": 323,
+        "height": 293,
+        "white_edge_ratios": {
+          "top": 1.0,
+          "bottom": 1.0,
+          "left": 1.0,
+          "right": 0.9966
+        },
+        "edge_object_pixel_counts": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 1
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/household-pet/HPE-39614P.png"
+    },
+    {
+      "sku": "HPE-72383Z",
+      "name": "Good Boy Busy Bar Large Chew Chicken",
+      "slug": "household-pet-good-boy-busy-bar-large-chew-chicken-72383z",
+      "category": "household-pet",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Good-Boy-Busy-Bar-Large-Chew-Chicken-72383Z.png",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 360,
+        "height": 146,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 360,
+          "bottom": 360,
+          "left": 146,
+          "right": 146
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/household-pet/HPE-72383Z.png"
+    },
+    {
+      "sku": "HPE-72387L",
+      "name": "Good Boy Threads Bungee Figure 8 Tugger Dog Toy",
+      "slug": "household-pet-good-boy-threads-bungee-figure-8-tugger-dog-toy-72387l",
+      "category": "household-pet",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Good-Boy-Threads-Bungee-Figure-8-Tugger-Dog-Toy-72387L.png",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 109,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 109,
+          "bottom": 109,
+          "left": 360,
+          "right": 360
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/household-pet/HPE-72387L.png"
+    },
+    {
+      "sku": "STP-31754R",
+      "name": "Bic 4 Colours Shine Tubo Pen Tub",
+      "slug": "stationery-party-bic-4-colours-shine-tubo-pen-tub-31754r",
+      "category": "stationery-party",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-31754r.png",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 186,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 186,
+          "bottom": 186,
+          "left": 360,
+          "right": 360
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/stationery-party/STP-31754R.png"
+    },
+    {
+      "sku": "STP-34567P",
+      "name": "Banner \u2013 Happy Birthday 2.3m x 110mm",
+      "slug": "stationery-party-banner-happy-birthday-2-3m-x-110mm-34567p",
+      "category": "stationery-party",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-34567p_1.jpg",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "left"
+      ],
+      "metrics": {
+        "width": 360,
+        "height": 239,
+        "white_edge_ratios": {
+          "top": 0.9889,
+          "bottom": 0.9917,
+          "left": 0.9791,
+          "right": 0.9916
+        },
+        "edge_object_pixel_counts": {
+          "top": 4,
+          "bottom": 3,
+          "left": 5,
+          "right": 2
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/stationery-party/STP-34567P.png"
+    },
+    {
+      "sku": "STP-36259Q",
+      "name": "Coloured Pencils 10\u2019s Full Length",
+      "slug": "stationery-party-coloured-pencils-10s-full-length-36259q",
+      "category": "stationery-party",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-36259q.jpg",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom"
+      ],
+      "metrics": {
+        "width": 300,
+        "height": 300,
+        "white_edge_ratios": {
+          "top": 0.67,
+          "bottom": 0.63,
+          "left": 1.0,
+          "right": 1.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 99,
+          "bottom": 111,
+          "left": 0,
+          "right": 0
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/stationery-party/STP-36259Q.png"
+    },
+    {
+      "sku": "STP-37404Q",
+      "name": "Duralon Glue Stick",
+      "slug": "stationery-party-duralon-glue-stick-37404q",
+      "category": "stationery-party",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-37404q.png",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 104,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 104,
+          "bottom": 104,
+          "left": 360,
+          "right": 360
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/stationery-party/STP-37404Q.png"
+    },
+    {
+      "sku": "STP-4148U",
+      "name": "Staedtler Stick Pen Blue",
+      "slug": "stationery-party-staedtler-stick-pen-blue-4148u",
+      "category": "stationery-party",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-4148u_3.jpg",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom"
+      ],
+      "metrics": {
+        "width": 300,
+        "height": 300,
+        "white_edge_ratios": {
+          "top": 0.96,
+          "bottom": 0.97,
+          "left": 1.0,
+          "right": 1.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 12,
+          "bottom": 9,
+          "left": 0,
+          "right": 0
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/stationery-party/STP-4148U.png"
+    },
+    {
+      "sku": "STX-39480E",
+      "name": "Baby Girl Card Teddy",
+      "slug": "stationery-party-baby-girl-card-teddy-39480e",
+      "category": "stationery-party",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/05/Baby-Girl-Card-Teddy-39480E.jpg",
+      "status": "review",
+      "touches": [
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 244,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 1.0,
+          "bottom": 0.0,
+          "left": 0.4417,
+          "right": 0.4833
+        },
+        "edge_object_pixel_counts": {
+          "top": 0,
+          "bottom": 244,
+          "left": 201,
+          "right": 186
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/stationery-party/STX-39480E.png"
+    },
+    {
+      "sku": "STX-39481H",
+      "name": "Baby Boy Card Bunting",
+      "slug": "stationery-party-baby-boy-card-bunting-39481h",
+      "category": "stationery-party",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/06/Baby-Boy-Card-Bunting-39481H.jpg",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 244,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.8074,
+          "bottom": 0.0574,
+          "left": 0.5333,
+          "right": 0.5889
+        },
+        "edge_object_pixel_counts": {
+          "top": 47,
+          "bottom": 230,
+          "left": 168,
+          "right": 148
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/stationery-party/STX-39481H.png"
+    },
+    {
+      "sku": "STX-39493S",
+      "name": "Birthday Card \u2013 Open Square Stars 160mmx160mm",
+      "slug": "stationery-party-birthday-card-open-square-stars-160mmx160mm-39493s",
+      "category": "stationery-party",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/05/Birthday-Card-%E2%80%93-Open-Square-Stars-160mmx160mm-39493S.jpg",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 360,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 360,
+          "bottom": 360,
+          "left": 360,
+          "right": 360
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/stationery-party/STX-39493S.png"
+    },
+    {
+      "sku": "STX-39494V",
+      "name": "Birthday Card \u2013 Open Square Cheers 160mmx160mm",
+      "slug": "stationery-party-birthday-card-open-square-cheers-160mmx160mm-39494v",
+      "category": "stationery-party",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/05/Birthday-Card-%E2%80%93-Open-Square-Cheers-160mmx160mm-39494V.jpg",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 360,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 360,
+          "bottom": 360,
+          "left": 360,
+          "right": 360
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/stationery-party/STX-39494V.png"
+    },
+    {
+      "sku": "STX-39510Z",
+      "name": "Birthday Card \u2013 Open Square Bright Flowers 160mmx160mm",
+      "slug": "stationery-party-birthday-card-open-square-bright-flowers-160mmx160mm-39510z",
+      "category": "stationery-party",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/07/Birthday-Card-Open-Square-Bright-Flowers-160mmx160mm-39510Z.jpg",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 360,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 360,
+          "bottom": 360,
+          "left": 360,
+          "right": 360
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/stationery-party/STX-39510Z.png"
+    },
+    {
+      "sku": "STX-39512F",
+      "name": "Birthday Card \u2013 Open Square Cocktails 160mmx160mm",
+      "slug": "stationery-party-birthday-card-open-square-cocktails-160mmx160mm-39512f",
+      "category": "stationery-party",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/07/Birthday-Card-%E2%80%93-Open-Square-Cocktails-160mmx160mm-39512F.jpg",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 360,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 360,
+          "bottom": 360,
+          "left": 360,
+          "right": 360
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/stationery-party/STX-39512F.png"
+    },
+    {
+      "sku": "STX-39513I",
+      "name": "Birthday Card \u2013 Open Square Presents 160mmx160mm",
+      "slug": "stationery-party-birthday-card-open-square-presents-160mmx160mm-39513i",
+      "category": "stationery-party",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/07/Birthday-Card-Open-Square-Presents-160mmx160mm-39513I.jpg",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 360,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 360,
+          "bottom": 360,
+          "left": 360,
+          "right": 360
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/stationery-party/STX-39513I.png"
+    },
+    {
+      "sku": "SWE-72545T",
+      "name": "Wonder Cookies Original Vanilla 120g",
+      "slug": "sweets-snacks-wonder-cookies-original-vanilla-120g-72545t",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Wonder-Cookies-Original-Vanilla-120g-72545T.png",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 360,
+        "height": 96,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 360,
+          "bottom": 360,
+          "left": 96,
+          "right": 96
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/sweets-snacks/SWE-72545T.png"
+    },
+    {
+      "sku": "SWE-72546W",
+      "name": "Wonder Cookies Chocolate 120g",
+      "slug": "sweets-snacks-wonder-cookies-chocolate-120g-72546w",
+      "category": "sweets-snacks",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Wonder-Cookies-Chocolate-120g-72546W.png",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 360,
+        "height": 104,
+        "white_edge_ratios": {
+          "top": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 360,
+          "bottom": 360,
+          "left": 104,
+          "right": 104
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/sweets-snacks/SWE-72546W.png"
+    },
+    {
+      "sku": "TGY-70562I",
+      "name": "Fuggler CDU",
+      "slug": "toys-gifts-fuggler-cdu-70562i",
+      "category": "toys-gifts",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/11/Zuru-Fuggler-CDU-70562I_2.jpg",
+      "status": "review",
+      "touches": [
+        "top",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top"
+      ],
+      "metrics": {
+        "width": 360,
+        "height": 354,
+        "white_edge_ratios": {
+          "top": 0.9583,
+          "bottom": 1.0,
+          "left": 1.0,
+          "right": 0.9972
+        },
+        "edge_object_pixel_counts": {
+          "top": 15,
+          "bottom": 0,
+          "left": 0,
+          "right": 1
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/toys-gifts/TGY-70562I.png"
+    },
+    {
+      "sku": "TGY-71039A",
+      "name": "Palm Pals Hunk Hippo Approx 5\u2033",
+      "slug": "toys-gifts-palm-pals-hunk-hippo-approx-5-71039a",
+      "category": "toys-gifts",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/03/Palm-Pals-Hunk-Hippo-Approx-5-71039A.png",
+      "status": "review",
+      "touches": [
+        "left"
+      ],
+      "nonwhite_canvas_edges": [],
+      "metrics": {
+        "width": 296,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 1.0,
+          "bottom": 1.0,
+          "left": 0.9861,
+          "right": 1.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 0,
+          "bottom": 0,
+          "left": 5,
+          "right": 0
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/toys-gifts/TGY-71039A.png"
+    },
+    {
+      "sku": "TGY-71040E",
+      "name": "Palm Pals Leno Lion Approx 5\u2033",
+      "slug": "toys-gifts-palm-pals-leno-lion-approx-5-71040e",
+      "category": "toys-gifts",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/03/Palm-Pals-Leno-Lion-Approx-5-71040E.png",
+      "status": "review",
+      "touches": [
+        "top"
+      ],
+      "nonwhite_canvas_edges": [],
+      "metrics": {
+        "width": 318,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.9843,
+          "bottom": 1.0,
+          "left": 1.0,
+          "right": 1.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 5,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/toys-gifts/TGY-71040E.png"
+    },
+    {
+      "sku": "TGY-72083N",
+      "name": "Micro Teenies \u2013 Care Bears CDU",
+      "slug": "toys-gifts-micro-teenies-care-bears-cdu-72083n",
+      "category": "toys-gifts",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/03/Micro-Teenies-Care-Bears-CDU-72083N.png",
+      "status": "review",
+      "touches": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "metrics": {
+        "width": 296,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 0.0068,
+          "bottom": 0.0,
+          "left": 0.0222,
+          "right": 0.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 294,
+          "bottom": 296,
+          "left": 352,
+          "right": 360
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/toys-gifts/TGY-72083N.png"
+    },
+    {
+      "sku": "TGY-72221L",
+      "name": "Cuddly Capybara 15cm CDU",
+      "slug": "toys-gifts-cuddly-capybara-15cm-cdu-72221l",
+      "category": "toys-gifts",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/03/Cuddy-Capybara-15cm-CDU-72221L.jpg",
+      "status": "review",
+      "touches": [
+        "top",
+        "right"
+      ],
+      "nonwhite_canvas_edges": [
+        "top",
+        "right"
+      ],
+      "metrics": {
+        "width": 360,
+        "height": 307,
+        "white_edge_ratios": {
+          "top": 0.9167,
+          "bottom": 1.0,
+          "left": 1.0,
+          "right": 0.8762
+        },
+        "edge_object_pixel_counts": {
+          "top": 30,
+          "bottom": 0,
+          "left": 0,
+          "right": 38
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/toys-gifts/TGY-72221L.png"
+    },
+    {
+      "sku": "TGY-72985D",
+      "name": "Hot Shots Can Alley",
+      "slug": "toys-gifts-hot-shots-can-alley-72985d",
+      "category": "toys-gifts",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Hot-Shots-Can-Alley-72985D.jpg",
+      "status": "review",
+      "touches": [
+        "bottom",
+        "left"
+      ],
+      "nonwhite_canvas_edges": [
+        "bottom"
+      ],
+      "metrics": {
+        "width": 276,
+        "height": 360,
+        "white_edge_ratios": {
+          "top": 1.0,
+          "bottom": 0.4058,
+          "left": 0.9972,
+          "right": 1.0
+        },
+        "edge_object_pixel_counts": {
+          "top": 0,
+          "bottom": 164,
+          "left": 1,
+          "right": 0
+        }
+      },
+      "reasons": [
+        "actual_product_or_nonwhite_content_touches_canvas_edge",
+        "visible_white_space_not_present_on_all_canvas_edges"
+      ],
+      "review_image": "/home/ubuntu/magnetic-source-strict-edge-cache-audit-artifacts/flagged/toys-gifts/TGY-72985D.png"
+    }
+  ]
+}

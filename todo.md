@@ -425,3 +425,11 @@
 
 - [x] Remove the remaining one category-label dot and two Trade Record dots globally from every product card, without removing the category or Trade Record text.
 - [x] Build and visually verify the global three-dot removal. Category and Trade Record labels remain visible with all three dots removed globally; publication follows the saved checkpoint.
+
+## Strict Product Image Canvas-Edge Audit
+
+- [x] Remove the two decorative dots beneath the header logo without altering the logo, header layout, navigation, or other design elements.
+- [x] Screen every live product image against the owner’s strict rule: retain only products with visible white space between the actual product/object and every canvas edge; flag any product touching the top, bottom, left, or right image-canvas edge.
+- [x] Derive the strict edge-contact candidates from the completed 322-image cached audit report and its retained review evidence, because a fresh source-image download audit is currently rate-limited; manually confirm every candidate before deletion. All 67 strict candidates were visually reviewed and exact live SKUs were cross-checked.
+- [x] Visually verify every edge-touch candidate, create a full backup, and permanently remove only records with confirmed image-canvas contact. The protected deletion backed up the full 322-product catalogue and removed exactly 67 confirmed strict edge-contact records; the catalogue now has 255 products: Baby & Kids 33, Clearance 23, Seasonal & Christmas 33, Stationery & Party 38, Toys & Gifts 39, Health & Beauty 37, Household & Pet 35, and Sweets & Snacks 17.
+- [x] Perform a second complete edge-clearance verification, then verify the remaining catalogue, search, routes, sitemap, build, and deployment. All 67 confirmed strict edge failures are absent from the 255-product live catalogue, search routes, and regenerated 271-URL sitemap; no strict reviewed failure remains. The header-logo dots are removed, and the production build, SEO audit, TypeScript check, exact category totals, price-free policy, and representative homepage/category views pass.

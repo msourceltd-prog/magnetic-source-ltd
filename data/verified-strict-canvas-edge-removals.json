@@ -1,0 +1,2385 @@
+{
+  "compiledAt": "2026-08-21T13:59:53.931Z",
+  "totalCandidates": 67,
+  "categoryCounts": {
+    "baby-kids": 12,
+    "health-beauty": 9,
+    "household-pet": 5,
+    "seasonal-christmas": 4,
+    "stationery-party": 12,
+    "sweets-snacks": 12,
+    "toys-gifts": 13
+  },
+  "rule": "Owner-approved strict rule: permanently remove when the actual product or non-white source content touches top, bottom, left, or right image-canvas edge. Keep only visible white clearance on all four sides.",
+  "products": [
+    {
+      "id": 1364,
+      "sku": "1232J",
+      "name": "Pampers Baby-Dry Nappies Size 4, 9-14kgs, 20-31lbs, Maxi 25’s",
+      "slug": "pampers-baby-dry-nappies-size-4-9-14kgs-20-31lbs-maxi-25-s-1232j",
+      "category": "baby-kids",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 4",
+      "description": "Pampers Baby-Dry Nappies Size 4, 9-14kgs, 20-31lbs, Maxi 25’s is supplied as Pack of 4.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2014/04/Pampers-Baby-Dry-Nappies-Size-4-9-14kgs-20-31lbs-Maxi-25s-1232J.jpg",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-20T17:13:19.211881+00:00",
+      "updated_at": "2026-08-20T17:13:19.211881+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1361,
+      "sku": "1240I",
+      "name": "Pampers Baby-Dry Nappies Size 5, 11-16kgs, 24-35lbs 23’s",
+      "slug": "pampers-baby-dry-nappies-size-5-11-16kgs-24-35lbs-23-s-1240i",
+      "category": "baby-kids",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 4",
+      "description": "Pampers Baby-Dry Nappies Size 5, 11-16kgs, 24-35lbs 23’s is supplied as Pack of 4.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2014/06/Pampers-Baby-Dry-Nappies-Size-5-11-16kgs-24-35lbs-23s-1240I.jpg",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-20T17:13:19.211881+00:00",
+      "updated_at": "2026-08-20T17:13:19.211881+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1357,
+      "sku": "2536N",
+      "name": "Pampers New Baby Premium Protection Nappies Size 1 2-5kg, 4-11lbs 22’s",
+      "slug": "pampers-new-baby-premium-protection-nappies-size-1-2-5kg-4-11lbs-22-s-2536n",
+      "category": "baby-kids",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 4",
+      "description": "Pampers New Baby Premium Protection Nappies Size 1 2-5kg, 4-11lbs 22’s is supplied as Pack of 4.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2017/05/Pampers-New-Baby-Premium-Protection-Nappies-Size-1-2-5kg-4-11lbs-22s-2536N.jpg",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-20T17:13:19.211881+00:00",
+      "updated_at": "2026-08-20T17:13:19.211881+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1332,
+      "sku": "39537E",
+      "name": "2 Pack Baby Sponges",
+      "slug": "2-pack-baby-sponges-39537e",
+      "category": "baby-kids",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 10",
+      "description": "2 Pack Baby Sponges is supplied as Pack of 10.",
+      "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2025/09/2-Pack-Baby-Sponges-39537E-300x300.png",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-20T17:13:19.211881+00:00",
+      "updated_at": "2026-08-20T17:13:19.211881+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1415,
+      "sku": "48758P",
+      "name": "Cottontails for Mums Disposable Breast Pads 40’s",
+      "slug": "cottontails-for-mums-disposable-breast-pads-40-s-48758p",
+      "category": "baby-kids",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "Cottontails for Mums Disposable Breast Pads 40’s is supplied as Pack of 6.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-48758p.png",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T10:12:33.132316+00:00",
+      "updated_at": "2026-08-21T10:12:33.132316+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1352,
+      "sku": "5358N",
+      "name": "Pampers Baby-Dry Nappies Size 6 15+kg, 33+ lbs 19’s",
+      "slug": "pampers-baby-dry-nappies-size-6-15-kg-33-lbs-19-s-5358n",
+      "category": "baby-kids",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 4",
+      "description": "Pampers Baby-Dry Nappies Size 6 15+kg, 33+ lbs 19’s is supplied as Pack of 4.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2019/03/Pampers-Baby-Dry-Nappies-Size-6-15kg-33-lbs-19s-5358N.jpg",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-20T17:13:19.211881+00:00",
+      "updated_at": "2026-08-20T17:13:19.211881+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1349,
+      "sku": "55913Q",
+      "name": "Huggies Little Swimmers Assorted Sizes",
+      "slug": "huggies-little-swimmers-assorted-sizes-55913q",
+      "category": "baby-kids",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 36",
+      "description": "Huggies Little Swimmers Assorted Sizes is supplied as Pack of 36.",
+      "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-55913q-300x252.png",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-20T17:13:19.211881+00:00",
+      "updated_at": "2026-08-20T17:13:19.211881+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge"
+        ]
+      }
+    },
+    {
+      "id": 1543,
+      "sku": "607T",
+      "name": "Johnson’s Baby Shampoo 100ml",
+      "slug": "johnson-s-baby-shampoo-100ml-607t",
+      "category": "baby-kids",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "Johnson’s Baby Shampoo 100ml is supplied as Pack of 6.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-607t.jpg",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T11:41:24.455659+00:00",
+      "updated_at": "2026-08-21T11:41:24.455659+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1346,
+      "sku": "61612L",
+      "name": "Johnson’s Baby Bath 300ml",
+      "slug": "johnson-s-baby-bath-300ml-61612l",
+      "category": "baby-kids",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "Johnson’s Baby Bath 300ml is supplied as Pack of 6.",
+      "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-61612l-300x300.jpg",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-20T17:13:19.211881+00:00",
+      "updated_at": "2026-08-20T17:13:19.211881+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1330,
+      "sku": "70523R",
+      "name": "4My Baby Nappy Bags Fragranced 200’s",
+      "slug": "4my-baby-nappy-bags-fragranced-200-s-70523r",
+      "category": "baby-kids",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "4My Baby Nappy Bags Fragranced 200’s is supplied as Pack of 24.",
+      "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2025/11/4My-Baby-Nappy-Bags-Fragranced-200s-70523R-300x185.png",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-20T17:13:19.211881+00:00",
+      "updated_at": "2026-08-20T17:13:19.211881+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "bottom"
+        ],
+        "nonwhiteCanvasEdges": [
+          "bottom"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1630,
+      "sku": "70814B",
+      "name": "Fisher Price Animal Ball 12.5cm CDU",
+      "slug": "fisher-price-animal-ball-12-5cm-cdu-70814b",
+      "category": "baby-kids",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 18",
+      "description": "Fisher Price Animal Ball 12.5cm CDU is supplied as pack of 18.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/12/Fisher-Price-Animal-Ball-12.5cm-CDU-70814B.jpg",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T12:54:15.385226+00:00",
+      "updated_at": "2026-08-21T12:54:15.385226+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1629,
+      "sku": "70817K",
+      "name": "Fisher Price 8 Inch Animal Plush CDU",
+      "slug": "fisher-price-8-inch-animal-plush-cdu-70817k",
+      "category": "baby-kids",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 18",
+      "description": "Fisher Price 8 Inch Animal Plush CDU is supplied as pack of 18.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/12/Fisher-Price-8-Animal-Plush-CDU-70817K.jpg",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T12:54:15.107079+00:00",
+      "updated_at": "2026-08-21T12:54:15.107079+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top"
+        ],
+        "nonwhiteCanvasEdges": [],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge"
+        ]
+      }
+    },
+    {
+      "id": 1475,
+      "sku": "39630N",
+      "name": "So Useful 3 Ply Pocket Tissues 10’s 6 Pack",
+      "slug": "so-useful-3-ply-pocket-tissues-10-s-6-pack-39630n",
+      "category": "health-beauty",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "So Useful 3 Ply Pocket Tissues 10’s 6 Pack is supplied in a pack of 12.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/So-Useful-3-Ply-Pocket-Tisssues-10s-6-Pack-39630N.png",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T10:53:49.544744+00:00",
+      "updated_at": "2026-08-21T10:53:49.544744+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1612,
+      "sku": "72569P",
+      "name": "Palmolive Shampoo 2in1 350ml",
+      "slug": "palmolive-shampoo-2in1-350ml-72569p",
+      "category": "health-beauty",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "Palmolive Shampoo 2in1 350ml is supplied as pack of 6.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Palmolive-Shampoo-2in1-350ml-PMP-1.25-72569P.jpg",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T12:54:08.738274+00:00",
+      "updated_at": "2026-08-21T12:54:08.738274+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1614,
+      "sku": "72571W",
+      "name": "L’Oreal Men Expert Antiperspirant Deodorant Thermic Resist Roll On 50ml",
+      "slug": "loreal-men-expert-antiperspirant-deodorant-thermic-resist-roll-on-50ml-72571w",
+      "category": "health-beauty",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "L’Oreal Men Expert Antiperspirant Deodorant Thermic Resist Roll On 50ml is supplied as pack of 6.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/LOreal-Men-Expert-Antiperspirant-Deodorant-Thermic-Resist-Roll-On-50ml-72571W.png",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T12:54:09.352879+00:00",
+      "updated_at": "2026-08-21T12:54:09.352879+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1273,
+      "sku": "72769X",
+      "name": "Sure Women Whole Body Stick Rio Coconut 50ml",
+      "slug": "sure-women-whole-body-stick-rio-coconut-50ml-72769x",
+      "category": "health-beauty",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "Sure Women Whole Body Stick Rio Coconut 50ml is supplied in a pack of 6.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Sure-Women-Whole-Body-Stick-Rio-Coconut-50ml-72769X.avif",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-20T13:48:53.820608+00:00",
+      "updated_at": "2026-08-20T13:48:53.820608+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1249,
+      "sku": "73196L",
+      "name": "La Vida Caribena Body Mists Mixed Case 35ml 24’s",
+      "slug": "la-vida-caribena-body-mists-mixed-case-35ml-24-s-73196l",
+      "category": "health-beauty",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "La Vida Caribena Body Mists Mixed Case 35ml 24’s is supplied in a pack of 24.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/La-Vida-Caribena-Body-Mists-Mixed-Case-35ml-24s-73196L.webp",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-20T13:48:53.820608+00:00",
+      "updated_at": "2026-08-20T13:48:53.820608+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1521,
+      "sku": "HBT-62816L",
+      "name": "Simple Sensitive Twin Soap 2 x 100g Bars",
+      "slug": "health-beauty-simple-sensitive-twin-soap-2-x-100g-bars-62816l",
+      "category": "health-beauty",
+      "price": 0,
+      "availability": "Availability to confirm",
+      "pack": "Pack of 1",
+      "description": "A twin pack of pure soap bars for sensitive skin, marked fragrance-free and colour-free, with gentle cleansing and vegan-friendly claims shown on the retail pack. Supplier reference: 62816L.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-62816l.png",
+      "tags": [
+        "Health & Beauty",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T11:06:30.163104+00:00",
+      "updated_at": "2026-08-21T11:06:30.163104+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1525,
+      "sku": "HBT-68712F",
+      "name": "Pantene Conditioner Repair & Protect 90ml",
+      "slug": "health-beauty-pantene-conditioner-repair-protect-90ml-68712f",
+      "category": "health-beauty",
+      "price": 0,
+      "availability": "Availability to confirm",
+      "pack": "Pack of 6",
+      "description": "Nourishes hair from root to tip to help minimise breakage and repair signs of damage; suitable for all hair types and travel. Supplier reference: 68712F.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/02/Pantene-Conditioner-Repair-Protect-90ml-68712F.jpg",
+      "tags": [
+        "Health & Beauty",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T11:06:31.83289+00:00",
+      "updated_at": "2026-08-21T11:06:31.83289+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1522,
+      "sku": "HBT-69460S",
+      "name": "Aquafresh Active White Toothpaste 100ml",
+      "slug": "health-beauty-aquafresh-active-white-toothpaste-100ml-69460s",
+      "category": "health-beauty",
+      "price": 0,
+      "availability": "Availability to confirm",
+      "pack": "Pack of 12",
+      "description": "Aquafresh Active White toothpaste contains menthol for fresh breath, helps clean teeth and prevent cavities, and uses 100% recyclable packaging. Supplier reference: 69460S.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/06/Aquafresh-Active-White-Toothpaste-100ml-69460S-1.png",
+      "tags": [
+        "Health & Beauty",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T11:06:30.942994+00:00",
+      "updated_at": "2026-08-21T11:06:30.942994+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1532,
+      "sku": "HBT-72889L",
+      "name": "Nivea Pampervan On-The-Go Gift Set",
+      "slug": "health-beauty-nivea-pampervan-on-the-go-gift-set-72889l",
+      "category": "health-beauty",
+      "price": 0,
+      "availability": "Availability to confirm",
+      "pack": "Pack of 1",
+      "description": "This gift set includes Nivea Pearl & Beauty Roll-on Deodorant, Nivea Original Lip Balm, Nivea Crème Soft Body Wash, Nivea Soft Moisturiser and 3-in-1 Refreshing Cleansing Wipes. Supplier reference: 72889L.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Nivea-Pampervan-On-The-Go-Gift-Set-72889L.png",
+      "tags": [
+        "Health & Beauty",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T11:06:34.300656+00:00",
+      "updated_at": "2026-08-21T11:06:34.300656+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1052,
+      "sku": "39529F",
+      "name": "Super Grip Sports Bottle 700ml",
+      "slug": "super-grip-sports-bottle-700ml-39529f",
+      "category": "household-pet",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "Super Grip Sports Bottle 700ml is supplied in a pack of 12.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Super-Grip-Sports-Bottle-700ml-39529F.png",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-20T13:48:52.198654+00:00",
+      "updated_at": "2026-08-20T13:48:52.198654+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "left"
+        ],
+        "nonwhiteCanvasEdges": [
+          "left"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1071,
+      "sku": "72388O",
+      "name": "Good Boy Chewables Medium Bones with Chicken 2 Pack",
+      "slug": "good-boy-chewables-medium-bones-with-chicken-2-pack-72388o",
+      "category": "household-pet",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 8",
+      "description": "Good Boy Chewables Medium Bones with Chicken 2 Pack is supplied in a pack of 8.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Chewables-Medium-Bones-with-Chicken-2-Pack-72388O-1024x1024.png",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-20T13:48:52.198654+00:00",
+      "updated_at": "2026-08-20T13:48:52.198654+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1560,
+      "sku": "HPE-39614P",
+      "name": "Summit 15L Pack Away Backpack Navy",
+      "slug": "household-pet-summit-15l-pack-away-backpack-navy-39614p",
+      "category": "household-pet",
+      "price": 0,
+      "availability": "Trade enquiry",
+      "pack": "Pack of 6",
+      "description": "Summit 15L Pack Away Backpack Navy is supplied as pack of 6. Supplier reference: 39614P.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Summit-15L-Pack-Away-Backpack-Navy-39614P.jpg",
+      "tags": [
+        "Household & Pet",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T12:22:38.629454+00:00",
+      "updated_at": "2026-08-21T12:22:38.629454+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge"
+        ]
+      }
+    },
+    {
+      "id": 1565,
+      "sku": "HPE-72383Z",
+      "name": "Good Boy Busy Bar Large Chew Chicken",
+      "slug": "household-pet-good-boy-busy-bar-large-chew-chicken-72383z",
+      "category": "household-pet",
+      "price": 0,
+      "availability": "Trade enquiry",
+      "pack": "Pack of 12",
+      "description": "Good Boy Busy Bar Large Chew Chicken is supplied as pack of 12. Supplier reference: 72383Z.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Good-Boy-Busy-Bar-Large-Chew-Chicken-72383Z.png",
+      "tags": [
+        "Household & Pet",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T12:22:40.0135+00:00",
+      "updated_at": "2026-08-21T12:22:40.0135+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1555,
+      "sku": "HPE-72387L",
+      "name": "Good Boy Threads Bungee Figure 8 Tugger Dog Toy",
+      "slug": "household-pet-good-boy-threads-bungee-figure-8-tugger-dog-toy-72387l",
+      "category": "household-pet",
+      "price": 0,
+      "availability": "Trade enquiry",
+      "pack": "Pack of 3",
+      "description": "Good Boy Threads Bungee Figure 8 Tugger Dog Toy is supplied as pack of 3. Supplier reference: 72387L.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Good-Boy-Threads-Bungee-Figure-8-Tugger-Dog-Toy-72387L.png",
+      "tags": [
+        "Household & Pet",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T12:22:35.697929+00:00",
+      "updated_at": "2026-08-21T12:22:35.697929+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1322,
+      "sku": "22768G",
+      "name": "Christmas Cards – Highland Cow 10pk",
+      "slug": "christmas-cards-highland-cow-10pk-22768g",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "Christmas Cards – Highland Cow 10pk is supplied in a pack of 24.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Cards-Highland-Cow-10pk-22768G.jpg",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-20T13:48:54.117626+00:00",
+      "updated_at": "2026-08-20T13:48:54.117626+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "bottom",
+          "left"
+        ],
+        "nonwhiteCanvasEdges": [
+          "bottom"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1319,
+      "sku": "22771Q",
+      "name": "Christmas Cards – Bumper Box 5 Designs 25pk",
+      "slug": "christmas-cards-bumper-box-5-designs-25pk-22771q",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "Christmas Cards – Bumper Box 5 Designs 25pk is supplied in a pack of 24.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Cards-Bumper-Box-5-Designs-25pk-22771Q.jpg",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-20T13:48:54.117626+00:00",
+      "updated_at": "2026-08-20T13:48:54.117626+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1309,
+      "sku": "22784E",
+      "name": "Christmas Gift Bag Santa & Friends Jumbo Woven",
+      "slug": "christmas-gift-bag-santa-friends-jumbo-woven-22784e",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "Christmas Gift Bag Santa & Friends Jumbo Woven is supplied in a pack of 6.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Gift-Bag-Santa-Friends-Jumbo-Woven-22784E.jpg",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-20T13:48:54.117626+00:00",
+      "updated_at": "2026-08-20T13:48:54.117626+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top"
+        ],
+        "nonwhiteCanvasEdges": [],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge"
+        ]
+      }
+    },
+    {
+      "id": 1302,
+      "sku": "22796P",
+      "name": "Christmas 6 x 6″ Crackers Gold & Silver",
+      "slug": "christmas-6-x-6-crackers-gold-silver-22796p",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 36",
+      "description": "Christmas 6 x 6″ Crackers Gold & Silver is supplied in a pack of 36.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-6-x-6-Crackers-Gold-Silver-22796P_2.jpg",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-20T13:48:53.820608+00:00",
+      "updated_at": "2026-08-20T13:48:53.820608+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1495,
+      "sku": "STP-31754R",
+      "name": "Bic 4 Colours Shine Tubo Pen Tub",
+      "slug": "stationery-party-bic-4-colours-shine-tubo-pen-tub-31754r",
+      "category": "stationery-party",
+      "price": 0,
+      "availability": "Availability to confirm",
+      "pack": "Pack of 20",
+      "description": "Bic 4 Colours Shine pens supplied in a retail tub presentation. Supplier reference: 31754R.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-31754r.png",
+      "tags": [
+        "Stationery & Party",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T10:53:56.764353+00:00",
+      "updated_at": "2026-08-21T10:53:56.764353+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1496,
+      "sku": "STP-34567P",
+      "name": "Banner – Happy Birthday 2.3m x 110mm",
+      "slug": "stationery-party-banner-happy-birthday-2-3m-x-110mm-34567p",
+      "category": "stationery-party",
+      "price": 0,
+      "availability": "Availability to confirm",
+      "pack": "Pack of 12",
+      "description": "A Happy Birthday banner measuring 2.3 metres by 110 millimetres. Supplier reference: 34567P.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-34567p_1.jpg",
+      "tags": [
+        "Stationery & Party",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T10:53:57.026062+00:00",
+      "updated_at": "2026-08-21T10:53:57.026062+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "left"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1375,
+      "sku": "STP-36259Q",
+      "name": "Coloured Pencils 10’s Full Length",
+      "slug": "stationery-party-coloured-pencils-10s-full-length-36259q",
+      "category": "stationery-party",
+      "price": 0,
+      "availability": "Availability to confirm",
+      "pack": "Pack of 12",
+      "description": "Full-length coloured pencils supplied as a ten-colour retail assortment. Supplier reference: 36259Q.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-36259q.jpg",
+      "tags": [
+        "Stationery & Party",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T10:04:45.4735+00:00",
+      "updated_at": "2026-08-21T10:04:45.4735+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1499,
+      "sku": "STP-37404Q",
+      "name": "Duralon Glue Stick",
+      "slug": "stationery-party-duralon-glue-stick-37404q",
+      "category": "stationery-party",
+      "price": 0,
+      "availability": "Availability to confirm",
+      "pack": "Pack of 6",
+      "description": "Duralon glue sticks supplied as a six-unit wholesale pack for stationery and craft use. Supplier reference: 37404Q.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-37404q.png",
+      "tags": [
+        "Stationery & Party",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T10:53:58.90284+00:00",
+      "updated_at": "2026-08-21T10:53:58.90284+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1376,
+      "sku": "STP-4148U",
+      "name": "Staedtler Stick Pen Blue",
+      "slug": "stationery-party-staedtler-stick-pen-blue-4148u",
+      "category": "stationery-party",
+      "price": 0,
+      "availability": "Availability to confirm",
+      "pack": "Pack of 50",
+      "description": "Staedtler blue stick ballpoint pens supplied in a wholesale quantity of 50. Supplier reference: 4148U.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-4148u_3.jpg",
+      "tags": [
+        "Stationery & Party",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T10:04:45.4735+00:00",
+      "updated_at": "2026-08-21T10:04:45.4735+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1606,
+      "sku": "STX-39480E",
+      "name": "Baby Girl Card Teddy",
+      "slug": "stationery-party-baby-girl-card-teddy-39480e",
+      "category": "stationery-party",
+      "price": 0,
+      "availability": "Trade enquiry",
+      "pack": "Pack of 6",
+      "description": "Baby Girl Card Teddy is supplied as pack of 6. Supplier reference: 39480E.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/05/Baby-Girl-Card-Teddy-39480E.jpg",
+      "tags": [
+        "Stationery & Party",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T12:22:53.57817+00:00",
+      "updated_at": "2026-08-21T12:22:53.57817+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1603,
+      "sku": "STX-39481H",
+      "name": "Baby Boy Card Bunting",
+      "slug": "stationery-party-baby-boy-card-bunting-39481h",
+      "category": "stationery-party",
+      "price": 0,
+      "availability": "Trade enquiry",
+      "pack": "Pack of 6",
+      "description": "Baby Boy Card Bunting is supplied as pack of 6. Supplier reference: 39481H.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/06/Baby-Boy-Card-Bunting-39481H.jpg",
+      "tags": [
+        "Stationery & Party",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T12:22:52.723742+00:00",
+      "updated_at": "2026-08-21T12:22:52.723742+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1605,
+      "sku": "STX-39493S",
+      "name": "Birthday Card – Open Square Stars 160mmx160mm",
+      "slug": "stationery-party-birthday-card-open-square-stars-160mmx160mm-39493s",
+      "category": "stationery-party",
+      "price": 0,
+      "availability": "Trade enquiry",
+      "pack": "Pack of 6",
+      "description": "Birthday Card – Open Square Stars 160mmx160mm is supplied as pack of 6. Supplier reference: 39493S.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/05/Birthday-Card-%E2%80%93-Open-Square-Stars-160mmx160mm-39493S.jpg",
+      "tags": [
+        "Stationery & Party",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T12:22:53.278289+00:00",
+      "updated_at": "2026-08-21T12:22:53.278289+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1604,
+      "sku": "STX-39494V",
+      "name": "Birthday Card – Open Square Cheers 160mmx160mm",
+      "slug": "stationery-party-birthday-card-open-square-cheers-160mmx160mm-39494v",
+      "category": "stationery-party",
+      "price": 0,
+      "availability": "Trade enquiry",
+      "pack": "Pack of 6",
+      "description": "Birthday Card – Open Square Cheers 160mmx160mm is supplied as pack of 6. Supplier reference: 39494V.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/05/Birthday-Card-%E2%80%93-Open-Square-Cheers-160mmx160mm-39494V.jpg",
+      "tags": [
+        "Stationery & Party",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T12:22:53.011101+00:00",
+      "updated_at": "2026-08-21T12:22:53.011101+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1601,
+      "sku": "STX-39510Z",
+      "name": "Birthday Card – Open Square Bright Flowers 160mmx160mm",
+      "slug": "stationery-party-birthday-card-open-square-bright-flowers-160mmx160mm-39510z",
+      "category": "stationery-party",
+      "price": 0,
+      "availability": "Trade enquiry",
+      "pack": "Pack of 6",
+      "description": "Birthday Card – Open Square Bright Flowers 160mmx160mm is supplied as pack of 6. Supplier reference: 39510Z.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/07/Birthday-Card-Open-Square-Bright-Flowers-160mmx160mm-39510Z.jpg",
+      "tags": [
+        "Stationery & Party",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T12:22:52.166647+00:00",
+      "updated_at": "2026-08-21T12:22:52.166647+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1599,
+      "sku": "STX-39512F",
+      "name": "Birthday Card – Open Square Cocktails 160mmx160mm",
+      "slug": "stationery-party-birthday-card-open-square-cocktails-160mmx160mm-39512f",
+      "category": "stationery-party",
+      "price": 0,
+      "availability": "Trade enquiry",
+      "pack": "Pack of 6",
+      "description": "Birthday Card – Open Square Cocktails 160mmx160mm is supplied as pack of 6. Supplier reference: 39512F.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/07/Birthday-Card-%E2%80%93-Open-Square-Cocktails-160mmx160mm-39512F.jpg",
+      "tags": [
+        "Stationery & Party",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T12:22:51.616677+00:00",
+      "updated_at": "2026-08-21T12:22:51.616677+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1602,
+      "sku": "STX-39513I",
+      "name": "Birthday Card – Open Square Presents 160mmx160mm",
+      "slug": "stationery-party-birthday-card-open-square-presents-160mmx160mm-39513i",
+      "category": "stationery-party",
+      "price": 0,
+      "availability": "Trade enquiry",
+      "pack": "Pack of 6",
+      "description": "Birthday Card – Open Square Presents 160mmx160mm is supplied as pack of 6. Supplier reference: 39513I.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/07/Birthday-Card-Open-Square-Presents-160mmx160mm-39513I.jpg",
+      "tags": [
+        "Stationery & Party",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T12:22:52.448751+00:00",
+      "updated_at": "2026-08-21T12:22:52.448751+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1117,
+      "sku": "72819C",
+      "name": "Mitsuba Korean Crispies 85g",
+      "slug": "mitsuba-korean-crispies-85g-72819c",
+      "category": "sweets-snacks",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "Mitsuba Korean Crispies 85g is supplied in a pack of 6.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Mitsuba-Korean-Crispies-85g-72819C.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true,
+      "created_at": "2026-08-20T13:48:52.74325+00:00",
+      "updated_at": "2026-08-20T13:48:52.74325+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1116,
+      "sku": "72820G",
+      "name": "Mitsuba Katsu Curry Crispies 85g",
+      "slug": "mitsuba-katsu-curry-crispies-85g-72820g",
+      "category": "sweets-snacks",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "Mitsuba Katsu Curry Crispies 85g is supplied in a pack of 6.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Mitsuba-Katsu-Curry-Crispies-85g-72820G.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true,
+      "created_at": "2026-08-20T13:48:52.74325+00:00",
+      "updated_at": "2026-08-20T13:48:52.74325+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1107,
+      "sku": "73028E",
+      "name": "Gummi King Jumbo Burger 88g",
+      "slug": "gummi-king-jumbo-burger-88g-73028e",
+      "category": "sweets-snacks",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "Gummi King Jumbo Burger 88g is supplied in a pack of 6.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Gummi-King-Jumbo-Burger-88g-73028E.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true,
+      "created_at": "2026-08-20T13:48:52.74325+00:00",
+      "updated_at": "2026-08-20T13:48:52.74325+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1506,
+      "sku": "73109B",
+      "name": "Barbie Gummies Bag 100g",
+      "slug": "barbie-gummies-bag-100g-73109b",
+      "category": "sweets-snacks",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "Barbie Gummies Bag 100g is supplied in a pack of 12.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Barbie-Gummies-Bag-100g-73109B.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true,
+      "created_at": "2026-08-21T10:54:00.853665+00:00",
+      "updated_at": "2026-08-21T10:54:00.853665+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1505,
+      "sku": "73110F",
+      "name": "Hot Wheels Gummies Bag 100g",
+      "slug": "hot-wheels-gummies-bag-100g-73110f",
+      "category": "sweets-snacks",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "Hot Wheels Gummies Bag 100g is supplied in a pack of 12.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Hot-Wheels-Gummies-Bag-100g-73110F.webp",
+      "tags": [
+        "Sweets & Snacks",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true,
+      "created_at": "2026-08-21T10:54:00.572157+00:00",
+      "updated_at": "2026-08-21T10:54:00.572157+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1504,
+      "sku": "73112L",
+      "name": "Tetris Gummies Bag 125g",
+      "slug": "tetris-gummies-bag-125g-73112l",
+      "category": "sweets-snacks",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "Tetris Gummies Bag 125g is supplied in a pack of 6.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Tetris-Gummies-Bag-125g-73112L.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true,
+      "created_at": "2026-08-21T10:54:00.296006+00:00",
+      "updated_at": "2026-08-21T10:54:00.296006+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1096,
+      "sku": "73113O",
+      "name": "Pac-Man Gummies Bag 125g",
+      "slug": "pac-man-gummies-bag-125g-73113o",
+      "category": "sweets-snacks",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "Pac-Man Gummies Bag 125g is supplied in a pack of 6.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Pac-Man-Gummies-Bag-125g-73113O.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true,
+      "created_at": "2026-08-20T13:48:52.198654+00:00",
+      "updated_at": "2026-08-20T13:48:52.198654+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1503,
+      "sku": "73114R",
+      "name": "Space Invaders Gummies Bag 125g",
+      "slug": "space-invaders-gummies-bag-125g-73114r",
+      "category": "sweets-snacks",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "Space Invaders Gummies Bag 125g is supplied in a pack of 6.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Space-Invaders-Gummies-Bag-125g-73114R.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true,
+      "created_at": "2026-08-21T10:54:00.027831+00:00",
+      "updated_at": "2026-08-21T10:54:00.027831+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1502,
+      "sku": "73115U",
+      "name": "Tetris Sour Foam Gums Bag 125g",
+      "slug": "tetris-sour-foam-gums-bag-125g-73115u",
+      "category": "sweets-snacks",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "Tetris Sour Foam Gums Bag 125g is supplied in a pack of 6.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Tetris-Sour-Foam-Gums-Bag-125g-73115U.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true,
+      "created_at": "2026-08-21T10:53:59.756083+00:00",
+      "updated_at": "2026-08-21T10:53:59.756083+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1501,
+      "sku": "73116X",
+      "name": "Pac-Man Sour Foam Gums Bag 125g",
+      "slug": "pac-man-sour-foam-gums-bag-125g-73116x",
+      "category": "sweets-snacks",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "Pac-Man Sour Foam Gums Bag 125g is supplied in a pack of 6.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Pac-Man-Sour-Foam-Gums-Bag-125g-73116X.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true,
+      "created_at": "2026-08-21T10:53:59.461481+00:00",
+      "updated_at": "2026-08-21T10:53:59.461481+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1580,
+      "sku": "SWE-72545T",
+      "name": "Wonder Cookies Original Vanilla 120g",
+      "slug": "sweets-snacks-wonder-cookies-original-vanilla-120g-72545t",
+      "category": "sweets-snacks",
+      "price": 0,
+      "availability": "Trade enquiry",
+      "pack": "Pack of 20",
+      "description": "Wonder Cookies Original Vanilla 120g is supplied as pack of 20. Supplier reference: 72545T.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Wonder-Cookies-Original-Vanilla-120g-72545T.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T12:22:46.348508+00:00",
+      "updated_at": "2026-08-21T12:22:46.348508+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1581,
+      "sku": "SWE-72546W",
+      "name": "Wonder Cookies Chocolate 120g",
+      "slug": "sweets-snacks-wonder-cookies-chocolate-120g-72546w",
+      "category": "sweets-snacks",
+      "price": 0,
+      "availability": "Trade enquiry",
+      "pack": "Pack of 20",
+      "description": "Wonder Cookies Chocolate 120g is supplied as pack of 20. Supplier reference: 72546W.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Wonder-Cookies-Chocolate-120g-72546W.png",
+      "tags": [
+        "Sweets & Snacks",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T12:22:46.616728+00:00",
+      "updated_at": "2026-08-21T12:22:46.616728+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1180,
+      "sku": "39632T",
+      "name": "Crayola Clicks Retractable Markers 10 Pack – Classic Colours",
+      "slug": "crayola-clicks-retractable-markers-10-pack-classic-colours-39632t",
+      "category": "toys-gifts",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "Crayola Clicks Retractable Markers 10 Pack – Classic Colours is supplied in a pack of 12.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Crayola-Clicks-Retractable-Markers-10-Pack-–-Classic-Colours-39632T.png",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true,
+      "created_at": "2026-08-20T13:48:52.74325+00:00",
+      "updated_at": "2026-08-20T13:48:52.74325+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1179,
+      "sku": "39633W",
+      "name": "Crayola Clicks Retractable Markers 10 Pack – Pastel Colours",
+      "slug": "crayola-clicks-retractable-markers-10-pack-pastel-colours-39633w",
+      "category": "toys-gifts",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "Crayola Clicks Retractable Markers 10 Pack – Pastel Colours is supplied in a pack of 12.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Crayola-Clicks-Retractable-Markers-10-Pack-–-Pastel-Colours-39633W-1.png",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true,
+      "created_at": "2026-08-20T13:48:52.74325+00:00",
+      "updated_at": "2026-08-20T13:48:52.74325+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1177,
+      "sku": "72656F",
+      "name": "The Big Squij Pig",
+      "slug": "the-big-squij-pig-72656f",
+      "category": "toys-gifts",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "The Big Squij Pig is supplied in a pack of 6.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/The-Big-Squij-Pig-72656F.png",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true,
+      "created_at": "2026-08-20T13:48:52.74325+00:00",
+      "updated_at": "2026-08-20T13:48:52.74325+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1515,
+      "sku": "72683L",
+      "name": "Animigos Funky Friends – Sunflower",
+      "slug": "animigos-funky-friends-sunflower-72683l",
+      "category": "toys-gifts",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 1",
+      "description": "Animigos Funky Friends – Sunflower is supplied in a pack of 1.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Animigos-Funky-Friends-Sunflower-72683L.jpeg",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true,
+      "created_at": "2026-08-21T10:54:03.887692+00:00",
+      "updated_at": "2026-08-21T10:54:03.887692+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "bottom",
+          "left"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1178,
+      "sku": "72753A",
+      "name": "Scrunchems Sticky Squishy Highland Cow CDU",
+      "slug": "scrunchems-sticky-squishy-highland-cow-cdu-72753a",
+      "category": "toys-gifts",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "Scrunchems Sticky Squishy Highland Cow CDU is supplied in a pack of 12.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Scrunchems-Sticky-Squishy-Highland-Cow-CDU-72753A.webp",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true,
+      "created_at": "2026-08-20T13:48:52.74325+00:00",
+      "updated_at": "2026-08-20T13:48:52.74325+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1167,
+      "sku": "72989P",
+      "name": "Monopoly Deal",
+      "slug": "monopoly-deal-72989p",
+      "category": "toys-gifts",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 1",
+      "description": "Monopoly Deal is supplied in a pack of 1.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Monopoly-Deal-72989P.webp",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true,
+      "created_at": "2026-08-20T13:48:52.74325+00:00",
+      "updated_at": "2026-08-20T13:48:52.74325+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1175,
+      "sku": "73159A",
+      "name": "K-Pop Superstars Doll 3 Pack",
+      "slug": "k-pop-superstars-doll-3-pack-73159a",
+      "category": "toys-gifts",
+      "price": 0,
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 1",
+      "description": "K-Pop Superstars Doll 3 Pack is supplied in a pack of 1.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/K-Pop-Superstars-Doll-3-Pack-73159A.jpg",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true,
+      "created_at": "2026-08-20T13:48:52.74325+00:00",
+      "updated_at": "2026-08-20T13:48:52.74325+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom"
+        ],
+        "nonwhiteCanvasEdges": [
+          "bottom"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1592,
+      "sku": "TGY-70562I",
+      "name": "Fuggler CDU",
+      "slug": "toys-gifts-fuggler-cdu-70562i",
+      "category": "toys-gifts",
+      "price": 0,
+      "availability": "Trade enquiry",
+      "pack": "Pack of 24",
+      "description": "Fuggler CDU is supplied as pack of 24. Supplier reference: 70562I.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/11/Zuru-Fuggler-CDU-70562I_2.jpg",
+      "tags": [
+        "Toys & Gifts",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T12:22:49.659271+00:00",
+      "updated_at": "2026-08-21T12:22:49.659271+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1587,
+      "sku": "TGY-71039A",
+      "name": "Palm Pals Hunk Hippo Approx 5″",
+      "slug": "toys-gifts-palm-pals-hunk-hippo-approx-5-71039a",
+      "category": "toys-gifts",
+      "price": 0,
+      "availability": "Trade enquiry",
+      "pack": "Pack of 6",
+      "description": "Palm Pals Hunk Hippo Approx 5″ is supplied as pack of 6. Supplier reference: 71039A.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/03/Palm-Pals-Hunk-Hippo-Approx-5-71039A.png",
+      "tags": [
+        "Toys & Gifts",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T12:22:48.26867+00:00",
+      "updated_at": "2026-08-21T12:22:48.26867+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "left"
+        ],
+        "nonwhiteCanvasEdges": [],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge"
+        ]
+      }
+    },
+    {
+      "id": 1586,
+      "sku": "TGY-71040E",
+      "name": "Palm Pals Leno Lion Approx 5″",
+      "slug": "toys-gifts-palm-pals-leno-lion-approx-5-71040e",
+      "category": "toys-gifts",
+      "price": 0,
+      "availability": "Trade enquiry",
+      "pack": "Pack of 6",
+      "description": "Palm Pals Leno Lion Approx 5″ is supplied as pack of 6. Supplier reference: 71040E.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/03/Palm-Pals-Leno-Lion-Approx-5-71040E.png",
+      "tags": [
+        "Toys & Gifts",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T12:22:47.99502+00:00",
+      "updated_at": "2026-08-21T12:22:47.99502+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top"
+        ],
+        "nonwhiteCanvasEdges": [],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge"
+        ]
+      }
+    },
+    {
+      "id": 1593,
+      "sku": "TGY-72083N",
+      "name": "Micro Teenies – Care Bears CDU",
+      "slug": "toys-gifts-micro-teenies-care-bears-cdu-72083n",
+      "category": "toys-gifts",
+      "price": 0,
+      "availability": "Trade enquiry",
+      "pack": "Pack of 18",
+      "description": "Micro Teenies – Care Bears CDU is supplied as pack of 18. Supplier reference: 72083N.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/03/Micro-Teenies-Care-Bears-CDU-72083N.png",
+      "tags": [
+        "Toys & Gifts",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T12:22:49.93324+00:00",
+      "updated_at": "2026-08-21T12:22:49.93324+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "bottom",
+          "left",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1590,
+      "sku": "TGY-72221L",
+      "name": "Cuddly Capybara 15cm CDU",
+      "slug": "toys-gifts-cuddly-capybara-15cm-cdu-72221l",
+      "category": "toys-gifts",
+      "price": 0,
+      "availability": "Trade enquiry",
+      "pack": "Pack of 10",
+      "description": "Cuddly Capybara 15cm CDU is supplied as pack of 10. Supplier reference: 72221L.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/03/Cuddy-Capybara-15cm-CDU-72221L.jpg",
+      "tags": [
+        "Toys & Gifts",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T12:22:49.100035+00:00",
+      "updated_at": "2026-08-21T12:22:49.100035+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "top",
+          "right"
+        ],
+        "nonwhiteCanvasEdges": [
+          "top",
+          "right"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    },
+    {
+      "id": 1594,
+      "sku": "TGY-72985D",
+      "name": "Hot Shots Can Alley",
+      "slug": "toys-gifts-hot-shots-can-alley-72985d",
+      "category": "toys-gifts",
+      "price": 0,
+      "availability": "Trade enquiry",
+      "pack": "Pack of 12",
+      "description": "Hot Shots Can Alley is supplied as pack of 12. Supplier reference: 72985D.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Hot-Shots-Can-Alley-72985D.jpg",
+      "tags": [
+        "Toys & Gifts",
+        "Price hidden"
+      ],
+      "featured": false,
+      "created_at": "2026-08-21T12:22:50.211804+00:00",
+      "updated_at": "2026-08-21T12:22:50.211804+00:00",
+      "strictEdgeEvidence": {
+        "touches": [
+          "bottom",
+          "left"
+        ],
+        "nonwhiteCanvasEdges": [
+          "bottom"
+        ],
+        "reasons": [
+          "actual_product_or_nonwhite_content_touches_canvas_edge",
+          "visible_white_space_not_present_on_all_canvas_edges"
+        ]
+      }
+    }
+  ]
+}

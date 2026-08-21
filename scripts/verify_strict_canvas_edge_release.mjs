@@ -1,0 +1,22 @@
+import { readFile } from "node:fs/promises";
+
+const supabaseUrl = process.env.SUPABASE_URL || "https://pylhokxuqqbldnfjwjem.supabase.co";
+const publicKey = process.env.VITE_SUPABASE_ANON_KEY || "sb_publishable_ps9YypvtK5jByJ37N6LZzw_oanbTDgq";
+const expectedCounts = { "baby-kids": 33, clearance: 23, "seasonal-christmas": 33, "stationery-party": 38, "toys-gifts": 39, "health-beauty": 37, "household-pet": 35, "sweets-snacks": 17 };
+const candidates = JSON.parse(await readFile("data/verified-strict-canvas-edge-removals.json", "utf8"));
+const strictAudit = JSON.parse(await readFile("data/strict-canvas-edge-audit-report.json", "utf8"));
+const sitemap = await readFile("client/public/sitemap.xml", "utf8");
+const css = await readFile("client/src/styles/supplier-catalogue-refinement.css", "utf8");
+const response = await fetch(`${supabaseUrl}/rest/v1/products?select=sku,slug,name,category,price,image,tags&order=id`, { headers: { apikey: publicKey } });
+if (!response.ok) throw new Error(`Live catalogue request failed: ${response.status} ${await response.text()}`);
+const products = await response.json();
+const counts = Object.fromEntries(Object.keys(expectedCounts).map((category) => [category, products.filter((product) => product.category === category).length]));
+const wrongCounts = Object.entries(expectedCounts).filter(([category, count]) => counts[category] !== count);
+const stillLive = candidates.products.filter((candidate) => products.some((product) => product.sku === candidate.sku));
+const stillMapped = candidates.products.filter((candidate) => sitemap.includes(`/product/${candidate.slug}`));
+const failedAuditStillLive = strictAudit.results.filter((result) => result.status === "review" && products.some((product) => product.sku === result.sku));
+const invalidPriceOrImage = products.filter((product) => Number(product.price) !== 0 || !product.image || !product.tags?.includes("Price hidden"));
+const sitemapUrls = (sitemap.match(/<url>/g) || []).length;
+const valid = products.length === 255 && !wrongCounts.length && candidates.totalCandidates === 67 && !stillLive.length && !stillMapped.length && !failedAuditStillLive.length && !invalidPriceOrImage.length && sitemapUrls === 271 && !css.includes(".site-header .brand-lockup::after");
+if (!valid) throw new Error(`Strict canvas-edge release verification failed: ${JSON.stringify({ total: products.length, counts, wrongCounts, stillLive: stillLive.map((product) => product.sku), stillMapped: stillMapped.map((product) => product.sku), failedAuditStillLive: failedAuditStillLive.map((product) => product.sku), invalidPriceOrImage: invalidPriceOrImage.map((product) => product.sku), sitemapUrls, headerLogoDotRulePresent: css.includes(".site-header .brand-lockup::after") })}`);
+console.log(JSON.stringify({ verified: true, totalProducts: products.length, categoryCounts: counts, strictEdgeFailuresAbsentFromDataSearchRoutesAndSitemap: candidates.totalCandidates, strictAudit: { originallyScreenedProducts: strictAudit.catalogueProductCount, locallyRecheckedRiskImages: strictAudit.cachedImagesRechecked, confirmedEdgeFailuresRemaining: failedAuditStillLive.length }, sitemapUrls, headerLogoDotsRemoved: true }, null, 2));
