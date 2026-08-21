@@ -72,6 +72,10 @@
 
 - [x] Match the Contact page background treatment to About, Delivery & Returns, and Trade Account; give the homepage Browse the Source department rail a premium background compatible with the warehouse hero while retaining all links and content. Production build and TypeScript validation pass; Contact and homepage treatments were visually checked at 1280px and Contact was checked at 390px.
 
+## Reference-Inspired Hero Copy Treatment
+
+- [x] Improve only the homepage hero-copy readability with a soft light-to-transparent treatment matching the supplied reference; do not alter Browse the Source, its numbered department links, or All departments. Production build and TypeScript validation pass; the reference-inspired desktop and mobile hero treatment was visually checked at 1280px and 390px.
+
 - [x] Review the supplied reference’s public category structure and identify compatible original product-type additions.
 - [x] Expand the original static approval-demo catalogue without reusing reference names, descriptions, SKUs, pricing, or images.
 - [x] Reuse existing remote sample imagery rather than uploading additional Supabase Storage assets.
