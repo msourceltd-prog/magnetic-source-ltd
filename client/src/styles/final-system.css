@@ -141,21 +141,42 @@ body,
   background: var(--brand-surface-muted);
 }
 
-/* Homepage hero: intentionally one uninterrupted neutral surface at every width. */
+/* Homepage hero: warehouse image fills the full field; every text line stays on one solid card. */
 .hero-section {
-  background: #F4F6F8 !important;
-  background-image: none !important;
+  background: #F4F6F8;
 }
 
 .hero-section::before,
 .hero-section::after,
-.hero-image,
 .hero-image::before,
 .hero-image::after {
-  display: none !important;
   content: none !important;
   background: none !important;
   background-image: none !important;
+}
+
+.hero-image {
+  position: absolute !important;
+  inset: 0 !important;
+  display: block !important;
+  overflow: hidden;
+}
+
+.hero-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.hero-copy {
+  width: min(560px, 100%);
+  max-width: 560px;
+  margin: 0;
+  padding: 48px !important;
+  background: #F4F6F8 !important;
+  box-shadow: none !important;
 }
 
 .hero-copy .eyebrow {
@@ -176,8 +197,14 @@ body,
 
 @media (min-width: 761px) and (max-width: 1100px) {
   .hero-copy {
-    background: transparent !important;
-    box-shadow: none !important;
+    margin: 0;
+  }
+}
+
+@media (max-width: 760px) {
+  .hero-copy {
+    max-width: 560px;
+    padding: 48px !important;
   }
 }
 

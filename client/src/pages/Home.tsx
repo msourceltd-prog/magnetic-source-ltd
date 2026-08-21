@@ -14,6 +14,7 @@ export default function Home() {
   const featured = products.slice(0, 8);
   return <StoreLayout>
     <section className="hero-section">
+      <div className="hero-image" aria-hidden="true"><img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fm=webp&fit=crop&w=2000&q=82" alt="" width="2000" height="1200" fetchPriority="high" decoding="async" /></div>
       <div className="trade-shell hero-layout">
         <aside className="hero-rail" aria-label="Department shortcuts">
           <span className="eyebrow">Browse the source</span>
