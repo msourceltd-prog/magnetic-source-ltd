@@ -12,6 +12,10 @@
 
 - [x] Remove only the specified Browse, Wholesale catalogue, Latest records, Catalogue lines, and Toys & Gifts footer navigation labels, retaining all remaining footer content and links. Production build and TypeScript validation pass; the footer was visually checked at 1280px and 390px.
 
+## Catalogue Promotional Banner Removal
+
+- [x] Remove only the blue in-grid Trade Collection promotional banner from the shared catalogue layout across all category and department views, preserving the product grid, products, filters, sorting, search, and loading behaviour. Production build and TypeScript validation pass; the continuous category grid was visually checked at 1280px and 390px.
+
 - [x] Review the supplied reference’s public category structure and identify compatible original product-type additions.
 - [x] Expand the original static approval-demo catalogue without reusing reference names, descriptions, SKUs, pricing, or images.
 - [x] Reuse existing remote sample imagery rather than uploading additional Supabase Storage assets.

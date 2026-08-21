@@ -3,7 +3,7 @@
  * category navigation, factual product discovery, real imagery and a clear
  * quote-required state wherever a public price is intentionally hidden.
  */
-import { Fragment, useDeferredValue, useEffect, useMemo, useState } from "react";
+import { useDeferredValue, useEffect, useMemo, useState } from "react";
 import { ChevronDown, Filter, Loader2, Search, SlidersHorizontal, X } from "lucide-react";
 import { useLocation, useSearch } from "wouter";
 import ProductCard from "@/components/ProductCard";
@@ -76,7 +76,7 @@ export default function Shop() {
           <label className="sort-control"><SlidersHorizontal size={16} /><span className="sr-only">Sort products</span><select value={sort} onChange={(event) => setSort(event.target.value)}><option value="catalogue">Catalogue order</option><option value="new">Newest records</option><option value="price-low">Price: low to high</option><option value="price-high">Price: high to low</option></select></label>
         </div>
         <div className="catalogue-meta catalogue-meta-spacer" aria-hidden="true" />
-        {loading ? <div className="empty-state catalogue-loading"><Loader2 size={30} className="animate-spin" /><h2>Loading catalogue lines.</h2><p>Preparing the verified product information for your browse session.</p></div> : filtered.length ? <><div className="product-grid catalogue-grid">{editResults.map((product, index) => <Fragment key={product.id}><ProductCard product={product} priority={index < 6} />{index === 11 && <aside className="catalogue-interrupt"><div><span className="eyebrow light">Trade collection</span><h2>Clear product facts.<br />Quick wholesale browsing.</h2><p>Search by category, product name, supplier reference or pack format, then add the lines you need to your enquiry.</p><a href="/shop" className="catalogue-interrupt-link">Browse all products <ChevronDown size={16} /></a></div><span className="catalogue-interrupt-index">Source</span></aside>}</Fragment>)}</div>{filtered.length > editResults.length && <div className="catalogue-limit"><span className="eyebrow">More to explore</span><p>Continue browsing category-matched product records.</p><button type="button" className="button-secondary" onClick={() => setVisibleCount((count) => count + 24)}>Load more products</button></div>}</> : <div className="empty-state"><Search size={30} /><h2>No matching products found.</h2><p>Try another product term, product reference or category.</p><button type="button" className="button-secondary" onClick={reset}>Reset the catalogue</button></div>}
+        {loading ? <div className="empty-state catalogue-loading"><Loader2 size={30} className="animate-spin" /><h2>Loading catalogue lines.</h2><p>Preparing the verified product information for your browse session.</p></div> : filtered.length ? <><div className="product-grid catalogue-grid">{editResults.map((product, index) => <ProductCard key={product.id} product={product} priority={index < 6} />)}</div>{filtered.length > editResults.length && <div className="catalogue-limit"><span className="eyebrow">More to explore</span><p>Continue browsing category-matched product records.</p><button type="button" className="button-secondary" onClick={() => setVisibleCount((count) => count + 24)}>Load more products</button></div>}</> : <div className="empty-state"><Search size={30} /><h2>No matching products found.</h2><p>Try another product term, product reference or category.</p><button type="button" className="button-secondary" onClick={reset}>Reset the catalogue</button></div>}
       </section>
     </div>
   </StoreLayout>;
