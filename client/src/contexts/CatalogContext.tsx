@@ -52,6 +52,7 @@ export function CatalogProvider({ children }: PropsWithChildren) {
         ...product,
         id: Number(product.id),
         price: Number(product.price),
+        description: product.description || null,
         tags: product.tags?.length ? product.tags : ["Catalogue line"],
         image: product.image || SUPPLIER_IMAGE_PLACEHOLDER,
         availability: "Availability to confirm" as const,

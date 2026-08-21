@@ -26,8 +26,8 @@ const dataset = candidates.map((candidate) => ({
   category: categories[candidate.department],
   categoryName: candidate.department,
   pack: `Pack of ${candidate.packQuantity}`,
-  description: `${candidate.name} is supplied in a pack of ${candidate.packQuantity}.`,
-  descriptionSource: "factual-name-and-pack",
+  description: "",
+  descriptionSource: "optional-manual-description-only",
   image: imageBySku.get(candidate.sku) ?? null,
   sourceUrl: candidate.sourceUrl,
   price: null,
@@ -47,7 +47,7 @@ const duplicateValues = (field) => {
   return [...seen.entries()].filter(([, skus]) => skus.length > 1).map(([value, skus]) => ({ value, skus }));
 };
 
-const requiredFields = ["name", "slug", "sku", "category", "pack", "description", "image", "sourceUrl"];
+const requiredFields = ["name", "slug", "sku", "category", "pack", "image", "sourceUrl"];
 const invalidRows = dataset.flatMap((product) => {
   const missing = requiredFields.filter((field) => !product[field]);
   return missing.length ? [{ sku: product.sku, missing }] : [];

@@ -64,7 +64,7 @@ const parseProduct = (html, department, sourceUrl) => {
     sku,
     category: department.slug,
     pack: `Pack of ${packQuantity}`,
-    description: `${name} is supplied in a pack of ${packQuantity}.`,
+    description: "",
     image,
     tags: [department.name, "Harrisons-authorized catalogue", "Price hidden"],
     availability: "Trade enquiry only",

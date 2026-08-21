@@ -18,7 +18,7 @@ export type Product = {
   sku: string;
   availability: "Availability to confirm";
   pack: string;
-  description: string;
+  description: string | null;
   image: string;
   tags: string[];
   featured: boolean;

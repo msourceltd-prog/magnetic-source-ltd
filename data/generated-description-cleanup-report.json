@@ -1,0 +1,731 @@
+{
+  "completedAt": "2026-08-21T14:14:42.290Z",
+  "totalProducts": 255,
+  "rowsUpdated": 144,
+  "storageValue": "",
+  "note": "The live description column is NOT NULL, so empty descriptions are stored as blank values. The public application treats blank and null descriptions identically.",
+  "backupPath": "/home/ubuntu/magnetic-source-catalogue-backups/before-generated-description-cleanup-2026-08-21.json",
+  "updated": [
+    {
+      "id": 1007,
+      "sku": "70001H",
+      "name": "Baylis & Harding Beauticology Cosmic Fun Pop Beauty Bag Gift Set"
+    },
+    {
+      "id": 1008,
+      "sku": "69987R",
+      "name": "Baylis & Harding The Fuzzy Duck Winter Wonderland Luxury Bath Bombs Gift Set"
+    },
+    {
+      "id": 1009,
+      "sku": "69990B",
+      "name": "Baylis & Harding The Fuzzy Duck Winter Wonderland Decorative Crackers Gift Set"
+    },
+    {
+      "id": 1010,
+      "sku": "69983F",
+      "name": "Baylis & Harding The Fuzzy Duck Cocktails Indulgent Body Care Gift Set"
+    },
+    {
+      "id": 1011,
+      "sku": "69954T",
+      "name": "Baylis & Harding Limited Edition Body Pamper Gift Set"
+    },
+    {
+      "id": 1012,
+      "sku": "69999C",
+      "name": "Baylis & Harding Beauticology Cosmic Body Pamper Gift Set"
+    },
+    {
+      "id": 1013,
+      "sku": "69922Y",
+      "name": "Man’Stuff Ultimate Six Pack Gift Set"
+    },
+    {
+      "id": 1017,
+      "sku": "69885H",
+      "name": "Stitchmas Bath Fizzer Pack"
+    },
+    {
+      "id": 1027,
+      "sku": "39175C",
+      "name": "Fleur 3 Pack A4 Notebooks"
+    },
+    {
+      "id": 1029,
+      "sku": "39170N",
+      "name": "Pokemon 10 Colour Pen"
+    },
+    {
+      "id": 1030,
+      "sku": "39169J",
+      "name": "Pokemon Pen Set 3’s"
+    },
+    {
+      "id": 1031,
+      "sku": "22392N",
+      "name": "Squishmallows Pencil Case"
+    },
+    {
+      "id": 1033,
+      "sku": "64794B",
+      "name": "Somewhere Rainbow Bath Bomb in Gift Box in CDU"
+    },
+    {
+      "id": 1034,
+      "sku": "64792v",
+      "name": "Chakra Bath Bomb in Gift Box in CDU"
+    },
+    {
+      "id": 1038,
+      "sku": "61070L",
+      "name": "World’s Smallest Laser Tag"
+    },
+    {
+      "id": 1040,
+      "sku": "21217E",
+      "name": "Christmas Giant Bike Sack"
+    },
+    {
+      "id": 1055,
+      "sku": "72736Z",
+      "name": "Fabulosa 3 in 1 Laundry Pods Fresh Breeze 12’s"
+    },
+    {
+      "id": 1057,
+      "sku": "72619U",
+      "name": "Good Boy Cheese Please – Long Lasting Tasty Chew 60g"
+    },
+    {
+      "id": 1060,
+      "sku": "72568M",
+      "name": "Nylabone Extreme Chew Bacon Flavour Medium"
+    },
+    {
+      "id": 1061,
+      "sku": "72631G",
+      "name": "Good Boy Soft Fluffy Dog Toy Large"
+    },
+    {
+      "id": 1062,
+      "sku": "72629Z",
+      "name": "Good Boy Tripe Filled Bone"
+    },
+    {
+      "id": 1063,
+      "sku": "72628W",
+      "name": "Good Boy Chicken Leg 115mm"
+    },
+    {
+      "id": 1064,
+      "sku": "72624K",
+      "name": "Good Boy Compostable Poo Bags 60’s Clipstrip"
+    },
+    {
+      "id": 1065,
+      "sku": "72623H",
+      "name": "Good Boy Duck Stick 15g"
+    },
+    {
+      "id": 1066,
+      "sku": "72622E",
+      "name": "Good Boy Beef Stick 15g"
+    },
+    {
+      "id": 1067,
+      "sku": "72621B",
+      "name": "Good Boy Chicken Stick 15g"
+    },
+    {
+      "id": 1070,
+      "sku": "72567J",
+      "name": "Good Boy Soft Meerkat Dog Toy"
+    },
+    {
+      "id": 1072,
+      "sku": "72382W",
+      "name": "Good Boy Soft Fluffy Dog Toy Small"
+    },
+    {
+      "id": 1073,
+      "sku": "72707N",
+      "name": "Fairy Washing Up Liquid Pomegranate 320ml"
+    },
+    {
+      "id": 1074,
+      "sku": "72706K",
+      "name": "Fairy Washing Up Liquid Apple 320ml"
+    },
+    {
+      "id": 1075,
+      "sku": "72385F",
+      "name": "Good Boy Cheese Please with Chicken – Long Lasting Tasty Chew 60g"
+    },
+    {
+      "id": 1078,
+      "sku": "72293A",
+      "name": "Bartleby Mens Deluxe Straw Fedora Hat Assorted"
+    },
+    {
+      "id": 1079,
+      "sku": "72289N",
+      "name": "Bartleby Child’s Dinosaur Hat Assorted"
+    },
+    {
+      "id": 1080,
+      "sku": "72288K",
+      "name": "Bartleby Girls Unicorn Hat Assorted"
+    },
+    {
+      "id": 1081,
+      "sku": "72287H",
+      "name": "Bartleby Unisex Bush Hat – Ripstop Assorted"
+    },
+    {
+      "id": 1082,
+      "sku": "72285B",
+      "name": "Bartleby Childs Two Tone Baseball Cap Assorted"
+    },
+    {
+      "id": 1083,
+      "sku": "72283V",
+      "name": "Bartleby Adult Two Tone Baseball Cap Assorted"
+    },
+    {
+      "id": 1084,
+      "sku": "72282S",
+      "name": "Bartleby Adult Breathable Baseball Cap Assorted"
+    },
+    {
+      "id": 1085,
+      "sku": "72281P",
+      "name": "Bartleby Adult Washed Baseball Cap Pastel Colours Assorted"
+    },
+    {
+      "id": 1092,
+      "sku": "73030L",
+      "name": "Gummi King Noodles 100g"
+    },
+    {
+      "id": 1101,
+      "sku": "67242U",
+      "name": "Peppa Pig Surprise Cones 25g"
+    },
+    {
+      "id": 1102,
+      "sku": "67241R",
+      "name": "Paw Patrol Surprise Cones 25g"
+    },
+    {
+      "id": 1105,
+      "sku": "73031O",
+      "name": "Gummi King of the Taco 100g"
+    },
+    {
+      "id": 1106,
+      "sku": "73029H",
+      "name": "Gummi King Fries 80g"
+    },
+    {
+      "id": 1109,
+      "sku": "72810B",
+      "name": "Johny Bee 3D Gummy Surprise 57g"
+    },
+    {
+      "id": 1110,
+      "sku": "72804I",
+      "name": "Johny Bee Squeezy Pop 34g"
+    },
+    {
+      "id": 1111,
+      "sku": "72802C",
+      "name": "Johny Bee Splash Brush 12g"
+    },
+    {
+      "id": 1112,
+      "sku": "67263H",
+      "name": "Johny Bee Twisty Treats Spray & Powder 16.5g"
+    },
+    {
+      "id": 1113,
+      "sku": "67258R",
+      "name": "Johny Bee Big Dipper Powder Lollipop & Powder 47g"
+    },
+    {
+      "id": 1114,
+      "sku": "72303L",
+      "name": "Pez – Licensed Dispenser + Sweets Spiderman"
+    },
+    {
+      "id": 1125,
+      "sku": "72214P",
+      "name": "Amos Audio Lollipop Cola"
+    },
+    {
+      "id": 1166,
+      "sku": "39638L",
+      "name": "Crayola Pokemon 96 Page Colouring Book"
+    },
+    {
+      "id": 1168,
+      "sku": "72846I",
+      "name": "Paw Patrol Dino Themed Vehicle Skye"
+    },
+    {
+      "id": 1169,
+      "sku": "72178B",
+      "name": "Hoodeazzz Adoramals Kiki the Budgie Plush Memory Foam Travel Pillow & Hood"
+    },
+    {
+      "id": 1170,
+      "sku": "73165T",
+      "name": "Fisher Price Pop-Up Play Tunnel"
+    },
+    {
+      "id": 1171,
+      "sku": "73164Q",
+      "name": "Zuru X-Shot Excel Hawk Eye With 16 Darts"
+    },
+    {
+      "id": 1172,
+      "sku": "73163N",
+      "name": "Zuru Xshot Excel Double Fury 4 Blaster Combo Pack"
+    },
+    {
+      "id": 1173,
+      "sku": "73161H",
+      "name": "Zuru Metal Machines S1 T-Rex Playset"
+    },
+    {
+      "id": 1174,
+      "sku": "73160E",
+      "name": "Zuru Metal Machines S1 Road Rampage Playset"
+    },
+    {
+      "id": 1176,
+      "sku": "70692B",
+      "name": "Fisher Price Baby Roll Around 6m+"
+    },
+    {
+      "id": 1181,
+      "sku": "73187J",
+      "name": "Push and Pop Fidget Game – Assorted Colours"
+    },
+    {
+      "id": 1182,
+      "sku": "39623R",
+      "name": "Colouring Book – Animals & Oceans"
+    },
+    {
+      "id": 1185,
+      "sku": "73037G",
+      "name": "Nebulus Scooter Neon Orange With Black Chrome Finish"
+    },
+    {
+      "id": 1186,
+      "sku": "73036D",
+      "name": "Unicorn Trail Twist Folding Light Up Scooter"
+    },
+    {
+      "id": 1187,
+      "sku": "73035A",
+      "name": "Dinosaur Trail Twist Folding Light Up Scooter"
+    },
+    {
+      "id": 1188,
+      "sku": "72380Q",
+      "name": "Palm Pals Colson Hot Dog Approx 5″"
+    },
+    {
+      "id": 1189,
+      "sku": "72378J",
+      "name": "Palm Pals Tomas BLT Approx 5″"
+    },
+    {
+      "id": 1190,
+      "sku": "39569Z",
+      "name": "Staedtler Peppa Pig Fibre Tip Pens 6 Assorted Colours"
+    },
+    {
+      "id": 1192,
+      "sku": "72686U",
+      "name": "Animigos Funky Friends – Burger"
+    },
+    {
+      "id": 1193,
+      "sku": "72685R",
+      "name": "Animigos Funky Friends – Daisy"
+    },
+    {
+      "id": 1194,
+      "sku": "72684O",
+      "name": "Animigos Funky Friends – Tulip"
+    },
+    {
+      "id": 1196,
+      "sku": "72682I",
+      "name": "Animigos Funky Friends – Pizza"
+    },
+    {
+      "id": 1197,
+      "sku": "72681F",
+      "name": "Animigos Funky Friends – French Fries"
+    },
+    {
+      "id": 1198,
+      "sku": "72680C",
+      "name": "Animigos Funky Friends – Taco"
+    },
+    {
+      "id": 1199,
+      "sku": "72679Y",
+      "name": "Animigos Funky Friends – Aubergine"
+    },
+    {
+      "id": 1200,
+      "sku": "72677S",
+      "name": "Animigos Funky Friends – Succulent"
+    },
+    {
+      "id": 1201,
+      "sku": "72676P",
+      "name": "Animigos Funky Friends – Avocado"
+    },
+    {
+      "id": 1202,
+      "sku": "72675M",
+      "name": "Animigos Funky Friends – Bubble Tea"
+    },
+    {
+      "id": 1204,
+      "sku": "72737C",
+      "name": "Clickeez – 2 Pack Series 3 CDU"
+    },
+    {
+      "id": 1205,
+      "sku": "72996L",
+      "name": "Mini Muddle Puzzle"
+    },
+    {
+      "id": 1246,
+      "sku": "73142A",
+      "name": "Palmolive Liquid Hand Soap Rose 300ml"
+    },
+    {
+      "id": 1247,
+      "sku": "73141X",
+      "name": "Palmolive Shower Gel Elixir Orchid 250ml"
+    },
+    {
+      "id": 1248,
+      "sku": "73140U",
+      "name": "Palmolive Shower Gel Elixir Rose 250ml"
+    },
+    {
+      "id": 1252,
+      "sku": "73097K",
+      "name": "Umbro Bodywash Power 400ml"
+    },
+    {
+      "id": 1253,
+      "sku": "73096H",
+      "name": "Umbro Bodywash Ice 400ml"
+    },
+    {
+      "id": 1262,
+      "sku": "73086C",
+      "name": "Chupa Chups Watermelon, Peach & Lemon Lip Balms"
+    },
+    {
+      "id": 1264,
+      "sku": "72983X",
+      "name": "Aussie Shampoo Mega Travel 100ml"
+    },
+    {
+      "id": 1265,
+      "sku": "72982U",
+      "name": "Aussie Conditioner Mega Travel 100ml"
+    },
+    {
+      "id": 1266,
+      "sku": "72913O",
+      "name": "Peppa Pig Bath & Shower Bubbles 400ml"
+    },
+    {
+      "id": 1267,
+      "sku": "72911I",
+      "name": "Spiderman Stitch Bath & Shower Bubbles 400ml"
+    },
+    {
+      "id": 1268,
+      "sku": "72782M",
+      "name": "Denman D81S Small Style and Shine Brush Original"
+    },
+    {
+      "id": 1271,
+      "sku": "72719Y",
+      "name": "Lip Balm SPF 15 Original 10g"
+    },
+    {
+      "id": 1277,
+      "sku": "72754D",
+      "name": "Nivea Shave Mens After Shave Moisturiser Protect & Care 75ml"
+    },
+    {
+      "id": 1282,
+      "sku": "72711A",
+      "name": "Grow with Peppa Baby Bath Foam 350ml"
+    },
+    {
+      "id": 1283,
+      "sku": "72710X",
+      "name": "Grow with Peppa Baby Lotion 350ml"
+    },
+    {
+      "id": 1284,
+      "sku": "72709T",
+      "name": "Grow with Peppa Baby Conditioning Shampoo 350ml"
+    },
+    {
+      "id": 1285,
+      "sku": "72708Q",
+      "name": "Grow with Peppa Baby Head to Toe Wash 350ml"
+    },
+    {
+      "id": 1286,
+      "sku": "73202K",
+      "name": "Uno Advent Calendar"
+    },
+    {
+      "id": 1287,
+      "sku": "22804U",
+      "name": "Christmas Colouring Book"
+    },
+    {
+      "id": 1288,
+      "sku": "22803R",
+      "name": "Christmas Activity & Sticker Book"
+    },
+    {
+      "id": 1289,
+      "sku": "22800I",
+      "name": "Christmas Advent Calendar – Cute"
+    },
+    {
+      "id": 1290,
+      "sku": "22799Y",
+      "name": "Christmas Advent Calendar – Contemporary"
+    },
+    {
+      "id": 1296,
+      "sku": "22782Y",
+      "name": "Christmas Gift Bag Large – Whimsical Woodland"
+    },
+    {
+      "id": 1297,
+      "sku": "22812T",
+      "name": "Christmas Cards – 15 Slim Christmas Cracker"
+    },
+    {
+      "id": 1298,
+      "sku": "22811Q",
+      "name": "Christmas Cards – 15 Slim Nordic Snowglobe"
+    },
+    {
+      "id": 1299,
+      "sku": "22802O",
+      "name": "Christmas Novelty Earrings"
+    },
+    {
+      "id": 1301,
+      "sku": "22798V",
+      "name": "Christmas Crackers 8 x 12″ Ho Ho"
+    },
+    {
+      "id": 1303,
+      "sku": "22794J",
+      "name": "Christmas 20 Gift Tags Novelty Cute"
+    },
+    {
+      "id": 1305,
+      "sku": "22792D",
+      "name": "Christmas 20 Gift Tags Red & White"
+    },
+    {
+      "id": 1306,
+      "sku": "22787N",
+      "name": "Christmas Beer Bottle Carrier"
+    },
+    {
+      "id": 1307,
+      "sku": "22786K",
+      "name": "Christmas Gift Bag Jumbo Drawstring Bag"
+    },
+    {
+      "id": 1308,
+      "sku": "22785H",
+      "name": "Christmas Gift Bag Square Woven PP Highland Cow"
+    },
+    {
+      "id": 1310,
+      "sku": "22781V",
+      "name": "Christmas Gift Bag Medium – Whimsical Woodland"
+    },
+    {
+      "id": 1311,
+      "sku": "22779O",
+      "name": "Christmas Gift Bag Extra Large – Nordic Noel"
+    },
+    {
+      "id": 1312,
+      "sku": "22778L",
+      "name": "Christmas Gift Bag Large – Nordic Noel"
+    },
+    {
+      "id": 1313,
+      "sku": "22777I",
+      "name": "Christmas Gift Bag Medium – Nordic Noel"
+    },
+    {
+      "id": 1314,
+      "sku": "22776F",
+      "name": "Christmas Gift Bag Bottle – Most Wonderful"
+    },
+    {
+      "id": 1316,
+      "sku": "22774Z",
+      "name": "Christmas Gift Bag Large – Most Wonderful"
+    },
+    {
+      "id": 1323,
+      "sku": "22795M",
+      "name": "Christmas 20 Gift Tags Nordic Noel"
+    },
+    {
+      "id": 1325,
+      "sku": "69932D",
+      "name": "Man’Stuff Toiletries Advent Gift Set"
+    },
+    {
+      "id": 1418,
+      "sku": "38884A",
+      "name": "Foil Happy Birthday Balloon 16″ – Silver"
+    },
+    {
+      "id": 1422,
+      "sku": "15846E",
+      "name": "Assorted Party Photo Props With Sticks"
+    },
+    {
+      "id": 1423,
+      "sku": "65243L",
+      "name": "Sharpie Fluo XL Highlighters Assorted 4 Pack"
+    },
+    {
+      "id": 1462,
+      "sku": "65510Z",
+      "name": "Easynote Pocket Soft Touch Notebook – Pastel Colours"
+    },
+    {
+      "id": 1472,
+      "sku": "73087F",
+      "name": "Chupa Chups Strawberry Lip Balm"
+    },
+    {
+      "id": 1477,
+      "sku": "39648Q",
+      "name": "Summit Metal Tent Pegs 18cm Pack of 20"
+    },
+    {
+      "id": 1480,
+      "sku": "39637I",
+      "name": "Blackmoor 20cm Frying Pan"
+    },
+    {
+      "id": 1482,
+      "sku": "22790X",
+      "name": "Christmas 4m Roll Wrap Novelty Cute"
+    },
+    {
+      "id": 1483,
+      "sku": "22789T",
+      "name": "Christmas 4m Roll Wrap Red & White"
+    },
+    {
+      "id": 1484,
+      "sku": "22783B",
+      "name": "Christmas Gift Bag Extra Large – Whimsical Woodland"
+    },
+    {
+      "id": 1485,
+      "sku": "22793G",
+      "name": "Christmas 20 Gift Tags Midnight Blue"
+    },
+    {
+      "id": 1486,
+      "sku": "22773W",
+      "name": "Christmas Gift Bag Medium – Most Wonderful"
+    },
+    {
+      "id": 1487,
+      "sku": "22772T",
+      "name": "Christmas Gift Bag Small – Most Wonderful"
+    },
+    {
+      "id": 1488,
+      "sku": "22770N",
+      "name": "Christmas Cards – Printed Text Square 15pk"
+    },
+    {
+      "id": 1489,
+      "sku": "22769J",
+      "name": "Christmas Cards – Printed Tree Square 15pk"
+    },
+    {
+      "id": 1507,
+      "sku": "72402M",
+      "name": "Kandelicious Seaside Fruit Flavour Assorted Lollies 80g CDU"
+    },
+    {
+      "id": 1516,
+      "sku": "72749N",
+      "name": "Funko Pop! K-Pop Demon Hunters Keychain Assorted CDU"
+    },
+    {
+      "id": 1528,
+      "sku": "HBT-72107P",
+      "name": "Face Facts Ceramide Repairing Lip Balm 10ml"
+    },
+    {
+      "id": 1537,
+      "sku": "22775C",
+      "name": "Christmas Gift Bag Extra Large – Most Wonderful"
+    },
+    {
+      "id": 1538,
+      "sku": "22780S",
+      "name": "Christmas Gift Bag Small – Whimsical Woodland"
+    },
+    {
+      "id": 1540,
+      "sku": "65509V",
+      "name": "Easynote Slim Soft Touch Notebook – Pastel Colours"
+    },
+    {
+      "id": 1544,
+      "sku": "64606K",
+      "name": "M.Y Tennis Set Super Neon"
+    },
+    {
+      "id": 1545,
+      "sku": "54049H",
+      "name": "Child Face Mask – Princess"
+    },
+    {
+      "id": 1549,
+      "sku": "72037A",
+      "name": "EVA Clogs Child Size 4"
+    }
+  ],
+  "remainingGeneratedRows": 0
+}
