@@ -160,7 +160,7 @@ function AdminDashboard({ onSignOut }: { onSignOut: () => void }) {
   };
   const updateOrder = async (id: string, status: string) => {
     const { error: updateError } = await supabase!.from("demo_orders").update({ status }).eq("id", id);
-    if (updateError) setError(updateError.message); else { setMessage("Demo order status updated."); void load(); }
+    if (updateError) setError(updateError.message); else { setMessage("Enquiry status updated."); void load(); }
   };
 
   return <StoreLayout>
@@ -190,7 +190,7 @@ function AdminDashboard({ onSignOut }: { onSignOut: () => void }) {
       </section> : tab === "categories" ? <section className="admin-content categories-admin">
         <form className="admin-category-form" onSubmit={addCategory}><p className="eyebrow">Product departments</p><h2>Add a category.</h2><p>Use concise buyer-facing names. Slugs are generated automatically.</p><div><input placeholder="e.g. Home & Utility" value={categoryName} onChange={(event) => setCategoryName(event.target.value)} /><button className="button-primary" type="submit">Add category <ChevronRight size={17} /></button></div></form>
         <div className="admin-list"><div className="admin-list-heading"><p className="eyebrow">Categories</p><span>{categories.length} records</span></div>{categories.length ? categories.map((category) => <article key={category.id} className="admin-category-row"><div><b>{category.name}</b><span>/{category.slug}</span></div><button type="button" onClick={() => void deleteCategory(category)} aria-label={`Delete ${category.name}`}><Trash2 size={16} /></button></article>) : <p className="admin-empty">No database categories yet.</p>}</div>
-      </section> : <section className="admin-content orders-admin"><div className="admin-list"><div className="admin-list-heading"><p className="eyebrow">No-payment enquiry records</p><span>{orders.length} records</span></div>{orders.length ? orders.map((order) => <article key={order.id} className="admin-order-row"><div><b>{order.order_reference}</b><span>{order.customer_name} · {order.customer_email} · £{Number(order.subtotal).toFixed(2)} ex VAT</span></div><time>{new Intl.DateTimeFormat("en-GB", { dateStyle: "medium" }).format(new Date(order.created_at))}</time><select value={order.status} onChange={(event) => void updateOrder(order.id, event.target.value)}><option>Demo order</option><option>Reviewed</option><option>Archived</option></select></article>) : <p className="admin-empty">No enquiry records stored yet.</p>}</div></section>}
+      </section> : <section className="admin-content orders-admin"><div className="admin-list"><div className="admin-list-heading"><p className="eyebrow">No-payment enquiry records</p><span>{orders.length} records</span></div>{orders.length ? orders.map((order) => <article key={order.id} className="admin-order-row"><div><b>{order.order_reference}</b><span>{order.customer_name} · {order.customer_email} · £{Number(order.subtotal).toFixed(2)} ex VAT</span></div><time>{new Intl.DateTimeFormat("en-GB", { dateStyle: "medium" }).format(new Date(order.created_at))}</time><select value={order.status} onChange={(event) => void updateOrder(order.id, event.target.value)}><option>New enquiry</option><option>Reviewed</option><option>Archived</option></select></article>) : <p className="admin-empty">No enquiry records stored yet.</p>}</div></section>}
     </section>
   </StoreLayout>;
 }

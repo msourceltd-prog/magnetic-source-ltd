@@ -22,12 +22,12 @@ export default function Checkout() {
     if (String(fields.get("website") || "")) return;
     setSubmitted(true);
     setSubmitError("");
-    const reference = `MS-DEMO-${String(Math.floor(100000 + Math.random() * 899999))}`;
+    const reference = `MS-ENQ-${String(Math.floor(100000 + Math.random() * 899999))}`;
     try {
       const result = await saveDemoOrder({ reference, firstName: String(fields.get("firstName") || ""), lastName: String(fields.get("lastName") || ""), email: String(fields.get("email") || ""), company: String(fields.get("company") || ""), address1: String(fields.get("address1") || ""), address2: String(fields.get("address2") || ""), city: String(fields.get("city") || ""), postcode: String(fields.get("postcode") || ""), subtotal, items });
       if (!result.persisted) { setSubmitError("We could not save your enquiry. Please try again later or contact the trade desk."); setSubmitted(false); return; }
       clearCart();
-      navigate(`/order-confirmation?ref=${reference}&stored=database`);
+      navigate(`/order-confirmation?ref=${reference}`);
     } catch { setSubmitError("We could not save your enquiry. Please try again later or contact the trade desk."); setSubmitted(false); }
   };
   if (!items.length && !submitted) return <StoreLayout><section className="cart-empty checkout-empty"><p className="eyebrow">No items to review</p><h1>Your basket is clear.</h1><p>Add a catalogue line before opening the trade enquiry checkout.</p><Link href="/shop" className="button-primary">Browse the edit <ArrowRight size={17} /></Link></section></StoreLayout>;
