@@ -82,9 +82,7 @@
 .product-image-wrap.product-image-wrap-featured-portrait {
   min-height: 282px;
   padding: 10px 14px 8px;
-  background:
-    linear-gradient(90deg, transparent 49.75%, rgba(18, 76, 156, 0.045) 49.75%, rgba(18, 76, 156, 0.045) 50.25%, transparent 50.25%),
-    #fff;
+  background: #fff;
 }
 
 .product-image-wrap.product-image-wrap-featured-portrait img,
@@ -101,9 +99,7 @@
  * tighter contained presentation, without stretching or trimming pack edges. */
 .product-image-wrap.product-image-wrap-featured-compact {
   padding: 8px 10px;
-  background:
-    radial-gradient(circle at 50% 50%, rgba(18, 76, 156, 0.035), transparent 58%),
-    #fff;
+  background: #fff;
 }
 
 .image-corner {
@@ -292,18 +288,11 @@
 }
 
 .product-image-wrap {
-  background:
-    linear-gradient(90deg, rgba(18, 76, 156, 0.045) 0 1px, transparent 1px 100%),
-    #fff;
+  background: #fff;
 }
 
 .image-corner {
-  display: block;
-  z-index: 3;
-  width: 23px;
-  height: 23px;
-  background: linear-gradient(135deg, transparent 0 48%, #124c9c 49% 100%);
-  clip-path: polygon(100% 0, 100% 100%, 0 100%);
+  display: none;
 }
 
 .product-image-label {
