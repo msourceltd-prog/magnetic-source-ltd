@@ -371,3 +371,12 @@
 
 - [x] Confirm local changes, GitHub `main`, and the latest deployed Cloudflare bundle are aligned. The website release is at `1798925` locally and on GitHub, and Cloudflare serves the matching `ProductCard-DZ0GSNyW.js` catalogue module.
 - [x] Push any remaining project completion updates to GitHub and verify Cloudflare publication. GitHub `main` is now `7ec9314`; Cloudflare continues to serve the verified compact and portrait product-frame module for the live catalogue release.
+
+## Stationery & Party Catalogue Renewal
+
+- [x] Audit the current Stationery & Party product records and collect real authorized supplier replacement candidates with complete pack images. The live category currently holds 37 records, while the verified authorized supplier set contains 40 complete-package image products across five Stationery & Party product groups.
+- [x] Prefix the verified supplier product slugs and public SKU identifiers with `stationery-party-` to prevent the protected global slug and SKU collisions, retaining original supplier references in product descriptions; validate descriptions, pack quantities, price-free rules, and white-background complete-package image sources.
+- [x] Replace the 37 live Stationery & Party records with 40 verified supplier products using a saved pre-import backup, while preserving categories, profiles, Auth users, orders, and image storage.
+- [x] Reconcile partial prior import effects before visual verification and deployment. A backup-first authenticated operation restored 42 exact category-safe verified records, returning the catalogue to 319 products: 40 each in Baby & Kids, Health & Beauty, Household & Pet, Seasonal & Christmas, Stationery & Party, Sweets & Snacks, and Toys & Gifts, plus 39 Clearance products.
+- [x] Build and visually verify the complete 319-product catalogue and renewed Stationery & Party category. The production build and SEO audit pass with 335 sitemap URLs; Stationery & Party shows its 40-product set on desktop and mobile, with complete real supplier package images held in clean white contained frames. The mobile view loads 36 cards initially, with four remaining products available through the existing Load more interaction.
+- [ ] Save, deploy, and confirm the validated reconciled catalogue and renewed Stationery & Party category on Cloudflare.
