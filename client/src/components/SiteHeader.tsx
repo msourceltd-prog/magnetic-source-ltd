@@ -51,7 +51,7 @@ export default function SiteHeader() {
   const { categories, products } = useCatalog();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [search, setSearch] = useState("");
-  const [, navigate] = useLocation();
+  const [location, navigate] = useLocation();
   const { items, itemCount, subtotal } = useCart();
   const quoteRequired = items.some(isPriceHidden);
 
@@ -65,6 +65,18 @@ export default function SiteHeader() {
   const submitSearch = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     if (search.trim()) navigate(`/shop?q=${encodeURIComponent(search.trim())}`);
+  };
+
+  const followCategory = (event: MouseEvent<HTMLAnchorElement>, slug: string) => {
+    const href = `/shop?category=${slug}`;
+    if (location.startsWith("/shop")) {
+      event.preventDefault();
+      window.history.replaceState(null, "", href);
+      window.dispatchEvent(new CustomEvent("magnetic-source:category-change", { detail: { slug } }));
+      setMobileOpen(false);
+      return;
+    }
+    followInternal(event, href);
   };
 
   return <>
@@ -102,7 +114,7 @@ export default function SiteHeader() {
       </div>
       <nav className="category-tape" aria-label="Product categories">
         <div className="trade-shell category-tape-inner">
-          {categories.map((category) => { const href = `/shop?category=${category.slug}`; return <a key={category.slug} href={href} className="category-tape-link" onClick={(event) => followInternal(event, href)}><span>{category.name}</span><ChevronDown size={13} /></a>; })}
+          {categories.map((category) => { const href = `/shop?category=${category.slug}`; return <a key={category.slug} href={href} className="category-tape-link" onClick={(event) => followCategory(event, category.slug)}><span>{category.name}</span><ChevronDown size={13} /></a>; })}
         </div>
       </nav>
       <aside className="service-benefits-strip" aria-label="Magnetic Source service benefits">
@@ -123,7 +135,7 @@ export default function SiteHeader() {
       </div>
       <p className="mobile-nav-label">Browse by department</p>
       <div className="mobile-category-links">
-        {categories.map((category) => { const href = `/shop?category=${category.slug}`; return <a key={category.slug} href={href} onClick={(event) => followInternal(event, href)}>{category.name}<ChevronDown size={15} /></a>; })}
+        {categories.map((category) => { const href = `/shop?category=${category.slug}`; return <a key={category.slug} href={href} onClick={(event) => followCategory(event, category.slug)}>{category.name}<ChevronDown size={15} /></a>; })}
       </div>
     </div>}
   </>;

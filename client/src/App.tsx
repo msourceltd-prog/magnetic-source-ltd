@@ -26,7 +26,7 @@ const ProductDetail = lazy(() => import("@/pages/ProductDetail"));
 const Shop = lazy(() => import("@/pages/Shop"));
 
 function Router() {
-  return <Suspense fallback={<main className="route-loading" aria-live="polite"><span>Loading catalogue</span></main>}><Switch>
+  return <Suspense fallback={<span className="sr-only" aria-live="polite">Loading page</span>}><Switch>
     <Route path="/" component={Home} />
     <Route path="/shop" component={Shop} />
     <Route path="/product/:slug" component={ProductDetail} />

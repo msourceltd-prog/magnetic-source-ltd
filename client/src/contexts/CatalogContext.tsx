@@ -22,7 +22,7 @@ const CatalogContext = createContext<CatalogContextValue>(fallbackCatalog);
 const preferredCategoryOrder = ["household-pet", "sweets-snacks", "toys-gifts", "stationery-party", "health-beauty", "seasonal-christmas", "clearance", "baby-kids"];
 
 export function CatalogProvider({ children }: PropsWithChildren) {
-  const [catalog, setCatalog] = useState<CatalogContextValue>(() => supabase ? { ...fallbackCatalog, categories: [], products: [], loading: true } : fallbackCatalog);
+  const [catalog, setCatalog] = useState<CatalogContextValue>(() => supabase ? { ...fallbackCatalog, categories: currentCategories, products: [], loading: true } : fallbackCatalog);
 
   useEffect(() => {
     const client = supabase;

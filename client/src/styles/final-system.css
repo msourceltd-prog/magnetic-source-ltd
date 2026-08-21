@@ -1,0 +1,104 @@
+/**
+ * Trade Ledger, Recut — final shared system layer.
+ * Use the Magnetic Source palette tokens only: cobalt navigation, graphite text,
+ * warm ledger paper, quiet surfaces, ochre evidence, and thin rule hierarchy.
+ */
+
+.category-tape {
+  border-bottom: 1px dotted color-mix(in srgb, var(--brand-on-primary) 62%, transparent);
+  background: var(--brand-primary);
+}
+
+.category-tape-link {
+  border-color: color-mix(in srgb, var(--brand-on-primary) 16%, transparent);
+}
+
+.category-tape-link:first-child {
+  border-left-color: color-mix(in srgb, var(--brand-on-primary) 16%, transparent);
+}
+
+.page-banner {
+  background: var(--brand-surface-muted);
+}
+
+.filter-rail,
+.sort-control select,
+.contact-hero aside,
+.contact-form,
+.checkout-summary,
+.cart-summary,
+.confirmation-card {
+  background: var(--brand-surface);
+}
+
+.rail-category {
+  border-bottom-color: var(--brand-border);
+}
+
+.rail-category:hover,
+.rail-category.active {
+  background: color-mix(in srgb, var(--brand-primary) 8%, var(--brand-surface));
+}
+
+.catalogue-loading-note {
+  margin: 0;
+  padding: 17px 0;
+  border-top: 1px dotted var(--brand-border);
+  color: var(--brand-muted);
+  font: 600 9px var(--mono);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.info-hero {
+  color: var(--brand-on-primary);
+}
+
+.info-hero .eyebrow {
+  color: color-mix(in srgb, var(--brand-on-primary) 72%, var(--brand-primary));
+}
+
+.info-hero p:not(.eyebrow) {
+  color: color-mix(in srgb, var(--brand-on-primary) 78%, var(--brand-muted));
+}
+
+.info-evidence {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 15px;
+  max-width: 760px;
+  margin-top: 22px;
+  padding-top: 13px;
+  border-top: 1px dotted color-mix(in srgb, var(--brand-on-primary) 38%, transparent);
+  color: color-mix(in srgb, var(--brand-on-primary) 88%, var(--brand-primary));
+  font: 600 9px var(--mono);
+  letter-spacing: .07em;
+  text-transform: uppercase;
+}
+
+.info-evidence-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--brand-accent);
+  box-shadow: 13px 0 0 color-mix(in srgb, var(--brand-accent) 45%, transparent);
+}
+
+.contact-note {
+  border-left-color: var(--brand-primary);
+  background: color-mix(in srgb, var(--brand-primary) 7%, var(--brand-surface));
+}
+
+.contact-note svg,
+.contact-success svg {
+  color: var(--brand-accent);
+}
+
+@media (max-width: 760px) {
+  .info-evidence {
+    gap: 7px 12px;
+    margin-top: 18px;
+    font-size: 8px;
+  }
+}

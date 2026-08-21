@@ -4,7 +4,7 @@
  * quote-required state wherever a public price is intentionally hidden.
  */
 import { useDeferredValue, useEffect, useMemo, useState } from "react";
-import { ChevronDown, Filter, Loader2, Search, SlidersHorizontal, X } from "lucide-react";
+import { ChevronDown, Filter, Search, SlidersHorizontal, X } from "lucide-react";
 import { useLocation, useSearch } from "wouter";
 import ProductCard from "@/components/ProductCard";
 import StoreLayout from "@/components/StoreLayout";
@@ -54,8 +54,27 @@ export default function Shop() {
     return [...pool].sort((a, b) => sort === "price-low" ? Number(isPriceHidden(a)) - Number(isPriceHidden(b)) || a.price - b.price : sort === "price-high" ? Number(isPriceHidden(a)) - Number(isPriceHidden(b)) || b.price - a.price : sort === "new" ? b.id - a.id : a.id - b.id);
   }, [selectedCategory, products, deferredSearch, priceRange, sort]);
 
-  const chooseCategory = (slug: string) => { setActiveCategory(slug); setVisibleCount(24); navigate(slug ? `/shop?category=${slug}` : "/shop"); };
-  const reset = () => { setActiveCategory(""); setSearch(""); setPriceRange("all"); setSort("catalogue"); setVisibleCount(24); navigate("/shop"); };
+  const replaceShopQuery = (slug: string, nextSearch = search, nextSort = sort) => {
+    const params = new URLSearchParams();
+    if (slug) params.set("category", slug);
+    if (nextSearch.trim()) params.set("q", nextSearch.trim());
+    if (nextSort !== "catalogue") params.set("sort", nextSort);
+    const query = params.toString();
+    window.history.replaceState(null, "", query ? `/shop?${query}` : "/shop");
+  };
+  const chooseCategory = (slug: string) => { setActiveCategory(slug); setVisibleCount(24); setFiltersOpen(false); replaceShopQuery(slug); };
+  const reset = () => { setActiveCategory(""); setSearch(""); setPriceRange("all"); setSort("catalogue"); setVisibleCount(24); setFiltersOpen(false); replaceShopQuery("", "", "catalogue"); };
+
+  useEffect(() => {
+    const applyHeaderCategory = (event: Event) => {
+      const slug = (event as CustomEvent<{ slug: string }>).detail?.slug || "";
+      setActiveCategory(slug);
+      setVisibleCount(24);
+      setFiltersOpen(false);
+    };
+    window.addEventListener("magnetic-source:category-change", applyHeaderCategory);
+    return () => window.removeEventListener("magnetic-source:category-change", applyHeaderCategory);
+  }, []);
   const editResults = filtered.slice(0, visibleCount);
 
   return <StoreLayout seo={{ title: seoTitle, description: seoDescription, path: seoPath }}>
@@ -76,7 +95,7 @@ export default function Shop() {
           <label className="sort-control"><SlidersHorizontal size={16} /><span className="sr-only">Sort products</span><select value={sort} onChange={(event) => setSort(event.target.value)}><option value="catalogue">Catalogue order</option><option value="new">Newest records</option><option value="price-low">Price: low to high</option><option value="price-high">Price: high to low</option></select></label>
         </div>
         <div className="catalogue-meta catalogue-meta-spacer" aria-hidden="true" />
-        {loading ? <div className="empty-state catalogue-loading"><Loader2 size={30} className="animate-spin" /><h2>Loading catalogue lines.</h2><p>Preparing the verified product information for your browse session.</p></div> : filtered.length ? <><div className="product-grid catalogue-grid">{editResults.map((product, index) => <ProductCard key={product.id} product={product} priority={index < 6} />)}</div>{filtered.length > editResults.length && <div className="catalogue-limit"><span className="eyebrow">More to explore</span><p>Continue browsing category-matched product records.</p><button type="button" className="button-secondary" onClick={() => setVisibleCount((count) => count + 24)}>Load more products</button></div>}</> : <div className="empty-state"><Search size={30} /><h2>No matching products found.</h2><p>Try another product term, product reference or category.</p><button type="button" className="button-secondary" onClick={reset}>Reset the catalogue</button></div>}
+        {loading ? <p className="catalogue-loading-note" aria-live="polite">Refreshing catalogue records.</p> : filtered.length ? <><div className="product-grid catalogue-grid">{editResults.map((product, index) => <ProductCard key={product.id} product={product} priority={index < 6} />)}</div>{filtered.length > editResults.length && <div className="catalogue-limit"><span className="eyebrow">More to explore</span><p>Continue browsing category-matched product records.</p><button type="button" className="button-secondary" onClick={() => setVisibleCount((count) => count + 24)}>Load more products</button></div>}</> : <div className="empty-state"><Search size={30} /><h2>No matching products found.</h2><p>Try another product term, product reference or category.</p><button type="button" className="button-secondary" onClick={reset}>Reset the catalogue</button></div>}
       </section>
     </div>
   </StoreLayout>;

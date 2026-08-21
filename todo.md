@@ -24,6 +24,14 @@
 
 - [x] Remove only the Browse catalogue, New lines, Departments, and Your basket navigation row beneath the logo, preserving the logo, category tape, service-benefits strip, and all other website behavior. Production build and TypeScript validation pass; the revised header was visually checked at 1280px, 768px, and 390px.
 
+## Final Professionalisation Pass
+
+- [x] Audit and consolidate the shared website palette into explicit primary, secondary, accent, text, muted text, background, surface, and border variables; retain the established Magnetic Source visual identity.
+- [x] Make department/category selection update products instantly in the shared Shop view without a loading presentation caused by client-side navigation.
+- [x] Apply safe performance refinements to existing assets and loading paths without changing product data, images, or the current static hosting architecture.
+- [x] Retain the existing About Magnetic Source copy as requested; rewrite Trade Account, Delivery & Returns, Contact, Privacy Policy, and Terms & Conditions with credible, concise UK B2B trade-supplier copy.
+- [x] Validate all public navigation, footer routes, enquiry routes, and responsive layouts; fix only genuine incorrect or dead destinations. Production build and TypeScript validation pass; key desktop and mobile Shop, Contact, Privacy, Terms, Trade Account, and Delivery & Returns layouts were visually checked.
+
 - [x] Review the supplied reference’s public category structure and identify compatible original product-type additions.
 - [x] Expand the original static approval-demo catalogue without reusing reference names, descriptions, SKUs, pricing, or images.
 - [x] Reuse existing remote sample imagery rather than uploading additional Supabase Storage assets.

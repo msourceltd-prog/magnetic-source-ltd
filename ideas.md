@@ -82,3 +82,5 @@ The first release will cover only the user’s necessary brand-approval scope: c
 - The operating header gives the magnetic-field monogram, custom-spaced wordmark, and small source-dot marker enough visual weight to identify Magnetic Source before the catalogue grid.
 - Product cards use two-tier ledger facts—**Pack** and **Ref**—with rule-separated rows, mono labels, and a visible trade-status line; these are evidence, not secondary decoration.
 - Cobalt cut corners, paired source dots, and restrained field lines recur in product-image frames, catalogue callouts, and active operational elements, always without cropping the product image.
+- The category tape always remains a compact browsing instrument, with category labels and a fine dotted ledger rule rather than a decorative colour band.
+- Commercial and information routes use concise trade-evidence callouts—such as pack facts, enquiry status, delivery thresholds, or written-confirmation cues—so the brand remains connected to wholesale decisions beyond the product grid.
