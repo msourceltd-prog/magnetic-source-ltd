@@ -26,7 +26,8 @@ export default function Shop() {
   const [visibleCount, setVisibleCount] = useState(36);
   const [filtersOpen, setFiltersOpen] = useState(false);
   const activeCategoryInfo = categories.find((category) => category.slug === activeCategory);
-  const seoPath = activeCategory ? `/shop?category=${encodeURIComponent(activeCategory)}` : "/shop";
+  const selectedCategory = activeCategoryInfo?.slug || "";
+  const seoPath = selectedCategory ? `/shop?category=${encodeURIComponent(selectedCategory)}` : "/shop";
   const seoTitle = activeCategoryInfo ? `${activeCategoryInfo.name} Wholesale Products | Magnetic Source` : "Wholesale Products & Trade Catalogue | Magnetic Source";
   const seoDescription = activeCategoryInfo ? `Magnetic Source offers ${activeCategoryInfo.name} wholesale products for UK trade buyers, with clear product descriptions, pack details and quote enquiries.` : "Browse Magnetic Source wholesale products for UK trade buyers, with practical retail lines, clear pack details, product references and quote enquiries.";
 
@@ -45,12 +46,12 @@ export default function Shop() {
       const searchableTerms = new Set(searchable.split(" ").filter(Boolean));
       const matchesSearch = !searchTerms.length || searchTerms.every((term) => (aliases[term] || [term]).some((candidate) => searchableTerms.has(candidate)));
       const hasPublicPrice = !isPriceHidden(product);
-      return (!activeCategory || product.category === activeCategory)
+      return (!selectedCategory || product.category === selectedCategory)
         && matchesSearch
       && (priceRange === "all" || hasPublicPrice && (priceRange === "under-5" && product.price < 5 || priceRange === "5-10" && product.price >= 5 && product.price < 10 || priceRange === "10-plus" && product.price >= 10));
     });
     return [...pool].sort((a, b) => sort === "price-low" ? Number(isPriceHidden(a)) - Number(isPriceHidden(b)) || a.price - b.price : sort === "price-high" ? Number(isPriceHidden(a)) - Number(isPriceHidden(b)) || b.price - a.price : sort === "new" ? b.id - a.id : a.id - b.id);
-  }, [activeCategory, products, search, priceRange, sort]);
+  }, [selectedCategory, products, search, priceRange, sort]);
 
   const chooseCategory = (slug: string) => { setActiveCategory(slug); setVisibleCount(36); navigate(slug ? `/shop?category=${slug}` : "/shop"); };
   const reset = () => { setActiveCategory(""); setSearch(""); setPriceRange("all"); setSort("catalogue"); setVisibleCount(36); navigate("/shop"); };

@@ -5,7 +5,7 @@
 import { ArrowUpRight, Mail, MapPin, Phone } from "lucide-react";
 
 const footerGroups = [
-  { title: "Browse", links: [["Wholesale catalogue", "/shop"], ["Latest records", "/shop?sort=new"], ["Catalogue lines", "/shop"], ["Trade essentials", "/shop?category=diy-hardware"]] },
+  { title: "Browse", links: [["Wholesale catalogue", "/shop"], ["Latest records", "/shop?sort=new"], ["Catalogue lines", "/shop"], ["Toys & Gifts", "/shop?category=toys-gifts"]] },
   { title: "Support", links: [["About Magnetic Source", "/about"], ["Trade account", "/trade-account"], ["Delivery & returns", "/delivery-returns"], ["Contact", "/contact"], ["Privacy", "/privacy"], ["Terms", "/terms"]] },
 ];
 

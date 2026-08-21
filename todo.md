@@ -464,3 +464,9 @@
 - [x] Show the full assigned category on every Admin product row so the completed product classification is visible without opening an edit form. Every row now displays a named category badge between the product name and pack/reference line.
 - [x] Widen the required Category selector and its form grid area so the full category label is visible and easy to select. Category now has a full-width required selector with an explicit required indicator and full category names.
 - [ ] Build and type-check the Admin category-visibility correction. Production build and TypeScript validation pass; live authenticated Admin visual verification and deployment follow the saved checkpoint.
+
+## Category Matching and Single Description
+
+- [x] Ensure each public category view and its hero/featured product content is derived only from products assigned to the currently selected category. Valid category selection is now required for category filtering, and the stale footer route was updated from an old category slug to Toys & Gifts.
+- [x] Remove the repeated secondary description from product cards and detail pages, retaining only one concise genuine description per product. Product cards now show only the product name with pack/reference facts; the product-detail page retains the single real description where one exists.
+- [x] Build and visually verify representative category pages and product-card presentation. Toys & Gifts and Health & Beauty pages show only their respective category headings and counts, and shared cards no longer render a secondary description below the product name; deployment follows the saved checkpoint.

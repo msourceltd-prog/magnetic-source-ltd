@@ -81,7 +81,6 @@ export default function ProductCard({ product, compact = false, preview = false 
     <div className="product-card-body">
       <div className="product-card-topline"><span>{product.tags[0] || "Catalogue line"}</span></div>
       <a href={`/product/${product.slug}`} className="product-name-link"><h3>{product.name}</h3><ArrowUpRight size={16} /></a>
-      {product.description?.trim() ? <p className="product-card-description">{product.description}</p> : null}
       <div className="product-ledger" aria-label={`Trade facts: ${product.pack}; reference ${product.sku}`}><span><i>Pack</i><b>{product.pack}</b></span><span><i>Ref</i><b>{product.sku}</b></span></div>
       <div className="product-card-bottom">
         <div><strong>{priceHidden ? "Price on request" : formatGBP(product.price)}</strong><small>{priceHidden ? "Trade quote before order" : product.priceBasis}</small></div>
