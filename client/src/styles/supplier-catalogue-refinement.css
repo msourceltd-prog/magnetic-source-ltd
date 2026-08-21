@@ -81,10 +81,9 @@
   transition: opacity 160ms ease-out;
 }
 
-/* The six requested Baby & Kids lines use source canvases that are unusually
- * tall or compact. Their portrait frame gives each full pack more visual room
- * while the contained image rule guarantees no bottle, pouch, or label crops. */
-.product-image-wrap.product-image-wrap-featured-baby {
+/* Audited portrait source canvases receive more vertical room so narrow packs,
+ * bags and tall packaging look substantial while object-fit contains every edge. */
+.product-image-wrap.product-image-wrap-featured-portrait {
   min-height: 282px;
   padding: 10px 14px 8px;
   background:
@@ -92,13 +91,23 @@
     #fff;
 }
 
-.product-image-wrap.product-image-wrap-featured-baby img {
+.product-image-wrap.product-image-wrap-featured-portrait img,
+.product-image-wrap.product-image-wrap-featured-compact img {
   width: 100% !important;
   height: 100% !important;
   max-width: 100% !important;
   max-height: 100% !important;
   object-fit: contain !important;
   object-position: center !important;
+}
+
+/* Audited compact and square source canvases gain optical weight through a
+ * tighter contained presentation, without stretching or trimming pack edges. */
+.product-image-wrap.product-image-wrap-featured-compact {
+  padding: 8px 10px;
+  background:
+    radial-gradient(circle at 50% 50%, rgba(18, 76, 156, 0.035), transparent 58%),
+    #fff;
 }
 
 .image-corner {
@@ -289,9 +298,13 @@
     max-height: 96% !important;
   }
 
-  .product-image-wrap.product-image-wrap-featured-baby {
+  .product-image-wrap.product-image-wrap-featured-portrait {
     min-height: 238px;
     padding: 8px 9px 7px;
+  }
+
+  .product-image-wrap.product-image-wrap-featured-compact {
+    padding: 6px 7px;
   }
 
   .product-detail-image {

@@ -345,7 +345,14 @@
 - [x] Locate and inspect current Baby & Kids image presentation for Johnson’s Baby Shampoo 100ml, Cottontails for Mums Disposable Breast Pads 40’s, Tidyz Degradable Nappy Bags Pocket Pack 4 x 25’s, Johnson’s Baby Shampoo 300ml, Johnson’s Baby Powder Natural 200g, and Capitol Safety Soothers Pink 2 Pack. The Shampoo 300ml, Tidyz Nappy Bags, and Soothers sources are tall portrait canvases; the remaining products use compact or square canvases.
 - [x] Apply product-specific contained framing adjustments so the complete packaging remains visible with a polished premium scale. The six product slugs now receive a larger portrait frame, a 100% `object-fit: contain` image area, and reduced padding; no source canvas is cropped.
 - [x] Build and verify desktop and mobile catalogue cards. All six filtered Baby & Kids cards now render fully at 390px with their complete product package visible, including the two initially delayed Supabase image responses; TypeScript and production build checks pass.
-- [ ] Save, deploy, and confirm the six corrected Baby & Kids images on the live Cloudflare catalogue.
+- [x] Save, deploy, and confirm the six corrected Baby & Kids images on the live Cloudflare catalogue. The deployed dynamic ProductCard module contains the targeted `product-image-wrap-featured-baby` correction.
+
+## Catalogue-Wide Product Image Presentation
+
+- [x] Measure source-canvas dimensions and identify underscaled product packaging across Household & Pet, Sweets & Snacks, Toys & Gifts, Stationery & Party, Health & Beauty, Seasonal & Christmas, Clearance, and Baby & Kids. The audit identified a controlled 40-product set: compact square packs benefit from reduced margins, while narrow portrait packs need taller contained frames to avoid appearing underscaled.
+- [x] Apply category-safe no-crop premium frame rules for compact and portrait product image groups. The catalogue now uses a 15-product portrait frame group and a 31-product compact frame group, both with 100% contained presentation and no source-canvas cropping.
+- [x] Build and verify desktop/mobile category presentation across all eight departments. One audited representative from each department renders with a full, proportionate product presentation at 1280px and 390px; TypeScript and production builds pass.
+- [ ] Save, deploy, and confirm the catalogue-wide image update on the live Cloudflare website.
 
 ## Admin Login Recovery
 
