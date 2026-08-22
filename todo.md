@@ -200,6 +200,10 @@
 
 - [x] Replace only the current warehouse hero image with a premium brand-neutral supplier showcase visual that retains the existing homepage copy, layout, and department rail. The generated cobalt, warm-stone, and unbranded supplier showcase image preserves a bright left copy-safe zone; production build passed and the desktop plus mobile hero were visually verified.
 
+## Alternate Brand-Neutral Homepage Hero Image
+
+- [x] Replace only the current homepage hero visual with a distinct alternate premium brand-neutral supplier showcase image, retaining the existing homepage copy, layout, and department rail. The alternate architectural cobalt gallery composition preserved the bright text-safe area; production build passed and desktop plus mobile hero views were visually verified.
+
 ## Supplier-Verified Pack-Format Correction
 
 - [ ] Audit current catalogue pack formats and correct supplier-supported wholesale quantities such as Pack of 12, Pack of 24, and Pack of 36 without inventing product pack sizes or changing other product data.
