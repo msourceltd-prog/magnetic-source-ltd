@@ -116,6 +116,10 @@
 
 - [x] Move only Fleur 3 Pack A4 Notebooks (39175C), Pokemon 10 Colour Pen (39170N), Pokemon Pen Set 3’s (39169J), and Squishmallows Pencil Case (22392N) from Stationery & Party to Clearance. Source-of-truth reads confirm all four now use `clearance`; the Clearance view finds SKU 39175C while the Stationery & Party view returns no match.
 
+## Exact Mixed Stationery Category Correction
+
+- [x] Move only Bartleby Adult Washed Baseball Cap Pastel Colours Assorted (72281P) from Stationery & Party to Household & Pet, and Crayola Pokemon 96 Page Colouring Book (39638L) from Stationery & Party to Toys & Gifts. Source-of-truth reads confirm the two requested target assignments; each destination view finds its SKU and both Stationery & Party views return no match.
+
 - [x] Review the supplied reference’s public category structure and identify compatible original product-type additions.
 - [x] Expand the original static approval-demo catalogue without reusing reference names, descriptions, SKUs, pricing, or images.
 - [x] Reuse existing remote sample imagery rather than uploading additional Supabase Storage assets.
