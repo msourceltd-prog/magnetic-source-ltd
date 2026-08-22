@@ -172,6 +172,10 @@
 
 - [x] Remove only the Quick order and Browse catalogue text block from the shared top header while retaining the logo, search, customer login, basket, category navigation, and mobile menu. Production build passed; the revised header was visually verified on desktop and mobile.
 
+## Product-Card Login Action Cleanup
+
+- [x] Remove only the redundant Login button from signed-out product cards, retaining Login to see price and the signed-in Add action. Production build passed; the signed-out catalogue was visually verified with only Login to see price shown on product cards.
+
 ## Footer Decoration Cleanup
 
 - [x] Remove only the artificial-looking decorative blue graphic from the shared footer while retaining its existing content, logo, payment marks, links, layout, and core navy treatment. Production build passed; the simplified solid-navy footer was visually checked on desktop and mobile.

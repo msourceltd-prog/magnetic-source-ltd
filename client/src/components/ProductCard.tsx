@@ -98,7 +98,7 @@ function ProductCard({ product, compact = false, preview = false, priority = fal
       <div className="product-ledger" aria-label={`Trade facts: ${product.pack}; reference ${product.sku}`}><span><i>Pack</i><b>{product.pack}</b></span><span><i>Ref</i><b>{product.sku}</b></span></div>
       <div className="product-card-bottom">
         <div>{signedIn ? publishedPrice ? <><strong>{formatGBP(product.price)}</strong><small>{product.priceBasis}</small></> : <><strong>Pricing pending</strong><small>Price list will be published shortly</small></> : <button type="button" className="price-access-button" onClick={openLogin}><LockKeyhole size={14} /> Login to see price</button>}</div>
-        <button type="button" disabled={preview} onClick={() => { if (preview) return; if (!signedIn) { openLogin(); return; } addItem(product); }} aria-label={signedIn ? `Add ${product.name} to basket` : `Login to see the price for ${product.name}`}><ShoppingBag size={18} /><span>{signedIn ? "Add" : "Login"}</span></button>
+        {signedIn ? <button type="button" disabled={preview} onClick={() => { if (!preview) addItem(product); }} aria-label={`Add ${product.name} to basket`}><ShoppingBag size={18} /><span>Add</span></button> : null}
       </div>
     </div>
   </article>;
