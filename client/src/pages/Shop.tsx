@@ -99,7 +99,6 @@ export default function Shop() {
         {categories.map((category) => <button className={activeCategory === category.slug ? "rail-category active" : "rail-category"} key={category.slug} type="button" onClick={() => chooseCategory(category.slug)}><span>{category.name}</span><ChevronDown size={15} /></button>)}
         <div className="rail-rule" />
         {products.some((product) => !isPriceHidden(product)) && <label className="stock-filter"><span>Price range</span><select value={priceRange} onChange={(event) => { setPriceRange(event.target.value); setVisibleCount(36); }}><option value="all">All prices</option><option value="under-5">Under £5 ex VAT</option><option value="5-10">£5–£10 ex VAT</option><option value="10-plus">£10+ ex VAT</option></select></label>}
-        <button className="clear-filters" type="button" onClick={reset}>Clear selection</button>
       </aside>
       <section className="catalogue-content">
         <div className="catalogue-tools">

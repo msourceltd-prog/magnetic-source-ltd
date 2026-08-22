@@ -180,6 +180,10 @@
 
 - [x] Remove only the redundant Login button from signed-out product cards, retaining Login to see price and the signed-in Add action. Production build passed; the signed-out catalogue was visually verified with only Login to see price shown on product cards.
 
+## Browse Categories Control Cleanup
+
+- [x] Remove only the Clear selection control from Browse categories while retaining all category links, filters, search, and product behaviour. Production build passed; the Health & Beauty desktop Browse categories rail was visually verified without the control.
+
 ## Supplier-Verified Pack-Format Correction
 
 - [ ] Audit current catalogue pack formats and correct supplier-supported wholesale quantities such as Pack of 12, Pack of 24, and Pack of 36 without inventing product pack sizes or changing other product data.
