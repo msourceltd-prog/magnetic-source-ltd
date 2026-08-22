@@ -128,6 +128,10 @@
 
 - [x] Move only Baylis & Harding The Fuzzy Duck Winter Wonderland Luxury Bath Bombs Gift Set (69987R), Baylis & Harding The Fuzzy Duck Winter Wonderland Decorative Crackers Gift Set (69990B), and Christmas Giant Bike Sack (21217E) from Seasonal & Christmas to Clearance. Source-of-truth reads confirm all three now use `clearance`; the Clearance view finds SKU 69987R while the Seasonal & Christmas view returns no match.
 
+## Exact Surprise-Cone Category Correction
+
+- [x] Move only Peppa Pig Surprise Cones 25g (67242U) and Paw Patrol Surprise Cones 25g (67241R) from Toys & Gifts to Sweets & Snacks. Source-of-truth reads confirm both now use `sweets-snacks`; the Sweets view finds SKU 67242U while the Toys & Gifts view returns no match.
+
 - [x] Review the supplied reference’s public category structure and identify compatible original product-type additions.
 - [x] Expand the original static approval-demo catalogue without reusing reference names, descriptions, SKUs, pricing, or images.
 - [x] Reuse existing remote sample imagery rather than uploading additional Supabase Storage assets.
