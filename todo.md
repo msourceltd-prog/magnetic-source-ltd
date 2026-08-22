@@ -244,6 +244,10 @@
 
 - [x] Create three restrained, realistic wholesale-focused hero visuals and add an automatic four-second hero rotation with manual image controls, visible active state, timer reset after selection, smooth transitions, and responsive desktop/tablet/mobile support. Three real wholesale stock photographs now rotate behind the unchanged hero copy; desktop and mobile views confirm the active selector remains visible, and the production build is successful.
 
+## Hero Surface Blending Refinement
+
+- [x] Remove the dark shade behind the hero rail’s All departments control and soften the hero-copy backdrop so the image field reads naturally behind the text while the existing copy remains legible on desktop and mobile. The rail now ends cleanly after its final control, the copy surface is smaller and less opaque, and desktop/mobile screenshots plus the production build were verified.
+
 ## Supplier-Verified Pack-Format Correction
 
 - [ ] Audit current catalogue pack formats and correct supplier-supported wholesale quantities such as Pack of 12, Pack of 24, and Pack of 36 without inventing product pack sizes or changing other product data.

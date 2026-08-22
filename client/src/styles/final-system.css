@@ -237,10 +237,10 @@ body,
 .hero-copy::before {
   position: absolute;
   z-index: 0;
-  inset: -74px -190px -74px -48px;
+  inset: -52px -132px -52px -30px;
   content: "";
   pointer-events: none;
-  background: linear-gradient(90deg, rgb(244 246 248 / 0.97) 0%, rgb(244 246 248 / 0.89) 51%, rgb(244 246 248 / 0.43) 78%, transparent 100%);
+  background: linear-gradient(90deg, rgb(244 246 248 / 0.79) 0%, rgb(244 246 248 / 0.67) 50%, rgb(244 246 248 / 0.25) 80%, transparent 100%);
 }
 
 .hero-copy > * {
@@ -278,7 +278,7 @@ body,
 
   .hero-copy::before {
     inset: -48px -32px -48px -32px;
-    background: linear-gradient(115deg, rgb(244 246 248 / 0.96) 0%, rgb(244 246 248 / 0.84) 63%, rgb(244 246 248 / 0.3) 100%);
+    background: linear-gradient(115deg, rgb(244 246 248 / 0.88) 0%, rgb(244 246 248 / 0.72) 63%, rgb(244 246 248 / 0.22) 100%);
   }
 }
 
@@ -404,6 +404,7 @@ body,
 
 /* The department rail is a deliberate dark trade-panel over the warehouse field. */
 .hero-rail {
+  align-self: start;
   padding: 42px 24px 30px;
   border-right: 1px solid color-mix(in srgb, var(--brand-on-primary) 20%, transparent);
   color: var(--brand-on-primary);
@@ -433,12 +434,12 @@ body,
   padding: 0 15px;
   color: var(--brand-on-primary);
   border-top: 1px solid color-mix(in srgb, var(--brand-on-primary) 28%, transparent);
-  background: linear-gradient(90deg, rgb(244 246 248 / 0.16), transparent);
+  background: transparent;
 }
 
 .hero-rail-all:hover {
   color: var(--brand-on-primary);
-  background: linear-gradient(90deg, rgb(244 246 248 / 0.24), rgb(244 246 248 / 0.06));
+  background: rgb(244 246 248 / 0.12);
 }
 
 .info-evidence {
