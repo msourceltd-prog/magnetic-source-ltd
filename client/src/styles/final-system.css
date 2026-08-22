@@ -191,17 +191,17 @@ body,
   right: clamp(24px, 5vw, 90px);
   bottom: 26px;
   display: flex;
-  gap: 8px;
-  padding: 7px;
+  gap: 6.4px;
+  padding: 5.6px;
   border: 1px solid rgb(22 32 46 / 22%);
   background: rgb(244 246 248 / 78%);
-  box-shadow: 5px 5px 0 rgb(27 78 155 / 16%);
+  box-shadow: 4px 4px 0 rgb(27 78 155 / 16%);
   backdrop-filter: blur(7px);
 }
 
 .hero-slide-controls button {
-  width: 27px;
-  height: 4px;
+  width: 21.6px;
+  height: 3.2px;
   padding: 0;
   border: 0;
   background: rgb(22 32 46 / 30%);
@@ -213,8 +213,8 @@ body,
 .hero-slide-controls button.is-active { background: #1B4E9B; transform: scaleX(1.28); }
 
 @media (max-width: 760px) {
-  .hero-slide-controls { top: 14px; right: 14px; bottom: auto; gap: 6px; padding: 6px; }
-  .hero-slide-controls button { width: 21px; }
+  .hero-slide-controls { top: 14px; right: 14px; bottom: auto; gap: 4.8px; padding: 4.8px; }
+  .hero-slide-controls button { width: 16.8px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

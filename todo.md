@@ -252,6 +252,10 @@
 
 - [x] Verify the deployed `magneticsource.uk` homepage on desktop and mobile against the current GitHub revision, identify any deployment or rendering delay preventing the new hero from appearing, and correct an application issue if one exists. Diagnosis confirmed the preview-only storage route returned the public site’s 404 page; public CDN delivery was applied, and the live desktop plus current mobile layout now render the wholesale hero image correctly.
 
+## Hero Progress Indicator Scale
+
+- [x] Reduce only the three-bar homepage hero progress indicator by approximately 20%, preserving its current position, colours, spacing, proportional appearance, responsive rules, and all other homepage elements. Desktop and mobile screenshots confirm the compact three-bar control retains its original placement, cobalt active bar, grey inactive bars, and responsive alignment.
+
 ## Supplier-Verified Pack-Format Correction
 
 - [ ] Audit current catalogue pack formats and correct supplier-supported wholesale quantities such as Pack of 12, Pack of 24, and Pack of 36 without inventing product pack sizes or changing other product data.
