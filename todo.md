@@ -240,6 +240,10 @@
 
 - [x] Swap the homepage collection order so New arrivals appears before Best sellers; remove the Best seller tag from every New arrivals product while retaining its New arrival tag and all other product data. Verified 12 New arrivals, 47 Best sellers, zero overlap, zero missing New arrival tags, visible cobalt New arrival badges, visible ochre Best seller badges, responsive desktop/mobile order, and an unchanged product payload apart from tag refinement.
 
+## Rotating Wholesale Hero Visuals
+
+- [x] Create three restrained, realistic wholesale-focused hero visuals and add an automatic four-second hero rotation with manual image controls, visible active state, timer reset after selection, smooth transitions, and responsive desktop/tablet/mobile support. Three real wholesale stock photographs now rotate behind the unchanged hero copy; desktop and mobile views confirm the active selector remains visible, and the production build is successful.
+
 ## Supplier-Verified Pack-Format Correction
 
 - [ ] Audit current catalogue pack formats and correct supplier-supported wholesale quantities such as Pack of 12, Pack of 24, and Pack of 36 without inventing product pack sizes or changing other product data.

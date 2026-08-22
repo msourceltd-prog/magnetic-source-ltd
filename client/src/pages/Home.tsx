@@ -1,21 +1,44 @@
 /**
  * Trade Ledger, Recut: an asymmetric editorial home built around a trade-desk
  * browsing rhythm, warm paper space, Source Cobalt navigation, dynamic live
- * departments, and a customer-login pricing access policy.
+ * departments, a restrained rotating wholesale visual field, and a customer-login
+ * pricing access policy.
  */
 import { ArrowRight, ChevronRight, PackageCheck } from "lucide-react";
+import { useEffect, useState } from "react";
 import { Link } from "wouter";
 import StoreLayout from "@/components/StoreLayout";
 import HomeCollectionCarousel from "@/components/HomeCollectionCarousel";
 import { useCatalog } from "@/contexts/CatalogContext";
 
+const heroSlides = [
+  { src: "/manus-storage/magnetic-source-hero-packing-supplies_59ed26c5.jpg", label: "Wholesale packing supplies" },
+  { src: "/manus-storage/magnetic-source-warehouse-interior_1a50abab.jpeg", label: "Wholesale warehouse interior" },
+  { src: "/manus-storage/magnetic-source-warehouse-boxes_51870fa9.jpg", label: "Wholesale stock boxes" },
+];
+
 export default function Home() {
   const { categories, products } = useCatalog();
   const bestSellers = products.filter((product) => product.tags.includes("Best seller"));
   const newArrivals = products.filter((product) => product.tags.includes("New arrival"));
+  const [activeHeroSlide, setActiveHeroSlide] = useState(0);
+  const [heroTimerReset, setHeroTimerReset] = useState(0);
+
+  useEffect(() => {
+    const timer = window.setInterval(() => setActiveHeroSlide((current) => (current + 1) % heroSlides.length), 4000);
+    return () => window.clearInterval(timer);
+  }, [activeHeroSlide, heroTimerReset]);
+
+  const selectHeroSlide = (index: number) => {
+    setActiveHeroSlide(index);
+    setHeroTimerReset((current) => current + 1);
+  };
+
   return <StoreLayout>
-    <section className="hero-section">
-      <div className="hero-image" aria-hidden="true"><img src="/manus-storage/magnetic-source-architectural-gallery-hero_3842538b.jpg" alt="" width="2000" height="1200" fetchPriority="high" decoding="async" /></div>
+    <section className="hero-section" aria-roledescription="carousel" aria-label="Magnetic Source wholesale supply">
+      <div className="hero-image" aria-hidden="true">
+        {heroSlides.map((slide, index) => <img className={`hero-slide${index === activeHeroSlide ? " is-active" : ""}`} key={slide.src} src={slide.src} alt="" width="2000" height="1200" fetchPriority={index === 0 ? "high" : "auto"} loading={index === 0 ? "eager" : "lazy"} decoding="async" />)}
+      </div>
       <div className="trade-shell hero-layout">
         <aside className="hero-rail" aria-label="Department shortcuts">
           <span className="eyebrow">Browse the source</span>
@@ -27,6 +50,9 @@ export default function Home() {
           <h1>UK wholesale catalogue for your<br /><em>next best-seller.</em></h1>
           <p className="hero-description">A practical source for compact, useful lines that earn their place on the shelf, in the parcel and on the marketplace listing.</p>
         </div>
+      </div>
+      <div className="hero-slide-controls" aria-label="Choose hero image">
+        {heroSlides.map((slide, index) => <button type="button" className={index === activeHeroSlide ? "is-active" : ""} key={slide.src} onClick={() => selectHeroSlide(index)} aria-label={`Show ${slide.label} image`} aria-pressed={index === activeHeroSlide}><span className="sr-only">{slide.label}</span></button>)}
       </div>
     </section>
 

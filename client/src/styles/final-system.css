@@ -171,6 +171,57 @@ body,
   object-position: center;
 }
 
+/* Rotating hero: calm photographic trade evidence behind the established editorial copy card. */
+.hero-image .hero-slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transform: scale(1.018);
+  transition: opacity 650ms var(--ease-out, cubic-bezier(0.23, 1, 0.32, 1)), transform 900ms var(--ease-out, cubic-bezier(0.23, 1, 0.32, 1));
+}
+
+.hero-image .hero-slide.is-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.hero-slide-controls {
+  position: absolute;
+  z-index: 3;
+  right: clamp(24px, 5vw, 90px);
+  bottom: 26px;
+  display: flex;
+  gap: 8px;
+  padding: 7px;
+  border: 1px solid rgb(22 32 46 / 22%);
+  background: rgb(244 246 248 / 78%);
+  box-shadow: 5px 5px 0 rgb(27 78 155 / 16%);
+  backdrop-filter: blur(7px);
+}
+
+.hero-slide-controls button {
+  width: 27px;
+  height: 4px;
+  padding: 0;
+  border: 0;
+  background: rgb(22 32 46 / 30%);
+  transition: background-color 180ms var(--ease-out, cubic-bezier(0.23, 1, 0.32, 1)), transform 180ms var(--ease-out, cubic-bezier(0.23, 1, 0.32, 1));
+}
+
+.hero-slide-controls button:hover,
+.hero-slide-controls button:focus-visible { background: #1B4E9B; }
+.hero-slide-controls button.is-active { background: #1B4E9B; transform: scaleX(1.28); }
+
+@media (max-width: 760px) {
+  .hero-slide-controls { top: 14px; right: 14px; bottom: auto; gap: 6px; padding: 6px; }
+  .hero-slide-controls button { width: 21px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-image .hero-slide,
+  .hero-slide-controls button { transition: none; }
+}
+
 .hero-copy {
   position: relative;
   z-index: 1;
