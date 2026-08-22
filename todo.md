@@ -292,6 +292,10 @@
 
 - [x] Audit the current production build, route health, client errors, network behaviour, catalogue loading, image delivery, responsive layouts, and avoidable performance costs; apply only evidence-backed fixes that improve perceived speed and reliability without changing catalogue data, visual design, or customer-facing functionality. Type checking and production build pass; current browser/network diagnostics are free of errors and failed requests; homepage, Pets catalogue, and a source-confirmed product route were verified on desktop/mobile. Added a ten-minute session catalogue cache with live background refresh and cache-on-failure retention, plus memoised carousel ordering and state-change guards to reduce repeat rendering work.
 
+## Non-Homepage Colour Consistency
+
+- [x] Audit and unify shared colour usage across all storefront pages except Page 1 / the homepage. Improve only non-homepage surface, border, text, button, and status colour consistency; do not change the homepage hero, homepage sections, or existing homepage design. Non-homepage routes now use a scoped warm-paper ground, muted ledger banner/breadcrumb surface, and matching light card surface with shared borders; Info and Contact retain the same cobalt information hero. Desktop/mobile Shop, Product, Contact, Cart, Checkout, and About views were checked, and Page 1 was visually confirmed unchanged.
+
 - [x] Review the supplied reference’s public category structure and identify compatible original product-type additions.
 - [x] Expand the original static approval-demo catalogue without reusing reference names, descriptions, SKUs, pricing, or images.
 - [x] Reuse existing remote sample imagery rather than uploading additional Supabase Storage assets.

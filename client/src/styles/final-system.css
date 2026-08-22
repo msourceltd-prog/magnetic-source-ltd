@@ -30,6 +30,40 @@
   --surface: var(--brand-surface);
 }
 
+/* Non-homepage pages share one warm ledger ground and one light card surface.
+ * Page 1 intentionally remains outside this scope so its completed hero and
+ * collection composition stay exactly as approved. */
+.store-app-subpage,
+.store-app-subpage main {
+  background-color: var(--brand-background);
+}
+
+.store-app-subpage .page-banner,
+.store-app-subpage .product-breadcrumb,
+.store-app-subpage .cart-banner {
+  color: var(--brand-text);
+  border-color: var(--brand-border);
+  background-color: var(--brand-surface-muted);
+}
+
+.store-app-subpage .filter-rail,
+.store-app-subpage .product-detail-image,
+.store-app-subpage .product-detail-image img,
+.store-app-subpage .cart-line,
+.store-app-subpage .checkout-step,
+.store-app-subpage .info-rail,
+.store-app-subpage .info-content section {
+  background-color: var(--brand-surface);
+}
+
+.store-app-subpage .product-detail-image,
+.store-app-subpage .cart-line,
+.store-app-subpage .checkout-step,
+.store-app-subpage .info-rail,
+.store-app-subpage .info-content section {
+  border-color: var(--brand-border);
+}
+
 body,
 .site-header,
 .filter-rail,
