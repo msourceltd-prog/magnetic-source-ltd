@@ -19,7 +19,7 @@ function normalizeTitle(value: string) {
 
 function normalizeDescription(value: string) {
   const branded = value.includes("Magnetic Source") ? value : `Magnetic Source: ${value}`;
-  const support = " Magnetic Source provides practical UK wholesale catalogue information and trade enquiry support.";
+  const support = " Magnetic Source provides practical UK wholesale catalogue information and customer account support.";
   let description = branded.replace(/\s+/g, " ").trim();
   while (description.length < 150) description += support;
   if (description.length <= 160) return description;

@@ -4,10 +4,11 @@
  * never expose an internal zero value as a public price.
  */
 import { memo, useEffect, useState, type MouseEvent } from "react";
-import { ArrowUpRight, ShoppingBag } from "lucide-react";
+import { ArrowUpRight, LockKeyhole, ShoppingBag } from "lucide-react";
 import { useLocation } from "wouter";
 import { useCart } from "@/contexts/CartContext";
-import { type Product, formatGBP, isPriceHidden, SUPPLIER_IMAGE_PLACEHOLDER } from "@/lib/catalogRuntime";
+import { type Product, formatGBP, hasCustomerPrice, SUPPLIER_IMAGE_PLACEHOLDER } from "@/lib/catalogRuntime";
+import { useCustomerAuth } from "@/contexts/CustomerAuthContext";
 
 const preloadProductDetail = () => {
   void import("@/pages/ProductDetail");
@@ -67,8 +68,9 @@ const compactProductFrames = new Set([
 
 function ProductCard({ product, compact = false, preview = false, priority = false }: { product: Product; compact?: boolean; preview?: boolean; priority?: boolean }) {
   const { addItem } = useCart();
+  const { signedIn, openLogin } = useCustomerAuth();
   const [, navigate] = useLocation();
-  const priceHidden = isPriceHidden(product);
+  const publishedPrice = hasCustomerPrice(product);
   const productFrameClass = portraitProductFrames.has(product.slug)
     ? "product-image-wrap-featured-portrait"
     : compactProductFrames.has(product.slug)
@@ -95,8 +97,8 @@ function ProductCard({ product, compact = false, preview = false, priority = fal
       <a href={`/product/${product.slug}`} onClick={followProduct} onMouseEnter={preloadProductDetail} onFocus={preloadProductDetail} onTouchStart={preloadProductDetail} className="product-name-link"><h3>{product.name}</h3><ArrowUpRight size={16} /></a>
       <div className="product-ledger" aria-label={`Trade facts: ${product.pack}; reference ${product.sku}`}><span><i>Pack</i><b>{product.pack}</b></span><span><i>Ref</i><b>{product.sku}</b></span></div>
       <div className="product-card-bottom">
-        <div><strong>{priceHidden ? "Price on request" : formatGBP(product.price)}</strong><small>{priceHidden ? "Trade quote before order" : product.priceBasis}</small></div>
-        <button type="button" disabled={preview} onClick={() => { if (!preview) addItem(product); }} aria-label={`Add ${product.name} to an enquiry`}><ShoppingBag size={18} /><span>{priceHidden ? "Enquire" : "Add"}</span></button>
+        <div>{signedIn ? publishedPrice ? <><strong>{formatGBP(product.price)}</strong><small>{product.priceBasis}</small></> : <><strong>Pricing pending</strong><small>Price list will be published shortly</small></> : <button type="button" className="price-access-button" onClick={openLogin}><LockKeyhole size={14} /> Login to see price</button>}</div>
+        <button type="button" disabled={preview} onClick={() => { if (preview) return; if (!signedIn) { openLogin(); return; } addItem(product); }} aria-label={signedIn ? `Add ${product.name} to basket` : `Login to see the price for ${product.name}`}><ShoppingBag size={18} /><span>{signedIn ? "Add" : "Login"}</span></button>
       </div>
     </div>
   </article>;

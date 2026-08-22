@@ -5,10 +5,11 @@
  */
 import { FormEvent, MouseEvent, useEffect, useState } from "react";
 import { useLocation } from "wouter";
-import { BadgeCheck, ChevronDown, Headphones, Menu, Search, ShoppingBag, Truck, X } from "lucide-react";
+import { BadgeCheck, ChevronDown, Headphones, LogOut, Menu, Search, ShoppingBag, Truck, X } from "lucide-react";
 import { useCart } from "@/contexts/CartContext";
 import { useCatalog } from "@/contexts/CatalogContext";
-import { isPriceHidden } from "@/lib/catalogRuntime";
+import { useCustomerAuth } from "@/contexts/CustomerAuthContext";
+import { hasCustomerPrice } from "@/lib/catalogRuntime";
 
 const mobileMenuLinks = [
   ["Browse catalogue", "/shop"],
@@ -45,7 +46,7 @@ export default function SiteHeader() {
   const [search, setSearch] = useState("");
   const [location, navigate] = useLocation();
   const { items, itemCount, subtotal } = useCart();
-  const quoteRequired = items.some(isPriceHidden);
+  const { signedIn, openLogin, signOut } = useCustomerAuth();
   const [activeCategorySlug, setActiveCategorySlug] = useState(() => new URLSearchParams(window.location.search).get("category"));
 
   useEffect(() => {
@@ -106,8 +107,9 @@ export default function SiteHeader() {
 
         <div className="header-actions">
           <a href="/shop" className="quick-order" onClick={(event) => followInternal(event, "/shop")}><span>Quick order</span><b>Browse catalogue</b></a>
+          {signedIn ? <button type="button" className="account-button account-button-signed-in" onClick={() => void signOut()}><span>Customer account</span><b><LogOut size={13} /> Sign out</b></button> : <button type="button" className="account-button" onClick={openLogin}><span>Customer access</span><b>Login to see prices</b></button>}
           <a href="/cart" className="basket-button" aria-label={`View cart with ${itemCount} items`} onClick={(event) => followInternal(event, "/cart")}>
-            <ShoppingBag size={21} /><span><em>{itemCount} items</em><b>{quoteRequired ? "Quote required" : new Intl.NumberFormat("en-GB", { style: "currency", currency: "GBP" }).format(subtotal)}</b></span>
+            <ShoppingBag size={21} /><span><em>{itemCount} items</em><b>{signedIn ? items.length && items.every(hasCustomerPrice) ? new Intl.NumberFormat("en-GB", { style: "currency", currency: "GBP" }).format(subtotal) : "Pricing pending" : "Login to see prices"}</b></span>
           </a>
         </div>
         <button className="mobile-menu-toggle" type="button" onClick={() => setMobileOpen((open) => !open)} aria-expanded={mobileOpen} aria-controls="mobile-navigation">
@@ -139,6 +141,7 @@ export default function SiteHeader() {
       <div className="mobile-nav-links">
         {mobileMenuLinks.map(([label, href]) => <a key={label} href={href} onClick={(event) => followInternal(event, href)}>{label}</a>)}
       </div>
+      {signedIn ? <button type="button" className="mobile-account-button" onClick={() => { void signOut(); setMobileOpen(false); }}><LogOut size={15} /> Sign out</button> : <button type="button" className="mobile-account-button" onClick={() => { openLogin(); setMobileOpen(false); }}>Login to see prices</button>}
       <p className="mobile-nav-label">Browse by department</p>
       <div className="mobile-category-links">
         {categories.map((category) => { const href = `/shop?category=${category.slug}`; return <a key={category.slug} href={href} onClick={(event) => followCategory(event, category.slug)}>{category.name}<ChevronDown size={15} /></a>; })}

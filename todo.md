@@ -160,6 +160,10 @@
 
 - [x] Identify and remove the exact remaining dot decoration still visible on the live affected information page, without changing unrelated page content or layout. Live Terms runtime inspection confirmed the deployed InfoPage chunk no longer contained the prior marker; the marker style itself has now also been removed. Production build passed and current Terms plus Trade account hero screenshots contain no two-dot decoration.
 
+## Customer Price Login and Trade-Enquiry Removal
+
+- [x] Remove trade-enquiry messaging and entry points across the website, then add a Supabase-backed customer sign-in/sign-up flow with a Login to see price gate. Until a real SKU price list is supplied, signed-in customers see a clear pricing-pending state rather than invented prices. Customer login and sign-up are powered by the existing Supabase Auth setup; logged-out shop, product, basket, and checkout states plus desktop/mobile customer-account pages were visually verified. The production build passed.
+
 ## Footer Decoration Cleanup
 
 - [x] Remove only the artificial-looking decorative blue graphic from the shared footer while retaining its existing content, logo, payment marks, links, layout, and core navy treatment. Production build passed; the simplified solid-navy footer was visually checked on desktop and mobile.

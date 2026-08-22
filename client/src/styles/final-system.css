@@ -397,6 +397,52 @@ body,
   color: var(--brand-accent);
 }
 
+.account-button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+  padding: 0 18px 0 0;
+  border: 0;
+  border-right: 1px solid var(--brand-border);
+  color: var(--brand-primary);
+  background: transparent;
+  font: 700 10px/1.25 var(--sans);
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+
+.account-button span { color: var(--brand-muted); font-weight: 500; }
+.account-button b { display: inline-flex; align-items: center; gap: 5px; }
+.account-button-signed-in { color: var(--brand-text); }
+.mobile-account-button { width: 100%; margin-top: 16px; padding: 12px 0; border: 1px solid var(--brand-primary); color: var(--brand-primary); background: var(--brand-surface); font: 800 10px var(--sans); letter-spacing: .06em; text-transform: uppercase; }
+
+.price-access-button { display: inline-flex; align-items: center; gap: 6px; padding: 0; border: 0; color: var(--brand-primary); background: transparent; font: 800 9px var(--sans); letter-spacing: .05em; text-transform: uppercase; text-align: left; }
+.price-access-button:hover { color: var(--brand-secondary); text-decoration: underline; text-underline-offset: 4px; }
+.detail-price-access { min-height: 40px; padding: 0 13px; border: 1px solid var(--brand-primary); background: color-mix(in srgb, var(--brand-primary) 7%, var(--brand-surface)); font-size: 11px; }
+.detail-price strong { display: block; color: var(--brand-primary); font: 400 30px/1 var(--serif); }
+.detail-price small { display: block; max-width:420px; margin-top:8px; }
+
+.customer-auth-dialog { width: min(440px, calc(100vw - 32px)); padding: 34px; border: 1px solid var(--brand-text); border-radius: 0; background: var(--brand-surface); box-shadow: 10px 11px 0 color-mix(in srgb, var(--brand-primary) 19%, transparent); }
+.customer-auth-dialog .customer-auth-icon { display: grid; width: 42px; height: 42px; place-items: center; margin-bottom: 18px; color: var(--brand-on-primary); background: var(--brand-primary); }
+.customer-auth-dialog .eyebrow { margin: 0 0 9px; }
+.customer-auth-dialog h2 { margin: 0; color: var(--brand-text); font: 400 37px/.98 var(--serif); letter-spacing: -.04em; }
+.customer-auth-dialog [data-slot="dialog-description"] { margin-top: 12px; color: var(--brand-muted); font-size: 13px; line-height: 1.6; }
+.customer-auth-form { display: grid; gap: 14px; margin-top: 25px; }
+.customer-auth-form label { display: grid; gap: 7px; color: var(--brand-text); font: 700 9px var(--mono); letter-spacing: .08em; text-transform: uppercase; }
+.customer-auth-form input { height: 43px; border: 1px solid var(--brand-text); border-radius: 0; padding: 0 11px; color: var(--brand-text); background: var(--brand-surface); font: 400 14px var(--sans); text-transform: none; }
+.customer-auth-form .button-primary { width: 100%; margin-top: 5px; border: 0; }
+.customer-auth-error { margin: 0; color: #a62e27; font-size: 12px; line-height: 1.5; }
+.customer-auth-notice { display: flex; gap: 7px; margin: 0; color: #2b6946; font-size: 12px; line-height: 1.5; }
+.customer-auth-notice svg { flex: 0 0 auto; margin-top: 1px; }
+.customer-auth-switch { margin-top: 18px; padding: 0; border: 0; border-bottom: 1px solid var(--brand-text); color: var(--brand-text); background: transparent; font: 700 10px var(--sans); letter-spacing: .05em; text-transform: uppercase; }
+
+@media (max-width: 760px) {
+  .mobile-account-button { display: inline-flex; align-items: center; justify-content: center; gap: 7px; }
+  .customer-auth-dialog { padding: 27px 22px; }
+  .customer-auth-dialog h2 { font-size: 32px; }
+}
+
 /* Footer closing area: a restrained solid-navy trade-desk signature with no artificial background ornament. */
 .site-footer {
   position: relative;

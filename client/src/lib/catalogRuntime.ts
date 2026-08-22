@@ -41,3 +41,4 @@ export const currentCategories: Category[] = [
 
 export const formatGBP = (value: number) => new Intl.NumberFormat("en-GB", { style: "currency", currency: "GBP" }).format(value);
 export const isPriceHidden = (product: Pick<Product, "tags" | "priceBasis">) => product.priceBasis === "Price on request" || product.tags.includes("Price hidden");
+export const hasCustomerPrice = (product: Pick<Product, "price" | "tags" | "priceBasis">) => product.price > 0 && !isPriceHidden(product);

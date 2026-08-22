@@ -42,7 +42,7 @@ export default function SiteFooter() {
       <section className="footer-statement">
         <div className="footer-brand-lockup"><FooterBrandMark /><span className="eyebrow light">Magnetic<br />Source Ltd</span></div>
         <h2>Useful stock,<br />clearly sourced.</h2>
-        <p>Practical catalogue lines, clear product information and a no-payment trade enquiry journey.</p>
+        <p>Practical catalogue lines, clear product information and customer price access through a secure login.</p>
       </section>
       {footerGroups.map((group) => <section className="footer-links" key={group.title}>
         <h3>{group.title}</h3>

@@ -7,6 +7,8 @@ import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { CartProvider } from "@/contexts/CartContext";
 import { CatalogProvider } from "@/contexts/CatalogContext";
+import { CustomerAuthProvider } from "@/contexts/CustomerAuthContext";
+import CustomerAuthDialog from "@/components/CustomerAuthDialog";
 import { Suspense } from "react";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
@@ -47,7 +49,7 @@ function Router() {
 }
 
 function App() {
-  return <ErrorBoundary><ThemeProvider defaultTheme="light"><TooltipProvider><CatalogProvider><CartProvider><Toaster /><Router /></CartProvider></CatalogProvider></TooltipProvider></ThemeProvider></ErrorBoundary>;
+  return <ErrorBoundary><ThemeProvider defaultTheme="light"><TooltipProvider><CustomerAuthProvider><CatalogProvider><CartProvider><Toaster /><Router /><CustomerAuthDialog /></CartProvider></CatalogProvider></CustomerAuthProvider></TooltipProvider></ThemeProvider></ErrorBoundary>;
 }
 
 export default App;

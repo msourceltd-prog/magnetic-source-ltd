@@ -1,7 +1,7 @@
 /**
  * Trade Ledger, Recut: an asymmetric editorial home built around a trade-desk
  * browsing rhythm, warm paper space, Source Cobalt navigation, dynamic live
- * departments, and a no-price, no-stock quote-required catalogue policy.
+ * departments, and a customer-login pricing access policy.
  */
 import { ArrowRight, ChevronRight, PackageCheck } from "lucide-react";
 import { Link } from "wouter";
@@ -39,6 +39,6 @@ export default function Home() {
       <div className="trade-shell product-grid">{featured.map((product) => <ProductCard product={product} key={product.id} />)}</div>
     </section>
 
-    <section className="statement-band"><div className="trade-shell"><PackageCheck size={32} /><p>Curated for the retailer who wants sourcing to feel <em>considered</em>, not complicated.</p><Link href="/contact">Open a trade conversation <ArrowRight size={17} /></Link></div></section>
+    <section className="statement-band"><div className="trade-shell"><PackageCheck size={32} /><p>Curated for the retailer who wants sourcing to feel <em>considered</em>, not complicated.</p><Link href="/contact">Contact the trade desk <ArrowRight size={17} /></Link></div></section>
   </StoreLayout>;
 }
