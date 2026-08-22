@@ -3,7 +3,7 @@
  * ledger-card product evidence, and the live catalogue tags without creating
  * separate collection destinations or duplicating department navigation.
  */
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import ProductCard from "@/components/ProductCard";
 import type { Product } from "@/lib/catalogRuntime";
@@ -33,20 +33,22 @@ export default function HomeCollectionCarousel({ id, title, evidence, products }
   const viewportRef = useRef<HTMLDivElement>(null);
   const [canMoveBack, setCanMoveBack] = useState(false);
   const [canMoveForward, setCanMoveForward] = useState(false);
-  const orderedProducts = interleaveByCategory(products);
+  const orderedProducts = useMemo(() => interleaveByCategory(products), [products]);
 
-  const refreshControls = () => {
+  const refreshControls = useCallback(() => {
     const viewport = viewportRef.current;
     if (!viewport) return;
-    setCanMoveBack(viewport.scrollLeft > 4);
-    setCanMoveForward(viewport.scrollLeft + viewport.clientWidth < viewport.scrollWidth - 4);
-  };
+    const nextCanMoveBack = viewport.scrollLeft > 4;
+    const nextCanMoveForward = viewport.scrollLeft + viewport.clientWidth < viewport.scrollWidth - 4;
+    setCanMoveBack((current) => current === nextCanMoveBack ? current : nextCanMoveBack);
+    setCanMoveForward((current) => current === nextCanMoveForward ? current : nextCanMoveForward);
+  }, []);
 
   useEffect(() => {
     refreshControls();
     window.addEventListener("resize", refreshControls);
     return () => window.removeEventListener("resize", refreshControls);
-  }, [products.length]);
+  }, [products.length, refreshControls]);
 
   const move = (direction: "back" | "forward") => {
     const viewport = viewportRef.current;

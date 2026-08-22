@@ -20,52 +20,86 @@ type RemoteProduct = Omit<Product, "price" | "id" | "availability" | "priceBasis
 const fallbackCatalog: CatalogContextValue = { categories: currentCategories, products: [], loading: false, usingSupabase: false };
 const CatalogContext = createContext<CatalogContextValue>(fallbackCatalog);
 const preferredCategoryOrder = ["household-pet", "sweets-snacks", "toys-gifts", "pets", "stationery-party", "health-beauty", "seasonal-christmas", "clearance", "baby-kids"];
+const catalogCacheKey = "magnetic-source:catalog:v1";
+const catalogCacheMaxAge = 10 * 60 * 1000;
+
+type CachedCatalog = Pick<CatalogContextValue, "categories" | "products"> & { savedAt: number };
+
+function readCachedCatalog(): CatalogContextValue | null {
+  if (typeof window === "undefined") return null;
+  try {
+    const raw = window.sessionStorage.getItem(catalogCacheKey);
+    if (!raw) return null;
+    const cached = JSON.parse(raw) as CachedCatalog;
+    if (!Array.isArray(cached.categories) || !Array.isArray(cached.products) || Date.now() - cached.savedAt > catalogCacheMaxAge) return null;
+    return { categories: cached.categories, products: cached.products, loading: false, usingSupabase: true };
+  } catch {
+    return null;
+  }
+}
+
+function writeCachedCatalog(catalog: CatalogContextValue) {
+  if (typeof window === "undefined") return;
+  try {
+    const cached: CachedCatalog = { categories: catalog.categories, products: catalog.products, savedAt: Date.now() };
+    window.sessionStorage.setItem(catalogCacheKey, JSON.stringify(cached));
+  } catch {
+    // A full or unavailable browser storage area must never block catalogue rendering.
+  }
+}
 
 export function CatalogProvider({ children }: PropsWithChildren) {
-  const [catalog, setCatalog] = useState<CatalogContextValue>(() => supabase ? { ...fallbackCatalog, categories: currentCategories, products: [], loading: true } : fallbackCatalog);
+  const [catalog, setCatalog] = useState<CatalogContextValue>(() => readCachedCatalog() || (supabase ? { ...fallbackCatalog, categories: currentCategories, products: [], loading: true } : fallbackCatalog));
 
   useEffect(() => {
     const client = supabase;
     if (!client) return;
     let active = true;
+    const retainCachedCatalog = () => setCatalog((current) => current.products.length ? { ...current, loading: false } : fallbackCatalog);
     const loadCatalog = async () => {
-      const [categoryResult, productResult] = await Promise.all([
-        client.from("categories").select("id,name,slug,summary").order("name"),
-        client.from("products").select("id,slug,name,category,price,sku,availability,pack,description,image,tags,featured").order("id"),
-      ]);
-      if (!active) return;
-      if (categoryResult.error || productResult.error || !categoryResult.data || !productResult.data) {
-        setCatalog(fallbackCatalog);
-        return;
+      try {
+        const [categoryResult, productResult] = await Promise.all([
+          client.from("categories").select("id,name,slug,summary").order("name"),
+          client.from("products").select("id,slug,name,category,price,sku,availability,pack,description,image,tags,featured").order("id"),
+        ]);
+        if (!active) return;
+        if (categoryResult.error || productResult.error || !categoryResult.data || !productResult.data) {
+          retainCachedCatalog();
+          return;
+        }
+        const remoteCategories = categoryResult.data as RemoteCategory[];
+        const orderedCategories = remoteCategories.length
+          ? [...remoteCategories]
+            .sort((left, right) => {
+              const leftOrder = preferredCategoryOrder.indexOf(left.slug);
+              const rightOrder = preferredCategoryOrder.indexOf(right.slug);
+              return (leftOrder === -1 ? 999 : leftOrder) - (rightOrder === -1 ? 999 : rightOrder) || left.name.localeCompare(right.name);
+            })
+            .map((category) => ({ name: category.name, slug: category.slug, summary: category.summary || "Trade catalogue category.", accent: "Trade edit" }))
+            : currentCategories;
+        const liveProducts = (productResult.data as RemoteProduct[]).map((product) => ({
+          ...product,
+          id: Number(product.id),
+          price: Number(product.price),
+          description: product.description || null,
+          tags: product.tags?.length ? product.tags : ["Catalogue line"],
+          image: product.image || SUPPLIER_IMAGE_PLACEHOLDER,
+          availability: "Availability to confirm" as const,
+          priceBasis: product.tags?.includes("Price hidden")
+            ? "Price on request" as const
+            : product.category === "sweets-confectionery" || product.tags?.includes("Supplier price")
+            ? "Supplier listed price · ex VAT" as const
+            : product.sku.startsWith("GEM-")
+              ? "Supplier unit price · ex VAT" as const
+              : "Indicative price · ex VAT" as const,
+          brand: null,
+        }));
+        const nextCatalog = { categories: orderedCategories, products: liveProducts, loading: false, usingSupabase: true };
+        writeCachedCatalog(nextCatalog);
+        setCatalog(nextCatalog);
+      } catch {
+        if (active) retainCachedCatalog();
       }
-      const remoteCategories = categoryResult.data as RemoteCategory[];
-      const orderedCategories = remoteCategories.length
-        ? [...remoteCategories]
-          .sort((left, right) => {
-            const leftOrder = preferredCategoryOrder.indexOf(left.slug);
-            const rightOrder = preferredCategoryOrder.indexOf(right.slug);
-            return (leftOrder === -1 ? 999 : leftOrder) - (rightOrder === -1 ? 999 : rightOrder) || left.name.localeCompare(right.name);
-          })
-          .map((category) => ({ name: category.name, slug: category.slug, summary: category.summary || "Trade catalogue category.", accent: "Trade edit" }))
-          : currentCategories;
-      const liveProducts = (productResult.data as RemoteProduct[]).map((product) => ({
-        ...product,
-        id: Number(product.id),
-        price: Number(product.price),
-        description: product.description || null,
-        tags: product.tags?.length ? product.tags : ["Catalogue line"],
-        image: product.image || SUPPLIER_IMAGE_PLACEHOLDER,
-        availability: "Availability to confirm" as const,
-        priceBasis: product.tags?.includes("Price hidden")
-          ? "Price on request" as const
-          : product.category === "sweets-confectionery" || product.tags?.includes("Supplier price")
-          ? "Supplier listed price · ex VAT" as const
-          : product.sku.startsWith("GEM-")
-            ? "Supplier unit price · ex VAT" as const
-            : "Indicative price · ex VAT" as const,
-        brand: null,
-      }));
-      setCatalog({ categories: orderedCategories, products: liveProducts, loading: false, usingSupabase: true });
     };
     void loadCatalog();
     return () => { active = false; };

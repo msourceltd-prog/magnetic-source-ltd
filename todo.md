@@ -288,6 +288,10 @@
 
 - [x] Resolve the stale dynamic-import failure shown on the live Contact route, add safe recovery for changed build assets, and apply focused public-site performance improvements without changing the existing design, catalogue, or customer-facing content. Lazy route chunks now recover once after a changed build, the error boundary hides raw stack traces, catalogue search indexing is computed only on catalogue updates, and direct product URLs wait for the live catalogue before evaluating availability. Production build passed; key desktop and mobile shop, product, and Contact routes were visually verified.
 
+## Whole-Site Quality and Performance Audit
+
+- [x] Audit the current production build, route health, client errors, network behaviour, catalogue loading, image delivery, responsive layouts, and avoidable performance costs; apply only evidence-backed fixes that improve perceived speed and reliability without changing catalogue data, visual design, or customer-facing functionality. Type checking and production build pass; current browser/network diagnostics are free of errors and failed requests; homepage, Pets catalogue, and a source-confirmed product route were verified on desktop/mobile. Added a ten-minute session catalogue cache with live background refresh and cache-on-failure retention, plus memoised carousel ordering and state-change guards to reduce repeat rendering work.
+
 - [x] Review the supplied reference’s public category structure and identify compatible original product-type additions.
 - [x] Expand the original static approval-demo catalogue without reusing reference names, descriptions, SKUs, pricing, or images.
 - [x] Reuse existing remote sample imagery rather than uploading additional Supabase Storage assets.
