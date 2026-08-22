@@ -120,6 +120,10 @@
 
 - [x] Move only Bartleby Adult Washed Baseball Cap Pastel Colours Assorted (72281P) from Stationery & Party to Household & Pet, and Crayola Pokemon 96 Page Colouring Book (39638L) from Stationery & Party to Toys & Gifts. Source-of-truth reads confirm the two requested target assignments; each destination view finds its SKU and both Stationery & Party views return no match.
 
+## Exact Beauty Clearance and Laundry Category Correction
+
+- [x] Move only Baylis & Harding Beauticology Cosmic Fun Pop Beauty Bag Gift Set (70001H), Baylis & Harding The Fuzzy Duck Cocktails Indulgent Body Care Gift Set (69983F), Baylis & Harding Limited Edition Body Pamper Gift Set (69954T), Baylis & Harding Beauticology Cosmic Body Pamper Gift Set (69999C), Man’Stuff Ultimate Six Pack Gift Set (69922Y), Stitchmas Bath Fizzer Pack (69885H), Somewhere Rainbow Bath Bomb in Gift Box in CDU (64794B), and Chakra Bath Bomb in Gift Box in CDU (64792v) from Health & Beauty to Clearance; move only Fabulosa 3 in 1 Laundry Pods Fresh Breeze 12’s (72736Z) from Health & Beauty to Household & Pet. Source-of-truth reads confirm all nine targets; the Clearance and Household views find the verified SKUs while both Health & Beauty source views return no match.
+
 - [x] Review the supplied reference’s public category structure and identify compatible original product-type additions.
 - [x] Expand the original static approval-demo catalogue without reusing reference names, descriptions, SKUs, pricing, or images.
 - [x] Reuse existing remote sample imagery rather than uploading additional Supabase Storage assets.
