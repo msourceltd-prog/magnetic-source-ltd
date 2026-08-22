@@ -152,6 +152,10 @@
 
 - [x] Remove the selected department tab underline/border and ensure category changes use responsive client-side navigation without unnecessary full reloads or avoidable catalogue work. Shop is warmed after first paint, same-Shop category changes retain client-side history updates, and result changes are scheduled as transitions; production build passed with Health & Beauty and Household & Pet verified on desktop and mobile.
 
+## Selected Information-Hero Decoration Removal
+
+- [x] Remove only the two-dot decorative mark from the Trade account, Delivery & returns, Privacy, and Terms hero areas, retaining page content and layout. Production build passed; all four desktop heroes plus Trade account and Terms mobile heroes were visually verified without the mark.
+
 ## Footer Decoration Cleanup
 
 - [x] Remove only the artificial-looking decorative blue graphic from the shared footer while retaining its existing content, logo, payment marks, links, layout, and core navy treatment. Production build passed; the simplified solid-navy footer was visually checked on desktop and mobile.
