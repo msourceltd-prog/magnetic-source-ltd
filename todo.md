@@ -236,6 +236,10 @@
 
 - [x] Remove Best sellers and New arrivals from desktop and mobile navigation, remove their separate Shop collection views, and replace them with live-data homepage carousels immediately after the hero: Best sellers first and New arrivals second. Each section uses live product-database tags, displays five products on desktop, provides accessible left/right controls, links to product details, and adapts for tablet and mobile. The former collection URLs now resolve to the standard Shop catalogue, and sitemap collection URLs are removed.
 
+## Homepage Collection Order and Tag Exclusivity
+
+- [x] Swap the homepage collection order so New arrivals appears before Best sellers; remove the Best seller tag from every New arrivals product while retaining its New arrival tag and all other product data. Verified 12 New arrivals, 47 Best sellers, zero overlap, zero missing New arrival tags, visible cobalt New arrival badges, visible ochre Best seller badges, responsive desktop/mobile order, and an unchanged product payload apart from tag refinement.
+
 ## Supplier-Verified Pack-Format Correction
 
 - [ ] Audit current catalogue pack formats and correct supplier-supported wholesale quantities such as Pack of 12, Pack of 24, and Pack of 36 without inventing product pack sizes or changing other product data.

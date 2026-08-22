@@ -71,7 +71,7 @@ function ProductCard({ product, compact = false, preview = false, priority = fal
   const { signedIn, openLogin } = useCustomerAuth();
   const [, navigate] = useLocation();
   const publishedPrice = hasCustomerPrice(product);
-  const collectionLabel = product.tags[0] === "Best seller" || product.tags[0] === "New arrival" ? product.tags[0] : null;
+  const collectionLabel = product.tags.includes("New arrival") ? "New arrival" : product.tags.includes("Best seller") ? "Best seller" : null;
   const productFrameClass = portraitProductFrames.has(product.slug)
     ? "product-image-wrap-featured-portrait"
     : compactProductFrames.has(product.slug)

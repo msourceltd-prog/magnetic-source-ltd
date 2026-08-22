@@ -30,8 +30,8 @@ export default function Home() {
       </div>
     </section>
 
-    <HomeCollectionCarousel id="home-best-sellers" title="Best sellers" evidence="A current selection of proven product lines, shown with live pack and reference details." products={bestSellers} />
     <HomeCollectionCarousel id="home-new-arrivals" title="New arrivals" evidence="Latest catalogue additions from the current wholesale range, updated through the live product records." products={newArrivals} />
+    <HomeCollectionCarousel id="home-best-sellers" title="Best sellers" evidence="A current selection of proven product lines, shown with live pack and reference details." products={bestSellers} />
 
     <section className="trade-shell category-intro section-space">
       <div><p className="eyebrow">Choose by need</p><h2>A working edit,<br />not an endless list.</h2></div>
