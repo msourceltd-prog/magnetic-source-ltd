@@ -168,6 +168,10 @@
 
 - [x] Expand the Create account form to collect customer contact, company, VAT, telephone, and trading-address details in Supabase Auth metadata while retaining a simple returning-customer sign-in form. Password confirmation and business-detail consent are required before sign-up; production build passed and desktop customer access entry points were visually verified.
 
+## Professional Wholesale Account Application Form
+
+- [x] Make Company name and VAT number required, add visible required asterisks and a short explanation, and extend the Create account form with appropriate wholesale-business details while retaining simple sign-in for returning customers. The form now collects contact role, business type, sales channel, optional website, required trading details, and protected application guidance; production build passed and the mobile customer-access entry point remained visually stable.
+
 ## Header Quick-Order Cleanup
 
 - [x] Remove only the Quick order and Browse catalogue text block from the shared top header while retaining the logo, search, customer login, basket, category navigation, and mobile menu. Production build passed; the revised header was visually verified on desktop and mobile.

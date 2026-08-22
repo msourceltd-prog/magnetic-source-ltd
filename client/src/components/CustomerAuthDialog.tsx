@@ -40,6 +40,10 @@ export default function CustomerAuthDialog() {
         company_name: String(form.get("companyName") || "").trim(),
         company_number: String(form.get("companyNumber") || "").trim(),
         vat_number: String(form.get("vatNumber") || "").trim(),
+        job_title: String(form.get("jobTitle") || "").trim(),
+        business_type: String(form.get("businessType") || "").trim(),
+        trading_channel: String(form.get("tradingChannel") || "").trim(),
+        website: String(form.get("website") || "").trim(),
         phone: String(form.get("phone") || "").trim(),
         address_line_1: String(form.get("addressLine1") || "").trim(),
         address_line_2: String(form.get("addressLine2") || "").trim(),
@@ -62,20 +66,26 @@ export default function CustomerAuthDialog() {
       <DialogTitle>{mode === "signin" ? "Login to see prices" : "Create your customer login"}</DialogTitle>
       <DialogDescription id="customer-auth-description">{mode === "signin" ? "Sign in to unlock customer pricing as soon as the current price list is published." : "Register your business details to create a secure customer login. We will email you if confirmation is required."}</DialogDescription>
       <form onSubmit={submit} className="customer-auth-form">
-        {mode === "signup" ? <div className="customer-registration-grid">
-          <label className="customer-field-full">Contact name<input name="fullName" autoComplete="name" required /></label>
-          <label className="customer-field-full">Business or company name<input name="companyName" autoComplete="organization" required /></label>
+        {mode === "signup" ? <><div className="customer-required-note"><b>*</b> Required for wholesale account setup. We use these details to create your customer record and verify access.</div><div className="customer-form-section"><span>Business contact</span><small>Tell us who will manage this customer account.</small></div><div className="customer-registration-grid">
+          <label>Contact name <em>*</em><input name="fullName" autoComplete="name" required /></label>
+          <label>Job title <em>*</em><input name="jobTitle" autoComplete="organization-title" required /></label>
+          <label className="customer-field-full">Business or company name <em>*</em><input name="companyName" autoComplete="organization" required /></label>
           <label>Company number <span>Optional</span><input name="companyNumber" autoComplete="off" /></label>
-          <label>VAT number <span>Optional</span><input name="vatNumber" autoComplete="off" /></label>
-          <label className="customer-field-full">Telephone number<input name="phone" type="tel" autoComplete="tel" required /></label>
-          <label className="customer-field-full">Trading address<input name="addressLine1" autoComplete="address-line1" required /></label>
+          <label>VAT number <em>*</em><input name="vatNumber" autoComplete="off" minLength={7} required /></label>
+          <label>Business type <em>*</em><select name="businessType" defaultValue="" required><option value="" disabled>Select business type</option><option value="Independent retailer">Independent retailer</option><option value="Online retailer">Online retailer</option><option value="Marketplace seller">Marketplace seller</option><option value="Market trader">Market trader</option><option value="Distributor">Distributor</option><option value="Other">Other</option></select></label>
+          <label>Main sales channel <span>Optional</span><select name="tradingChannel" defaultValue=""><option value="">Select if applicable</option><option value="Physical shop">Physical shop</option><option value="Own website">Own website</option><option value="Online marketplace">Online marketplace</option><option value="Mixed channels">Mixed channels</option></select></label>
+          <label className="customer-field-full">Website or shop URL <span>Optional</span><input name="website" type="url" autoComplete="url" placeholder="https://" /></label>
+        </div><div className="customer-form-section"><span>Trading address</span><small>Use your usual business correspondence address.</small></div><div className="customer-registration-grid">
+          <label className="customer-field-full">Telephone number <em>*</em><input name="phone" type="tel" autoComplete="tel" required /></label>
+          <label className="customer-field-full">Trading address <em>*</em><input name="addressLine1" autoComplete="address-line1" required /></label>
           <label className="customer-field-full">Address line 2 <span>Optional</span><input name="addressLine2" autoComplete="address-line2" /></label>
-          <label>Town or city<input name="city" autoComplete="address-level2" required /></label>
-          <label>Postcode<input name="postcode" autoComplete="postal-code" required /></label>
-        </div> : null}
-        <label>Email address<input name="email" type="email" autoComplete="email" required /></label>
-        <label>Password<input name="password" type="password" autoComplete={mode === "signin" ? "current-password" : "new-password"} minLength={6} required /></label>
-        {mode === "signup" ? <><label>Confirm password<input name="passwordConfirm" type="password" autoComplete="new-password" minLength={6} required /></label><label className="customer-auth-consent"><input name="accountConsent" type="checkbox" required /> I confirm these business details are correct and I agree to the customer account terms.</label></> : null}
+          <label>Town or city <em>*</em><input name="city" autoComplete="address-level2" required /></label>
+          <label>Postcode <em>*</em><input name="postcode" autoComplete="postal-code" required /></label>
+        </div></> : null}
+        <div className={mode === "signup" ? "customer-form-section customer-form-section-login" : ""}><span>{mode === "signup" ? "Login details" : "Customer login"}</span>{mode === "signup" ? <small>Choose the email and password you will use for price access.</small> : null}</div>
+        <label>Email address <em>*</em><input name="email" type="email" autoComplete="email" required /></label>
+        <label>Password <em>*</em><input name="password" type="password" autoComplete={mode === "signin" ? "current-password" : "new-password"} minLength={6} required /></label>
+        {mode === "signup" ? <><label>Confirm password <em>*</em><input name="passwordConfirm" type="password" autoComplete="new-password" minLength={6} required /></label><label className="customer-auth-consent"><input name="accountConsent" type="checkbox" required /> I confirm these business details are correct and I agree to the customer account terms.</label><p className="customer-application-note">Do not enter bank, card, or payment details. Account applications may be reviewed before pricing is published.</p></> : null}
         {error ? <p className="customer-auth-error" role="alert">{error}</p> : null}
         {notice ? <p className="customer-auth-notice" role="status"><CheckCircle2 size={16} /> {notice}</p> : null}
         <button className="button-primary" type="submit" disabled={loading}>{loading ? "Please wait…" : mode === "signin" ? "Sign in" : "Create account"} <ChevronRight size={17} /></button>

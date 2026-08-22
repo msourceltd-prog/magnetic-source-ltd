@@ -432,11 +432,20 @@ body,
 .customer-auth-form { display: grid; gap: 14px; margin-top: 25px; }
 .customer-auth-form label { display: grid; gap: 7px; color: var(--brand-text); font: 700 9px var(--mono); letter-spacing: .08em; text-transform: uppercase; }
 .customer-auth-form label span { color: var(--brand-muted); font-weight: 500; }
-.customer-auth-form input { height: 43px; border: 1px solid var(--brand-text); border-radius: 0; padding: 0 11px; color: var(--brand-text); background: var(--brand-surface); font: 400 14px var(--sans); text-transform: none; }
+.customer-auth-form label em { color: var(--brand-accent); font-style: normal; }
+.customer-auth-form input, .customer-auth-form select { height: 43px; border: 1px solid var(--brand-text); border-radius: 0; padding: 0 11px; color: var(--brand-text); background: var(--brand-surface); font: 400 14px var(--sans); text-transform: none; }
+.customer-auth-form select { appearance: auto; }
+.customer-required-note { padding: 11px 13px; border-left: 3px solid var(--brand-accent); color: var(--brand-muted); background: color-mix(in srgb, var(--brand-accent) 8%, var(--brand-surface)); font-size: 12px; line-height: 1.5; }
+.customer-required-note b { color: var(--brand-accent); font-size: 15px; }
+.customer-form-section { display: grid; gap: 3px; padding-top: 6px; border-top: 1px solid var(--brand-border); }
+.customer-form-section span { color: var(--brand-primary); font: 700 9px var(--mono); letter-spacing: .1em; text-transform: uppercase; }
+.customer-form-section small { color: var(--brand-muted); font-size: 12px; line-height: 1.45; }
+.customer-form-section-login { margin-top: 5px; }
 .customer-registration-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; padding-bottom: 4px; border-bottom: 1px solid var(--brand-border); }
 .customer-registration-grid .customer-field-full { grid-column: 1 / -1; }
 .customer-auth-form .customer-auth-consent { display: flex; grid-template-columns: none; align-items: flex-start; gap: 9px; color: var(--brand-muted); font: 500 11px/1.5 var(--sans); letter-spacing: 0; text-transform: none; }
 .customer-auth-consent input { width: 15px; height: 15px; flex: 0 0 auto; margin-top: 1px; padding: 0; accent-color: var(--brand-primary); }
+.customer-application-note { margin: 0; color: var(--brand-muted); font-size: 11px; line-height: 1.5; }
 .customer-auth-form .button-primary { width: 100%; margin-top: 5px; border: 0; }
 .customer-auth-error { margin: 0; color: #a62e27; font-size: 12px; line-height: 1.5; }
 .customer-auth-notice { display: flex; gap: 7px; margin: 0; color: #2b6946; font-size: 12px; line-height: 1.5; }
