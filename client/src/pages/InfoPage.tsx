@@ -1,7 +1,6 @@
 /**
  * Trade Ledger, Recut: original practical support copy for brand approval,
- * preserving a calm left rail, clear information hierarchy, and stable entry
- * anchors so shared footer links land on the intended existing page content.
+ * preserving a calm left rail and clear information hierarchy.
  */
 import { ArrowRight, Check, ChevronRight } from "lucide-react";
 import { Link, useLocation } from "wouter";
@@ -17,18 +16,8 @@ const content: Record<string, InfoPageContent> = {
   "/trade-account": { eyebrow:"Trade account", title:"Open a trade conversation", intro:"Magnetic Source works with UK retailers and marketplace sellers looking for practical product lines, clear pack information and a direct route to trade support.", evidence:["Pack formats and product references", "Trade-desk response", "Commercial details in writing"], sections:[{title:"Tell us about your business",paragraphs:["Introduce your business, the retail channel you serve and the departments you are interested in. A short overview helps the trade desk prepare a more useful response."]},{title:"Build your enquiry",paragraphs:["Browse the catalogue, add the relevant pack quantities to your enquiry and include any delivery requirements. We will review the requested lines and confirm the appropriate availability, pricing and delivery information in writing."],points:["Clear product references and pack formats", "A direct route to the trade desk", "Commercial details confirmed before acceptance"]},{title:"What happens next",paragraphs:["We will review the information you provide and respond with the next practical step. Opening a trade conversation does not guarantee credit, reserve stock or create an order; it gives both sides a clear starting point for an informed discussion."]}] },
 };
 
-const entryAnchors: Record<string, string> = {
-  "/about": "about-magnetic-source",
-  "/trade-account": "trade-account",
-  "/delivery-returns": "delivery-returns",
-  "/privacy": "privacy-notice",
-  "/terms": "website-terms",
-};
-
 export default function InfoPage() {
   const [location] = useLocation();
-  const pagePath = location.split("?")[0];
-  const page = content[pagePath] || content["/about"];
-  const entryAnchor = entryAnchors[pagePath] || entryAnchors["/about"];
-  return <StoreLayout><section id={entryAnchor} className="info-hero"><div className="trade-shell"><p className="eyebrow">{page.eyebrow}</p><h1>{page.title}</h1><p>{page.intro}</p>{page.evidence && <div className="info-evidence" aria-label="Trade information"><span className="info-evidence-dot" aria-hidden="true" />{page.evidence.map((item) => <span key={item}>{item}</span>)}</div>}</div></section><div className="trade-shell info-layout section-space"><aside className="info-rail"><p className="eyebrow">On this page</p>{page.sections.map((section, index) => <a key={section.title} href={`#info-${index}`}><span>{String(index + 1).padStart(2,"0")}</span>{section.title}<ChevronRight size={15} /></a>)}<Link href="/contact" className="info-rail-contact">Talk to the trade desk <ArrowRight size={15} /></Link></aside><article className="info-content">{page.sections.map((section,index) => <section id={`info-${index}`} key={section.title}><span className="section-number">{String(index + 1).padStart(2,"0")}</span><h2>{section.title}</h2>{section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}{section.points && <ul>{section.points.map((point) => <li key={point}><Check size={17} /> {point}</li>)}</ul>}</section>)}</article></div></StoreLayout>;
+  const page = content[location] || content["/about"];
+  return <StoreLayout><section className="info-hero"><div className="trade-shell"><p className="eyebrow">{page.eyebrow}</p><h1>{page.title}</h1><p>{page.intro}</p>{page.evidence && <div className="info-evidence" aria-label="Trade information"><span className="info-evidence-dot" aria-hidden="true" />{page.evidence.map((item) => <span key={item}>{item}</span>)}</div>}</div></section><div className="trade-shell info-layout section-space"><aside className="info-rail"><p className="eyebrow">On this page</p>{page.sections.map((section, index) => <a key={section.title} href={`#info-${index}`}><span>{String(index + 1).padStart(2,"0")}</span>{section.title}<ChevronRight size={15} /></a>)}<Link href="/contact" className="info-rail-contact">Talk to the trade desk <ArrowRight size={15} /></Link></aside><article className="info-content">{page.sections.map((section,index) => <section id={`info-${index}`} key={section.title}><span className="section-number">{String(index + 1).padStart(2,"0")}</span><h2>{section.title}</h2>{section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}{section.points && <ul>{section.points.map((point) => <li key={point}><Check size={17} /> {point}</li>)}</ul>}</section>)}</article></div></StoreLayout>;
 }

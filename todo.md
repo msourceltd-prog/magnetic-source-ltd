@@ -140,6 +140,10 @@
 
 - [x] Repair the existing shared footer links for About Magnetic Source, Trade account, Delivery & returns, Contact, Privacy, and Terms so they open their intended pages at the relevant opening content from every public route, including after refresh, without changing unrelated design or functionality. Production build passed; all six anchored desktop destinations and Contact, Delivery & Returns, and Terms mobile entries were visually verified. Direct browser loads confirmed the Contact and Terms URLs retain their anchors and open on the intended hero content; a Terms browser refresh retained the `#website-terms` URL and showed the correct opening Terms content.
 
+## Restore Pre-Footer-Routing Navigation
+
+- [x] Restore only the footer navigation behaviour from before the Footer Information-Link Routing change, retaining all later stability, speed, design, catalogue, and content updates. Production build passed; the preserved footer was visually checked on desktop and mobile.
+
 ## Footer Decoration Cleanup
 
 - [x] Remove only the artificial-looking decorative blue graphic from the shared footer while retaining its existing content, logo, payment marks, links, layout, and core navy treatment. Production build passed; the simplified solid-navy footer was visually checked on desktop and mobile.

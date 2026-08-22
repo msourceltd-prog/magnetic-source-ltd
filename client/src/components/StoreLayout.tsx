@@ -1,9 +1,8 @@
 /**
  * Trade Ledger, Recut: shared trading shell retaining the reference-inspired
- * utility → operating header → department-tape browsing hierarchy. Information
- * routes restore their anchored opening content rather than retaining footer scroll.
+ * utility → operating header → department-tape browsing hierarchy.
  */
-import { useEffect, type ReactNode } from "react";
+import type { ReactNode } from "react";
 import { useLocation } from "wouter";
 import SEOHead from "@/components/SEOHead";
 import ConsentNotice from "@/components/ConsentNotice";
@@ -16,16 +15,6 @@ type LayoutSEO = { title: string; description: string; path?: string; image?: st
 export default function StoreLayout({ children, seo }: { children: ReactNode; seo?: LayoutSEO }) {
   const [location] = useLocation();
   const path = location.split("?")[0] || "/";
-  const isInformationRoute = ["/about", "/trade-account", "/delivery-returns", "/contact", "/privacy", "/terms"].includes(path);
-  useEffect(() => {
-    if (!isInformationRoute) return;
-    const frame = window.requestAnimationFrame(() => {
-      const anchor = window.location.hash ? document.getElementById(window.location.hash.slice(1)) : null;
-      if (anchor) anchor.scrollIntoView({ block: "start" });
-      else window.scrollTo({ top: 0, left: 0, behavior: "auto" });
-    });
-    return () => window.cancelAnimationFrame(frame);
-  }, [path, isInformationRoute]);
   const routeMeta: LayoutSEO = {
     "/": { title:"UK Wholesale Catalogue | Magnetic Source Trade Supply", description:"Magnetic Source Ltd provides a curated UK wholesale catalogue of practical retail lines, clear pack details and trade enquiry support for independent retailers." },
     "/shop": { title:"Wholesale Products & Trade Catalogue | Magnetic Source", description:"Browse the Magnetic Source UK wholesale catalogue for practical retail products, clear pack formats, product references and trade quote enquiries." },
