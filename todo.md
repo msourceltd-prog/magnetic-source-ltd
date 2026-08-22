@@ -96,6 +96,10 @@
 
 - [x] Confirm and apply the current Contact-page cobalt hero treatment across About Magnetic Source, Trade Account, Delivery & Returns, Privacy, and Terms without changing their existing copy or layout. All six requested desktop routes were visually checked and use the same shared cobalt hero treatment; the shared responsive treatment was also checked at 390px.
 
+## Global Decorative-Dot Removal
+
+- [x] Remove only the two requested decorative dots from all shared Magnetic Source logo marks, preserving the remaining mark geometry and all page styling. Production build and TypeScript validation pass; header and footer marks were visually checked at 1280px and the shared mobile header mark was checked at 390px.
+
 - [x] Review the supplied reference’s public category structure and identify compatible original product-type additions.
 - [x] Expand the original static approval-demo catalogue without reusing reference names, descriptions, SKUs, pricing, or images.
 - [x] Reuse existing remote sample imagery rather than uploading additional Supabase Storage assets.

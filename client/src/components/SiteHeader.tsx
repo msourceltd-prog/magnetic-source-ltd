@@ -35,8 +35,6 @@ function MagneticFieldMark() {
     <path d="M46 11c-5 2-9 5-12 10" fill="none" stroke="#1a1e22" strokeLinecap="round" strokeWidth="2.4" />
     <path d="M18 53c5-2 9-5 12-10" fill="none" stroke="#1a1e22" strokeLinecap="round" strokeWidth="2.4" />
     <path d="M46 53c-5-2-9-5-12-10" fill="none" stroke="#1a1e22" strokeLinecap="round" strokeWidth="2.4" />
-    <circle cx="32" cy="32" r="5" fill="#1a1e22" />
-    <circle cx="32" cy="32" r="1.6" fill="#c97725" />
   </svg>;
 }
 

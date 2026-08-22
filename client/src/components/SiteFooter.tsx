@@ -21,7 +21,6 @@ function FooterBrandMark({ decorative = false }: { decorative?: boolean }) {
     <path d="M46 11c-5 2-9 5-12 10" fill="none" stroke="var(--brand-text)" strokeLinecap="round" strokeWidth="2.4" />
     <path d="M18 53c5-2 9-5 12-10" fill="none" stroke="var(--brand-text)" strokeLinecap="round" strokeWidth="2.4" />
     <path d="M46 53c-5-2-9-5-12-10" fill="none" stroke="var(--brand-text)" strokeLinecap="round" strokeWidth="2.4" />
-    <circle cx="32" cy="32" r="5" fill="var(--brand-text)" />
   </svg>;
 }
 
