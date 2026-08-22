@@ -12,9 +12,9 @@ import HomeCollectionCarousel from "@/components/HomeCollectionCarousel";
 import { useCatalog } from "@/contexts/CatalogContext";
 
 const heroSlides = [
-  { src: "/manus-storage/magnetic-source-hero-packing-supplies_59ed26c5.jpg", label: "Wholesale packing supplies" },
-  { src: "/manus-storage/magnetic-source-warehouse-interior_1a50abab.jpeg", label: "Wholesale warehouse interior" },
-  { src: "/manus-storage/magnetic-source-warehouse-boxes_51870fa9.jpg", label: "Wholesale stock boxes" },
+  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663870447287/bydqoXXLZqEZstwD.jpg", label: "Wholesale packing supplies" },
+  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663870447287/GttUoRTVYguFzBlE.jpeg", label: "Wholesale warehouse interior" },
+  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663870447287/iJutMmvQCbHMVuva.jpg", label: "Wholesale stock boxes" },
 ];
 
 export default function Home() {

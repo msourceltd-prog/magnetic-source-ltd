@@ -248,6 +248,10 @@
 
 - [x] Remove the dark shade behind the hero rail’s All departments control and soften the hero-copy backdrop so the image field reads naturally behind the text while the existing copy remains legible on desktop and mobile. The rail now ends cleanly after its final control, the copy surface is smaller and less opaque, and desktop/mobile screenshots plus the production build were verified.
 
+## Live Hero Visibility Investigation
+
+- [ ] Verify the deployed `magneticsource.uk` homepage on desktop and mobile against the current GitHub revision, identify any deployment or rendering delay preventing the new hero from appearing, and correct an application issue if one exists.
+
 ## Supplier-Verified Pack-Format Correction
 
 - [ ] Audit current catalogue pack formats and correct supplier-supported wholesale quantities such as Pack of 12, Pack of 24, and Pack of 36 without inventing product pack sizes or changing other product data.
