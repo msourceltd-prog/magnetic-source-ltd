@@ -112,6 +112,10 @@
 
 - [x] Move only Bartleby Childs Two Tone Baseball Cap Assorted (72285B), Bartleby Adult Two Tone Baseball Cap Assorted (72283V), and Bartleby Adult Breathable Baseball Cap Assorted (72282S) from Toys & Gifts to Household & Pet. Source-of-truth reads confirm all three now use `household-pet`; the Household view finds SKU 72285B while the Toys & Gifts view returns no match.
 
+## Exact Stationery Clearance Category Correction
+
+- [x] Move only Fleur 3 Pack A4 Notebooks (39175C), Pokemon 10 Colour Pen (39170N), Pokemon Pen Set 3’s (39169J), and Squishmallows Pencil Case (22392N) from Stationery & Party to Clearance. Source-of-truth reads confirm all four now use `clearance`; the Clearance view finds SKU 39175C while the Stationery & Party view returns no match.
+
 - [x] Review the supplied reference’s public category structure and identify compatible original product-type additions.
 - [x] Expand the original static approval-demo catalogue without reusing reference names, descriptions, SKUs, pricing, or images.
 - [x] Reuse existing remote sample imagery rather than uploading additional Supabase Storage assets.
