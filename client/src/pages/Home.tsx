@@ -6,12 +6,13 @@
 import { ArrowRight, ChevronRight, PackageCheck } from "lucide-react";
 import { Link } from "wouter";
 import StoreLayout from "@/components/StoreLayout";
-import ProductCard from "@/components/ProductCard";
+import HomeCollectionCarousel from "@/components/HomeCollectionCarousel";
 import { useCatalog } from "@/contexts/CatalogContext";
 
 export default function Home() {
   const { categories, products } = useCatalog();
-  const featured = products.slice(0, 8);
+  const bestSellers = products.filter((product) => product.tags.includes("Best seller"));
+  const newArrivals = products.filter((product) => product.tags.includes("New arrival"));
   return <StoreLayout>
     <section className="hero-section">
       <div className="hero-image" aria-hidden="true"><img src="/manus-storage/magnetic-source-architectural-gallery-hero_3842538b.jpg" alt="" width="2000" height="1200" fetchPriority="high" decoding="async" /></div>
@@ -29,14 +30,12 @@ export default function Home() {
       </div>
     </section>
 
+    <HomeCollectionCarousel id="home-best-sellers" title="Best sellers" evidence="A current selection of proven product lines, shown with live pack and reference details." products={bestSellers} />
+    <HomeCollectionCarousel id="home-new-arrivals" title="New arrivals" evidence="Latest catalogue additions from the current wholesale range, updated through the live product records." products={newArrivals} />
+
     <section className="trade-shell category-intro section-space">
       <div><p className="eyebrow">Choose by need</p><h2>A working edit,<br />not an endless list.</h2></div>
       <p>Start with the departments most useful to smaller retailers, independent sellers and practical everyday displays. Each route holds clear pack, product reference, matching image and plain-language product information.</p>
-    </section>
-
-    <section className="featured-section section-space">
-      <div className="trade-shell section-heading"><div><p className="eyebrow">Selected lines</p><h2>Useful from first glance.</h2></div><Link href="/shop" className="text-link">See the full catalogue <ArrowRight size={16} /></Link></div>
-      <div className="trade-shell product-grid">{featured.map((product) => <ProductCard product={product} key={product.id} />)}</div>
     </section>
 
     <section className="statement-band"><div className="trade-shell"><PackageCheck size={32} /><p>Curated for the retailer who wants sourcing to feel <em>considered</em>, not complicated.</p><Link href="/contact">Contact the trade desk <ArrowRight size={17} /></Link></div></section>

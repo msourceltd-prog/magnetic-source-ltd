@@ -232,6 +232,10 @@
 
 - [x] Refresh the virtual Best sellers collection and replace the legacy clearance-only New arrivals selection with a current category-balanced range, including suitable Pets products, without changing category assignments, packs, prices, images, or other product data. Best sellers now contains 59 tagged products, including five verified Baby & Kids products and five Pets products. New arrivals now contains 12 current products: two each from Baby & Kids, Household, Toys & Gifts, Pets, Stationery, and Seasonal & Christmas. All selected product fields were verified unchanged.
 
+## Homepage-Only Best Sellers and New Arrivals Carousels
+
+- [x] Remove Best sellers and New arrivals from desktop and mobile navigation, remove their separate Shop collection views, and replace them with live-data homepage carousels immediately after the hero: Best sellers first and New arrivals second. Each section uses live product-database tags, displays five products on desktop, provides accessible left/right controls, links to product details, and adapts for tablet and mobile. The former collection URLs now resolve to the standard Shop catalogue, and sitemap collection URLs are removed.
+
 ## Supplier-Verified Pack-Format Correction
 
 - [ ] Audit current catalogue pack formats and correct supplier-supported wholesale quantities such as Pack of 12, Pack of 24, and Pack of 36 without inventing product pack sizes or changing other product data.

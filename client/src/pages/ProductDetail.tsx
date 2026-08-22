@@ -27,8 +27,8 @@ export default function ProductDetail() {
   const base = MAGNETIC_SOURCE_URL;
   const realDescription = product.description?.trim() || "";
   const publishedPrice = hasCustomerPrice(product);
-  const collectionLabel = product.category === "clearance" ? product.tags[0] || "Clearance" : product.category.replaceAll("-", " ");
-  const collectionHref = product.category === "clearance" ? product.tags[0] === "New arrival" ? "/shop?category=new-arrivals" : "/shop?category=best-sellers" : `/shop?category=${product.category}`;
+  const collectionLabel = product.category.replaceAll("-", " ");
+  const collectionHref = `/shop?category=${product.category}`;
   const productSchema = { "@context":"https://schema.org", "@graph":[{ "@type":"Product", name:product.name, ...(realDescription ? { description:realDescription } : {}), ...(product.image !== SUPPLIER_IMAGE_PLACEHOLDER ? { image:product.image } : {}) },{ "@type":"BreadcrumbList", itemListElement:[{ "@type":"ListItem", position:1, name:"Home", item:base },{ "@type":"ListItem", position:2, name:"Shop", item:`${base}/shop` },{ "@type":"ListItem", position:3, name:product.name, item:`${base}/product/${product.slug}` }] }] };
   return <StoreLayout seo={{ title: `Wholesale ${product.name} | Magnetic Source`, description: `Magnetic Source wholesale product: ${product.name}.${realDescription ? ` ${realDescription}` : ""} Pack format: ${product.pack}; product reference: ${product.sku}.`, path: `/product/${product.slug}`, image: product.image, schema: productSchema }}>
     <div className="trade-shell product-breadcrumb"><Link href="/shop"><ArrowLeft size={14} /> Shop the edit</Link><span>/</span><span>{product.name}</span></div>
