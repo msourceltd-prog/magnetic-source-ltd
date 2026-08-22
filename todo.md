@@ -156,6 +156,10 @@
 
 - [x] Remove only the two-dot decorative mark from the Trade account, Delivery & returns, Privacy, and Terms hero areas, retaining page content and layout. Production build passed; all four desktop heroes plus Trade account and Terms mobile heroes were visually verified without the mark.
 
+## Remaining Information-Page Decoration Investigation
+
+- [x] Identify and remove the exact remaining dot decoration still visible on the live affected information page, without changing unrelated page content or layout. Live Terms runtime inspection confirmed the deployed InfoPage chunk no longer contained the prior marker; the marker style itself has now also been removed. Production build passed and current Terms plus Trade account hero screenshots contain no two-dot decoration.
+
 ## Footer Decoration Cleanup
 
 - [x] Remove only the artificial-looking decorative blue graphic from the shared footer while retaining its existing content, logo, payment marks, links, layout, and core navy treatment. Production build passed; the simplified solid-navy footer was visually checked on desktop and mobile.
