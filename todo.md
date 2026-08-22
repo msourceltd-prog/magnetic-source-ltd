@@ -80,6 +80,10 @@
 
 - [x] Refine only the homepage Browse the Source department panel so it blends with the warehouse hero and removes the solid blue All departments area, while retaining every numbered department link, All departments, and all hero copy. Production build and TypeScript validation pass; the panel was visually checked at 1280px and the responsive homepage was checked at 390px.
 
+## Existing-Content Premium Footer Redesign
+
+- [x] Redesign only the final footer area using current Magnetic Source text and links, a premium deep-navy background, and a subtle large Magnetic Source mark; include no social links, no copied reference copy, and no unverified payment-method claims. Production build and TypeScript validation pass; the redesigned footer was visually checked at 1280px and 390px.
+
 - [x] Review the supplied reference’s public category structure and identify compatible original product-type additions.
 - [x] Expand the original static approval-demo catalogue without reusing reference names, descriptions, SKUs, pricing, or images.
 - [x] Reuse existing remote sample imagery rather than uploading additional Supabase Storage assets.

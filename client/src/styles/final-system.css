@@ -385,7 +385,8 @@ body,
 .site-footer {
   position: relative;
   overflow: hidden;
-  background: linear-gradient(128deg, var(--brand-text) 0%, color-mix(in srgb, var(--brand-text) 90%, var(--brand-primary)) 100%);
+  isolation: isolate;
+  background: radial-gradient(ellipse 52% 88% at 80% 45%, rgb(29 80 154 / 0.36), transparent 66%), linear-gradient(128deg, #06163d 0%, #0b2762 100%);
 }
 
 .site-footer::before,
@@ -416,7 +417,25 @@ body,
   z-index: 1;
   grid-template-columns: minmax(0, 1.35fr) minmax(150px, .58fr) minmax(250px, .95fr);
   gap: clamp(32px, 5vw, 78px);
-  padding: 70px 0 66px;
+  min-height: 390px;
+  padding: 84px 0 76px;
+}
+
+.footer-watermark {
+  position: absolute;
+  z-index: -1;
+  right: clamp(4%, 10vw, 16%);
+  bottom: -78px;
+  width: clamp(310px, 35vw, 540px);
+  opacity: .12;
+  transform: rotate(-16deg);
+  filter: drop-shadow(0 18px 30px rgb(0 0 0 / .18));
+}
+
+.footer-watermark .footer-brand-mark {
+  width: 100%;
+  height: auto;
+  filter: none;
 }
 
 .footer-statement {
@@ -480,7 +499,15 @@ body,
   .footer-top {
     grid-template-columns: 1fr;
     gap: 34px;
-    padding: 53px 0 48px;
+    min-height: 0;
+    padding: 58px 0 58px;
+  }
+
+  .footer-watermark {
+    right: -98px;
+    bottom: -34px;
+    width: 290px;
+    opacity: .1;
   }
 
   .footer-brand-mark {

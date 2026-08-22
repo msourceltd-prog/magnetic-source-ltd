@@ -9,9 +9,9 @@ const footerGroups = [
   { title: "Support", links: [["About Magnetic Source", "/about"], ["Trade account", "/trade-account"], ["Delivery & returns", "/delivery-returns"], ["Contact", "/contact"], ["Privacy", "/privacy"], ["Terms", "/terms"]] },
 ];
 
-function FooterBrandMark() {
-  return <svg className="footer-brand-mark" viewBox="0 0 64 64" role="img" aria-labelledby="footer-brand-mark-title" focusable="false">
-    <title id="footer-brand-mark-title">Magnetic Source field mark</title>
+function FooterBrandMark({ decorative = false }: { decorative?: boolean }) {
+  return <svg className="footer-brand-mark" viewBox="0 0 64 64" role={decorative ? undefined : "img"} aria-hidden={decorative || undefined} aria-labelledby={decorative ? undefined : "footer-brand-mark-title"} focusable="false">
+    {!decorative && <title id="footer-brand-mark-title">Magnetic Source field mark</title>}
     <rect x="2" y="2" width="60" height="60" rx="8" fill="var(--brand-surface)" stroke="var(--brand-primary)" strokeWidth="2" />
     <path d="M12 18 26 29 21 34 8 23Z" fill="var(--brand-primary)" />
     <path d="m52 18 4 5-13 11-5-5Z" fill="var(--brand-primary)" />
@@ -27,6 +27,7 @@ function FooterBrandMark() {
 
 export default function SiteFooter() {
   return <footer className="site-footer">
+    <div className="footer-watermark" aria-hidden="true"><FooterBrandMark decorative /></div>
     <div className="trade-shell footer-top">
       <section className="footer-statement">
         <div className="footer-brand-lockup"><FooterBrandMark /><span className="eyebrow light">Magnetic<br />Source Ltd</span></div>
