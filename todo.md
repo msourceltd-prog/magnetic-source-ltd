@@ -250,7 +250,7 @@
 
 ## Live Hero Visibility Investigation
 
-- [ ] Verify the deployed `magneticsource.uk` homepage on desktop and mobile against the current GitHub revision, identify any deployment or rendering delay preventing the new hero from appearing, and correct an application issue if one exists.
+- [x] Verify the deployed `magneticsource.uk` homepage on desktop and mobile against the current GitHub revision, identify any deployment or rendering delay preventing the new hero from appearing, and correct an application issue if one exists. Diagnosis confirmed the preview-only storage route returned the public site’s 404 page; public CDN delivery was applied, and the live desktop plus current mobile layout now render the wholesale hero image correctly.
 
 ## Supplier-Verified Pack-Format Correction
 
