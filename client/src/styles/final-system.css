@@ -335,11 +335,17 @@ body,
 
 .hero-rail-all {
   display: grid;
-  min-height: 61px;
+  min-height: 58px;
   place-items: center start;
-  padding: 0 14px;
+  padding: 0 15px;
   color: var(--brand-on-primary);
-  background: var(--brand-primary);
+  border-top: 1px solid color-mix(in srgb, var(--brand-on-primary) 28%, transparent);
+  background: linear-gradient(90deg, rgb(244 246 248 / 0.16), transparent);
+}
+
+.hero-rail-all:hover {
+  color: var(--brand-on-primary);
+  background: linear-gradient(90deg, rgb(244 246 248 / 0.24), rgb(244 246 248 / 0.06));
 }
 
 .info-evidence {

@@ -76,6 +76,10 @@
 
 - [x] Improve only the homepage hero-copy readability with a soft light-to-transparent treatment matching the supplied reference; do not alter Browse the Source, its numbered department links, or All departments. Production build and TypeScript validation pass; the reference-inspired desktop and mobile hero treatment was visually checked at 1280px and 390px.
 
+## Blended Department Panel Refinement
+
+- [x] Refine only the homepage Browse the Source department panel so it blends with the warehouse hero and removes the solid blue All departments area, while retaining every numbered department link, All departments, and all hero copy. Production build and TypeScript validation pass; the panel was visually checked at 1280px and the responsive homepage was checked at 390px.
+
 - [x] Review the supplied reference’s public category structure and identify compatible original product-type additions.
 - [x] Expand the original static approval-demo catalogue without reusing reference names, descriptions, SKUs, pricing, or images.
 - [x] Reuse existing remote sample imagery rather than uploading additional Supabase Storage assets.
