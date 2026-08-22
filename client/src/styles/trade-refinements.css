@@ -16,6 +16,9 @@
 .detail-image-pending { position:absolute; right:16px; bottom:16px; z-index:2; padding:7px 9px; color:#fff; background:rgba(26,30,34,.86); font:500 8px var(--mono); letter-spacing:.1em; text-transform:uppercase; }
 .product-card:hover .product-image-wrap img { filter:none; transform:scale(1.018); }
 .product-image-label { position:absolute; z-index:2; top:10px; left:10px; padding:4px 5px; color:#fff; background:rgba(26,30,34,.86); font:500 7px var(--mono); letter-spacing:.09em; text-transform:uppercase; }
+.product-collection-label { position:absolute; z-index:3; top:10px; right:10px; padding:5px 7px; font:700 7px var(--mono); letter-spacing:.09em; text-transform:uppercase; }
+.product-collection-label.best-seller { color:var(--brand-text); background:var(--brand-accent); }
+.product-collection-label.new-arrival { color:#fff; background:var(--brand-primary); }
 .product-image-wrap .image-corner,.product-detail-image .image-corner { display:none; }
 .product-ledger { display:grid; grid-template-columns:1fr 1fr; gap:0; margin:11px 0 18px; border-top:1px solid var(--line); border-bottom:1px solid var(--line); color:var(--soft-ink); font:500 8px/1.45 var(--mono); letter-spacing:.01em; text-transform:uppercase; }
 .product-ledger span { min-width:0; padding:7px 4px 7px 0; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; }
@@ -73,6 +76,7 @@
   .detail-placeholder-mark { width:72px; height:72px; }
   .detail-placeholder-mark::after { width:22px; height:22px; margin:22px; }
   .product-image-label { top:7px; left:7px; font-size:6px; }
+  .product-collection-label { top:7px; right:7px; padding:4px 5px; font-size:6px; }
   .product-ledger { margin:9px 0 12px; font-size:7px; }
   .catalogue-interrupt { min-height:245px; margin:7px 0; padding:25px 20px; }
   .catalogue-interrupt h2 { font-size:35px; }

@@ -71,6 +71,7 @@ function ProductCard({ product, compact = false, preview = false, priority = fal
   const { signedIn, openLogin } = useCustomerAuth();
   const [, navigate] = useLocation();
   const publishedPrice = hasCustomerPrice(product);
+  const collectionLabel = product.tags[0] === "Best seller" || product.tags[0] === "New arrival" ? product.tags[0] : null;
   const productFrameClass = portraitProductFrames.has(product.slug)
     ? "product-image-wrap-featured-portrait"
     : compactProductFrames.has(product.slug)
@@ -90,7 +91,7 @@ function ProductCard({ product, compact = false, preview = false, priority = fal
 
   return <article className={`product-card ${compact ? "product-card-compact" : ""}`}>
     <a href={`/product/${product.slug}`} onClick={followProduct} onMouseEnter={preloadProductDetail} onFocus={preloadProductDetail} onTouchStart={preloadProductDetail} className="product-image-link" aria-label={`View ${product.name}`}>
-      {product.image === SUPPLIER_IMAGE_PLACEHOLDER ? <div className="product-image-wrap product-image-pending" role="img" aria-label={`Supplier image pending for ${product.name}`}><span className="pending-image-mark" aria-hidden="true" /><span className="pending-image-copy">Image pending</span><span className="image-corner" /></div> : <div className={`product-image-wrap ${productFrameClass} ${imageReady ? "image-ready" : "image-loading"}`} aria-busy={!imageReady}><img src={product.image} alt={`Product image of ${product.name}, ${product.pack}, SKU ${product.sku}`} loading={priority ? "eager" : "lazy"} fetchPriority={priority ? "high" : "low"} decoding="async" onLoad={() => setImageReady(true)} onError={() => setImageReady(true)} /><span className="product-image-label">View product</span><span className="image-corner" /></div>}
+      {product.image === SUPPLIER_IMAGE_PLACEHOLDER ? <div className="product-image-wrap product-image-pending" role="img" aria-label={`Supplier image pending for ${product.name}`}><span className="pending-image-mark" aria-hidden="true" /><span className="pending-image-copy">Image pending</span>{collectionLabel ? <span className={`product-collection-label ${collectionLabel === "Best seller" ? "best-seller" : "new-arrival"}`}>{collectionLabel}</span> : null}<span className="image-corner" /></div> : <div className={`product-image-wrap ${productFrameClass} ${imageReady ? "image-ready" : "image-loading"}`} aria-busy={!imageReady}><img src={product.image} alt={`Product image of ${product.name}, ${product.pack}, SKU ${product.sku}`} loading={priority ? "eager" : "lazy"} fetchPriority={priority ? "high" : "low"} decoding="async" onLoad={() => setImageReady(true)} onError={() => setImageReady(true)} /><span className="product-image-label">View product</span>{collectionLabel ? <span className={`product-collection-label ${collectionLabel === "Best seller" ? "best-seller" : "new-arrival"}`}>{collectionLabel}</span> : null}<span className="image-corner" /></div>}
     </a>
     <div className="product-card-body">
       <div className="product-card-topline"><span>{product.tags[0] || "Catalogue line"}</span></div>
