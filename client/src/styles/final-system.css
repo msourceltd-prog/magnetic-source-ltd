@@ -278,6 +278,7 @@ body,
 
 .info-hero {
   color: var(--brand-on-primary);
+  background: var(--brand-primary);
 }
 
 .info-hero .eyebrow {
@@ -291,7 +292,7 @@ body,
 /* Contact uses the same graphite information-page field as About, Delivery, and Trade Account. */
 .contact-hero {
   color: var(--brand-on-primary);
-  background: var(--brand-text);
+  background: var(--brand-primary);
 }
 
 .contact-hero .eyebrow {
