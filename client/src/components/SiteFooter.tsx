@@ -44,6 +44,12 @@ export default function SiteFooter() {
         <p><Phone size={15} /> <a href="tel:+447856262726">+44 7856 262726</a></p>
         <p className="footer-address"><MapPin size={15} /> Flat 1, Saviours House, 15 Newport Road, Hayes, England, UB4 8FR</p>
         <p className="footer-legal">Company No. 15466397 · VAT No. GB469 1754 52</p>
+        <div className="footer-payment-methods" aria-label="Accepted payment methods: Mastercard, PayPal, Visa, and American Express">
+          <span className="payment-mark payment-mastercard" aria-label="Mastercard"><span className="payment-circle payment-circle-red" /><span className="payment-circle payment-circle-gold" /></span>
+          <span className="payment-mark payment-paypal" aria-label="PayPal">Pay<span>Pal</span></span>
+          <span className="payment-mark payment-visa" aria-label="Visa">VISA</span>
+          <span className="payment-mark payment-amex" aria-label="American Express">AMERICAN<br />EXPRESS</span>
+        </div>
       </section>
     </div>
   </footer>;

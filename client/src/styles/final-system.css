@@ -481,6 +481,63 @@ body,
   border-left: 1px solid color-mix(in srgb, var(--brand-on-primary) 15%, transparent);
 }
 
+.footer-payment-methods {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 25px;
+  padding-top: 18px;
+  border-top: 1px solid color-mix(in srgb, var(--brand-on-primary) 18%, transparent);
+}
+
+.payment-mark {
+  display: inline-flex;
+  width: 55px;
+  height: 34px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 3px;
+  background: #fff;
+  box-shadow: 0 4px 10px rgb(0 0 0 / .14);
+}
+
+.payment-mastercard {
+  position: relative;
+}
+
+.payment-circle {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+}
+
+.payment-circle-red { left: 14px; background: #eb001b; }
+.payment-circle-gold { right: 14px; background: #f79e1b; mix-blend-mode: multiply; }
+
+.payment-paypal {
+  color: #003087;
+  font: 700 italic 12px/1 var(--sans);
+  letter-spacing: -.06em;
+}
+
+.payment-paypal span { color: #009cde; }
+
+.payment-visa {
+  color: #1434cb;
+  font: 800 italic 12px/1 var(--sans);
+  letter-spacing: -.08em;
+}
+
+.payment-amex {
+  color: #fff;
+  background: #1f9ed2;
+  font: 800 6px/.96 var(--sans);
+  letter-spacing: -.03em;
+  text-align: center;
+}
+
 @media (max-width: 760px) {
   .site-footer::before {
     width: 250px;
@@ -529,6 +586,10 @@ body,
     padding-left: 0;
     border-top: 1px solid color-mix(in srgb, var(--brand-on-primary) 15%, transparent);
     border-left: 0;
+  }
+
+  .footer-payment-methods {
+    margin-top: 21px;
   }
 }
 

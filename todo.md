@@ -84,6 +84,10 @@
 
 - [x] Redesign only the final footer area using current Magnetic Source text and links, a premium deep-navy background, and a subtle large Magnetic Source mark; include no social links, no copied reference copy, and no unverified payment-method claims. Production build and TypeScript validation pass; the redesigned footer was visually checked at 1280px and 390px.
 
+## Confirmed Footer Payment Methods
+
+- [x] Add a premium footer payment-method area for confirmed Visa, Mastercard, PayPal, and American Express methods, without changing the remaining footer content or adding social links. Production build and TypeScript validation pass; the payment area was visually checked at 1280px and 390px.
+
 - [x] Review the supplied reference’s public category structure and identify compatible original product-type additions.
 - [x] Expand the original static approval-demo catalogue without reusing reference names, descriptions, SKUs, pricing, or images.
 - [x] Reuse existing remote sample imagery rather than uploading additional Supabase Storage assets.
