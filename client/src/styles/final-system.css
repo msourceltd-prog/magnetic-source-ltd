@@ -142,15 +142,14 @@ body,
   background: var(--brand-surface-muted);
 }
 
-/* Homepage hero: warehouse image fills the full field; every text line stays on one solid card. */
+/* Homepage hero: one consistent dark photographic field sits behind the unchanged editorial copy. */
 .hero-section {
   background: #F4F6F8;
 }
 
 .hero-section::before,
 .hero-section::after,
-.hero-image::before,
-.hero-image::after {
+.hero-image::before {
   content: none !important;
   background: none !important;
   background-image: none !important;
@@ -161,6 +160,15 @@ body,
   inset: 0 !important;
   display: block !important;
   overflow: hidden;
+}
+
+.hero-image::after {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  content: "" !important;
+  pointer-events: none;
+  background: rgb(17 30 45 / 0.48) !important;
 }
 
 .hero-image img {
@@ -231,16 +239,11 @@ body,
   padding: 48px !important;
   background: transparent !important;
   box-shadow: none !important;
-  text-shadow: none;
+  text-shadow: 0 2px 10px rgb(0 0 0 / 0.22);
 }
 
 .hero-copy::before {
-  position: absolute;
-  z-index: 0;
-  inset: -52px -132px -52px -30px;
-  content: "";
-  pointer-events: none;
-  background: linear-gradient(90deg, rgb(244 246 248 / 0.79) 0%, rgb(244 246 248 / 0.67) 50%, rgb(244 246 248 / 0.25) 80%, transparent 100%);
+  content: none;
 }
 
 .hero-copy > * {
@@ -249,19 +252,19 @@ body,
 }
 
 .hero-copy .eyebrow {
-  color: #1B4E9B;
+  color: rgb(244 246 248 / 0.86);
 }
 
 .hero-copy h1 {
-  color: #16202E;
+  color: #f4f6f8;
 }
 
 .hero-copy h1 em {
-  color: #1B4E9B;
+  color: #77a5ee;
 }
 
 .hero-description {
-  color: #4A5563;
+  color: rgb(244 246 248 / 0.82);
 }
 
 @media (min-width: 761px) and (max-width: 1100px) {
@@ -276,10 +279,6 @@ body,
     padding: 48px !important;
   }
 
-  .hero-copy::before {
-    inset: -48px -32px -48px -32px;
-    background: linear-gradient(115deg, rgb(244 246 248 / 0.88) 0%, rgb(244 246 248 / 0.72) 63%, rgb(244 246 248 / 0.22) 100%);
-  }
 }
 
 .category-tape {

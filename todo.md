@@ -248,6 +248,10 @@
 
 - [x] Remove the dark shade behind the hero rail’s All departments control and soften the hero-copy backdrop so the image field reads naturally behind the text while the existing copy remains legible on desktop and mobile. The rail now ends cleanly after its final control, the copy surface is smaller and less opaque, and desktop/mobile screenshots plus the production build were verified.
 
+## Uniform Hero Darkness
+
+- [x] Apply a single consistent dark overlay across the full homepage hero image so its left and right sides have matched background darkness, without altering the existing hero copy, layout, navigation, rail, controls, or other page elements. The residual bright copy surface was removed so one dark overlay covers the complete image field; contrast-safe foreground colours preserve legibility. Desktop/mobile screenshots and the production build were verified.
+
 ## Live Hero Visibility Investigation
 
 - [x] Verify the deployed `magneticsource.uk` homepage on desktop and mobile against the current GitHub revision, identify any deployment or rendering delay preventing the new hero from appearing, and correct an application issue if one exists. Diagnosis confirmed the preview-only storage route returned the public site’s 404 page; public CDN delivery was applied, and the live desktop plus current mobile layout now render the wholesale hero image correctly.
@@ -259,6 +263,10 @@
 ## Responsive Header and Category Navigation Artefact Remediation
 
 - [x] Remove the stray logo dots and curved arc from the mobile/tablet header, remove all active/focus/selected yellow navigation lines, eliminate the Pets three-dot overflow artefact, and ensure the category bar does not overlap or interfere with the hero across desktop, tablet, and mobile without changing navigation behaviour or branding. The offending logo pseudo-elements and category active pseudo-marker were removed at source; the active Pets route, mobile header, clean hero boundary, and production build were verified.
+
+## Final Header Artefact Re-Audit
+
+- [x] Re-audit the live desktop and responsive mobile/tablet header for any remaining logo dots, curved lines, navigation highlights, overflow markers, or hero-boundary interference, and remove the originating source rule if any artefact remains. The live deployed desktop header and current mobile/tablet styling are clean: no stray logo decoration, active yellow line, Pets overflow marker, or hero overlap remains; source audit confirms the remaining dotted pseudo-element is restricted to product-card detail styling, not navigation.
 
 ## Supplier-Verified Pack-Format Correction
 
