@@ -100,6 +100,10 @@
 
 - [x] Remove only the two requested decorative dots from all shared Magnetic Source logo marks, preserving the remaining mark geometry and all page styling. Production build and TypeScript validation pass; header and footer marks were visually checked at 1280px and the shared mobile header mark was checked at 390px.
 
+## Exact Pet-Chew Category Correction
+
+- [x] Move only Good Boy Cheese Please – Long Lasting Tasty Chew 60g (72619U), Nylabone Extreme Chew Bacon Flavour Medium (72568M), and Good Boy Cheese Please with Chicken – Long Lasting Tasty Chew 60g (72385F) from Sweets & Snacks to Household & Pet. Source-of-truth reads confirm all three now use `household-pet`; the Household view finds SKU 72619U while the Sweets view returns no match.
+
 - [x] Review the supplied reference’s public category structure and identify compatible original product-type additions.
 - [x] Expand the original static approval-demo catalogue without reusing reference names, descriptions, SKUs, pricing, or images.
 - [x] Reuse existing remote sample imagery rather than uploading additional Supabase Storage assets.
