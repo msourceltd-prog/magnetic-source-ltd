@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-08-22T16:43:13.414Z",
+  "current_toys_gifts_count": 0,
+  "proposed_import_count": 100,
+  "collision_count": 1,
+  "collisions": [
+    {
+      "source_sku": "TOY7869OB",
+      "proposed_sku": "GEM-TOY7869OB",
+      "proposed_name": "Bubble Sword 3 Pack CDU",
+      "existing": {
+        "sku": "GEM-TOY7869OB",
+        "name": "Bubble Sword 3 Pack CDU",
+        "category": "seasonal-christmas"
+      }
+    }
+  ]
+}

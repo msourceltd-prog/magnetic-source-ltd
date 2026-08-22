@@ -1,0 +1,861 @@
+{
+  "created_at": "2026-08-22T16:42:20.275Z",
+  "instruction": "User requested the same authorised Gem Imports replacement process used for Baby & Kids, Seasonal & Christmas, and Stationery, now scoped only to Toys & Gifts.",
+  "replaced_count": 48,
+  "records": [
+    {
+      "id": 1166,
+      "slug": "crayola-pokemon-96-page-colouring-book-39638l",
+      "name": "Crayola Pokemon 96 Page Colouring Book",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "39638L",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Crayola-Pokemon-96-Page-Colouring-Book-39638L.webp",
+      "tags": [
+        "Best seller",
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1169,
+      "slug": "hoodeazzz-adoramals-kiki-the-budgie-plush-memory-foam-travel-pillow-hood-72178b",
+      "name": "Hoodeazzz Adoramals Kiki the Budgie Plush Memory Foam Travel Pillow & Hood",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "72178B",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Hoodeazzz-Adoramals-Kiki-the-Budgie-Plush-Memory-Foam-Travel-Pillow-Hood-72178B.jpg",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1170,
+      "slug": "fisher-price-pop-up-play-tunnel-73165t",
+      "name": "Fisher Price Pop-Up Play Tunnel",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "73165T",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Fisher-Price-Pop-Up-Play-Tunnel-73165T.jpg",
+      "tags": [
+        "Best seller",
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1171,
+      "slug": "zuru-x-shot-excel-hawk-eye-with-16-darts-73164q",
+      "name": "Zuru X-Shot Excel Hawk Eye With 16 Darts",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "73164Q",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Zuru-X-Shot-Excel-Hawk-Eye-With-16-Darts-73164Q.jpg",
+      "tags": [
+        "Best seller",
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1172,
+      "slug": "zuru-xshot-excel-double-fury-4-blaster-combo-pack-73163n",
+      "name": "Zuru Xshot Excel Double Fury 4 Blaster Combo Pack",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "73163N",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Zuru-Xshot-Excel-Double-Fury-4-Blaster-Combo-Pack-73163N.jpg",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1173,
+      "slug": "zuru-metal-machines-s1-t-rex-playset-73161h",
+      "name": "Zuru Metal Machines S1 T-Rex Playset",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "73161H",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Zuru-Metal-Machines-S1-T-Rex-Playset-73161H_2.jpg",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1174,
+      "slug": "zuru-metal-machines-s1-road-rampage-playset-73160e",
+      "name": "Zuru Metal Machines S1 Road Rampage Playset",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "73160E",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Zuru-Metal-Machines-S1-Road-Rampage-Playset-73160E_2.jpg",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1176,
+      "slug": "fisher-price-baby-roll-around-6m-70692b",
+      "name": "Fisher Price Baby Roll Around 6m+",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "70692B",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Fisher-Price-Baby-Roll-Around-6m70692B.webp",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1182,
+      "slug": "colouring-book-animals-oceans-39623r",
+      "name": "Colouring Book – Animals & Oceans",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "39623R",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Colouring-Book-Animals-Oceans-39623R.jpg",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1185,
+      "slug": "nebulus-scooter-neon-orange-with-black-chrome-finish-73037g",
+      "name": "Nebulus Scooter Neon Orange With Black Chrome Finish",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "73037G",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Nebulus-Scooter-Neon-Orange-With-Black-Chrome-Finish-73037G.png",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1186,
+      "slug": "unicorn-trail-twist-folding-light-up-scooter-73036d",
+      "name": "Unicorn Trail Twist Folding Light Up Scooter",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "73036D",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Unicorn-Trail-Twist-Folding-Light-Up-Scooter-73036D.png",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1187,
+      "slug": "dinosaur-trail-twist-folding-light-up-scooter-73035a",
+      "name": "Dinosaur Trail Twist Folding Light Up Scooter",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "73035A",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Dinosaur-Trail-Twist-Folding-Light-Up-Scooter-73035A.png",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1188,
+      "slug": "palm-pals-colson-hot-dog-approx-5-72380q",
+      "name": "Palm Pals Colson Hot Dog Approx 5″",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "72380Q",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Palm-Pals-Colson-Hot-Dog-Approx-5-72380Q.jpg",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1189,
+      "slug": "palm-pals-tomas-blt-approx-5-72378j",
+      "name": "Palm Pals Tomas BLT Approx 5″",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "72378J",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Palm-Pals-Tomas-BLT-Approx-5-72378J.jpg",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1190,
+      "slug": "staedtler-peppa-pig-fibre-tip-pens-6-assorted-colours-39569z",
+      "name": "Staedtler Peppa Pig Fibre Tip Pens 6 Assorted Colours",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "39569Z",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 10",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Noris-Junior-x-Peppa-Pig-Fibre-Tip-Pens-6-Assorted-Colours-39569Z.jpg",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1192,
+      "slug": "animigos-funky-friends-burger-72686u",
+      "name": "Animigos Funky Friends – Burger",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "72686U",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Animigos-Funky-Friends-Burger-72686U.webp",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1193,
+      "slug": "animigos-funky-friends-daisy-72685r",
+      "name": "Animigos Funky Friends – Daisy",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "72685R",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Animigos-Funky-Friends-Daisy-72685R.jpg",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1194,
+      "slug": "animigos-funky-friends-tulip-72684o",
+      "name": "Animigos Funky Friends – Tulip",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "72684O",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Animigos-Funky-Friends-Tulip-72684O.jpg",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1196,
+      "slug": "animigos-funky-friends-pizza-72682i",
+      "name": "Animigos Funky Friends – Pizza",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "72682I",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Animigos-Funky-Friends-Pizza-72682I.webp",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1197,
+      "slug": "animigos-funky-friends-french-fries-72681f",
+      "name": "Animigos Funky Friends – French Fries",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "72681F",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Animigos-Funky-Friends-French-Fries-72681F.webp",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1198,
+      "slug": "animigos-funky-friends-taco-72680c",
+      "name": "Animigos Funky Friends – Taco",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "72680C",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Animigos-Funky-Friends-Taco-72680C.webp",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1199,
+      "slug": "animigos-funky-friends-aubergine-72679y",
+      "name": "Animigos Funky Friends – Aubergine",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "72679Y",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Animigos-Funky-Friends-Aubergine-72679Y.jpg",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1200,
+      "slug": "animigos-funky-friends-succulent-72677s",
+      "name": "Animigos Funky Friends – Succulent",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "72677S",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Animigos-Funky-Friends-Succulent-72677S.jpg",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1201,
+      "slug": "animigos-funky-friends-avocado-72676p",
+      "name": "Animigos Funky Friends – Avocado",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "72676P",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Animigos-Funky-Friends-Avocado-72676P.jpg",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1202,
+      "slug": "animigos-funky-friends-bubble-tea-72675m",
+      "name": "Animigos Funky Friends – Bubble Tea",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "72675M",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Animigos-Funky-Friends-Bubble-Tea-72675M.webp",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1204,
+      "slug": "clickeez-2-pack-series-3-cdu-72737c",
+      "name": "Clickeez – 2 Pack Series 3 CDU",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "72737C",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Clickeez-2-Pack-Series-3-CDU-72737C.jpg",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1205,
+      "slug": "mini-muddle-puzzle-72996l",
+      "name": "Mini Muddle Puzzle",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "72996L",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 36",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Mini-Muddle-Puzzle-72996L.webp",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1516,
+      "slug": "funko-pop-k-pop-demon-hunters-keychain-assorted-cdu-72749n",
+      "name": "Funko Pop! K-Pop Demon Hunters Keychain Assorted CDU",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "72749N",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Funko-Pop-K-Pop-Demon-Hunters-Keychain-Assorted-CDU-72749N.png",
+      "tags": [
+        "Best seller",
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1582,
+      "slug": "toys-gifts-palm-pals-kai-praying-mantis-approx-5-71038x",
+      "name": "Palm Pals Kai Praying Mantis Approx 5″",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "TGY-71038X",
+      "availability": "Trade enquiry",
+      "pack": "Pack of 6",
+      "description": "Palm Pals Kai Praying Mantis Approx 5″ is supplied as pack of 6. Supplier reference: 71038X.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/03/Palm-Pals-Kai-Praying-Mantis-Approx-5-71038X.png",
+      "tags": [
+        "Toys & Gifts",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1583,
+      "slug": "toys-gifts-palm-pals-sid-capybara-approx-5-71047z",
+      "name": "Palm Pals Sid Capybara Approx 5″",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "TGY-71047Z",
+      "availability": "Trade enquiry",
+      "pack": "Pack of 6",
+      "description": "Palm Pals Sid Capybara Approx 5″ is supplied as pack of 6. Supplier reference: 71047Z.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/03/Palm-Pals-Sid-Capybara-Approx-5-71047Z.webp",
+      "tags": [
+        "Toys & Gifts",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1584,
+      "slug": "toys-gifts-palm-pals-summer-cloud-approx-5-71052p",
+      "name": "Palm Pals Summer Cloud Approx 5″",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "TGY-71052P",
+      "availability": "Trade enquiry",
+      "pack": "Pack of 6",
+      "description": "Palm Pals Summer Cloud Approx 5″ is supplied as pack of 6. Supplier reference: 71052P.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/03/Palm-Pals-Summer-Cloud-Approx-5-71052P-002.png",
+      "tags": [
+        "Toys & Gifts",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1585,
+      "slug": "toys-gifts-palm-pals-pinky-flamingo-approx-5-71042k",
+      "name": "Palm Pals Pinky Flamingo Approx 5″",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "TGY-71042K",
+      "availability": "Trade enquiry",
+      "pack": "Pack of 6",
+      "description": "Palm Pals Pinky Flamingo Approx 5″ is supplied as pack of 6. Supplier reference: 71042K.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/03/Palm-Pals-Pinky-Flamingo-Approx-5-71042K.png",
+      "tags": [
+        "Toys & Gifts",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1588,
+      "slug": "toys-gifts-palm-pals-perky-pineapple-approx-5-71043n",
+      "name": "Palm Pals Perky Pineapple Approx 5″",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "TGY-71043N",
+      "availability": "Trade enquiry",
+      "pack": "Pack of 6",
+      "description": "Palm Pals Perky Pineapple Approx 5″ is supplied as pack of 6. Supplier reference: 71043N.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/03/Palm-Pals-Perky-Pineapple-Approx-5-71043N.png",
+      "tags": [
+        "Toys & Gifts",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1589,
+      "slug": "toys-gifts-palm-pals-sugary-cinnamon-roll-approx-5-71045t",
+      "name": "Palm Pals Sugary Cinnamon Roll Approx 5″",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "TGY-71045T",
+      "availability": "Trade enquiry",
+      "pack": "Pack of 6",
+      "description": "Palm Pals Sugary Cinnamon Roll Approx 5″ is supplied as pack of 6. Supplier reference: 71045T.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/03/Palm-Pals-Sugary-Cinnamon-Roll-Approx-5-71045T.png",
+      "tags": [
+        "Toys & Gifts",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1591,
+      "slug": "toys-gifts-little-living-nature-clips-fruit-plush-keyrings-70957i",
+      "name": "Little Living Nature Clips Fruit Plush Keyrings",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "TGY-70957I",
+      "availability": "Trade enquiry",
+      "pack": "Pack of 24",
+      "description": "Little Living Nature Clips Fruit Plush Keyrings is supplied as pack of 24. Supplier reference: 70957I.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/02/LITTLE-Living-Nature-Clips-Fruit-Plush-Keyrings-70957I.jpg",
+      "tags": [
+        "Toys & Gifts",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1595,
+      "slug": "toys-gifts-palm-pals-chutney-cheetah-approx-5-71041h",
+      "name": "Palm Pals Chutney Cheetah Approx 5″",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "TGY-71041H",
+      "availability": "Trade enquiry",
+      "pack": "Pack of 6",
+      "description": "Palm Pals Chutney Cheetah Approx 5″ is supplied as pack of 6. Supplier reference: 71041H.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/03/Palm-Pals-Chutney-Cheetah-Approx-5-71041H.png",
+      "tags": [
+        "Toys & Gifts",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1596,
+      "slug": "toys-gifts-palm-pals-mars-rocket-ship-approx-5-71046w",
+      "name": "Palm Pals Mars Rocket Ship Approx 5″",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "TGY-71046W",
+      "availability": "Trade enquiry",
+      "pack": "Pack of 6",
+      "description": "Palm Pals Mars Rocket Ship Approx 5″ is supplied as pack of 6. Supplier reference: 71046W.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/03/Palm-Pals-Mars-Rocket-Ship-Approx-5-71046W.png",
+      "tags": [
+        "Toys & Gifts",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1785,
+      "slug": "crayola-clicks-retractable-markers-10-pack-classic-colours-39632t",
+      "name": "Crayola Clicks Retractable Markers 10 Pack – Classic Colours",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "39632T",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Crayola-Clicks-Retractable-Markers-10-Pack-–-Classic-Colours-39632T.png",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1786,
+      "slug": "crayola-clicks-retractable-markers-10-pack-pastel-colours-39633w",
+      "name": "Crayola Clicks Retractable Markers 10 Pack – Pastel Colours",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "39633W",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Crayola-Clicks-Retractable-Markers-10-Pack-–-Pastel-Colours-39633W-1.png",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1787,
+      "slug": "the-big-squij-pig-72656f",
+      "name": "The Big Squij Pig",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "72656F",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/The-Big-Squij-Pig-72656F.png",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1789,
+      "slug": "scrunchems-sticky-squishy-highland-cow-cdu-72753a",
+      "name": "Scrunchems Sticky Squishy Highland Cow CDU",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "72753A",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Scrunchems-Sticky-Squishy-Highland-Cow-CDU-72753A.webp",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1790,
+      "slug": "monopoly-deal-72989p",
+      "name": "Monopoly Deal",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "72989P",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Monopoly-Deal-72989P.webp",
+      "tags": [
+        "Best seller",
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": true
+    },
+    {
+      "id": 1792,
+      "slug": "toys-gifts-fuggler-cdu-70562i",
+      "name": "Fuggler CDU",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "TGY-70562I",
+      "availability": "Trade enquiry",
+      "pack": "Pack of 24",
+      "description": "Fuggler CDU is supplied as pack of 24. Supplier reference: 70562I.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/11/Zuru-Fuggler-CDU-70562I_2.jpg",
+      "tags": [
+        "Toys & Gifts",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1793,
+      "slug": "toys-gifts-palm-pals-hunk-hippo-approx-5-71039a",
+      "name": "Palm Pals Hunk Hippo Approx 5″",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "TGY-71039A",
+      "availability": "Trade enquiry",
+      "pack": "Pack of 6",
+      "description": "Palm Pals Hunk Hippo Approx 5″ is supplied as pack of 6. Supplier reference: 71039A.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/03/Palm-Pals-Hunk-Hippo-Approx-5-71039A.png",
+      "tags": [
+        "Toys & Gifts",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1794,
+      "slug": "toys-gifts-palm-pals-leno-lion-approx-5-71040e",
+      "name": "Palm Pals Leno Lion Approx 5″",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "TGY-71040E",
+      "availability": "Trade enquiry",
+      "pack": "Pack of 6",
+      "description": "Palm Pals Leno Lion Approx 5″ is supplied as pack of 6. Supplier reference: 71040E.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/03/Palm-Pals-Leno-Lion-Approx-5-71040E.png",
+      "tags": [
+        "Toys & Gifts",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1795,
+      "slug": "toys-gifts-micro-teenies-care-bears-cdu-72083n",
+      "name": "Micro Teenies – Care Bears CDU",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "TGY-72083N",
+      "availability": "Trade enquiry",
+      "pack": "Pack of 18",
+      "description": "Micro Teenies – Care Bears CDU is supplied as pack of 18. Supplier reference: 72083N.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/03/Micro-Teenies-Care-Bears-CDU-72083N.png",
+      "tags": [
+        "Toys & Gifts",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1796,
+      "slug": "toys-gifts-cuddly-capybara-15cm-cdu-72221l",
+      "name": "Cuddly Capybara 15cm CDU",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "TGY-72221L",
+      "availability": "Trade enquiry",
+      "pack": "Pack of 10",
+      "description": "Cuddly Capybara 15cm CDU is supplied as pack of 10. Supplier reference: 72221L.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/03/Cuddy-Capybara-15cm-CDU-72221L.jpg",
+      "tags": [
+        "Toys & Gifts",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1797,
+      "slug": "toys-gifts-hot-shots-can-alley-72985d",
+      "name": "Hot Shots Can Alley",
+      "category": "toys-gifts",
+      "price": 0,
+      "sku": "TGY-72985D",
+      "availability": "Trade enquiry",
+      "pack": "Pack of 12",
+      "description": "Hot Shots Can Alley is supplied as pack of 12. Supplier reference: 72985D.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Hot-Shots-Can-Alley-72985D.jpg",
+      "tags": [
+        "Toys & Gifts",
+        "Price hidden"
+      ],
+      "featured": false
+    }
+  ]
+}

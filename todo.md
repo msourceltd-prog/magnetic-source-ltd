@@ -216,6 +216,10 @@
 
 - [x] Replace only the Stationery & Party catalogue with the authorised Gem Imports stationery range, back up current records, and rename the public department to Stationery while retaining every other department and website function. The prior 31 products were backed up and replaced with 100 Gem Imports stationery lines using supplier images and carton pack formats; five stationery lines retain Best seller tags. The live category data and app fallback label now both use Stationery, and desktop plus mobile category views show no public Party wording. Source-of-truth verification confirmed all 100 Stationery SKUs are Gem Imports while every other department remains present; the production build regenerated the 462-product sitemap.
 
+## Gem Imports Toys & Gifts Catalogue Replacement
+
+- [x] Replace only the Toys & Gifts catalogue with the authorised Gem Imports toys, gifts, and gadgets range, back up current records, and retain every other department and website function. The prior 48 products were backed up and replaced with 99 unique Gem Imports product lines using supplier images and carton pack formats; five Toys & Gifts lines retain Best seller tags. One exact Gem Imports duplicate, Bubble Sword 3 Pack CDU (TOY7869OB), was retained only in Seasonal & Christmas to preserve SKU uniqueness. Desktop and mobile category views show the new Toys & Gifts range responsively, source-of-truth verification confirmed all 99 Toys & Gifts SKUs are Gem Imports, and the production build regenerated the 513-product sitemap.
+
 ## Supplier-Verified Pack-Format Correction
 
 - [ ] Audit current catalogue pack formats and correct supplier-supported wholesale quantities such as Pack of 12, Pack of 24, and Pack of 36 without inventing product pack sizes or changing other product data.
