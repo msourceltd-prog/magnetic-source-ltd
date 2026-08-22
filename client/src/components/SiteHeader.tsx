@@ -106,7 +106,6 @@ export default function SiteHeader() {
         </form>
 
         <div className="header-actions">
-          <a href="/shop" className="quick-order" onClick={(event) => followInternal(event, "/shop")}><span>Quick order</span><b>Browse catalogue</b></a>
           {signedIn ? <button type="button" className="account-button account-button-signed-in" onClick={() => void signOut()}><span>Customer account</span><b><LogOut size={13} /> Sign out</b></button> : <button type="button" className="account-button" onClick={openLogin}><span>Customer access</span><b>Login to see prices</b></button>}
           <a href="/cart" className="basket-button" aria-label={`View cart with ${itemCount} items`} onClick={(event) => followInternal(event, "/cart")}>
             <ShoppingBag size={21} /><span><em>{itemCount} items</em><b>{signedIn ? items.length && items.every(hasCustomerPrice) ? new Intl.NumberFormat("en-GB", { style: "currency", currency: "GBP" }).format(subtotal) : "Pricing pending" : "Login to see prices"}</b></span>

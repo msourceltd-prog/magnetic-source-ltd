@@ -168,6 +168,10 @@
 
 - [x] Expand the Create account form to collect customer contact, company, VAT, telephone, and trading-address details in Supabase Auth metadata while retaining a simple returning-customer sign-in form. Password confirmation and business-detail consent are required before sign-up; production build passed and desktop customer access entry points were visually verified.
 
+## Header Quick-Order Cleanup
+
+- [x] Remove only the Quick order and Browse catalogue text block from the shared top header while retaining the logo, search, customer login, basket, category navigation, and mobile menu. Production build passed; the revised header was visually verified on desktop and mobile.
+
 ## Footer Decoration Cleanup
 
 - [x] Remove only the artificial-looking decorative blue graphic from the shared footer while retaining its existing content, logo, payment marks, links, layout, and core navy treatment. Production build passed; the simplified solid-navy footer was visually checked on desktop and mobile.
