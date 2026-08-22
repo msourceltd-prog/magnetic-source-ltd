@@ -260,6 +260,10 @@
 
 - [x] Reduce only the three-bar homepage hero progress indicator by approximately 20%, preserving its current position, colours, spacing, proportional appearance, responsive rules, and all other homepage elements. Desktop and mobile screenshots confirm the compact three-bar control retains its original placement, cobalt active bar, grey inactive bars, and responsive alignment.
 
+## Hero Progress Indicator Position
+
+- [x] Move only the compact three-bar homepage hero slider indicator from the bottom-right to the user-marked mid-right position, preserving its size, palette, spacing, interactions, and responsive behaviour. Desktop now places the control at the marked upper/mid-right location; the compact mobile top-right position remains unchanged and both views were verified.
+
 ## Responsive Header and Category Navigation Artefact Remediation
 
 - [x] Remove the stray logo dots and curved arc from the mobile/tablet header, remove all active/focus/selected yellow navigation lines, eliminate the Pets three-dot overflow artefact, and ensure the category bar does not overlap or interfere with the hero across desktop, tablet, and mobile without changing navigation behaviour or branding. The offending logo pseudo-elements and category active pseudo-marker were removed at source; the active Pets route, mobile header, clean hero boundary, and production build were verified.
