@@ -164,6 +164,10 @@
 
 - [x] Remove trade-enquiry messaging and entry points across the website, then add a Supabase-backed customer sign-in/sign-up flow with a Login to see price gate. Until a real SKU price list is supplied, signed-in customers see a clear pricing-pending state rather than invented prices. Customer login and sign-up are powered by the existing Supabase Auth setup; logged-out shop, product, basket, and checkout states plus desktop/mobile customer-account pages were visually verified. The production build passed.
 
+## Detailed Customer Business Registration
+
+- [x] Expand the Create account form to collect customer contact, company, VAT, telephone, and trading-address details in Supabase Auth metadata while retaining a simple returning-customer sign-in form. Password confirmation and business-detail consent are required before sign-up; production build passed and desktop customer access entry points were visually verified.
+
 ## Footer Decoration Cleanup
 
 - [x] Remove only the artificial-looking decorative blue graphic from the shared footer while retaining its existing content, logo, payment marks, links, layout, and core navy treatment. Production build passed; the simplified solid-navy footer was visually checked on desktop and mobile.
