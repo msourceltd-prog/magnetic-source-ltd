@@ -132,6 +132,10 @@
 
 - [x] Move only Peppa Pig Surprise Cones 25g (67242U) and Paw Patrol Surprise Cones 25g (67241R) from Toys & Gifts to Sweets & Snacks. Source-of-truth reads confirm both now use `sweets-snacks`; the Sweets view finds SKU 67242U while the Toys & Gifts view returns no match.
 
+## Active Department-Tab Colour Refinement
+
+- [x] Replace only the dark active department-tab state with a polished established-blue treatment across all category navigation tabs, preserving links and catalogue behaviour. Production build passed; Household & Pet and Health & Beauty desktop views plus Household & Pet mobile were visually verified.
+
 - [x] Review the supplied reference’s public category structure and identify compatible original product-type additions.
 - [x] Expand the original static approval-demo catalogue without reusing reference names, descriptions, SKUs, pricing, or images.
 - [x] Reuse existing remote sample imagery rather than uploading additional Supabase Storage assets.

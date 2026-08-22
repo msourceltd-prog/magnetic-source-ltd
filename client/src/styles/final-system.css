@@ -2,6 +2,8 @@
  * Trade Ledger, Recut — final shared system layer.
  * Use the Magnetic Source palette tokens only: cobalt navigation, graphite text,
  * warm ledger paper, quiet surfaces, ochre evidence, and thin rule hierarchy.
+ * Department navigation distinguishes the current category with layered cobalt
+ * and a white inset underline, never a graphite or black selection treatment.
  */
 
 /* Supplied reference palette: warm paper, one cobalt, charcoal, and gold only. */
@@ -67,7 +69,6 @@ body,
 }
 
 .button-primary:hover,
-.category-tape-link:hover,
 .product-card-bottom button:hover,
 .hero-rail-all:hover {
   background-color: var(--brand-text);
@@ -241,6 +242,28 @@ body,
 
 .category-tape-link:first-child {
   border-left-color: color-mix(in srgb, var(--brand-on-primary) 16%, transparent);
+}
+
+.category-tape-link {
+  color: var(--brand-on-primary);
+  transition: background-color .16s ease-out, box-shadow .16s ease-out;
+}
+
+.category-tape-link:hover {
+  color: var(--brand-on-primary);
+  background-color: color-mix(in srgb, var(--brand-on-primary) 10%, var(--brand-primary));
+}
+
+.category-tape-link.active,
+.category-tape-link[aria-current="page"] {
+  color: var(--brand-on-primary);
+  background-color: color-mix(in srgb, var(--brand-on-primary) 18%, var(--brand-primary));
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / .2), inset 0 -3px 0 var(--brand-on-primary);
+}
+
+.category-tape-link.active:hover,
+.category-tape-link[aria-current="page"]:hover {
+  background-color: color-mix(in srgb, var(--brand-on-primary) 24%, var(--brand-primary));
 }
 
 .page-banner {

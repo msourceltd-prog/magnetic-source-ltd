@@ -1,8 +1,9 @@
 /**
- * Trade Ledger, Recut: utility-first navigation with Source Cobalt category
- * tape, dynamic live departments, and persistent basket/search access.
+ * Trade Ledger, Recut: utility-first navigation with a Source Cobalt category
+ * tape; the selected department uses a lighter cobalt, white underline, and
+ * current-page semantics rather than a dark or black state.
  */
-import { FormEvent, MouseEvent, useState } from "react";
+import { FormEvent, MouseEvent, useEffect, useState } from "react";
 import { useLocation } from "wouter";
 import { BadgeCheck, ChevronDown, Headphones, Menu, Search, ShoppingBag, Truck, X } from "lucide-react";
 import { useCart } from "@/contexts/CartContext";
@@ -45,6 +46,18 @@ export default function SiteHeader() {
   const [location, navigate] = useLocation();
   const { items, itemCount, subtotal } = useCart();
   const quoteRequired = items.some(isPriceHidden);
+  const [activeCategorySlug, setActiveCategorySlug] = useState(() => new URLSearchParams(window.location.search).get("category"));
+
+  useEffect(() => {
+    const syncActiveCategory = () => setActiveCategorySlug(new URLSearchParams(window.location.search).get("category"));
+    syncActiveCategory();
+    window.addEventListener("popstate", syncActiveCategory);
+    window.addEventListener("magnetic-source:category-change", syncActiveCategory);
+    return () => {
+      window.removeEventListener("popstate", syncActiveCategory);
+      window.removeEventListener("magnetic-source:category-change", syncActiveCategory);
+    };
+  }, [location]);
 
   const followInternal = (event: MouseEvent<HTMLAnchorElement>, href: string) => {
     if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
@@ -60,6 +73,7 @@ export default function SiteHeader() {
 
   const followCategory = (event: MouseEvent<HTMLAnchorElement>, slug: string) => {
     const href = `/shop?category=${slug}`;
+    setActiveCategorySlug(slug);
     if (location.startsWith("/shop")) {
       event.preventDefault();
       window.history.replaceState(null, "", href);
@@ -96,7 +110,11 @@ export default function SiteHeader() {
       </div>
       <nav className="category-tape" aria-label="Product categories">
         <div className="trade-shell category-tape-inner">
-          {categories.map((category) => { const href = `/shop?category=${category.slug}`; return <a key={category.slug} href={href} className="category-tape-link" onClick={(event) => followCategory(event, category.slug)}><span>{category.name}</span><ChevronDown size={13} /></a>; })}
+          {categories.map((category) => {
+            const href = `/shop?category=${category.slug}`;
+            const isActive = activeCategorySlug === category.slug;
+            return <a key={category.slug} href={href} className={`category-tape-link${isActive ? " active" : ""}`} aria-current={isActive ? "page" : undefined} onClick={(event) => followCategory(event, category.slug)}><span>{category.name}</span><ChevronDown size={13} /></a>;
+          })}
         </div>
       </nav>
       <aside className="service-benefits-strip" aria-label="Magnetic Source service benefits">
