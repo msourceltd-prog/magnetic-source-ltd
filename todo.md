@@ -212,6 +212,10 @@
 
 - [x] Replace only the Seasonal & Christmas catalogue with the authorised Gem Imports seasonal range, backing up current records and retaining every other department and website function. The prior 32 records were backed up and replaced with 100 Gem Imports lines using supplier images and carton pack formats; five seasonal lines retain Best seller tags, and desktop plus mobile category views display the new range clearly. Source-of-truth verification confirmed all 100 Seasonal & Christmas SKUs are Gem Imports while all other department counts remain present; the production build regenerated the 393-product sitemap.
 
+## Gem Imports Stationery Catalogue Replacement and Rename
+
+- [x] Replace only the Stationery & Party catalogue with the authorised Gem Imports stationery range, back up current records, and rename the public department to Stationery while retaining every other department and website function. The prior 31 products were backed up and replaced with 100 Gem Imports stationery lines using supplier images and carton pack formats; five stationery lines retain Best seller tags. The live category data and app fallback label now both use Stationery, and desktop plus mobile category views show no public Party wording. Source-of-truth verification confirmed all 100 Stationery SKUs are Gem Imports while every other department remains present; the production build regenerated the 462-product sitemap.
+
 ## Supplier-Verified Pack-Format Correction
 
 - [ ] Audit current catalogue pack formats and correct supplier-supported wholesale quantities such as Pack of 12, Pack of 24, and Pack of 36 without inventing product pack sizes or changing other product data.

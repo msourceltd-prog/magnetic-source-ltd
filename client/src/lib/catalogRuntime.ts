@@ -32,7 +32,7 @@ export const currentCategories: Category[] = [
   { name: "Household & Pet", slug: "household-pet", summary: "Practical household and pet lines for everyday retail.", accent: "Trade edit" },
   { name: "Sweets & Snacks", slug: "sweets-snacks", summary: "Confectionery and snack lines for independent retail.", accent: "Trade edit" },
   { name: "Toys & Gifts", slug: "toys-gifts", summary: "Giftable and playful lines for everyday retail.", accent: "Trade edit" },
-  { name: "Stationery & Party", slug: "stationery-party", summary: "Stationery, party and practical display lines.", accent: "Trade edit" },
+  { name: "Stationery", slug: "stationery-party", summary: "Practical stationery and display lines for everyday retail.", accent: "Trade edit" },
   { name: "Health & Beauty", slug: "health-beauty", summary: "Health and beauty essentials for retail buyers.", accent: "Trade edit" },
   { name: "Seasonal & Christmas", slug: "seasonal-christmas", summary: "Seasonal retail lines and Christmas essentials.", accent: "Trade edit" },
   { name: "Clearance", slug: "clearance", summary: "Selected clearance lines for trade buyers.", accent: "Trade edit" },
