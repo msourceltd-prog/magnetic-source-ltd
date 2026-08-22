@@ -1,0 +1,434 @@
+{
+  "createdAt": "2026-08-22T14:17:33.724Z",
+  "instruction": "User requested five suitable branded products from each remaining department in the Best sellers collection.",
+  "selections": {
+    "household-pet": [
+      "72736Z",
+      "72619U",
+      "72568M",
+      "HPE-72404S",
+      "72624K"
+    ],
+    "sweets-snacks": [
+      "67242U",
+      "67241R",
+      "9838V",
+      "SWE-6388I",
+      "72535O"
+    ],
+    "toys-gifts": [
+      "39638L",
+      "73164Q",
+      "73165T",
+      "72989P",
+      "72749N"
+    ],
+    "stationery-party": [
+      "STP-39594Z",
+      "STP-49719Q",
+      "STP-4148U",
+      "STP-65367L",
+      "STP-39602E"
+    ],
+    "health-beauty": [
+      "73097K",
+      "73096H",
+      "73086C",
+      "72754D",
+      "HBT-551W"
+    ],
+    "seasonal-christmas": [
+      "73202K",
+      "69932D",
+      "22804U",
+      "22803R",
+      "22800I"
+    ],
+    "baby-kids": [
+      "72591G",
+      "70408S",
+      "69108A",
+      "64355U",
+      "3738H"
+    ]
+  },
+  "records": [
+    {
+      "id": 1055,
+      "sku": "72736Z",
+      "name": "Fabulosa 3 in 1 Laundry Pods Fresh Breeze 12’s",
+      "category": "household-pet",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1057,
+      "sku": "72619U",
+      "name": "Good Boy Cheese Please – Long Lasting Tasty Chew 60g",
+      "category": "household-pet",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1060,
+      "sku": "72568M",
+      "name": "Nylabone Extreme Chew Bacon Flavour Medium",
+      "category": "household-pet",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1556,
+      "sku": "HPE-72404S",
+      "name": "Rosewood Tough Toys Wood Flavour Dog Chew",
+      "category": "household-pet",
+      "tags": [
+        "Household & Pet",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1064,
+      "sku": "72624K",
+      "name": "Good Boy Compostable Poo Bags 60’s Clipstrip",
+      "category": "household-pet",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1101,
+      "sku": "67242U",
+      "name": "Peppa Pig Surprise Cones 25g",
+      "category": "sweets-snacks",
+      "tags": [
+        "Sweets & Snacks",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1102,
+      "sku": "67241R",
+      "name": "Paw Patrol Surprise Cones 25g",
+      "category": "sweets-snacks",
+      "tags": [
+        "Sweets & Snacks",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1719,
+      "sku": "9838V",
+      "name": "Haribo Sour Bats 140g £1.25 PMP",
+      "category": "sweets-snacks",
+      "tags": [
+        "Sweets & Snacks",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1720,
+      "sku": "SWE-6388I",
+      "name": "Haribo Bubblegum Bottles Z!ng 140g £1.25 PMP",
+      "category": "sweets-snacks",
+      "tags": [
+        "Sweets & Snacks",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1703,
+      "sku": "72535O",
+      "name": "Toxic Waste Cherry Popcorn 120g",
+      "category": "sweets-snacks",
+      "tags": [
+        "Sweets & Snacks",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1166,
+      "sku": "39638L",
+      "name": "Crayola Pokemon 96 Page Colouring Book",
+      "category": "toys-gifts",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1171,
+      "sku": "73164Q",
+      "name": "Zuru X-Shot Excel Hawk Eye With 16 Darts",
+      "category": "toys-gifts",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1170,
+      "sku": "73165T",
+      "name": "Fisher Price Pop-Up Play Tunnel",
+      "category": "toys-gifts",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1790,
+      "sku": "72989P",
+      "name": "Monopoly Deal",
+      "category": "toys-gifts",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1516,
+      "sku": "72749N",
+      "name": "Funko Pop! K-Pop Demon Hunters Keychain Assorted CDU",
+      "category": "toys-gifts",
+      "tags": [
+        "Toys & Gifts",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1383,
+      "sku": "STP-39594Z",
+      "name": "Pukka Floral B5 Project Book 3 Assorted Colours",
+      "category": "stationery-party",
+      "tags": [
+        "Stationery & Party",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1392,
+      "sku": "STP-49719Q",
+      "name": "Capitol 12 Balloons",
+      "category": "stationery-party",
+      "tags": [
+        "Stationery & Party",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1765,
+      "sku": "STP-4148U",
+      "name": "Staedtler Stick Pen Blue",
+      "category": "stationery-party",
+      "tags": [
+        "Stationery & Party",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1701,
+      "sku": "STP-65367L",
+      "name": "Just Stationery Shorthand Notepad 50gsm 50 Sheets 3 Pack",
+      "category": "stationery-party",
+      "tags": [
+        "Stationery & Party",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1380,
+      "sku": "STP-39602E",
+      "name": "Cedar & Sage 6 Pack A6 Notebooks",
+      "category": "stationery-party",
+      "tags": [
+        "Stationery & Party",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1252,
+      "sku": "73097K",
+      "name": "Umbro Bodywash Power 400ml",
+      "category": "health-beauty",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1253,
+      "sku": "73096H",
+      "name": "Umbro Bodywash Ice 400ml",
+      "category": "health-beauty",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1262,
+      "sku": "73086C",
+      "name": "Chupa Chups Watermelon, Peach & Lemon Lip Balms",
+      "category": "health-beauty",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1277,
+      "sku": "72754D",
+      "name": "Nivea Shave Mens After Shave Moisturiser Protect & Care 75ml",
+      "category": "health-beauty",
+      "tags": [
+        "Health & Beauty",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1533,
+      "sku": "HBT-551W",
+      "name": "Wilkinson Sword Extra 2 Beauty Ladies Disposable Razor 5’s",
+      "category": "health-beauty",
+      "tags": [
+        "Health & Beauty",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1286,
+      "sku": "73202K",
+      "name": "Uno Advent Calendar",
+      "category": "seasonal-christmas",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1325,
+      "sku": "69932D",
+      "name": "Man’Stuff Toiletries Advent Gift Set",
+      "category": "seasonal-christmas",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1287,
+      "sku": "22804U",
+      "name": "Christmas Colouring Book",
+      "category": "seasonal-christmas",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1288,
+      "sku": "22803R",
+      "name": "Christmas Activity & Sticker Book",
+      "category": "seasonal-christmas",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1289,
+      "sku": "22800I",
+      "name": "Christmas Advent Calendar – Cute",
+      "category": "seasonal-christmas",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1329,
+      "sku": "72591G",
+      "name": "NUK First Choice Day & Night Soother 2 Pack 0-6m Girls",
+      "category": "baby-kids",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1331,
+      "sku": "70408S",
+      "name": "Huggies Pure Baby Wipes Plastic Free 48’s",
+      "category": "baby-kids",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1334,
+      "sku": "69108A",
+      "name": "Pampers Baby-Dry Nappy Pants Size 7 15+kg, 33+ lbs, 16’s",
+      "category": "baby-kids",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1339,
+      "sku": "64355U",
+      "name": "Johnson’s Baby Powder Natural 100g",
+      "category": "baby-kids",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1356,
+      "sku": "3738H",
+      "name": "Sudocrem Antiseptic Cream 60g Tub",
+      "category": "baby-kids",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    }
+  ]
+}

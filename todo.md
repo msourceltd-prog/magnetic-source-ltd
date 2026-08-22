@@ -192,6 +192,10 @@
 
 - [x] Add a clear Best seller or New arrival label at the top of qualifying product cards while preserving all other product-card content and collection filters. Gold Best seller and cobalt New arrival badges were visually verified on desktop and the Best seller badge was verified on mobile; the production build passed.
 
+## Department-Wide Best Sellers Selection
+
+- [x] Add five suitable branded products from each remaining department to Best sellers, retaining every original product category and existing New arrivals assignment. Exactly 35 products were added—five in each of the seven remaining departments—with source-of-truth verification that all retain their original department and none are New arrivals. Household & Pet and Baby & Kids category pages were visually verified with Best seller card badges.
+
 ## Supplier-Verified Pack-Format Correction
 
 - [ ] Audit current catalogue pack formats and correct supplier-supported wholesale quantities such as Pack of 12, Pack of 24, and Pack of 36 without inventing product pack sizes or changing other product data.
