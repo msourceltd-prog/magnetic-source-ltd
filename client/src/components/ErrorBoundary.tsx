@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
+import { isStaleAssetError, reloadForStaleAssets } from "@/lib/lazyWithRetry";
 import { AlertTriangle, RotateCcw } from "lucide-react";
-import { Component, ReactNode } from "react";
+import { Component, ReactNode, type ErrorInfo } from "react";
 
 interface Props {
   children: ReactNode;
@@ -21,6 +22,10 @@ class ErrorBoundary extends Component<Props, State> {
     return { hasError: true, error };
   }
 
+  componentDidCatch(error: Error, _errorInfo: ErrorInfo) {
+    if (isStaleAssetError(error)) reloadForStaleAssets();
+  }
+
   render() {
     if (this.state.hasError) {
       return (
@@ -31,13 +36,9 @@ class ErrorBoundary extends Component<Props, State> {
               className="text-destructive mb-6 flex-shrink-0"
             />
 
-            <h2 className="text-xl mb-4">An unexpected error occurred.</h2>
+            <h2 className="text-xl mb-3">We could not load this page.</h2>
 
-            <div className="p-4 w-full rounded bg-muted overflow-auto mb-6">
-              <pre className="text-sm text-muted-foreground whitespace-break-spaces">
-                {this.state.error?.stack}
-              </pre>
-            </div>
+            <p className="max-w-md mb-6 text-center text-sm text-muted-foreground">Please refresh the page to load the latest Magnetic Source website version.</p>
 
             <button
               onClick={() => window.location.reload()}

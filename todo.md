@@ -144,6 +144,10 @@
 
 - [x] Remove only the artificial-looking decorative blue graphic from the shared footer while retaining its existing content, logo, payment marks, links, layout, and core navy treatment. Production build passed; the simplified solid-navy footer was visually checked on desktop and mobile.
 
+## Live Stability and Performance Remediation
+
+- [x] Resolve the stale dynamic-import failure shown on the live Contact route, add safe recovery for changed build assets, and apply focused public-site performance improvements without changing the existing design, catalogue, or customer-facing content. Lazy route chunks now recover once after a changed build, the error boundary hides raw stack traces, catalogue search indexing is computed only on catalogue updates, and direct product URLs wait for the live catalogue before evaluating availability. Production build passed; key desktop and mobile shop, product, and Contact routes were visually verified.
+
 - [x] Review the supplied reference’s public category structure and identify compatible original product-type additions.
 - [x] Expand the original static approval-demo catalogue without reusing reference names, descriptions, SKUs, pricing, or images.
 - [x] Reuse existing remote sample imagery rather than uploading additional Supabase Storage assets.

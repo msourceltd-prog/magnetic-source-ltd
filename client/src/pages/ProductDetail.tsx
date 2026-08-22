@@ -1,7 +1,7 @@
 /**
  * Trade Ledger, Recut: an original product proof page with a matching image,
- * factual description, SKU, pack and related lines; quote-required records
- * hide their internal compatibility value from every public price surface.
+ * factual description, SKU, pack and related lines; direct URLs wait for the
+ * live catalogue before deciding whether a product is unavailable.
  */
 import { useState } from "react";
 import { ArrowLeft, ArrowRight, Minus, PackageCheck, Plus, ShoppingBag, Truck } from "lucide-react";
@@ -15,10 +15,11 @@ import { useCatalog } from "@/contexts/CatalogContext";
 
 export default function ProductDetail() {
   const [, params] = useRoute("/product/:slug");
-  const { products } = useCatalog();
+  const { products, loading } = useCatalog();
   const product = products.find((candidate) => candidate.slug === (params?.slug || ""));
   const { addItem } = useCart();
   const [quantity, setQuantity] = useState(1);
+  if (loading) return <StoreLayout><section className="product-not-found trade-shell" aria-live="polite"><p className="eyebrow">Loading catalogue line</p><h1>Loading product details.</h1></section></StoreLayout>;
   if (!product) return <StoreLayout><section className="product-not-found trade-shell"><h1>That line is no longer in this edit.</h1><Link href="/shop" className="button-primary">Return to catalogue <ArrowRight size={17} /></Link></section></StoreLayout>;
   const related = products.filter((candidate) => candidate.category === product.category && candidate.id !== product.id).slice(0, 4);
   const priceHidden = isPriceHidden(product);

@@ -1,7 +1,8 @@
 /**
  * Trade Ledger, Recut: an original premium wholesale browsing field with
  * category navigation, factual product discovery, real imagery and a clear
- * quote-required state wherever a public price is intentionally hidden.
+ * quote-required state. Search indexing is prepared once per catalogue update
+ * so category switches and typing remain lightweight on desktop and mobile.
  */
 import { useDeferredValue, useEffect, useMemo, useState } from "react";
 import { ChevronDown, Filter, Search, SlidersHorizontal, X } from "lucide-react";
@@ -12,6 +13,8 @@ import { useCatalog } from "@/contexts/CatalogContext";
 import { isPriceHidden } from "@/lib/catalogRuntime";
 
 const getQuery = (search: string, key: string) => new URLSearchParams(search.startsWith("?") ? search : `?${search}`).get(key) || "";
+const searchAliases: Record<string, string[]> = { cleaner: ["cleaner", "cleaning"], cleaning: ["cleaning", "cleaner"], microfibre: ["microfibre", "microfiber"], microfiber: ["microfiber", "microfibre"] };
+const normalizeSearch = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 
 export default function Shop() {
   const { categories, loading, products } = useCatalog();
@@ -38,21 +41,22 @@ export default function Shop() {
     setSort(getQuery(searchString, "sort") || "catalogue");
   }, [searchString]);
 
+  const searchableProducts = useMemo(() => products.map((product) => ({
+    product,
+    searchTerms: new Set(normalizeSearch(`${product.name} ${product.sku} ${product.pack} ${product.description || ""} ${product.category} ${product.tags.join(" ")}`).split(" ").filter(Boolean)),
+  })), [products]);
+
   const filtered = useMemo(() => {
-    const normalizeSearch = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
-    const aliases: Record<string, string[]> = { cleaner: ["cleaner", "cleaning"], cleaning: ["cleaning", "cleaner"], microfibre: ["microfibre", "microfiber"], microfiber: ["microfiber", "microfibre"] };
     const searchTerms = normalizeSearch(deferredSearch).split(" ").filter(Boolean);
-    const pool = products.filter((product) => {
-      const searchable = normalizeSearch(`${product.name} ${product.sku} ${product.pack} ${product.description || ""} ${product.category} ${product.tags.join(" ")}`);
-      const searchableTerms = new Set(searchable.split(" ").filter(Boolean));
-      const matchesSearch = !searchTerms.length || searchTerms.every((term) => (aliases[term] || [term]).some((candidate) => searchableTerms.has(candidate)));
+    const pool = searchableProducts.filter(({ product, searchTerms: searchableTerms }) => {
+      const matchesSearch = !searchTerms.length || searchTerms.every((term) => (searchAliases[term] || [term]).some((candidate) => searchableTerms.has(candidate)));
       const hasPublicPrice = !isPriceHidden(product);
       return (!selectedCategory || product.category === selectedCategory)
         && matchesSearch
       && (priceRange === "all" || hasPublicPrice && (priceRange === "under-5" && product.price < 5 || priceRange === "5-10" && product.price >= 5 && product.price < 10 || priceRange === "10-plus" && product.price >= 10));
-    });
+    }).map(({ product }) => product);
     return [...pool].sort((a, b) => sort === "price-low" ? Number(isPriceHidden(a)) - Number(isPriceHidden(b)) || a.price - b.price : sort === "price-high" ? Number(isPriceHidden(a)) - Number(isPriceHidden(b)) || b.price - a.price : sort === "new" ? b.id - a.id : a.id - b.id);
-  }, [selectedCategory, products, deferredSearch, priceRange, sort]);
+  }, [selectedCategory, searchableProducts, deferredSearch, priceRange, sort]);
 
   const replaceShopQuery = (slug: string, nextSearch = search, nextSort = sort) => {
     const params = new URLSearchParams();
