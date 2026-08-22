@@ -1,0 +1,588 @@
+{
+  "created_at": "2026-08-22T16:06:40.708Z",
+  "instruction": "User requested the same authorised Gem Imports replacement process used for Baby & Kids, now scoped only to Seasonal & Christmas.",
+  "replaced_count": 32,
+  "records": [
+    {
+      "id": 1286,
+      "slug": "uno-advent-calendar-73202k",
+      "name": "Uno Advent Calendar",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "sku": "73202K",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Uno-Advent-Calendar-73202K.jpg",
+      "tags": [
+        "Best seller",
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1287,
+      "slug": "christmas-colouring-book-22804u",
+      "name": "Christmas Colouring Book",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "sku": "22804U",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Colouring-Book-22804U.jpg",
+      "tags": [
+        "Best seller",
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1288,
+      "slug": "christmas-activity-sticker-book-22803r",
+      "name": "Christmas Activity & Sticker Book",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "sku": "22803R",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Activity-Sticker-Book-22803R.jpg",
+      "tags": [
+        "Best seller",
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1289,
+      "slug": "christmas-advent-calendar-cute-22800i",
+      "name": "Christmas Advent Calendar – Cute",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "sku": "22800I",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Advent-Calendar-Cute-22800I.jpg",
+      "tags": [
+        "Best seller",
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1290,
+      "slug": "christmas-advent-calendar-contemporary-22799y",
+      "name": "Christmas Advent Calendar – Contemporary",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "sku": "22799Y",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Advent-Calendar-Contemporary-22799Y.jpg",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1296,
+      "slug": "christmas-gift-bag-large-whimsical-woodland-22782y",
+      "name": "Christmas Gift Bag Large – Whimsical Woodland",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "sku": "22782Y",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Gift-Bag-Large-Whimsical-Woodland-22782Y.jpg",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1297,
+      "slug": "christmas-cards-15-slim-christmas-cracker-22812t",
+      "name": "Christmas Cards – 15 Slim Christmas Cracker",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "sku": "22812T",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Cards-15-Slim-Christmas-Cracker-22812T.jpg",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1298,
+      "slug": "christmas-cards-15-slim-nordic-snowglobe-22811q",
+      "name": "Christmas Cards – 15 Slim Nordic Snowglobe",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "sku": "22811Q",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Cards-15-Slim-Nordic-Snowglobe-22811Q.jpg",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1299,
+      "slug": "christmas-novelty-earrings-22802o",
+      "name": "Christmas Novelty Earrings",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "sku": "22802O",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Novelty-Earrings-22802O.jpg",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1301,
+      "slug": "christmas-crackers-8-x-12-ho-ho-22798v",
+      "name": "Christmas Crackers 8 x 12″ Ho Ho",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "sku": "22798V",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Crackers-8-x-12-Ho-Ho-22798V.jpg",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1303,
+      "slug": "christmas-20-gift-tags-novelty-cute-22794j",
+      "name": "Christmas 20 Gift Tags Novelty Cute",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "sku": "22794J",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 25",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-20-Gift-Tags-Novelty-Cute-22794J.jpg",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1305,
+      "slug": "christmas-20-gift-tags-red-white-22792d",
+      "name": "Christmas 20 Gift Tags Red & White",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "sku": "22792D",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 25",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-20-Gift-Tags-Red-White-22792D.jpg",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1306,
+      "slug": "christmas-beer-bottle-carrier-22787n",
+      "name": "Christmas Beer Bottle Carrier",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "sku": "22787N",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Beer-Bottle-Carrier-22787N.jpg",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1307,
+      "slug": "christmas-gift-bag-jumbo-drawstring-bag-22786k",
+      "name": "Christmas Gift Bag Jumbo Drawstring Bag",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "sku": "22786K",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Gift-Bag-Jumbo-Drawstring-Bag-22786K.jpg",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1308,
+      "slug": "christmas-gift-bag-square-woven-pp-highland-cow-22785h",
+      "name": "Christmas Gift Bag Square Woven PP Highland Cow",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "sku": "22785H",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Gift-Bag-Square-Woven-PP-Highland-Cow-22785H_2.jpg",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1311,
+      "slug": "christmas-gift-bag-extra-large-nordic-noel-22779o",
+      "name": "Christmas Gift Bag Extra Large – Nordic Noel",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "sku": "22779O",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Gift-Bag-Extra-Large-Nordic-Noel-22779O.jpg",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1312,
+      "slug": "christmas-gift-bag-large-nordic-noel-22778l",
+      "name": "Christmas Gift Bag Large – Nordic Noel",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "sku": "22778L",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Gift-Bag-Large-Nordic-Noel-22778L.jpg",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1313,
+      "slug": "christmas-gift-bag-medium-nordic-noel-22777i",
+      "name": "Christmas Gift Bag Medium – Nordic Noel",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "sku": "22777I",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Gift-Bag-Medium-Nordic-Noel-22777I.jpg",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1314,
+      "slug": "christmas-gift-bag-bottle-most-wonderful-22776f",
+      "name": "Christmas Gift Bag Bottle – Most Wonderful",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "sku": "22776F",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Gift-Bag-Bottle-Most-Wonderful-22776F.jpg",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1316,
+      "slug": "christmas-gift-bag-large-most-wonderful-22774z",
+      "name": "Christmas Gift Bag Large – Most Wonderful",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "sku": "22774Z",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Gift-Bag-Large-Most-Wonderful-22774Z.jpg",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1323,
+      "slug": "christmas-20-gift-tags-nordic-noel-22795m",
+      "name": "Christmas 20 Gift Tags Nordic Noel",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "sku": "22795M",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 25",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-20-Gift-Tags-Nordic-Noel-22795M.jpg",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1325,
+      "slug": "man-stuff-toiletries-advent-gift-set-69932d",
+      "name": "Man’Stuff Toiletries Advent Gift Set",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "sku": "69932D",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/07/ManStuff-ManStuff-Toiletries-Advent-Gift-Set-69932D.jpg",
+      "tags": [
+        "Best seller",
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1484,
+      "slug": "christmas-gift-bag-extra-large-whimsical-woodland-22783b",
+      "name": "Christmas Gift Bag Extra Large – Whimsical Woodland",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "sku": "22783B",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Gift-Bag-Extra-Large-Whimsical-Woodland-22783B.jpg",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1485,
+      "slug": "christmas-20-gift-tags-midnight-blue-22793g",
+      "name": "Christmas 20 Gift Tags Midnight Blue",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "sku": "22793G",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 25",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-20-Gift-Tags-Midnight-Blue-22793G.jpg",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1488,
+      "slug": "christmas-cards-printed-text-square-15pk-22770n",
+      "name": "Christmas Cards – Printed Text Square 15pk",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "sku": "22770N",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Cards-Printed-Text-Square-15pk-22770N.jpg",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1489,
+      "slug": "christmas-cards-printed-tree-square-15pk-22769j",
+      "name": "Christmas Cards – Printed Tree Square 15pk",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "sku": "22769J",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Cards-Printed-Tree-Square-15pk-22769J.jpg",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1537,
+      "slug": "christmas-gift-bag-extra-large-most-wonderful-22775c",
+      "name": "Christmas Gift Bag Extra Large – Most Wonderful",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "sku": "22775C",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Gift-Bag-Extra-Large-Most-Wonderful-22775C.jpg",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1538,
+      "slug": "christmas-gift-bag-small-whimsical-woodland-22780s",
+      "name": "Christmas Gift Bag Small – Whimsical Woodland",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "sku": "22780S",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Gift-Bag-Small-Whimsical-Woodland-22780S.jpg",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1757,
+      "slug": "christmas-cards-highland-cow-10pk-22768g",
+      "name": "Christmas Cards – Highland Cow 10pk",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "sku": "22768G",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Cards-Highland-Cow-10pk-22768G.jpg",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1758,
+      "slug": "christmas-cards-bumper-box-5-designs-25pk-22771q",
+      "name": "Christmas Cards – Bumper Box 5 Designs 25pk",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "sku": "22771Q",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Cards-Bumper-Box-5-Designs-25pk-22771Q.jpg",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1759,
+      "slug": "christmas-gift-bag-santa-friends-jumbo-woven-22784e",
+      "name": "Christmas Gift Bag Santa & Friends Jumbo Woven",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "sku": "22784E",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-Gift-Bag-Santa-Friends-Jumbo-Woven-22784E.jpg",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1760,
+      "slug": "christmas-6-x-6-crackers-gold-silver-22796p",
+      "name": "Christmas 6 x 6″ Crackers Gold & Silver",
+      "category": "seasonal-christmas",
+      "price": 0,
+      "sku": "22796P",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 36",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Christmas-6-x-6-Crackers-Gold-Silver-22796P_2.jpg",
+      "tags": [
+        "Seasonal & Christmas",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    }
+  ]
+}

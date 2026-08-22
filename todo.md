@@ -208,6 +208,10 @@
 
 - [x] Assess the supplied Gem Imports Baby Wholesale catalogue and current Baby & Kids records; after confirmed usage authorisation and scope, replace only Baby & Kids products while retaining every other department and website function. Authorisation was confirmed. The prior 45 Baby & Kids records were backed up and replaced with 55 Gem Imports records using complete supplier images and carton-based pack formats; desktop and mobile category views display the new range cleanly. Source-of-truth verification confirmed all 55 Baby & Kids SKUs are Gem Imports, all other category counts remain present, and the production build regenerated the 325-product sitemap.
 
+## Gem Imports Seasonal & Christmas Catalogue Replacement
+
+- [x] Replace only the Seasonal & Christmas catalogue with the authorised Gem Imports seasonal range, backing up current records and retaining every other department and website function. The prior 32 records were backed up and replaced with 100 Gem Imports lines using supplier images and carton pack formats; five seasonal lines retain Best seller tags, and desktop plus mobile category views display the new range clearly. Source-of-truth verification confirmed all 100 Seasonal & Christmas SKUs are Gem Imports while all other department counts remain present; the production build regenerated the 393-product sitemap.
+
 ## Supplier-Verified Pack-Format Correction
 
 - [ ] Audit current catalogue pack formats and correct supplier-supported wholesale quantities such as Pack of 12, Pack of 24, and Pack of 36 without inventing product pack sizes or changing other product data.
