@@ -1,0 +1,834 @@
+{
+  "created_at": "2026-08-22T16:56:42.860Z",
+  "instruction": "User requested an authorised half-range Gem Imports household replacement and public Household rename, scoped only to Household & Pet.",
+  "replaced_count": 46,
+  "products": [
+    {
+      "id": 1055,
+      "slug": "fabulosa-3-in-1-laundry-pods-fresh-breeze-12-s-72736z",
+      "name": "Fabulosa 3 in 1 Laundry Pods Fresh Breeze 12’s",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "72736Z",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Fubulosa-3-in-1-Laundry-Pods-Fresh-Breeze-12s-72736Z.jpg",
+      "tags": [
+        "Best seller",
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1057,
+      "slug": "good-boy-cheese-please-long-lasting-tasty-chew-60g-72619u",
+      "name": "Good Boy Cheese Please – Long Lasting Tasty Chew 60g",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "72619U",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Cheese-Please-Long-Lasting-Tasty-Chew-60g-72619U.png",
+      "tags": [
+        "Best seller",
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1060,
+      "slug": "nylabone-extreme-chew-bacon-flavour-medium-72568m",
+      "name": "Nylabone Extreme Chew Bacon Flavour Medium",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "72568M",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Nylabone-Extreme-Chew-Bacon-Flavour-Medium-72568M.jpg",
+      "tags": [
+        "Best seller",
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1061,
+      "slug": "good-boy-soft-fluffy-dog-toy-large-72631g",
+      "name": "Good Boy Soft Fluffy Dog Toy Large",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "72631G",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 3",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Soft-Fluffy-Dog-Toy-Large-72631G.jpg",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1062,
+      "slug": "good-boy-tripe-filled-bone-72629z",
+      "name": "Good Boy Tripe Filled Bone",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "72629Z",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 22",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Tripe-Filled-Bone-72629Z.jpg",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1063,
+      "slug": "good-boy-chicken-leg-115mm-72628w",
+      "name": "Good Boy Chicken Leg 115mm",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "72628W",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 10",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Chicken-Leg-115mm-72628W.jpg",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1064,
+      "slug": "good-boy-compostable-poo-bags-60-s-clipstrip-72624k",
+      "name": "Good Boy Compostable Poo Bags 60’s Clipstrip",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "72624K",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Compostable-Poo-Bags-60s-Clipstrip-72624K.png",
+      "tags": [
+        "Best seller",
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1065,
+      "slug": "good-boy-duck-stick-15g-72623h",
+      "name": "Good Boy Duck Stick 15g",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "72623H",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 50",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Duck-Stick-15g-72623H.png",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1066,
+      "slug": "good-boy-beef-stick-15g-72622e",
+      "name": "Good Boy Beef Stick 15g",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "72622E",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 50",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Beef-Stick-15g-72622E-925x1024.jpg",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1067,
+      "slug": "good-boy-chicken-stick-15g-72621b",
+      "name": "Good Boy Chicken Stick 15g",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "72621B",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 50",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Chicken-Stick-15g-72621B.jpg",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1070,
+      "slug": "good-boy-soft-meerkat-dog-toy-72567j",
+      "name": "Good Boy Soft Meerkat Dog Toy",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "72567J",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 4",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Soft-Meerkat-Dog-Toy-72567J.png",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1072,
+      "slug": "good-boy-soft-fluffy-dog-toy-small-72382w",
+      "name": "Good Boy Soft Fluffy Dog Toy Small",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "72382W",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 3",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Soft-Fluffy-Dog-Toy-Small-72382W-1024x1024.png",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1073,
+      "slug": "fairy-washing-up-liquid-pomegranate-320ml-72707n",
+      "name": "Fairy Washing Up Liquid Pomegranate 320ml",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "72707N",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 10",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Fairy-Washing-Up-Liquid-Pomegranite-320ml-72707N.jpeg",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1074,
+      "slug": "fairy-washing-up-liquid-apple-320ml-72706k",
+      "name": "Fairy Washing Up Liquid Apple 320ml",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "72706K",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 10",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Fairy-Washing-Up-Liquid-Apple-320ml-72706K.jpeg",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1075,
+      "slug": "good-boy-cheese-please-with-chicken-long-lasting-tasty-chew-60g-72385f",
+      "name": "Good Boy Cheese Please with Chicken – Long Lasting Tasty Chew 60g",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "72385F",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Cheese-Please-with-Chicken-Long-Lasting-Tasty-Chew-60g-72385F.jpg",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1078,
+      "slug": "bartleby-mens-deluxe-straw-fedora-hat-assorted-72293a",
+      "name": "Bartleby Mens Deluxe Straw Fedora Hat Assorted",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "72293A",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Bartleby-Mens-Deluxe-Straw-Fedora-Hat-Assorted-72293A.png",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1079,
+      "slug": "bartleby-child-s-dinosaur-hat-assorted-72289n",
+      "name": "Bartleby Child’s Dinosaur Hat Assorted",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "72289N",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Bartleby-Childs-Dinosaur-Hat-Assorted-72289N.png",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1080,
+      "slug": "bartleby-girls-unicorn-hat-assorted-72288k",
+      "name": "Bartleby Girls Unicorn Hat Assorted",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "72288K",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Bartleby-Girls-Unicorn-Hat-Assorted-72288K.png",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1081,
+      "slug": "bartleby-unisex-bush-hat-ripstop-assorted-72287h",
+      "name": "Bartleby Unisex Bush Hat – Ripstop Assorted",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "72287H",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Bartleby-Unisex-Bush-Hat-Ripstop-Assorted-72287H.png",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1082,
+      "slug": "bartleby-childs-two-tone-baseball-cap-assorted-72285b",
+      "name": "Bartleby Childs Two Tone Baseball Cap Assorted",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "72285B",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Bartleby-Childs-Two-Tone-Baseball-Cap-Assorted-72285B.png",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1083,
+      "slug": "bartleby-adult-two-tone-baseball-cap-assorted-72283v",
+      "name": "Bartleby Adult Two Tone Baseball Cap Assorted",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "72283V",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Bartleby-Adult-Two-Tone-Baseball-Cap-Assorted-72283V_4.png",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1084,
+      "slug": "bartleby-adult-breathable-baseball-cap-assorted-72282s",
+      "name": "Bartleby Adult Breathable Baseball Cap Assorted",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "72282S",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Bartleby-Adult-Breathable-Baseball-Cap-Assorted-72282S_3.png",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1085,
+      "slug": "bartleby-adult-washed-baseball-cap-pastel-colours-assorted-72281p",
+      "name": "Bartleby Adult Washed Baseball Cap Pastel Colours Assorted",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "72281P",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Bartleby-Adult-Washed-Baseball-Cap-Pastel-Colours-Assorted-72281P.png",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1552,
+      "slug": "household-pet-good-boy-space-lobber-fetch-toy-63752v",
+      "name": "Good Boy Space Lobber Fetch Toy",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "HPE-63752V",
+      "availability": "Trade enquiry",
+      "pack": "Pack of 6",
+      "description": "Good Boy Space Lobber Fetch Toy is supplied as pack of 6. Supplier reference: 63752V.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2024/02/Good-Boy-Space-Lobber-Fetch-Toy-63752V.jpg",
+      "tags": [
+        "Household & Pet",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1554,
+      "slug": "household-pet-nylabone-extreme-chew-venison-antler-alternative-chew-72360g",
+      "name": "Nylabone Extreme Chew Venison Antler Alternative Chew",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "HPE-72360G",
+      "availability": "Trade enquiry",
+      "pack": "Pack of 24",
+      "description": "Nylabone Extreme Chew Venison Antler Alternative Chew is supplied as pack of 24. Supplier reference: 72360G.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Nylabone-Extreme-Chew-Venision-Antler-Alternative-Chew-72360G.jpg",
+      "tags": [
+        "Household & Pet",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1556,
+      "slug": "household-pet-rosewood-tough-toys-wood-flavour-dog-chew-72404s",
+      "name": "Rosewood Tough Toys Wood Flavour Dog Chew",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "HPE-72404S",
+      "availability": "Trade enquiry",
+      "pack": "Pack of 3",
+      "description": "Rosewood Tough Toys Wood Flavour Dog Chew is supplied as pack of 3. Supplier reference: 72404S.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Rosewood-Tough-Toys-Wood-Flavour-Dog-Chew-72404S.webp",
+      "tags": [
+        "Best seller",
+        "Household & Pet",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1557,
+      "slug": "household-pet-milestone-magnifying-compass-with-lanyard-39616v",
+      "name": "Milestone Magnifying Compass With Lanyard",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "HPE-39616V",
+      "availability": "Trade enquiry",
+      "pack": "Pack of 24",
+      "description": "Milestone Magnifying Compass With Lanyard is supplied as pack of 24. Supplier reference: 39616V.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Milestone-Magnifying-Compass-With-Lanyard-39616V.jpg",
+      "tags": [
+        "Household & Pet",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1558,
+      "slug": "household-pet-milestone-60led-ultra-bright-portable-tent-light-39619e",
+      "name": "Milestone 60LED Ultra Bright Portable Tent Light",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "HPE-39619E",
+      "availability": "Trade enquiry",
+      "pack": "Pack of 24",
+      "description": "Milestone 60LED Ultra Bright Portable Tent Light is supplied as pack of 24. Supplier reference: 39619E.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Milestone-60LED-Ultra-Bright-Portable-Tent-Light-39619E.jpg",
+      "tags": [
+        "Household & Pet",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1559,
+      "slug": "household-pet-summit-glow-in-the-dark-rock-pegs-with-case-20cm-pack-of-20-39615s",
+      "name": "Summit Glow In The Dark Rock Pegs With Case 20cm Pack of 20",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "HPE-39615S",
+      "availability": "Trade enquiry",
+      "pack": "Pack of 24",
+      "description": "Summit Glow In The Dark Rock Pegs With Case 20cm Pack of 20 is supplied as pack of 24. Supplier reference: 39615S.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Summit-Glow-In-The-Dark-Rock-Pegs-With-Case-20cm-Pack-of-20-39615S.jpg",
+      "tags": [
+        "Household & Pet",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1564,
+      "slug": "household-pet-ariel-pods-86s-original-72478n",
+      "name": "Ariel Pods 86s Original",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "HPE-72478N",
+      "availability": "Trade enquiry",
+      "pack": "Pack of 24",
+      "description": "Ariel Pods 86s Original is supplied as pack of 24. Supplier reference: 72478N.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Ariel-Pods-86s-Original-72478N.jpeg",
+      "tags": [
+        "Household & Pet",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1566,
+      "slug": "household-pet-milestone-100ft-multi-purpose-rope-3-assorted-colours-39621l",
+      "name": "Milestone 100ft Multi-Purpose Rope – 3 Assorted Colours",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "HPE-39621L",
+      "availability": "Trade enquiry",
+      "pack": "Pack of 24",
+      "description": "Milestone 100ft Multi-Purpose Rope – 3 Assorted Colours is supplied as pack of 24. Supplier reference: 39621L.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Milestone-100ft-Multi-Purpose-Rope-3-Assorted-Colours-39621L.jpg",
+      "tags": [
+        "Household & Pet",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1685,
+      "slug": "reading-glasses-half-frame-assorted-colours-strengths-39636f",
+      "name": "Reading Glasses – Half Frame – Assorted Colours & Strengths",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "39636F",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 36",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Reading-Glasses-Half-Frame-Assorted-Colours-Strengths-39636F.webp",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1688,
+      "slug": "adult-hooded-poncho-2-assorted-colours-39649t",
+      "name": "Adult Hooded Poncho 2 Assorted Colours",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "39649T",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 24",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/08/Adult-Hooded-Poncho-2-Assorted-Colours-39649T.webp",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1689,
+      "slug": "good-boy-crunchy-chicken-calcium-bones-350g-60342i",
+      "name": "Good Boy Crunchy Chicken & Calcium Bones 350g",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "60342I",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 4",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Good-Boy-Crunchy-Chicken-Calcium-Bones-350g-60342I.png",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1690,
+      "slug": "good-boy-chewy-twists-with-chicken-320g-60343l",
+      "name": "Good Boy Chewy Twists With Chicken 320g",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "60343L",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 5",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Good-Boy-Chewy-Twists-With-Chicken-320g-60343L-1024x1024.png",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1691,
+      "slug": "good-boy-chewy-braid-beef-large-96g-72615i",
+      "name": "Good Boy Chewy Braid Beef Large 96g",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "72615I",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 14",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Chewy-Braid-Beef-Large-96g-72615I.png",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1692,
+      "slug": "good-boy-tough-tasty-chicken-roll-80g-72616l",
+      "name": "Good Boy Tough & Tasty Chicken Roll 80g",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "72616L",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 20",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Tough-Tasty-Chicken-Roll-80g-72616L.png",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1693,
+      "slug": "good-boy-chewables-sticks-with-chicken-veg-5-pack-72617o",
+      "name": "Good Boy Chewables Sticks with Chicken & Veg 5 Pack",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "72617O",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 18",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Chewables-Sticks-with-Chicken-Veg-5-Pack-72617O-1024x1024.png",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1694,
+      "slug": "good-boy-fresh-breath-rolls-bumper-pack-72630d",
+      "name": "Good Boy Fresh Breath Rolls Bumper Pack",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "72630D",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 6",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Fresh-Breath-Rolls-Bumper-Pack-72630D.png",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1695,
+      "slug": "cheeky-panda-sustainable-plastic-free-bamboo-kitchen-rolls-2pk-72750r",
+      "name": "Cheeky Panda Sustainable Plastic-Free Bamboo Kitchen Rolls – 2pk",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "72750R",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 5",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Cheeky-Panda-Sustainable-Plastic-Free-Bamboo-Kitchen-Rolls-2pk-72750R-1024x1024.png",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1697,
+      "slug": "household-pet-rosewood-cooling-collar-medium-72364s",
+      "name": "Rosewood Cooling Collar – Medium",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "HPE-72364S",
+      "availability": "Trade enquiry",
+      "pack": "Pack of 4",
+      "description": "Rosewood Cooling Collar – Medium is supplied as pack of 4. Supplier reference: 72364S.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Rosewood-Cooling-Collar-–-Medium-72364S.png",
+      "tags": [
+        "Household & Pet",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1698,
+      "slug": "household-pet-rosewood-cooling-collar-large-72365v",
+      "name": "Rosewood Cooling Collar – Large",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "HPE-72365V",
+      "availability": "Trade enquiry",
+      "pack": "Pack of 4",
+      "description": "Rosewood Cooling Collar – Large is supplied as pack of 4. Supplier reference: 72365V.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Rosewood-Cooling-Collar-–-Large-72365V.png",
+      "tags": [
+        "Household & Pet",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1752,
+      "slug": "super-grip-sports-bottle-700ml-39529f",
+      "name": "Super Grip Sports Bottle 700ml",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "39529F",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 12",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/07/Super-Grip-Sports-Bottle-700ml-39529F.png",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1753,
+      "slug": "good-boy-chewables-medium-bones-with-chicken-2-pack-72388o",
+      "name": "Good Boy Chewables Medium Bones with Chicken 2 Pack",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "72388O",
+      "availability": "Trade enquiry only",
+      "pack": "Pack of 8",
+      "description": "",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Chewables-Medium-Bones-with-Chicken-2-Pack-72388O-1024x1024.png",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1754,
+      "slug": "household-pet-summit-15l-pack-away-backpack-navy-39614p",
+      "name": "Summit 15L Pack Away Backpack Navy",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "HPE-39614P",
+      "availability": "Trade enquiry",
+      "pack": "Pack of 6",
+      "description": "Summit 15L Pack Away Backpack Navy is supplied as pack of 6. Supplier reference: 39614P.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Summit-15L-Pack-Away-Backpack-Navy-39614P.jpg",
+      "tags": [
+        "Household & Pet",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1755,
+      "slug": "household-pet-good-boy-busy-bar-large-chew-chicken-72383z",
+      "name": "Good Boy Busy Bar Large Chew Chicken",
+      "category": "household-pet",
+      "price": 0,
+      "sku": "HPE-72383Z",
+      "availability": "Trade enquiry",
+      "pack": "Pack of 12",
+      "description": "Good Boy Busy Bar Large Chew Chicken is supplied as pack of 12. Supplier reference: 72383Z.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Good-Boy-Busy-Bar-Large-Chew-Chicken-72383Z.png",
+      "tags": [
+        "Household & Pet",
+        "Price hidden"
+      ],
+      "featured": false
+    }
+  ],
+  "category_before_rename": {
+    "id": 41,
+    "name": "Household & Pet",
+    "slug": "household-pet",
+    "summary": "Household essentials, cleaning lines and practical pet products for independent retail."
+  }
+}

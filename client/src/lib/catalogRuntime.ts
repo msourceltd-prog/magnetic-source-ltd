@@ -29,7 +29,7 @@ export type Product = {
 export const SUPPLIER_IMAGE_PLACEHOLDER = "/product-image-pending.svg";
 
 export const currentCategories: Category[] = [
-  { name: "Household & Pet", slug: "household-pet", summary: "Practical household and pet lines for everyday retail.", accent: "Trade edit" },
+  { name: "Household", slug: "household-pet", summary: "Practical household lines for everyday retail.", accent: "Trade edit" },
   { name: "Sweets & Snacks", slug: "sweets-snacks", summary: "Confectionery and snack lines for independent retail.", accent: "Trade edit" },
   { name: "Toys & Gifts", slug: "toys-gifts", summary: "Giftable and playful lines for everyday retail.", accent: "Trade edit" },
   { name: "Stationery", slug: "stationery-party", summary: "Practical stationery and display lines for everyday retail.", accent: "Trade edit" },
