@@ -405,35 +405,11 @@ body,
   color: var(--brand-accent);
 }
 
-/* Footer closing area: a dark trade-desk signature with the field mark as the anchor. */
+/* Footer closing area: a restrained solid-navy trade-desk signature with no artificial background ornament. */
 .site-footer {
   position: relative;
   overflow: hidden;
-  isolation: isolate;
-  background: radial-gradient(ellipse 52% 88% at 80% 45%, rgb(29 80 154 / 0.36), transparent 66%), linear-gradient(128deg, #06163d 0%, #0b2762 100%);
-}
-
-.site-footer::before,
-.site-footer::after {
-  position: absolute;
-  border: 1px solid color-mix(in srgb, var(--brand-primary) 30%, transparent);
-  border-radius: 50%;
-  content: "";
-  pointer-events: none;
-}
-
-.site-footer::before {
-  width: 360px;
-  height: 360px;
-  right: -168px;
-  top: -185px;
-}
-
-.site-footer::after {
-  width: 235px;
-  height: 235px;
-  right: -106px;
-  top: -122px;
+  background: #0b2762;
 }
 
 .footer-top {
@@ -443,23 +419,6 @@ body,
   gap: clamp(32px, 5vw, 78px);
   min-height: 390px;
   padding: 84px 0 76px;
-}
-
-.footer-watermark {
-  position: absolute;
-  z-index: -1;
-  right: clamp(4%, 10vw, 16%);
-  bottom: -78px;
-  width: clamp(310px, 35vw, 540px);
-  opacity: .12;
-  transform: rotate(-16deg);
-  filter: drop-shadow(0 18px 30px rgb(0 0 0 / .18));
-}
-
-.footer-watermark .footer-brand-mark {
-  width: 100%;
-  height: auto;
-  filter: none;
 }
 
 .footer-statement {
@@ -563,32 +522,11 @@ body,
 }
 
 @media (max-width: 760px) {
-  .site-footer::before {
-    width: 250px;
-    height: 250px;
-    right: -135px;
-    top: -135px;
-  }
-
-  .site-footer::after {
-    width: 150px;
-    height: 150px;
-    right: -86px;
-    top: -85px;
-  }
-
   .footer-top {
     grid-template-columns: 1fr;
     gap: 34px;
     min-height: 0;
     padding: 58px 0 58px;
-  }
-
-  .footer-watermark {
-    right: -98px;
-    bottom: -34px;
-    width: 290px;
-    opacity: .1;
   }
 
   .footer-brand-mark {
