@@ -1,0 +1,746 @@
+{
+  "audited_at": "2026-08-22T15:40:59.161Z",
+  "category": "baby-kids",
+  "count": 45,
+  "products": [
+    {
+      "id": 1734,
+      "slug": "2-pack-baby-sponges-39537e",
+      "sku": "39537E",
+      "name": "2 Pack Baby Sponges",
+      "category": "baby-kids",
+      "description": "2 Pack Baby Sponges is supplied as Pack of 10.",
+      "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2025/09/2-Pack-Baby-Sponges-39537E-300x300.png",
+      "pack": "Pack of 10",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1740,
+      "slug": "4my-baby-nappy-bags-fragranced-200-s-70523r",
+      "sku": "70523R",
+      "name": "4My Baby Nappy Bags Fragranced 200’s",
+      "category": "baby-kids",
+      "description": "4My Baby Nappy Bags Fragranced 200’s is supplied as Pack of 24.",
+      "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2025/11/4My-Baby-Nappy-Bags-Fragranced-200s-70523R-300x185.png",
+      "pack": "Pack of 24",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1641,
+      "slug": "blueys-telephone-70046q",
+      "sku": "70046Q",
+      "name": "Bluey’s Telephone",
+      "category": "baby-kids",
+      "description": "Bluey’s Telephone is supplied as pack of 24.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/08/Blueys-Telephone-70046Q.jpg",
+      "pack": "Pack of 24",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1337,
+      "slug": "capitol-safety-soothers-blue-2-pack-67226w",
+      "sku": "67226W",
+      "name": "Capitol Safety Soothers Blue 2 Pack",
+      "category": "baby-kids",
+      "description": "Capitol Safety Soothers Blue 2 Pack is supplied as Pack of 12.",
+      "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2024/11/Capitol-Safety-Soothers-Blue-2-Pack-67226W-300x300.jpg",
+      "pack": "Pack of 12",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1649,
+      "slug": "cheeky-panda-bamboo-baby-wipes-pack-60-s-69375i",
+      "sku": "69375I",
+      "name": "Cheeky Panda Bamboo Baby Wipes Pack 60’s",
+      "category": "baby-kids",
+      "description": "Cheeky Panda Bamboo Baby Wipes Pack 60’s is supplied as Pack of 12.",
+      "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2025/05/69375I-Cheeky-Panda-Bamboo-Baby-Wipes-Pack-300x300.png",
+      "pack": "Pack of 12",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1644,
+      "slug": "cherubs-baby-feeding-bottle-250ml-31960s",
+      "sku": "31960S",
+      "name": "Cherubs Baby Feeding Bottle 250ml",
+      "category": "baby-kids",
+      "description": "Cherubs Baby Feeding Bottle 250ml is supplied as Pack of 12.",
+      "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2019/07/31960S_1-300x300.png",
+      "pack": "Pack of 12",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1335,
+      "slug": "cherubs-baby-soothers-card-of-25-67332t",
+      "sku": "67332T",
+      "name": "Cherubs Baby Soothers Card of 25",
+      "category": "baby-kids",
+      "description": "Cherubs Baby Soothers Card of 25 is supplied as Pack of 25.",
+      "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2024/12/67332T-300x300.jpg",
+      "pack": "Pack of 25",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1645,
+      "slug": "duralon-baby-bottle-designs-may-vary-36960w",
+      "sku": "36960W",
+      "name": "Duralon Baby Bottle (Designs May Vary)",
+      "category": "baby-kids",
+      "description": "Duralon Baby Bottle (Designs May Vary) is supplied as Pack of 12.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2018/06/36960W-Duralon-Baby-Bottle_6-1.png",
+      "pack": "Pack of 12",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1628,
+      "slug": "fisher-price-10cm-soft-animal-friends-70818n",
+      "sku": "70818N",
+      "name": "Fisher Price 10cm Soft Animal Friends",
+      "category": "baby-kids",
+      "description": "Fisher Price 10cm Soft Animal Friends is supplied as pack of 24.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/12/Fisher-Price-10cm-Soft-Animal-Friends-70818N.jpg",
+      "pack": "Pack of 24",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1742,
+      "slug": "fisher-price-8-inch-animal-plush-cdu-70817k",
+      "sku": "70817K",
+      "name": "Fisher Price 8 Inch Animal Plush CDU",
+      "category": "baby-kids",
+      "description": "Fisher Price 8 Inch Animal Plush CDU is supplied as pack of 18.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/12/Fisher-Price-8-Animal-Plush-CDU-70817K.jpg",
+      "pack": "Pack of 18",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1741,
+      "slug": "fisher-price-animal-ball-12-5cm-cdu-70814b",
+      "sku": "70814B",
+      "name": "Fisher Price Animal Ball 12.5cm CDU",
+      "category": "baby-kids",
+      "description": "Fisher Price Animal Ball 12.5cm CDU is supplied as pack of 18.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/12/Fisher-Price-Animal-Ball-12.5cm-CDU-70814B.jpg",
+      "pack": "Pack of 18",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1634,
+      "slug": "fisher-price-baby-training-ball-69354v",
+      "sku": "69354V",
+      "name": "Fisher Price Baby Training Ball",
+      "category": "baby-kids",
+      "description": "Fisher Price Baby Training Ball is supplied as pack of 24.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/08/Fisher-Price-Baby-Training-Ball-69354V.jpg",
+      "pack": "Pack of 24",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1633,
+      "slug": "fisher-price-bath-blocks-69356b",
+      "sku": "69356B",
+      "name": "Fisher Price Bath Blocks",
+      "category": "baby-kids",
+      "description": "Fisher Price Bath Blocks is supplied as pack of 24.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/08/Fisher-Price-Bath-Blocks-69356B.jpg",
+      "pack": "Pack of 24",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1636,
+      "slug": "fisher-price-portable-circular-ball-pit-25pc-69350j",
+      "sku": "69350J",
+      "name": "Fisher Price Portable Circular Ball Pit 25pc",
+      "category": "baby-kids",
+      "description": "Fisher Price Portable Circular Ball Pit 25pc is supplied as pack of 24.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/08/Fisher-Price-Portable-Circular-Ball-Pit-69350J.jpeg",
+      "pack": "Pack of 24",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1635,
+      "slug": "fisher-price-tee-pee-play-tent-69352p",
+      "sku": "69352P",
+      "name": "Fisher Price Tee-Pee Play Tent",
+      "category": "baby-kids",
+      "description": "Fisher Price Tee-Pee Play Tent is supplied as pack of 24.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/08/Fisher-Price-Tee-Pee-Play-Tent-69352P.jpg",
+      "pack": "Pack of 24",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1737,
+      "slug": "huggies-little-swimmers-assorted-sizes-55913q",
+      "sku": "55913Q",
+      "name": "Huggies Little Swimmers Assorted Sizes",
+      "category": "baby-kids",
+      "description": "Huggies Little Swimmers Assorted Sizes is supplied as Pack of 36.",
+      "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-55913q-300x252.png",
+      "pack": "Pack of 36",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1331,
+      "slug": "huggies-pure-baby-wipes-plastic-free-48-s-70408s",
+      "sku": "70408S",
+      "name": "Huggies Pure Baby Wipes Plastic Free 48’s",
+      "category": "baby-kids",
+      "description": "Huggies Pure Baby Wipes Plastic Free 48’s is supplied as Pack of 10.",
+      "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2025/11/Huggies-Pure-Baby-Wipes-Plastic-Free-48s-70408S-300x300.png",
+      "pack": "Pack of 10",
+      "tags": [
+        "Best seller",
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1631,
+      "slug": "infunbebe-mini-vehicles-6-pack-70820u",
+      "sku": "70820U",
+      "name": "Infunbebe Mini Vehicles 6 Pack",
+      "category": "baby-kids",
+      "description": "Infunbebe Mini Vehicles 6 Pack is supplied as pack of 6.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/12/Mini-Vehicles-6-Pack-70820U.jpg",
+      "pack": "Pack of 6",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1739,
+      "slug": "johnson-s-baby-bath-300ml-61612l",
+      "sku": "61612L",
+      "name": "Johnson’s Baby Bath 300ml",
+      "category": "baby-kids",
+      "description": "Johnson’s Baby Bath 300ml is supplied as Pack of 6.",
+      "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-61612l-300x300.jpg",
+      "pack": "Pack of 6",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1341,
+      "slug": "johnson-s-baby-cotton-pads-50-s-64411s",
+      "sku": "64411S",
+      "name": "Johnson’s Baby Cotton Pads 50’s",
+      "category": "baby-kids",
+      "description": "Johnson’s Baby Cotton Pads 50’s is supplied as Pack of 12.",
+      "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2023/10/64411S-300x300.jpg",
+      "pack": "Pack of 12",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1456,
+      "slug": "johnson-s-baby-lotion-300ml-61613o",
+      "sku": "61613O",
+      "name": "Johnson’s Baby Lotion 300ml",
+      "category": "baby-kids",
+      "description": "Johnson’s Baby Lotion 300ml is supplied as Pack of 6.",
+      "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2022/12/Johnsons-Baby-Lotion-300ml-61613O_2-300x300.jpg",
+      "pack": "Pack of 6",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1643,
+      "slug": "johnson-s-baby-oil-100ml-1985t",
+      "sku": "1985T",
+      "name": "Johnson’s Baby Oil 100ml",
+      "category": "baby-kids",
+      "description": "Johnson’s Baby Oil 100ml is supplied as Pack of 6.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2015/10/Johnsons-Baby-Oil-100ml-1985T.png",
+      "pack": "Pack of 6",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1650,
+      "slug": "johnson-s-baby-oil-200ml-90t",
+      "sku": "90T",
+      "name": "Johnson’s Baby Oil 200ml",
+      "category": "baby-kids",
+      "description": "Johnson’s Baby Oil 200ml is supplied as Pack of 6.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2016/04/Johnsons-Baby-Oil-200ml-90T.png",
+      "pack": "Pack of 6",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1339,
+      "slug": "johnson-s-baby-powder-natural-100g-64355u",
+      "sku": "64355U",
+      "name": "Johnson’s Baby Powder Natural 100g",
+      "category": "baby-kids",
+      "description": "Johnson’s Baby Powder Natural 100g is supplied as Pack of 6.",
+      "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2023/10/Johnsons-Baby-Powder-Natural-100g-64355U-300x300.avif",
+      "pack": "Pack of 6",
+      "tags": [
+        "Best seller",
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1338,
+      "slug": "metanium-everyday-barrier-ointment-40g-67204g",
+      "sku": "67204G",
+      "name": "Metanium Everyday Barrier Ointment 40g",
+      "category": "baby-kids",
+      "description": "Metanium Everyday Barrier Ointment 40g is supplied as Pack of 6.",
+      "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2024/10/Metanium-Everyday-Barrier-Ointment-40g-67204G-300x300.jpeg",
+      "pack": "Pack of 6",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1627,
+      "slug": "mini-activity-cube-tray-box-70819q",
+      "sku": "70819Q",
+      "name": "Mini Activity Cube Tray Box",
+      "category": "baby-kids",
+      "description": "Mini Activity Cube Tray Box is supplied as pack of 12.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/12/Mini-Activity-Cube-Tray-Box-70819Q.jpg",
+      "pack": "Pack of 12",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1632,
+      "slug": "ms-rachel-jumbo-peg-puzzle-70688o",
+      "sku": "70688O",
+      "name": "Ms Rachel Jumbo Peg Puzzle",
+      "category": "baby-kids",
+      "description": "Ms Rachel Jumbo Peg Puzzle is supplied as pack of 24.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/12/Ms.-Rachel-Jumbo-Peg-Puzzle-70688O.webp",
+      "pack": "Pack of 24",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1646,
+      "slug": "nuby-weaning-spoons-6pk-48880w",
+      "sku": "48880W",
+      "name": "Nuby Weaning Spoons 6pk",
+      "category": "baby-kids",
+      "description": "Nuby Weaning Spoons 6pk is supplied as Pack of 6.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-48880w_2.png",
+      "pack": "Pack of 6",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1329,
+      "slug": "nuk-first-choice-day-night-soother-2-pack-0-6m-girls-72591g",
+      "sku": "72591G",
+      "name": "NUK First Choice Day & Night Soother 2 Pack 0-6m Girls",
+      "category": "baby-kids",
+      "description": "NUK First Choice Day & Night Soother 2 Pack 0-6m Girls is supplied as Pack of 6.",
+      "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/First-Choice-Day-Night-Soother-2-Pack-0-6m-Girls-72591G-300x300.jpg",
+      "pack": "Pack of 6",
+      "tags": [
+        "Best seller",
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1453,
+      "slug": "nuk-first-choice-day-night-soother-2-pack-6-18m-girls-72593m",
+      "sku": "72593M",
+      "name": "NUK First Choice Day & Night Soother 2 Pack 6-18m Girls",
+      "category": "baby-kids",
+      "description": "NUK First Choice Day & Night Soother 2 Pack 6-18m Girls is supplied as Pack of 6.",
+      "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/First-Choice-Day-Night-Soother-2-Pack-6-18m-Girls-72593M-300x300.jpg",
+      "pack": "Pack of 6",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1362,
+      "slug": "pampers-baby-dry-nappies-size-3-6-10kgs-13-22lbs-30-s-1243r",
+      "sku": "1243R",
+      "name": "Pampers Baby-Dry Nappies Size 3, 6-10kgs, 13-22lbs 30’s",
+      "category": "baby-kids",
+      "description": "Pampers Baby-Dry Nappies Size 3, 6-10kgs, 13-22lbs 30’s is supplied as Pack of 4.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-1243r_1.png",
+      "pack": "Pack of 4",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1731,
+      "slug": "pampers-baby-dry-nappies-size-4-9-14kgs-20-31lbs-maxi-25-s-1232j",
+      "sku": "1232J",
+      "name": "Pampers Baby-Dry Nappies Size 4, 9-14kgs, 20-31lbs, Maxi 25’s",
+      "category": "baby-kids",
+      "description": "Pampers Baby-Dry Nappies Size 4, 9-14kgs, 20-31lbs, Maxi 25’s is supplied as Pack of 4.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2014/04/Pampers-Baby-Dry-Nappies-Size-4-9-14kgs-20-31lbs-Maxi-25s-1232J.jpg",
+      "pack": "Pack of 4",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1732,
+      "slug": "pampers-baby-dry-nappies-size-5-11-16kgs-24-35lbs-23-s-1240i",
+      "sku": "1240I",
+      "name": "Pampers Baby-Dry Nappies Size 5, 11-16kgs, 24-35lbs 23’s",
+      "category": "baby-kids",
+      "description": "Pampers Baby-Dry Nappies Size 5, 11-16kgs, 24-35lbs 23’s is supplied as Pack of 4.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2014/06/Pampers-Baby-Dry-Nappies-Size-5-11-16kgs-24-35lbs-23s-1240I.jpg",
+      "pack": "Pack of 4",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1736,
+      "slug": "pampers-baby-dry-nappies-size-6-15-kg-33-lbs-19-s-5358n",
+      "sku": "5358N",
+      "name": "Pampers Baby-Dry Nappies Size 6 15+kg, 33+ lbs 19’s",
+      "category": "baby-kids",
+      "description": "Pampers Baby-Dry Nappies Size 6 15+kg, 33+ lbs 19’s is supplied as Pack of 4.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2019/03/Pampers-Baby-Dry-Nappies-Size-6-15kg-33-lbs-19s-5358N.jpg",
+      "pack": "Pack of 4",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1334,
+      "slug": "pampers-baby-dry-nappy-pants-size-7-15-kg-33-lbs-16-s-69108a",
+      "sku": "69108A",
+      "name": "Pampers Baby-Dry Nappy Pants Size 7 15+kg, 33+ lbs, 16’s",
+      "category": "baby-kids",
+      "description": "Pampers Baby-Dry Nappy Pants Size 7 15+kg, 33+ lbs, 16’s is supplied as Pack of 4.",
+      "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2025/04/Pampers-Baby-Dry-Nappies-Size-7-16ct-Carry-Pack-16s-69108A_1-300x300.jpg",
+      "pack": "Pack of 4",
+      "tags": [
+        "Best seller",
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1733,
+      "slug": "pampers-new-baby-premium-protection-nappies-size-1-2-5kg-4-11lbs-22-s-2536n",
+      "sku": "2536N",
+      "name": "Pampers New Baby Premium Protection Nappies Size 1 2-5kg, 4-11lbs 22’s",
+      "category": "baby-kids",
+      "description": "Pampers New Baby Premium Protection Nappies Size 1 2-5kg, 4-11lbs 22’s is supplied as Pack of 4.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2017/05/Pampers-New-Baby-Premium-Protection-Nappies-Size-1-2-5kg-4-11lbs-22s-2536N.jpg",
+      "pack": "Pack of 4",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1358,
+      "slug": "pampers-new-baby-premium-protection-nappies-size-2-4-8kg-9-18lbs-31-s-2537q",
+      "sku": "2537Q",
+      "name": "Pampers New Baby Premium Protection Nappies Size 2 4-8kg, 9-18lbs 31’s",
+      "category": "baby-kids",
+      "description": "Pampers New Baby Premium Protection Nappies Size 2 4-8kg, 9-18lbs 31’s is supplied as Pack of 4.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2017/05/2537Q-scaled.jpeg",
+      "pack": "Pack of 4",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1342,
+      "slug": "pampers-scented-baby-wipes-52s-64372v",
+      "sku": "64372V",
+      "name": "Pampers Scented Baby Wipes 52s",
+      "category": "baby-kids",
+      "description": "Pampers Scented Baby Wipes 52s is supplied as Pack of 12.",
+      "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2023/09/Pampers-Scented-Baby-Wipes-52s-64372V-300x300.webp",
+      "pack": "Pack of 12",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1350,
+      "slug": "pampers-sensitive-baby-wipes-52-s-51000u",
+      "sku": "51000U",
+      "name": "Pampers Sensitive Baby Wipes 52’s",
+      "category": "baby-kids",
+      "description": "Pampers Sensitive Baby Wipes 52’s is supplied as Pack of 12.",
+      "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2019/07/Pampers-Sensitive-Baby-Wipes-52s-51000U-300x300.jpg",
+      "pack": "Pack of 12",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1637,
+      "slug": "play-are-you-a-monkey-like-me-70041b",
+      "sku": "70041B",
+      "name": "Play+ Are You a Monkey Like Me",
+      "category": "baby-kids",
+      "description": "Play+ Are You a Monkey Like Me is supplied as pack of 24.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/08/Play-Are-you-a-Monkey-like-me-70041B.png",
+      "pack": "Pack of 24",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1640,
+      "slug": "play-search-and-shine-in-the-jungle-70040y",
+      "sku": "70040Y",
+      "name": "Play+ Search and Shine In the Jungle",
+      "category": "baby-kids",
+      "description": "Play+ Search and Shine In the Jungle is supplied as pack of 24.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/08/Play-Search-and-Shine-In-the-Jungle-70040Y.png",
+      "pack": "Pack of 24",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1638,
+      "slug": "play-shhh-whos-there-baby-animals-70039u",
+      "sku": "70039U",
+      "name": "Play+ Shhh Who’s There Baby Animals",
+      "category": "baby-kids",
+      "description": "Play+ Shhh Who’s There Baby Animals is supplied as pack of 24.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2025/08/Play-Shhh…Whos-there-Baby-Animals-70039U.png",
+      "pack": "Pack of 24",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden",
+        "Full product contained frame"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1356,
+      "slug": "sudocrem-antiseptic-cream-60g-tub-3738h",
+      "sku": "3738H",
+      "name": "Sudocrem Antiseptic Cream 60g Tub",
+      "category": "baby-kids",
+      "description": "Sudocrem Antiseptic Cream 60g Tub is supplied as Pack of 12.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-3738h_1.jpg",
+      "pack": "Pack of 12",
+      "tags": [
+        "Best seller",
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1642,
+      "slug": "sudocrem-skin-care-cream-30g-white-tube-100e",
+      "sku": "100E",
+      "name": "Sudocrem Skin Care Cream 30g White Tube",
+      "category": "baby-kids",
+      "description": "Sudocrem Skin Care Cream 30g White Tube is supplied as Pack of 6.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2013/09/100E-Sudocrem-Skin-Care-Cream-30g-White-Tube-.png",
+      "pack": "Pack of 6",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    },
+    {
+      "id": 1647,
+      "slug": "water-wipes-sensitive-baby-wipes-60-s-55935g",
+      "sku": "55935G",
+      "name": "Water Wipes Sensitive Baby Wipes 60’s",
+      "category": "baby-kids",
+      "description": "Water Wipes Sensitive Baby Wipes 60’s is supplied as Pack of 6.",
+      "image": "https://media.harrisonsdirect.co.uk/spio/ret_img,q_cdnize,to_webp,s_webp/www.harrisonsdirect.co.uk/wp-content/uploads/2023/08/products-55935g-300x300.png",
+      "pack": "Pack of 6",
+      "tags": [
+        "Baby & Kids",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "featured": false
+    }
+  ]
+}

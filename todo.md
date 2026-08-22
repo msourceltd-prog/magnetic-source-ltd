@@ -204,6 +204,10 @@
 
 - [x] Replace only the current homepage hero visual with a distinct alternate premium brand-neutral supplier showcase image, retaining the existing homepage copy, layout, and department rail. The alternate architectural cobalt gallery composition preserved the bright text-safe area; production build passed and desktop plus mobile hero views were visually verified.
 
+## Gem Imports Baby & Kids Catalogue Replacement
+
+- [x] Assess the supplied Gem Imports Baby Wholesale catalogue and current Baby & Kids records; after confirmed usage authorisation and scope, replace only Baby & Kids products while retaining every other department and website function. Authorisation was confirmed. The prior 45 Baby & Kids records were backed up and replaced with 55 Gem Imports records using complete supplier images and carton-based pack formats; desktop and mobile category views display the new range cleanly. Source-of-truth verification confirmed all 55 Baby & Kids SKUs are Gem Imports, all other category counts remain present, and the production build regenerated the 325-product sitemap.
+
 ## Supplier-Verified Pack-Format Correction
 
 - [ ] Audit current catalogue pack formats and correct supplier-supported wholesale quantities such as Pack of 12, Pack of 24, and Pack of 36 without inventing product pack sizes or changing other product data.
