@@ -1,9 +1,11 @@
 /**
  * Trade Ledger, Recut: an operational, paper-and-ink footer that closes each
- * page with professional registered-company details and useful support routes,
- * using a restrained solid-navy closure without background ornament.
+ * page with professional registered-company details and useful support routes.
+ * Its existing information modules are warmed after initial paint so footer
+ * navigation feels immediate without changing restored link destinations.
  */
 import { Mail, MapPin, Phone } from "lucide-react";
+import { useEffect } from "react";
 import { Link } from "wouter";
 
 const footerGroups = [
@@ -26,6 +28,15 @@ function FooterBrandMark() {
 }
 
 export default function SiteFooter() {
+  useEffect(() => {
+    const warmFooterRoutes = () => {
+      void import("@/pages/InfoPage");
+      void import("@/pages/Contact");
+    };
+    const timer = window.setTimeout(warmFooterRoutes, 900);
+    return () => window.clearTimeout(timer);
+  }, []);
+
   return <footer className="site-footer">
     <div className="trade-shell footer-top">
       <section className="footer-statement">

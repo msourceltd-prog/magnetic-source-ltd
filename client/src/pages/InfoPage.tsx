@@ -1,6 +1,7 @@
 /**
  * Trade Ledger, Recut: original practical support copy for brand approval,
- * preserving a calm left rail and clear information hierarchy.
+ * preserving a calm left rail, clear information hierarchy, and robust path
+ * normalization so each information route retains its own approved copy.
  */
 import { ArrowRight, Check, ChevronRight } from "lucide-react";
 import { Link, useLocation } from "wouter";
@@ -18,6 +19,7 @@ const content: Record<string, InfoPageContent> = {
 
 export default function InfoPage() {
   const [location] = useLocation();
-  const page = content[location] || content["/about"];
+  const pagePath = (location.split(/[?#]/)[0] || "/").replace(/\/+$/, "") || "/";
+  const page = content[pagePath] || content["/about"];
   return <StoreLayout><section className="info-hero"><div className="trade-shell"><p className="eyebrow">{page.eyebrow}</p><h1>{page.title}</h1><p>{page.intro}</p>{page.evidence && <div className="info-evidence" aria-label="Trade information"><span className="info-evidence-dot" aria-hidden="true" />{page.evidence.map((item) => <span key={item}>{item}</span>)}</div>}</div></section><div className="trade-shell info-layout section-space"><aside className="info-rail"><p className="eyebrow">On this page</p>{page.sections.map((section, index) => <a key={section.title} href={`#info-${index}`}><span>{String(index + 1).padStart(2,"0")}</span>{section.title}<ChevronRight size={15} /></a>)}<Link href="/contact" className="info-rail-contact">Talk to the trade desk <ArrowRight size={15} /></Link></aside><article className="info-content">{page.sections.map((section,index) => <section id={`info-${index}`} key={section.title}><span className="section-number">{String(index + 1).padStart(2,"0")}</span><h2>{section.title}</h2>{section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}{section.points && <ul>{section.points.map((point) => <li key={point}><Check size={17} /> {point}</li>)}</ul>}</section>)}</article></div></StoreLayout>;
 }

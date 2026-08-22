@@ -144,6 +144,10 @@
 
 - [x] Restore only the footer navigation behaviour from before the Footer Information-Link Routing change, retaining all later stability, speed, design, catalogue, and content updates. Production build passed; the preserved footer was visually checked on desktop and mobile.
 
+## Information-Page Content and Loading Correction
+
+- [x] Ensure About, Trade account, Delivery & returns, Contact, Privacy, and Terms each resolve to their own correct content and reduce avoidable loading delay without restoring the reverted footer-routing behaviour. Page paths now safely ignore query strings, fragments, and trailing slashes; shared InfoPage and Contact modules warm after initial paint. Production build passed; all six desktop pages and Trade account, Contact, and Terms on mobile were visually verified with distinct approved opening copy.
+
 ## Footer Decoration Cleanup
 
 - [x] Remove only the artificial-looking decorative blue graphic from the shared footer while retaining its existing content, logo, payment marks, links, layout, and core navy treatment. Production build passed; the simplified solid-navy footer was visually checked on desktop and mobile.
