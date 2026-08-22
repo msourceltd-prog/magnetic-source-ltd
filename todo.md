@@ -176,6 +176,14 @@
 
 - [x] Remove only the redundant Login button from signed-out product cards, retaining Login to see price and the signed-in Add action. Production build passed; the signed-out catalogue was visually verified with only Login to see price shown on product cards.
 
+## Supplier-Verified Pack-Format Correction
+
+- [ ] Audit current catalogue pack formats and correct supplier-supported wholesale quantities such as Pack of 12, Pack of 24, and Pack of 36 without inventing product pack sizes or changing other product data.
+
+## Confirmed Pack of 24 Catalogue Update
+
+- [x] Update all 62 current Pack of 1 catalogue records to Pack of 24 based on the user’s confirmed wholesaler instruction; verify the Supabase source of truth and representative public category views. Supabase source-of-truth audit now returns zero Pack of 1 records, all 62 audited SKUs report Pack of 24, and Bluey’s Telephone (70046Q) was visually confirmed on its public product page.
+
 ## Footer Decoration Cleanup
 
 - [x] Remove only the artificial-looking decorative blue graphic from the shared footer while retaining its existing content, logo, payment marks, links, layout, and core navy treatment. Production build passed; the simplified solid-navy footer was visually checked on desktop and mobile.

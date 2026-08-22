@@ -1,0 +1,439 @@
+{
+  "count": 62,
+  "products": [
+    {
+      "sku": "70046Q",
+      "name": "Bluey’s Telephone",
+      "pack": "Pack of 1",
+      "description": "Bluey’s Telephone is supplied as pack of 1.",
+      "category": "baby-kids"
+    },
+    {
+      "sku": "69354V",
+      "name": "Fisher Price Baby Training Ball",
+      "pack": "Pack of 1",
+      "description": "Fisher Price Baby Training Ball is supplied as pack of 1.",
+      "category": "baby-kids"
+    },
+    {
+      "sku": "69356B",
+      "name": "Fisher Price Bath Blocks",
+      "pack": "Pack of 1",
+      "description": "Fisher Price Bath Blocks is supplied as pack of 1.",
+      "category": "baby-kids"
+    },
+    {
+      "sku": "69350J",
+      "name": "Fisher Price Portable Circular Ball Pit 25pc",
+      "pack": "Pack of 1",
+      "description": "Fisher Price Portable Circular Ball Pit 25pc is supplied as pack of 1.",
+      "category": "baby-kids"
+    },
+    {
+      "sku": "69352P",
+      "name": "Fisher Price Tee-Pee Play Tent",
+      "pack": "Pack of 1",
+      "description": "Fisher Price Tee-Pee Play Tent is supplied as pack of 1.",
+      "category": "baby-kids"
+    },
+    {
+      "sku": "70688O",
+      "name": "Ms Rachel Jumbo Peg Puzzle",
+      "pack": "Pack of 1",
+      "description": "Ms Rachel Jumbo Peg Puzzle is supplied as pack of 1.",
+      "category": "baby-kids"
+    },
+    {
+      "sku": "70041B",
+      "name": "Play+ Are You a Monkey Like Me",
+      "pack": "Pack of 1",
+      "description": "Play+ Are You a Monkey Like Me is supplied as pack of 1.",
+      "category": "baby-kids"
+    },
+    {
+      "sku": "70040Y",
+      "name": "Play+ Search and Shine In the Jungle",
+      "pack": "Pack of 1",
+      "description": "Play+ Search and Shine In the Jungle is supplied as pack of 1.",
+      "category": "baby-kids"
+    },
+    {
+      "sku": "70039U",
+      "name": "Play+ Shhh Who’s There Baby Animals",
+      "pack": "Pack of 1",
+      "description": "Play+ Shhh Who’s There Baby Animals is supplied as pack of 1.",
+      "category": "baby-kids"
+    },
+    {
+      "sku": "15846E",
+      "name": "Assorted Party Photo Props With Sticks",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "clearance"
+    },
+    {
+      "sku": "69999C",
+      "name": "Baylis & Harding Beauticology Cosmic Body Pamper Gift Set",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "clearance"
+    },
+    {
+      "sku": "70001H",
+      "name": "Baylis & Harding Beauticology Cosmic Fun Pop Beauty Bag Gift Set",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "clearance"
+    },
+    {
+      "sku": "69954T",
+      "name": "Baylis & Harding Limited Edition Body Pamper Gift Set",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "clearance"
+    },
+    {
+      "sku": "69983F",
+      "name": "Baylis & Harding The Fuzzy Duck Cocktails Indulgent Body Care Gift Set",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "clearance"
+    },
+    {
+      "sku": "69990B",
+      "name": "Baylis & Harding The Fuzzy Duck Winter Wonderland Decorative Crackers Gift Set",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "clearance"
+    },
+    {
+      "sku": "69987R",
+      "name": "Baylis & Harding The Fuzzy Duck Winter Wonderland Luxury Bath Bombs Gift Set",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "clearance"
+    },
+    {
+      "sku": "69830T",
+      "name": "Bubble T Boba Body Wash 4 Piece Gift Set",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "clearance"
+    },
+    {
+      "sku": "69828M",
+      "name": "Bubble T Boba Face Mask 3 Piece Gift Set",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "clearance"
+    },
+    {
+      "sku": "69832Z",
+      "name": "Bubble T Boba Wash & Body 3 Piece Gift Set",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "clearance"
+    },
+    {
+      "sku": "69838R",
+      "name": "Bubble T Rainbow Crackers 3 Piece Gift Set",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "clearance"
+    },
+    {
+      "sku": "69836L",
+      "name": "Bubble T Sweetea Bubble Bath Collection 5 Piece Gift Set",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "clearance"
+    },
+    {
+      "sku": "69834F",
+      "name": "Bubble T Sweetea Donut Bath Fizzer 4 Piece Gift Set",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "clearance"
+    },
+    {
+      "sku": "69835I",
+      "name": "Bubble T Sweetea Hand Collection 3 Piece Gift Set",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "clearance"
+    },
+    {
+      "sku": "69890X",
+      "name": "Ho Ho Ho Hand & Body Wash Gift Set",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "clearance"
+    },
+    {
+      "sku": "69892D",
+      "name": "Ho Ho Ho Snow Globe Hand Cream Trio Gift Set",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "clearance"
+    },
+    {
+      "sku": "65397A",
+      "name": "Just Stationery Split Cork/Dry Wipe Board 450mm x 300mm",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "clearance"
+    },
+    {
+      "sku": "69922Y",
+      "name": "Man’Stuff Ultimate Six Pack Gift Set",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "clearance"
+    },
+    {
+      "sku": "69882Y",
+      "name": "Stitch Pamper Hair Turban",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "clearance"
+    },
+    {
+      "sku": "69885H",
+      "name": "Stitchmas Bath Fizzer Pack",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "clearance"
+    },
+    {
+      "sku": "61070L",
+      "name": "World’s Smallest Laser Tag",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "clearance"
+    },
+    {
+      "sku": "HBT-72889L",
+      "name": "Nivea Pampervan On-The-Go Gift Set",
+      "pack": "Pack of 1",
+      "description": "This gift set includes Nivea Pearl & Beauty Roll-on Deodorant, Nivea Original Lip Balm, Nivea Crème Soft Body Wash, Nivea Soft Moisturiser and 3-in-1 Refreshing Cleansing Wipes. Supplier reference: 72889L.",
+      "category": "health-beauty"
+    },
+    {
+      "sku": "HPE-72478N",
+      "name": "Ariel Pods 86s Original",
+      "pack": "Pack of 1",
+      "description": "Ariel Pods 86s Original is supplied as pack of 1. Supplier reference: 72478N.",
+      "category": "household-pet"
+    },
+    {
+      "sku": "HPE-39621L",
+      "name": "Milestone 100ft Multi-Purpose Rope – 3 Assorted Colours",
+      "pack": "Pack of 1",
+      "description": "Milestone 100ft Multi-Purpose Rope – 3 Assorted Colours is supplied as pack of 1. Supplier reference: 39621L.",
+      "category": "household-pet"
+    },
+    {
+      "sku": "HPE-39619E",
+      "name": "Milestone 60LED Ultra Bright Portable Tent Light",
+      "pack": "Pack of 1",
+      "description": "Milestone 60LED Ultra Bright Portable Tent Light is supplied as pack of 1. Supplier reference: 39619E.",
+      "category": "household-pet"
+    },
+    {
+      "sku": "HPE-39616V",
+      "name": "Milestone Magnifying Compass With Lanyard",
+      "pack": "Pack of 1",
+      "description": "Milestone Magnifying Compass With Lanyard is supplied as pack of 1. Supplier reference: 39616V.",
+      "category": "household-pet"
+    },
+    {
+      "sku": "72568M",
+      "name": "Nylabone Extreme Chew Bacon Flavour Medium",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "household-pet"
+    },
+    {
+      "sku": "HPE-72360G",
+      "name": "Nylabone Extreme Chew Venison Antler Alternative Chew",
+      "pack": "Pack of 1",
+      "description": "Nylabone Extreme Chew Venison Antler Alternative Chew is supplied as pack of 1. Supplier reference: 72360G.",
+      "category": "household-pet"
+    },
+    {
+      "sku": "HPE-39615S",
+      "name": "Summit Glow In The Dark Rock Pegs With Case 20cm Pack of 20",
+      "pack": "Pack of 1",
+      "description": "Summit Glow In The Dark Rock Pegs With Case 20cm Pack of 20 is supplied as pack of 1. Supplier reference: 39615S.",
+      "category": "household-pet"
+    },
+    {
+      "sku": "69932D",
+      "name": "Man’Stuff Toiletries Advent Gift Set",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "seasonal-christmas"
+    },
+    {
+      "sku": "73202K",
+      "name": "Uno Advent Calendar",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "seasonal-christmas"
+    },
+    {
+      "sku": "STP-38679C",
+      "name": "250 Foam Shapes",
+      "pack": "Pack of 1",
+      "description": "Assorted foam shapes in multiple colours, shapes and sizes for decorating paper and cardboard without scissors or glue. Supplier reference: 38679C.",
+      "category": "stationery-party"
+    },
+    {
+      "sku": "72679Y",
+      "name": "Animigos Funky Friends – Aubergine",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "toys-gifts"
+    },
+    {
+      "sku": "72676P",
+      "name": "Animigos Funky Friends – Avocado",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "toys-gifts"
+    },
+    {
+      "sku": "72675M",
+      "name": "Animigos Funky Friends – Bubble Tea",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "toys-gifts"
+    },
+    {
+      "sku": "72686U",
+      "name": "Animigos Funky Friends – Burger",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "toys-gifts"
+    },
+    {
+      "sku": "72685R",
+      "name": "Animigos Funky Friends – Daisy",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "toys-gifts"
+    },
+    {
+      "sku": "72681F",
+      "name": "Animigos Funky Friends – French Fries",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "toys-gifts"
+    },
+    {
+      "sku": "72682I",
+      "name": "Animigos Funky Friends – Pizza",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "toys-gifts"
+    },
+    {
+      "sku": "72677S",
+      "name": "Animigos Funky Friends – Succulent",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "toys-gifts"
+    },
+    {
+      "sku": "72680C",
+      "name": "Animigos Funky Friends – Taco",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "toys-gifts"
+    },
+    {
+      "sku": "72684O",
+      "name": "Animigos Funky Friends – Tulip",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "toys-gifts"
+    },
+    {
+      "sku": "73035A",
+      "name": "Dinosaur Trail Twist Folding Light Up Scooter",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "toys-gifts"
+    },
+    {
+      "sku": "70692B",
+      "name": "Fisher Price Baby Roll Around 6m+",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "toys-gifts"
+    },
+    {
+      "sku": "73165T",
+      "name": "Fisher Price Pop-Up Play Tunnel",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "toys-gifts"
+    },
+    {
+      "sku": "72178B",
+      "name": "Hoodeazzz Adoramals Kiki the Budgie Plush Memory Foam Travel Pillow & Hood",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "toys-gifts"
+    },
+    {
+      "sku": "72989P",
+      "name": "Monopoly Deal",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "toys-gifts"
+    },
+    {
+      "sku": "73037G",
+      "name": "Nebulus Scooter Neon Orange With Black Chrome Finish",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "toys-gifts"
+    },
+    {
+      "sku": "73036D",
+      "name": "Unicorn Trail Twist Folding Light Up Scooter",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "toys-gifts"
+    },
+    {
+      "sku": "73160E",
+      "name": "Zuru Metal Machines S1 Road Rampage Playset",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "toys-gifts"
+    },
+    {
+      "sku": "73161H",
+      "name": "Zuru Metal Machines S1 T-Rex Playset",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "toys-gifts"
+    },
+    {
+      "sku": "73164Q",
+      "name": "Zuru X-Shot Excel Hawk Eye With 16 Darts",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "toys-gifts"
+    },
+    {
+      "sku": "73163N",
+      "name": "Zuru Xshot Excel Double Fury 4 Blaster Combo Pack",
+      "pack": "Pack of 1",
+      "description": "",
+      "category": "toys-gifts"
+    }
+  ]
+}
