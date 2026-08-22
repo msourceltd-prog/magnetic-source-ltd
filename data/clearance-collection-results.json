@@ -1,0 +1,317 @@
+{
+  "total": 31,
+  "bestSellers": 19,
+  "newArrivals": 12,
+  "records": [
+    {
+      "id": 1665,
+      "sku": "69892D",
+      "collection": "New arrival",
+      "tags": [
+        "New arrival",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1664,
+      "sku": "69890X",
+      "collection": "New arrival",
+      "tags": [
+        "New arrival",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1663,
+      "sku": "69882Y",
+      "collection": "New arrival",
+      "tags": [
+        "New arrival",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1662,
+      "sku": "69838R",
+      "collection": "New arrival",
+      "tags": [
+        "New arrival",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1661,
+      "sku": "69836L",
+      "collection": "New arrival",
+      "tags": [
+        "New arrival",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1660,
+      "sku": "69835I",
+      "collection": "New arrival",
+      "tags": [
+        "New arrival",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1659,
+      "sku": "69834F",
+      "collection": "New arrival",
+      "tags": [
+        "New arrival",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1658,
+      "sku": "69832Z",
+      "collection": "New arrival",
+      "tags": [
+        "New arrival",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1657,
+      "sku": "69830T",
+      "collection": "New arrival",
+      "tags": [
+        "New arrival",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1656,
+      "sku": "69828M",
+      "collection": "New arrival",
+      "tags": [
+        "New arrival",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1655,
+      "sku": "68612B",
+      "collection": "New arrival",
+      "tags": [
+        "New arrival",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1654,
+      "sku": "65397A",
+      "collection": "New arrival",
+      "tags": [
+        "New arrival",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1653,
+      "sku": "6359W",
+      "collection": "Best seller",
+      "tags": [
+        "Best seller",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1422,
+      "sku": "15846E",
+      "collection": "Best seller",
+      "tags": [
+        "Best seller",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1418,
+      "sku": "38884A",
+      "collection": "Best seller",
+      "tags": [
+        "Best seller",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1040,
+      "sku": "21217E",
+      "collection": "Best seller",
+      "tags": [
+        "Best seller",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1038,
+      "sku": "61070L",
+      "collection": "Best seller",
+      "tags": [
+        "Best seller",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1034,
+      "sku": "64792v",
+      "collection": "Best seller",
+      "tags": [
+        "Best seller",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1033,
+      "sku": "64794B",
+      "collection": "Best seller",
+      "tags": [
+        "Best seller",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1031,
+      "sku": "22392N",
+      "collection": "Best seller",
+      "tags": [
+        "Best seller",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1030,
+      "sku": "39169J",
+      "collection": "Best seller",
+      "tags": [
+        "Best seller",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1029,
+      "sku": "39170N",
+      "collection": "Best seller",
+      "tags": [
+        "Best seller",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1027,
+      "sku": "39175C",
+      "collection": "Best seller",
+      "tags": [
+        "Best seller",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1017,
+      "sku": "69885H",
+      "collection": "Best seller",
+      "tags": [
+        "Best seller",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1013,
+      "sku": "69922Y",
+      "collection": "Best seller",
+      "tags": [
+        "Best seller",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1012,
+      "sku": "69999C",
+      "collection": "Best seller",
+      "tags": [
+        "Best seller",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1011,
+      "sku": "69954T",
+      "collection": "Best seller",
+      "tags": [
+        "Best seller",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1010,
+      "sku": "69983F",
+      "collection": "Best seller",
+      "tags": [
+        "Best seller",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1009,
+      "sku": "69990B",
+      "collection": "Best seller",
+      "tags": [
+        "Best seller",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1008,
+      "sku": "69987R",
+      "collection": "Best seller",
+      "tags": [
+        "Best seller",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1007,
+      "sku": "70001H",
+      "collection": "Best seller",
+      "tags": [
+        "Best seller",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    }
+  ]
+}

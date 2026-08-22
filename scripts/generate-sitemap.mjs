@@ -14,6 +14,8 @@ const lastmod = new Date().toISOString().slice(0, 10);
 const staticPages = [
   { path: "/", changefreq: "weekly", priority: "1.0" },
   { path: "/shop", changefreq: "daily", priority: "0.9" },
+  { path: "/shop?category=best-sellers", changefreq: "weekly", priority: "0.8" },
+  { path: "/shop?category=new-arrivals", changefreq: "weekly", priority: "0.8" },
   { path: "/about", changefreq: "monthly", priority: "0.7" },
   { path: "/contact", changefreq: "monthly", priority: "0.8" },
   { path: "/delivery-returns", changefreq: "monthly", priority: "0.6" },
@@ -35,7 +37,7 @@ async function readPublicRows(table) {
 }
 
 const [categories, products] = await Promise.all([readPublicRows("categories"), readPublicRows("products")]);
-const categoryPages = categories.map(({ slug }) => ({ path: `/shop?category=${encodeURIComponent(slug)}`, changefreq: "weekly", priority: "0.8" }));
+const categoryPages = categories.filter(({ slug }) => slug !== "clearance").map(({ slug }) => ({ path: `/shop?category=${encodeURIComponent(slug)}`, changefreq: "weekly", priority: "0.8" }));
 const productPages = products.map(({ slug }) => ({ path: `/product/${encodeURIComponent(slug)}`, changefreq: "weekly", priority: "0.6" }));
 const urls = [...staticPages, ...categoryPages, ...productPages];
 

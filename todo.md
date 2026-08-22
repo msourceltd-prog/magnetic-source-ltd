@@ -184,6 +184,10 @@
 
 - [x] Remove only the Clear selection control from Browse categories while retaining all category links, filters, search, and product behaviour. Production build passed; the Health & Beauty desktop Browse categories rail was visually verified without the control.
 
+## Best Sellers and New Arrivals Collections
+
+- [x] Replace only the Clearance browsing option with Best sellers and New arrivals collections, place them before all department categories, and add clear collection tags to relevant products while keeping every other category unchanged. The 31 existing Clearance records are now tagged as 19 Best sellers and 12 New arrivals; desktop and mobile collection views were visually verified, all remaining department categories were retained, and the production build passed.
+
 ## Supplier-Verified Pack-Format Correction
 
 - [ ] Audit current catalogue pack formats and correct supplier-supported wholesale quantities such as Pack of 12, Pack of 24, and Pack of 36 without inventing product pack sizes or changing other product data.

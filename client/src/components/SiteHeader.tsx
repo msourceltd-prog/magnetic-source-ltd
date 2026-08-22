@@ -25,6 +25,11 @@ const serviceBenefits = [
   { icon: ShoppingBag, label: "No minimum order quantity" },
 ] as const;
 
+const featuredCollections = [
+  { slug: "best-sellers", name: "Best sellers" },
+  { slug: "new-arrivals", name: "New arrivals" },
+] as const;
+
 function MagneticFieldMark() {
   return <svg className="brand-mark" viewBox="0 0 64 64" role="img" aria-labelledby="brand-mark-title" focusable="false">
     <title id="brand-mark-title">Magnetic Source field mark</title>
@@ -117,7 +122,7 @@ export default function SiteHeader() {
       </div>
       <nav className="category-tape" aria-label="Product categories">
         <div className="trade-shell category-tape-inner">
-          {categories.map((category) => {
+          {[...featuredCollections, ...categories.filter((category) => category.slug !== "clearance")].map((category) => {
             const href = `/shop?category=${category.slug}`;
             const isActive = activeCategorySlug === category.slug;
             return <a key={category.slug} href={href} className={`category-tape-link${isActive ? " active" : ""}`} aria-current={isActive ? "page" : undefined} onClick={(event) => followCategory(event, category.slug)}><span>{category.name}</span><ChevronDown size={13} /></a>;
@@ -143,7 +148,7 @@ export default function SiteHeader() {
       {signedIn ? <button type="button" className="mobile-account-button" onClick={() => { void signOut(); setMobileOpen(false); }}><LogOut size={15} /> Sign out</button> : <button type="button" className="mobile-account-button" onClick={() => { openLogin(); setMobileOpen(false); }}>Login to see prices</button>}
       <p className="mobile-nav-label">Browse by department</p>
       <div className="mobile-category-links">
-        {categories.map((category) => { const href = `/shop?category=${category.slug}`; return <a key={category.slug} href={href} onClick={(event) => followCategory(event, category.slug)}>{category.name}<ChevronDown size={15} /></a>; })}
+        {[...featuredCollections, ...categories.filter((category) => category.slug !== "clearance")].map((category) => { const href = `/shop?category=${category.slug}`; return <a key={category.slug} href={href} onClick={(event) => followCategory(event, category.slug)}>{category.name}<ChevronDown size={15} /></a>; })}
       </div>
     </div>}
   </>;

@@ -1,0 +1,316 @@
+{
+  "createdAt": "2026-08-22T13:40:54.579Z",
+  "instruction": "User requested the existing Clearance collection be divided into Best sellers and New arrivals while leaving all other category assignments unchanged.",
+  "records": [
+    {
+      "id": 1665,
+      "sku": "69892D",
+      "name": "Ho Ho Ho Snow Globe Hand Cream Trio Gift Set",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1664,
+      "sku": "69890X",
+      "name": "Ho Ho Ho Hand & Body Wash Gift Set",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1663,
+      "sku": "69882Y",
+      "name": "Stitch Pamper Hair Turban",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1662,
+      "sku": "69838R",
+      "name": "Bubble T Rainbow Crackers 3 Piece Gift Set",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1661,
+      "sku": "69836L",
+      "name": "Bubble T Sweetea Bubble Bath Collection 5 Piece Gift Set",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1660,
+      "sku": "69835I",
+      "name": "Bubble T Sweetea Hand Collection 3 Piece Gift Set",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1659,
+      "sku": "69834F",
+      "name": "Bubble T Sweetea Donut Bath Fizzer 4 Piece Gift Set",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1658,
+      "sku": "69832Z",
+      "name": "Bubble T Boba Wash & Body 3 Piece Gift Set",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1657,
+      "sku": "69830T",
+      "name": "Bubble T Boba Body Wash 4 Piece Gift Set",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1656,
+      "sku": "69828M",
+      "name": "Bubble T Boba Face Mask 3 Piece Gift Set",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1655,
+      "sku": "68612B",
+      "name": "Star Wars: Unlimited Twilight of the Republic Booster CDU",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1654,
+      "sku": "65397A",
+      "name": "Just Stationery Split Cork/Dry Wipe Board 450mm x 300mm",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1653,
+      "sku": "6359W",
+      "name": "Swizzels Drumstick Squashies Original Raspberry & Milk Flavour 60g 69p PMP – Best Before End 10/26",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1422,
+      "sku": "15846E",
+      "name": "Assorted Party Photo Props With Sticks",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1418,
+      "sku": "38884A",
+      "name": "Foil Happy Birthday Balloon 16″ – Silver",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1040,
+      "sku": "21217E",
+      "name": "Christmas Giant Bike Sack",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1038,
+      "sku": "61070L",
+      "name": "World’s Smallest Laser Tag",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1034,
+      "sku": "64792v",
+      "name": "Chakra Bath Bomb in Gift Box in CDU",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1033,
+      "sku": "64794B",
+      "name": "Somewhere Rainbow Bath Bomb in Gift Box in CDU",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1031,
+      "sku": "22392N",
+      "name": "Squishmallows Pencil Case",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1030,
+      "sku": "39169J",
+      "name": "Pokemon Pen Set 3’s",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1029,
+      "sku": "39170N",
+      "name": "Pokemon 10 Colour Pen",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1027,
+      "sku": "39175C",
+      "name": "Fleur 3 Pack A4 Notebooks",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1017,
+      "sku": "69885H",
+      "name": "Stitchmas Bath Fizzer Pack",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1013,
+      "sku": "69922Y",
+      "name": "Man’Stuff Ultimate Six Pack Gift Set",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1012,
+      "sku": "69999C",
+      "name": "Baylis & Harding Beauticology Cosmic Body Pamper Gift Set",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1011,
+      "sku": "69954T",
+      "name": "Baylis & Harding Limited Edition Body Pamper Gift Set",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1010,
+      "sku": "69983F",
+      "name": "Baylis & Harding The Fuzzy Duck Cocktails Indulgent Body Care Gift Set",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1009,
+      "sku": "69990B",
+      "name": "Baylis & Harding The Fuzzy Duck Winter Wonderland Decorative Crackers Gift Set",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1008,
+      "sku": "69987R",
+      "name": "Baylis & Harding The Fuzzy Duck Winter Wonderland Luxury Bath Bombs Gift Set",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    },
+    {
+      "id": 1007,
+      "sku": "70001H",
+      "name": "Baylis & Harding Beauticology Cosmic Fun Pop Beauty Bag Gift Set",
+      "tags": [
+        "Clearance",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ]
+    }
+  ]
+}
