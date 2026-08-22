@@ -1,7 +1,7 @@
 /**
  * Trade Ledger, Recut: utility-first navigation with a Source Cobalt category
- * tape; the selected department uses a lighter cobalt, white underline, and
- * current-page semantics rather than a dark or black state.
+ * tape; the selected department uses a lighter cobalt without an underline,
+ * and the Shop route is warmed for fast client-side department switching.
  */
 import { FormEvent, MouseEvent, useEffect, useState } from "react";
 import { useLocation } from "wouter";
@@ -59,6 +59,12 @@ export default function SiteHeader() {
     };
   }, [location]);
 
+  useEffect(() => {
+    const warmShopRoute = () => { void import("@/pages/Shop"); };
+    const timer = window.setTimeout(warmShopRoute, 650);
+    return () => window.clearTimeout(timer);
+  }, []);
+
   const followInternal = (event: MouseEvent<HTMLAnchorElement>, href: string) => {
     if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
     event.preventDefault();
@@ -74,7 +80,7 @@ export default function SiteHeader() {
   const followCategory = (event: MouseEvent<HTMLAnchorElement>, slug: string) => {
     const href = `/shop?category=${slug}`;
     setActiveCategorySlug(slug);
-    if (location.startsWith("/shop")) {
+    if ((location.split("?")[0].replace(/\/+$/, "") || "/") === "/shop") {
       event.preventDefault();
       window.history.replaceState(null, "", href);
       window.dispatchEvent(new CustomEvent("magnetic-source:category-change", { detail: { slug } }));

@@ -4,7 +4,7 @@
  * quote-required state. Search indexing is prepared once per catalogue update
  * so category switches and typing remain lightweight on desktop and mobile.
  */
-import { useDeferredValue, useEffect, useMemo, useState } from "react";
+import { startTransition, useDeferredValue, useEffect, useMemo, useState } from "react";
 import { ChevronDown, Filter, Search, SlidersHorizontal, X } from "lucide-react";
 import { useLocation, useSearch } from "wouter";
 import ProductCard from "@/components/ProductCard";
@@ -66,15 +66,24 @@ export default function Shop() {
     const query = params.toString();
     window.history.replaceState(null, "", query ? `/shop?${query}` : "/shop");
   };
-  const chooseCategory = (slug: string) => { setActiveCategory(slug); setVisibleCount(24); setFiltersOpen(false); replaceShopQuery(slug); };
+  const chooseCategory = (slug: string) => {
+    startTransition(() => {
+      setActiveCategory(slug);
+      setVisibleCount(24);
+      setFiltersOpen(false);
+    });
+    replaceShopQuery(slug);
+  };
   const reset = () => { setActiveCategory(""); setSearch(""); setPriceRange("all"); setSort("catalogue"); setVisibleCount(24); setFiltersOpen(false); replaceShopQuery("", "", "catalogue"); };
 
   useEffect(() => {
     const applyHeaderCategory = (event: Event) => {
       const slug = (event as CustomEvent<{ slug: string }>).detail?.slug || "";
-      setActiveCategory(slug);
-      setVisibleCount(24);
-      setFiltersOpen(false);
+      startTransition(() => {
+        setActiveCategory(slug);
+        setVisibleCount(24);
+        setFiltersOpen(false);
+      });
     };
     window.addEventListener("magnetic-source:category-change", applyHeaderCategory);
     return () => window.removeEventListener("magnetic-source:category-change", applyHeaderCategory);
