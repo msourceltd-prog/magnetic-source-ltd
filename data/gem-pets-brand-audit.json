@@ -1,0 +1,508 @@
+{
+  "supplier_product_count": 100,
+  "explicit_branded_product_count": 0,
+  "brand_counts": {},
+  "branded_products": [],
+  "all_product_names": [
+    {
+      "source_sku": "PET7199OB",
+      "name": "Silica Crystals Cat Litter 3.8L",
+      "brand": null
+    },
+    {
+      "source_sku": "PET3774",
+      "name": "Flashing and Squeaky Play Ball",
+      "brand": null
+    },
+    {
+      "source_sku": "PET4502",
+      "name": "Pet Tennis Balls 2pk",
+      "brand": null
+    },
+    {
+      "source_sku": "PET12794",
+      "name": "Collapsible Pet Bowl With Clip 15cm",
+      "brand": null
+    },
+    {
+      "source_sku": "PET3779",
+      "name": "Dog Play Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET3781",
+      "name": "Kitty Play Fun Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET6020",
+      "name": "Glow In The Dark Dog Ball",
+      "brand": null
+    },
+    {
+      "source_sku": "PET6034",
+      "name": "Rubber Squeaky Rugby Ball Dog Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET13127",
+      "name": "Cat Bowls 2pk 17cm",
+      "brand": null
+    },
+    {
+      "source_sku": "PET0009",
+      "name": "Dog Pull & Tug Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET4252",
+      "name": "Fluffy Bell Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET13126",
+      "name": "4-IN-1 Rubber Pet Mitt",
+      "brand": null
+    },
+    {
+      "source_sku": "PET3741",
+      "name": "Multi-purpose Dog Mat",
+      "brand": null
+    },
+    {
+      "source_sku": "PET3778",
+      "name": "Dog Play Ball",
+      "brand": null
+    },
+    {
+      "source_sku": "PET13021OB",
+      "name": "Marine Animal Plush Dog Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET12575OB",
+      "name": "Pet Travel Bottle",
+      "brand": null
+    },
+    {
+      "source_sku": "PET12979",
+      "name": "Multi-purpose Cat Mat",
+      "brand": null
+    },
+    {
+      "source_sku": "PET6730",
+      "name": "Pet Cooling Collar - Large",
+      "brand": null
+    },
+    {
+      "source_sku": "PET0016",
+      "name": "Rope Dog Tugger Toy With Ball",
+      "brand": null
+    },
+    {
+      "source_sku": "PET6728",
+      "name": "Pet Cooling Collar - Small",
+      "brand": null
+    },
+    {
+      "source_sku": "PET4249",
+      "name": "Cat Teaser Fish Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET5484",
+      "name": "Rope Pull Dog Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET0010",
+      "name": "Pet Dental Ring Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET0012",
+      "name": "Rope Dog Pull & Tug Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET3782",
+      "name": "Cat Collar",
+      "brand": null
+    },
+    {
+      "source_sku": "PET6024",
+      "name": "Bell Playball 3pk",
+      "brand": null
+    },
+    {
+      "source_sku": "PET12933",
+      "name": "Pet Food Scoop 2pk",
+      "brand": null
+    },
+    {
+      "source_sku": "PET4250",
+      "name": "Mouse Head Cat Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET13027OB",
+      "name": "Cooling Pet Drinking Bowl CDU",
+      "brand": null
+    },
+    {
+      "source_sku": "PET12467OB",
+      "name": "Plush Animal Dog Toy With Rope",
+      "brand": null
+    },
+    {
+      "source_sku": "PET12469OB",
+      "name": "Plush Tumbler Dog Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET13016OB",
+      "name": "Collapsible Pet Bowl With Clip 18cm",
+      "brand": null
+    },
+    {
+      "source_sku": "PET1073",
+      "name": "Dog Leash 10m",
+      "brand": null
+    },
+    {
+      "source_sku": "PET12473OB",
+      "name": "Plush Monster Dog Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET5999",
+      "name": "Cat Wind-Up Play Mouse",
+      "brand": null
+    },
+    {
+      "source_sku": "PET7348OB",
+      "name": "Rainbow Fragranced Doggy Poo Bags 240pk",
+      "brand": null
+    },
+    {
+      "source_sku": "PET3777",
+      "name": "Rope Dog Tug Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET6392",
+      "name": "Cat Collar With Bell",
+      "brand": null
+    },
+    {
+      "source_sku": "PET5410",
+      "name": "Animal Print Squeaky Dog Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET13026OB",
+      "name": "Floating Ball Dog Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET6030",
+      "name": "Squeaky LED Light Up Ball Dog Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET1067",
+      "name": "Pet Rubber Play Balls - 2 Pack",
+      "brand": null
+    },
+    {
+      "source_sku": "PET1373",
+      "name": "Pet Hair Roller CDU",
+      "brand": null
+    },
+    {
+      "source_sku": "PET6729",
+      "name": "Pet Cooling Collar - Medium",
+      "brand": null
+    },
+    {
+      "source_sku": "PET4928",
+      "name": "Pet Hair Roller & Refills 3 Rolls",
+      "brand": null
+    },
+    {
+      "source_sku": "PET0866OB",
+      "name": "Puppy training pads 30 pack",
+      "brand": null
+    },
+    {
+      "source_sku": "PET13022OB",
+      "name": "Fruit Rope Dog Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET4253",
+      "name": "Fish With Catnip Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET13023OB",
+      "name": "Fruit Flyer Dog Toy 27cm",
+      "brand": null
+    },
+    {
+      "source_sku": "PET12476OB",
+      "name": "Crinkley Crisps Dog Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET12717OB",
+      "name": "Pet Microfibre Towel 60 x 100cm",
+      "brand": null
+    },
+    {
+      "source_sku": "PET13025OB",
+      "name": "Ocean Animal Plush Dog Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET0008OB",
+      "name": "Rubber Play Ball 2pk",
+      "brand": null
+    },
+    {
+      "source_sku": "PET12528OB",
+      "name": "Double Diner With Splash Guard",
+      "brand": null
+    },
+    {
+      "source_sku": "PET13185OB",
+      "name": "Pet Food Storage 900ml",
+      "brand": null
+    },
+    {
+      "source_sku": "PET6414OB",
+      "name": "Retractable Dog Lead",
+      "brand": null
+    },
+    {
+      "source_sku": "PET2456OB",
+      "name": "Pet Fleece Blanket 60cm x 100cm",
+      "brand": null
+    },
+    {
+      "source_sku": "PET6501OB",
+      "name": "Squeaky Chicken Dog Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET12062OB",
+      "name": "Birthday Cake Pet Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET4609OB",
+      "name": "Pet Blanket 100 x 150cm",
+      "brand": null
+    },
+    {
+      "source_sku": "PET9298OB",
+      "name": "Stainless Steel Pet Bowl 25cm",
+      "brand": null
+    },
+    {
+      "source_sku": "PET13019OB",
+      "name": "Star Fish Dog Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET8185OB",
+      "name": "Spiral Pet Stake 5m",
+      "brand": null
+    },
+    {
+      "source_sku": "PET12479OB",
+      "name": "Dual Pet Bowl With Stand",
+      "brand": null
+    },
+    {
+      "source_sku": "PET12546OB",
+      "name": "Little Squeaky Slipper Dog Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET6398OB",
+      "name": "Squeaky Critter Dog Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET7733OB",
+      "name": "Dog Play Balls 8pk",
+      "brand": null
+    },
+    {
+      "source_sku": "PET13053OB",
+      "name": "Floating Ring Dog Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET13184OB",
+      "name": "Round Pet Bowl",
+      "brand": null
+    },
+    {
+      "source_sku": "PET4461OB",
+      "name": "Squeaky Fox Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET6526OB",
+      "name": "Sport Sponge Ball 4 Pack",
+      "brand": null
+    },
+    {
+      "source_sku": "PET6028",
+      "name": "Ring Dog Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET0014OB",
+      "name": "Vinyl squeaky toy 2 pack",
+      "brand": null
+    },
+    {
+      "source_sku": "PET12529OB",
+      "name": "Spikey Assorted Dog Toys CDU",
+      "brand": null
+    },
+    {
+      "source_sku": "PET12183OB",
+      "name": "Glow Dog Ball",
+      "brand": null
+    },
+    {
+      "source_sku": "PET13095OB",
+      "name": "Stainless Steel Anti Skid Pet Bowl 16cm",
+      "brand": null
+    },
+    {
+      "source_sku": "PET6419OB",
+      "name": "Cog Rubber Dog Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET6397OB",
+      "name": "Fetch Stick Dog Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET6507OB",
+      "name": "Giggly Dog Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET6496OB",
+      "name": "Crinkle and Squeak Farm Animal Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET12063OB",
+      "name": "Rubber Birthday Cake Pet Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET9299OB",
+      "name": "Stainless Steel Pet Bowl 28cm",
+      "brand": null
+    },
+    {
+      "source_sku": "PET12470OB",
+      "name": "Plush Crinkley Animal Dog Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET12545OB",
+      "name": "Vinyl Character Dog Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET6614OB",
+      "name": "Clear Plastic Window Feeder",
+      "brand": null
+    },
+    {
+      "source_sku": "PET12178OB",
+      "name": "Flashing Dog Harness",
+      "brand": null
+    },
+    {
+      "source_sku": "PET12474OB",
+      "name": "Plush Squeaky Animal Dog Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET6396OB",
+      "name": "Textured Bone Dog Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET12466OB",
+      "name": "Plush Animal Dog Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET12475OB",
+      "name": "Plush Octopus Dog Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET12468OB",
+      "name": "Plush Squeaky Farm Animal Dog Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET11963OB",
+      "name": "Luxury Champagne Bottle Dog Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET13037OB",
+      "name": "Metal Bench Bird Feeder",
+      "brand": null
+    },
+    {
+      "source_sku": "PET6403OB",
+      "name": "Pet Grooming Brush Set",
+      "brand": null
+    },
+    {
+      "source_sku": "PET12190OB",
+      "name": "Pet Silicone Placemat",
+      "brand": null
+    },
+    {
+      "source_sku": "PET8095OB",
+      "name": "2-IN-1 Bird Bath & Feeder",
+      "brand": null
+    },
+    {
+      "source_sku": "PET6502OB",
+      "name": "Farm Animal Dog Toy",
+      "brand": null
+    },
+    {
+      "source_sku": "PET0869OB",
+      "name": "Puppy Training Pads 100pk",
+      "brand": null
+    },
+    {
+      "source_sku": "PET13018OB",
+      "name": "Beef & Chicken Scented Pet Bubbles 3pk",
+      "brand": null
+    },
+    {
+      "source_sku": "PET2079OB",
+      "name": "Mouse Cat Toys",
+      "brand": null
+    }
+  ]
+}

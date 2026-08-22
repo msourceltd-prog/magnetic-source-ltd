@@ -10,6 +10,7 @@ const siteUrl = "https://magneticsource.uk";
 const supabaseUrl = "https://pylhokxuqqbldnfjwjem.supabase.co";
 const anonKey = "sb_publishable_ps9YypvtK5jByJ37N6LZzw_oanbTDgq";
 const lastmod = new Date().toISOString().slice(0, 10);
+const preferredCategoryOrder = ["household-pet", "sweets-snacks", "toys-gifts", "pets", "stationery-party", "health-beauty", "seasonal-christmas", "baby-kids"];
 
 const staticPages = [
   { path: "/", changefreq: "weekly", priority: "1.0" },
@@ -37,7 +38,14 @@ async function readPublicRows(table) {
 }
 
 const [categories, products] = await Promise.all([readPublicRows("categories"), readPublicRows("products")]);
-const categoryPages = categories.filter(({ slug }) => slug !== "clearance").map(({ slug }) => ({ path: `/shop?category=${encodeURIComponent(slug)}`, changefreq: "weekly", priority: "0.8" }));
+const categoryPages = categories
+  .filter(({ slug }) => slug !== "clearance")
+  .sort((left, right) => {
+    const leftIndex = preferredCategoryOrder.indexOf(left.slug);
+    const rightIndex = preferredCategoryOrder.indexOf(right.slug);
+    return (leftIndex === -1 ? 999 : leftIndex) - (rightIndex === -1 ? 999 : rightIndex) || left.slug.localeCompare(right.slug);
+  })
+  .map(({ slug }) => ({ path: `/shop?category=${encodeURIComponent(slug)}`, changefreq: "weekly", priority: "0.8" }));
 const productPages = products.map(({ slug }) => ({ path: `/product/${encodeURIComponent(slug)}`, changefreq: "weekly", priority: "0.6" }));
 const urls = [...staticPages, ...categoryPages, ...productPages];
 

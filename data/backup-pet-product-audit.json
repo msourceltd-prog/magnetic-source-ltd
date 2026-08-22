@@ -1,0 +1,335 @@
+{
+  "backup_product_count": 46,
+  "pet_candidate_count": 25,
+  "branded_pet_candidate_count": 25,
+  "brand_counts": {
+    "Good Boy": 20,
+    "Nylabone": 2,
+    "Rosewood": 3
+  },
+  "pet_candidates": [
+    {
+      "sku": "72619U",
+      "name": "Good Boy Cheese Please – Long Lasting Tasty Chew 60g",
+      "pack": "Pack of 12",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Cheese-Please-Long-Lasting-Tasty-Chew-60g-72619U.png",
+      "description": "",
+      "tags": [
+        "Best seller",
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "brand": "Good Boy"
+    },
+    {
+      "sku": "72568M",
+      "name": "Nylabone Extreme Chew Bacon Flavour Medium",
+      "pack": "Pack of 24",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Nylabone-Extreme-Chew-Bacon-Flavour-Medium-72568M.jpg",
+      "description": "",
+      "tags": [
+        "Best seller",
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "brand": "Nylabone"
+    },
+    {
+      "sku": "72631G",
+      "name": "Good Boy Soft Fluffy Dog Toy Large",
+      "pack": "Pack of 3",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Soft-Fluffy-Dog-Toy-Large-72631G.jpg",
+      "description": "",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "brand": "Good Boy"
+    },
+    {
+      "sku": "72629Z",
+      "name": "Good Boy Tripe Filled Bone",
+      "pack": "Pack of 22",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Tripe-Filled-Bone-72629Z.jpg",
+      "description": "",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "brand": "Good Boy"
+    },
+    {
+      "sku": "72628W",
+      "name": "Good Boy Chicken Leg 115mm",
+      "pack": "Pack of 10",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Chicken-Leg-115mm-72628W.jpg",
+      "description": "",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "brand": "Good Boy"
+    },
+    {
+      "sku": "72624K",
+      "name": "Good Boy Compostable Poo Bags 60’s Clipstrip",
+      "pack": "Pack of 12",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Compostable-Poo-Bags-60s-Clipstrip-72624K.png",
+      "description": "",
+      "tags": [
+        "Best seller",
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "brand": "Good Boy"
+    },
+    {
+      "sku": "72623H",
+      "name": "Good Boy Duck Stick 15g",
+      "pack": "Pack of 50",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Duck-Stick-15g-72623H.png",
+      "description": "",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "brand": "Good Boy"
+    },
+    {
+      "sku": "72622E",
+      "name": "Good Boy Beef Stick 15g",
+      "pack": "Pack of 50",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Beef-Stick-15g-72622E-925x1024.jpg",
+      "description": "",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "brand": "Good Boy"
+    },
+    {
+      "sku": "72621B",
+      "name": "Good Boy Chicken Stick 15g",
+      "pack": "Pack of 50",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Chicken-Stick-15g-72621B.jpg",
+      "description": "",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "brand": "Good Boy"
+    },
+    {
+      "sku": "72567J",
+      "name": "Good Boy Soft Meerkat Dog Toy",
+      "pack": "Pack of 4",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Soft-Meerkat-Dog-Toy-72567J.png",
+      "description": "",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "brand": "Good Boy"
+    },
+    {
+      "sku": "72382W",
+      "name": "Good Boy Soft Fluffy Dog Toy Small",
+      "pack": "Pack of 3",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Soft-Fluffy-Dog-Toy-Small-72382W-1024x1024.png",
+      "description": "",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "brand": "Good Boy"
+    },
+    {
+      "sku": "72385F",
+      "name": "Good Boy Cheese Please with Chicken – Long Lasting Tasty Chew 60g",
+      "pack": "Pack of 12",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Cheese-Please-with-Chicken-Long-Lasting-Tasty-Chew-60g-72385F.jpg",
+      "description": "",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "brand": "Good Boy"
+    },
+    {
+      "sku": "HPE-63752V",
+      "name": "Good Boy Space Lobber Fetch Toy",
+      "pack": "Pack of 6",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2024/02/Good-Boy-Space-Lobber-Fetch-Toy-63752V.jpg",
+      "description": "Good Boy Space Lobber Fetch Toy is supplied as pack of 6. Supplier reference: 63752V.",
+      "tags": [
+        "Household & Pet",
+        "Price hidden"
+      ],
+      "brand": "Good Boy"
+    },
+    {
+      "sku": "HPE-72360G",
+      "name": "Nylabone Extreme Chew Venison Antler Alternative Chew",
+      "pack": "Pack of 24",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Nylabone-Extreme-Chew-Venision-Antler-Alternative-Chew-72360G.jpg",
+      "description": "Nylabone Extreme Chew Venison Antler Alternative Chew is supplied as pack of 24. Supplier reference: 72360G.",
+      "tags": [
+        "Household & Pet",
+        "Price hidden"
+      ],
+      "brand": "Nylabone"
+    },
+    {
+      "sku": "HPE-72404S",
+      "name": "Rosewood Tough Toys Wood Flavour Dog Chew",
+      "pack": "Pack of 3",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Rosewood-Tough-Toys-Wood-Flavour-Dog-Chew-72404S.webp",
+      "description": "Rosewood Tough Toys Wood Flavour Dog Chew is supplied as pack of 3. Supplier reference: 72404S.",
+      "tags": [
+        "Best seller",
+        "Household & Pet",
+        "Price hidden"
+      ],
+      "brand": "Rosewood"
+    },
+    {
+      "sku": "60342I",
+      "name": "Good Boy Crunchy Chicken & Calcium Bones 350g",
+      "pack": "Pack of 4",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Good-Boy-Crunchy-Chicken-Calcium-Bones-350g-60342I.png",
+      "description": "",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "brand": "Good Boy"
+    },
+    {
+      "sku": "60343L",
+      "name": "Good Boy Chewy Twists With Chicken 320g",
+      "pack": "Pack of 5",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Good-Boy-Chewy-Twists-With-Chicken-320g-60343L-1024x1024.png",
+      "description": "",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "brand": "Good Boy"
+    },
+    {
+      "sku": "72615I",
+      "name": "Good Boy Chewy Braid Beef Large 96g",
+      "pack": "Pack of 14",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Chewy-Braid-Beef-Large-96g-72615I.png",
+      "description": "",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "brand": "Good Boy"
+    },
+    {
+      "sku": "72616L",
+      "name": "Good Boy Tough & Tasty Chicken Roll 80g",
+      "pack": "Pack of 20",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Tough-Tasty-Chicken-Roll-80g-72616L.png",
+      "description": "",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "brand": "Good Boy"
+    },
+    {
+      "sku": "72617O",
+      "name": "Good Boy Chewables Sticks with Chicken & Veg 5 Pack",
+      "pack": "Pack of 18",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Chewables-Sticks-with-Chicken-Veg-5-Pack-72617O-1024x1024.png",
+      "description": "",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "brand": "Good Boy"
+    },
+    {
+      "sku": "72630D",
+      "name": "Good Boy Fresh Breath Rolls Bumper Pack",
+      "pack": "Pack of 6",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Fresh-Breath-Rolls-Bumper-Pack-72630D.png",
+      "description": "",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "brand": "Good Boy"
+    },
+    {
+      "sku": "HPE-72364S",
+      "name": "Rosewood Cooling Collar – Medium",
+      "pack": "Pack of 4",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Rosewood-Cooling-Collar-–-Medium-72364S.png",
+      "description": "Rosewood Cooling Collar – Medium is supplied as pack of 4. Supplier reference: 72364S.",
+      "tags": [
+        "Household & Pet",
+        "Price hidden"
+      ],
+      "brand": "Rosewood"
+    },
+    {
+      "sku": "HPE-72365V",
+      "name": "Rosewood Cooling Collar – Large",
+      "pack": "Pack of 4",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Rosewood-Cooling-Collar-–-Large-72365V.png",
+      "description": "Rosewood Cooling Collar – Large is supplied as pack of 4. Supplier reference: 72365V.",
+      "tags": [
+        "Household & Pet",
+        "Price hidden"
+      ],
+      "brand": "Rosewood"
+    },
+    {
+      "sku": "72388O",
+      "name": "Good Boy Chewables Medium Bones with Chicken 2 Pack",
+      "pack": "Pack of 8",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Chewables-Medium-Bones-with-Chicken-2-Pack-72388O-1024x1024.png",
+      "description": "",
+      "tags": [
+        "Household & Pet",
+        "Harrisons-authorized catalogue",
+        "Price hidden"
+      ],
+      "brand": "Good Boy"
+    },
+    {
+      "sku": "HPE-72383Z",
+      "name": "Good Boy Busy Bar Large Chew Chicken",
+      "pack": "Pack of 12",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Good-Boy-Busy-Bar-Large-Chew-Chicken-72383Z.png",
+      "description": "Good Boy Busy Bar Large Chew Chicken is supplied as pack of 12. Supplier reference: 72383Z.",
+      "tags": [
+        "Household & Pet",
+        "Price hidden"
+      ],
+      "brand": "Good Boy"
+    }
+  ]
+}

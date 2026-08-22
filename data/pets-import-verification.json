@@ -1,0 +1,358 @@
+{
+  "imported_at": "2026-08-22T17:11:24.121Z",
+  "category": {
+    "id": 55,
+    "name": "Pets",
+    "slug": "pets",
+    "summary": "Pet care, accessories and everyday animal essentials for retail.",
+    "created_at": "2026-08-22T17:11:22.877864+00:00"
+  },
+  "product_count": 30,
+  "source_counts": {
+    "previous_authorised_pet_range": 6,
+    "gem_imports_pet_care": 24
+  },
+  "verified_brand_counts": {
+    "Good Boy": 2,
+    "Nylabone": 2,
+    "Rosewood": 2
+  },
+  "best_seller_count": 5,
+  "products": [
+    {
+      "sku": "72567J",
+      "name": "Good Boy Soft Meerkat Dog Toy",
+      "category": "pets",
+      "pack": "Pack of 4",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Soft-Meerkat-Dog-Toy-72567J.png",
+      "tags": [
+        "Price hidden",
+        "Previous authorised pet range"
+      ]
+    },
+    {
+      "sku": "72568M",
+      "name": "Nylabone Extreme Chew Bacon Flavour Medium",
+      "category": "pets",
+      "pack": "Pack of 24",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Nylabone-Extreme-Chew-Bacon-Flavour-Medium-72568M.jpg",
+      "tags": [
+        "Best seller",
+        "Price hidden",
+        "Previous authorised pet range"
+      ]
+    },
+    {
+      "sku": "72619U",
+      "name": "Good Boy Cheese Please – Long Lasting Tasty Chew 60g",
+      "category": "pets",
+      "pack": "Pack of 12",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Cheese-Please-Long-Lasting-Tasty-Chew-60g-72619U.png",
+      "tags": [
+        "Best seller",
+        "Price hidden",
+        "Previous authorised pet range"
+      ]
+    },
+    {
+      "sku": "GEM-PET0866OB",
+      "name": "Puppy training pads 30 pack",
+      "category": "pets",
+      "pack": "Pack of 6",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet0866ob.png?_t=2632515482&w=811&h=629&format=jpeg",
+      "tags": [
+        "Price hidden",
+        "Gem Imports"
+      ]
+    },
+    {
+      "sku": "GEM-PET1073",
+      "name": "Dog Leash 10m",
+      "category": "pets",
+      "pack": "Pack of 18",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet1073.png?_t=2632515486&w=811&h=629&format=jpeg",
+      "tags": [
+        "Price hidden",
+        "Gem Imports"
+      ]
+    },
+    {
+      "sku": "GEM-PET12190OB",
+      "name": "Pet Silicone Placemat",
+      "category": "pets",
+      "pack": "Pack of 18",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet12190ob.png?_t=26325154837&w=811&h=629&format=jpeg",
+      "tags": [
+        "Price hidden",
+        "Gem Imports"
+      ]
+    },
+    {
+      "sku": "GEM-PET12528OB",
+      "name": "Double Diner With Splash Guard",
+      "category": "pets",
+      "pack": "Pack of 12",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet12528ob.png?_t=26325154856&w=811&h=629&format=jpeg",
+      "tags": [
+        "Price hidden",
+        "Gem Imports"
+      ]
+    },
+    {
+      "sku": "GEM-PET12575OB",
+      "name": "Pet Travel Bottle",
+      "category": "pets",
+      "pack": "Pack of 24",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet12575ob.png?_t=2632515493&w=811&h=629&format=jpeg",
+      "tags": [
+        "Best seller",
+        "Price hidden",
+        "Gem Imports"
+      ]
+    },
+    {
+      "sku": "GEM-PET12717OB",
+      "name": "Pet Microfibre Towel 60 x 100cm",
+      "category": "pets",
+      "pack": "Pack of 16",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet12717ob.png?_t=2632515494&w=811&h=629&format=jpeg",
+      "tags": [
+        "Price hidden",
+        "Gem Imports"
+      ]
+    },
+    {
+      "sku": "GEM-PET12794",
+      "name": "Collapsible Pet Bowl With Clip 15cm",
+      "category": "pets",
+      "pack": "Pack of 24",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet12794.png?_t=2632515496&w=811&h=629&format=jpeg",
+      "tags": [
+        "Price hidden",
+        "Gem Imports"
+      ]
+    },
+    {
+      "sku": "GEM-PET12933",
+      "name": "Pet Food Scoop 2pk",
+      "category": "pets",
+      "pack": "Pack of 24",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet12933.png?_t=2632515497&w=811&h=629&format=jpeg",
+      "tags": [
+        "Price hidden",
+        "Gem Imports"
+      ]
+    },
+    {
+      "sku": "GEM-PET12979",
+      "name": "Multi-purpose Cat Mat",
+      "category": "pets",
+      "pack": "Pack of 24",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet12979.png?_t=2632515499&w=811&h=629&format=jpeg",
+      "tags": [
+        "Price hidden",
+        "Gem Imports"
+      ]
+    },
+    {
+      "sku": "GEM-PET13021OB",
+      "name": "Marine Animal Plush Dog Toy",
+      "category": "pets",
+      "pack": "Pack of 12",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet13021ob.png?_t=26325154918&w=811&h=629&format=jpeg",
+      "tags": [
+        "Price hidden",
+        "Gem Imports"
+      ]
+    },
+    {
+      "sku": "GEM-PET13027OB",
+      "name": "Cooling Pet Drinking Bowl CDU",
+      "category": "pets",
+      "pack": "Pack of 6",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet13027ob.png?_t=26325154926&w=811&h=629&format=jpeg",
+      "tags": [
+        "Price hidden",
+        "Gem Imports"
+      ]
+    },
+    {
+      "sku": "GEM-PET13127",
+      "name": "Cat Bowls 2pk 17cm",
+      "category": "pets",
+      "pack": "Pack of 24",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet13127.png?_t=26325154933&w=811&h=629&format=jpeg",
+      "tags": [
+        "Price hidden",
+        "Gem Imports"
+      ]
+    },
+    {
+      "sku": "GEM-PET13185OB",
+      "name": "Pet Food Storage 900ml",
+      "category": "pets",
+      "pack": "Pack of 12",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet13185ob.png?_t=26325154939&w=811&h=629&format=jpeg",
+      "tags": [
+        "Price hidden",
+        "Gem Imports"
+      ]
+    },
+    {
+      "sku": "GEM-PET2456OB",
+      "name": "Pet Fleece Blanket 60cm x 100cm",
+      "category": "pets",
+      "pack": "Pack of 24",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet2456ob.png?_t=26325154946&w=811&h=629&format=jpeg",
+      "tags": [
+        "Price hidden",
+        "Gem Imports"
+      ]
+    },
+    {
+      "sku": "GEM-PET4249",
+      "name": "Cat Teaser Fish Toy",
+      "category": "pets",
+      "pack": "Pack of 24",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet4249.png?_t=263251551&w=811&h=629&format=jpeg",
+      "tags": [
+        "Price hidden",
+        "Gem Imports"
+      ]
+    },
+    {
+      "sku": "GEM-PET4253",
+      "name": "Fish With Catnip Toy",
+      "category": "pets",
+      "pack": "Pack of 24",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet4253.png?_t=263251557&w=811&h=629&format=jpeg",
+      "tags": [
+        "Price hidden",
+        "Gem Imports"
+      ]
+    },
+    {
+      "sku": "GEM-PET6392",
+      "name": "Cat Collar With Bell",
+      "category": "pets",
+      "pack": "Pack of 24",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet6392.png?_t=2632515534&w=811&h=629&format=jpeg",
+      "tags": [
+        "Price hidden",
+        "Gem Imports"
+      ]
+    },
+    {
+      "sku": "GEM-PET6403OB",
+      "name": "Pet Grooming Brush Set",
+      "category": "pets",
+      "pack": "Pack of 18",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet6403ob.png?_t=263251554&w=811&h=629&format=jpeg",
+      "tags": [
+        "Price hidden",
+        "Gem Imports"
+      ]
+    },
+    {
+      "sku": "GEM-PET6414OB",
+      "name": "Retractable Dog Lead",
+      "category": "pets",
+      "pack": "Pack of 12",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet6414ob.png?_t=2632515543&w=811&h=629&format=jpeg",
+      "tags": [
+        "Price hidden",
+        "Gem Imports"
+      ]
+    },
+    {
+      "sku": "GEM-PET7199OB",
+      "name": "Silica Crystals Cat Litter 3.8L",
+      "category": "pets",
+      "pack": "Pack of 6",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet7199ob.png?_t=2632515512&w=811&h=629&format=jpeg",
+      "tags": [
+        "Best seller",
+        "Price hidden",
+        "Gem Imports"
+      ]
+    },
+    {
+      "sku": "GEM-PET7348OB",
+      "name": "Rainbow Fragranced Doggy Poo Bags 240pk",
+      "category": "pets",
+      "pack": "Pack of 12",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet7348ob.png?_t=2632515514&w=811&h=629&format=jpeg",
+      "tags": [
+        "Price hidden",
+        "Gem Imports"
+      ]
+    },
+    {
+      "sku": "GEM-PET8095OB",
+      "name": "2-IN-1 Bird Bath & Feeder",
+      "category": "pets",
+      "pack": "Pack of 12",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet8095ob.png?_t=2632515518&w=811&h=629&format=jpeg",
+      "tags": [
+        "Price hidden",
+        "Gem Imports"
+      ]
+    },
+    {
+      "sku": "GEM-PET8185OB",
+      "name": "Spiral Pet Stake 5m",
+      "category": "pets",
+      "pack": "Pack of 12",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet8185ob.png?_t=2632515519&w=811&h=629&format=jpeg",
+      "tags": [
+        "Price hidden",
+        "Gem Imports"
+      ]
+    },
+    {
+      "sku": "GEM-PET9298OB",
+      "name": "Stainless Steel Pet Bowl 25cm",
+      "category": "pets",
+      "pack": "Pack of 24",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet9298ob.png?_t=26325155113&w=811&h=629&format=jpeg",
+      "tags": [
+        "Price hidden",
+        "Gem Imports"
+      ]
+    },
+    {
+      "sku": "HPE-72360G",
+      "name": "Nylabone Extreme Chew Venison Antler Alternative Chew",
+      "category": "pets",
+      "pack": "Pack of 24",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Nylabone-Extreme-Chew-Venision-Antler-Alternative-Chew-72360G.jpg",
+      "tags": [
+        "Price hidden",
+        "Previous authorised pet range"
+      ]
+    },
+    {
+      "sku": "HPE-72364S",
+      "name": "Rosewood Cooling Collar – Medium",
+      "category": "pets",
+      "pack": "Pack of 4",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Rosewood-Cooling-Collar-–-Medium-72364S.png",
+      "tags": [
+        "Price hidden",
+        "Previous authorised pet range"
+      ]
+    },
+    {
+      "sku": "HPE-72404S",
+      "name": "Rosewood Tough Toys Wood Flavour Dog Chew",
+      "category": "pets",
+      "pack": "Pack of 3",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Rosewood-Tough-Toys-Wood-Flavour-Dog-Chew-72404S.webp",
+      "tags": [
+        "Best seller",
+        "Price hidden",
+        "Previous authorised pet range"
+      ]
+    }
+  ]
+}

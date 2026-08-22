@@ -224,6 +224,10 @@
 
 - [x] Replace only Household & Pet with half of the authorised Gem Imports household range, back up current records, and rename the public department to Household while retaining every other department and website function. The prior 46 products were backed up and replaced with a selected balanced 50-product Gem Imports household range using supplier images and carton pack formats; five Household lines retain Best seller tags. The live category data and app fallback label now both use Household, and desktop plus mobile category views show no public Pet wording. Source-of-truth verification confirmed all 50 Household SKUs are Gem Imports while every other department remains present; the production build regenerated the 517-product sitemap.
 
+## New Pets Department and Balanced Branded Range
+
+- [x] Create a new Pets department immediately after Toys & Gifts using 30 balanced products selected from the prior Household & Pet backup and the authorised Gem Imports pet-care range; retain the renamed Household department and all other existing departments unchanged. Completed with 6 restored source-confirmed branded products (2 Good Boy, 2 Nylabone, 2 Rosewood) and 24 Gem Imports Pet Care products; verified 30 Pets records, 5 Best seller tags, supplier images, carton packs, navigation order, sitemap coverage, and the preserved 547-product catalogue.
+
 ## Supplier-Verified Pack-Format Correction
 
 - [ ] Audit current catalogue pack formats and correct supplier-supported wholesale quantities such as Pack of 12, Pack of 24, and Pack of 36 without inventing product pack sizes or changing other product data.

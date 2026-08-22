@@ -1,0 +1,224 @@
+{
+  "product_count": 30,
+  "source_counts": {
+    "previous_authorised_pet_range": 6,
+    "gem_imports_pet_care": 24
+  },
+  "verified_brand_counts": {
+    "Good Boy": 2,
+    "Nylabone": 2,
+    "Rosewood": 2
+  },
+  "selected_products": [
+    {
+      "sku": "72619U",
+      "name": "Good Boy Cheese Please – Long Lasting Tasty Chew 60g",
+      "source_type": "Previous authorised pet range",
+      "brand": "Good Boy",
+      "pack": "Pack of 12"
+    },
+    {
+      "sku": "72567J",
+      "name": "Good Boy Soft Meerkat Dog Toy",
+      "source_type": "Previous authorised pet range",
+      "brand": "Good Boy",
+      "pack": "Pack of 4"
+    },
+    {
+      "sku": "72568M",
+      "name": "Nylabone Extreme Chew Bacon Flavour Medium",
+      "source_type": "Previous authorised pet range",
+      "brand": "Nylabone",
+      "pack": "Pack of 24"
+    },
+    {
+      "sku": "HPE-72360G",
+      "name": "Nylabone Extreme Chew Venison Antler Alternative Chew",
+      "source_type": "Previous authorised pet range",
+      "brand": "Nylabone",
+      "pack": "Pack of 24"
+    },
+    {
+      "sku": "HPE-72404S",
+      "name": "Rosewood Tough Toys Wood Flavour Dog Chew",
+      "source_type": "Previous authorised pet range",
+      "brand": "Rosewood",
+      "pack": "Pack of 3"
+    },
+    {
+      "sku": "HPE-72364S",
+      "name": "Rosewood Cooling Collar – Medium",
+      "source_type": "Previous authorised pet range",
+      "brand": "Rosewood",
+      "pack": "Pack of 4"
+    },
+    {
+      "sku": "GEM-PET7199OB",
+      "name": "Silica Crystals Cat Litter 3.8L",
+      "source_type": "Gem Imports Pet Care",
+      "brand": null,
+      "pack": "Pack of 6"
+    },
+    {
+      "sku": "GEM-PET13127",
+      "name": "Cat Bowls 2pk 17cm",
+      "source_type": "Gem Imports Pet Care",
+      "brand": null,
+      "pack": "Pack of 24"
+    },
+    {
+      "sku": "GEM-PET12979",
+      "name": "Multi-purpose Cat Mat",
+      "source_type": "Gem Imports Pet Care",
+      "brand": null,
+      "pack": "Pack of 24"
+    },
+    {
+      "sku": "GEM-PET4249",
+      "name": "Cat Teaser Fish Toy",
+      "source_type": "Gem Imports Pet Care",
+      "brand": null,
+      "pack": "Pack of 24"
+    },
+    {
+      "sku": "GEM-PET4253",
+      "name": "Fish With Catnip Toy",
+      "source_type": "Gem Imports Pet Care",
+      "brand": null,
+      "pack": "Pack of 24"
+    },
+    {
+      "sku": "GEM-PET6392",
+      "name": "Cat Collar With Bell",
+      "source_type": "Gem Imports Pet Care",
+      "brand": null,
+      "pack": "Pack of 24"
+    },
+    {
+      "sku": "GEM-PET12575OB",
+      "name": "Pet Travel Bottle",
+      "source_type": "Gem Imports Pet Care",
+      "brand": null,
+      "pack": "Pack of 24"
+    },
+    {
+      "sku": "GEM-PET1073",
+      "name": "Dog Leash 10m",
+      "source_type": "Gem Imports Pet Care",
+      "brand": null,
+      "pack": "Pack of 18"
+    },
+    {
+      "sku": "GEM-PET7348OB",
+      "name": "Rainbow Fragranced Doggy Poo Bags 240pk",
+      "source_type": "Gem Imports Pet Care",
+      "brand": null,
+      "pack": "Pack of 12"
+    },
+    {
+      "sku": "GEM-PET0866OB",
+      "name": "Puppy training pads 30 pack",
+      "source_type": "Gem Imports Pet Care",
+      "brand": null,
+      "pack": "Pack of 6"
+    },
+    {
+      "sku": "GEM-PET6414OB",
+      "name": "Retractable Dog Lead",
+      "source_type": "Gem Imports Pet Care",
+      "brand": null,
+      "pack": "Pack of 12"
+    },
+    {
+      "sku": "GEM-PET8185OB",
+      "name": "Spiral Pet Stake 5m",
+      "source_type": "Gem Imports Pet Care",
+      "brand": null,
+      "pack": "Pack of 12"
+    },
+    {
+      "sku": "GEM-PET12794",
+      "name": "Collapsible Pet Bowl With Clip 15cm",
+      "source_type": "Gem Imports Pet Care",
+      "brand": null,
+      "pack": "Pack of 24"
+    },
+    {
+      "sku": "GEM-PET12933",
+      "name": "Pet Food Scoop 2pk",
+      "source_type": "Gem Imports Pet Care",
+      "brand": null,
+      "pack": "Pack of 24"
+    },
+    {
+      "sku": "GEM-PET13027OB",
+      "name": "Cooling Pet Drinking Bowl CDU",
+      "source_type": "Gem Imports Pet Care",
+      "brand": null,
+      "pack": "Pack of 6"
+    },
+    {
+      "sku": "GEM-PET12528OB",
+      "name": "Double Diner With Splash Guard",
+      "source_type": "Gem Imports Pet Care",
+      "brand": null,
+      "pack": "Pack of 12"
+    },
+    {
+      "sku": "GEM-PET13185OB",
+      "name": "Pet Food Storage 900ml",
+      "source_type": "Gem Imports Pet Care",
+      "brand": null,
+      "pack": "Pack of 12"
+    },
+    {
+      "sku": "GEM-PET9298OB",
+      "name": "Stainless Steel Pet Bowl 25cm",
+      "source_type": "Gem Imports Pet Care",
+      "brand": null,
+      "pack": "Pack of 24"
+    },
+    {
+      "sku": "GEM-PET12717OB",
+      "name": "Pet Microfibre Towel 60 x 100cm",
+      "source_type": "Gem Imports Pet Care",
+      "brand": null,
+      "pack": "Pack of 16"
+    },
+    {
+      "sku": "GEM-PET2456OB",
+      "name": "Pet Fleece Blanket 60cm x 100cm",
+      "source_type": "Gem Imports Pet Care",
+      "brand": null,
+      "pack": "Pack of 24"
+    },
+    {
+      "sku": "GEM-PET6403OB",
+      "name": "Pet Grooming Brush Set",
+      "source_type": "Gem Imports Pet Care",
+      "brand": null,
+      "pack": "Pack of 18"
+    },
+    {
+      "sku": "GEM-PET12190OB",
+      "name": "Pet Silicone Placemat",
+      "source_type": "Gem Imports Pet Care",
+      "brand": null,
+      "pack": "Pack of 18"
+    },
+    {
+      "sku": "GEM-PET8095OB",
+      "name": "2-IN-1 Bird Bath & Feeder",
+      "source_type": "Gem Imports Pet Care",
+      "brand": null,
+      "pack": "Pack of 12"
+    },
+    {
+      "sku": "GEM-PET13021OB",
+      "name": "Marine Animal Plush Dog Toy",
+      "source_type": "Gem Imports Pet Care",
+      "brand": null,
+      "pack": "Pack of 12"
+    }
+  ]
+}

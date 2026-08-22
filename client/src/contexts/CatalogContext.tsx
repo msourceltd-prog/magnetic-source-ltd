@@ -19,7 +19,7 @@ type RemoteProduct = Omit<Product, "price" | "id" | "availability" | "priceBasis
 
 const fallbackCatalog: CatalogContextValue = { categories: currentCategories, products: [], loading: false, usingSupabase: false };
 const CatalogContext = createContext<CatalogContextValue>(fallbackCatalog);
-const preferredCategoryOrder = ["household-pet", "sweets-snacks", "toys-gifts", "stationery-party", "health-beauty", "seasonal-christmas", "clearance", "baby-kids"];
+const preferredCategoryOrder = ["household-pet", "sweets-snacks", "toys-gifts", "pets", "stationery-party", "health-beauty", "seasonal-christmas", "clearance", "baby-kids"];
 
 export function CatalogProvider({ children }: PropsWithChildren) {
   const [catalog, setCatalog] = useState<CatalogContextValue>(() => supabase ? { ...fallbackCatalog, categories: currentCategories, products: [], loading: true } : fallbackCatalog);

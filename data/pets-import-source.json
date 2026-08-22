@@ -1,0 +1,346 @@
+{
+  "created_at": "2026-08-22T17:09:32.268Z",
+  "instruction": "User approved a new Pets department using some source-confirmed branded products from the previous Household & Pet backup and a balanced complementary selection from the authorised Gem Imports Pet Care range.",
+  "product_count": 30,
+  "source_counts": {
+    "previous_authorised_pet_range": 6,
+    "gem_imports_pet_care": 24
+  },
+  "verified_brand_counts": {
+    "Good Boy": 2,
+    "Nylabone": 2,
+    "Rosewood": 2
+  },
+  "products": [
+    {
+      "source_type": "Previous authorised pet range",
+      "source_sku": "72619U",
+      "sku": "72619U",
+      "name": "Good Boy Cheese Please – Long Lasting Tasty Chew 60g",
+      "slug": "pets-good-boy-cheese-please-long-lasting-tasty-chew-60g-72619u",
+      "brand": "Good Boy",
+      "pack": "Pack of 12",
+      "description": "Good Boy Cheese Please – Long Lasting Tasty Chew 60g is supplied as pack of 12. Supplier reference: 72619U.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Cheese-Please-Long-Lasting-Tasty-Chew-60g-72619U.png"
+    },
+    {
+      "source_type": "Previous authorised pet range",
+      "source_sku": "72567J",
+      "sku": "72567J",
+      "name": "Good Boy Soft Meerkat Dog Toy",
+      "slug": "pets-good-boy-soft-meerkat-dog-toy-72567j",
+      "brand": "Good Boy",
+      "pack": "Pack of 4",
+      "description": "Good Boy Soft Meerkat Dog Toy is supplied as pack of 4. Supplier reference: 72567J.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Good-Boy-Soft-Meerkat-Dog-Toy-72567J.png"
+    },
+    {
+      "source_type": "Previous authorised pet range",
+      "source_sku": "72568M",
+      "sku": "72568M",
+      "name": "Nylabone Extreme Chew Bacon Flavour Medium",
+      "slug": "pets-nylabone-extreme-chew-bacon-flavour-medium-72568m",
+      "brand": "Nylabone",
+      "pack": "Pack of 24",
+      "description": "Nylabone Extreme Chew Bacon Flavour Medium is supplied as pack of 24. Supplier reference: 72568M.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/06/Nylabone-Extreme-Chew-Bacon-Flavour-Medium-72568M.jpg"
+    },
+    {
+      "source_type": "Previous authorised pet range",
+      "source_sku": "HPE-72360G",
+      "sku": "HPE-72360G",
+      "name": "Nylabone Extreme Chew Venison Antler Alternative Chew",
+      "slug": "pets-nylabone-extreme-chew-venison-antler-alternative-chew-hpe-72360g",
+      "brand": "Nylabone",
+      "pack": "Pack of 24",
+      "description": "Nylabone Extreme Chew Venison Antler Alternative Chew is supplied as pack of 24. Supplier reference: 72360G.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Nylabone-Extreme-Chew-Venision-Antler-Alternative-Chew-72360G.jpg"
+    },
+    {
+      "source_type": "Previous authorised pet range",
+      "source_sku": "HPE-72404S",
+      "sku": "HPE-72404S",
+      "name": "Rosewood Tough Toys Wood Flavour Dog Chew",
+      "slug": "pets-rosewood-tough-toys-wood-flavour-dog-chew-hpe-72404s",
+      "brand": "Rosewood",
+      "pack": "Pack of 3",
+      "description": "Rosewood Tough Toys Wood Flavour Dog Chew is supplied as pack of 3. Supplier reference: 72404S.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/05/Rosewood-Tough-Toys-Wood-Flavour-Dog-Chew-72404S.webp"
+    },
+    {
+      "source_type": "Previous authorised pet range",
+      "source_sku": "HPE-72364S",
+      "sku": "HPE-72364S",
+      "name": "Rosewood Cooling Collar – Medium",
+      "slug": "pets-rosewood-cooling-collar-medium-hpe-72364s",
+      "brand": "Rosewood",
+      "pack": "Pack of 4",
+      "description": "Rosewood Cooling Collar – Medium is supplied as pack of 4. Supplier reference: 72364S.",
+      "image": "https://www.harrisonsdirect.co.uk/wp-content/uploads/2026/04/Rosewood-Cooling-Collar-–-Medium-72364S.png"
+    },
+    {
+      "source_type": "Gem Imports Pet Care",
+      "source_sku": "PET7199OB",
+      "sku": "GEM-PET7199OB",
+      "name": "Silica Crystals Cat Litter 3.8L",
+      "slug": "pets-silica-crystals-cat-litter-3-8l-gem-pet7199ob",
+      "brand": null,
+      "pack": "Pack of 6",
+      "description": "Silica Crystals Cat Litter 3.8L is supplied as pack of 6. Supplier reference: PET7199OB.",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet7199ob.png?_t=2632515512&w=811&h=629&format=jpeg"
+    },
+    {
+      "source_type": "Gem Imports Pet Care",
+      "source_sku": "PET13127",
+      "sku": "GEM-PET13127",
+      "name": "Cat Bowls 2pk 17cm",
+      "slug": "pets-cat-bowls-2pk-17cm-gem-pet13127",
+      "brand": null,
+      "pack": "Pack of 24",
+      "description": "Cat Bowls 2pk 17cm is supplied as pack of 24. Supplier reference: PET13127.",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet13127.png?_t=26325154933&w=811&h=629&format=jpeg"
+    },
+    {
+      "source_type": "Gem Imports Pet Care",
+      "source_sku": "PET12979",
+      "sku": "GEM-PET12979",
+      "name": "Multi-purpose Cat Mat",
+      "slug": "pets-multi-purpose-cat-mat-gem-pet12979",
+      "brand": null,
+      "pack": "Pack of 24",
+      "description": "Multi-purpose Cat Mat is supplied as pack of 24. Supplier reference: PET12979.",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet12979.png?_t=2632515499&w=811&h=629&format=jpeg"
+    },
+    {
+      "source_type": "Gem Imports Pet Care",
+      "source_sku": "PET4249",
+      "sku": "GEM-PET4249",
+      "name": "Cat Teaser Fish Toy",
+      "slug": "pets-cat-teaser-fish-toy-gem-pet4249",
+      "brand": null,
+      "pack": "Pack of 24",
+      "description": "Cat Teaser Fish Toy is supplied as pack of 24. Supplier reference: PET4249.",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet4249.png?_t=263251551&w=811&h=629&format=jpeg"
+    },
+    {
+      "source_type": "Gem Imports Pet Care",
+      "source_sku": "PET4253",
+      "sku": "GEM-PET4253",
+      "name": "Fish With Catnip Toy",
+      "slug": "pets-fish-with-catnip-toy-gem-pet4253",
+      "brand": null,
+      "pack": "Pack of 24",
+      "description": "Fish With Catnip Toy is supplied as pack of 24. Supplier reference: PET4253.",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet4253.png?_t=263251557&w=811&h=629&format=jpeg"
+    },
+    {
+      "source_type": "Gem Imports Pet Care",
+      "source_sku": "PET6392",
+      "sku": "GEM-PET6392",
+      "name": "Cat Collar With Bell",
+      "slug": "pets-cat-collar-with-bell-gem-pet6392",
+      "brand": null,
+      "pack": "Pack of 24",
+      "description": "Cat Collar With Bell is supplied as pack of 24. Supplier reference: PET6392.",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet6392.png?_t=2632515534&w=811&h=629&format=jpeg"
+    },
+    {
+      "source_type": "Gem Imports Pet Care",
+      "source_sku": "PET12575OB",
+      "sku": "GEM-PET12575OB",
+      "name": "Pet Travel Bottle",
+      "slug": "pets-pet-travel-bottle-gem-pet12575ob",
+      "brand": null,
+      "pack": "Pack of 24",
+      "description": "Pet Travel Bottle is supplied as pack of 24. Supplier reference: PET12575OB.",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet12575ob.png?_t=2632515493&w=811&h=629&format=jpeg"
+    },
+    {
+      "source_type": "Gem Imports Pet Care",
+      "source_sku": "PET1073",
+      "sku": "GEM-PET1073",
+      "name": "Dog Leash 10m",
+      "slug": "pets-dog-leash-10m-gem-pet1073",
+      "brand": null,
+      "pack": "Pack of 18",
+      "description": "Dog Leash 10m is supplied as pack of 18. Supplier reference: PET1073.",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet1073.png?_t=2632515486&w=811&h=629&format=jpeg"
+    },
+    {
+      "source_type": "Gem Imports Pet Care",
+      "source_sku": "PET7348OB",
+      "sku": "GEM-PET7348OB",
+      "name": "Rainbow Fragranced Doggy Poo Bags 240pk",
+      "slug": "pets-rainbow-fragranced-doggy-poo-bags-240pk-gem-pet7348ob",
+      "brand": null,
+      "pack": "Pack of 12",
+      "description": "Rainbow Fragranced Doggy Poo Bags 240pk is supplied as pack of 12. Supplier reference: PET7348OB.",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet7348ob.png?_t=2632515514&w=811&h=629&format=jpeg"
+    },
+    {
+      "source_type": "Gem Imports Pet Care",
+      "source_sku": "PET0866OB",
+      "sku": "GEM-PET0866OB",
+      "name": "Puppy training pads 30 pack",
+      "slug": "pets-puppy-training-pads-30-pack-gem-pet0866ob",
+      "brand": null,
+      "pack": "Pack of 6",
+      "description": "Puppy training pads 30 pack is supplied as pack of 6. Supplier reference: PET0866OB.",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet0866ob.png?_t=2632515482&w=811&h=629&format=jpeg"
+    },
+    {
+      "source_type": "Gem Imports Pet Care",
+      "source_sku": "PET6414OB",
+      "sku": "GEM-PET6414OB",
+      "name": "Retractable Dog Lead",
+      "slug": "pets-retractable-dog-lead-gem-pet6414ob",
+      "brand": null,
+      "pack": "Pack of 12",
+      "description": "Retractable Dog Lead is supplied as pack of 12. Supplier reference: PET6414OB.",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet6414ob.png?_t=2632515543&w=811&h=629&format=jpeg"
+    },
+    {
+      "source_type": "Gem Imports Pet Care",
+      "source_sku": "PET8185OB",
+      "sku": "GEM-PET8185OB",
+      "name": "Spiral Pet Stake 5m",
+      "slug": "pets-spiral-pet-stake-5m-gem-pet8185ob",
+      "brand": null,
+      "pack": "Pack of 12",
+      "description": "Spiral Pet Stake 5m is supplied as pack of 12. Supplier reference: PET8185OB.",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet8185ob.png?_t=2632515519&w=811&h=629&format=jpeg"
+    },
+    {
+      "source_type": "Gem Imports Pet Care",
+      "source_sku": "PET12794",
+      "sku": "GEM-PET12794",
+      "name": "Collapsible Pet Bowl With Clip 15cm",
+      "slug": "pets-collapsible-pet-bowl-with-clip-15cm-gem-pet12794",
+      "brand": null,
+      "pack": "Pack of 24",
+      "description": "Collapsible Pet Bowl With Clip 15cm is supplied as pack of 24. Supplier reference: PET12794.",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet12794.png?_t=2632515496&w=811&h=629&format=jpeg"
+    },
+    {
+      "source_type": "Gem Imports Pet Care",
+      "source_sku": "PET12933",
+      "sku": "GEM-PET12933",
+      "name": "Pet Food Scoop 2pk",
+      "slug": "pets-pet-food-scoop-2pk-gem-pet12933",
+      "brand": null,
+      "pack": "Pack of 24",
+      "description": "Pet Food Scoop 2pk is supplied as pack of 24. Supplier reference: PET12933.",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet12933.png?_t=2632515497&w=811&h=629&format=jpeg"
+    },
+    {
+      "source_type": "Gem Imports Pet Care",
+      "source_sku": "PET13027OB",
+      "sku": "GEM-PET13027OB",
+      "name": "Cooling Pet Drinking Bowl CDU",
+      "slug": "pets-cooling-pet-drinking-bowl-cdu-gem-pet13027ob",
+      "brand": null,
+      "pack": "Pack of 6",
+      "description": "Cooling Pet Drinking Bowl CDU is supplied as pack of 6. Supplier reference: PET13027OB.",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet13027ob.png?_t=26325154926&w=811&h=629&format=jpeg"
+    },
+    {
+      "source_type": "Gem Imports Pet Care",
+      "source_sku": "PET12528OB",
+      "sku": "GEM-PET12528OB",
+      "name": "Double Diner With Splash Guard",
+      "slug": "pets-double-diner-with-splash-guard-gem-pet12528ob",
+      "brand": null,
+      "pack": "Pack of 12",
+      "description": "Double Diner With Splash Guard is supplied as pack of 12. Supplier reference: PET12528OB.",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet12528ob.png?_t=26325154856&w=811&h=629&format=jpeg"
+    },
+    {
+      "source_type": "Gem Imports Pet Care",
+      "source_sku": "PET13185OB",
+      "sku": "GEM-PET13185OB",
+      "name": "Pet Food Storage 900ml",
+      "slug": "pets-pet-food-storage-900ml-gem-pet13185ob",
+      "brand": null,
+      "pack": "Pack of 12",
+      "description": "Pet Food Storage 900ml is supplied as pack of 12. Supplier reference: PET13185OB.",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet13185ob.png?_t=26325154939&w=811&h=629&format=jpeg"
+    },
+    {
+      "source_type": "Gem Imports Pet Care",
+      "source_sku": "PET9298OB",
+      "sku": "GEM-PET9298OB",
+      "name": "Stainless Steel Pet Bowl 25cm",
+      "slug": "pets-stainless-steel-pet-bowl-25cm-gem-pet9298ob",
+      "brand": null,
+      "pack": "Pack of 24",
+      "description": "Stainless Steel Pet Bowl 25cm is supplied as pack of 24. Supplier reference: PET9298OB.",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet9298ob.png?_t=26325155113&w=811&h=629&format=jpeg"
+    },
+    {
+      "source_type": "Gem Imports Pet Care",
+      "source_sku": "PET12717OB",
+      "sku": "GEM-PET12717OB",
+      "name": "Pet Microfibre Towel 60 x 100cm",
+      "slug": "pets-pet-microfibre-towel-60-x-100cm-gem-pet12717ob",
+      "brand": null,
+      "pack": "Pack of 16",
+      "description": "Pet Microfibre Towel 60 x 100cm is supplied as pack of 16. Supplier reference: PET12717OB.",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet12717ob.png?_t=2632515494&w=811&h=629&format=jpeg"
+    },
+    {
+      "source_type": "Gem Imports Pet Care",
+      "source_sku": "PET2456OB",
+      "sku": "GEM-PET2456OB",
+      "name": "Pet Fleece Blanket 60cm x 100cm",
+      "slug": "pets-pet-fleece-blanket-60cm-x-100cm-gem-pet2456ob",
+      "brand": null,
+      "pack": "Pack of 24",
+      "description": "Pet Fleece Blanket 60cm x 100cm is supplied as pack of 24. Supplier reference: PET2456OB.",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet2456ob.png?_t=26325154946&w=811&h=629&format=jpeg"
+    },
+    {
+      "source_type": "Gem Imports Pet Care",
+      "source_sku": "PET6403OB",
+      "sku": "GEM-PET6403OB",
+      "name": "Pet Grooming Brush Set",
+      "slug": "pets-pet-grooming-brush-set-gem-pet6403ob",
+      "brand": null,
+      "pack": "Pack of 18",
+      "description": "Pet Grooming Brush Set is supplied as pack of 18. Supplier reference: PET6403OB.",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet6403ob.png?_t=263251554&w=811&h=629&format=jpeg"
+    },
+    {
+      "source_type": "Gem Imports Pet Care",
+      "source_sku": "PET12190OB",
+      "sku": "GEM-PET12190OB",
+      "name": "Pet Silicone Placemat",
+      "slug": "pets-pet-silicone-placemat-gem-pet12190ob",
+      "brand": null,
+      "pack": "Pack of 18",
+      "description": "Pet Silicone Placemat is supplied as pack of 18. Supplier reference: PET12190OB.",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet12190ob.png?_t=26325154837&w=811&h=629&format=jpeg"
+    },
+    {
+      "source_type": "Gem Imports Pet Care",
+      "source_sku": "PET8095OB",
+      "sku": "GEM-PET8095OB",
+      "name": "2-IN-1 Bird Bath & Feeder",
+      "slug": "pets-2-in-1-bird-bath-and-feeder-gem-pet8095ob",
+      "brand": null,
+      "pack": "Pack of 12",
+      "description": "2-IN-1 Bird Bath & Feeder is supplied as pack of 12. Supplier reference: PET8095OB.",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet8095ob.png?_t=2632515518&w=811&h=629&format=jpeg"
+    },
+    {
+      "source_type": "Gem Imports Pet Care",
+      "source_sku": "PET13021OB",
+      "sku": "GEM-PET13021OB",
+      "name": "Marine Animal Plush Dog Toy",
+      "slug": "pets-marine-animal-plush-dog-toy-gem-pet13021ob",
+      "brand": null,
+      "pack": "Pack of 12",
+      "description": "Marine Animal Plush Dog Toy is supplied as pack of 12. Supplier reference: PET13021OB.",
+      "image": "https://www.gemimports.co.uk/gem/i/pmi/pet13021ob.png?_t=26325154918&w=811&h=629&format=jpeg"
+    }
+  ]
+}
