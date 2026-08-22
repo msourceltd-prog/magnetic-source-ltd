@@ -375,38 +375,11 @@
   content: "";
 }
 
-/* Magnetic Source field-system release pass: the header, cards, and ledger facts
- * repeat paired source dots, restrained field arcs, and cut corners. Product assets
- * remain at object-fit: contain with the established full-product no-crop rule. */
+/* Header cleanup: preserve the established logo and brand type without decorative
+ * field arcs or dots that can protrude at responsive widths. */
 .site-header .brand-lockup {
   isolation: isolate;
-  padding-right: 24px;
-}
-
-.site-header .brand-lockup::before {
-  position: absolute;
-  z-index: -1;
-  top: -9px;
-  right: -3px;
-  width: 45px;
-  height: 45px;
-  border: 1px solid rgba(18, 76, 156, 0.22);
-  border-left-color: transparent;
-  border-bottom-color: transparent;
-  border-radius: 0 100% 0 0;
-  content: "";
-}
-
-.site-header .brand-lockup::after {
-  position: absolute;
-  top: 10px;
-  right: 4px;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: #c97725;
-  box-shadow: -12px 13px 0 -1px #124c9c;
-  content: "";
+  padding-right: 11px;
 }
 
 .site-header .brand-mark {

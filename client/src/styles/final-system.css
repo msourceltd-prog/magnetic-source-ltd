@@ -311,28 +311,23 @@ body,
   background-color: color-mix(in srgb, var(--brand-on-primary) 10%, var(--brand-primary));
 }
 
+/* Keep the category tape stable after pointer navigation: selection should never
+ * introduce a yellow line, dotted marker, inset highlight, or overflow artefact. */
 .category-tape-link.active,
 .category-tape-link[aria-current="page"] {
   color: var(--brand-on-primary);
-  background-color: color-mix(in srgb, var(--brand-on-primary) 18%, var(--brand-primary));
-  box-shadow: inset 0 3px 0 var(--brand-accent);
+  background-color: transparent;
+  box-shadow: none;
 }
 
 .category-tape-link.active::after,
 .category-tape-link[aria-current="page"]::after {
-  position: absolute;
-  right: 13px;
-  bottom: 5px;
-  left: 13px;
-  height: 3px;
-  background: radial-gradient(circle, var(--brand-on-primary) 0 1.1px, transparent 1.35px) 0 50% / 12px 3px repeat-x;
-  content: "";
-  opacity: .88;
+  content: none;
 }
 
 .category-tape-link.active:hover,
 .category-tape-link[aria-current="page"]:hover {
-  background-color: color-mix(in srgb, var(--brand-on-primary) 24%, var(--brand-primary));
+  background-color: color-mix(in srgb, var(--brand-on-primary) 10%, var(--brand-primary));
 }
 
 .page-banner {
