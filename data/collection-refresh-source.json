@@ -1,0 +1,122 @@
+{
+  "created_at": "2026-08-22T17:29:35.955Z",
+  "instruction": "Refresh Best sellers and New arrivals with a category-balanced selection from the current catalogue, including newly added Pets products, without changing product categories or commercial data.",
+  "best_seller_additions": [
+    {
+      "sku": "GEM-BAB8114",
+      "name": "Fragranced Nappy Bags 150pk CDU",
+      "category": "baby-kids",
+      "source": "Authorised Gem Imports Baby & Kids range"
+    },
+    {
+      "sku": "GEM-BAB5368",
+      "name": "Bottle and Teat Brush",
+      "category": "baby-kids",
+      "source": "Authorised Gem Imports Baby & Kids range"
+    },
+    {
+      "sku": "GEM-BAB5367",
+      "name": "Brush and Comb Set",
+      "category": "baby-kids",
+      "source": "Authorised Gem Imports Baby & Kids range"
+    },
+    {
+      "sku": "GEM-BAB0731",
+      "name": "Supersoft microfibre baby face towel 3 pack",
+      "category": "baby-kids",
+      "source": "Authorised Gem Imports Baby & Kids range"
+    },
+    {
+      "sku": "GEM-BAB0719",
+      "name": "Bath Time Boats 5pk",
+      "category": "baby-kids",
+      "source": "Authorised Gem Imports Baby & Kids range"
+    }
+  ],
+  "new_arrival_additions": [
+    {
+      "sku": "GEM-BAB8114",
+      "name": "Fragranced Nappy Bags 150pk CDU",
+      "category": "baby-kids",
+      "source": "Authorised Gem Imports range"
+    },
+    {
+      "sku": "GEM-BAB5368",
+      "name": "Bottle and Teat Brush",
+      "category": "baby-kids",
+      "source": "Authorised Gem Imports range"
+    },
+    {
+      "sku": "GEM-CLE13130OB",
+      "name": "Air Freshener Berries 250ml",
+      "category": "household-pet",
+      "source": "Authorised Gem Imports range"
+    },
+    {
+      "sku": "GEM-CLE13132OB",
+      "name": "Air Freshener Rose & Peony 250ml",
+      "category": "household-pet",
+      "source": "Authorised Gem Imports range"
+    },
+    {
+      "sku": "GEM-GIF13719OB",
+      "name": "Multicolour Light Up Magnetic Speaker",
+      "category": "toys-gifts",
+      "source": "Authorised Gem Imports range"
+    },
+    {
+      "sku": "GEM-GIF13732OB",
+      "name": "Drinking Roulette Game",
+      "category": "toys-gifts",
+      "source": "Authorised Gem Imports range"
+    },
+    {
+      "sku": "72568M",
+      "name": "Nylabone Extreme Chew Bacon Flavour Medium",
+      "category": "pets",
+      "source": "Source-confirmed restored Pets range"
+    },
+    {
+      "sku": "72619U",
+      "name": "Good Boy Cheese Please – Long Lasting Tasty Chew 60g",
+      "category": "pets",
+      "source": "Source-confirmed restored Pets range"
+    },
+    {
+      "sku": "GEM-STA0270",
+      "name": "Self Adhesive Gems 110pcs",
+      "category": "stationery-party",
+      "source": "Authorised Gem Imports range"
+    },
+    {
+      "sku": "GEM-STA0319",
+      "name": "Clear Packing Tape 50m",
+      "category": "stationery-party",
+      "source": "Authorised Gem Imports range"
+    },
+    {
+      "sku": "GEM-HAL0888",
+      "name": "Halloween Pumpkin Carving Kit",
+      "category": "seasonal-christmas",
+      "source": "Authorised Gem Imports range"
+    },
+    {
+      "sku": "GEM-XMA2483",
+      "name": "Christmas Cellophane Gift Bag with Giant Bow",
+      "category": "seasonal-christmas",
+      "source": "Authorised Gem Imports range"
+    }
+  ],
+  "expected_collection_counts_after_update": {
+    "best_sellers": 59,
+    "new_arrivals": 12
+  },
+  "expected_new_arrival_category_counts": {
+    "baby-kids": 2,
+    "household-pet": 2,
+    "toys-gifts": 2,
+    "pets": 2,
+    "stationery-party": 2,
+    "seasonal-christmas": 2
+  }
+}

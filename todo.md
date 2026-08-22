@@ -228,6 +228,10 @@
 
 - [x] Create a new Pets department immediately after Toys & Gifts using 30 balanced products selected from the prior Household & Pet backup and the authorised Gem Imports pet-care range; retain the renamed Household department and all other existing departments unchanged. Completed with 6 restored source-confirmed branded products (2 Good Boy, 2 Nylabone, 2 Rosewood) and 24 Gem Imports Pet Care products; verified 30 Pets records, 5 Best seller tags, supplier images, carton packs, navigation order, sitemap coverage, and the preserved 547-product catalogue.
 
+## Best Sellers and New Arrivals Refresh
+
+- [x] Refresh the virtual Best sellers collection and replace the legacy clearance-only New arrivals selection with a current category-balanced range, including suitable Pets products, without changing category assignments, packs, prices, images, or other product data. Best sellers now contains 59 tagged products, including five verified Baby & Kids products and five Pets products. New arrivals now contains 12 current products: two each from Baby & Kids, Household, Toys & Gifts, Pets, Stationery, and Seasonal & Christmas. All selected product fields were verified unchanged.
+
 ## Supplier-Verified Pack-Format Correction
 
 - [ ] Audit current catalogue pack formats and correct supplier-supported wholesale quantities such as Pack of 12, Pack of 24, and Pack of 36 without inventing product pack sizes or changing other product data.

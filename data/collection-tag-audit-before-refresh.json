@@ -1,0 +1,694 @@
+{
+  "total_product_count": 547,
+  "best_sellers": {
+    "count": 54,
+    "by_category": {
+      "clearance": 19,
+      "health-beauty": 5,
+      "household-pet": 5,
+      "pets": 5,
+      "seasonal-christmas": 5,
+      "stationery-party": 5,
+      "sweets-snacks": 5,
+      "toys-gifts": 5
+    },
+    "products": [
+      {
+        "sku": "15846E",
+        "name": "Assorted Party Photo Props With Sticks",
+        "category": "clearance",
+        "tags": [
+          "Best seller",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "21217E",
+        "name": "Christmas Giant Bike Sack",
+        "category": "clearance",
+        "tags": [
+          "Best seller",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "22392N",
+        "name": "Squishmallows Pencil Case",
+        "category": "clearance",
+        "tags": [
+          "Best seller",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "38884A",
+        "name": "Foil Happy Birthday Balloon 16″ – Silver",
+        "category": "clearance",
+        "tags": [
+          "Best seller",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "39169J",
+        "name": "Pokemon Pen Set 3’s",
+        "category": "clearance",
+        "tags": [
+          "Best seller",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "39170N",
+        "name": "Pokemon 10 Colour Pen",
+        "category": "clearance",
+        "tags": [
+          "Best seller",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "39175C",
+        "name": "Fleur 3 Pack A4 Notebooks",
+        "category": "clearance",
+        "tags": [
+          "Best seller",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "61070L",
+        "name": "World’s Smallest Laser Tag",
+        "category": "clearance",
+        "tags": [
+          "Best seller",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "6359W",
+        "name": "Swizzels Drumstick Squashies Original Raspberry & Milk Flavour 60g 69p PMP – Best Before End 10/26",
+        "category": "clearance",
+        "tags": [
+          "Best seller",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "64792v",
+        "name": "Chakra Bath Bomb in Gift Box in CDU",
+        "category": "clearance",
+        "tags": [
+          "Best seller",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "64794B",
+        "name": "Somewhere Rainbow Bath Bomb in Gift Box in CDU",
+        "category": "clearance",
+        "tags": [
+          "Best seller",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "69885H",
+        "name": "Stitchmas Bath Fizzer Pack",
+        "category": "clearance",
+        "tags": [
+          "Best seller",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "69922Y",
+        "name": "Man’Stuff Ultimate Six Pack Gift Set",
+        "category": "clearance",
+        "tags": [
+          "Best seller",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "69954T",
+        "name": "Baylis & Harding Limited Edition Body Pamper Gift Set",
+        "category": "clearance",
+        "tags": [
+          "Best seller",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "69983F",
+        "name": "Baylis & Harding The Fuzzy Duck Cocktails Indulgent Body Care Gift Set",
+        "category": "clearance",
+        "tags": [
+          "Best seller",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "69987R",
+        "name": "Baylis & Harding The Fuzzy Duck Winter Wonderland Luxury Bath Bombs Gift Set",
+        "category": "clearance",
+        "tags": [
+          "Best seller",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "69990B",
+        "name": "Baylis & Harding The Fuzzy Duck Winter Wonderland Decorative Crackers Gift Set",
+        "category": "clearance",
+        "tags": [
+          "Best seller",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "69999C",
+        "name": "Baylis & Harding Beauticology Cosmic Body Pamper Gift Set",
+        "category": "clearance",
+        "tags": [
+          "Best seller",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "70001H",
+        "name": "Baylis & Harding Beauticology Cosmic Fun Pop Beauty Bag Gift Set",
+        "category": "clearance",
+        "tags": [
+          "Best seller",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "72754D",
+        "name": "Nivea Shave Mens After Shave Moisturiser Protect & Care 75ml",
+        "category": "health-beauty",
+        "tags": [
+          "Best seller",
+          "Health & Beauty",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "73086C",
+        "name": "Chupa Chups Watermelon, Peach & Lemon Lip Balms",
+        "category": "health-beauty",
+        "tags": [
+          "Best seller",
+          "Health & Beauty",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "73096H",
+        "name": "Umbro Bodywash Ice 400ml",
+        "category": "health-beauty",
+        "tags": [
+          "Best seller",
+          "Health & Beauty",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "73097K",
+        "name": "Umbro Bodywash Power 400ml",
+        "category": "health-beauty",
+        "tags": [
+          "Best seller",
+          "Health & Beauty",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "HBT-551W",
+        "name": "Wilkinson Sword Extra 2 Beauty Ladies Disposable Razor 5’s",
+        "category": "health-beauty",
+        "tags": [
+          "Best seller",
+          "Health & Beauty",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "GEM-CLE13130OB",
+        "name": "Air Freshener Berries 250ml",
+        "category": "household-pet",
+        "tags": [
+          "Best seller",
+          "Price hidden",
+          "Gem Imports"
+        ]
+      },
+      {
+        "sku": "GEM-CLE13132OB",
+        "name": "Air Freshener Rose & Peony 250ml",
+        "category": "household-pet",
+        "tags": [
+          "Best seller",
+          "Price hidden",
+          "Gem Imports"
+        ]
+      },
+      {
+        "sku": "GEM-CLE13189OB",
+        "name": "Toilet Rim Block Cleaner Ocean Fresh 2pk",
+        "category": "household-pet",
+        "tags": [
+          "Best seller",
+          "Price hidden",
+          "Gem Imports"
+        ]
+      },
+      {
+        "sku": "GEM-CLE13190OB",
+        "name": "Toilet Rim Block Cleaner Citrus 2pk",
+        "category": "household-pet",
+        "tags": [
+          "Best seller",
+          "Price hidden",
+          "Gem Imports"
+        ]
+      },
+      {
+        "sku": "GEM-CLE13347OB",
+        "name": "Scented Air Freshener 250ml CDU",
+        "category": "household-pet",
+        "tags": [
+          "Best seller",
+          "Price hidden",
+          "Gem Imports"
+        ]
+      },
+      {
+        "sku": "72568M",
+        "name": "Nylabone Extreme Chew Bacon Flavour Medium",
+        "category": "pets",
+        "tags": [
+          "Best seller",
+          "Price hidden",
+          "Previous authorised pet range"
+        ]
+      },
+      {
+        "sku": "72619U",
+        "name": "Good Boy Cheese Please – Long Lasting Tasty Chew 60g",
+        "category": "pets",
+        "tags": [
+          "Best seller",
+          "Price hidden",
+          "Previous authorised pet range"
+        ]
+      },
+      {
+        "sku": "GEM-PET12575OB",
+        "name": "Pet Travel Bottle",
+        "category": "pets",
+        "tags": [
+          "Best seller",
+          "Price hidden",
+          "Gem Imports"
+        ]
+      },
+      {
+        "sku": "GEM-PET7199OB",
+        "name": "Silica Crystals Cat Litter 3.8L",
+        "category": "pets",
+        "tags": [
+          "Best seller",
+          "Price hidden",
+          "Gem Imports"
+        ]
+      },
+      {
+        "sku": "HPE-72404S",
+        "name": "Rosewood Tough Toys Wood Flavour Dog Chew",
+        "category": "pets",
+        "tags": [
+          "Best seller",
+          "Price hidden",
+          "Previous authorised pet range"
+        ]
+      },
+      {
+        "sku": "GEM-HAL0888",
+        "name": "Halloween Pumpkin Carving Kit",
+        "category": "seasonal-christmas",
+        "tags": [
+          "Best seller",
+          "Price hidden",
+          "Gem Imports"
+        ]
+      },
+      {
+        "sku": "GEM-XMA2483",
+        "name": "Christmas Cellophane Gift Bag with Giant Bow",
+        "category": "seasonal-christmas",
+        "tags": [
+          "Best seller",
+          "Price hidden",
+          "Gem Imports"
+        ]
+      },
+      {
+        "sku": "GEM-XMA3252",
+        "name": "Silver Foil Garlands - 2 Pack",
+        "category": "seasonal-christmas",
+        "tags": [
+          "Best seller",
+          "Price hidden",
+          "Gem Imports"
+        ]
+      },
+      {
+        "sku": "GEM-XMA3264",
+        "name": "Red Foil Garland - 2 Pack",
+        "category": "seasonal-christmas",
+        "tags": [
+          "Best seller",
+          "Price hidden",
+          "Gem Imports"
+        ]
+      },
+      {
+        "sku": "GEM-XMA8747",
+        "name": "Christmas Multi-Colour Pen CDU",
+        "category": "seasonal-christmas",
+        "tags": [
+          "Best seller",
+          "Price hidden",
+          "Gem Imports"
+        ]
+      },
+      {
+        "sku": "GEM-STA0270",
+        "name": "Self Adhesive Gems 110pcs",
+        "category": "stationery-party",
+        "tags": [
+          "Best seller",
+          "Price hidden",
+          "Gem Imports"
+        ]
+      },
+      {
+        "sku": "GEM-STA0319",
+        "name": "Clear Packing Tape 50m",
+        "category": "stationery-party",
+        "tags": [
+          "Best seller",
+          "Price hidden",
+          "Gem Imports"
+        ]
+      },
+      {
+        "sku": "GEM-STA0323",
+        "name": "Dual Tip Felt Pens 12pk",
+        "category": "stationery-party",
+        "tags": [
+          "Best seller",
+          "Price hidden",
+          "Gem Imports"
+        ]
+      },
+      {
+        "sku": "GEM-STA12610",
+        "name": "HB Pencils 12pk",
+        "category": "stationery-party",
+        "tags": [
+          "Best seller",
+          "Price hidden",
+          "Gem Imports"
+        ]
+      },
+      {
+        "sku": "GEM-STA1361",
+        "name": "Brown tape 50m x 48mm",
+        "category": "stationery-party",
+        "tags": [
+          "Best seller",
+          "Price hidden",
+          "Gem Imports"
+        ]
+      },
+      {
+        "sku": "67241R",
+        "name": "Paw Patrol Surprise Cones 25g",
+        "category": "sweets-snacks",
+        "tags": [
+          "Best seller",
+          "Sweets & Snacks",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "67242U",
+        "name": "Peppa Pig Surprise Cones 25g",
+        "category": "sweets-snacks",
+        "tags": [
+          "Best seller",
+          "Sweets & Snacks",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "72535O",
+        "name": "Toxic Waste Cherry Popcorn 120g",
+        "category": "sweets-snacks",
+        "tags": [
+          "Best seller",
+          "Sweets & Snacks",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "9838V",
+        "name": "Haribo Sour Bats 140g £1.25 PMP",
+        "category": "sweets-snacks",
+        "tags": [
+          "Best seller",
+          "Sweets & Snacks",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "SWE-6388I",
+        "name": "Haribo Bubblegum Bottles Z!ng 140g £1.25 PMP",
+        "category": "sweets-snacks",
+        "tags": [
+          "Best seller",
+          "Sweets & Snacks",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "GEM-GIF13719OB",
+        "name": "Multicolour Light Up Magnetic Speaker",
+        "category": "toys-gifts",
+        "tags": [
+          "Best seller",
+          "Price hidden",
+          "Gem Imports"
+        ]
+      },
+      {
+        "sku": "GEM-GIF13732OB",
+        "name": "Drinking Roulette Game",
+        "category": "toys-gifts",
+        "tags": [
+          "Best seller",
+          "Price hidden",
+          "Gem Imports"
+        ]
+      },
+      {
+        "sku": "GEM-TOY13175OB",
+        "name": "Squishy Animals CDU Series 1",
+        "category": "toys-gifts",
+        "tags": [
+          "Best seller",
+          "Price hidden",
+          "Gem Imports"
+        ]
+      },
+      {
+        "sku": "GEM-TOY13176OB",
+        "name": "Squishy Animals CDU Series 2",
+        "category": "toys-gifts",
+        "tags": [
+          "Best seller",
+          "Price hidden",
+          "Gem Imports"
+        ]
+      },
+      {
+        "sku": "GEM-TOY5802OB",
+        "name": "Magnetic Drawing Board",
+        "category": "toys-gifts",
+        "tags": [
+          "Best seller",
+          "Price hidden",
+          "Gem Imports"
+        ]
+      }
+    ]
+  },
+  "new_arrivals": {
+    "count": 12,
+    "by_category": {
+      "clearance": 12
+    },
+    "products": [
+      {
+        "sku": "65397A",
+        "name": "Just Stationery Split Cork/Dry Wipe Board 450mm x 300mm",
+        "category": "clearance",
+        "tags": [
+          "New arrival",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "68612B",
+        "name": "Star Wars: Unlimited Twilight of the Republic Booster CDU",
+        "category": "clearance",
+        "tags": [
+          "New arrival",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "69828M",
+        "name": "Bubble T Boba Face Mask 3 Piece Gift Set",
+        "category": "clearance",
+        "tags": [
+          "New arrival",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "69830T",
+        "name": "Bubble T Boba Body Wash 4 Piece Gift Set",
+        "category": "clearance",
+        "tags": [
+          "New arrival",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "69832Z",
+        "name": "Bubble T Boba Wash & Body 3 Piece Gift Set",
+        "category": "clearance",
+        "tags": [
+          "New arrival",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "69834F",
+        "name": "Bubble T Sweetea Donut Bath Fizzer 4 Piece Gift Set",
+        "category": "clearance",
+        "tags": [
+          "New arrival",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "69835I",
+        "name": "Bubble T Sweetea Hand Collection 3 Piece Gift Set",
+        "category": "clearance",
+        "tags": [
+          "New arrival",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "69836L",
+        "name": "Bubble T Sweetea Bubble Bath Collection 5 Piece Gift Set",
+        "category": "clearance",
+        "tags": [
+          "New arrival",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "69838R",
+        "name": "Bubble T Rainbow Crackers 3 Piece Gift Set",
+        "category": "clearance",
+        "tags": [
+          "New arrival",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "69882Y",
+        "name": "Stitch Pamper Hair Turban",
+        "category": "clearance",
+        "tags": [
+          "New arrival",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "69890X",
+        "name": "Ho Ho Ho Hand & Body Wash Gift Set",
+        "category": "clearance",
+        "tags": [
+          "New arrival",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      },
+      {
+        "sku": "69892D",
+        "name": "Ho Ho Ho Snow Globe Hand Cream Trio Gift Set",
+        "category": "clearance",
+        "tags": [
+          "New arrival",
+          "Harrisons-authorized catalogue",
+          "Price hidden"
+        ]
+      }
+    ]
+  }
+}
