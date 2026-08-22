@@ -92,6 +92,10 @@
 
 - [x] Replace only the dark shared information-page hero background with the established Magnetic Source cobalt blue, retaining all page content, typography, and layout. Production build and TypeScript validation pass; Delivery & Returns and Contact were checked at 1280px, and Delivery & Returns was checked at 390px.
 
+## All Requested Information-Page Hero Alignment
+
+- [x] Confirm and apply the current Contact-page cobalt hero treatment across About Magnetic Source, Trade Account, Delivery & Returns, Privacy, and Terms without changing their existing copy or layout. All six requested desktop routes were visually checked and use the same shared cobalt hero treatment; the shared responsive treatment was also checked at 390px.
+
 - [x] Review the supplied reference’s public category structure and identify compatible original product-type additions.
 - [x] Expand the original static approval-demo catalogue without reusing reference names, descriptions, SKUs, pricing, or images.
 - [x] Reuse existing remote sample imagery rather than uploading additional Supabase Storage assets.
