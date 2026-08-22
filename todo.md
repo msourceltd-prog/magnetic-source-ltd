@@ -136,6 +136,10 @@
 
 - [x] Replace only the dark active department-tab state with a polished established-blue treatment across all category navigation tabs, preserving links and catalogue behaviour. Production build passed; Household & Pet and Health & Beauty desktop views plus Household & Pet mobile were visually verified.
 
+## Footer Information-Link Routing
+
+- [x] Repair the existing shared footer links for About Magnetic Source, Trade account, Delivery & returns, Contact, Privacy, and Terms so they open their intended pages at the relevant opening content from every public route, including after refresh, without changing unrelated design or functionality. Production build passed; all six anchored desktop destinations and Contact, Delivery & Returns, and Terms mobile entries were visually verified. Direct browser loads confirmed the Contact and Terms URLs retain their anchors and open on the intended hero content; a Terms browser refresh retained the `#website-terms` URL and showed the correct opening Terms content.
+
 - [x] Review the supplied reference’s public category structure and identify compatible original product-type additions.
 - [x] Expand the original static approval-demo catalogue without reusing reference names, descriptions, SKUs, pricing, or images.
 - [x] Reuse existing remote sample imagery rather than uploading additional Supabase Storage assets.

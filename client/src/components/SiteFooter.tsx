@@ -1,12 +1,12 @@
 /**
  * Trade Ledger, Recut: an operational, paper-and-ink footer that closes each
- * page with professional registered-company details and useful support routes.
+ * page with professional registered-company details and direct, anchored support
+ * routes to each existing information page's opening content.
  */
 import { Mail, MapPin, Phone } from "lucide-react";
-import { Link } from "wouter";
 
 const footerGroups = [
-  { title: "Support", links: [["About Magnetic Source", "/about"], ["Trade account", "/trade-account"], ["Delivery & returns", "/delivery-returns"], ["Contact", "/contact"], ["Privacy", "/privacy"], ["Terms", "/terms"]] },
+  { title: "Support", links: [["About Magnetic Source", "/about#about-magnetic-source"], ["Trade account", "/trade-account#trade-account"], ["Delivery & returns", "/delivery-returns#delivery-returns"], ["Contact", "/contact#contact-trade-desk"], ["Privacy", "/privacy#privacy-notice"], ["Terms", "/terms#website-terms"]] },
 ];
 
 function FooterBrandMark({ decorative = false }: { decorative?: boolean }) {
@@ -35,7 +35,7 @@ export default function SiteFooter() {
       </section>
       {footerGroups.map((group) => <section className="footer-links" key={group.title}>
         <h3>{group.title}</h3>
-        {group.links.map(([label, href]) => <Link key={label} href={href}>{label}</Link>)}
+        {group.links.map(([label, href]) => <a key={label} href={href}>{label}</a>)}
       </section>)}
       <section className="footer-details">
         <h3>Trade desk</h3>
