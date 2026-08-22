@@ -108,6 +108,10 @@
 
 - [x] Move only World’s Smallest Laser Tag (61070L) from Toys & Gifts to Clearance. Source-of-truth reads confirm `clearance`; the Clearance view finds SKU 61070L while the Toys & Gifts view returns no match.
 
+## Exact Bartleby Cap Category Correction
+
+- [x] Move only Bartleby Childs Two Tone Baseball Cap Assorted (72285B), Bartleby Adult Two Tone Baseball Cap Assorted (72283V), and Bartleby Adult Breathable Baseball Cap Assorted (72282S) from Toys & Gifts to Household & Pet. Source-of-truth reads confirm all three now use `household-pet`; the Household view finds SKU 72285B while the Toys & Gifts view returns no match.
+
 - [x] Review the supplied reference’s public category structure and identify compatible original product-type additions.
 - [x] Expand the original static approval-demo catalogue without reusing reference names, descriptions, SKUs, pricing, or images.
 - [x] Reuse existing remote sample imagery rather than uploading additional Supabase Storage assets.
