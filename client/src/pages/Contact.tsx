@@ -6,6 +6,7 @@ import { FormEvent, useState } from "react";
 import { ArrowRight, CheckCircle2, Mail, MapPin, Phone } from "lucide-react";
 import StoreLayout from "@/components/StoreLayout";
 import { trpc } from "@/lib/trpc";
+import { contactErrorMessage } from "@/lib/contactErrorMessage";
 
 export default function Contact() {
   const [sent, setSent] = useState(false);
@@ -17,7 +18,7 @@ export default function Contact() {
       setDelivered(result.delivered);
       setSent(true);
     },
-    onError: (mutationError) => setError(mutationError.message || "We could not send your message. Please try again."),
+    onError: (mutationError) => setError(contactErrorMessage(mutationError.message)),
   });
   const submit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
