@@ -37,7 +37,7 @@ async function readPublicRows(table) {
 
 const [categories, products] = await Promise.all([readPublicRows("categories"), readPublicRows("products")]);
 const categoryPages = categories
-  .filter(({ slug }) => slug !== "clearance")
+  .filter(({ slug }) => slug !== "clearance" && slug !== "__homepage-settings")
   .sort((left, right) => {
     const leftIndex = preferredCategoryOrder.indexOf(left.slug);
     const rightIndex = preferredCategoryOrder.indexOf(right.slug);
