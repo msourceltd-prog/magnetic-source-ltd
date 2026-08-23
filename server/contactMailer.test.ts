@@ -17,5 +17,13 @@ describe("getSmtpConfig", () => {
       port: 587,
       recipient: "msourceltd@gmail.com",
     });
+
+    expect(getSmtpConfig({
+      SMTP_HOST: "smtp.gmail.com",
+      SMTP_PORT: "587",
+      SMTP_USER: "msourceltd@gmail.com",
+      SMTP_PASSWORD: "qynm dgzq zgtu fcpe",
+      SMTP_FROM: "msourceltd@gmail.com",
+    })?.password).toBe("qynmdgzqzgtufcpe");
   });
 });
