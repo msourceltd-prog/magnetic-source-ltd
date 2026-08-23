@@ -4,7 +4,7 @@
  * departments, a restrained rotating wholesale visual field, and a customer-login
  * pricing access policy.
  */
-import { ArrowRight, ChevronRight, PackageCheck } from "lucide-react";
+import { ArrowRight, ChevronRight } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Link } from "wouter";
 import StoreLayout from "@/components/StoreLayout";
@@ -76,6 +76,5 @@ export default function Home() {
       <p>Start with the departments most useful to smaller retailers, independent sellers and practical everyday displays. Each route holds clear pack, product reference, matching image and plain-language product information.</p>
     </section>
 
-    <section className="statement-band"><div className="trade-shell"><PackageCheck size={32} /><p>Curated for the retailer who wants sourcing to feel <em>considered</em>, not complicated.</p><Link href="/contact">Contact the trade desk <ArrowRight size={17} /></Link></div></section>
   </StoreLayout>;
 }
