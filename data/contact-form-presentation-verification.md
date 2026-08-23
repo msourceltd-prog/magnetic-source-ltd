@@ -23,3 +23,11 @@ The Contact page retains the same user fields and delivery implementation: Full 
 ## Automated checks
 
 `pnpm check`, `pnpm test` (7 tests), and `pnpm build` all completed successfully after the refinement.
+
+## Live Cloudflare verification
+
+The refined Contact page was confirmed live on the existing `magneticsource.uk` Cloudflare site with a cache-busting request after GitHub commit `f6141c2` (`Polish Cloudflare contact form presentation`). The public page shows the new enquiry heading, required-field guidance, existing fields, and trade-desk delivery reassurance. No Manus release or domain move was used.
+
+## Natural-language refinement
+
+The Contact-area copy was then simplified to remove generic repeated references to trade accounts, trade enquiries, and trade desks. It now uses concise customer-facing wording such as `Contact Magnetic Source`, `How can we help?`, `Tell us what you need`, and `Thank you — we have received your message.` Desktop and mobile checks confirmed the revised copy is legible and contained within the existing Contact layout.

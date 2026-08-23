@@ -23,7 +23,7 @@ export default function Contact() {
 
     const message = String(form.get("message") || "").trim();
     if (message.length < 20) {
-      setError("Please include at least 20 characters so the trade desk has enough context.");
+      setError("Please include a little more detail so we can help.");
       return;
     }
 
@@ -40,7 +40,7 @@ export default function Contact() {
       });
       setSent(true);
     } catch {
-      setError("We could not send your enquiry right now. Please call or email the trade desk directly.");
+      setError("We could not send this message right now. Please email or call us directly.");
     } finally {
       setIsSending(false);
     }
@@ -51,8 +51,8 @@ export default function Contact() {
       <section className="contact-hero">
         <div className="trade-shell">
           <div>
-            <h1>Talk to Magnetic Source</h1>
-            <p>For product information, delivery questions or customer account support, speak directly with our UK trade desk. We will help you identify the most relevant next step.</p>
+            <h1>Contact Magnetic Source</h1>
+            <p>For product information, delivery questions or account support, get in touch with our UK team. We will help you find the right next step for your business.</p>
           </div>
           <aside>
             <Mail size={22} /><a href="mailto:info@magneticsource.uk">info@magneticsource.uk</a>
@@ -65,18 +65,18 @@ export default function Contact() {
 
       <section className="trade-shell contact-layout section-space">
         <div className="contact-intro">
-          <p className="eyebrow">Trade enquiry desk</p>
-          <h2>Tell us what your business needs.</h2>
-          <p>Share the range, product types or delivery requirements you are considering. A member of the Magnetic Source trade desk will use these details to identify the most relevant next step.</p>
-          <div className="contact-note"><CheckCircle2 size={19} /><span><b>Prefer a direct conversation?</b> Email or call the trade desk using the details above.</span></div>
+          <p className="eyebrow">Contact Magnetic Source</p>
+          <h2>How can we help?</h2>
+          <p>Tell us what you are looking for and include any product, quantity or delivery details that may help. We will review your message and come back to you by email.</p>
+          <div className="contact-note"><CheckCircle2 size={19} /><span><b>Prefer a direct conversation?</b> Email or call us using the details above.</span></div>
         </div>
 
         <form className="contact-form" onSubmit={submit}>
           {sent ? (
             <div className="contact-success" role="status">
               <CheckCircle2 size={32} />
-              <h2>Your message has been sent.</h2>
-              <p>The Magnetic Source trade desk has received your enquiry and can reply directly to your email address.</p>
+              <h2>Thank you — we have received your message.</h2>
+              <p>We will reply using the email address you provided.</p>
               <button type="button" className="button-secondary" onClick={() => { setSent(false); setError(""); }}>Send another message</button>
             </div>
           ) : (
@@ -84,8 +84,8 @@ export default function Contact() {
               <input className="form-honeypot" tabIndex={-1} autoComplete="off" name="website" aria-hidden="true" />
               <div className="contact-form-heading">
                 <div>
-                  <p className="eyebrow">Enquiry details</p>
-                  <h2>Start your trade enquiry</h2>
+                  <p className="eyebrow">Send a message</p>
+                  <h2>Tell us what you need</h2>
                 </div>
                 <p><span className="required-mark">*</span> Required fields</p>
               </div>
@@ -99,7 +99,7 @@ export default function Contact() {
               {error && <p className="form-error" role="alert">{error}</p>}
               <div className="contact-form-action">
                 <button type="submit" className="button-primary" disabled={isSending}>{isSending ? "Sending enquiry…" : <>Send enquiry <ArrowRight size={17} /></>}</button>
-                <p><CheckCircle2 size={16} /> Your enquiry is sent directly to the Magnetic Source trade desk.</p>
+                <p><CheckCircle2 size={16} /> Your message is sent directly to Magnetic Source.</p>
               </div>
             </>
           )}
