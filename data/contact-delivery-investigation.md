@@ -45,6 +45,8 @@ An owner-approved controlled request to the public Contact endpoint was attempte
 
 After the fresh Cloudflare deployment, the owner-approved controlled request returned `200 {"ok":true}`. The owner then confirmed receipt of the email in `msourceltd@gmail.com`. The Contact form is therefore verified to deliver through the existing Cloudflare-hosted website without FormSubmit activation, Manus hosting, or exposed credentials.
 
+Following a later report that a visible success state did not correspond to an email receipt, the Contact form and Worker were corrected so the honeypot path returns a clear error rather than a false success. All type, build, Worker-bundle, and ten unit tests passed. The owner then approved one final controlled request; it returned `200 {"ok":true}` and the owner confirmed the email was received in `msourceltd@gmail.com`.
+
 ## Sources
 
 - <https://formsubmit.co/help>
