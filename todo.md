@@ -300,6 +300,10 @@
 
 - [x] Remove only the “Contact the trade desk” eyebrow from the Contact page, preserving the Contact heading, details card, copy, layout, and all other pages. The Contact page now begins with “Talk to Magnetic Source”; its cobalt hero, registered details card, copy, layout, and production build were verified unchanged.
 
+## Lower Homepage Colour Unification
+
+- [x] Align the homepage statement band above the footer with the footer’s existing Source Cobalt colour system, preserving all statement text, link styling, logo, footer content, payment marks, and layout. The statement band and footer now share one uninterrupted Source Cobalt field, with desktop/mobile screenshots and the production build verified.
+
 - [x] Review the supplied reference’s public category structure and identify compatible original product-type additions.
 - [x] Expand the original static approval-demo catalogue without reusing reference names, descriptions, SKUs, pricing, or images.
 - [x] Reuse existing remote sample imagery rather than uploading additional Supabase Storage assets.

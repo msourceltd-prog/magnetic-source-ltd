@@ -560,6 +560,12 @@ body,
   .customer-registration-grid .customer-field-full { grid-column: auto; }
 }
 
+/* Homepage closing sequence: the statement and footer share one Source Cobalt
+ * field, retaining their existing content, contrast, and trade-desk hierarchy. */
+.statement-band {
+  background-color: #0b2762;
+}
+
 /* Footer closing area: a restrained solid-navy trade-desk signature with no artificial background ornament. */
 .site-footer {
   position: relative;
