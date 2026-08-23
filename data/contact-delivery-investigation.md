@@ -51,6 +51,8 @@ The owner then supplied a screenshot proving that a browser autofilled the hidde
 
 At the owner’s request, the delivered email header was simplified without sending another test message. The outgoing subject is now exactly `New website enquiry`, and the visible sender display name is `New website enquiry`. The verified sender address remains required privately by the email service but is not included in the subject or the email’s visible content. Unit tests, build, Worker bundle validation, and a non-sending live endpoint check passed.
 
+The owner then requested a more professional top email heading. The visible sender display name, email subject, and body heading were changed from `New website enquiry` to `New customer enquiry`. The verified technical sender address remains necessary for secure delivery and is only shown by Gmail if the recipient expands the technical message details. Type checking, ten unit tests, production build, Worker bundle validation, and a non-sending live endpoint check passed.
+
 ## Sources
 
 - <https://formsubmit.co/help>
