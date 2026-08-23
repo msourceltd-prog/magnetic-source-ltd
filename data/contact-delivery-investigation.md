@@ -47,6 +47,8 @@ After the fresh Cloudflare deployment, the owner-approved controlled request ret
 
 Following a later report that a visible success state did not correspond to an email receipt, the Contact form and Worker were corrected so the honeypot path returns a clear error rather than a false success. All type, build, Worker-bundle, and ten unit tests passed. The owner then approved one final controlled request; it returned `200 {"ok":true}` and the owner confirmed the email was received in `msourceltd@gmail.com`.
 
+The owner then supplied a screenshot proving that a browser autofilled the hidden `website` field, which blocked a genuine enquiry before it reached the email endpoint. The hidden field and associated blocking logic were removed from both the React Contact page and Cloudflare Worker. The revised implementation passed type checking, ten unit tests, the production build, and Worker-bundle compilation. A final owner-approved request returned `200 {"ok":true}`, and the owner confirmed the resulting email arrived in `msourceltd@gmail.com`.
+
 ## Sources
 
 - <https://formsubmit.co/help>
