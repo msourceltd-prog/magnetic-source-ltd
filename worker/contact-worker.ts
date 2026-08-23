@@ -17,7 +17,7 @@ type WorkerEnv = {
 
 const CONTACT_ENDPOINT = "/api/contact";
 const RECIPIENT = "msourceltd@gmail.com";
-const SENDER = "New website enquiry <contact@magneticsource.uk>";
+const SENDER = "New customer enquiry <contact@magneticsource.uk>";
 const TRUSTED_ORIGINS = new Set([
   "https://magneticsource.uk",
   "https://www.magneticsource.uk",
@@ -80,7 +80,7 @@ function enquiryHtml(payload: ContactPayload) {
     ["Topic", topicLabels[payload.topic]],
   ].map(([label, value]) => `<tr><th align="left" style="padding:8px;border-bottom:1px solid #e5e7eb">${escapeHtml(label)}</th><td style="padding:8px;border-bottom:1px solid #e5e7eb">${escapeHtml(value)}</td></tr>`).join("");
 
-  return `<main style="font-family:Arial,sans-serif;color:#16202e;max-width:640px;margin:0 auto"><h2>New website enquiry</h2><table style="width:100%;border-collapse:collapse">${rows}</table><h3>Message</h3><p style="white-space:pre-wrap">${escapeHtml(payload.message)}</p></main>`;
+  return `<main style="font-family:Arial,sans-serif;color:#16202e;max-width:640px;margin:0 auto"><h2>New customer enquiry</h2><table style="width:100%;border-collapse:collapse">${rows}</table><h3>Message</h3><p style="white-space:pre-wrap">${escapeHtml(payload.message)}</p></main>`;
 }
 
 export async function handleContactRequest(request: Request, env: WorkerEnv) {
@@ -111,7 +111,7 @@ export async function handleContactRequest(request: Request, env: WorkerEnv) {
       from: SENDER,
       to: [RECIPIENT],
       reply_to: payload.email,
-      subject: "New website enquiry",
+      subject: "New customer enquiry",
       html: enquiryHtml(payload),
     }),
   });
