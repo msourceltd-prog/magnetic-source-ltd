@@ -707,6 +707,66 @@ body,
   background: #0b2762;
 }
 
+/* Catalogue-backed brand gallery: deliberately separate from the protected blue footer. */
+.our-brands {
+  padding: clamp(50px, 7vw, 86px) 0 clamp(54px, 7vw, 92px);
+  color: #16202e;
+  border-top: 1px solid rgb(11 39 98 / .14);
+  background: #f7f5f0;
+}
+
+.our-brands-heading {
+  max-width: 650px;
+  margin: 0 auto 32px;
+  text-align: center;
+}
+
+.our-brands-heading .eyebrow {
+  color: #1b4e9b;
+}
+
+.our-brands-heading h2 {
+  margin: 10px 0 14px;
+  color: #16202e;
+  font-size: clamp(34px, 4vw, 58px);
+  line-height: .98;
+}
+
+.our-brands-heading p {
+  margin: 0;
+  color: #5f6874;
+}
+
+.our-brands-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.our-brand-mark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 76px;
+  padding: 12px 14px;
+  color: #16202e;
+  border: 1px solid rgb(11 39 98 / .13);
+  background: #fffefa;
+  font-family: var(--font-display, Georgia, serif);
+  font-size: clamp(14px, 1.45vw, 20px);
+  font-weight: 700;
+  letter-spacing: -.035em;
+  line-height: 1.05;
+  text-align: center;
+  transition: background-color 160ms var(--ease-out), color 160ms var(--ease-out), transform 160ms var(--ease-out);
+}
+
+.our-brand-mark:hover {
+  color: #fff;
+  background: #1b4e9b;
+  transform: translateY(-2px);
+}
+
 .footer-top {
   position: relative;
   z-index: 1;
@@ -817,6 +877,25 @@ body,
 }
 
 @media (max-width: 760px) {
+  .our-brands {
+    padding: 48px 0 58px;
+  }
+
+  .our-brands-heading {
+    margin-bottom: 26px;
+  }
+
+  .our-brands-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .our-brand-mark {
+    min-height: 64px;
+    padding: 10px;
+    font-size: 16px;
+  }
+
   .footer-top {
     grid-template-columns: 1fr;
     gap: 34px;

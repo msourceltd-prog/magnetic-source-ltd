@@ -1,0 +1,1182 @@
+{
+  "scope": {
+    "total_products": 547,
+    "categories": 9,
+    "methodology": "Only product-name or description matches to an explicitly named brand are counted. Supplier references and generic product descriptors are not counted as brands."
+  },
+  "brands": [
+    {
+      "brand": "Baylis & Harding",
+      "product_count": 9,
+      "product_ids": [
+        1007,
+        1008,
+        1009,
+        1010,
+        1011,
+        1012,
+        1520,
+        1615,
+        1669
+      ],
+      "categories": [
+        {
+          "slug": "clearance",
+          "name": "Clearance",
+          "product_count": 6
+        },
+        {
+          "slug": "health-beauty",
+          "name": "Health & Beauty",
+          "product_count": 3
+        }
+      ],
+      "examples": [
+        "Baylis & Harding Beauticology Cosmic Body Pamper Gift Set",
+        "Baylis & Harding Beauticology Cosmic Fun Pop Beauty Bag Gift Set",
+        "Baylis & Harding Elements Pink Blossom & Lotus Flower Hand Wash 500ml",
+        "Baylis & Harding Goodness Oud Cedar & Amber Body Wash 100ml",
+        "Baylis & Harding Goodness Sleep Bath Soak 500ml"
+      ]
+    },
+    {
+      "brand": "Bubble T",
+      "product_count": 7,
+      "product_ids": [
+        1656,
+        1657,
+        1658,
+        1659,
+        1660,
+        1661,
+        1662
+      ],
+      "categories": [
+        {
+          "slug": "clearance",
+          "name": "Clearance",
+          "product_count": 7
+        }
+      ],
+      "examples": [
+        "Bubble T Boba Body Wash 4 Piece Gift Set",
+        "Bubble T Boba Face Mask 3 Piece Gift Set",
+        "Bubble T Boba Wash & Body 3 Piece Gift Set",
+        "Bubble T Rainbow Crackers 3 Piece Gift Set",
+        "Bubble T Sweetea Bubble Bath Collection 5 Piece Gift Set"
+      ]
+    },
+    {
+      "brand": "Little Learners",
+      "product_count": 5,
+      "product_ids": [
+        1826,
+        1830,
+        1832,
+        1846,
+        1849
+      ],
+      "categories": [
+        {
+          "slug": "baby-kids",
+          "name": "Baby & Kids",
+          "product_count": 5
+        }
+      ],
+      "examples": [
+        "Little Learners First Vehicles 6pk",
+        "Little Learners Matching Eggs 6pk",
+        "Little Learners Mini Musical Drum",
+        "Little Learners Mini Musical Tambourine",
+        "Little Learners Musical Remote Control"
+      ]
+    },
+    {
+      "brand": "Sure",
+      "product_count": 5,
+      "product_ids": [
+        1671,
+        1672,
+        1673,
+        1674,
+        1746
+      ],
+      "categories": [
+        {
+          "slug": "health-beauty",
+          "name": "Health & Beauty",
+          "product_count": 5
+        }
+      ],
+      "examples": [
+        "Sure Men Whole Body Aerosol Ocean Rush 150ml",
+        "Sure Men Whole Body Stick Ocean Rush 50ml",
+        "Sure Women Whole Body Aerosol Rio Coconut 150ml",
+        "Sure Women Whole Body Aerosol Wild Rose 150ml",
+        "Sure Women Whole Body Stick Rio Coconut 50ml"
+      ]
+    },
+    {
+      "brand": "Golden Rounds",
+      "product_count": 4,
+      "product_ids": [
+        1722,
+        1723,
+        1724,
+        1725
+      ],
+      "categories": [
+        {
+          "slug": "sweets-snacks",
+          "name": "Sweets & Snacks",
+          "product_count": 4
+        }
+      ],
+      "examples": [
+        "Golden Rounds Potato Crisp Biscuit BBQ 80g",
+        "Golden Rounds Potato Crisp Biscuit Cheese 80g",
+        "Golden Rounds Potato Crisp Biscuit Pizza 80g",
+        "Golden Rounds Potato Crisp Biscuit Tangy Tomato 80g"
+      ]
+    },
+    {
+      "brand": "Grow with Peppa",
+      "product_count": 4,
+      "product_ids": [
+        1282,
+        1283,
+        1284,
+        1285
+      ],
+      "categories": [
+        {
+          "slug": "health-beauty",
+          "name": "Health & Beauty",
+          "product_count": 4
+        }
+      ],
+      "examples": [
+        "Grow with Peppa Baby Bath Foam 350ml",
+        "Grow with Peppa Baby Conditioning Shampoo 350ml",
+        "Grow with Peppa Baby Head to Toe Wash 350ml",
+        "Grow with Peppa Baby Lotion 350ml"
+      ]
+    },
+    {
+      "brand": "Gummi King",
+      "product_count": 4,
+      "product_ids": [
+        1092,
+        1105,
+        1106,
+        1775
+      ],
+      "categories": [
+        {
+          "slug": "sweets-snacks",
+          "name": "Sweets & Snacks",
+          "product_count": 4
+        }
+      ],
+      "examples": [
+        "Gummi King Fries 80g",
+        "Gummi King Jumbo Burger 88g",
+        "Gummi King Noodles 100g",
+        "Gummi King of the Taco 100g"
+      ]
+    },
+    {
+      "brand": "Palmolive",
+      "product_count": 4,
+      "product_ids": [
+        1246,
+        1247,
+        1248,
+        1744
+      ],
+      "categories": [
+        {
+          "slug": "health-beauty",
+          "name": "Health & Beauty",
+          "product_count": 4
+        }
+      ],
+      "examples": [
+        "Palmolive Liquid Hand Soap Rose 300ml",
+        "Palmolive Shampoo 2in1 350ml",
+        "Palmolive Shower Gel Elixir Orchid 250ml",
+        "Palmolive Shower Gel Elixir Rose 250ml"
+      ]
+    },
+    {
+      "brand": "Face Facts",
+      "product_count": 3,
+      "product_ids": [
+        1518,
+        1527,
+        1528
+      ],
+      "categories": [
+        {
+          "slug": "health-beauty",
+          "name": "Health & Beauty",
+          "product_count": 3
+        }
+      ],
+      "examples": [
+        "Face Facts Ceramide Moisturising Body Lotion 400ml",
+        "Face Facts Ceramide Repairing Lip Balm 10ml",
+        "Face Facts Friday Social Turbo Plump Biocellulose Masque Face Mask"
+      ]
+    },
+    {
+      "brand": "Haribo",
+      "product_count": 3,
+      "product_ids": [
+        1719,
+        1720,
+        1728
+      ],
+      "categories": [
+        {
+          "slug": "sweets-snacks",
+          "name": "Sweets & Snacks",
+          "product_count": 3
+        }
+      ],
+      "examples": [
+        "Haribo Bubblegum Bottles Z!ng 140g £1.25 PMP",
+        "Haribo Rhubarb & Custard Rolls 140g £1.25 PMP",
+        "Haribo Sour Bats 140g £1.25 PMP"
+      ]
+    },
+    {
+      "brand": "Johny Bee",
+      "product_count": 3,
+      "product_ids": [
+        1110,
+        1112,
+        1113
+      ],
+      "categories": [
+        {
+          "slug": "sweets-snacks",
+          "name": "Sweets & Snacks",
+          "product_count": 3
+        }
+      ],
+      "examples": [
+        "Johny Bee Big Dipper Powder Lollipop & Powder 47g",
+        "Johny Bee Squeezy Pop 34g",
+        "Johny Bee Twisty Treats Spray & Powder 16.5g"
+      ]
+    },
+    {
+      "brand": "Amplex",
+      "product_count": 2,
+      "product_ids": [
+        1670,
+        1677
+      ],
+      "categories": [
+        {
+          "slug": "health-beauty",
+          "name": "Health & Beauty",
+          "product_count": 2
+        }
+      ],
+      "examples": [
+        "Amplex Roll On Deodorant Active 50ml",
+        "Amplex Roll On Deodorant Ocean 50ml"
+      ]
+    },
+    {
+      "brand": "Aussie",
+      "product_count": 2,
+      "product_ids": [
+        1264,
+        1265
+      ],
+      "categories": [
+        {
+          "slug": "health-beauty",
+          "name": "Health & Beauty",
+          "product_count": 2
+        }
+      ],
+      "examples": [
+        "Aussie Conditioner Mega Travel 100ml",
+        "Aussie Shampoo Mega Travel 100ml"
+      ]
+    },
+    {
+      "brand": "Candy Kittens",
+      "product_count": 2,
+      "product_ids": [
+        1573,
+        1721
+      ],
+      "categories": [
+        {
+          "slug": "sweets-snacks",
+          "name": "Sweets & Snacks",
+          "product_count": 2
+        }
+      ],
+      "examples": [
+        "Candy Kittens Eton Mess 140g",
+        "Candy Kittens Soul Pop 140g Clipstrip"
+      ]
+    },
+    {
+      "brand": "Capri Sun",
+      "product_count": 2,
+      "product_ids": [
+        1707,
+        1708
+      ],
+      "categories": [
+        {
+          "slug": "sweets-snacks",
+          "name": "Sweets & Snacks",
+          "product_count": 2
+        }
+      ],
+      "examples": [
+        "Capri Sun Fruit Mix Soft Chews 147g",
+        "Capri Sun Monster Alarm Sour Chews 147g"
+      ]
+    },
+    {
+      "brand": "Chupa Chups",
+      "product_count": 2,
+      "product_ids": [
+        1262,
+        1472
+      ],
+      "categories": [
+        {
+          "slug": "health-beauty",
+          "name": "Health & Beauty",
+          "product_count": 2
+        }
+      ],
+      "examples": [
+        "Chupa Chups Strawberry Lip Balm",
+        "Chupa Chups Watermelon, Peach & Lemon Lip Balms"
+      ]
+    },
+    {
+      "brand": "Good Boy",
+      "product_count": 2,
+      "product_ids": [
+        2234,
+        2235
+      ],
+      "categories": [
+        {
+          "slug": "pets",
+          "name": "Pets",
+          "product_count": 2
+        }
+      ],
+      "examples": [
+        "Good Boy Cheese Please – Long Lasting Tasty Chew 60g",
+        "Good Boy Soft Meerkat Dog Toy"
+      ]
+    },
+    {
+      "brand": "Maoam",
+      "product_count": 2,
+      "product_ids": [
+        1718,
+        1727
+      ],
+      "categories": [
+        {
+          "slug": "sweets-snacks",
+          "name": "Sweets & Snacks",
+          "product_count": 2
+        }
+      ],
+      "examples": [
+        "Maoam Blue Pinballs 140g £1.25 PMP",
+        "Maoam Halloween Mixx 140g £1.25 PMP"
+      ]
+    },
+    {
+      "brand": "Nivea",
+      "product_count": 2,
+      "product_ids": [
+        1277,
+        1751
+      ],
+      "categories": [
+        {
+          "slug": "health-beauty",
+          "name": "Health & Beauty",
+          "product_count": 2
+        }
+      ],
+      "examples": [
+        "Nivea Pampervan On-The-Go Gift Set",
+        "Nivea Shave Mens After Shave Moisturiser Protect & Care 75ml"
+      ]
+    },
+    {
+      "brand": "Nylabone",
+      "product_count": 2,
+      "product_ids": [
+        2236,
+        2237
+      ],
+      "categories": [
+        {
+          "slug": "pets",
+          "name": "Pets",
+          "product_count": 2
+        }
+      ],
+      "examples": [
+        "Nylabone Extreme Chew Bacon Flavour Medium",
+        "Nylabone Extreme Chew Venison Antler Alternative Chew"
+      ]
+    },
+    {
+      "brand": "Peppa Pig",
+      "product_count": 2,
+      "product_ids": [
+        1101,
+        1266
+      ],
+      "categories": [
+        {
+          "slug": "health-beauty",
+          "name": "Health & Beauty",
+          "product_count": 1
+        },
+        {
+          "slug": "sweets-snacks",
+          "name": "Sweets & Snacks",
+          "product_count": 1
+        }
+      ],
+      "examples": [
+        "Peppa Pig Bath & Shower Bubbles 400ml",
+        "Peppa Pig Surprise Cones 25g"
+      ]
+    },
+    {
+      "brand": "Pokémon",
+      "product_count": 2,
+      "product_ids": [
+        1029,
+        1030
+      ],
+      "categories": [
+        {
+          "slug": "clearance",
+          "name": "Clearance",
+          "product_count": 2
+        }
+      ],
+      "examples": [
+        "Pokemon 10 Colour Pen",
+        "Pokemon Pen Set 3’s"
+      ]
+    },
+    {
+      "brand": "Rosewood",
+      "product_count": 2,
+      "product_ids": [
+        2238,
+        2239
+      ],
+      "categories": [
+        {
+          "slug": "pets",
+          "name": "Pets",
+          "product_count": 2
+        }
+      ],
+      "examples": [
+        "Rosewood Cooling Collar – Medium",
+        "Rosewood Tough Toys Wood Flavour Dog Chew"
+      ]
+    },
+    {
+      "brand": "Toxic Waste",
+      "product_count": 2,
+      "product_ids": [
+        1703,
+        1704
+      ],
+      "categories": [
+        {
+          "slug": "sweets-snacks",
+          "name": "Sweets & Snacks",
+          "product_count": 2
+        }
+      ],
+      "examples": [
+        "Toxic Waste Blue Raspberry Popcorn 120g",
+        "Toxic Waste Cherry Popcorn 120g"
+      ]
+    },
+    {
+      "brand": "Umbro",
+      "product_count": 2,
+      "product_ids": [
+        1252,
+        1253
+      ],
+      "categories": [
+        {
+          "slug": "health-beauty",
+          "name": "Health & Beauty",
+          "product_count": 2
+        }
+      ],
+      "examples": [
+        "Umbro Bodywash Ice 400ml",
+        "Umbro Bodywash Power 400ml"
+      ]
+    },
+    {
+      "brand": "Wonder Cookies",
+      "product_count": 2,
+      "product_ids": [
+        1783,
+        1784
+      ],
+      "categories": [
+        {
+          "slug": "sweets-snacks",
+          "name": "Sweets & Snacks",
+          "product_count": 2
+        }
+      ],
+      "examples": [
+        "Wonder Cookies Chocolate 120g",
+        "Wonder Cookies Original Vanilla 120g"
+      ]
+    },
+    {
+      "brand": "Aquafresh",
+      "product_count": 1,
+      "product_ids": [
+        1750
+      ],
+      "categories": [
+        {
+          "slug": "health-beauty",
+          "name": "Health & Beauty",
+          "product_count": 1
+        }
+      ],
+      "examples": [
+        "Aquafresh Active White Toothpaste 100ml"
+      ]
+    },
+    {
+      "brand": "Cuticura",
+      "product_count": 1,
+      "product_ids": [
+        1681
+      ],
+      "categories": [
+        {
+          "slug": "health-beauty",
+          "name": "Health & Beauty",
+          "product_count": 1
+        }
+      ],
+      "examples": [
+        "Cuticura Repair Hand Cream 75ml"
+      ]
+    },
+    {
+      "brand": "Denman",
+      "product_count": 1,
+      "product_ids": [
+        1268
+      ],
+      "categories": [
+        {
+          "slug": "health-beauty",
+          "name": "Health & Beauty",
+          "product_count": 1
+        }
+      ],
+      "examples": [
+        "Denman D81S Small Style and Shine Brush Original"
+      ]
+    },
+    {
+      "brand": "Dove",
+      "product_count": 1,
+      "product_ids": [
+        1524
+      ],
+      "categories": [
+        {
+          "slug": "health-beauty",
+          "name": "Health & Beauty",
+          "product_count": 1
+        }
+      ],
+      "examples": [
+        "Dove Women Anti-Perspirant Deodorant Powder 150ml"
+      ]
+    },
+    {
+      "brand": "Enliven",
+      "product_count": 1,
+      "product_ids": [
+        1680
+      ],
+      "categories": [
+        {
+          "slug": "health-beauty",
+          "name": "Health & Beauty",
+          "product_count": 1
+        }
+      ],
+      "examples": [
+        "Enliven Nail Polish Remover Acetone Free 250ml"
+      ]
+    },
+    {
+      "brand": "Femfresh",
+      "product_count": 1,
+      "product_ids": [
+        1621
+      ],
+      "categories": [
+        {
+          "slug": "health-beauty",
+          "name": "Health & Beauty",
+          "product_count": 1
+        }
+      ],
+      "examples": [
+        "Femfresh Wipes 10’s"
+      ]
+    },
+    {
+      "brand": "FLO",
+      "product_count": 1,
+      "product_ids": [
+        1534
+      ],
+      "categories": [
+        {
+          "slug": "health-beauty",
+          "name": "Health & Beauty",
+          "product_count": 1
+        }
+      ],
+      "examples": [
+        "FLO Bamboo Extra Long Pads 10's"
+      ]
+    },
+    {
+      "brand": "Fresh Start",
+      "product_count": 1,
+      "product_ids": [
+        1678
+      ],
+      "categories": [
+        {
+          "slug": "health-beauty",
+          "name": "Health & Beauty",
+          "product_count": 1
+        }
+      ],
+      "examples": [
+        "Fresh Start Shower Gel Coconut & Lime 400ml"
+      ]
+    },
+    {
+      "brand": "Got2b",
+      "product_count": 1,
+      "product_ids": [
+        1623
+      ],
+      "categories": [
+        {
+          "slug": "health-beauty",
+          "name": "Health & Beauty",
+          "product_count": 1
+        }
+      ],
+      "examples": [
+        "Got2b Glued 4 Brows & Edges 16ml 2in1 Gel"
+      ]
+    },
+    {
+      "brand": "Imperial Leather",
+      "product_count": 1,
+      "product_ids": [
+        1622
+      ],
+      "categories": [
+        {
+          "slug": "health-beauty",
+          "name": "Health & Beauty",
+          "product_count": 1
+        }
+      ],
+      "examples": [
+        "Imperial Leather Bodywash Cotton & Vanilla 235ml"
+      ]
+    },
+    {
+      "brand": "Jakemans",
+      "product_count": 1,
+      "product_ids": [
+        1666
+      ],
+      "categories": [
+        {
+          "slug": "health-beauty",
+          "name": "Health & Beauty",
+          "product_count": 1
+        }
+      ],
+      "examples": [
+        "Jakemans Soothing Menthol Lozenges Cherry Menthol 73g"
+      ]
+    },
+    {
+      "brand": "Just Stationery",
+      "product_count": 1,
+      "product_ids": [
+        1654
+      ],
+      "categories": [
+        {
+          "slug": "clearance",
+          "name": "Clearance",
+          "product_count": 1
+        }
+      ],
+      "examples": [
+        "Just Stationery Split Cork/Dry Wipe Board 450mm x 300mm"
+      ]
+    },
+    {
+      "brand": "Kandelicious",
+      "product_count": 1,
+      "product_ids": [
+        1507
+      ],
+      "categories": [
+        {
+          "slug": "sweets-snacks",
+          "name": "Sweets & Snacks",
+          "product_count": 1
+        }
+      ],
+      "examples": [
+        "Kandelicious Seaside Fruit Flavour Assorted Lollies 80g CDU"
+      ]
+    },
+    {
+      "brand": "La Vida Caribena",
+      "product_count": 1,
+      "product_ids": [
+        1747
+      ],
+      "categories": [
+        {
+          "slug": "health-beauty",
+          "name": "Health & Beauty",
+          "product_count": 1
+        }
+      ],
+      "examples": [
+        "La Vida Caribena Body Mists Mixed Case 35ml 24’s"
+      ]
+    },
+    {
+      "brand": "Malibu",
+      "product_count": 1,
+      "product_ids": [
+        1620
+      ],
+      "categories": [
+        {
+          "slug": "health-beauty",
+          "name": "Health & Beauty",
+          "product_count": 1
+        }
+      ],
+      "examples": [
+        "Malibu 3 Pack 100ml Lotion SPF 8 SPF 20 Aftersun"
+      ]
+    },
+    {
+      "brand": "Original Source",
+      "product_count": 1,
+      "product_ids": [
+        1625
+      ],
+      "categories": [
+        {
+          "slug": "health-beauty",
+          "name": "Health & Beauty",
+          "product_count": 1
+        }
+      ],
+      "examples": [
+        "Original Source Shower Milk Lime & Coconut 250ml"
+      ]
+    },
+    {
+      "brand": "Pantene",
+      "product_count": 1,
+      "product_ids": [
+        1749
+      ],
+      "categories": [
+        {
+          "slug": "health-beauty",
+          "name": "Health & Beauty",
+          "product_count": 1
+        }
+      ],
+      "examples": [
+        "Pantene Conditioner Repair & Protect 90ml"
+      ]
+    },
+    {
+      "brand": "Paw Patrol",
+      "product_count": 1,
+      "product_ids": [
+        1102
+      ],
+      "categories": [
+        {
+          "slug": "sweets-snacks",
+          "name": "Sweets & Snacks",
+          "product_count": 1
+        }
+      ],
+      "examples": [
+        "Paw Patrol Surprise Cones 25g"
+      ]
+    },
+    {
+      "brand": "Pez",
+      "product_count": 1,
+      "product_ids": [
+        1114
+      ],
+      "categories": [
+        {
+          "slug": "sweets-snacks",
+          "name": "Sweets & Snacks",
+          "product_count": 1
+        }
+      ],
+      "examples": [
+        "Pez – Licensed Dispenser + Sweets Spiderman"
+      ]
+    },
+    {
+      "brand": "Rennie",
+      "product_count": 1,
+      "product_ids": [
+        1613
+      ],
+      "categories": [
+        {
+          "slug": "health-beauty",
+          "name": "Health & Beauty",
+          "product_count": 1
+        }
+      ],
+      "examples": [
+        "Rennie Chewing Gum 750g 10’s"
+      ]
+    },
+    {
+      "brand": "Snoopy",
+      "product_count": 1,
+      "product_ids": [
+        1709
+      ],
+      "categories": [
+        {
+          "slug": "sweets-snacks",
+          "name": "Sweets & Snacks",
+          "product_count": 1
+        }
+      ],
+      "examples": [
+        "Snoopy Gummies Bag 100g"
+      ]
+    },
+    {
+      "brand": "Squishmallows",
+      "product_count": 1,
+      "product_ids": [
+        1031
+      ],
+      "categories": [
+        {
+          "slug": "clearance",
+          "name": "Clearance",
+          "product_count": 1
+        }
+      ],
+      "examples": [
+        "Squishmallows Pencil Case"
+      ]
+    },
+    {
+      "brand": "Star Wars: Unlimited",
+      "product_count": 1,
+      "product_ids": [
+        1655
+      ],
+      "categories": [
+        {
+          "slug": "clearance",
+          "name": "Clearance",
+          "product_count": 1
+        }
+      ],
+      "examples": [
+        "Star Wars: Unlimited Twilight of the Republic Booster CDU"
+      ]
+    },
+    {
+      "brand": "Swizzels",
+      "product_count": 1,
+      "product_ids": [
+        1653
+      ],
+      "categories": [
+        {
+          "slug": "clearance",
+          "name": "Clearance",
+          "product_count": 1
+        }
+      ],
+      "examples": [
+        "Swizzels Drumstick Squashies Original Raspberry & Milk Flavour 60g 69p PMP – Best Before End 10/26"
+      ]
+    },
+    {
+      "brand": "Van Holten",
+      "product_count": 1,
+      "product_ids": [
+        1579
+      ],
+      "categories": [
+        {
+          "slug": "sweets-snacks",
+          "name": "Sweets & Snacks",
+          "product_count": 1
+        }
+      ],
+      "examples": [
+        "Van Holten Sour Sis Pickle in-a Pouch 306g"
+      ]
+    },
+    {
+      "brand": "Wilkinson Sword",
+      "product_count": 1,
+      "product_ids": [
+        1533
+      ],
+      "categories": [
+        {
+          "slug": "health-beauty",
+          "name": "Health & Beauty",
+          "product_count": 1
+        }
+      ],
+      "examples": [
+        "Wilkinson Sword Extra 2 Beauty Ladies Disposable Razor 5’s"
+      ]
+    },
+    {
+      "brand": "Wisdom",
+      "product_count": 1,
+      "product_ids": [
+        1679
+      ],
+      "categories": [
+        {
+          "slug": "health-beauty",
+          "name": "Health & Beauty",
+          "product_count": 1
+        }
+      ],
+      "examples": [
+        "Wisdom Step By Step Toothbrush 3-5 Years"
+      ]
+    },
+    {
+      "brand": "Zuru",
+      "product_count": 1,
+      "product_ids": [
+        1574
+      ],
+      "categories": [
+        {
+          "slug": "sweets-snacks",
+          "name": "Sweets & Snacks",
+          "product_count": 1
+        }
+      ],
+      "examples": [
+        "Zuru Gumi Yum Surprise Minions 22g CDU"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "slug": "baby-kids",
+      "name": "Baby & Kids",
+      "product_count": 55,
+      "explicit_brand_product_count": 5,
+      "no_confident_brand_count": 50,
+      "no_confident_brand_examples": [
+        "Baby Bath Tidy",
+        "Baby Bubble Blanket",
+        "Baby Care Kit with Storage Case",
+        "Baby Clothes Hangers - 10 Pack",
+        "Baby Comforter & Plush Rattler Set",
+        "Baby Fleece Blanket",
+        "Baby Plush Bunny Comforter",
+        "Bandana Bibs 3pk"
+      ]
+    },
+    {
+      "slug": "clearance",
+      "name": "Clearance",
+      "product_count": 31,
+      "explicit_brand_product_count": 19,
+      "no_confident_brand_count": 12,
+      "no_confident_brand_examples": [
+        "Assorted Party Photo Props With Sticks",
+        "Chakra Bath Bomb in Gift Box in CDU",
+        "Christmas Giant Bike Sack",
+        "Fleur 3 Pack A4 Notebooks",
+        "Foil Happy Birthday Balloon 16″ – Silver",
+        "Ho Ho Ho Hand & Body Wash Gift Set",
+        "Ho Ho Ho Snow Globe Hand Cream Trio Gift Set",
+        "Man’Stuff Ultimate Six Pack Gift Set"
+      ]
+    },
+    {
+      "slug": "health-beauty",
+      "name": "Health & Beauty",
+      "product_count": 51,
+      "explicit_brand_product_count": 48,
+      "no_confident_brand_count": 3,
+      "no_confident_brand_examples": [
+        "Lip Balm SPF 15 Original 10g",
+        "So Useful 3 Ply Pocket Tissues 10’s 6 Pack",
+        "Spiderman Stitch Bath & Shower Bubbles 400ml"
+      ]
+    },
+    {
+      "slug": "household-pet",
+      "name": "Household",
+      "product_count": 50,
+      "explicit_brand_product_count": 0,
+      "no_confident_brand_count": 50,
+      "no_confident_brand_examples": [
+        "2 in 1 Window Spray Cleaner",
+        "Air Freshener Berries 250ml",
+        "Air Freshener Jasmine 250ml",
+        "Air Freshener Lemon & Orange 250ml",
+        "Air Freshener Ocean Scent Refill 3pk",
+        "Air Freshener Ocean Scent Refill 3pk CDU",
+        "Air Freshener Rose & Peony 250ml",
+        "All Purpose Cloth Roll- 30 Sheets"
+      ]
+    },
+    {
+      "slug": "pets",
+      "name": "Pets",
+      "product_count": 30,
+      "explicit_brand_product_count": 6,
+      "no_confident_brand_count": 24,
+      "no_confident_brand_examples": [
+        "2-IN-1 Bird Bath & Feeder",
+        "Cat Bowls 2pk 17cm",
+        "Cat Collar With Bell",
+        "Cat Teaser Fish Toy",
+        "Collapsible Pet Bowl With Clip 15cm",
+        "Cooling Pet Drinking Bowl CDU",
+        "Dog Leash 10m",
+        "Double Diner With Splash Guard"
+      ]
+    },
+    {
+      "slug": "seasonal-christmas",
+      "name": "Seasonal & Christmas",
+      "product_count": 100,
+      "explicit_brand_product_count": 0,
+      "no_confident_brand_count": 100,
+      "no_confident_brand_examples": [
+        "Artificial Glittered Pine Cone Pick 32cm",
+        "Bubble Sword 3 Pack CDU",
+        "Christmas Air Dry Clay Kit",
+        "Christmas Artificial Snowflakes 100g",
+        "Christmas Bauble Hooks - 200 Pack",
+        "Christmas Bow Hair Clip",
+        "Christmas Bow Reindeer Clips 2pk",
+        "Christmas Cellophane Gift Bag with Giant Bow"
+      ]
+    },
+    {
+      "slug": "stationery-party",
+      "name": "Stationery",
+      "product_count": 100,
+      "explicit_brand_product_count": 0,
+      "no_confident_brand_count": 100,
+      "no_confident_brand_examples": [
+        "A4 Clear Document Wallets 4pk",
+        "A4 Coloured Card 10pk",
+        "A4 Coloured Card 15pk",
+        "A4 Glitter Card - 10 Pack",
+        "A4 Refill Pad 200 Pages",
+        "A4 Tracing Paper 10pk",
+        "A4 White Play Paper 60 Sheets",
+        "A5 Wiro PP Cover Notebook"
+      ]
+    },
+    {
+      "slug": "sweets-snacks",
+      "name": "Sweets & Snacks",
+      "product_count": 31,
+      "explicit_brand_product_count": 31,
+      "no_confident_brand_count": 0,
+      "no_confident_brand_examples": []
+    },
+    {
+      "slug": "toys-gifts",
+      "name": "Toys & Gifts",
+      "product_count": 99,
+      "explicit_brand_product_count": 0,
+      "no_confident_brand_count": 99,
+      "no_confident_brand_examples": [
+        "Animal Plush Squishies CDU",
+        "Baby Doll",
+        "Black Cosmetic Storage Case With Handle",
+        "Bouncy Ball CDU",
+        "Buzz Wire Game",
+        "Catapult Vehicle",
+        "Ceramic Dog Mug 480ml",
+        "Character Drawing Board"
+      ]
+    }
+  ]
+}

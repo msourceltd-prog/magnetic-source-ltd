@@ -12,6 +12,16 @@ const footerGroups = [
   { title: "Support", links: [["About Magnetic Source", "/about"], ["Trade account", "/trade-account"], ["Delivery & returns", "/delivery-returns"], ["Contact", "/contact"], ["Privacy", "/privacy"], ["Terms", "/terms"]] },
 ];
 
+const representedBrands = [
+  "Aquafresh", "Amplex", "Aussie", "Baylis & Harding", "Bubble T", "Candy Kittens", "Capri Sun", "Chupa Chups",
+  "Cuticura", "Denman", "Dove", "Enliven", "Face Facts", "Femfresh", "FLO", "Fresh Start", "Golden Rounds",
+  "Good Boy", "Got2b", "Grow with Peppa", "Gummi King", "Haribo", "Imperial Leather", "Jakemans", "Johny Bee",
+  "Just Stationery", "Kandelicious", "La Vida Caribena", "Little Learners", "Maoam", "Malibu", "Nivea", "Nylabone",
+  "Original Source", "Palmolive", "Pantene", "Paw Patrol", "Peppa Pig", "Pez", "Pokémon", "Rennie", "Rosewood",
+  "Snoopy", "Squishmallows", "Star Wars: Unlimited", "Sure", "Swizzels", "Toxic Waste", "Umbro", "Van Holten",
+  "Wilkinson Sword", "Wisdom", "Wonder Cookies", "Zuru",
+];
+
 function FooterBrandMark() {
   return <svg className="footer-brand-mark" viewBox="0 0 64 64" role="img" aria-labelledby="footer-brand-mark-title" focusable="false">
     <title id="footer-brand-mark-title">Magnetic Source field mark</title>
@@ -38,6 +48,18 @@ export default function SiteFooter() {
   }, []);
 
   return <footer className="site-footer">
+    <section className="our-brands" aria-labelledby="our-brands-title">
+      <div className="trade-shell">
+        <div className="our-brands-heading">
+          <span className="eyebrow">Represented in our catalogue</span>
+          <h2 id="our-brands-title">Our Brands</h2>
+          <p>Recognisable lines available across the Magnetic Source catalogue.</p>
+        </div>
+        <div className="our-brands-grid" aria-label="Brands represented in the catalogue">
+          {representedBrands.map((brand) => <span className="our-brand-mark" key={brand}>{brand}</span>)}
+        </div>
+      </div>
+    </section>
     <div className="trade-shell footer-top">
       <section className="footer-statement">
         <div className="footer-brand-lockup"><FooterBrandMark /><span className="eyebrow light">Magnetic<br />Source Ltd</span></div>
