@@ -1,10 +1,10 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
-import { formSubmitEndpoint, submitStaticContact } from "./staticContactDelivery";
+import { contactEndpoint, submitStaticContact } from "./staticContactDelivery";
 
 describe("submitStaticContact", () => {
   afterEach(() => vi.unstubAllGlobals());
 
-  it("sends the named Contact fields to the static FormSubmit endpoint", async () => {
+  it("sends the named Contact fields to the secure same-site endpoint", async () => {
     const fetchMock = vi.fn().mockResolvedValue(new Response("{}", { status: 200 }));
     vi.stubGlobal("fetch", fetchMock);
 
@@ -17,7 +17,7 @@ describe("submitStaticContact", () => {
     });
 
     expect(fetchMock).toHaveBeenCalledWith(
-      formSubmitEndpoint,
+      contactEndpoint,
       expect.objectContaining({ method: "POST" }),
     );
     const request = fetchMock.mock.calls[0][1] as RequestInit;
@@ -30,9 +30,6 @@ describe("submitStaticContact", () => {
       email: "taylor@example.com",
       company: "North Street Retail",
       topic: "delivery",
-      _replyto: "taylor@example.com",
-      _template: "table",
-      _captcha: "true",
     });
   });
 

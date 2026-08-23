@@ -31,3 +31,5 @@ The refined Contact page was confirmed live on the existing `magneticsource.uk` 
 ## Natural-language refinement
 
 The Contact-area copy was then simplified to remove generic repeated references to trade accounts, trade enquiries, and trade desks. It now uses concise customer-facing wording such as `Contact Magnetic Source`, `How can we help?`, `Tell us what you need`, and `Thank you — we have received your message.` Desktop and mobile checks confirmed the revised copy is legible and contained within the existing Contact layout.
+
+The wording update was committed and pushed to the Cloudflare-connected GitHub main branch as `f411a43` (`Use clearer customer wording on contact page`). The public page remained on the prior build during the initial short propagation check, so the final live-content check remains pending Cloudflare’s automated build window.

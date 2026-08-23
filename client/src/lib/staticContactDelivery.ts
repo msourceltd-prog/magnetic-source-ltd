@@ -6,10 +6,10 @@ export type StaticContactPayload = {
   message: string;
 };
 
-export const formSubmitEndpoint = "https://formsubmit.co/ajax/msourceltd@gmail.com";
+export const contactEndpoint = "/api/contact";
 
 export async function submitStaticContact(payload: StaticContactPayload) {
-  const response = await fetch(formSubmitEndpoint, {
+  const response = await fetch(contactEndpoint, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -18,13 +18,9 @@ export async function submitStaticContact(payload: StaticContactPayload) {
     body: JSON.stringify({
       name: payload.name,
       email: payload.email,
-      company: payload.company || "Not provided",
+      company: payload.company,
       topic: payload.topic,
       message: payload.message,
-      _replyto: payload.email,
-      _subject: `Magnetic Source trade enquiry: ${payload.topic}`,
-      _template: "table",
-      _captcha: "true",
     }),
   });
 
