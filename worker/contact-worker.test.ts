@@ -54,8 +54,8 @@ describe("Cloudflare Contact endpoint", () => {
     expect(fetchMock).not.toHaveBeenCalled();
   });
 
-  it("never reports delivery success for a honeypot-triggered submission", async () => {
-    const fetchMock = vi.fn();
+  it("ignores an unrelated browser-autofilled field and still delivers the real enquiry", async () => {
+    const fetchMock = vi.fn().mockResolvedValue(new Response('{"id":"email_2"}', { status: 200 }));
     vi.stubGlobal("fetch", fetchMock);
 
     const response = await handleContactRequest(
@@ -67,7 +67,7 @@ describe("Cloudflare Contact endpoint", () => {
       { ASSETS: { fetch: vi.fn() }, RESEND_API_KEY: "test-key" },
     );
 
-    expect(response.status).toBe(400);
-    expect(fetchMock).not.toHaveBeenCalled();
+    expect(response.status).toBe(200);
+    expect(fetchMock).toHaveBeenCalledOnce();
   });
 });

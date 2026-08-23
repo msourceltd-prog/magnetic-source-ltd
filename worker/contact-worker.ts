@@ -6,7 +6,6 @@ type ContactPayload = {
   company?: string;
   topic: ContactTopic;
   message: string;
-  website?: string;
 };
 
 type WorkerEnv = {
@@ -65,13 +64,12 @@ function parseContactPayload(input: unknown): ContactPayload | null {
   const company = clean(candidate.company, 120);
   const topic = clean(candidate.topic, 24);
   const message = clean(candidate.message, 2000);
-  const website = clean(candidate.website, 200);
 
   if (!name || !/^\S+@\S+\.\S+$/.test(email) || !isTopic(topic) || message.length < 20) {
     return null;
   }
 
-  return { name, email, company: company || undefined, topic, message, website };
+  return { name, email, company: company || undefined, topic, message };
 }
 
 function enquiryHtml(payload: ContactPayload) {
@@ -101,7 +99,6 @@ export async function handleContactRequest(request: Request, env: WorkerEnv) {
   const payload = parseContactPayload(input);
   if (!payload) return json({ error: "Please complete the required fields." }, 400);
 
-  if (payload.website) return json({ error: "We could not send this message right now." }, 400);
   if (!env.RESEND_API_KEY) return json({ error: "Contact delivery is not configured." }, 503);
 
   const response = await fetch("https://api.resend.com/emails", {

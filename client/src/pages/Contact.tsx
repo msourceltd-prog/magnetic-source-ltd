@@ -16,11 +16,6 @@ export default function Contact() {
     event.preventDefault();
     const form = new FormData(event.currentTarget);
 
-    if (String(form.get("website") || "")) {
-      setError("We could not send this message right now. Please refresh the page and try again.");
-      return;
-    }
-
     const message = String(form.get("message") || "").trim();
     if (message.length < 20) {
       setError("Please include a little more detail so we can help.");
@@ -81,7 +76,6 @@ export default function Contact() {
             </div>
           ) : (
             <>
-              <input className="form-honeypot" tabIndex={-1} autoComplete="off" name="website" aria-hidden="true" />
               <div className="contact-form-heading">
                 <div>
                   <p className="eyebrow">Send a message</p>
