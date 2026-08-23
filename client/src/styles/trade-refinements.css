@@ -66,6 +66,33 @@
 .admin-product-form .admin-category-field select { width:100%; min-width:0; }
 .admin-row-category { display:inline-flex !important; width:max-content; max-width:100%; margin-top:5px !important; padding:3px 5px; color:var(--cobalt) !important; border:1px solid rgba(18,76,156,.28); background:#edf3fb; font:600 7px var(--mono) !important; letter-spacing:.06em; line-height:1.2; text-transform:uppercase; }
 .admin-product-form label small { display:block; margin-top:6px; color:var(--soft-ink); font-size:10px; line-height:1.4; }
+.homepage-admin { display:grid; gap:22px; }
+.admin-homepage-heading,.admin-section-label,.collection-admin-panel > .admin-section-label { display:flex; gap:14px; align-items:flex-start; justify-content:space-between; }
+.admin-homepage-heading h2 { margin:5px 0 7px; font:400 28px/.98 var(--serif); }
+.admin-homepage-heading p:not(.eyebrow),.admin-section-label span { margin:0; color:var(--soft-ink); font-size:11px; line-height:1.5; }
+.hero-admin-panel,.collection-admin-panel { padding:20px; border:1px solid var(--line); background:var(--paper); clip-path:polygon(0 0,100% 0,100% calc(100% - 16px),calc(100% - 16px) 100%,0 100%); }
+.admin-section-label { justify-content:flex-start; }
+.admin-section-label > svg { flex:0 0 auto; color:var(--cobalt); }
+.admin-section-label b { display:block; margin-bottom:4px; font:600 12px var(--mono); letter-spacing:.06em; text-transform:uppercase; }
+.hero-admin-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; margin-top:18px; }
+.hero-admin-card { display:grid; gap:10px; padding:12px; border:1px solid var(--line); background:#fff; }
+.hero-admin-preview { height:150px; overflow:hidden; background:#edf0f0; }
+.hero-admin-preview img { width:100%; height:100%; object-fit:cover; }
+.hero-admin-preview span { display:grid; height:100%; place-items:center; color:var(--soft-ink); font:600 10px var(--mono); }
+.hero-admin-card label,.homepage-product-search { display:grid; gap:6px; color:var(--ink); font:600 9px var(--mono); letter-spacing:.06em; text-transform:uppercase; }
+.hero-admin-card input,.homepage-product-search input { width:100%; color:var(--ink); border:1px solid var(--line); background:#fff; padding:10px; font:400 12px var(--sans); text-transform:none; letter-spacing:normal; }
+.hero-upload { width:max-content; cursor:pointer; color:var(--cobalt) !important; font-size:9px !important; }
+.hero-upload input { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); }
+.collection-admin-panel { display:grid; gap:16px; }
+.homepage-product-list { display:grid; gap:8px; max-height:620px; overflow:auto; }
+.homepage-product-list article { display:grid; grid-template-columns:42px minmax(0,1fr) auto; gap:10px; align-items:center; padding:8px; border:1px solid var(--line); background:#fff; }
+.homepage-product-list img { width:42px; height:42px; object-fit:contain; mix-blend-mode:multiply; }
+.homepage-product-list b,.homepage-product-list span { display:block; }
+.homepage-product-list b { font-size:12px; }
+.homepage-product-list span { margin-top:3px; color:var(--soft-ink); font:500 9px var(--mono); }
+.homepage-collection-actions { display:flex; flex-wrap:wrap; gap:6px; justify-content:flex-end; }
+.homepage-collection-actions button { padding:7px 9px; color:var(--cobalt); border:1px solid rgba(18,76,156,.35); background:#edf3fb; font:600 8px var(--mono); letter-spacing:.05em; text-transform:uppercase; }
+.homepage-collection-actions button.active { color:#fff; border-color:var(--cobalt); background:var(--cobalt); }
 
 @media (max-width:760px) {
   .product-image-pending { min-height:185px; }
@@ -86,4 +113,8 @@
   .catalogue-limit .eyebrow { margin-bottom:8px; }
   .admin-product-editor { grid-template-columns:1fr; }
   .admin-product-preview { position:static; }
+  .hero-admin-grid { grid-template-columns:1fr; }
+  .admin-homepage-heading,.homepage-product-list article { grid-template-columns:1fr; }
+  .admin-homepage-heading { display:grid; }
+  .homepage-collection-actions { justify-content:flex-start; }
 }

@@ -10,24 +10,36 @@ import { Link } from "wouter";
 import StoreLayout from "@/components/StoreLayout";
 import HomeCollectionCarousel from "@/components/HomeCollectionCarousel";
 import { useCatalog } from "@/contexts/CatalogContext";
-
-const heroSlides = [
-  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663870447287/bydqoXXLZqEZstwD.jpg", label: "Wholesale packing supplies" },
-  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663870447287/GttUoRTVYguFzBlE.jpeg", label: "Wholesale warehouse interior" },
-  { src: "https://files.manuscdn.com/user_upload_by_module/session_file/310519663870447287/iJutMmvQCbHMVuva.jpg", label: "Wholesale stock boxes" },
-];
+import { DEFAULT_HERO_SLIDES, HOMEPAGE_SETTINGS_CATEGORY_SLUG, parseHomepageSettings } from "@/lib/homepageAdmin";
+import { supabase } from "@/lib/supabase";
 
 export default function Home() {
   const { categories, products } = useCatalog();
   const bestSellers = products.filter((product) => product.tags.includes("Best seller"));
   const newArrivals = products.filter((product) => product.tags.includes("New arrival"));
+  const [heroSlides, setHeroSlides] = useState(DEFAULT_HERO_SLIDES);
   const [activeHeroSlide, setActiveHeroSlide] = useState(0);
   const [heroTimerReset, setHeroTimerReset] = useState(0);
 
   useEffect(() => {
+    if (!supabase) return;
+    let active = true;
+    void supabase
+      .from("categories")
+      .select("summary")
+      .eq("slug", HOMEPAGE_SETTINGS_CATEGORY_SLUG)
+      .maybeSingle()
+      .then(({ data, error }) => {
+        if (!active || error || !data?.summary) return;
+        setHeroSlides(parseHomepageSettings(data.summary).heroSlides);
+      });
+    return () => { active = false; };
+  }, []);
+
+  useEffect(() => {
     const timer = window.setInterval(() => setActiveHeroSlide((current) => (current + 1) % heroSlides.length), 4000);
     return () => window.clearInterval(timer);
-  }, [activeHeroSlide, heroTimerReset]);
+  }, [activeHeroSlide, heroSlides.length, heroTimerReset]);
 
   const selectHeroSlide = (index: number) => {
     setActiveHeroSlide(index);

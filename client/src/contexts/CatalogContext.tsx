@@ -5,6 +5,7 @@
  */
 import { createContext, type PropsWithChildren, useContext, useEffect, useState } from "react";
 import { currentCategories, SUPPLIER_IMAGE_PLACEHOLDER, type Category, type Product } from "@/lib/catalogRuntime";
+import { HOMEPAGE_SETTINGS_CATEGORY_SLUG } from "@/lib/homepageAdmin";
 import { supabase } from "@/lib/supabase";
 
 type CatalogContextValue = {
@@ -72,7 +73,7 @@ export function CatalogProvider({ children }: PropsWithChildren) {
           retainCachedCatalog();
           return;
         }
-        const remoteCategories = categoryResult.data as RemoteCategory[];
+        const remoteCategories = (categoryResult.data as RemoteCategory[]).filter((category) => category.slug !== HOMEPAGE_SETTINGS_CATEGORY_SLUG);
         const orderedCategories = remoteCategories.length
           ? [...remoteCategories]
             .sort((left, right) => {
