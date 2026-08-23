@@ -65,10 +65,10 @@ export default function Contact() {
 
       <section className="trade-shell contact-layout section-space">
         <div className="contact-intro">
-          <p className="eyebrow">A clear next step</p>
-          <h2>Send the details that matter.</h2>
-          <p>Tell us what you are looking for, the departments you are considering and any delivery requirements. Your submission is sent to the Magnetic Source trade desk.</p>
-          <div className="contact-note"><CheckCircle2 size={19} /> Prefer a direct conversation? Email or call the trade desk using the details above.</div>
+          <p className="eyebrow">Trade enquiry desk</p>
+          <h2>Tell us what your business needs.</h2>
+          <p>Share the range, product types or delivery requirements you are considering. A member of the Magnetic Source trade desk will use these details to identify the most relevant next step.</p>
+          <div className="contact-note"><CheckCircle2 size={19} /><span><b>Prefer a direct conversation?</b> Email or call the trade desk using the details above.</span></div>
         </div>
 
         <form className="contact-form" onSubmit={submit}>
@@ -82,15 +82,25 @@ export default function Contact() {
           ) : (
             <>
               <input className="form-honeypot" tabIndex={-1} autoComplete="off" name="website" aria-hidden="true" />
+              <div className="contact-form-heading">
+                <div>
+                  <p className="eyebrow">Enquiry details</p>
+                  <h2>Start your trade enquiry</h2>
+                </div>
+                <p><span className="required-mark">*</span> Required fields</p>
+              </div>
               <div className="form-grid">
-                <label>Full name<input required maxLength={100} name="name" autoComplete="name" /></label>
-                <label>Email address<input required maxLength={254} name="email" type="email" autoComplete="email" /></label>
+                <label>Full name <span className="required-mark">*</span><input required maxLength={100} name="name" autoComplete="name" placeholder="Your full name" /></label>
+                <label>Business email <span className="required-mark">*</span><input required maxLength={254} name="email" type="email" autoComplete="email" placeholder="name@yourbusiness.co.uk" /></label>
                 <label>Company (optional)<input maxLength={120} name="company" autoComplete="organization" /></label>
-                <label>Topic<select name="topic" defaultValue="range"><option value="range">Product range</option><option value="delivery">Delivery</option><option value="account">Customer account</option><option value="other">Other support</option></select></label>
-                <label className="span-2">Your message<textarea required minLength={20} maxLength={2000} name="message" rows={5} /></label>
+                <label>Enquiry topic <span className="required-mark">*</span><select name="topic" defaultValue="range"><option value="range">Product range</option><option value="delivery">Delivery</option><option value="account">Customer account</option><option value="other">Other support</option></select></label>
+                <label className="span-2">How can we help? <span className="required-mark">*</span><textarea required minLength={20} maxLength={2000} name="message" rows={5} placeholder="Please include the product types, quantities or delivery information you need." /></label>
               </div>
               {error && <p className="form-error" role="alert">{error}</p>}
-              <button type="submit" className="button-primary" disabled={isSending}>{isSending ? "Sending enquiry…" : <>Send enquiry <ArrowRight size={17} /></>}</button>
+              <div className="contact-form-action">
+                <button type="submit" className="button-primary" disabled={isSending}>{isSending ? "Sending enquiry…" : <>Send enquiry <ArrowRight size={17} /></>}</button>
+                <p><CheckCircle2 size={16} /> Your enquiry is sent directly to the Magnetic Source trade desk.</p>
+              </div>
             </>
           )}
         </form>
