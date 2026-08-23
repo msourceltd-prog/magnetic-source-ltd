@@ -27,8 +27,8 @@ const InfoPage = lazyWithRetry(() => import("@/pages/InfoPage"));
 const OrderConfirmation = lazyWithRetry(() => import("@/pages/OrderConfirmation"));
 const ProductDetail = lazyWithRetry(() => import("@/pages/ProductDetail"));
 const Shop = lazyWithRetry(() => import("@/pages/Shop"));
-
 function Router() {
+  // make sure to consider if you need authentication for certain routes
   return <Suspense fallback={<span className="sr-only" aria-live="polite">Loading page</span>}><Switch>
     <Route path="/" component={Home} />
     <Route path="/shop" component={Shop} />

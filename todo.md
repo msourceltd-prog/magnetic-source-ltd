@@ -308,6 +308,11 @@
 
 - [x] Reorder public departments so Baby & Kids, Toys & Gifts, and Stationery appear first in desktop/mobile navigation, catalogue/category order, and the homepage hero rail; retain every category route, product, and remaining department after those three. Shared live and cached category ordering now starts Baby & Kids, Toys & Gifts, Stationery, Household, Sweets & Snacks, and Pets; desktop/mobile navigation, Baby & Kids catalogue, and hero rail were verified.
 
+## Secure SMTP-Ready Contact Form
+
+- [x] Replace the Contact page’s pre-addressed mailto draft with a secure backend submission flow, validate and rate-limit submitted fields, keep SMTP credentials server-side only, and provide clear user feedback until the owner adds SMTP configuration. Contact submissions are stored in a dedicated database table; public fields are validated, honeypot-protected, and rate-limited by email. The confirmed recipient is `msourceltd@gmail.com`; Gmail delivery remains intentionally pending until an App Password is added securely.
+- [x] Reconcile the server capability upgrade with the existing storefront files so the current homepage, routing, build pipeline, and catalogue behaviour remain intact before wiring the contact submission endpoint. The full-stack runtime now serves the existing storefront and Contact API together; homepage, navigation, catalogue, build, and SEO generation remain preserved.
+
 - [x] Review the supplied reference’s public category structure and identify compatible original product-type additions.
 - [x] Expand the original static approval-demo catalogue without reusing reference names, descriptions, SKUs, pricing, or images.
 - [x] Reuse existing remote sample imagery rather than uploading additional Supabase Storage assets.
