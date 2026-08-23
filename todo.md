@@ -312,6 +312,7 @@
 
 - [x] Replace the Contact page’s pre-addressed mailto draft with a secure backend submission flow, validate and rate-limit submitted fields, keep SMTP credentials server-side only, and provide clear user feedback until the owner adds SMTP configuration. Contact submissions are stored in a dedicated database table; public fields are validated, honeypot-protected, and rate-limited by email. The confirmed recipient is `msourceltd@gmail.com`; Gmail SMTP authentication now verifies successfully without sending a test email.
 - [x] Reconcile the server capability upgrade with the existing storefront files so the current homepage, routing, build pipeline, and catalogue behaviour remain intact before wiring the contact submission endpoint. The full-stack runtime now serves the existing storefront and Contact API together; homepage, navigation, catalogue, build, and SEO generation remain preserved.
+- [ ] Publish the selected secure server-hosted version and connect `magneticsource.uk` through the built-in domain settings so the live Contact form can run its Gmail delivery backend.
 
 - [x] Review the supplied reference’s public category structure and identify compatible original product-type additions.
 - [x] Expand the original static approval-demo catalogue without reusing reference names, descriptions, SKUs, pricing, or images.
