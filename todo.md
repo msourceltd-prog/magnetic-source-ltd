@@ -296,6 +296,10 @@
 
 - [x] Audit and unify shared colour usage across all storefront pages except Page 1 / the homepage. Improve only non-homepage surface, border, text, button, and status colour consistency; do not change the homepage hero, homepage sections, or existing homepage design. Non-homepage routes now use a scoped warm-paper ground, muted ledger banner/breadcrumb surface, and matching light card surface with shared borders; Info and Contact retain the same cobalt information hero. Desktop/mobile Shop, Product, Contact, Cart, Checkout, and About views were checked, and Page 1 was visually confirmed unchanged.
 
+## Contact Page Eyebrow Removal
+
+- [x] Remove only the “Contact the trade desk” eyebrow from the Contact page, preserving the Contact heading, details card, copy, layout, and all other pages. The Contact page now begins with “Talk to Magnetic Source”; its cobalt hero, registered details card, copy, layout, and production build were verified unchanged.
+
 - [x] Review the supplied reference’s public category structure and identify compatible original product-type additions.
 - [x] Expand the original static approval-demo catalogue without reusing reference names, descriptions, SKUs, pricing, or images.
 - [x] Reuse existing remote sample imagery rather than uploading additional Supabase Storage assets.
