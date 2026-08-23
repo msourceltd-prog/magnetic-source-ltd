@@ -101,7 +101,7 @@ export async function handleContactRequest(request: Request, env: WorkerEnv) {
   const payload = parseContactPayload(input);
   if (!payload) return json({ error: "Please complete the required fields." }, 400);
 
-  if (payload.website) return json({ ok: true }, 202);
+  if (payload.website) return json({ error: "We could not send this message right now." }, 400);
   if (!env.RESEND_API_KEY) return json({ error: "Contact delivery is not configured." }, 503);
 
   const response = await fetch("https://api.resend.com/emails", {

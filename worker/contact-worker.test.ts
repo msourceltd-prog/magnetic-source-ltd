@@ -53,4 +53,21 @@ describe("Cloudflare Contact endpoint", () => {
     expect(response.status).toBe(400);
     expect(fetchMock).not.toHaveBeenCalled();
   });
+
+  it("never reports delivery success for a honeypot-triggered submission", async () => {
+    const fetchMock = vi.fn();
+    vi.stubGlobal("fetch", fetchMock);
+
+    const response = await handleContactRequest(
+      new Request("https://magneticsource.uk/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Origin: "https://magneticsource.uk" },
+        body: JSON.stringify({ ...basePayload, website: "unexpected value" }),
+      }),
+      { ASSETS: { fetch: vi.fn() }, RESEND_API_KEY: "test-key" },
+    );
+
+    expect(response.status).toBe(400);
+    expect(fetchMock).not.toHaveBeenCalled();
+  });
 });

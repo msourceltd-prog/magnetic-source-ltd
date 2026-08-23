@@ -17,7 +17,7 @@ export default function Contact() {
     const form = new FormData(event.currentTarget);
 
     if (String(form.get("website") || "")) {
-      setSent(true);
+      setError("We could not send this message right now. Please refresh the page and try again.");
       return;
     }
 
