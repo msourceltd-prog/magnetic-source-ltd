@@ -19,7 +19,7 @@ type RemoteProduct = Omit<Product, "price" | "id" | "availability" | "priceBasis
 
 const fallbackCatalog: CatalogContextValue = { categories: currentCategories, products: [], loading: false, usingSupabase: false };
 const CatalogContext = createContext<CatalogContextValue>(fallbackCatalog);
-const preferredCategoryOrder = ["household-pet", "sweets-snacks", "toys-gifts", "pets", "stationery-party", "health-beauty", "seasonal-christmas", "clearance", "baby-kids"];
+const preferredCategoryOrder = ["baby-kids", "toys-gifts", "stationery-party", "household-pet", "sweets-snacks", "pets", "health-beauty", "seasonal-christmas", "clearance"];
 const catalogCacheKey = "magnetic-source:catalog:v1";
 const catalogCacheMaxAge = 10 * 60 * 1000;
 
@@ -32,7 +32,12 @@ function readCachedCatalog(): CatalogContextValue | null {
     if (!raw) return null;
     const cached = JSON.parse(raw) as CachedCatalog;
     if (!Array.isArray(cached.categories) || !Array.isArray(cached.products) || Date.now() - cached.savedAt > catalogCacheMaxAge) return null;
-    return { categories: cached.categories, products: cached.products, loading: false, usingSupabase: true };
+    const orderedCategories = [...cached.categories].sort((left, right) => {
+      const leftOrder = preferredCategoryOrder.indexOf(left.slug);
+      const rightOrder = preferredCategoryOrder.indexOf(right.slug);
+      return (leftOrder === -1 ? 999 : leftOrder) - (rightOrder === -1 ? 999 : rightOrder) || left.name.localeCompare(right.name);
+    });
+    return { categories: orderedCategories, products: cached.products, loading: false, usingSupabase: true };
   } catch {
     return null;
   }
