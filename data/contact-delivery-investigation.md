@@ -39,6 +39,10 @@ The required DKIM TXT record for `resend._domainkey.magneticsource.uk` was added
 
 The SPF TXT record at `send.magneticsource.uk` was subsequently added successfully. Resend was instructed to verify the new DNS configuration and reports `Pending` while checking the records. This is an expected propagation state; no Contact-form message was sent during this verification step.
 
+The Cloudflare static Worker was upgraded to a Worker-plus-assets deployment and now serves the same storefront with a private `/api/contact` endpoint. A restricted Resend key, scoped to sending from `magneticsource.uk`, has been created and saved in the live `magnetic-sourceeltd` Worker as the encrypted `RESEND_API_KEY` secret. The key is not stored in source control, browser-visible site code, or project environment files.
+
+An owner-approved controlled request to the public Contact endpoint was attempted after the secret save. It returned `503 Contact delivery is not configured`, so the request stopped before any email was sent. A second check after the normal secret propagation window returned the same safe non-delivery response. The next action is to trigger a fresh Cloudflare deployment so the live Worker version reloads the newly saved encrypted binding before repeating any actual email test.
+
 ## Sources
 
 - <https://formsubmit.co/help>
