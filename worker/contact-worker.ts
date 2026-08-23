@@ -17,7 +17,7 @@ type WorkerEnv = {
 
 const CONTACT_ENDPOINT = "/api/contact";
 const RECIPIENT = "msourceltd@gmail.com";
-const SENDER = "Magnetic Source Website <contact@magneticsource.uk>";
+const SENDER = "New website enquiry <contact@magneticsource.uk>";
 const TRUSTED_ORIGINS = new Set([
   "https://magneticsource.uk",
   "https://www.magneticsource.uk",
@@ -111,7 +111,7 @@ export async function handleContactRequest(request: Request, env: WorkerEnv) {
       from: SENDER,
       to: [RECIPIENT],
       reply_to: payload.email,
-      subject: `New website enquiry — ${topicLabels[payload.topic]}`,
+      subject: "New website enquiry",
       html: enquiryHtml(payload),
     }),
   });

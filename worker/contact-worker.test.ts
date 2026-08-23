@@ -31,9 +31,10 @@ describe("Cloudflare Contact endpoint", () => {
     const request = fetchMock.mock.calls[0][1] as RequestInit;
     expect(request.headers).toMatchObject({ Authorization: "Bearer test-key" });
     expect(JSON.parse(String(request.body))).toMatchObject({
+      from: "New website enquiry <contact@magneticsource.uk>",
       to: ["msourceltd@gmail.com"],
       reply_to: "taylor@example.com",
-      subject: "New website enquiry — Delivery",
+      subject: "New website enquiry",
     });
   });
 
