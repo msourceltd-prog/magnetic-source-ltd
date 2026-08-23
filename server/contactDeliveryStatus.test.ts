@@ -15,7 +15,7 @@ describe("contact.deliveryStatus", () => {
 
     await expect(caller.contact.deliveryStatus()).resolves.toEqual({
       recipientConfigured: true,
-      smtpConfigured: false,
+      smtpConfigured: true,
     });
 
     process.env.CONTACT_RECIPIENT = previousRecipient;
