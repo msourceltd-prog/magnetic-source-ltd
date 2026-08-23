@@ -49,6 +49,8 @@ Following a later report that a visible success state did not correspond to an e
 
 The owner then supplied a screenshot proving that a browser autofilled the hidden `website` field, which blocked a genuine enquiry before it reached the email endpoint. The hidden field and associated blocking logic were removed from both the React Contact page and Cloudflare Worker. The revised implementation passed type checking, ten unit tests, the production build, and Worker-bundle compilation. A final owner-approved request returned `200 {"ok":true}`, and the owner confirmed the resulting email arrived in `msourceltd@gmail.com`.
 
+At the owner’s request, the delivered email header was simplified without sending another test message. The outgoing subject is now exactly `New website enquiry`, and the visible sender display name is `New website enquiry`. The verified sender address remains required privately by the email service but is not included in the subject or the email’s visible content. Unit tests, build, Worker bundle validation, and a non-sending live endpoint check passed.
+
 ## Sources
 
 - <https://formsubmit.co/help>
