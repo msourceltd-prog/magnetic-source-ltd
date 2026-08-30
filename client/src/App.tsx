@@ -16,6 +16,7 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import { lazyWithRetry } from "./lib/lazyWithRetry";
 import "./styles/trade-refinements.css";
 import "./styles/launch-readiness.css";
+import "./styles/site-polish.css";
 
 const Cart = lazyWithRetry(() => import("@/pages/Cart"));
 const Admin = lazyWithRetry(() => import("@/pages/Admin"));
@@ -28,7 +29,6 @@ const OrderConfirmation = lazyWithRetry(() => import("@/pages/OrderConfirmation"
 const ProductDetail = lazyWithRetry(() => import("@/pages/ProductDetail"));
 const Shop = lazyWithRetry(() => import("@/pages/Shop"));
 function Router() {
-  // make sure to consider if you need authentication for certain routes
   return <Suspense fallback={<span className="sr-only" aria-live="polite">Loading page</span>}><Switch>
     <Route path="/" component={Home} />
     <Route path="/shop" component={Shop} />
