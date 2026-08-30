@@ -1,0 +1,213 @@
+/*
+ * Magnetic Source, precision polish.
+ * Retain the established cobalt / warm-paper trade identity while removing
+ * decorative dotted patterns, harsh template shadows, and inconsistent control treatments.
+ */
+
+:root {
+  --brand-primary: #124c9c;
+  --brand-secondary: #0d3976;
+  --brand-accent: #c97725;
+  --brand-text: #1a1e22;
+  --brand-muted: #5e6670;
+  --brand-background: #f6f2ea;
+  --brand-surface: #fffefa;
+  --brand-surface-muted: #ece5d9;
+  --brand-border: color-mix(in srgb, var(--brand-text) 16%, transparent);
+  --brand-on-primary: #ffffff;
+  --control-radius: 0px;
+  --focus-ring: 0 0 0 3px color-mix(in srgb, var(--brand-primary) 26%, transparent);
+}
+
+html { scroll-behavior: auto; }
+body { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
+img { height: auto; }
+
+/* A single, quiet focus language on every public and administrative control. */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 3px;
+  box-shadow: var(--focus-ring);
+}
+
+/* Remove dotted / dashed embellishment instead of replacing it with another motif. */
+.category-tape,
+.catalogue-loading-note,
+.info-evidence,
+.footer-links h3,
+.footer-details h3,
+.home-collection,
+.empty-state,
+.cart-empty,
+.admin-seed {
+  border-style: solid !important;
+}
+
+.category-tape { border-bottom-color: transparent !important; box-shadow: none !important; }
+.catalogue-loading-note,
+.info-evidence { border-top-color: var(--brand-border) !important; }
+.footer-links h3,
+.footer-details h3 { border-bottom-color: color-mix(in srgb, var(--brand-on-primary) 22%, transparent) !important; }
+.empty-state,
+.cart-empty { border-color: var(--brand-border) !important; }
+.admin-seed { border-color: color-mix(in srgb, var(--brand-primary) 24%, var(--brand-border)) !important; }
+
+/* Remove only decorative pseudo-elements responsible for grids, dots, and ornamental shapes. */
+.home-collection::before,
+.catalogue-interrupt::after,
+.admin-header::after,
+.admin-content::before,
+.product-image-pending::after,
+.pending-image-mark::after,
+.detail-placeholder-mark::after,
+.product-card-body::after,
+.product-card-bottom::before,
+.catalogue-intro-strip::after,
+.product-image-wrap::before,
+.product-image-wrap::after,
+.hero-copy::before,
+.hero-section::before,
+.hero-section::after {
+  content: none !important;
+  background: none !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+/* Keep the hero photographic and clean; avoid the translucent glass-like slider treatment. */
+.hero-slide-controls {
+  padding: 4px;
+  border-color: color-mix(in srgb, var(--brand-on-primary) 32%, transparent);
+  background: rgb(18 30 43 / 72%);
+  box-shadow: none;
+  backdrop-filter: none;
+}
+
+.hero-slide-controls button { background: color-mix(in srgb, var(--brand-on-primary) 48%, transparent); }
+.hero-slide-controls button.is-active,
+.hero-slide-controls button:hover,
+.hero-slide-controls button:focus-visible { background: var(--brand-on-primary); }
+
+/* Replace ornamental treatment with restrained trade-catalogue geometry. */
+.catalogue-interrupt,
+.admin-product-form,
+.admin-category-form,
+.admin-list,
+.admin-product-preview,
+.hero-admin-panel,
+.collection-admin-panel,
+.collection-workflow,
+.home-collection-controls button {
+  clip-path: none;
+}
+
+.catalogue-interrupt,
+.confirmation-section,
+.admin-gate,
+.trade-not-found {
+  background-image: none;
+}
+
+.catalogue-interrupt { background-color: var(--brand-primary); }
+.confirmation-section,
+.admin-gate,
+.trade-not-found { background-color: var(--brand-background); }
+
+.pending-image-mark,
+.detail-placeholder-mark,
+.site-header .brand-mark {
+  box-shadow: none;
+  filter: none;
+}
+
+.pending-image-mark,
+.detail-placeholder-mark { transform: none; }
+
+/* Shared surfaces feel intentional rather than stacked or heavily shadowed. */
+.product-card,
+.filter-rail,
+.cart-summary,
+.checkout-summary,
+.confirmation-card,
+.contact-form,
+.admin-gate-card,
+.admin-login-card,
+.admin-product-form,
+.admin-category-form,
+.admin-list,
+.customer-auth-dialog {
+  border-color: var(--brand-border);
+  border-radius: var(--control-radius);
+  box-shadow: none;
+}
+
+.product-card { background: var(--brand-surface); }
+.product-card:hover { transform: translateY(-2px); box-shadow: 0 8px 18px rgb(18 76 156 / 9%); }
+.button-primary { box-shadow: none; }
+.button-primary:hover { transform: translateY(-1px); }
+.home-collection-controls button {
+  border-color: var(--brand-border);
+  background: var(--brand-surface);
+}
+.home-collection-controls button:hover:not(:disabled) {
+  color: var(--brand-on-primary);
+  background: var(--brand-primary);
+  transform: none;
+}
+.search-field:focus-within,
+.form-grid input:focus,
+.form-grid select:focus,
+.form-grid textarea:focus { box-shadow: var(--focus-ring); }
+
+/* Make data-heavy pages read as one coherent commerce system. */
+.utility-strip { background: var(--brand-background); box-shadow: none; }
+.page-banner,
+.cart-banner,
+.product-breadcrumb,
+.utility-strip { background-color: var(--brand-surface-muted); }
+.site-header,
+.mobile-nav-panel,
+.filter-rail,
+.product-card,
+.cart-summary,
+.checkout-summary,
+.confirmation-card { background-color: var(--brand-surface); }
+.product-card,
+.checkout-step,
+.cart-line,
+.product-ledger,
+.detail-specs > div,
+.admin-product-row,
+.admin-category-row,
+.admin-order-row { border-color: var(--brand-border); }
+
+/* Product-heavy sections are rendered only when approaching the viewport. */
+.home-collection,
+.related-lines {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 780px;
+}
+
+/* The logo shelf remains the sole deliberate motion, with a static accessible fallback. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@media (max-width: 760px) {
+  .section-space { padding-top: 56px; padding-bottom: 56px; }
+  .page-banner { padding-top: 36px; padding-bottom: 32px; }
+  .contact-form,
+  .customer-auth-dialog { box-shadow: none; }
+  .product-card:hover { transform: none; box-shadow: none; }
+}
