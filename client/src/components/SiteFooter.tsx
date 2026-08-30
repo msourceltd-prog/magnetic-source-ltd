@@ -9,7 +9,7 @@ import { useEffect } from "react";
 import { Link } from "wouter";
 
 const footerGroups = [
-  { title: "Support", links: [["About Magnetic Source", "/about"], ["Trade account", "/trade-account"], ["Delivery & returns", "/delivery-returns"], ["Contact", "/contact"], ["Privacy", "/privacy"], ["Terms", "/terms"]] },
+  { title: "Support", links: [["About Us", "/about"], ["Trade Account", "/trade-account"], ["Delivery & Returns", "/delivery-returns"], ["Contact Us", "/contact"], ["Privacy Policy", "/privacy"], ["Terms & Conditions", "/terms"]] },
 ];
 
 const representedBrands = [
