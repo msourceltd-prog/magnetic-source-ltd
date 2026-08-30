@@ -55,7 +55,7 @@ function OurBrandsShelf() {
           tabIndex={index >= featuredBrands.length ? -1 : 0}
           aria-hidden={index >= featuredBrands.length}
         >
-          <img src={brand.image} alt={`${brand.name} products available from Magnetic Source`} loading="lazy" />
+          <img src={brand.image} alt={`${brand.name} products available from Magnetic Source`} width="285" height="222" loading="lazy" decoding="async" />
         </Link>)}
       </div>
     </div>
