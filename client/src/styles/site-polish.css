@@ -163,6 +163,31 @@ textarea:focus-visible {
 .form-grid select:focus,
 .form-grid textarea:focus { box-shadow: var(--focus-ring); }
 
+/* Checkout test mode is deliberately obvious: customers must never mistake it for live payment. */
+.test-payment-card {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  color: var(--brand-text);
+  border: 1px solid color-mix(in srgb, var(--brand-accent) 58%, var(--brand-border));
+  background: color-mix(in srgb, var(--brand-accent) 9%, var(--brand-surface));
+}
+.test-payment-card > svg { color: var(--brand-accent); }
+.test-payment-card b,
+.test-payment-card span { display: block; }
+.test-payment-card span { margin-top: .2rem; color: var(--brand-muted); font-size: .78rem; }
+.test-payment-card .button-primary { white-space: nowrap; }
+.test-payment-feedback {
+  margin: 1rem 0 0;
+  padding: .75rem .9rem;
+  color: var(--brand-secondary);
+  border-left: 3px solid var(--brand-primary);
+  background: color-mix(in srgb, var(--brand-primary) 7%, var(--brand-surface));
+}
+
 /* Make data-heavy pages read as one coherent commerce system. */
 .utility-strip { background: var(--brand-background); box-shadow: none; }
 .page-banner,
@@ -210,4 +235,6 @@ textarea:focus-visible {
   .contact-form,
   .customer-auth-dialog { box-shadow: none; }
   .product-card:hover { transform: none; box-shadow: none; }
+  .test-payment-card { grid-template-columns: auto 1fr; }
+  .test-payment-card .button-primary { grid-column: 1 / -1; width: 100%; justify-content: center; }
 }

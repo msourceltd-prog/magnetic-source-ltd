@@ -1,5 +1,9 @@
 type ContactTopic = "range" | "delivery" | "account" | "other";
-
+/**
+ * Magnetic Source Worker: private contact delivery plus a test-only Stripe Checkout route.
+ * The payment route accepts only a Stripe `sk_test_` secret stored in Cloudflare and
+ * creates a fixed £1.00 sandbox session; it cannot collect live customer money.
+ */
 type ContactPayload = {
   name: string;
   email: string;
